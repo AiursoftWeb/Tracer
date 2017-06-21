@@ -1,0 +1,68 @@
+﻿<!DOCTYPE HTML>
+<head>
+    <meta charset="utf-8" />
+    <title>Genji - A simple network speed test app</title>
+</head>
+<body>
+    <h1>Genji - A simple network speed test app</h1>
+    <hr />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        function GetWSAddress() {
+            var ishttps = 'https:' == document.location.protocol ? true : false;
+            var host = window.location.host;
+            var head = ishttps ? "wss://" : "ws://"
+            return head + host;
+        }
+        var webSocket;
+        var startTime = new Date();
+        var wsmaxlag = 0;
+        $().ready(function () {
+            webSocket = new WebSocket(GetWSAddress() + "/Home/Pushing");
+            webSocket.onopen = function () {
+                $("#spanStatus").text("connected");
+            };
+            webSocket.onmessage = function (evt) {
+                $("#spanStatus").html(evt.data);
+                var wslag = new Date() - startTime;
+                $("#wsStatus").html('<p>Current: ' + wslag + 'ms</p>');
+                if (wslag > wsmaxlag) {
+                    wsmaxlag = wslag;
+                }
+                $("#wsStatus").append('<p>Max lag:' + wsmaxlag+ "ms</p>");
+                startTime = new Date();
+            };
+            webSocket.onerror = function (evt) {
+                alert(evt.message);
+            };
+            webSocket.onclose = function () {
+                $("#spanStatus").text("disconnected");
+            };
+        });
+    </script>
+    <script>
+        var maxlag = 0;
+        var ping = function () {
+            var startTime = new Date();
+            $.get('/home/ping', function (data) {
+                var endtime = new Date();
+                var lag = endtime - startTime;
+                if (lag > maxlag) {
+                    maxlag = lag;
+                }
+                $('#httpStatus').html('<p>Current: ' + lag + 'ms</p>');
+                $('#httpStatus').append('<p>Max lag: ' + maxlag + 'ms</p>');
+                setTimeout(ping, 30);
+            });
+        };
+        ping();
+    </script>
+    <h2>Server Time:</h2>
+    <div id="spanStatus"></div>
+
+    <h2>WebSocket Lag:</h2>
+    <div id="wsStatus"></div>
+
+    <h2>HTTP lag:</h2>
+    <div id="httpStatus"></div>
+</body>
