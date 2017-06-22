@@ -1,8 +1,16 @@
 ﻿'use strict';
 var downMaxTime = 0;
 var download = function () {
+    //thread safe
+    if ($('#downloadbutton').attr('disabled') == 'disabled') {
+        return;
+    }
+    $('#downloadbutton').attr('disabled', 'disabled');
+    startdownload();
+};
+
+var startdownload = function () {
     //prepare
-    $('#downloadbutton').attr("disabled", true); 
     var st = new Date();
     $.get('/home/download?t=' + st.getMilliseconds(), function (data) {
         //get time
@@ -22,6 +30,6 @@ var download = function () {
         //update view
         $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
         $('#downMax').html('Min: ' + minspeed.toFixed(2) + 'MB/s');
-        setTimeout(download, 0);
+        setTimeout(startdownload, 0);
     });
-};
+}

@@ -7,10 +7,16 @@ function getWSAddress() {
 }
 var webSocket;
 var wsMaxLag = 0;
-
+var WsTest = function () {
+    //thread safe
+    if ($('#wsbutton').attr('disabled') == 'disabled') {
+        return;
+    }
+    $('#wsbutton').attr('disabled', 'disabled');
+    startWsTest();
+}
 var startWsTest = function () {
     //prepare
-    $('#wsbutton').attr("disabled", true);
     var wsStartTime = new Date();
     webSocket = new WebSocket(getWSAddress() + "/Home/Pushing");
     webSocket.onopen = function () {

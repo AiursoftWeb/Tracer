@@ -7,12 +7,11 @@ var trig = function (trigger, value) {
     newTd0.innerText = new Date();
     newTd1.innerText = trigger;
     newTd2.innerText = value;
-    $('#logTable').DataTable();
 }
 
 var startAll = function () {
-    $('#startAllButton').attr("disabled", true); 
-    startWsTest();
+    $('#startAllButton').attr('disabled', 'disabled'); 
+    WsTest();
     ping();
     download();
 }

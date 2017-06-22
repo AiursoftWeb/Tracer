@@ -1,8 +1,15 @@
 ﻿'use strict';
 var pingMaxlag = 0;
 var ping = function () {
+    //thread safe
+    if ($('#pingbutton').attr('disabled') == 'disabled') {
+        return;
+    }
+    $('#pingbutton').attr('disabled', 'disabled');
+    startping();
+};
+var startping = function () {
     //prepare
-    $('#pingbutton').attr("disabled", true);
     var startTime = new Date();
     $.get('/Home/Ping', function (data) {
         //get time
@@ -19,6 +26,6 @@ var ping = function () {
         //update view
         $('#httpStatus').html('Current: ' + lag + 'ms');
         $('#httpMax').html('Max lag: ' + pingMaxlag + 'ms');
-        setTimeout(ping, 30);
+        setTimeout(startping, 30);
     });
-};
+}
