@@ -1,4 +1,4 @@
-﻿'use strict'
+﻿'use strict';
 var trig = function (trigger, value) {
     var newTr = logTable.insertRow(-1);
     var newTd0 = newTr.insertCell();
@@ -7,4 +7,12 @@ var trig = function (trigger, value) {
     newTd0.innerText = new Date();
     newTd1.innerText = trigger;
     newTd2.innerText = value;
+    $('#logTable').DataTable();
+}
+
+var startAll = function () {
+    $('#startAllButton').attr("disabled", true); 
+    startWsTest();
+    ping();
+    download();
 }

@@ -4,6 +4,6 @@
   "dependencies": {
     "jquery": "2.2.0",
     "bootstrap": "^3.3.7",
-    "datatables": "datatable#^1.10.15"
+    "datatables": "1.10.11"
   }
 }

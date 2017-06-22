@@ -28,48 +28,52 @@
 
         <div class="jumbotron">
             <h1>Genji</h1>
-            <p>Genji is a simple network speed test app.</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            <p>Genji is a simple network quality testing app.</p>
+            <kbd id="spanStatus"></kbd>
+            <p><button class="btn btn-success btn-lg margin20" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
         </div>
 
         <div class="row">
-            <div class="col-md-3">
-                <h3>Server Time</h3>
-                <p>This message comes from server side and will be updated every 10 millisecond. If the changes stop or not increasing so fluently, your network may facing some problems</p>
-                <kbd id="spanStatus"></kbd>
-                <div class="form-group margin20">
-                    <label for="exampleInputEmail1">Log filter</label>
-                    <input type="number" class="form-control" value="0" disabled="disabled">
-                </div>
-            </div>
-            <div class="col-md-3">
-                <h3>WebSocket Lag</h3>
-                <p>This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>
-                <kbd id="wsStatus"></kbd>
-                <kbd id="wsmax"></kbd>
-                <div class="form-group margin20">
-                    <label for="exampleInputEmail1">Log filter(ms)</label>
-                    <input type="number" class="form-control" id="wslagfilter" value="300">
-                </div>
-            </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h3>HTTP lag</h3>
                 <p>Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is.</p>
-                <kbd id="httpStatus"></kbd>
-                <kbd id="httpMax"></kbd>
+                <pre id="httpStatus"></pre>
+                <code id="httpMax"></code>
+            </div>
+            <div class="col-md-4">
+                <h3>Download Speed</h3>
+                <p>Your browser will download a 3MB file from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is.</p>
+                <pre id="downStatus"></pre>
+                <code id="downMax"></code>
+            </div>
+            <div class="col-md-4">
+                <h3>WebSocket Lag</h3>
+                <p>This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>
+                <pre id="wsStatus"></pre>
+                <code id="wsmax"></code>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
                 <div class="form-group margin20">
                     <label for="exampleInputEmail1">Log filter(ms)</label>
                     <input type="number" class="form-control" id="pinglagfilter" value="200">
+                    <button class="btn btn-primary margin20" id="pingbutton" onclick="ping()">Start Test</button>
                 </div>
             </div>
-            <div class="col-md-3">
-                <h3>Download Speed</h3>
-                <p>Your browser will download a 3MB file from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed.</p>
-                <kbd id="downStatus"></kbd>
-                <kbd id="downMax"></kbd>
+            <div class="col-md-4">
                 <div class="form-group margin20">
                     <label for="exampleInputEmail1">Log filter(MB/s)</label>
                     <input type="number" class="form-control" id="speedlagfilter" value="0.7">
+                    <button class="btn btn-primary margin20" id="downloadbutton" onclick="download()">Start Test</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group margin20">
+                    <label for="exampleInputEmail1">Log filter(ms)</label>
+                    <input type="number" class="form-control" id="wslagfilter" value="300">
+                    <button class="btn btn-primary margin20" id="wsbutton" onclick="startWsTest()">Start Test</button>
                 </div>
             </div>
         </div>
