@@ -48,7 +48,7 @@ namespace Genji.Controllers
 
         public IActionResult Download()
         {
-            int length = 1024 * 1024;
+            int length = 1024 * 1024 * 10;
             var file = new byte[length];
             for (int i = 0; i < length; i++)
             {
