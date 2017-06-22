@@ -45,5 +45,18 @@ namespace Genji.Controllers
         {
             return Json(new { message = "ok" });
         }
+
+        public IActionResult Download()
+        {
+            int length = 1024 * 1024 * 10;
+            var file = new byte[length];
+            for (int i = 0; i < length; i++)
+            {
+                file[i] = 1;
+            }
+            HttpContext.Response.Headers.Add("Content-Length", length.ToString());
+            HttpContext.Response.Headers.Add("cache-control", "max-age=3600");
+            return new FileContentResult(file, "application/octet-stream");
+        }
     }
 }
