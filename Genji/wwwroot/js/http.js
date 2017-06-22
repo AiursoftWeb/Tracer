@@ -1,7 +1,7 @@
 ﻿var maxlag = 0;
 var ping = function () {
     var startTime = new Date();
-    $.get('/home/ping', function (data) {
+    $.get('/Home/Ping', function (data) {
         var endtime = new Date();
         var lag = endtime - startTime;
         if (lag > maxlag) {

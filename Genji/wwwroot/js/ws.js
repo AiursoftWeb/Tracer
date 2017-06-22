@@ -6,7 +6,7 @@
 }
 var webSocket;
 var startTime = new Date();
-var wsmaxlag = 0;
+var maxLag = 0;
 $().ready(function () {
     webSocket = new WebSocket(getWSAddress() + "/Home/Pushing");
     webSocket.onopen = function () {
@@ -16,10 +16,10 @@ $().ready(function () {
         $("#spanStatus").html(evt.data);
         var wslag = new Date() - startTime;
         $("#wsStatus").html('<p>Current: ' + wslag + 'ms</p>');
-        if (wslag > wsmaxlag) {
-            wsmaxlag = wslag;
+        if (wslag > maxLag) {
+            maxLag = wslag;
         }
-        $("#wsStatus").append('<p>Max lag:' + wsmaxlag + "ms</p>");
+        $("#wsStatus").append('<p>Max lag: ' + maxLag + "ms</p>");
         startTime = new Date();
     };
     webSocket.onerror = function (evt) {
