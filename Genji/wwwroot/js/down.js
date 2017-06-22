@@ -1,15 +1,24 @@
-﻿var maxTime = 0;
+﻿'use strict'
+var downMaxTime = 0;
 var download = function () {
     var st = new Date();
     $.get('/home/download?t=' + st.getMilliseconds(), function (data) {
         var et = new Date();
         var downloadTime = et - st;
-        if (downloadTime > maxTime) {
-            maxTime = downloadTime;
+
+        if (downloadTime > downMaxTime) {
+            downMaxTime = downloadTime;
         }
-        $('#downStatus').html('<p>Speed: ' + (3.0 / downloadTime * 1000).toFixed(2) + 'MB/s</p>');
-        $('#downStatus').append('<p>Min speed: ' + (3.0 / maxTime * 1000).toFixed(2) + 'MB/s</p>');
-        setTimeout(download, 1000);
+
+        var speed = 3.0 / downloadTime * 1000;
+        var minspeed = 3.0 / downMaxTime * 1000;
+
+        if (speed < $('#speedlagfilter').val()) {
+            trig('Downloader', speed + 'MB/s');
+        }
+        $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
+        $('#downMax').html('Min: ' + minspeed.toFixed(2) + 'MB/s');
+        setTimeout(download, 0);
     });
 };
 download();

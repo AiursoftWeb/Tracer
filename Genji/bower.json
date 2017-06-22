@@ -2,6 +2,8 @@
   "name": "asp.net",
   "private": true,
   "dependencies": {
-    "jquery": "2.2.0"
+    "jquery": "2.2.0",
+    "bootstrap": "^3.3.7",
+    "datatables": "datatable#^1.10.15"
   }
 }

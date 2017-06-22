@@ -1,12 +1,13 @@
-﻿function getWSAddress() {
+﻿'use strict'
+function getWSAddress() {
     var ishttps = 'https:' == document.location.protocol ? true : false;
     var host = window.location.host;
     var head = ishttps ? "wss://" : "ws://"
     return head + host;
 }
 var webSocket;
-var startTime = new Date();
-var maxLag = 0;
+var wsStartTime = new Date();
+var wsMaxLag = 0;
 $().ready(function () {
     webSocket = new WebSocket(getWSAddress() + "/Home/Pushing");
     webSocket.onopen = function () {
@@ -14,13 +15,16 @@ $().ready(function () {
     };
     webSocket.onmessage = function (evt) {
         $("#spanStatus").html(evt.data);
-        var wslag = new Date() - startTime;
-        $("#wsStatus").html('<p>Current: ' + wslag + 'ms</p>');
-        if (wslag > maxLag) {
-            maxLag = wslag;
+        var wslag = new Date() - wsStartTime;
+        $('#wsStatus').html('Current: ' + wslag + 'ms');
+        if (wslag > wsMaxLag) {
+            wsMaxLag = wslag;
         }
-        $("#wsStatus").append('<p>Max lag: ' + maxLag + "ms</p>");
-        startTime = new Date();
+        if (wslag > $('#wslagfilter').val()) {
+            trig('WebSockeet', wslag + 'ms');
+        }
+        $("#wsmax").html('Max: ' + wsMaxLag + 'ms');
+        wsStartTime = new Date();
     };
     webSocket.onerror = function (evt) {
         alert(evt.message);

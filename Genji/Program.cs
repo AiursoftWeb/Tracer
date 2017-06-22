@@ -16,8 +16,6 @@ namespace Genji
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost/")
-                .UseApplicationInsights()
                 .Build();
 
             host.Run();

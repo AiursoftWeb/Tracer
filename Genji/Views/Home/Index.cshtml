@@ -2,23 +2,100 @@
 <head>
     <meta charset="utf-8" />
     <title>Genji - A simple network speed test app</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <h1>Genji - A simple network speed test app</h1>
-    <hr />
+    <div class="container">
+        <div class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand hidden-md hidden-sm">Genji</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Histroy Tests</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Records</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Genji</h1>
+            <p>Genji is a simple network speed test app.</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Server Time</h3>
+                <p>This message comes from server side and will be updated every 10 millisecond. If the changes stop or not increasing so fluently, your network may facing some problems</p>
+                <kbd id="spanStatus"></kbd>
+                <div class="form-group margin20">
+                    <label for="exampleInputEmail1">Log filter</label>
+                    <input type="number" class="form-control" value="0" disabled="disabled">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h3>WebSocket Lag</h3>
+                <p>This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>
+                <kbd id="wsStatus"></kbd>
+                <kbd id="wsmax"></kbd>
+                <div class="form-group margin20">
+                    <label for="exampleInputEmail1">Log filter(ms)</label>
+                    <input type="number" class="form-control" id="wslagfilter" value="300">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h3>HTTP lag</h3>
+                <p>Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is.</p>
+                <kbd id="httpStatus"></kbd>
+                <kbd id="httpMax"></kbd>
+                <div class="form-group margin20">
+                    <label for="exampleInputEmail1">Log filter(ms)</label>
+                    <input type="number" class="form-control" id="pinglagfilter" value="200">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h3>Download Speed</h3>
+                <p>Your browser will download a 3MB file from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed.</p>
+                <kbd id="downStatus"></kbd>
+                <kbd id="downMax"></kbd>
+                <div class="form-group margin20">
+                    <label for="exampleInputEmail1">Log filter(MB/s)</label>
+                    <input type="number" class="form-control" id="speedlagfilter" value="0.7">
+                </div>
+            </div>
+        </div>
+
+        <hr />
+        <h2>Bad requests log</h2>
+
+        <table class="table table-striped table-hover" id="logTable">
+            <tr>
+                <th>Time</th>
+                <th>Trigger</th>
+                <th>Value</th>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">&copy; @DateTime.Now.Year - <a href="https://www.aiursoft.com">Aiursoft</a></p>
+        </div>
+    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/datatables/media/js/jquery.dataTables.min.js"></script>
+
     <script src="~/js/ws.js"></script>
     <script src="~/js/http.js"></script>
     <script src="~/js/down.js"></script>
-    <h2>Server Time:</h2>
-    <div id="spanStatus"></div>
-
-    <h2>WebSocket Lag:</h2>
-    <div id="wsStatus"></div>
-
-    <h2>HTTP lag:</h2>
-    <div id="httpStatus"></div>
-
-    <h2>Download Speed</h2>
-    <div id="downStatus"></div>
+    <script src="~/js/site.js"></script>
 </body>
