@@ -7,8 +7,8 @@ var download = function () {
         if (downloadTime > maxTime) {
             maxTime = downloadTime;
         }
-        $('#downStatus').html('<p>Speed: ' + (10.0 / downloadTime * 1000).toFixed(2) + 'MB/s</p>');
-        $('#downStatus').append('<p>Min speed: ' + (10.0 / maxTime * 1000).toFixed(2) + 'MB/s</p>');
+        $('#downStatus').html('<p>Speed: ' + (3.0 / downloadTime * 1000).toFixed(2) + 'MB/s</p>');
+        $('#downStatus').append('<p>Min speed: ' + (3.0 / maxTime * 1000).toFixed(2) + 'MB/s</p>');
         setTimeout(download, 1000);
     });
 };

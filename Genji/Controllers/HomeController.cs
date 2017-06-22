@@ -48,14 +48,14 @@ namespace Genji.Controllers
 
         public IActionResult Download()
         {
-            int length = 1024 * 1024 * 10;
+            int length = 1024 * 1024 * 3;
             var file = new byte[length];
             for (int i = 0; i < length; i++)
             {
                 file[i] = 1;
             }
             HttpContext.Response.Headers.Add("Content-Length", length.ToString());
-            HttpContext.Response.Headers.Add("cache-control", "max-age=3600");
+            HttpContext.Response.Headers.Add("cache-control", "no-cache");
             return new FileContentResult(file, "application/octet-stream");
         }
     }
