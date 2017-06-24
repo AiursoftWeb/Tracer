@@ -58,5 +58,14 @@ namespace Genji.Controllers
             HttpContext.Response.Headers.Add("cache-control", "no-cache");
             return new FileContentResult(file, "application/octet-stream");
         }
+
+        public IActionResult Address()
+        {
+            return Json(new
+            {
+                localIpAddress = HttpContext.Connection.LocalIpAddress,
+                remoteIpAddress = HttpContext.Connection.RemoteIpAddress
+            });
+        }
     }
 }
