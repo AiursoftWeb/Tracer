@@ -63,8 +63,7 @@ namespace Genji.Controllers
         {
             return Json(new
             {
-                localIpAddress = HttpContext.Connection.LocalIpAddress,
-                remoteIpAddress = HttpContext.Connection.RemoteIpAddress
+                remoteIpAddress = HttpContext.Connection.RemoteIpAddress.ToString()
             });
         }
     }
