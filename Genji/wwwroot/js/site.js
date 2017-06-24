@@ -10,8 +10,12 @@ var trig = function (trigger, value) {
 }
 
 var startAll = function () {
-    $('#startAllButton').attr('disabled', 'disabled'); 
+    $('#startAllButton').attr('disabled', 'disabled');
     WsTest();
     ping();
     download();
-}
+};
+
+$.get('/home/address', function (data) {
+    $('#ipzone').html(data.remoteIpAddress); 
+});
