@@ -26,6 +26,8 @@ namespace Genji.Controllers
             }
             return _data;
         }
+
+        private static Object message = new { message = "ok" };
         public HomeController()
         {
             _pusher = new WebSocketPusher();
@@ -57,7 +59,7 @@ namespace Genji.Controllers
 
         public IActionResult Ping()
         {
-            return Json(new { message = "ok" });
+            return Json(message);
         }
 
         public IActionResult Download()
