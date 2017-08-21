@@ -12,6 +12,20 @@ namespace Genji.Controllers
     public class HomeController : Controller
     {
         private IPusher<WebSocket> _pusher;
+        private static byte[] _data;
+        private static int length = 1024 * 1024 * 3;
+        private static byte[] GetData()
+        {
+            if (_data == null)
+            {
+                _data = new byte[length];
+                for (int i = 0; i < length; i++)
+                {
+                    _data[i] = 1;
+                }
+            }
+            return _data;
+        }
         public HomeController()
         {
             _pusher = new WebSocketPusher();
@@ -48,15 +62,17 @@ namespace Genji.Controllers
 
         public IActionResult Download()
         {
-            int length = 1024 * 1024 * 3;
-            var file = new byte[length];
-            for (int i = 0; i < length; i++)
-            {
-                file[i] = 1;
-            }
             HttpContext.Response.Headers.Add("Content-Length", length.ToString());
             HttpContext.Response.Headers.Add("cache-control", "no-cache");
-            return new FileContentResult(file, "application/octet-stream");
+            return new FileContentResult(GetData(), "application/octet-stream");
+        }
+
+        public IActionResult Address()
+        {
+            return Json(new
+            {
+                remoteIpAddress = HttpContext.Connection.RemoteIpAddress.ToString()
+            });
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Genji - A simple network speed test app</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
@@ -29,7 +30,7 @@
         <div class="jumbotron">
             <h1>Genji</h1>
             <p>Genji is a simple network quality testing app.</p>
-            <kbd id="spanStatus"></kbd>
+            <kbd id="spanStatus"></kbd> Access from <code id="ipzone"></code>
             <p><button class="btn btn-success btn-lg margin20" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
         </div>
 
@@ -39,23 +40,6 @@
                 <p>Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is.</p>
                 <pre id="httpStatus"></pre>
                 <code id="httpMax"></code>
-            </div>
-            <div class="col-md-4">
-                <h3>Download Speed</h3>
-                <p>Your browser will download a 3MB file from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is.</p>
-                <pre id="downStatus"></pre>
-                <code id="downMax"></code>
-            </div>
-            <div class="col-md-4">
-                <h3>WebSocket Lag</h3>
-                <p>This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>
-                <pre id="wsStatus"></pre>
-                <code id="wsmax"></code>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
                 <div class="form-group margin20">
                     <label for="exampleInputEmail1">Log filter(ms)</label>
                     <input type="number" class="form-control" id="pinglagfilter" value="200">
@@ -63,6 +47,10 @@
                 </div>
             </div>
             <div class="col-md-4">
+                <h3>Download Speed</h3>
+                <p>Your browser will download a 3MB file from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is.</p>
+                <pre id="downStatus"></pre>
+                <code id="downMax"></code>
                 <div class="form-group margin20">
                     <label for="exampleInputEmail1">Log filter(MB/s)</label>
                     <input type="number" class="form-control" id="speedlagfilter" value="0.7">
@@ -70,6 +58,10 @@
                 </div>
             </div>
             <div class="col-md-4">
+                <h3>WebSocket Lag</h3>
+                <p>This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>
+                <pre id="wsStatus"></pre>
+                <code id="wsmax"></code>
                 <div class="form-group margin20">
                     <label for="exampleInputEmail1">Log filter(ms)</label>
                     <input type="number" class="form-control" id="wslagfilter" value="300">
