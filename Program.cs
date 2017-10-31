@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using System;
 
-namespace Genji
+namespace Tracer
 {
     public class Program
     {

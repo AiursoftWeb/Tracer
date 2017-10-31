@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Genji.Services
+namespace Tracer.Services
 {
     public static class WebSocketService
     {

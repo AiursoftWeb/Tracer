@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Genji.Attributes
+namespace Tracer.Attributes
 {
     public class ForceWS : ActionFilterAttribute
     {

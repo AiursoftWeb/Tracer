@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Genji.Models
+namespace Tracer.Models
 {
     public interface IPusher<T>
     {

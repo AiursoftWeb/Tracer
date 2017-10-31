@@ -7,10 +7,7 @@ package-lock.json
 *.min.js
 bin
 obj
-/src/OSS/Storage
 node_modules
-/src/Developer/Storage
 Storage
 .vscode
 Properties
-/src/CDN/fonts
