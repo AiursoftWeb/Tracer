@@ -1,6 +1,6 @@
-# Genji
+# Tracer
 
-Genji is a simple network speed test app
+Tracer is a simple network speed test app
 
 ## Requirements
 
