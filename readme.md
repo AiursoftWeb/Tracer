@@ -1,19 +1,21 @@
 # Tracer
 
+[![Build Status](https://travis-ci.org/Anduin2017/Tracer.svg?branch=master)](https://travis-ci.org/Anduin2017/Tracer)
+
 Tracer is a simple network speed test app
 
 ## Requirements
 
 Requirements about how to run
 * [Windows Server](http://www.microsoft.com/en-us/cloud-platform/windows-server) or [Ubuntu Server](https://www.ubuntu.com/server)
-* [dot net Core 1.1.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
+* [dot net Core 2.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
 * [git](https://git-scm.com)
 
 **bower depends on nodejs, npm and git!**
 
 Requirements about how to develope
 * [Windows 10](http://www.microsoft.com/en-US/windows/) or [Ubuntu desktop](https://www.ubuntu.com/desktop)
-* [dot net Core SDK 1.0.4 or later](https://github.com/dotnet/core/tree/master/release-notes)
+* [dot net Core SDK 2.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
 * [git](https://git-scm.com)
 * [VS Code](https://code.visualstudio.com) (Strongly suggest)
 
