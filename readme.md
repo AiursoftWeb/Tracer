@@ -26,6 +26,17 @@ Requirements about how to develope
 3. Excute `dotnet run` to run the app
 4. Use your browser to view [http://localhost:5000](http://localhost:5000)
 
+## How to run in docker
+
+Just install docker and docker-compose. Execute the following command.
+
+```bash
+$ docker-compose build
+$ docker-compose up
+```
+
+That will start a web server at `http://localhost:8000` and you can test the app.
+
 ## How to publish to your server
 
 1. Prepare a Linux or Windows Server
