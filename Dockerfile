@@ -1,7 +1,13 @@
+FROM node as frontend-env
+WORKDIR /src
+COPY . .
+RUN npm i -g bower
+RUN bower install --allow-root
+
 FROM microsoft/aspnetcore-build AS build-env
 WORKDIR /src
 
-COPY . .
+COPY --from=frontend-env /src .
 RUN dotnet restore
 RUN dotnet publish --no-restore -c Release -o /build
 
