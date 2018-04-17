@@ -1,10 +1,11 @@
 FROM microsoft/aspnetcore-build AS build-env
-WORKDIR /app
+WORKDIR /src
 
 COPY . .
-RUN dotnet publish
+RUN dotnet restore
+RUN dotnet publish --no-restore -c Release -o /build
 
 FROM microsoft/aspnetcore
 WORKDIR /app
-COPY --from=build-env /app/bin/Debug/netcoreapp2.0/publish/ .
+COPY --from=build-env /build .
 ENTRYPOINT ["dotnet","./Tracer.dll"]
