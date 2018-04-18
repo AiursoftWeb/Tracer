@@ -4,7 +4,7 @@ COPY . .
 RUN npm i -g bower
 RUN bower install --allow-root
 
-FROM microsoft/aspnetcore-build AS build-env
+FROM microsoft/aspnetcore-build as build-env
 WORKDIR /src
 
 COPY --from=frontend-env /src .
