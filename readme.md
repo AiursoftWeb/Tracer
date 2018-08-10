@@ -37,16 +37,11 @@ $ docker-compose up
 
 That will start a web server at `http://localhost:8000` and you can test the app.
 
-## How to publish to your server
 
-1. Prepare a Linux or Windows Server
-2. Run dotnet publish from your dev environment to package your app into a self-contained directory that can run on your server.
-3. Copy your ASP.NET Core app to your server using whatever tool (SCP, FTP, etc) integrates into your workflow. Test your app, for example:
-+ 
-From the command line, run dotnet yourapp.dll
-In a browser, navigate to http://<serveraddress>:<port> to verify you app works on Linux. 
-+ 
+## How to contribute
 
-> Note: You can use Yeoman to create a new ASP.NET Core application for a new project.
+There are many ways to contribute to the project: logging bugs, submitting pull requests, reporting issues, and creating suggestions.
 
-**When you have successfully published the app to your server, it is not running properly! You need the following setps.**
+Even if you have push rights on the repository, you should create a personal fork and create feature branches there when you need them. This keeps the main repository clean and your personal workflow cruft out of sight.
+
+We're also interested in your feedback for the future of this project. You can submit a suggestion or feature request through the issue tracker. To make this process more effective, we're asking that these include more information to help define them more clearly.
