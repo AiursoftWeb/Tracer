@@ -15,7 +15,3 @@ var startAll = function () {
     ping();
     download();
 };
-
-$.get('/home/address', function (data) {
-    $('#ipzone').html(data.remoteIpAddress); 
-});

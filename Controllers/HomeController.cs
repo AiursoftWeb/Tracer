@@ -68,13 +68,5 @@ namespace Tracer.Controllers
             HttpContext.Response.Headers.Add("cache-control", "no-cache");
             return new FileContentResult(GetData(), "application/octet-stream");
         }
-
-        public IActionResult Address()
-        {
-            return Json(new
-            {
-                remoteIpAddress = HttpContext.Connection.RemoteIpAddress.ToString()
-            });
-        }
     }
 }
