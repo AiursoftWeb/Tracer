@@ -11,8 +11,6 @@ Requirements about how to run
 * [dot net Core 2.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
 * [git](https://git-scm.com)
 
-**bower depends on nodejs, npm and git!**
-
 Requirements about how to develope
 * [Windows 10](http://www.microsoft.com/en-US/windows/) or [Ubuntu desktop](https://www.ubuntu.com/desktop)
 * [dot net Core SDK 2.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
@@ -21,7 +19,6 @@ Requirements about how to develope
 
 ## How to run locally
 
-1. Excute `bower install` to download all front-end packages
 2. Excute `dotnet restore` to restore all dotnet requirements
 3. Excute `dotnet run` to run the app
 4. Use your browser to view [http://localhost:5000](http://localhost:5000)
