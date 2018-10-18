@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <ApplicationInsightsResourceId>/subscriptions/c603872f-c501-4848-920d-abe89e20fcaa/resourcegroups/devtest/providers/microsoft.insights/components/Tracerapp</ApplicationInsightsResourceId>
-    <ApplicationInsightsAnnotationResourceId>/subscriptions/c603872f-c501-4848-920d-abe89e20fcaa/resourcegroups/devtest/providers/microsoft.insights/components/Tracerapp</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
 
   <ItemGroup>

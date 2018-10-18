@@ -14,7 +14,6 @@ namespace Tracer
         public static IWebHost BuildWebHost(string[] args)
         {
             var host = WebHost.CreateDefaultBuilder(args)
-                 .UseApplicationInsights()
                  .UseStartup<Startup>()
                  .Build();
 
