@@ -30,6 +30,6 @@ var startdownload = function () {
         //update view
         $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
         $('#downMax').html('Min: ' + minspeed.toFixed(2) + 'MB/s');
-        setTimeout(startdownload, 0);
+        setTimeout(startdownload, 1);
     });
 }

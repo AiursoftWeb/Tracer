@@ -26,6 +26,6 @@ var startping = function () {
         //update view
         $('#httpStatus').html('Current: ' + lag + 'ms');
         $('#httpMax').html('Max lag: ' + pingMaxlag + 'ms');
-        setTimeout(startping, 30);
+        setTimeout(startping, 1000);
     });
 }
