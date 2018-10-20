@@ -1,6 +1,6 @@
 # Tracer
 
-[![Build Status](https://travis-ci.org/Anduin2017/Tracer.svg?branch=master)](https://travis-ci.org/Anduin2017/Tracer)
+[![Build status](https://aiursoft.visualstudio.com/Tracer/_apis/build/status/Tracer%20CI)](https://aiursoft.visualstudio.com/Tracer/_build/latest?definitionId=3)
 
 Tracer is a simple network speed test app
 
