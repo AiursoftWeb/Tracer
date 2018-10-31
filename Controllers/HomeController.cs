@@ -13,13 +13,13 @@ namespace Tracer.Controllers
     {
         private IPusher<WebSocket> _pusher;
         private static byte[] _data;
-        private static int length = 1024 * 1024 * 3;
+        private static int _length = 1024 * 1024 * 3;
         private static byte[] GetData()
         {
             if (_data == null)
             {
-                _data = new byte[length];
-                for (int i = 0; i < length; i++)
+                _data = new byte[_length];
+                for (int i = 0; i < _length; i++)
                 {
                     _data[i] = 1;
                 }
@@ -27,7 +27,7 @@ namespace Tracer.Controllers
             return _data;
         }
 
-        private static Object message = new { message = "ok" };
+        private static Object _message = new { message = "ok" };
         public HomeController()
         {
             _pusher = new WebSocketPusher();
@@ -59,12 +59,12 @@ namespace Tracer.Controllers
 
         public IActionResult Ping()
         {
-            return Json(message);
+            return Json(_message);
         }
 
         public IActionResult Download()
         {
-            HttpContext.Response.Headers.Add("Content-Length", length.ToString());
+            HttpContext.Response.Headers.Add("Content-Length", _length.ToString());
             HttpContext.Response.Headers.Add("cache-control", "no-cache");
             return new FileContentResult(GetData(), "application/octet-stream");
         }

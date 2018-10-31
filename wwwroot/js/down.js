@@ -2,7 +2,7 @@
 var downMaxTime = 0;
 var download = function () {
     //thread safe
-    if ($('#downloadbutton').attr('disabled') == 'disabled') {
+    if ($('#downloadbutton').attr('disabled') === 'disabled') {
         return;
     }
     $('#downloadbutton').attr('disabled', 'disabled');

@@ -1,6 +1,6 @@
 ﻿'use strict';
 function getWSAddress() {
-    var ishttps = 'https:' == document.location.protocol ? true : false;
+    var ishttps = 'https:' === document.location.protocol ? true : false;
     var host = window.location.host;
     var head = ishttps ? "wss://" : "ws://"
     return head + host;
@@ -9,7 +9,7 @@ var webSocket;
 var wsMaxLag = 0;
 var WsTest = function () {
     //thread safe
-    if ($('#wsbutton').attr('disabled') == 'disabled') {
+    if ($('#wsbutton').attr('disabled') === 'disabled') {
         return;
     }
     $('#wsbutton').attr('disabled', 'disabled');
