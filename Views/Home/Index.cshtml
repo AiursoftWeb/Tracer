@@ -7,83 +7,119 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="navbar navbar-default">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand hidden-md hidden-sm">Tracer</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">Tracer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="//aiursoft.com">Aiursoft</a>
+                    </li>
                 </ul>
             </div>
         </div>
+    </nav>
 
+    <div class="container">
         <div class="jumbotron">
-            <h1>Tracer</h1>
-            <p>Tracer is a simple network quality testing app.</p>
-            <kbd id="spanStatus"></kbd> Access from <code>@Context.Connection.RemoteIpAddress.ToString()</code>
-            <p><button class="btn btn-success btn-lg margin20" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
+            <h1 class="display-4">Tracer</h1>
+            <p class="lead">Tracer is a simple network quality testing app.</p>
+            <p>Access from <code>@Context.Connection.RemoteIpAddress.ToString()</code><span class="badge badge-secondary ml-2" id="spanStatus">Idle</span></p>
+            <p><button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-md-4">
-                <h3>HTTP lag</h3>
-                <p>Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is.</p>
-                <pre id="httpStatus"></pre>
-                <code id="httpMax"></code>
-                <div class="form-group margin20">
-                    <label for="exampleInputEmail1">Log filter(ms)</label>
-                    <input type="number" class="form-control" id="pinglagfilter" value="200">
-                    <button class="btn btn-primary margin20" id="pingbutton" onclick="ping()">Start Test</button>
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-4 px-1">
+                <div class="card mb-2 tests-card">
+                    <div class="card-body">
+                        <h5 class="card-title">HTTP Lag</h5>
+                        <p class="card-text">Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is.</p>
+                        <div class="form">
+                            <div class="form-group">
+                                <label for="pinglagfilter">Log filter(ms)</label>
+                                <input type="number" class="form-control" id="pinglagfilter" value="200">
+                            </div>
+                            <button class="btn btn-primary" id="pingbutton" onclick="ping()">Start Test</button>
+                        </div>
+                        <p class="test-status"><pre id="httpStatus"></pre></p>
+                        <p class="test-status"><code id="httpMax"></code></p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <h3>Download Speed</h3>
-                <p>Your browser will download a 3MB file from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is.</p>
-                <pre id="downStatus"></pre>
-                <code id="downMax"></code>
-                <div class="form-group margin20">
-                    <label for="exampleInputEmail1">Log filter(MB/s)</label>
-                    <input type="number" class="form-control" id="speedlagfilter" value="0.7">
-                    <button class="btn btn-primary margin20" id="downloadbutton" onclick="download()">Start Test</button>
+            <div class="col-md-4 px-1">
+                <div class="card mb-2 tests-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Download Speed</h5>
+                        <p class="card-text">Your browser will download a 3MB file from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is.</p>
+                        <div class="form">
+                            <div class="form-group">
+                                <label for="speedlagfilter">Log filter(MB/s)</label>
+                                <input type="number" class="form-control" id="speedlagfilter" value="0.7">
+                            </div>
+                            <button class="btn btn-primary" id="downloadbutton" onclick="download()">Start Test</button>
+                        </div>
+                        <p class="test-status"><pre id="downStatus"></pre></p>
+                        <p class="test-status"><code id="downMax"></code></p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <h3>WebSocket Lag</h3>
-                <p>This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>
-                <pre id="wsStatus"></pre>
-                <code id="wsmax"></code>
-                <div class="form-group margin20">
-                    <label for="exampleInputEmail1">Log filter(ms)</label>
-                    <input type="number" class="form-control" id="wslagfilter" value="300">
-                    <button class="btn btn-primary margin20" id="wsbutton" onclick="WsTest()">Start Test</button>
+            <div class="col-md-4 px-1">
+                <div class="card mb-2 tests-card">
+                    <div class="card-body">
+                        <h5 class="card-title">WebSocket Lag</h5>
+                        <p class="card-text">This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>
+                        <div class="form">
+                            <div class="form-group">
+                                <label for="wslagfilter">Log filter(ms)</label>
+                                <input type="number" class="form-control" id="wslagfilter" value="300">
+                            </div>
+                            <button class="btn btn-primary" id="wsbutton" onclick="WsTest()">Start Test</button>
+                        </div>
+                        <p class="test-status"><pre id="wsStatus"></pre></p>
+                        <p class="test-status"><code id="wsmax"></code></p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <hr />
-        <h2>Bad requests log</h2>
 
-        <table class="table table-striped table-hover" id="logTable">
-            <tr>
-                <th>Time</th>
-                <th>Trigger</th>
-                <th>Value</th>
-            </tr>
-        </table>
+        <div class="row no-gutters">
+            <div class="col-sm-12 px-1">
+                <div class="card mb-2 tests-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Bad requests log</h5>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover table-sm" id="logTable">
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Trigger</th>
+                                    <th>Value</th>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer class="footer">
+
+    <footer class="navbar fixed-bottom navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <p class="text-muted">&copy; @DateTime.Now.Year - <a href="https://www.aiursoft.com">Aiursoft</a></p>
+            <span class="navbar-text">&copy; @DateTime.Now.Year - <a href="https://www.aiursoft.com">Aiursoft</a></span>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="~/js/ws.js"></script>
