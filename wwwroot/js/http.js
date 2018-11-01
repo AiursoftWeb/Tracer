@@ -2,7 +2,7 @@
 var pingMaxlag = 0;
 var ping = function () {
     //thread safe
-    if ($('#pingbutton').attr('disabled') == 'disabled') {
+    if ($('#pingbutton').attr('disabled') === 'disabled') {
         return;
     }
     $('#pingbutton').attr('disabled', 'disabled');
