@@ -28,6 +28,15 @@ namespace Tracer
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            if(!env.IsDevelopment())
+            {
+
+            }
+            else
+            {
+                app.UseHsts();
+                app.UseHttpsRedirection();
+            }
             app.UseDeveloperExceptionPage();
             app.UseWebSockets();
             app.UseStaticFiles();
