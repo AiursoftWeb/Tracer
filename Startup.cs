@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Aiursoft.Pylon;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -30,14 +31,12 @@ namespace Tracer
         {
             if(env.IsDevelopment())
             {
-
+                app.UseDeveloperExceptionPage();
             }
             else
             {
-                app.UseHsts();
-                app.UseHttpsRedirection();
+                app.UseEnforceHttps();
             }
-            app.UseDeveloperExceptionPage();
             app.UseWebSockets();
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
