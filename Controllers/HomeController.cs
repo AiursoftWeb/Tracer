@@ -13,7 +13,7 @@ namespace Tracer.Controllers
     {
         private IPusher<WebSocket> _pusher;
         private static byte[] _data;
-        private static int _length = 1024 * 1024 * 3;
+        private static int _length = 1024 * 1024 * 1;
         private static byte[] GetData()
         {
             if (_data == null)

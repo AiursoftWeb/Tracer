@@ -21,8 +21,8 @@ var startdownload = function () {
             downMaxTime = downloadTime;
         }
         //get speed
-        var speed = 3.0 / downloadTime * 1000;
-        var minspeed = 3.0 / downMaxTime * 1000;
+        var speed = 1.0 / downloadTime * 1000;
+        var minspeed = 1.0 / downMaxTime * 1000;
         //log
         if (speed < $('#speedlagfilter').val()) {
             trig('Downloader', speed + 'MB/s');
