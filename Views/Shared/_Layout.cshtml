@@ -2,9 +2,11 @@
 <!DOCTYPE HTML>
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    @this.UseDisableZoom()
+    @this.UseDnsPrefetch()
     <title>Tracer App - A simple network speed test app</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @this.UseAiurFavicon()
+    @this.UseAiurMarketCSS()
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -34,8 +36,8 @@
             <span class="navbar-text">&copy; @DateTime.Now.Year - <a href="https://www.aiursoft.com">Aiursoft</a></span>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    @this.UseScrollToTop()
+    @this.UseAiurMarketJs()
     <script src="~/js/ws.js"></script>
     <script src="~/js/http.js"></script>
     <script src="~/js/down.js"></script>
