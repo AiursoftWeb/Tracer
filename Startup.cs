@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Aiursoft.Pylon;
+using Aiursoft.Pylon.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -24,6 +25,7 @@ namespace Tracer
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<ServiceLocation>();
             services.AddMvc();
         }
 

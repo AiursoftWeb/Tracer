@@ -7,10 +7,10 @@
         <p><button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
     </div>
 </div>
-<div class="container">
+<div class="container mt-4" id="functions">
     <div class="row no-gutters">
         <div class="col-md-4 px-1">
-            <div class="card mb-2 tests-card">
+            <div class="card mb-2 tests-card h-100">
                 <div class="card-body">
                     <h5 class="card-title">HTTP Lag</h5>
                     <p class="card-text">Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is.</p>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="col-md-4 px-1">
-            <div class="card mb-2 tests-card">
+            <div class="card mb-2 tests-card h-100">
                 <div class="card-body">
                     <h5 class="card-title">Download Speed</h5>
                     <p class="card-text">Your browser will download a 1MB file from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is.</p>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="col-md-4 px-1">
-            <div class="card mb-2 tests-card">
+            <div class="card mb-2 tests-card h-100">
                 <div class="card-body">
                     <h5 class="card-title">WebSocket Lag</h5>
                     <p class="card-text">This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>

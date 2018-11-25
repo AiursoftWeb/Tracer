@@ -27,7 +27,7 @@ namespace Tracer.Controllers
             return _data;
         }
 
-        private static Object _message = new { message = "ok" };
+        private static object _message = new { message = "ok" };
         public HomeController()
         {
             _pusher = new WebSocketPusher();
