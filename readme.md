@@ -14,14 +14,18 @@ Requirements about how to run
 Requirements about how to develope
 * [Windows 10](http://www.microsoft.com/en-US/windows/) or [Ubuntu desktop](https://www.ubuntu.com/desktop)
 * [dot net Core SDK 2.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
-* [git](https://git-scm.com)
 * [VS Code](https://code.visualstudio.com) (Strongly suggest)
 
 ## How to run locally
 
-2. Excute `dotnet restore` to restore all dotnet requirements
-3. Excute `dotnet run` to run the app
-4. Use your browser to view [http://localhost:5000](http://localhost:5000)
+1. Excute `dotnet restore` to restore all dotnet requirements
+2. Excute `dotnet run` to run the app
+3. Use your browser to view [http://localhost:5000](http://localhost:5000)
+
+## How to run in Microsoft Visual Studio
+
+1. Open the `.sln` file in the project path. 
+2. Press `F5`.
 
 ## How to run in docker
 

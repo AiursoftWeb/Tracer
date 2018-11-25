@@ -6,14 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 using Tracer.Attributes;
 using System.Net.WebSockets;
 using Tracer.Models;
+using Aiursoft.Pylon.Attributes;
 
 namespace Tracer.Controllers
 {
     public class HomeController : Controller
     {
-        private IPusher<WebSocket> _pusher;
         private static byte[] _data;
-        private static int _length = 1024 * 1024 * 1;
+        private const int _length = 1024 * 1024 * 1;
         private static byte[] GetData()
         {
             if (_data == null)
@@ -26,19 +26,22 @@ namespace Tracer.Controllers
             }
             return _data;
         }
+        private static JsonResult _message = null;
 
-        private static object _message = new { message = "ok" };
+        private IPusher<WebSocket> _pusher;
         public HomeController()
         {
             _pusher = new WebSocketPusher();
         }
+
 
         public IActionResult Index()
         {
             return View();
         }
 
-        [ForceWS]
+        [AiurNoCache]
+        [AiurForceWebSocket]
         public async Task<IActionResult> Pushing()
         {
             await _pusher.Accept(HttpContext);
@@ -57,15 +60,20 @@ namespace Tracer.Controllers
             return null;
         }
 
+        [AiurNoCache]
         public IActionResult Ping()
         {
-            return Json(_message);
+            if (_message == null)
+            {
+                _message = Json(new { message = "ok" });
+            }
+            return _message;
         }
 
+        [AiurNoCache]
         public IActionResult Download()
         {
             HttpContext.Response.Headers.Add("Content-Length", _length.ToString());
-            HttpContext.Response.Headers.Add("cache-control", "no-cache");
             return new FileContentResult(GetData(), "application/octet-stream");
         }
     }
