@@ -9,7 +9,6 @@ Tracer is a simple network speed test app
 Requirements about how to run
 * [Windows Server](http://www.microsoft.com/en-us/cloud-platform/windows-server) or [Ubuntu Server](https://www.ubuntu.com/server)
 * [dot net Core 2.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
-* [git](https://git-scm.com)
 
 Requirements about how to develope
 * [Windows 10](http://www.microsoft.com/en-US/windows/) or [Ubuntu desktop](https://www.ubuntu.com/desktop)
