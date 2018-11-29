@@ -26,6 +26,14 @@ var startping = function () {
         //update view
         $('#httpStatus').html('Current: ' + lag + 'ms');
         $('#httpMax').html('Max lag: ' + pingMaxlag + 'ms');
+        if (chartData.labels.length > 25) {
+            chartData.labels.shift();
+            chartData.datasets[0].data.shift();
+        }
+        chartData.labels.push(new Date().toLocaleTimeString());
+        chartData.datasets[0].data.push(lag);
+        window.myLine.update();
+
         setTimeout(startping, 1000);
     });
 };

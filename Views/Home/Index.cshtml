@@ -7,7 +7,21 @@
         <p><button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
     </div>
 </div>
-<div class="container mt-4" id="functions">
+<div class="container-fluid">
+    <div class="row no-gutters">
+        <div class="col-md-4">
+            <canvas id="httpChart"></canvas>
+        </div>
+        <div class="col-md-4">
+            <canvas id="downloadChart"></canvas>
+        </div>
+        <div class="col-md-4">
+            <canvas id="wsChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-4" id="functions">
     <div class="row no-gutters">
         <div class="col-md-4 px-1">
             <div class="card mb-2 tests-card h-100">

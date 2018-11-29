@@ -30,6 +30,15 @@ var startdownload = function () {
         //update view
         $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
         $('#downMax').html('Min: ' + minspeed.toFixed(2) + 'MB/s');
-        setTimeout(startdownload, 1);
+
+        if (downloadchartData.labels.length > 25) {
+            downloadchartData.labels.shift();
+            downloadchartData.datasets[0].data.shift();
+        }
+        downloadchartData.labels.push(new Date().toLocaleTimeString());
+        downloadchartData.datasets[0].data.push(speed.toFixed(2));
+        window.myDownloadLine.update();
+
+        setTimeout(startdownload, 1000);
     });
 }

@@ -14,7 +14,7 @@ var WsTest = function () {
     }
     $('#wsbutton').attr('disabled', 'disabled');
     startWsTest();
-}
+};
 var startWsTest = function () {
     //prepare
     var wsStartTime = new Date();
@@ -39,6 +39,14 @@ var startWsTest = function () {
         //update view
         $('#wsStatus').html('Current: ' + wslag + 'ms');
         $("#wsmax").html('Max: ' + wsMaxLag + 'ms');
+
+        if (wschartData.labels.length > 200) {
+            wschartData.labels.shift();
+            wschartData.datasets[0].data.shift();
+        }
+        wschartData.labels.push(new Date().toLocaleTimeString());
+        wschartData.datasets[0].data.push(wslag);
+        window.myWSLine.update();
     };
     webSocket.onerror = function (evt) {
         alert(evt.message);
