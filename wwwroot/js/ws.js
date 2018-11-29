@@ -44,7 +44,7 @@ var startWsTest = function () {
             wschartData.labels.shift();
             wschartData.datasets[0].data.shift();
         }
-        wschartData.labels.push(new Date().toLocaleTimeString());
+        wschartData.labels.push('');
         wschartData.datasets[0].data.push(wslag);
         window.myWSLine.update();
     };

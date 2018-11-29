@@ -10,7 +10,6 @@ var trig = function (trigger, value) {
 };
 
 
-
 var ctx = document.getElementById('httpChart').getContext('2d');
 var downloadChartCtx = document.getElementById('downloadChart').getContext('2d');
 var wsChartCtx = document.getElementById('wsChart').getContext('2d');
@@ -30,9 +29,9 @@ var downloadchartData = {
     labels: [],
     datasets: [{
         label: "Download Speed",
-        backgroundColor: 'rgb(2, 99, 232)',
-        borderColor: 'rgb(2, 99, 232)',
-        fill: false,
+        backgroundColor: 'rgb(70, 170, 252)',
+        borderColor: 'rgb(70, 170, 252)',
+        fill: true,
         data: []
     }]
 };

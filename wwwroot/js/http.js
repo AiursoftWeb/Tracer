@@ -30,7 +30,7 @@ var startping = function () {
             chartData.labels.shift();
             chartData.datasets[0].data.shift();
         }
-        chartData.labels.push(new Date().toLocaleTimeString());
+        chartData.labels.push('');
         chartData.datasets[0].data.push(lag);
         window.myLine.update();
 

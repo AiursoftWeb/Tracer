@@ -7,23 +7,9 @@
         <p><button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container">
     <div class="row no-gutters">
-        <div class="col-md-4">
-            <canvas id="httpChart"></canvas>
-        </div>
-        <div class="col-md-4">
-            <canvas id="downloadChart"></canvas>
-        </div>
-        <div class="col-md-4">
-            <canvas id="wsChart"></canvas>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid mt-4" id="functions">
-    <div class="row no-gutters">
-        <div class="col-md-4 px-1">
+        <div class="col-6 mt-3">
             <div class="card mb-2 tests-card h-100">
                 <div class="card-body">
                     <h5 class="card-title">HTTP Lag</h5>
@@ -40,7 +26,16 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 px-1">
+        <div class="col-6 mt-3">
+            <div class="card mb-2 tests-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">HTTP Lag</h5>
+                    <canvas id="httpChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 mt-3">
             <div class="card mb-2 tests-card h-100">
                 <div class="card-body">
                     <h5 class="card-title">Download Speed</h5>
@@ -57,11 +52,20 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 px-1">
+        <div class="col-6 mt-3">
+            <div class="card mb-2 tests-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Download Speed</h5>
+                    <canvas id="downloadChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 mt-3">
             <div class="card mb-2 tests-card h-100">
                 <div class="card-body">
                     <h5 class="card-title">WebSocket Lag</h5>
-                    <p class="card-text">This number means how much gap time between current server event and last server event. The number should be close to 10ms. More than 20ms or less than 9ms is not proper.</p>
+                    <p class="card-text">This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper.</p>
                     <div class="form">
                         <div class="form-group">
                             <label for="wslagfilter">Log filter(ms)</label>
@@ -74,8 +78,17 @@
                 </div>
             </div>
         </div>
+        <div class="col-6 mt-3">
+            <div class="card mb-2 tests-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">WebSocket Lag</h5>
+                    <canvas id="wsChart"></canvas>
+                </div>
+            </div>
+        </div>
     </div>
-    <hr />
+</div>
+<div class="container mt-4" id="functions">
     <div class="row no-gutters">
         <div class="col-sm-12 px-1">
             <div class="card mb-2 tests-card">

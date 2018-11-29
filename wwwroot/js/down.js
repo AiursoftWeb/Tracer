@@ -35,7 +35,7 @@ var startdownload = function () {
             downloadchartData.labels.shift();
             downloadchartData.datasets[0].data.shift();
         }
-        downloadchartData.labels.push(new Date().toLocaleTimeString());
+        downloadchartData.labels.push('');
         downloadchartData.datasets[0].data.push(speed.toFixed(2));
         window.myDownloadLine.update();
 
