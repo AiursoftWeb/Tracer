@@ -7,6 +7,7 @@ using Tracer.Attributes;
 using System.Net.WebSockets;
 using Tracer.Models;
 using Aiursoft.Pylon.Attributes;
+using Newtonsoft.Json;
 
 namespace Tracer.Controllers
 {
@@ -26,7 +27,6 @@ namespace Tracer.Controllers
             }
             return _data;
         }
-        private static JsonResult _message = null;
 
         private IPusher<WebSocket> _pusher;
         public HomeController()
@@ -49,7 +49,7 @@ namespace Tracer.Controllers
             {
                 try
                 {
-                    await _pusher.SendMessage(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffffff"));
+                    _pusher.SendMessage(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffffff")).GetAwaiter();
                     await Task.Delay(100);
                 }
                 catch
@@ -60,15 +60,7 @@ namespace Tracer.Controllers
             return null;
         }
 
-        [AiurNoCache]
-        public IActionResult Ping()
-        {
-            if (_message == null)
-            {
-                _message = Json(new { message = "ok" });
-            }
-            return _message;
-        }
+
 
         [AiurNoCache]
         public IActionResult Download()
