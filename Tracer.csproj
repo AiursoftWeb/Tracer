@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aiursoft.Pylon" Version="0.9.7" />
+    <PackageReference Include="Aiursoft.Pylon" Version="0.9.8" />
   </ItemGroup>
 
   <ItemGroup>
