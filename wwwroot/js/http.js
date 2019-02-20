@@ -1,14 +1,19 @@
 ﻿'use strict';
 var pingMaxlag = 0;
+var pingStop = false;
 var ping = function () {
     //thread safe
     if ($('#pingbutton').attr('disabled') === 'disabled') {
         return;
     }
     $('#pingbutton').attr('disabled', 'disabled');
+    pingStop = false;
     startping();
 };
 var startping = function () {
+    if(pingStop) {
+        return;
+    }
     //prepare
     var startTime = new Date();
     $.get('/Ping', function (data) {
@@ -37,3 +42,8 @@ var startping = function () {
         setTimeout(startping, 1000);
     });
 };
+
+var stopPing = function() {
+    pingStop = true;
+    $('#pingbutton').removeAttr('disabled', 'disabled');
+}
