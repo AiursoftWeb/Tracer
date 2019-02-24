@@ -1,11 +1,13 @@
 ﻿'use strict';
 var downMaxTime = 0;
+var downloadStopped = false;
 var download = function () {
     //thread safe
     if ($('#downloadbutton').attr('disabled') === 'disabled') {
         return;
     }
     $('#downloadbutton').attr('disabled', 'disabled');
+    downloadStopped = false;
     startdownload();
 };
 
@@ -13,6 +15,9 @@ var startdownload = function () {
     //prepare
     var st = new Date();
     $.get('/home/download?t=' + st.getMilliseconds(), function (data) {
+        if (downloadStopped) {
+            return;
+        }
         //get time
         var et = new Date();
         var downloadTime = et - st;
@@ -41,4 +46,11 @@ var startdownload = function () {
 
         setTimeout(startdownload, 1000);
     });
+};
+
+var stopDownload = function () {
+    downloadStopped = true;
+    if ($('#downloadbutton').removeAttr('disabled')) {
+        return;
+    }
 }
