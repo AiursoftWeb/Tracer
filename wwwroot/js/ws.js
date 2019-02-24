@@ -2,7 +2,7 @@
 function getWSAddress() {
     var ishttps = 'https:' === document.location.protocol ? true : false;
     var host = window.location.host;
-    var head = ishttps ? "wss://" : "ws://"
+    var head = ishttps ? "wss://" : "ws://";
     return head + host;
 }
 var webSocket;
@@ -54,4 +54,11 @@ var startWsTest = function () {
     webSocket.onclose = function () {
         $("#spanStatus").text("disconnected");
     };
+};
+
+var stopWsTest = function () {
+    if (webSocket) {
+        webSocket.close();
+    }
+    $('#wsbutton').removeAttr('disabled', 'disabled');
 };

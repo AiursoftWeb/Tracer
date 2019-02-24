@@ -47,6 +47,7 @@
                             <input type="number" class="form-control" id="speedlagfilter" value="0.7">
                         </div>
                         <button class="btn btn-primary" id="downloadbutton" onclick="download()">Start Test</button>
+                        <button class="btn btn-secondary" id="pingbutton" onclick="stopDownload()">Stop Test</button>
                     </div>
                     <p class="test-status"><pre id="downStatus"></pre></p>
                     <p class="test-status"><code id="downMax"></code></p>
@@ -73,6 +74,7 @@
                             <input type="number" class="form-control" id="wslagfilter" value="300">
                         </div>
                         <button class="btn btn-primary" id="wsbutton" onclick="WsTest()">Start Test</button>
+                        <button class="btn btn-secondary" id="pingbutton" onclick="stopWsTest()">Stop Test</button>
                     </div>
                     <p class="test-status"><pre id="wsStatus"></pre></p>
                     <p class="test-status"><code id="wsmax"></code></p>

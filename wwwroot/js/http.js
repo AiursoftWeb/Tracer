@@ -43,7 +43,7 @@ var startping = function () {
     });
 };
 
-var stopPing = function() {
+var stopPing = function () {
     pingStop = true;
     $('#pingbutton').removeAttr('disabled', 'disabled');
-}
+};
