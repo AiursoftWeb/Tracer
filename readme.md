@@ -1,6 +1,6 @@
 # Tracer
 
-[![Build status](https://aiursoft.visualstudio.com/Tracer/_apis/build/status/Tracer%20CI)](https://aiursoft.visualstudio.com/Tracer/_build/latest?definitionId=3)
+[![Build status](https://dev.azure.com/aiursofthk/Star/_apis/build/status/Tracer%20Build)](https://dev.azure.com/aiursofthk/Star/_build/latest?definitionId=1)
 
 Tracer is a simple network speed test app
 
