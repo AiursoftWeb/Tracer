@@ -4,6 +4,10 @@
 
 Tracer is a simple network speed test app. Deploy this on your own server. Open your tracer on your browser on your own device. And you can test your speed between you and your server or diagnose network issue.
 
+## Try
+
+Try a running tracer [here](https://tracer.aiursoft.com).
+
 ## Requirements
 
 Requirements about how to run
