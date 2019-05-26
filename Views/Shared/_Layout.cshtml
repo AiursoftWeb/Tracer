@@ -5,7 +5,7 @@
     @this.UseDisableZoom()
     <title>Tracer App - A simple network speed test app</title>
     @this.UseAiurFavicon()
-    @this.UseAiurMarketCSS()
+    @this.UseAiurMarketCss()
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -46,7 +46,7 @@
     <script src="~/js/ws.js"></script>
     <script src="~/js/http.js"></script>
     <script src="~/js/down.js"></script>
-    <script src="@ServiceLocation.CDN/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="@ServiceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
     <script src="~/js/site.js"></script>
     @Html.Raw(JavaScriptSnippet.FullScript)
     @RenderSection("scripts", required: false)
