@@ -32,14 +32,25 @@ Requirements about how to develope
 
 ## How to run in docker
 
+Pull the container using command:
+
+```bash
+$ docker pull anduin2019/tracer:1.0.0
+$ docker run -d -p 8080:80 anduin/tracer:1.0.0
+```
+
+That will start a web server at `http://localhost:8080` and you can test the app.
+
+## How to build locally in docker
+
 Just install docker and docker-compose. Execute the following command.
 
 ```bash
-$ docker-compose build
-$ docker-compose up
+$ docker build -t=tracer .
+$ docker run -d -p 8080:80 tracer
 ```
 
-That will start a web server at `http://localhost:8000` and you can test the app.
+That will start a web server at `http://localhost:8080` and you can test the app.
 
 
 ## How to contribute
