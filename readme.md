@@ -36,7 +36,7 @@ Pull the container using command:
 
 ```bash
 $ docker pull anduin2019/tracer:1.0.0
-$ docker run -d -p 8080:80 anduin/tracer:1.0.0
+$ docker run -d -p 8080:80 anduin2019/tracer:1.0.0
 ```
 
 That will start a web server at `http://localhost:8080` and you can test the app.
