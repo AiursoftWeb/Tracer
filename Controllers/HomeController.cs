@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Aiursoft.Pylon.Attributes;
 using Microsoft.AspNetCore.Mvc;
-using Tracer.Attributes;
+using System;
 using System.Net.WebSockets;
+using System.Threading.Tasks;
 using Tracer.Models;
-using Aiursoft.Pylon.Attributes;
-using Newtonsoft.Json;
 
 namespace Tracer.Controllers
 {
@@ -45,7 +41,7 @@ namespace Tracer.Controllers
         public async Task<IActionResult> Pushing()
         {
             await _pusher.Accept(HttpContext);
-            while (_pusher.Connected)
+            for (int i = 0; i < 36000 && _pusher.Connected; i++)
             {
                 try
                 {
@@ -59,8 +55,6 @@ namespace Tracer.Controllers
             }
             return null;
         }
-
-
 
         [AiurNoCache]
         public IActionResult Download()

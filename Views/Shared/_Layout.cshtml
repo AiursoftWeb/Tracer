@@ -1,10 +1,8 @@
 ﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
 <!DOCTYPE HTML>
 <head>
-    <meta charset="utf-8" />
-    @this.UseDisableZoom()
+    <vc:aiur-header></vc:aiur-header>
     <title>Tracer App - A simple network speed test app</title>
-    @this.UseAiurFavicon()
     @this.UseAiurMarketCss()
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
@@ -23,7 +21,7 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="@ServiceLocation.WWW">Aiursoft</a>
+                        <a class="nav-link" href="@ServiceLocation.WWW">@Values.ProjectName</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com/AiursoftWeb/Tracer">
@@ -38,15 +36,15 @@
     @RenderBody()
     <footer class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <span class="navbar-text">&copy; @DateTime.Now.Year - <a href="@ServiceLocation.WWW">Aiursoft</a></span>
+            <span class="navbar-text">&copy; @DateTime.Now.Year - <a href="@ServiceLocation.WWW">@Values.ProjectName</a></span>
         </div>
     </footer>
-    @this.UseScrollToTop()
     @this.UseAiurMarketJs()
+    <script src="@ServiceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
+    <vc:scroll-to-top></vc:scroll-to-top>
     <script src="~/js/ws.js"></script>
     <script src="~/js/http.js"></script>
     <script src="~/js/down.js"></script>
-    <script src="@ServiceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
     <script src="~/js/site.js"></script>
     @Html.Raw(JavaScriptSnippet.FullScript)
     @RenderSection("scripts", required: false)

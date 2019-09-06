@@ -1,10 +1,7 @@
-﻿using Tracer.Services;
-using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.AspNetCore.Http;
 using System.Net.WebSockets;
 using System.Threading.Tasks;
+using Tracer.Services;
 
 namespace Tracer.Models
 {
@@ -18,9 +15,9 @@ namespace Tracer.Models
             _ws = await context.WebSockets.AcceptWebSocketAsync();
         }
 
-        public async Task SendMessage(string Message)
+        public async Task SendMessage(string message)
         {
-            await _ws.SendMessage(Message);
+            await _ws.SendMessage(message);
         }
     }
 }

@@ -1,7 +1,4 @@
 ﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Tracer.Models
@@ -10,6 +7,6 @@ namespace Tracer.Models
     {
         bool Connected { get; }
         Task Accept(HttpContext context);
-        Task SendMessage(string Message);
+        Task SendMessage(string message);
     }
 }
