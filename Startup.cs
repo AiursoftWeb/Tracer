@@ -31,6 +31,7 @@ namespace Tracer
             else
             {
                 app.UseEnforceHttps();
+                app.UseUserFriendlyErrorPage();
             }
             app.UseWebSockets();
             app.UseStaticFiles();
