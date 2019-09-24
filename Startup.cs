@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace Tracer
 {
@@ -19,10 +20,11 @@ namespace Tracer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<ServiceLocation>();
-            services.AddMvc();
+            services.AddControllersWithViews();
+            services.AddApplicationInsightsTelemetry();
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -35,7 +37,8 @@ namespace Tracer
             }
             app.UseWebSockets();
             app.UseStaticFiles();
-            app.UseMvcWithDefaultRoute();
+            app.UseRouting();
+            app.UseEndpoints(endpoints => endpoints.MapDefaultControllerRoute());
         }
     }
 }

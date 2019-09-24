@@ -53,4 +53,4 @@ var stopDownload = function () {
     if ($('#downloadbutton').removeAttr('disabled')) {
         return;
     }
-}
+};

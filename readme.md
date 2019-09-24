@@ -12,11 +12,11 @@ Try a running tracer [here](https://tracer.aiursoft.com).
 
 Requirements about how to run
 * [Windows Server](http://www.microsoft.com/en-us/cloud-platform/windows-server) or [Ubuntu Server](https://www.ubuntu.com/server)
-* [dot net Core 2.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
+* [dot net Core 3.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
 
 Requirements about how to develope
 * [Windows 10](http://www.microsoft.com/en-US/windows/) or [Ubuntu desktop](https://www.ubuntu.com/desktop)
-* [dot net Core SDK 2.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
+* [dot net Core SDK 3.0.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
 * [VS Code](https://code.visualstudio.com) (Strongly suggest)
 
 ## How to run locally
