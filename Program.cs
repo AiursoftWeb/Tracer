@@ -7,16 +7,15 @@ namespace Tracer
     {
         public static void Main(string[] args)
         {
-            BuildHost(args).Run();
+            CreateHostBuilder(args)
+                .Build()
+                .Run();
         }
 
-        public static IHost BuildHost(string[] args)
+        public static IHostBuilder CreateHostBuilder(string[] args)
         {
-            var host = Host.CreateDefaultBuilder(args)
-                 .ConfigureWebHostDefaults(t => t.UseStartup<Startup>())
-                 .Build();
-
-            return host;
+            return Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<Startup>());
         }
     }
 }
