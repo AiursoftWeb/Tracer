@@ -19,7 +19,6 @@ namespace Tracer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplicationInsightsTelemetry();
             services.AddSingleton<ServiceLocation>();
             services.AddControllersWithViews();
         }

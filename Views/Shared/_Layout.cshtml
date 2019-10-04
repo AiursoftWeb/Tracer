@@ -1,5 +1,4 @@
-﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <head>
     <vc:aiur-header></vc:aiur-header>
     <title>Tracer App - A simple network speed test app</title>
@@ -41,6 +40,5 @@
     <script src="~/js/http.js"></script>
     <script src="~/js/down.js"></script>
     <script src="~/js/site.js"></script>
-    @Html.Raw(JavaScriptSnippet.FullScript)
     @RenderSection("scripts", required: false)
 </body>
