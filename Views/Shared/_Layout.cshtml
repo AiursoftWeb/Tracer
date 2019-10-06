@@ -24,14 +24,22 @@
                     </li>
                 </ul>
                 <div class="form-inline">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/AiursoftWeb/Tracer">
+                                <i class="fa fa-github"></i>
+                                View on GitHub
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </nav>
     @RenderBody()
-    <footer class="navbar navbar-expand-md navbar-dark bg-dark">
+    <footer class="navbar-expand-md navbar-dark bg-dark pt-2 pb-2">
         <div class="container">
-            <span class="navbar-text">&copy; @DateTime.Now.Year - <a href="@ServiceLocation.WWW">@Values.ProjectName</a></span>
+            <vc:aiur-footer item-class="navbar-text pr-3" template="span"></vc:aiur-footer>
         </div>
     </footer>
     @this.UseAiurMarketJs()
