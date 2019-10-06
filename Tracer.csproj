@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Description>Tracer is a simple network quality testing app.</Description>
   </PropertyGroup>
 
   <ItemGroup>
