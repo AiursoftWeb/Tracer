@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <Description>Tracer is a simple network quality testing app.</Description>
+    <Description>Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.</Description>
   </PropertyGroup>
 
   <ItemGroup>
