@@ -2,16 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <ApplicationInsightsResourceId>/subscriptions/71480737-25ec-4638-aa39-1c3a9a20f354/resourcegroups/AiursoftHK/providers/microsoft.insights/components/TracerHK</ApplicationInsightsResourceId>
-    <ApplicationInsightsAnnotationResourceId>/subscriptions/71480737-25ec-4638-aa39-1c3a9a20f354/resourcegroups/AiursoftHK/providers/microsoft.insights/components/TracerHK</ApplicationInsightsAnnotationResourceId>
+    <Description>Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Aiursoft.Pylon" Version="0.18.1" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.8.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 </Project>

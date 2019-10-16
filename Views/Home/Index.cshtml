@@ -1,8 +1,11 @@
-﻿
+﻿@using System.Reflection;
 <div class="jumbotron">
     <div class="container">
         <h1 class="display-4">Tracer</h1>
-        <p class="lead">Tracer is a simple network quality testing app.</p>
+        @{
+            var description = Assembly.GetEntryAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>().Description;
+        }
+        <p class="lead">@description</p>
         <p>Access from <code>@Context.Connection.RemoteIpAddress.ToString()</code><span class="badge badge-secondary ml-2" id="spanStatus">Idle</span></p>
         <p><button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
     </div>
