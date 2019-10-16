@@ -1,5 +1,4 @@
 ﻿using Aiursoft.Pylon;
-using Aiursoft.Pylon.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -19,9 +18,8 @@ namespace Tracer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplicationInsightsTelemetry();
-            services.AddSingleton<ServiceLocation>();
-            services.AddControllersWithViews();
+            services.AddAiurMvc();
+            services.AddAiurDependencies("Tracer");
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
