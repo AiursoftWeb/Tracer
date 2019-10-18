@@ -7,6 +7,7 @@ function getWSAddress() {
 }
 var webSocket;
 var wsMaxLag = 0;
+var wsOrder = 0;
 var WsTest = function () {
     //thread safe
     if ($('#wsbutton').attr('disabled') === 'disabled') {
@@ -18,13 +19,15 @@ var WsTest = function () {
 var startWsTest = function () {
     //prepare
     var wsStartTime = new Date();
+    wsOrder = 0;
     webSocket = new WebSocket(getWSAddress() + "/Home/Pushing");
     webSocket.onopen = function () {
         $("#spanStatus").text("connected");
     };
     webSocket.onmessage = function (evt) {
         //show message
-        $("#spanStatus").html('Server Time: ' + evt.data);
+        var order = Number(evt.data.split('|')[1]);
+        $("#spanStatus").html('Server Time: ' + evt.data.split('|')[0] + '  Message Order: ' + order);
         //get time
         var wslag = new Date() - wsStartTime;
         wsStartTime = new Date();
@@ -34,8 +37,13 @@ var startWsTest = function () {
         }
         //log
         if (wslag > $('#wslagfilter').val()) {
-            trig('WebSockeet', wslag + 'ms');
+            trig('WebSocket', wslag + 'ms');
         }
+        // check order
+        if (order !== wsOrder + 1) {
+            trig('WebSocket', 'Event Not constant! prev:' + wsOrder + ' current:' + order);
+        }
+        wsOrder = order;
         //update view
         $('#wsStatus').html('Current: ' + wslag + 'ms');
         $("#wsmax").html('Max: ' + wsMaxLag + 'ms');

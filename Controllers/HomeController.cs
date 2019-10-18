@@ -45,7 +45,7 @@ namespace Tracer.Controllers
             {
                 try
                 {
-                    _pusher.SendMessage(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffffff")).GetAwaiter();
+                    _pusher.SendMessage(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffffff") + $"|{i + 1}").GetAwaiter();
                     await Task.Delay(100);
                 }
                 catch
