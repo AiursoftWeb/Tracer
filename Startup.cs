@@ -24,19 +24,9 @@ namespace Tracer
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseEnforceHttps();
-                app.UseUserFriendlyErrorPage();
-            }
+            app.UseAiurUserHandler(env.IsDevelopment());
             app.UseWebSockets();
-            app.UseStaticFiles();
-            app.UseRouting();
-            app.UseEndpoints(endpoints => endpoints.MapDefaultControllerRoute());
+            app.UseAiursoftDefault();
         }
     }
 }
