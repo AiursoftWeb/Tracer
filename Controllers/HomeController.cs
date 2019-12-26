@@ -24,7 +24,7 @@ namespace Tracer.Controllers
             return _data;
         }
 
-        private IPusher<WebSocket> _pusher;
+        private readonly IPusher<WebSocket> _pusher;
         public HomeController()
         {
             _pusher = new WebSocketPusher();
