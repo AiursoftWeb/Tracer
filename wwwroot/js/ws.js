@@ -24,7 +24,8 @@ var startWsTest = function () {
     webSocket.onopen = function () {
         $("#spanStatus").text("connected");
     };
-    webSocket.onmessage = function (evt) {
+
+    var updateWebSocketchart = function (evt) {
         //show message
         var order = Number(evt.data.split('|')[1]);
         $("#spanStatus").html('Server Time: ' + evt.data.split('|')[0] + '  Message Order: ' + order);
@@ -37,11 +38,11 @@ var startWsTest = function () {
         }
         //log
         if (wslag > $('#wslagfilter').val()) {
-            trig('WebSocket', wslag + 'ms');
+            console.warn('WebSocket', wslag + 'ms');
         }
         // check order
         if (order !== wsOrder + 1) {
-            trig('WebSocket', 'Event Not constant! prev:' + wsOrder + ' current:' + order);
+            console.warn('WebSocket', 'Event Not constant! prev:' + wsOrder + ' current:' + order);
         }
         wsOrder = order;
         //update view
@@ -55,6 +56,10 @@ var startWsTest = function () {
         wschartData.labels.push('');
         wschartData.datasets[0].data.push(wslag);
         window.myWSLine.update();
+    };
+
+    webSocket.onmessage = function () {
+        setTimeout(updateWebSocketchart, 0);
     };
     webSocket.onerror = function (evt) {
         alert(evt.message);
