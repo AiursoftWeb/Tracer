@@ -58,8 +58,10 @@ var startWsTest = function () {
         window.myWSLine.update();
     };
 
-    webSocket.onmessage = function () {
-        setTimeout(updateWebSocketchart, 0);
+    webSocket.onmessage = function (evt) {
+        setTimeout(function () {
+            updateWebSocketchart(evt);
+        }, 0);
     };
     webSocket.onerror = function (evt) {
         alert(evt.message);
