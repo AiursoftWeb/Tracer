@@ -1,4 +1,5 @@
 ﻿'use strict';
+
 var pingMaxlag = 0;
 var pingStop = false;
 var ping = function () {
@@ -6,12 +7,15 @@ var ping = function () {
     if ($('#pingbutton').attr('disabled') === 'disabled') {
         return;
     }
+    pingMaxlag = 0;
     $('#pingbutton').attr('disabled', 'disabled');
+    $('#httpStatus').removeClass('d-none');
+    $('#httpMax').removeClass('d-none');
     pingStop = false;
     startping();
 };
 var startping = function () {
-    if(pingStop) {
+    if (pingStop) {
         return;
     }
     //prepare

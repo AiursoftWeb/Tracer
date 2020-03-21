@@ -1,4 +1,5 @@
 ﻿'use strict';
+
 var trig = function (trigger, value) {
     var newTr = logTable.insertRow(-1);
     var newTd0 = newTr.insertCell();
@@ -8,7 +9,6 @@ var trig = function (trigger, value) {
     newTd1.innerText = trigger;
     newTd2.innerText = value;
 };
-
 
 var ctx = document.getElementById('httpChart').getContext('2d');
 var downloadChartCtx = document.getElementById('downloadChart').getContext('2d');

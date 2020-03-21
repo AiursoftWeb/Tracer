@@ -13,7 +13,10 @@ var WsTest = function () {
     if ($('#wsbutton').attr('disabled') === 'disabled') {
         return;
     }
+    wsMaxLag = 0;
     $('#wsbutton').attr('disabled', 'disabled');
+    $('#wsStatus').removeClass('d-none');
+    $('#wsmax').removeClass('d-none');
     startWsTest();
 };
 var startWsTest = function () {
@@ -38,7 +41,7 @@ var startWsTest = function () {
         }
         //log
         if (wslag > $('#wslagfilter').val()) {
-            console.warn('WebSocket', wslag + 'ms');
+            trig('WebSocket', wslag + 'ms');
         }
         // check order
         if (order !== wsOrder + 1) {

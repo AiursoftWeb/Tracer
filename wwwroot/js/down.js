@@ -1,4 +1,5 @@
 ﻿'use strict';
+
 var downMaxTime = 0;
 var downloadStopped = false;
 var download = function () {
@@ -6,7 +7,10 @@ var download = function () {
     if ($('#downloadbutton').attr('disabled') === 'disabled') {
         return;
     }
+    downMaxTime = 0;
     $('#downloadbutton').attr('disabled', 'disabled');
+    $('#downStatus').removeClass('d-none');
+    $('#downMax').removeClass('d-none');
     downloadStopped = false;
     startdownload();
 };
