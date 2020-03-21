@@ -2,7 +2,8 @@
 <head>
     <vc:aiur-header></vc:aiur-header>
     <title>Tracer - @Values.ProjectName</title>
-    @this.UseAiurMarketCss()
+    <vc:aiur-core-css></vc:aiur-core-css>
+    <vc:aiur-market-css></vc:aiur-market-css>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -42,7 +43,8 @@
             <vc:aiur-footer item-class="navbar-text pr-3" template="span"></vc:aiur-footer>
         </div>
     </footer>
-    @this.UseAiurMarketJs()
+    <vc:aiur-core-js></vc:aiur-core-js>
+    <vc:aiur-market-js></vc:aiur-market-js>
     <script src="@ServiceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
     <vc:scroll-to-top></vc:scroll-to-top>
     <script src="~/js/ws.js"></script>
