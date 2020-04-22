@@ -6,6 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Aiursoft.Pylon" Version="3.1.2.2" />
+    <PackageReference Include="Aiursoft.Pylon" Version="3.1.5" />
   </ItemGroup>
 </Project>

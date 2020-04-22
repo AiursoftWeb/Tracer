@@ -1,4 +1,6 @@
-﻿using Aiursoft.Pylon;
+﻿using Aiursoft.Archon.SDK.Services;
+using Aiursoft.Pylon;
+using Aiursoft.SDK;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -14,12 +16,14 @@ namespace Tracer
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            AppsContainer.CurrentAppId = configuration["TracerAppId"];
+            AppsContainer.CurrentAppSecret = configuration["TracerAppSecret"];
         }
 
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAiurMvc();
-            services.AddAiurDependencies("Tracer");
+            services.AddAiurDependencies();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
