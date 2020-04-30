@@ -8,7 +8,7 @@ Tracer is a simple network speed test app. Deploy this on your own server. Open 
 
 Try a running tracer [here](https://tracer.aiursoft.com).
 
-# Deploy to Azure
+## Deploy to Azure
 
 With the following ARM template you can automate the creation of the resources for this website.
 
