@@ -12,7 +12,7 @@ Try a running tracer [here](https://tracer.aiursoft.com).
 
 With the following ARM template you can automate the creation of the resources for this website.
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Tracer/tree/master#/form/setup)
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Tracer/tree/master)
 
 ## Requirements
 
