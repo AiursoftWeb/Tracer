@@ -23,7 +23,7 @@ namespace Tracer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAiurMvc();
-            services.AddAiurDependencies();
+            services.AddAiurDependencies(addProbe: false, addArchon: false);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
