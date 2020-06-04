@@ -37,9 +37,12 @@ namespace Tracer.Controllers
         }
 
         [AiurNoCache]
-        [AiurForceWebSocket]
         public async Task<IActionResult> Pushing()
         {
+            if (!HttpContext.WebSockets.IsWebSocketRequest) 
+            {
+                return Json(new { });
+            }
             await _pusher.Accept(HttpContext);
             for (int i = 0; i < 36000 && _pusher.Connected; i++)
             {
@@ -53,7 +56,7 @@ namespace Tracer.Controllers
                     break;
                 }
             }
-            return null;
+            return Json(new { });
         }
 
         [AiurNoCache]

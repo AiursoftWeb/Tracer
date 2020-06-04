@@ -1,5 +1,6 @@
-﻿using Aiursoft.Archon.SDK.Services;
-using Aiursoft.Pylon;
+﻿using Aiursoft.Archon.SDK;
+using Aiursoft.Archon.SDK.Services;
+using Aiursoft.Observer.SDK;
 using Aiursoft.SDK;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -23,7 +24,9 @@ namespace Tracer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAiurMvc();
-            services.AddAiurDependencies(addProbe: false, addArchon: false);
+            services.AddArchonServer(Configuration.GetConnectionString("ArchonConnection"));
+            services.AddObserverServer(Configuration.GetConnectionString("ObserverConnection"));
+            services.AddBasic();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
