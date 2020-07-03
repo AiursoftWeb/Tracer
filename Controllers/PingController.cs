@@ -4,12 +4,12 @@ using System.Collections.Generic;
 
 namespace Tracer.Controllers
 {
-    public class PingController : Controller
+    public class PingController : ControllerBase
     {
         [AiurNoCache]
-        public JsonResult Index()
+        public IActionResult Index()
         {
-            return Json(new List<object>());
+            return Ok(new List<object>());
         }
     }
 }
