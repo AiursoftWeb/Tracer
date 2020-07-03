@@ -3,7 +3,7 @@ using System;
 
 namespace Tracer.Attributes
 {
-    public class ForceWS : ActionFilterAttribute
+    public class ForceWs : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext context)
         {

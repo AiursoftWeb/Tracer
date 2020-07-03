@@ -3,7 +3,7 @@
     <div class="container">
         <h1 class="display-4">Tracer</h1>
         @{
-            var description = Assembly.GetEntryAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>().Description;
+            var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
         }
         <p class="lead">@description</p>
         <p>Access from <code>@Context.Connection.RemoteIpAddress.ToString()</code><span class="badge badge-secondary ml-2" id="spanStatus">Idle</span></p>
@@ -23,7 +23,7 @@
                             <input type="number" class="form-control" id="pinglagfilter" value="200">
                         </div>
                         <button class="btn btn-primary" id="pingbutton" onclick="ping()">Start Test</button>
-                        <button class="btn btn-secondary" id="pingbutton" onclick="stopPing()">Stop Test</button>
+                        <button class="btn btn-secondary" id="stop-pingbutton" onclick="stopPing()">Stop Test</button>
                     </div>
                     <p class="test-status mt-3"><kbd id="httpStatus" class="d-none"></kbd></p>
                     <p class="test-status"><kbd id="httpMax" class="d-none"></kbd></p>
@@ -50,7 +50,7 @@
                             <input type="number" class="form-control" id="speedlagfilter" value="0.7">
                         </div>
                         <button class="btn btn-primary" id="downloadbutton" onclick="download()">Start Test</button>
-                        <button class="btn btn-secondary" id="pingbutton" onclick="stopDownload()">Stop Test</button>
+                        <button class="btn btn-secondary" id="stopdownloadbutton" onclick="stopDownload()">Stop Test</button>
                     </div>
                     <p class="test-status mt-3"><kbd id="downStatus" class="d-none"></kbd></p>
                     <p class="test-status"><kbd id="downMax" class="d-none"></kbd></p>
@@ -77,7 +77,7 @@
                             <input type="number" class="form-control" id="wslagfilter" value="300">
                         </div>
                         <button class="btn btn-primary" id="wsbutton" onclick="WsTest()">Start Test</button>
-                        <button class="btn btn-secondary" id="pingbutton" onclick="stopWsTest()">Stop Test</button>
+                        <button class="btn btn-secondary" id="stopwsbutton" onclick="stopWsTest()">Stop Test</button>
                     </div>
                     <p class="test-status mt-3"><kbd id="wsStatus" class="d-none"></kbd></p>
                     <p class="test-status"><kbd id="wsmax" class="d-none"></kbd></p>

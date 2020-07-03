@@ -1,7 +1,6 @@
 ﻿using Aiursoft.SDK.Attributes;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Net.WebSockets;
 using System.Threading.Tasks;
 using Tracer.Models;
 
@@ -10,13 +9,13 @@ namespace Tracer.Controllers
     public class HomeController : Controller
     {
         private static byte[] _data;
-        private const int _length = 1024 * 1024 * 1;
+        private const int Length = 1024 * 1024 * 1;
         private static byte[] GetData()
         {
             if (_data == null)
             {
-                _data = new byte[_length];
-                for (int i = 0; i < _length; i++)
+                _data = new byte[Length];
+                for (int i = 0; i < Length; i++)
                 {
                     _data[i] = 1;
                 }
@@ -24,7 +23,7 @@ namespace Tracer.Controllers
             return _data;
         }
 
-        private readonly IPusher<WebSocket> _pusher;
+        private readonly IPusher _pusher;
         public HomeController()
         {
             _pusher = new WebSocketPusher();
@@ -62,7 +61,7 @@ namespace Tracer.Controllers
         [AiurNoCache]
         public IActionResult Download()
         {
-            HttpContext.Response.Headers.Add("Content-Length", _length.ToString());
+            HttpContext.Response.Headers.Add("Content-Length", Length.ToString());
             return new FileContentResult(GetData(), "application/octet-stream");
         }
     }

@@ -5,7 +5,7 @@ using Tracer.Services;
 
 namespace Tracer.Models
 {
-    public class WebSocketPusher : IPusher<WebSocket>
+    public class WebSocketPusher : IPusher
     {
         private WebSocket _ws;
         public bool Connected => _ws.State == WebSocketState.Open;
