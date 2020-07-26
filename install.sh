@@ -2,6 +2,7 @@ install_tracer()
 {
     server="$1" 
     echo "Installing Aiursoft Tracer to domain $server."
+    set -x
     cd ~
 
     # Valid domain is required
@@ -32,22 +33,11 @@ install_tracer()
 
     # Build the code
     echo 'Building the source code...'
-    tracer_path="$(pwd)"
+    tracer_path="$(pwd)/app"
     dotnet publish -c Release -o $tracer_path ./Tracer/Tracer.csproj
-
-    # Config caddy
-    echo 'Configuring the web proxy...'
-    echo "$server
-
-root * $tracer_path/wwwroot
-file_server
-
-reverse_proxy /* 127.0.0.1:5000
-    " > /etc/caddy/Caddyfile
 
     # Register tracer service
     echo "Registering Tracer service..."
-    cd ~/app
     echo "[Unit]
     Description=Tracer Service
     After=network.target
@@ -63,6 +53,16 @@ reverse_proxy /* 127.0.0.1:5000
     WantedBy=multi-user.target" > /etc/systemd/system/tracer.service
     systemctl enable tracer.service
     systemctl start tracer.service
+
+    # Config caddy
+    echo 'Configuring the web proxy...'
+    echo "$server
+
+root * $tracer_path/wwwroot
+file_server
+
+reverse_proxy /* 127.0.0.1:5000
+    " > /etc/caddy/Caddyfile
     systemctl restart caddy.service
 
     # Finish the installation
