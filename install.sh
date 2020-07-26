@@ -2,7 +2,6 @@ install_tracer()
 {
     server="$1" 
     echo "Installing Aiursoft Tracer to domain $server."
-    set -x
     cd ~
 
     # Valid domain is required
@@ -23,7 +22,6 @@ install_tracer()
     dpkg -i packages-microsoft-prod.deb
     echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" | tee -a /etc/apt/sources.list.d/caddy-fury.list
     apt update
-    apt upgrade -y
     apt install -y apt-transport-https curl git vim dotnet-sdk-3.1 caddy
     apt autoremove -y
 
@@ -65,6 +63,7 @@ reverse_proxy /* 127.0.0.1:5000
 
     # Finish the installation
     echo "Successfully installed Tracer as a service in your machine! Please open https://$server to try it now!"
+    echo "Strongly suggest run 'sudo apt upgrade' on machine!"
     echo "Strongly suggest to reboot the machine!"
 }
 
