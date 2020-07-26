@@ -14,6 +14,14 @@ With the following ARM template you can automate the creation of the resources f
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Tracer/tree/master)
 
+## Deploy to Ubuntu 18.04
+
+Execute the following command in Ubuntu 18.04:
+
+```bash
+$ curl -sL https://github.com/AiursoftWeb/Tracer/raw/master/install.sh | sudo bash -s www.server.com
+```
+
 ## Requirements
 
 Requirements about how to run
