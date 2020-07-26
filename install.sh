@@ -67,6 +67,7 @@ reverse_proxy /* 127.0.0.1:5000
 
     # Finish the installation
     echo "Successfully installed Tracer as a service in your machine! Please open https://$server to try it now!"
+    echo "Strongly suggest to reboot the machine!"
 }
 
 install_tracer "$@"
