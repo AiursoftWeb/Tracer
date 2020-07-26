@@ -1,7 +1,69 @@
 install_tracer()
 {
     server="$1" 
-    echo 'Installing Aiursoft Tracer to domain $server'
+    echo "Installing Aiursoft Tracer to domain $server."
+    cd ~
+
+    # Valid domain is required
+    if [[ "$server" == "" ]]; then
+        echo "You must specify your server domain. Try execute with 'bash -s www.a.com'"
+        return 9
+    fi
+
+    # Enable BBR
+    echo "Enabling BBR..."
+    echo 'net.core.default_qdisc=fq' | tee -a /etc/sysctl.conf
+    echo 'net.ipv4.tcp_congestion_control=bbr' | tee -a /etc/sysctl.conf
+    sysctl -p
+
+    # Install basic packages
+    echo "Installing packages..."
+    wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+    dpkg -i packages-microsoft-prod.deb
+    echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" | tee -a /etc/apt/sources.list.d/caddy-fury.list
+    apt update
+    apt upgrade -y
+    apt install -y apt-transport-https curl git vim dotnet-sdk-3.1 caddy
+    apt autoremove -y
+
+    # Download the source code
+    echo 'Downloading the source code...'
+    git clone https://github.com/AiursoftWeb/Tracer.git
+
+    # Build the code
+    echo 'Building the source code...'
+    tracer_path="$(pwd)"
+    dotnet publish -c Release -o $tracer_path ./Tracer/Tracer.csproj
+
+    # Config caddy
+    echo 'Configuring the web proxy...'
+    echo "$server
+
+root * $tracer_path/wwwroot
+file_server
+
+reverse_proxy /* 127.0.0.1:5000
+    " > /etc/caddy/Caddyfile
+
+    # Register tracer service
+    echo "Registering Tracer service..."
+    cd ~/app
+    echo "[Unit]
+    Description=Tracer Service
+    After=network.target
+    Wants=network.target
+
+    [Service]
+    Type=simple
+    ExecStart=/usr/bin/dotnet $tracer_path/Tracer.dll
+    Restart=on-failure
+    RestartPreventExitStatus=23
+
+    [Install]
+    WantedBy=multi-user.target" > /etc/systemd/system/tracer.service
+    systemctl enable tracer.service
+    systemctl start tracer.service
+    systemctl restart caddy.service
 }
 
 install_tracer "$@"

@@ -14,12 +14,14 @@ With the following ARM template you can automate the creation of the resources f
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Tracer/tree/master)
 
-## Deploy to Ubuntu 18.04
+## Deploy to Ubuntu 20.04
 
-Execute the following command in Ubuntu 18.04:
+First, specify a domain name for your Ubuntu 20.04 brand new server.
+
+And execute the following command in the server:
 
 ```bash
-$ curl -sL https://github.com/AiursoftWeb/Tracer/raw/master/install.sh | sudo bash -s www.server.com
+$ curl -sL https://github.com/AiursoftWeb/Tracer/raw/master/install.sh | sudo bash -s www.example.com
 ```
 
 ## Requirements
