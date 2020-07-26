@@ -46,6 +46,7 @@ install_tracer()
     [Service]
     Type=simple
     ExecStart=/usr/bin/dotnet $tracer_path/Tracer.dll
+    WorkingDirectory=$tracer_path
     Restart=on-failure
     RestartPreventExitStatus=23
 
@@ -57,9 +58,6 @@ install_tracer()
     # Config caddy
     echo 'Configuring the web proxy...'
     echo "$server
-
-root * $tracer_path/wwwroot
-file_server
 
 reverse_proxy /* 127.0.0.1:5000
     " > /etc/caddy/Caddyfile
