@@ -64,6 +64,9 @@ reverse_proxy /* 127.0.0.1:5000
     systemctl enable tracer.service
     systemctl start tracer.service
     systemctl restart caddy.service
+
+    # Finish the installation
+    echo "Successfully installed Tracer as a service in your machine! Please open https://$server to try it now!"
 }
 
 install_tracer "$@"
