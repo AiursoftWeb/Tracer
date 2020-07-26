@@ -8,13 +8,13 @@ Tracer is a simple network speed test app. Deploy this on your own server. Open 
 
 Try a running tracer [here](https://tracer.aiursoft.com).
 
-## Deploy to Azure
+## Run in Azure
 
 With the following ARM template you can automate the creation of the resources for this website.
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Tracer/tree/master)
 
-## Deploy to Ubuntu 20.04
+## Run in Ubuntu 20.04
 
 First, specify a domain name for your Ubuntu 20.04 brand new server.
 
@@ -24,7 +24,7 @@ And execute the following command in the server:
 $ curl -sL https://github.com/AiursoftWeb/Tracer/raw/master/install.sh | sudo bash -s www.example.com
 ```
 
-## Requirements
+## Run locally
 
 Requirements about how to run
 
@@ -35,18 +35,16 @@ Requirements about how to develope
 * [.NET Core SDK 3.1.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
 * [VS Code](https://code.visualstudio.com) (Strongly suggest)
 
-## How to run locally
-
 1. Excute `dotnet restore` to restore all dotnet requirements
 2. Excute `dotnet run` to run the app
 3. Use your browser to view [http://localhost:5000](http://localhost:5000)
 
-## How to run in Microsoft Visual Studio
+## Run in Microsoft Visual Studio
 
 1. Open the `.sln` file in the project path. 
 2. Press `F5`.
 
-## How to run in docker
+## Run in docker
 
 Pull the container using command:
 
@@ -67,7 +65,6 @@ $ docker run -d -p 8080:80 tracer
 ```
 
 That will start a web server at `http://localhost:8080` and you can test the app.
-
 
 ## How to contribute
 
