@@ -19,7 +19,7 @@ install_tracer()
     # Install basic packages
     echo "Installing packages..."
     wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-    dpkg -i packages-microsoft-prod.deb
+    dpkg -i packages-microsoft-prod.deb && rm ./packages-microsoft-prod.deb
     echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" | tee -a /etc/apt/sources.list.d/caddy-fury.list
     apt update
     apt install -y apt-transport-https curl git vim dotnet-sdk-3.1 caddy
@@ -27,6 +27,7 @@ install_tracer()
 
     # Download the source code
     echo 'Downloading the source code...'
+    ls | grep -q Tracer && rm ./Tracer -rvf
     git clone https://github.com/AiursoftWeb/Tracer.git
 
     # Build the code
@@ -43,7 +44,7 @@ install_tracer()
 
     [Service]
     Type=simple
-    ExecStart=/usr/bin/dotnet $tracer_path/Tracer.dll
+    ExecStart=/usr/bin/dotnet $tracer_path/Tracer.dll --urls=http://localhost:51210/
     WorkingDirectory=$tracer_path
     Restart=on-failure
     RestartPreventExitStatus=23
@@ -57,8 +58,8 @@ install_tracer()
     echo 'Configuring the web proxy...'
     echo "$server
 
-reverse_proxy /* 127.0.0.1:5000
-    " > /etc/caddy/Caddyfile
+reverse_proxy /* 127.0.0.1:51210
+    " >> /etc/caddy/Caddyfile
     systemctl restart caddy.service
 
     # Finish the installation
