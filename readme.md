@@ -14,9 +14,9 @@ With the following ARM template you can automate the creation of the resources f
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Tracer/tree/master)
 
-## Run in Ubuntu 20.04
+## Run in Ubuntu
 
-First, specify a domain name for your Ubuntu 20.04 brand new server.
+First, specify a domain name for your Ubuntu 18.04+, brand new server.
 
 And execute the following command in the server:
 
