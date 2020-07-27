@@ -17,5 +17,8 @@ delete_service "tracer.service"
 
 rm ~/app -rvf
 rm ~/Tracer -rvf
+rm ~/etc/caddy -rvf
 
 apt remove caddy -y
+
+echo "Successfully uninstalled tracer on your machine!"
