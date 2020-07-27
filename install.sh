@@ -56,10 +56,10 @@ install_tracer()
 
     # Config caddy
     echo 'Configuring the web proxy...'
-    echo "$server
-
-reverse_proxy /* 127.0.0.1:51210
-    " >> /etc/caddy/Caddyfile
+    echo "
+$server {
+    reverse_proxy /* 127.0.0.1:51210
+}" >> /etc/caddy/Caddyfile
     systemctl restart caddy.service
 
     # Finish the installation
