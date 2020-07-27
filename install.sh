@@ -25,7 +25,7 @@ install_tracer()
     echo "Installing packages..."
     wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
     dpkg -i packages-microsoft-prod.deb && rm ./packages-microsoft-prod.deb
-    echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" | tee -a /etc/apt/sources.list.d/caddy-fury.list
+    cat /etc/apt/sources.list.d/caddy-fury.list | grep -q caddy || echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" | tee -a /etc/apt/sources.list.d/caddy-fury.list
     apt update
     apt install -y apt-transport-https curl git vim dotnet-sdk-3.1 caddy
     apt autoremove -y
