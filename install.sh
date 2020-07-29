@@ -6,10 +6,31 @@ enable_bbr()
     sysctl -p
 }
 
+get_port()
+{
+    while true; 
+    do
+        local PORT=$(shuf -i 40000-65000 -n 1)
+        ss -lpn | grep -q ":$PORT " || echo $PORT && break
+    done
+}
+
+open_port()
+{
+    port_to_open="$1"
+    if [[ "$port_to_open" == "" ]]; then
+        echo "You must specify a port!'"
+        return 9
+    fi
+
+    ufw allow $port_to_open/tcp
+    ufw reload
+}
+
 install_tracer()
 {
     server="$1"
-    port=$(shuf -i 50000-65000 -n 1)
+    port=$(get_port) && echo Using internal port: $port
     echo "Installing Aiursoft Tracer to domain $server."
     cd ~
 
@@ -38,7 +59,7 @@ install_tracer()
 
     # Build the code
     echo 'Building the source code...'
-    tracer_path="$(pwd)/app"
+    tracer_path="$(pwd)/Apps/TracerApp"
     dotnet publish -c Release -o $tracer_path ./Tracer/Tracer.csproj
 
     # Register tracer service
@@ -68,9 +89,9 @@ $server {
 }" >> /etc/caddy/Caddyfile
     systemctl restart caddy.service
 
-    # Config ufw
-    ufw allow 1433/tcp
-    ufw reload
+    # Config firewall
+    open_port 443
+    open_port 80
 
     # Finish the installation
     echo "Successfully installed Tracer as a service in your machine! Please open https://$server to try it now!"
