@@ -67,6 +67,10 @@ $server {
 }" >> /etc/caddy/Caddyfile
     systemctl restart caddy.service
 
+    # Config ufw
+    ufw allow 1433/tcp
+    ufw reload
+
     # Finish the installation
     echo "Successfully installed Tracer as a service in your machine! Please open https://$server to try it now!"
     echo "Strongly suggest run 'sudo apt upgrade' on machine!"
