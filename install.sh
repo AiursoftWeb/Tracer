@@ -8,7 +8,8 @@ enable_bbr()
 
 install_tracer()
 {
-    server="$1" 
+    server="$1"
+    port=$(shuf -i 50000-65000 -n 1)
     echo "Installing Aiursoft Tracer to domain $server."
     cd ~
 
@@ -49,7 +50,7 @@ install_tracer()
 
     [Service]
     Type=simple
-    ExecStart=/usr/bin/dotnet $tracer_path/Tracer.dll --urls=http://localhost:51210/
+    ExecStart=/usr/bin/dotnet $tracer_path/Tracer.dll --urls=http://localhost:$port/
     WorkingDirectory=$tracer_path
     Restart=on-failure
     RestartPreventExitStatus=23
@@ -63,7 +64,7 @@ install_tracer()
     echo 'Configuring the web proxy...'
     echo "
 $server {
-    reverse_proxy /* 127.0.0.1:51210
+    reverse_proxy /* 127.0.0.1:$port
 }" >> /etc/caddy/Caddyfile
     systemctl restart caddy.service
 
