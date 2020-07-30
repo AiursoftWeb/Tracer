@@ -97,13 +97,14 @@ install_tracer()
 
     # Download the source code
     echo 'Downloading the source code...'
-    ls | grep -q Tracer && rm ./Tracer -rvf
+    ls | grep -q Tracer && rm ./Tracer -rf
     git clone https://github.com/AiursoftWeb/Tracer.git
 
     # Build the code
     echo 'Building the source code...'
-    tracer_path="$(pwd)/Apps/TracerApp"
+    tracer_path="$(pwd)/apps/TracerApp"
     dotnet publish -c Release -o $tracer_path ./Tracer/Tracer.csproj
+    rm ~/Tracer -rvf
 
     # Register tracer service
     echo "Registering Tracer service..."
