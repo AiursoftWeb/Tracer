@@ -32,6 +32,12 @@ open_port()
     ufw reload
 }
 
+enable_firewall()
+{
+    open_port 22
+    echo "y" | ufw enable
+}
+
 add_caddy_proxy()
 {
     domain_name="$1"
@@ -68,6 +74,14 @@ register_service()
     systemctl start $service_name.service
 }
 
+add_source()
+{
+    wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -r -s)/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+    dpkg -i packages-microsoft-prod.deb && rm ./packages-microsoft-prod.deb
+    cat /etc/apt/sources.list.d/caddy-fury.list | grep -q caddy || echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" | tee -a /etc/apt/sources.list.d/caddy-fury.list
+    apt update
+}
+
 install_tracer()
 {
     server="$1"
@@ -98,12 +112,8 @@ install_tracer()
 
     # Install basic packages
     echo "Installing packages..."
-    wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -r -s)/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-    dpkg -i packages-microsoft-prod.deb && rm ./packages-microsoft-prod.deb
-    cat /etc/apt/sources.list.d/caddy-fury.list | grep -q caddy || echo "deb [trusted=yes] https://apt.fury.io/caddy/ /" | tee -a /etc/apt/sources.list.d/caddy-fury.list
-    apt update
+    add_source
     apt install -y apt-transport-https curl git vim dotnet-sdk-3.1 caddy
-    apt autoremove -y
 
     # Download the source code
     echo 'Downloading the source code...'
@@ -125,6 +135,7 @@ install_tracer()
     add_caddy_proxy $server $port
 
     # Config firewall
+    enable_firewall
     open_port 443
     open_port 80
 
