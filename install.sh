@@ -73,11 +73,22 @@ install_tracer()
 {
     server="$1"
     echo "Installing Aiursoft Tracer to domain $server..."
+
     # Valid domain is required
-    if [[ "$server" == "" ]]; then
-        echo "You must specify your server domain. Try execute with 'bash -s www.a.com'"
+    ip=$(dig +short $server)
+    if [[ "$server" == "" ]] || [[ "$ip" == "" ]]; then
+        echo "You must specify your valid server domain. Try execute with 'bash -s www.a.com'"
         return 9
     fi
+
+    if [[ $(ifconfig) == *"$ip"* ]]; 
+    then
+        echo "The ip result: $ip is your current machine IP."
+    else
+        echo "The ip result: $ip seems not to be your current machine IP!"
+        return 9
+    fi
+
     port=$(get_port)
     echo "Using internal port: $port"
 
