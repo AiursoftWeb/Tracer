@@ -44,19 +44,43 @@ $domain_name {
     systemctl restart caddy.service
 }
 
+register_service()
+{
+    service_name="$1"
+    local_port="$2"
+    run_path="$3"
+    dll="$4"
+    echo "[Unit]
+    Description=$dll Service
+    After=network.target
+    Wants=network.target
+
+    [Service]
+    Type=simple
+    ExecStart=/usr/bin/dotnet $run_path/$dll.dll --urls=http://localhost:$local_port/
+    WorkingDirectory=$run_path
+    Restart=on-failure
+    RestartPreventExitStatus=10
+
+    [Install]
+    WantedBy=multi-user.target" > /etc/systemd/system/$service_name.service
+    systemctl enable $service_name.service
+    systemctl start $service_name.service
+}
+
 install_tracer()
 {
     server="$1"
     echo "Installing Aiursoft Tracer to domain $server..."
-    
-    port=$(get_port) && echo Using internal port: $port
-    cd ~
-
     # Valid domain is required
     if [[ "$server" == "" ]]; then
         echo "You must specify your server domain. Try execute with 'bash -s www.a.com'"
         return 9
     fi
+    port=$(get_port)
+    echo "Using internal port: $port"
+
+    cd ~
 
     # Enable BBR
     enable_bbr
@@ -82,22 +106,7 @@ install_tracer()
 
     # Register tracer service
     echo "Registering Tracer service..."
-    echo "[Unit]
-    Description=Tracer Service
-    After=network.target
-    Wants=network.target
-
-    [Service]
-    Type=simple
-    ExecStart=/usr/bin/dotnet $tracer_path/Tracer.dll --urls=http://localhost:$port/
-    WorkingDirectory=$tracer_path
-    Restart=on-failure
-    RestartPreventExitStatus=23
-
-    [Install]
-    WantedBy=multi-user.target" > /etc/systemd/system/tracer.service
-    systemctl enable tracer.service
-    systemctl start tracer.service
+    register_service "tracer" $port $tracer_path "Tracer"
 
     # Config caddy
     echo 'Configuring the web proxy...'
