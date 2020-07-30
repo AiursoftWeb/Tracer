@@ -83,9 +83,9 @@ install_tracer()
 
     if [[ $(ifconfig) == *"$ip"* ]]; 
     then
-        echo "The ip result: $ip is your current machine IP."
+        echo "The ip result from domian $server is: $ip and it is your current machine IP!"
     else
-        echo "The ip result: $ip seems not to be your current machine IP!"
+        echo "The ip result from domian $server is: $ip and it seems not to be your current machine IP!"
         return 9
     fi
 
