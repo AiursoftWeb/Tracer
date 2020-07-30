@@ -15,7 +15,7 @@ delete_service()
 delete_service "caddy.service"
 delete_service "tracer.service"
 
-rm ~/app -rvf
+rm ~/Apps -rvf
 rm ~/Tracer -rvf
 rm /etc/caddy -rvf
 
