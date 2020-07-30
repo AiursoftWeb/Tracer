@@ -50,6 +50,7 @@ register_service()
     local_port="$2"
     run_path="$3"
     dll="$4"
+    mkdir /etc/systemd/aiursoft
     echo "[Unit]
     Description=$dll Service
     After=network.target
@@ -63,7 +64,7 @@ register_service()
     RestartPreventExitStatus=10
 
     [Install]
-    WantedBy=multi-user.target" > /etc/systemd/system/$service_name.service
+    WantedBy=multi-user.target" > /etc/systemd/aiursoft/$service_name.service
     systemctl enable $service_name.service
     systemctl start $service_name.service
 }
