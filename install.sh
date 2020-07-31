@@ -11,6 +11,12 @@ enable_bbr()
     sysctl net.ipv4.tcp_available_congestion_control | grep -q bbr ||  enable_bbr_force
 }
 
+set_production()
+{
+    cat /etc/environment | grep -q "Production" || echo 'ASPNETCORE_ENVIRONMENT="Production"' | tee -a /etc/environment
+    export ASPNETCORE_ENVIRONMENT="Production"
+}
+
 get_port()
 {
     while true; 
@@ -109,6 +115,9 @@ install_tracer()
 
     # Enable BBR
     enable_bbr
+
+    # Set production mode
+    set_production
 
     # Install basic packages
     echo "Installing packages..."
