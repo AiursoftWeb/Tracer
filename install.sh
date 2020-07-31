@@ -127,7 +127,7 @@ install_tracer()
     # Download the source code
     echo 'Downloading the source code...'
     ls | grep -q Tracer && rm ./Tracer -rf
-    git clone https://github.com/AiursoftWeb/Tracer.git
+    git clone -b master https://github.com/AiursoftWeb/Tracer.git
 
     # Build the code
     echo 'Building the source code...'
