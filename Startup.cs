@@ -32,10 +32,6 @@ namespace Tracer
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseForwardedHeaders(new ForwardedHeadersOptions
-            {
-                ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
-            });
             app.UseAiurUserHandler(env.IsDevelopment());
             app.UseWebSockets();
             app.UseAiursoftDefault();
