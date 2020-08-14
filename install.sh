@@ -5,7 +5,7 @@ install_tracer()
 {
     if [[ $(curl -sL ifconfig.me) == *"$(dig +short $1)"* ]]; 
     then
-        IP is correct.
+        echo "IP is correct."
     else
         "$1 is not your current machine IP!"
         return 9
