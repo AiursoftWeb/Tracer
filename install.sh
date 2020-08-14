@@ -26,12 +26,10 @@ install_tracer()
     aiur system/set_aspnet_prod
     aiur install/caddy
     aiur install/dotnet
-    apt install -y git vim
 
     # Download the source code
     echo 'Downloading the source code...'
-    ls | grep -q Tracer && rm ./Tracer -rf
-    git clone -b master https://github.com/AiursoftWeb/Tracer.git
+    aiur git/clone_to AiursoftWeb/Tracer ./Tracer
 
     # Build the code
     echo 'Building the source code...'

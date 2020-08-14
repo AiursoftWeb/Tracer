@@ -24,12 +24,6 @@ And execute the following command in the server:
 $ curl -sL https://github.com/AiursoftWeb/Tracer/raw/master/install.sh | sudo bash -s www.example.com
 ```
 
-To uninstall:
-
-```bash
-$ curl -sL https://github.com/AiursoftWeb/Tracer/raw/master/uninstall.sh | sudo bash
-```
-
 ## Run locally
 
 Requirements about how to run
