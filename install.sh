@@ -39,7 +39,7 @@ install_tracer()
     dotnet publish -c Release -o $tracer_path ./Tracer/Tracer.csproj && rm ~/Tracer -rvf
 
     # Register tracer service
-    aiur services/register_service "tracer" $port $tracer_path "Tracer"
+    aiur services/register_aspnet_service "tracer" $port $tracer_path "Tracer"
     aiur caddy/add_proxy $server $port
     aiur firewall/enable_firewall
     aiur firewall/open_port 443
