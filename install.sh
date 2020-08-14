@@ -7,7 +7,7 @@ install_tracer()
     then
         echo "IP is correct."
     else
-        "$1 is not your current machine IP!"
+        echo "$1 is not your current machine IP!"
         return 9
     fi
 
