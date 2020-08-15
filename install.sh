@@ -17,11 +17,7 @@ install_tracer()
     aiur install/caddy
     aiur install/dotnet
     aiur git/clone_to AiursoftWeb/Tracer ./Tracer
-    dotnet publish \
-        -r linux-x64 \
-        -c Release \
-        --self-contained false \
-        -o $tracer_path ./Tracer/Tracer.csproj && rm ./Tracer -rf
+    aiur dotnet/publish $tracer_path ./Tracer/Tracer.csproj
     aiur services/register_aspnet_service "tracer" $port $tracer_path "Tracer"
     aiur caddy/add_proxy $1 $port
     aiur firewall/enable_firewall
@@ -29,6 +25,7 @@ install_tracer()
     aiur firewall/open_port 80
 
     echo "Successfully installed Tracer as a service in your machine! Please open https://$1 to try it now!"
+    rm ./Tracer -rf
 }
 
 install_tracer "$@"
