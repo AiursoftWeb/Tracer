@@ -29,7 +29,6 @@ namespace Tracer.Controllers
             _pusher = new WebSocketPusher();
         }
 
-
         public IActionResult Index()
         {
             return View();
