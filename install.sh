@@ -17,7 +17,7 @@ install_tracer()
     aiur install/caddy
     aiur install/dotnet
     aiur git/clone_to AiursoftWeb/Tracer ./Tracer
-    aiur dotnet/publish $tracer_path ./Tracer/Tracer.csproj
+    aiur dotnet/publish $tracer_path ./Tracer/src/Tracer.csproj
     aiur services/register_aspnet_service "tracer" $port $tracer_path "Tracer"
     aiur caddy/add_proxy $1 $port
     aiur firewall/enable_firewall
