@@ -6,7 +6,7 @@
             var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
         }
         <p class="lead">@description</p>
-        <p>Access from <code>@Context.Connection.RemoteIpAddress.ToString()</code><span class="badge badge-secondary ml-2" id="spanStatus">Idle</span></p>
+        <p>Access from <code>@Context.Connection.RemoteIpAddress?.ToString()</code><span class="badge badge-secondary ml-2" id="spanStatus">Idle</span></p>
         <p><button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
     </div>
 </div>
