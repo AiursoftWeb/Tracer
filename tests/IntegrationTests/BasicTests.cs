@@ -1,4 +1,6 @@
-﻿using System.Threading.Tasks;
+﻿using AngleSharp.Html.Dom;
+using System.Threading.Tasks;
+using Tracer.Tests.Tools;
 using Xunit;
 
 namespace Tracer.Tests.IntegrationTests
@@ -20,11 +22,12 @@ namespace Tracer.Tests.IntegrationTests
         {
             var client = _factory.CreateClient();
             var response = await client.GetAsync(url);
-            var content = await response.Content.ReadAsStringAsync();
+            var doc = await HtmlHelpers.GetDocumentAsync(response);
 
             response.EnsureSuccessStatusCode(); // Status Code 200-299
             Assert.Equal("text/html; charset=utf-8", response.Content.Headers.ContentType.ToString());
-            Assert.Contains("simple network quality testing app", content);
+            var p = (IHtmlElement)doc.QuerySelector("p.lead");
+            Assert.Equal("Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.", p.InnerHtml);
         }
 
         [Theory]
