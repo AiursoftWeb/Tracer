@@ -28,11 +28,11 @@ $ curl -sL https://github.com/AiursoftWeb/Tracer/raw/master/install.sh | sudo ba
 
 Requirements about how to run
 
-* [.NET Core runtime 3.1.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
+* [.NET Core runtime 5.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
 
 Requirements about how to develope
 
-* [.NET Core SDK 3.1.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
+* [.NET Core SDK 5.0 or later](https://github.com/dotnet/core/tree/master/release-notes)
 * [VS Code](https://code.visualstudio.com) (Strongly suggest)
 
 1. Excute `dotnet restore` to restore all dotnet requirements
