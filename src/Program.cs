@@ -7,15 +7,27 @@ namespace Tracer
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args)
-                .Build()
+            BuildHost(args)
                 .Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args)
+        public static IHost BuildHost(string[] args, int port = -1)
+        {
+            return CreateHostBuilder(args, port)
+                .Build();
+        }
+
+        private static IHostBuilder CreateHostBuilder(string[] args, int port)
         {
             return Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder => webBuilder.UseStartup<Startup>());
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    if (port > 0)
+                    {
+                        webBuilder.UseUrls($"http://localhost:{port}");
+                    }
+                    webBuilder.UseStartup<Startup>();
+                });
         }
     }
 }

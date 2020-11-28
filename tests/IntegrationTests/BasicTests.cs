@@ -19,7 +19,7 @@ namespace Tracer.Tests.IntegrationTests
         [TestInitialize]
         public async Task CreateServer()
         {
-            _server = TracerFactory.BuildTracer(_port);
+            _server = Program.BuildHost(null, _port);
             _http = new HttpClient();
             await _server.StartAsync();
         }
@@ -50,7 +50,6 @@ namespace Tracer.Tests.IntegrationTests
         public async Task GetDownload()
         {
             var url = _endpointUrl + "/Home/Download";
-            Console.WriteLine(url);
             var response = await _http.GetAsync(url);
             var content = await response.Content.ReadAsStringAsync();
 
