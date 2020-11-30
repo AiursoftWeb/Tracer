@@ -57,5 +57,17 @@ namespace Tracer.Tests.IntegrationTests
             Assert.AreEqual("application/octet-stream", response.Content.Headers.ContentType.ToString());
             Assert.AreEqual(1024 * 1024, content.Length);
         }
+
+        [TestMethod]
+        public async Task Ping()
+        {
+            var url = _endpointUrl + "/pINg";
+            var response = await _http.GetAsync(url);
+            var content = await response.Content.ReadAsStringAsync();
+
+            response.EnsureSuccessStatusCode(); // Status Code 200-299
+            Assert.AreEqual("application/json; charset=utf-8", response.Content.Headers.ContentType.ToString());
+            Assert.AreEqual("[]", content);
+        }
     }
 }
