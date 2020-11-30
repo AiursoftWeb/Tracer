@@ -16,7 +16,6 @@ namespace Tracer
     public class Startup
     {
         private IConfiguration Configuration { get; }
-        private bool underTest = Assembly.GetCallingAssembly() != typeof(Program).Assembly;
 
         public Startup(IConfiguration configuration)
         {
@@ -30,16 +29,12 @@ namespace Tracer
             services.AddAiurMvc();
             services.AddArchonServer(Configuration.GetConnectionString("ArchonConnection"));
             services.AddObserverServer(Configuration.GetConnectionString("ObserverConnection"));
-            services.AddBasic();
-            if (underTest)
-            {
-                services.AddLibraryDependencies();
-            }
+            services.AddAiursoftSDK();
         }
 
         public virtual void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseAiurUserHandler(env.IsDevelopment() || underTest);
+            app.UseAiurUserHandler(env.IsDevelopment());
             app.UseWebSockets();
             app.UseAiursoftDefault();
         }

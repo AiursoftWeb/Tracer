@@ -1,10 +1,10 @@
 ﻿using AngleSharp.Html.Dom;
 using Microsoft.Extensions.Hosting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Tracer.Tests.Tools;
+using static Aiursoft.WebTools.Extends;
 
 namespace Tracer.Tests.IntegrationTests
 {
@@ -19,7 +19,7 @@ namespace Tracer.Tests.IntegrationTests
         [TestInitialize]
         public async Task CreateServer()
         {
-            _server = Program.BuildHost(null, _port);
+            _server = App<Startup>(port: _port);
             _http = new HttpClient();
             await _server.StartAsync();
         }
