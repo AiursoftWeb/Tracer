@@ -19,7 +19,7 @@ namespace Tracer.Tests.IntegrationTests
         [TestInitialize]
         public async Task CreateServer()
         {
-            _server = App<Startup>(port: _port);
+            _server = App<TestStartup>(port: _port);
             _http = new HttpClient();
             await _server.StartAsync();
         }

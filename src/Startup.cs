@@ -24,7 +24,7 @@ namespace Tracer
             AppsContainer.CurrentAppSecret = configuration["TracerAppSecret"];
         }
 
-        public virtual void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
             services.AddAiurMvc();
             services.AddArchonServer(Configuration.GetConnectionString("ArchonConnection"));
@@ -32,7 +32,7 @@ namespace Tracer
             services.AddAiursoftSDK();
         }
 
-        public virtual void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseAiurUserHandler(env.IsDevelopment());
             app.UseWebSockets();
