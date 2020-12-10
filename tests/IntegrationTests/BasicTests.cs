@@ -1,4 +1,5 @@
-﻿using AngleSharp.Html.Dom;
+﻿using Aiursoft.XelNaga.Tools;
+using AngleSharp.Html.Dom;
 using Microsoft.Extensions.Hosting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
@@ -16,10 +17,16 @@ namespace Tracer.Tests.IntegrationTests
     [TestClass]
     public class BasicTests
     {
-        private readonly string _endpointUrl = $"http://localhost:{_port}";
-        private const int _port = 15999;
+        private readonly string _endpointUrl;
+        private readonly int _port;
         private IHost _server;
         private HttpClient _http;
+
+        public BasicTests()
+        {
+            _port = Network.GetAvailablePort();
+            _endpointUrl = $"http://localhost:{_port}";
+        }
 
         [TestInitialize]
         public async Task CreateServer()
