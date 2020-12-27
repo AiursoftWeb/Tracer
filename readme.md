@@ -16,7 +16,7 @@ Try a running tracer [here](https://tracer.aiursoft.com).
 
 With the following ARM template you can automate the creation of the resources for this website.
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://deploy.azure.com/?repository=https://github.com/AiursoftWeb/Tracer/tree/master)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAiursoftWeb%2FTracer%2Fdev%2Fazuredeploy.json)
 
 ## Run in Ubuntu
 
