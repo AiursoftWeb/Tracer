@@ -53,7 +53,7 @@ namespace Tracer.Tests.IntegrationTests
             var doc = await HtmlHelpers.GetDocumentAsync(response);
 
             response.EnsureSuccessStatusCode(); // Status Code 200-299
-            Assert.AreEqual("text/html; charset=utf-8", response.Content.Headers.ContentType.ToString());
+            Assert.AreEqual("text/html; charset=utf-8", response.Content?.Headers?.ContentType?.ToString());
             var p = (IHtmlElement)doc.QuerySelector("p.lead");
             Assert.AreEqual("Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.", p.InnerHtml);
         }
@@ -66,7 +66,7 @@ namespace Tracer.Tests.IntegrationTests
             var content = await response.Content.ReadAsStringAsync();
 
             response.EnsureSuccessStatusCode(); // Status Code 200-299
-            Assert.AreEqual("application/octet-stream", response.Content.Headers.ContentType.ToString());
+            Assert.AreEqual("application/octet-stream", response.Content?.Headers?.ContentType?.ToString());
             Assert.AreEqual(1024 * 1024, content.Length);
         }
 
@@ -78,11 +78,11 @@ namespace Tracer.Tests.IntegrationTests
             var content = await response.Content.ReadAsStringAsync();
 
             response.EnsureSuccessStatusCode(); // Status Code 200-299
-            Assert.AreEqual("application/json; charset=utf-8", response.Content.Headers.ContentType.ToString());
+            Assert.AreEqual("application/json; charset=utf-8", response.Content?.Headers?.ContentType?.ToString());
             Assert.AreEqual("[]", content);
         }
 
-        private static int MessageCount = 0;
+        private static int _messageCount;
         private static async Task Monitor(ClientWebSocket socket)
         {
             var buffer = new ArraySegment<byte>(new byte[2048]);
@@ -91,7 +91,7 @@ namespace Tracer.Tests.IntegrationTests
                 var result = await socket.ReceiveAsync(buffer, CancellationToken.None);
                 if (result.MessageType == WebSocketMessageType.Text)
                 {
-                    MessageCount++;
+                    _messageCount++;
                     string message = Encoding.UTF8.GetString(
                         buffer.Skip(buffer.Offset).Take(buffer.Count).ToArray())
                         .Trim('\0')
@@ -119,9 +119,9 @@ namespace Tracer.Tests.IntegrationTests
             }
 
             await Task.Delay(10);
-            Assert.IsTrue(MessageCount > 3);
-            Assert.IsTrue(MessageCount < 7);
-            Console.WriteLine($"Total messages: {MessageCount}");
+            Assert.IsTrue(_messageCount > 3);
+            Assert.IsTrue(_messageCount < 7);
+            Console.WriteLine($"Total messages: {_messageCount}");
         }
     }
 }
