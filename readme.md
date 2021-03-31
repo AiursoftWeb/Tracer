@@ -12,12 +12,6 @@ Tracer is a simple network speed test app. Deploy this on your own server. Open 
 
 Try a running tracer [here](https://tracer.aiursoft.com).
 
-## Run in Azure
-
-With the following ARM template you can automate the creation of the resources for this website.
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAiursoftWeb%2FTracer%2Fdev%2Fazuredeploy.json)
-
 ## Run in Ubuntu
 
 First, specify a domain name for your Ubuntu 18.04+, brand new server.
