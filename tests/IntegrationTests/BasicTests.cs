@@ -53,7 +53,7 @@ namespace Tracer.Tests.IntegrationTests
             var doc = await HtmlHelpers.GetDocumentAsync(response);
 
             response.EnsureSuccessStatusCode(); // Status Code 200-299
-            Assert.AreEqual("text/html; charset=utf-8", response.Content?.Headers?.ContentType?.ToString());
+            Assert.AreEqual("text/html; charset=utf-8", response.Content.Headers.ContentType?.ToString());
             var p = (IHtmlElement)doc.QuerySelector("p.lead");
             Assert.AreEqual("Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.", p.InnerHtml);
         }
@@ -66,7 +66,7 @@ namespace Tracer.Tests.IntegrationTests
             var content = await response.Content.ReadAsStringAsync();
 
             response.EnsureSuccessStatusCode(); // Status Code 200-299
-            Assert.AreEqual("application/octet-stream", response.Content?.Headers?.ContentType?.ToString());
+            Assert.AreEqual("application/octet-stream", response.Content.Headers.ContentType?.ToString());
             Assert.AreEqual(1024 * 1024, content.Length);
         }
 
@@ -78,7 +78,7 @@ namespace Tracer.Tests.IntegrationTests
             var content = await response.Content.ReadAsStringAsync();
 
             response.EnsureSuccessStatusCode(); // Status Code 200-299
-            Assert.AreEqual("application/json; charset=utf-8", response.Content?.Headers?.ContentType?.ToString());
+            Assert.AreEqual("application/json; charset=utf-8", response.Content.Headers.ContentType?.ToString());
             Assert.AreEqual("[]", content);
         }
 
