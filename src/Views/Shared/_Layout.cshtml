@@ -49,5 +49,5 @@
     <script src="~/js/http.js"></script>
     <script src="~/js/down.js"></script>
     <script src="~/js/site.js"></script>
-    @RenderSection("scripts", required: false)
+    @(await RenderSectionAsync("scripts", required: false))
 </body>
