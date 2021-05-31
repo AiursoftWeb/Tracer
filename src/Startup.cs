@@ -1,15 +1,12 @@
-﻿using System;
-using Aiursoft.Archon.SDK;
+﻿using Aiursoft.Archon.SDK;
 using Aiursoft.Archon.SDK.Services;
 using Aiursoft.Observer.SDK;
 using Aiursoft.SDK;
-using Aiursoft.Scanner;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.Reflection;
 
 namespace Tracer
 {
