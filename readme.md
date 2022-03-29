@@ -4,9 +4,11 @@
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/aiursoft/Star/1)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.com)
 
-Tracer is a simple network speed test app. 
+Tracer is a simple network speed test app.
 
 Tracer is a simple network speed test app. Deploy this on your own server. Open your tracer on your browser. And you can test the speed between you and your server.
+
+![overview](./screenshot.png)
 
 ## Try
 
