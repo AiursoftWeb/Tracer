@@ -13,7 +13,6 @@ install_tracer()
 
     port=$(aiur network/get_port) && echo "Using internal port: $port"
     aiur network/enable_bbr
-    aiur system/set_aspnet_prod
     aiur install/caddy
     aiur install/dotnet
     aiur git/clone_to AiursoftWeb/Tracer ./Tracer
