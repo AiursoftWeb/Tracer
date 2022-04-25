@@ -8,7 +8,7 @@
 <body>
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="@_serviceLocation.WWW">
+            <a class="navbar-brand" href="@ServiceLocation.WWW">
                 @Values.ProjectName
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="@_serviceLocation.Status">Service Status</a>
+                        <a class="nav-link" href="@ServiceLocation.Status">Service Status</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="https://tracer.aiursoft.com">Connection Speed Test</a>
@@ -43,7 +43,7 @@
         </div>
     </footer>
     <vc:aiur-market-js></vc:aiur-market-js>
-    <script src="@_serviceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="@ServiceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
     <vc:scroll-to-top></vc:scroll-to-top>
     <script src="~/js/ws.js"></script>
     <script src="~/js/http.js"></script>
