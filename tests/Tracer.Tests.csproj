@@ -5,10 +5,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="AngleSharp" Version="0.16.1" />
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
-		<PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
-		<PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+		<PackageReference Include="AngleSharp" Version="0.17.1" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+		<PackageReference Include="MSTest.TestAdapter" Version="2.2.10" />
+		<PackageReference Include="MSTest.TestFramework" Version="2.2.10" />
 	</ItemGroup>
 
 	<ItemGroup>
