@@ -1,4 +1,9 @@
 ﻿@using System.Reflection;
+@using System.Diagnostics;
+@{
+    var process = Process.GetCurrentProcess();
+}
+
 <div class="jumbotron">
     <div class="container">
         <h1 class="display-4">Tracer</h1>
@@ -125,7 +130,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Request HTTP Headers (From server's view)</h5>
                     <div class="table-responsive">
-                        <table class="table table-striped table-hover table-sm" id="logTable">
+                        <table class="table table-striped table-hover table-sm">
                             <tr>
                                 <th>Header</th>
                                 <th>Value</th>
@@ -142,7 +147,7 @@
 
                     <h5 class="card-title">Request other properties</h5>
                     <div class="table-responsive">
-                        <table class="table table-striped table-hover table-sm" id="logTable">
+                        <table class="table table-striped table-hover table-sm">
                             <tr>
                                 <th>Name</th>
                                 <th>Value</th>
@@ -174,6 +179,52 @@
                             <tr>
                                 <td>Is HTTPS</td>
                                 <td>@Context.Request.IsHttps</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <h5 class="card-title">Server Information</h5>
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover table-sm">
+                            <tr>
+                                <th>Name</th>
+                                <th>Value</th>
+                            </tr>
+                            <tr>
+                                <td class="w-25">System</td>
+                                <td>@Extensions.TryGetFullOSVersion() @(Environment.Is64BitOperatingSystem ? "(64-bit)" : "(32-bit)")</td>
+                            </tr>
+                            <tr>
+                                <td>Directory</td>
+                                <td>@Environment.CurrentDirectory</td>
+                            </tr>
+                            <tr>
+                                <td>Machine Name</td>
+                                <td>@Environment.MachineName</td>
+                            </tr>
+                            <tr>
+                                <td>User Name</td>
+                                <td>@Environment.UserDomainName\@Environment.UserName</td>
+                            </tr>
+                            <tr>
+                                <td>.NET Version</td>
+                                <td>@Environment.Version</td>
+                            </tr>
+                            <tr>
+                                <td>Worker Process</td>
+                                <td>[@process.Id] @process.ProcessName @(Environment.Is64BitProcess ? "(64-bit)" : "(32-bit)")</td>
+                            </tr>
+                            <tr>
+                                <td>Start Time</td>
+                                <td>@process.StartTime.ToUniversalTime() (UTC)</td>
+                            </tr>
+                            <tr>
+                                <td>Memory</td>
+                                <td>@(process.WorkingSet64 / 1024 / 1024) MB</td>
+                            </tr>
+                            <tr>
+                                <td>Docker Container</td>
+                                <td>@(Environment.GetEnvironmentVariable("DOTNET_RUNNING_IN_CONTAINER") == "true")</td>
                             </tr>
                         </table>
                     </div>
