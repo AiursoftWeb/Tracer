@@ -6,7 +6,7 @@ namespace Tracer.Services
 {
     public static class Extensions
     {
-        public static string TryGetFullOSVersion()
+        public static string TryGetFullOsVersion()
         {
             var osVer = Environment.OSVersion;
             if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) return osVer.VersionString;
