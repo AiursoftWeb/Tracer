@@ -12,3 +12,4 @@ Properties
 appsettings.Development.json
 TestResults
 /.idea/
+.vscode
