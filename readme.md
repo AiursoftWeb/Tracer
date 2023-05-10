@@ -1,8 +1,8 @@
 # Tracer
 
-[![Build status](https://dev.azure.com/aiursoft/Star/_apis/build/status/Tracer%20Build)](https://dev.azure.com/aiursoft/Star/_build/latest?definitionId=1)
-![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/aiursoft/Star/1)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.com)
+![Build Status](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/pipeline.svg)
+![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/coverage.svg)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.cn)
 
 Tracer is a simple network speed test app.
 
