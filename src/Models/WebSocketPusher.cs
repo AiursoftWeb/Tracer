@@ -7,8 +7,8 @@ namespace Tracer.Models
 {
     public class WebSocketPusher : IPusher
     {
-        private WebSocket _ws;
-        public bool Connected => _ws.State == WebSocketState.Open;
+        private WebSocket? _ws;
+        public bool Connected => _ws?.State == WebSocketState.Open;
 
         public async Task Accept(HttpContext context)
         {
@@ -17,6 +17,10 @@ namespace Tracer.Models
 
         public async Task SendMessage(string message)
         {
+            if (_ws == null)
+            {
+                throw new System.Exception("WebSocket not connected!");
+            }
             await _ws.SendMessage(message);
         }
     }

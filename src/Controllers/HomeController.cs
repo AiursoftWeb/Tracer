@@ -8,7 +8,7 @@ namespace Tracer.Controllers
 {
     public class HomeController : Controller
     {
-        private static byte[] _data;
+        private static byte[]? _data;
         private const int Length = 1024 * 1024 * 1;
         private static byte[] GetData()
         {

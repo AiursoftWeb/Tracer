@@ -19,26 +19,30 @@ namespace Tracer.Tests.IntegrationTests
     {
         private readonly string _endpointUrl;
         private readonly int _port;
-        private IHost _server;
+        private IHost? _server;
         private HttpClient _http;
 
         public BasicTests()
         {
             _port = Network.GetAvailablePort();
             _endpointUrl = $"http://localhost:{_port}";
+            _http = new HttpClient();
         }
 
         [TestInitialize]
         public async Task CreateServer()
         {
             _server = App<TestStartup>(port: _port);
-            _http = new HttpClient();
             await _server.StartAsync();
         }
 
         [TestCleanup]
         public async Task CleanServer()
         {
+            if (_server == null)
+            {
+                return;
+            }
             await _server.StopAsync();
             _server.Dispose();
         }
@@ -54,8 +58,8 @@ namespace Tracer.Tests.IntegrationTests
 
             response.EnsureSuccessStatusCode(); // Status Code 200-299
             Assert.AreEqual("text/html; charset=utf-8", response.Content.Headers.ContentType?.ToString());
-            var p = (IHtmlElement)doc.QuerySelector("p.lead");
-            Assert.AreEqual("Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.", p.InnerHtml);
+            var p = doc.QuerySelector("p.lead") as IHtmlElement;
+            Assert.AreEqual("Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.", p?.InnerHtml);
         }
 
         [TestMethod]
