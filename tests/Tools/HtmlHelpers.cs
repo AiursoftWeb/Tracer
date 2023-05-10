@@ -19,11 +19,6 @@ namespace Tracer.Tests.Tools
 
             void ResponseFactory(VirtualResponse htmlResponse)
             {
-                if (htmlResponse == null)
-                {
-                    return;
-                }
-                
                 htmlResponse
                     .Address(response.RequestMessage?.RequestUri)
                     .Status(response.StatusCode);
