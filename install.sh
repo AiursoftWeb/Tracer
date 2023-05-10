@@ -1,16 +1,8 @@
-aiur() { arg="$( cut -d ' ' -f 2- <<< "$@" )" && curl -sL https://github.com/AiursoftWeb/AiurScript/raw/master/$1.sh | sudo bash -s $arg; }
+aiur() { arg="$( cut -d ' ' -f 2- <<< "$@" )" && curl -sL https://gitlab.aiursoft.cn/aiursoft/aiurscript/-/raw/master/$1.sh | sudo bash -s $arg; }
 tracer_path="/opt/apps/TracerApp"
 
 install_tracer()
 {
-    if [[ $(curl -sL ifconfig.me) == "$(dig +short $1)" ]]; 
-    then
-        echo "IP is correct."
-    else
-        echo "$1 is not your current machine IP!"
-        return 9
-    fi
-
     port=$(aiur network/get_port) && echo "Using internal port: $port"
     aiur network/enable_bbr
     aiur install/caddy
@@ -23,8 +15,9 @@ install_tracer()
     aiur firewall/open_port 443
     aiur firewall/open_port 80
 
-    echo "Successfully installed Tracer as a service in your machine! Please open https://$1 to try it now!"
+    echo "Successfully installed Tracer as a service in your machine! Please open $1 to try it now!"
     rm ./Tracer -rf
 }
 
+# Example: install_tracer http://tracer.local
 install_tracer "$@"
