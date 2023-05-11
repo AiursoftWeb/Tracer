@@ -4,14 +4,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Tracer.Services
+namespace Tracer.Services;
+
+public static class WebSocketService
 {
-    public static class WebSocketService
+    public static async Task SendMessage(this WebSocket ws, string message)
     {
-        public static async Task SendMessage(this WebSocket ws, string message)
-        {
-            var buffer = new ArraySegment<byte>(Encoding.UTF8.GetBytes(message));
-            await ws.SendAsync(buffer, WebSocketMessageType.Text, true, CancellationToken.None);
-        }
+        var buffer = new ArraySegment<byte>(Encoding.UTF8.GetBytes(message));
+        await ws.SendAsync(buffer, WebSocketMessageType.Text, true, CancellationToken.None);
     }
 }

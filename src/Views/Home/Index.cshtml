@@ -1,5 +1,5 @@
-﻿@using System.Reflection;
-@using System.Diagnostics;
+﻿@using System.Diagnostics
+@using System.Reflection
 @{
     var process = Process.GetCurrentProcess();
 }
@@ -15,7 +15,9 @@
             Access from <code>@Context.Connection.RemoteIpAddress?.ToString()</code>
             <span class="badge badge-secondary ml-2" id="spanStatus">Idle</span>
         </p>
-        <p><button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button></p>
+        <p>
+            <button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button>
+        </p>
     </div>
 </div>
 <div class="container">
@@ -33,8 +35,12 @@
                         <button class="btn btn-primary" id="pingbutton" onclick="ping()">Start Test</button>
                         <button class="btn btn-secondary" id="stop-pingbutton" onclick="stopPing()">Stop Test</button>
                     </div>
-                    <p class="test-status mt-3"><kbd id="httpStatus" class="d-none"></kbd></p>
-                    <p class="test-status"><kbd id="httpMax" class="d-none"></kbd></p>
+                    <p class="test-status mt-3">
+                        <kbd id="httpStatus" class="d-none"></kbd>
+                    </p>
+                    <p class="test-status">
+                        <kbd id="httpMax" class="d-none"></kbd>
+                    </p>
                 </div>
             </div>
         </div>
@@ -60,8 +66,12 @@
                         <button class="btn btn-primary" id="downloadbutton" onclick="download()">Start Test</button>
                         <button class="btn btn-secondary" id="stopdownloadbutton" onclick="stopDownload()">Stop Test</button>
                     </div>
-                    <p class="test-status mt-3"><kbd id="downStatus" class="d-none"></kbd></p>
-                    <p class="test-status"><kbd id="downMax" class="d-none"></kbd></p>
+                    <p class="test-status mt-3">
+                        <kbd id="downStatus" class="d-none"></kbd>
+                    </p>
+                    <p class="test-status">
+                        <kbd id="downMax" class="d-none"></kbd>
+                    </p>
                 </div>
             </div>
         </div>
@@ -87,8 +97,12 @@
                         <button class="btn btn-primary" id="wsbutton" onclick="WsTest()">Start Test</button>
                         <button class="btn btn-secondary" id="stopwsbutton" onclick="stopWsTest()">Stop Test</button>
                     </div>
-                    <p class="test-status mt-3"><kbd id="wsStatus" class="d-none"></kbd></p>
-                    <p class="test-status"><kbd id="wsmax" class="d-none"></kbd></p>
+                    <p class="test-status mt-3">
+                        <kbd id="wsStatus" class="d-none"></kbd>
+                    </p>
+                    <p class="test-status">
+                        <kbd id="wsmax" class="d-none"></kbd>
+                    </p>
                 </div>
             </div>
         </div>

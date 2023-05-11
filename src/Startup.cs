@@ -8,32 +8,31 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Tracer
+namespace Tracer;
+
+public class Startup
 {
-    public class Startup
+    public Startup(IConfiguration configuration)
     {
-        private IConfiguration Configuration { get; }
+        Configuration = configuration;
+        AppsContainer.CurrentAppId = configuration["TracerAppId"];
+        AppsContainer.CurrentAppSecret = configuration["TracerAppSecret"];
+    }
 
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-            AppsContainer.CurrentAppId = configuration["TracerAppId"];
-            AppsContainer.CurrentAppSecret = configuration["TracerAppSecret"];
-        }
+    private IConfiguration Configuration { get; }
 
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddAiurMvc();
-            services.AddArchonServer(Configuration.GetConnectionString("ArchonConnection"));
-            services.AddObserverServer(Configuration.GetConnectionString("ObserverConnection"));
-            services.AddAiursoftSDK();
-        }
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddAiurMvc();
+        services.AddArchonServer(Configuration.GetConnectionString("ArchonConnection"));
+        services.AddObserverServer(Configuration.GetConnectionString("ObserverConnection"));
+        services.AddAiursoftSDK();
+    }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-        {
-            app.UseAiurUserHandler(env.IsDevelopment());
-            app.UseWebSockets();
-            app.UseAiursoftDefault();
-        }
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        app.UseAiurUserHandler(env.IsDevelopment());
+        app.UseWebSockets();
+        app.UseAiursoftDefault();
     }
 }

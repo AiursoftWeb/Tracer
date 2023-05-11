@@ -1,15 +1,14 @@
-﻿using Aiursoft.SDK.Attributes;
+﻿using System.Collections.Generic;
+using Aiursoft.SDK.Attributes;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
-namespace Tracer.Controllers
+namespace Tracer.Controllers;
+
+public class PingController : ControllerBase
 {
-    public class PingController : ControllerBase
+    [AiurNoCache]
+    public IActionResult Index()
     {
-        [AiurNoCache]
-        public IActionResult Index()
-        {
-            return Ok(new List<object>());
-        }
+        return Ok(new List<object>());
     }
 }
