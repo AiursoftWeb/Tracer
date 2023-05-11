@@ -1,7 +1,6 @@
 ﻿'use strict';
 
 var testInProgress = false;
-var testStartTime;
 var loadedBytes = 0;
 var lastLoadedBytes = 0;
 var downloadUrl = '/home/download';
@@ -9,7 +8,6 @@ var xhr;
 var progressUpdateInterval;
 
 const download = () => {
-    testStartTime = new Date();
     xhr = new XMLHttpRequest();
 
     xhr.addEventListener('progress', (event) => {
@@ -34,6 +32,8 @@ const startDownload = () => {
 
 const stopDownload = () => {
     testInProgress = false;
+    loadedBytes = 0;
+    lastLoadedBytes = 0;
     xhr.abort();
     clearInterval(progressUpdateInterval);
     $('#downloadbutton').removeAttr('disabled');
