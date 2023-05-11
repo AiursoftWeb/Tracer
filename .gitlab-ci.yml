@@ -103,3 +103,18 @@ upload_to_nuget:
       done
   only:
     - master
+
+upload_to_local_nuget:
+  stage: deploy
+  environment: production
+  needs:
+    - pack
+  dependencies:
+    - pack
+  script:
+    - |
+      for file in $(find . -name "*.nupkg"); do
+        dotnet nuget push "$file" --api-key "$LOCAL_NUGET_API_KEY" --source "https://nuget.aiursoft.cn/v3/index.json" || exit 1;
+      done
+  only:
+    - master
