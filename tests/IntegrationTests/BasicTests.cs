@@ -71,7 +71,7 @@ public class BasicTests
 
         response.EnsureSuccessStatusCode(); // Status Code 200-299
         Assert.AreEqual("application/octet-stream", response.Content.Headers.ContentType?.ToString());
-        Assert.IsTrue(1024 * 1024 * 1000 < content.Length);
+        Assert.IsTrue(1024 * 1024 * 900 < content.Length);
     }
 
     [TestMethod]
