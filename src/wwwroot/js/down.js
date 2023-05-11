@@ -1,60 +1,59 @@
 ﻿'use strict';
 
-var downMaxTime = 0;
-var downloadStopped = false;
-var download = function () {
-    //thread safe
-    if ($('#downloadbutton').attr('disabled') === 'disabled') {
-        return;
-    }
-    downMaxTime = 0;
+var testInProgress = false;
+var completedRequests = 0;
+var testInterval;
+var requestInterval;
+var downloadUrl = '/home/download';
+
+const download = () => {
+    let st = new Date();
+
+    $.get(downloadUrl + '?t=' + st.getMilliseconds())
+        .done(() => {
+            if (!testInProgress) return;
+            completedRequests++;
+        });
+}
+
+const startDownload = () => {
+    if (testInProgress) return;
+    testInProgress = true;
     $('#downloadbutton').attr('disabled', 'disabled');
     $('#downStatus').removeClass('d-none');
     $('#downMax').removeClass('d-none');
-    downloadStopped = false;
-    startdownload();
+
+    requestInterval = setInterval(download, 0);
+    testInterval = setInterval(updateStats, 1000);
 };
 
-var startdownload = function () {
-    //prepare
-    var st = new Date();
-    $.get('/home/download?t=' + st.getMilliseconds(), function () {
-        if (downloadStopped) {
-            return;
-        }
-        //get time
-        var et = new Date();
-        var downloadTime = et - st;
-        //update max value
-        if (downloadTime > downMaxTime) {
-            downMaxTime = downloadTime;
-        }
-        //get speed
-        var speed = 1.0 / downloadTime * 1000;
-        var minspeed = 1.0 / downMaxTime * 1000;
-        //log
-        if (speed < $('#speedlagfilter').val()) {
-            trig('Downloader', speed + 'MB/s');
-        }
-        //update view
-        $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
-        $('#downMax').html('Min: ' + minspeed.toFixed(2) + 'MB/s');
-
-        if (downloadchartData.labels.length > 25) {
-            downloadchartData.labels.shift();
-            downloadchartData.datasets[0].data.shift();
-        }
-        downloadchartData.labels.push('');
-        downloadchartData.datasets[0].data.push(speed.toFixed(2));
-        window.myDownloadLine.update();
-
-        setTimeout(startdownload, 1000);
-    });
+const stopDownload = () => {
+    testInProgress = false;
+    clearInterval(requestInterval);
+    clearInterval(testInterval);
+    $('#downloadbutton').removeAttr('disabled');
 };
 
-var stopDownload = function () {
-    downloadStopped = true;
-    if ($('#downloadbutton').removeAttr('disabled')) {
-        return;
+const updateStats = () => {
+    let speed = completedRequests;
+    completedRequests = 0;
+
+    // Update view
+    $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
+
+    if (downloadchartData.labels.length > 25) {
+        downloadchartData.labels.shift();
+        downloadchartData.datasets[0].data.shift();
     }
+    downloadchartData.labels.push('');
+    downloadchartData.datasets[0].data.push(speed.toFixed(2));
+    window.myDownloadLine.update();
 };
+
+$('#downloadbutton').on('click', function () {
+    if (testInProgress) {
+        stopDownload();
+    } else {
+        startDownload();
+    }
+});
