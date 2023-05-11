@@ -3,6 +3,7 @@
 var testInProgress = false;
 var testStartTime;
 var loadedBytes = 0;
+var lastLoadedBytes = 0;
 var downloadUrl = '/home/download';
 var xhr;
 var progressUpdateInterval;
@@ -25,10 +26,10 @@ const startDownload = () => {
     testInProgress = true;
     $('#downloadbutton').attr('disabled', 'disabled');
     $('#downStatus').removeClass('d-none');
-    $('#downMax').removeClass('d-none');
+    $('#downStatusMbps').removeClass('d-none');
 
     download();
-    progressUpdateInterval = setInterval(updateStats, 750);
+    progressUpdateInterval = setInterval(updateStats, 800);
 };
 
 const stopDownload = () => {
@@ -40,11 +41,14 @@ const stopDownload = () => {
 
 const updateStats = () => {
     let currentTime = new Date();
-    let elapsedTime = (currentTime - testStartTime) / 1000;
-    let speed = loadedBytes / elapsedTime / (1024 * 1024);
+    let speed = (loadedBytes - lastLoadedBytes) / (0.8) / (1024 * 1024);
+
+    // Update last loaded bytes
+    lastLoadedBytes = loadedBytes;
 
     // Update view
     $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
+    $('#downStatusMbps').html('Speed: ' + (speed * 8).toFixed(2) + 'Mbps');
 
     if (downloadchartData.labels.length > 25) {
         downloadchartData.labels.shift();
@@ -62,4 +66,3 @@ $('#downloadbutton').on('click', function () {
         startDownload();
     }
 });
-
