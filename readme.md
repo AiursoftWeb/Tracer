@@ -1,8 +1,8 @@
 # Tracer
 
 ![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
-![Pipeline stat](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/main/pipeline.svg)
-![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/main/coverage.svg)
+![Pipeline stat](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/pipeline.svg)
+![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/coverage.svg)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.cn)
 
 Tracer is a simple network speed test app.
