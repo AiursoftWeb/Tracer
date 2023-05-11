@@ -3,51 +3,51 @@
     <vc:aiur-header></vc:aiur-header>
     <title>Tracer - @Values.ProjectName</title>
     <vc:aiur-market-css></vc:aiur-market-css>
-    <link rel="stylesheet" href="~/css/site.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
-<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="@ServiceLocation.WWW">
-            @Values.ProjectName
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="@ServiceLocation.Status">Service Status</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://tracer.aiursoft.com">Connection Speed Test</a>
-                </li>
-            </ul>
-            <div class="form-inline">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="@ServiceLocation.WWW">
+                @Values.ProjectName
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://gitlab.aiursoft.cn/aiursoft/tracer">
-                            <i class="fab fa-gitlab"></i>
-                            View on GitLab
-                        </a>
+                        <a class="nav-link" href="@ServiceLocation.Status">Service Status</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://tracer.aiursoft.com">Connection Speed Test</a>
                     </li>
                 </ul>
+                <div class="form-inline">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://gitlab.aiursoft.cn/aiursoft/tracer">
+                                <i class="fab fa-gitlab"></i>
+                                View on GitLab
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
-@RenderBody()
-<footer class="navbar-expand-md navbar-dark bg-dark pt-2 pb-2">
-    <div class="container">
-        <vc:aiur-footer item-class="navbar-text pr-3" template="span"></vc:aiur-footer>
-    </div>
-</footer>
-<vc:aiur-market-js></vc:aiur-market-js>
-<script src="@ServiceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
-<vc:scroll-to-top></vc:scroll-to-top>
-<script src="~/js/ws.js"></script>
-<script src="~/js/http.js"></script>
-<script src="~/js/down.js"></script>
-<script src="~/js/site.js"></script>
-@(await RenderSectionAsync("scripts", false))
+    </nav>
+    @RenderBody()
+    <footer class="navbar-expand-md navbar-dark bg-dark pt-2 pb-2">
+        <div class="container">
+            <vc:aiur-footer item-class="navbar-text pr-3" template="span"></vc:aiur-footer>
+        </div>
+    </footer>
+    <vc:aiur-market-js></vc:aiur-market-js>
+    <script src="@ServiceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
+    <vc:scroll-to-top></vc:scroll-to-top>
+    <script src="~/js/ws.js" asp-append-version="true"></script>
+    <script src="~/js/http.js" asp-append-version="true"></script>
+    <script src="~/js/down.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @(await RenderSectionAsync("scripts", false))
 </body>
