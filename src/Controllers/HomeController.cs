@@ -8,7 +8,7 @@ namespace Tracer.Controllers;
 
 public class HomeController : Controller
 {
-    private const int Length = 1024 * 1024 * 1;
+    private const int Length = 1024 * 1024 * 1024; // 1G
     private static byte[]? _data;
 
     private readonly IPusher _pusher;
@@ -22,8 +22,10 @@ public class HomeController : Controller
     {
         if (_data == null)
         {
+            var random = new Random();
+
             _data = new byte[Length];
-            for (var i = 0; i < Length; i++) _data[i] = 1;
+            random.NextBytes(_data);
         }
 
         return _data;

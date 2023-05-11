@@ -1,20 +1,24 @@
 ﻿'use strict';
 
 var testInProgress = false;
-var completedRequests = 0;
-var testInterval;
-var requestInterval;
+var testStartTime;
+var loadedBytes = 0;
 var downloadUrl = '/home/download';
+var xhr;
+var progressUpdateInterval;
 
 const download = () => {
-    let st = new Date();
+    testStartTime = new Date();
+    xhr = new XMLHttpRequest();
 
-    $.get(downloadUrl + '?t=' + st.getMilliseconds())
-        .done(() => {
-            if (!testInProgress) return;
-            completedRequests++;
-        });
-}
+    xhr.addEventListener('progress', (event) => {
+        if (!testInProgress) return;
+        loadedBytes = event.loaded;
+    });
+
+    xhr.open('GET', downloadUrl);
+    xhr.send();
+};
 
 const startDownload = () => {
     if (testInProgress) return;
@@ -23,20 +27,21 @@ const startDownload = () => {
     $('#downStatus').removeClass('d-none');
     $('#downMax').removeClass('d-none');
 
-    requestInterval = setInterval(download, 0);
-    testInterval = setInterval(updateStats, 1000);
+    download();
+    progressUpdateInterval = setInterval(updateStats, 750);
 };
 
 const stopDownload = () => {
     testInProgress = false;
-    clearInterval(requestInterval);
-    clearInterval(testInterval);
+    xhr.abort();
+    clearInterval(progressUpdateInterval);
     $('#downloadbutton').removeAttr('disabled');
 };
 
 const updateStats = () => {
-    let speed = completedRequests;
-    completedRequests = 0;
+    let currentTime = new Date();
+    let elapsedTime = (currentTime - testStartTime) / 1000;
+    let speed = loadedBytes / elapsedTime / (1024 * 1024);
 
     // Update view
     $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
@@ -57,3 +62,4 @@ $('#downloadbutton').on('click', function () {
         startDownload();
     }
 });
+
