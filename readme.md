@@ -29,7 +29,7 @@ curl -sL https://gitlab.aiursoft.cn/aiursoft/tracer/-/raw/master/install.sh | su
 
 Requirements about how to run
 
-1. [.NET Core runtime 6.0 or later]Execute `dotnet restore`` to restore all dotnet requirements.
+1. [.NET 6 SDK](http://dot.net/)
 2. Execute `dotnet run` to run the app
 3. Use your browser to view [http://localhost:5000](http://localhost:5000)
 
