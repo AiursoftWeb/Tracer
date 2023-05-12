@@ -1,9 +1,9 @@
 # Tracer
 
-![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)
-![Pipeline stat](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/pipeline.svg)
-![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/coverage.svg)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.cn)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.cn/aiursoft/tracer/-/blob/master/LICENSE)
+[![Pipeline stat](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/pipeline.svg)](https://gitlab.aiursoft.cn/aiursoft/tracer/-/pipelines)
+[![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/coverage.svg)](https://gitlab.aiursoft.cn/aiursoft/tracer/-/pipelines)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.com%2F)](https://tracer.aiursoft.com)
 
 Tracer is a simple network speed test app.
 
