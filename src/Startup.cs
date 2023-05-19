@@ -1,5 +1,4 @@
-﻿using Aiursoft.Archon.SDK;
-using Aiursoft.Archon.SDK.Services;
+﻿using Aiursoft.Gateway.SDK;
 using Aiursoft.Observer.SDK;
 using Aiursoft.SDK;
 using Microsoft.AspNetCore.Builder;
@@ -15,8 +14,6 @@ public class Startup
     public Startup(IConfiguration configuration)
     {
         Configuration = configuration;
-        AppsContainer.CurrentAppId = configuration["TracerAppId"];
-        AppsContainer.CurrentAppSecret = configuration["TracerAppSecret"];
     }
 
     private IConfiguration Configuration { get; }
@@ -24,7 +21,7 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddAiurMvc();
-        services.AddArchonServer(Configuration.GetConnectionString("ArchonConnection"));
+        services.AddGatewayServer(Configuration.GetConnectionString("GatewayConnection"));
         services.AddObserverServer(Configuration.GetConnectionString("ObserverConnection"));
         services.AddAiursoftSDK();
     }
