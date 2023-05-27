@@ -21,7 +21,7 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddAiurMvc();
-        services.AddAiursoftAuthentication(Configuration.GetSection("AiursoftAuthentication"));
+        services.AddAiursoftAppAuthentication(Configuration.GetSection("AiursoftAuthentication"));
         services.AddAiursoftObserver(Configuration.GetSection("AiursoftObserver"));
         services.AddAiursoftSDK();
     }
