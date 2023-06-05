@@ -28,8 +28,8 @@ public class Startup
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-        app.UseAiurUserHandler(env.IsDevelopment());
+        app.UseAiuroftHandler(env.IsDevelopment());
         app.UseWebSockets();
-        app.UseAiursoftDefault();
+        app.UseAiursoftAppRouters();
     }
 }
