@@ -1,12 +1,13 @@
-﻿using Microsoft.Extensions.Hosting;
+﻿using System.Threading.Tasks;
+using Microsoft.Extensions.Hosting;
 using static Aiursoft.WebTools.Extends;
 
 namespace Tracer;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args)
     {
-        App<Startup>(args).Run();
+        await App<Startup>(args).RunAsync();
     }
 }

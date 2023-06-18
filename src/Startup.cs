@@ -23,7 +23,7 @@ public class Startup
         services.AddAiurMvc();
         services.AddAiursoftAppAuthentication(Configuration.GetSection("AiursoftAuthentication"));
         services.AddAiursoftObserver(Configuration.GetSection("AiursoftObserver"));
-        services.AddAiursoftSDK();
+        services.AddAiursoftSdk();
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
