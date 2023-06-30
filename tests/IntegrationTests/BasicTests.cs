@@ -5,7 +5,7 @@ using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Aiursoft.XelNaga.Tools;
+using Aiursoft.CSTools.Tools;
 using AngleSharp.Html.Dom;
 using Microsoft.Extensions.Hosting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
