@@ -7,4 +7,5 @@ RUN dotnet publish -c Release -o /build
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
 COPY --from=build-env /build .
+EXPOSE 5000
 ENTRYPOINT ["dotnet","./Tracer.dll"]
