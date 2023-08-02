@@ -38,20 +38,9 @@ Requirements about how to run
 1. Open the `.sln` file in the project path.
 2. Press `F5`.
 
-## Run in docker
-
-Pull the container using bash:
-
-```bash
-docker pull anduin2019/tracer:latest
-docker run -p 8080:80 anduin2019/tracer:latest
-```
-
-That will start a web server at `http://localhost:8080` and you can test the app.
-
 ## Build locally in docker
 
-Just install docker. Execute the following command.
+Just install Docker. Execute the following command.
 
 ```bash
 docker build -t=tracer .
@@ -60,13 +49,16 @@ docker run -p 8080:80 tracer
 
 That will start a web server at `http://localhost:8080` and you can test the app.
 
-## Run in docker-compose
+## Run in Docker-Compose
 
-Install docker-compose. Execute the following command.
+Install Docker-Compose. Execute the following command.
 
 ```bash
+docker-compose build
 docker-compose up
 ```
+
+That will start a web server at `http://localhost:8080` and you can test the app.
 
 ## How to contribute
 
