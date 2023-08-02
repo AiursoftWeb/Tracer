@@ -38,20 +38,11 @@ Requirements about how to run
 1. Open the `.sln` file in the project path.
 2. Press `F5`.
 
-## Build locally in docker
+## Run in Docker
 
-Just install Docker. Execute the following command.
+Install Docker and Docker-Compose [here](https://docs.docker.com/compose/install/).
 
-```bash
-docker build -t=tracer .
-docker run -p 8080:80 tracer
-```
-
-That will start a web server at `http://localhost:8080` and you can test the app.
-
-## Run in Docker-Compose
-
-Install Docker-Compose. Execute the following command.
+Then run the following commands in the project path:
 
 ```bash
 docker-compose build
