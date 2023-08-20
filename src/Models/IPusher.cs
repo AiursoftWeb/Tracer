@@ -1,7 +1,4 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-
-namespace Aiursoft.Tracer.Models;
+﻿namespace Aiursoft.Tracer.Models;
 
 public interface IPusher
 {
