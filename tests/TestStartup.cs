@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Tracer.Tests;
+namespace Aiursoft.Tracer.Tests;
 
 public class TestStartup : Startup
 {

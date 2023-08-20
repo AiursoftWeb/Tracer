@@ -9,10 +9,10 @@ using Aiursoft.CSTools.Tools;
 using AngleSharp.Html.Dom;
 using Microsoft.Extensions.Hosting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Tracer.Tests.Tools;
+using Aiursoft.Tracer.Tests.Tools;
 using static Aiursoft.WebTools.Extends;
 
-namespace Tracer.Tests.IntegrationTests;
+namespace Aiursoft.Tracer.Tests.IntegrationTests;
 
 [TestClass]
 public class BasicTests

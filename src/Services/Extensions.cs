@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using Microsoft.Win32;
 
-namespace Tracer.Services;
+namespace Aiursoft.Tracer.Services;
 
 public static class Extensions
 {

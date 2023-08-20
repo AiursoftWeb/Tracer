@@ -6,9 +6,9 @@ using AngleSharp;
 using AngleSharp.Html.Dom;
 using AngleSharp.Io;
 
-namespace Tracer.Tests.Tools;
+namespace Aiursoft.Tracer.Tests.Tools;
 
-public class HtmlHelpers
+public static class HtmlHelpers
 {
     public static async Task<IHtmlDocument> GetDocumentAsync(HttpResponseMessage response)
     {

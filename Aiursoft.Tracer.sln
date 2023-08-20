@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracer", "src\Tracer.csproj", "{078FCD3F-F3F0-4C9B-92AF-8DC43C1F2E43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aiursoft.Tracer", "src\Aiursoft.Tracer.csproj", "{078FCD3F-F3F0-4C9B-92AF-8DC43C1F2E43}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracer.Tests", "tests\Tracer.Tests.csproj", "{65AFCA18-CDEF-4F95-8CC0-B2AEC1284D1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aiursoft.Tracer.Tests", "tests\Aiursoft.Tracer.Tests.csproj", "{65AFCA18-CDEF-4F95-8CC0-B2AEC1284D1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

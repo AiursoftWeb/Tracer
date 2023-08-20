@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using Aiursoft.SDK.Attributes;
 using Microsoft.AspNetCore.Mvc;
-using Tracer.Models;
+using Aiursoft.Tracer.Models;
 
-namespace Tracer.Controllers;
+namespace Aiursoft.Tracer.Controllers;
 
 public class HomeController : Controller
 {

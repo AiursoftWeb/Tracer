@@ -2,9 +2,9 @@
 using System.Net.WebSockets;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using Tracer.Services;
+using Aiursoft.Tracer.Services;
 
-namespace Tracer.Models;
+namespace Aiursoft.Tracer.Models;
 
 public class WebSocketPusher : IPusher
 {

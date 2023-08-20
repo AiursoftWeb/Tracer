@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Hosting;
 using static Aiursoft.WebTools.Extends;
 
-namespace Tracer;
+namespace Aiursoft.Tracer;
 
 public class Program
 {

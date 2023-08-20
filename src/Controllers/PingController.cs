@@ -2,7 +2,7 @@
 using Aiursoft.SDK.Attributes;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Tracer.Controllers;
+namespace Aiursoft.Tracer.Controllers;
 
 public class PingController : ControllerBase
 {

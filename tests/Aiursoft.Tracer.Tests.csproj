@@ -18,7 +18,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\src\Tracer.csproj" />
+		<ProjectReference Include="..\src\Aiursoft.Tracer.csproj" />
 	</ItemGroup>
 
 </Project>

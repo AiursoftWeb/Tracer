@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Tracer.Services;
+namespace Aiursoft.Tracer.Services;
 
 public static class WebSocketService
 {
