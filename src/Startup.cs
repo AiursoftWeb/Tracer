@@ -7,15 +7,15 @@ namespace Aiursoft.Tracer;
 
 public class Startup : IWebStartup
 {
-    public virtual void ConfigureServices(IConfiguration configuration, IWebHostEnvironment environment, IServiceCollection services)
+    public void ConfigureServices(IConfiguration configuration, IWebHostEnvironment environment, IServiceCollection services)
     {
-        services.AddAiurMvc();
+        services.AddAiurosftWebFeatures();
         services
             .AddControllersWithViews()
             .AddApplicationPart(typeof(SDK.Views.Shared.Components.AiurHeader.AiurHeader).Assembly);
         services.AddAiursoftAppAuthentication(configuration.GetSection("AiursoftAuthentication"));
         services.AddAiursoftObserver(configuration.GetSection("AiursoftObserver"));
-        services.AddAiursoftSdk();
+        services.AddScannedServices();
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
