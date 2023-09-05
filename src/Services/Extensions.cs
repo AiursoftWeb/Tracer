@@ -1,4 +1,4 @@
-﻿using System.Runtime.InteropServices;
+using System.Runtime.InteropServices;
 using Microsoft.Win32;
 
 namespace Aiursoft.Tracer.Services;
@@ -16,7 +16,7 @@ public static class Extensions
             if (currentVersion != null)
             {
                 var name = currentVersion.GetValue("ProductName", "Microsoft Windows NT");
-                var ubr = currentVersion.GetValue("UBR", string.Empty)?.ToString();
+                var ubr = currentVersion.GetValue("UBR", string.Empty).ToString();
                 if (!string.IsNullOrWhiteSpace(ubr))
                     return $"{name} {osVer.Version.Major}.{osVer.Version.Minor}.{osVer.Version.Build}.{ubr}";
             }
