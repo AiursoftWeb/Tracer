@@ -4,6 +4,7 @@ using Aiursoft.CSTools.Tools;
 using AngleSharp.Html.Dom;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Aiursoft.Tracer.Tests.Tools;
+using Microsoft.Extensions.Hosting;
 using static Aiursoft.WebTools.Extends;
 
 namespace Aiursoft.Tracer.Tests.IntegrationTests;
@@ -27,7 +28,7 @@ public class BasicTests
     [TestInitialize]
     public async Task CreateServer()
     {
-        _server = App<TestStartup>(port: _port);
+        _server = App<TestStartup>(Array.Empty<string>(), port: _port);
         await _server.StartAsync();
     }
 

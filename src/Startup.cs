@@ -1,23 +1,17 @@
 ﻿using Aiursoft.Directory.SDK;
 using Aiursoft.Observer.SDK;
 using Aiursoft.SDK;
+using Aiursoft.WebTools.Models;
 
 namespace Aiursoft.Tracer;
 
-public class Startup
+public class Startup : IWebStartup
 {
-    public Startup(IConfiguration configuration)
-    {
-        Configuration = configuration;
-    }
-
-    private IConfiguration Configuration { get; }
-
-    public void ConfigureServices(IServiceCollection services)
+    public virtual void ConfigureServices(IConfiguration configuration, IWebHostEnvironment environment, IServiceCollection services)
     {
         services.AddAiurMvc();
-        services.AddAiursoftAppAuthentication(Configuration.GetSection("AiursoftAuthentication"));
-        services.AddAiursoftObserver(Configuration.GetSection("AiursoftObserver"));
+        services.AddAiursoftAppAuthentication(configuration.GetSection("AiursoftAuthentication"));
+        services.AddAiursoftObserver(configuration.GetSection("AiursoftObserver"));
         services.AddAiursoftSdk();
     }
 
