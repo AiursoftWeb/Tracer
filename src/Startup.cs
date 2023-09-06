@@ -10,9 +10,6 @@ public class Startup : IWebStartup
     public void ConfigureServices(IConfiguration configuration, IWebHostEnvironment environment, IServiceCollection services)
     {
         services.AddAiurosftWebFeatures();
-        services
-            .AddControllersWithViews()
-            .AddApplicationPart(typeof(SDK.Views.Shared.Components.AiurHeader.AiurHeader).Assembly);
         services.AddAiursoftAppAuthentication(configuration.GetSection("AiursoftAuthentication"));
         services.AddAiursoftObserver(configuration.GetSection("AiursoftObserver"));
         services.AddScannedServices();
