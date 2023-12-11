@@ -23,7 +23,7 @@ var startping = function () {
     $.get('/Ping', function () {
         //get time
         var endtime = new Date();
-        var lag = endtime - startTime - 7;
+        var lag = endtime - startTime;
         //update max value
         if (lag > pingMaxlag) {
             pingMaxlag = lag;
