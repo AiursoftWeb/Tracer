@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Aiursoft.WebTools;
+using Microsoft.AspNetCore.Mvc;
 using Aiursoft.WebTools.Services;
 using Aiursoft.WebTools.Attributes;
 
@@ -11,13 +12,11 @@ public class HomeController : Controller
 
     private static byte[] GetData()
     {
-        if (_data == null)
-        {
-            var random = new Random();
+        if (_data != null) return _data;
+        var random = new Random();
 
-            _data = new byte[Length];
-            random.NextBytes(_data);
-        }
+        _data = new byte[Length];
+        random.NextBytes(_data);
 
         return _data;
     }
@@ -31,9 +30,9 @@ public class HomeController : Controller
     public async Task Pushing()
     {
         var pusher = await HttpContext.AcceptWebSocketClient();
-        for (var i = 0; pusher.Connected; i++)
+        while (pusher.Connected)
         {
-            _ = Task.Run(() => pusher.Send(DateTime.UtcNow.ToString() + $"|{i + 1}"));
+            _ = Task.Run(() => pusher.Send(DateTime.UtcNow.ToHtmlDateTime()));
             await Task.Delay(100);
         }
     }
