@@ -1,6 +1,4 @@
-﻿using System.Net.WebSockets;
-using System.Text;
-using Aiursoft.CSTools.Tools;
+﻿using Aiursoft.CSTools.Tools;
 using AngleSharp.Html.Dom;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Aiursoft.Tracer.Tests.Tools;
@@ -90,7 +88,7 @@ public class BasicTests
         var socket = await endPoint.ConnectAsWebSocketServer();
         await Task.Factory.StartNew(() => socket.Listen());
 
-        socket.Subscribe(m => 
+        socket.Subscribe(_ => 
         {
             messagesCount++;
             return Task.CompletedTask;
