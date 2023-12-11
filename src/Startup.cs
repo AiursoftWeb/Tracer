@@ -1,7 +1,6 @@
-﻿using Aiursoft.Directory.SDK;
-using Aiursoft.Observer.SDK;
-using Aiursoft.SDK;
-using Aiursoft.WebTools.Models;
+﻿using Aiursoft.WebTools.Models;
+using Aiursoft.Scanner;
+using System.Reflection;
 
 namespace Aiursoft.Tracer;
 
@@ -9,16 +8,18 @@ public class Startup : IWebStartup
 {
     public void ConfigureServices(IConfiguration configuration, IWebHostEnvironment environment, IServiceCollection services)
     {
-        services.AddAiursoftWebFeatures();
-        services.AddAiursoftAppAuthentication(configuration.GetSection("AiursoftAuthentication"));
-        services.AddAiursoftObserver(configuration.GetSection("AiursoftObserver"));
-        services.AddScannedServices();
+        services.AddLibraryDependencies();
+
+        services
+            .AddControllersWithViews()
+            .AddApplicationPart(Assembly.GetExecutingAssembly());
     }
 
     public void Configure(WebApplication app)
     {
-        app.UseAiursoftHandler(app.Environment.IsDevelopment());
+        app.UseStaticFiles();
+        app.UseRouting();
+        app.MapDefaultControllerRoute();
         app.UseWebSockets();
-        app.UseAiursoftAppRouters();
     }
 }

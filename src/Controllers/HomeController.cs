@@ -1,6 +1,6 @@
-﻿using Aiursoft.SDK.Attributes;
-using Microsoft.AspNetCore.Mvc;
-using Aiursoft.Tracer.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Aiursoft.WebTools.Services;
+using Aiursoft.WebTools.Attributes;
 
 namespace Aiursoft.Tracer.Controllers;
 
@@ -8,13 +8,6 @@ public class HomeController : Controller
 {
     private const int Length = 1024 * 1024 * 1024; // 1G
     private static byte[]? _data;
-
-    private readonly IPusher _pusher;
-
-    public HomeController()
-    {
-        _pusher = new WebSocketPusher();
-    }
 
     private static byte[] GetData()
     {
@@ -35,22 +28,14 @@ public class HomeController : Controller
     }
 
     [AiurNoCache]
-    public async Task<IActionResult> Pushing()
+    public async Task Pushing()
     {
-        if (!HttpContext.WebSockets.IsWebSocketRequest) return Json(new { });
-        await _pusher.Accept(HttpContext);
-        for (var i = 0; i < 36000 && _pusher.Connected; i++)
-            try
-            {
-                _pusher.SendMessage(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ffffff") + $"|{i + 1}").GetAwaiter();
-                await Task.Delay(100);
-            }
-            catch
-            {
-                break;
-            }
-
-        return Json(new { });
+        var pusher = await HttpContext.AcceptWebSocketClient();
+        for (var i = 0; pusher.Connected; i++)
+        {
+            _ = Task.Run(() => pusher.Send(DateTime.UtcNow.ToString() + $"|{i + 1}"));
+            await Task.Delay(100);
+        }
     }
 
     [AiurNoCache]

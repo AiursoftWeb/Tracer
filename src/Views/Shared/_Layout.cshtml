@@ -1,24 +1,21 @@
 ﻿<!DOCTYPE HTML>
 <head>
     <vc:aiur-header></vc:aiur-header>
-    <title>Aiursoft.Tracer - @Values.ProjectName</title>
-    <vc:aiur-market-css></vc:aiur-market-css>
+    <title>Tracer - Aiursoft</title>
+    <link rel="stylesheet" href="https://ui.aiursoft.com/dist/AiurMarket.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="@ServiceLocation.WWW">
-                @Values.ProjectName
+            <a class="navbar-brand" href="https://www.aiursoft.cn">
+                Aiursoft
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="@ServiceLocation.Status">Service Status</a>
-                    </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="https://tracer.aiursoft.com">Connection Speed Test</a>
                     </li>
@@ -39,12 +36,10 @@
     @RenderBody()
     <footer class="navbar-expand-md navbar-dark bg-dark pt-2 pb-2">
         <div class="container">
-            <vc:aiur-footer item-class="navbar-text pr-3" template="span"></vc:aiur-footer>
         </div>
     </footer>
-    <vc:aiur-market-js></vc:aiur-market-js>
-    <script src="@ServiceLocation.UI/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
-    <vc:scroll-to-top></vc:scroll-to-top>
+    <script src="https://ui.aiursoft.com/dist/AiurMarket.min.js"></script>
+    <script src="https://ui.aiursoft.com/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
     <script src="~/js/ws.js" asp-append-version="true"></script>
     <script src="~/js/http.js" asp-append-version="true"></script>
     <script src="~/js/down.js" asp-append-version="true"></script>

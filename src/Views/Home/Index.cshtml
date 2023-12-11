@@ -6,15 +6,11 @@
 
 <div class="jumbotron">
     <div class="container">
-        <h1 class="display-4">Aiursoft.Tracer</h1>
+        <h1 class="display-4">Hola, @Context.Connection.RemoteIpAddress?.ToString()!</h1>
         @{
             var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
         }
         <p class="lead">@description</p>
-        <p>
-            Access from <code>@Context.Connection.RemoteIpAddress?.ToString()</code>
-            <span class="badge badge-secondary ml-2" id="spanStatus">Idle</span>
-        </p>
         <p>
             <button class="btn btn-success btn-lg mt-4" id="startAllButton" onclick="startAll()" role="button">Start All Tests</button>
         </p>
@@ -99,6 +95,7 @@
                     </div>
                     <p class="test-status mt-3">
                         <kbd id="wsStatus" class="d-none"></kbd>
+                        <span class="badge badge-secondary ml-2" id="spanStatus">Idle</span>
                     </p>
                     <p class="test-status">
                         <kbd id="wsmax" class="d-none"></kbd>

@@ -6,13 +6,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Aiursoft.Tracer.Tests.Tools;
 using Microsoft.Extensions.Hosting;
 using static Aiursoft.WebTools.Extends;
+using Aiursoft.WebTools.Services;
+using Aiursoft.AiurObserver;
 
 namespace Aiursoft.Tracer.Tests.IntegrationTests;
 
 [TestClass]
 public class BasicTests
 {
-    private static int _messageCount;
     private readonly string _endpointUrl;
     private readonly int _port;
     private readonly HttpClient _http;
@@ -81,45 +82,26 @@ public class BasicTests
         Assert.AreEqual("[]", content);
     }
 
-    private static async Task Monitor(ClientWebSocket socket)
-    {
-        var buffer = new ArraySegment<byte>(new byte[2048]);
-        while (true)
-        {
-            var result = await socket.ReceiveAsync(buffer, CancellationToken.None);
-            if (result.MessageType == WebSocketMessageType.Text)
-            {
-                _messageCount++;
-                var message = Encoding.UTF8.GetString(
-                        buffer.Skip(buffer.Offset).Take(buffer.Count).ToArray())
-                    .Trim('\0')
-                    .Trim();
-                Console.WriteLine(message);
-            }
-            else
-            {
-                Console.WriteLine($"[WebSocket Event] Remote wrong message. [{result.MessageType}].");
-                break;
-            }
-        }
-    }
-
     [TestMethod]
     public async Task TestConnect()
     {
-        using (var socket = new ClientWebSocket())
-        {
-            await socket.ConnectAsync(new Uri(_endpointUrl.Replace("http", "ws") + "/Home/Pushing"),
-                CancellationToken.None);
-            Console.WriteLine("Websocket connected!");
-            await Task.Factory.StartNew(async () => await Monitor(socket));
-            await Task.Delay(500);
-            await socket.CloseOutputAsync(WebSocketCloseStatus.NormalClosure, string.Empty, CancellationToken.None);
-        }
+        var messagesCount = 0;
+        var endPoint = _endpointUrl.Replace("http", "ws") + "/Home/Pushing";
+        var socket = await endPoint.ConnectAsWebSocketServer();
+        await Task.Factory.StartNew(() => socket.Listen());
 
+        socket.Subscribe(m => 
+        {
+            messagesCount++;
+            return Task.CompletedTask;
+        });
+        await Task.Delay(5000);
+        await socket.Close();
         await Task.Delay(10);
-        Assert.IsTrue(_messageCount > 3);
-        Assert.IsTrue(_messageCount < 7);
-        Console.WriteLine($"Total messages: {_messageCount}");
+
+        var latestTime = socket.LastMessage.Split('|')[0];
+        Assert.IsTrue(DateTime.TryParse(latestTime, out _), $"Got message {latestTime} is not a date time.");
+        Assert.IsTrue(messagesCount > 30);
+        Assert.IsTrue(messagesCount < 70);
     }
 }
