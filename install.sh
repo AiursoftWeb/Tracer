@@ -23,4 +23,6 @@ install()
     rm /tmp/repo -rf
 }
 
-install $1
+# This will install this app under /opt/apps and register a new service with systemd.
+# Example: install 5000
+install "$@"
