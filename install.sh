@@ -7,8 +7,11 @@ dll_name="Aiursoft.Tracer.dll"
 
 install()
 {
-    echo "Installing $app_name..."
-    port=$(aiur network/get_port) && echo "Using port: $port"
+    port=$1
+    if [ -z "$port" ]; then
+        port=$(aiur network/get_port)
+    fi
+    echo "Installing $app_name... to port $port"
     
     aiur install/dotnet
     aiur git/clone_to $repo_path /tmp/repo
@@ -20,4 +23,4 @@ install()
     rm /tmp/repo -rf
 }
 
-install
+install $1
