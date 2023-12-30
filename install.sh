@@ -13,9 +13,8 @@ install()
     aiur install/dotnet
     aiur git/clone_to $repo_path /tmp/repo
 
-    app_path="/opt/apps/$app_name"
-    aiur dotnet/publish $app_path $proj_path
-    aiur services/register_aspnet_service $app_name $port $app_path $dll_name
+    aiur dotnet/publish "/opt/apps/$app_name" $proj_path
+    aiur services/register_aspnet_service $app_name $port "/opt/apps/$app_name" $dll_name
 
     echo "Install $app_name finished! Please open http://$(hostname):$port to try!"
     rm ./tmp/repo -rf
