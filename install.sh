@@ -17,7 +17,7 @@ install()
     aiur services/register_aspnet_service $app_name $port "/opt/apps/$app_name" $dll_name
 
     echo "Install $app_name finished! Please open http://$(hostname):$port to try!"
-    rm ./tmp/repo -rf
+    rm /tmp/repo -rf
 }
 
 install
