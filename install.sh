@@ -17,7 +17,7 @@ install()
     aiur dotnet/publish $app_path $proj_path
     aiur services/register_aspnet_service $app_name $port $app_path $dll_name
 
-    echo "Install $app_name finished! Please open $(hostname):$port to try!"
+    echo "Install $app_name finished! Please open http://$(hostname):$port to try!"
     rm ./tmp/repo -rf
 }
 
