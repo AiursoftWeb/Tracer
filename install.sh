@@ -9,7 +9,7 @@ install_tracer()
     aiur install/dotnet
     aiur git/clone_to https://gitlab.aiursoft.cn/aiursoft/tracer ./Tracer
     aiur dotnet/publish $tracer_path ./Tracer/src/Tracer.csproj
-    aiur services/register_aspnet_service "tracer" $port $tracer_path "Tracer"
+    aiur services/register_aspnet_service "tracer" $port $tracer_path "Aiursoft.Tracer"
     aiur caddy/add_proxy $1 $port
 
     echo "Successfully installed Tracer as a service in your machine! Please open $1 to try it now!"
