@@ -2,7 +2,7 @@ aiur() { arg="$( cut -d ' ' -f 2- <<< "$@" )" && curl -sL https://gitlab.aiursof
 
 app_name="tracer"
 repo_path="https://gitlab.aiursoft.cn/aiursoft/tracer"
-proj_path="/tmp/repo/src/Aiursoft.Tracer.csproj"
+proj_path="src/Aiursoft.Tracer.csproj"
 dll_name="Aiursoft.Tracer.dll"
 
 install()
@@ -13,7 +13,7 @@ install()
     aiur install/dotnet
     aiur git/clone_to $repo_path /tmp/repo
 
-    aiur dotnet/publish $proj_path "/opt/apps/$app_name"
+    aiur dotnet/publish "/tmp/repo/$proj_path" "/opt/apps/$app_name"
     aiur services/register_aspnet_service $app_name $port "/opt/apps/$app_name" $dll_name
 
     echo "Install $app_name finished! Please open http://$(hostname):$port to try!"
