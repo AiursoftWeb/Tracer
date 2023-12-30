@@ -23,8 +23,10 @@ First, specify a domain name for your Ubuntu 18.04+, brand-new server.
 And execute the following command in the server:
 
 ```bash
-curl -sL https://gitlab.aiursoft.cn/aiursoft/tracer/-/raw/master/install.sh | sudo bash -s 1111
+curl -sL https://gitlab.aiursoft.cn/aiursoft/tracer/-/raw/master/install.sh | sudo bash
 ```
+
+<!-- Append -s 8080 to set the port.-->
 
 ## Run locally
 
