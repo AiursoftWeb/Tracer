@@ -13,6 +13,6 @@
   <ItemGroup></ItemGroup>
   <ItemGroup>
     <PackageReference Include="Aiursoft.Scanner" Version="7.0.1" />
-    <PackageReference Include="Aiursoft.WebTools" Version="7.0.20" />
+    <PackageReference Include="Aiursoft.WebTools" Version="7.0.22" />
   </ItemGroup>
 </Project>
