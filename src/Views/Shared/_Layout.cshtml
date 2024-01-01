@@ -1,4 +1,6 @@
 ﻿<!DOCTYPE HTML>
+<html class="h-100">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +11,15 @@
     <link rel="stylesheet" href="~/node_modules/@@aiursoft/autodark.js/dist/css/autodark.min.css" />
     <link rel="stylesheet" href="~/node_modules/@@fortawesome/fontawesome-free/css/all.min.css" />
 </head>
-<body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+
+<body class="d-flex flex-column h-100 pt-5">
+    <nav class="navbar fixed-top navbar-expand-md">
         <div class="container">
             <a class="navbar-brand" href="https://www.aiursoft.cn">
                 Aiursoft
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -41,13 +45,15 @@
 
     <footer class="footer mt-auto py-3">
         <div class="container">
-            &copy; @DateTime.UtcNow.Year - Aiursoft.Tracer - <a href="https://gitlab.aiursoft.cn/aiursoft/tracer">GitLab</a>
+            &copy; @DateTime.UtcNow.Year - Aiursoft.Tracer - <a
+                href="https://gitlab.aiursoft.cn/aiursoft/tracer">GitLab</a>
         </div>
     </footer>
 
     <script type="module" src="~/node_modules/jquery/dist/jquery.min.js" defer></script>
     <script type="module" src="~/node_modules/jquery-validation/dist/jquery.validate.min.js" defer></script>
-    <script type="module" src="~/node_modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js" defer></script>
+    <script type="module" src="~/node_modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+        defer></script>
     <script type="module" src="~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
     <script type="module">
         import { autoTheme } from '/node_modules/@@aiursoft/autodark.js/dist/esm/autodark.js';
@@ -60,3 +66,5 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @(await RenderSectionAsync("scripts", false))
 </body>
+
+</html>
