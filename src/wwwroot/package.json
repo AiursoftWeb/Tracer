@@ -1,0 +1,14 @@
+{
+  "name": "wwwroot",
+  "version": "1.0.0",
+  "description": "This is a server side application. This package is used to host the static files.",
+  "author": "Anduin Xue",
+  "license": "MIT",
+  "dependencies": {
+    "@aiursoft/autodark.js": "^1.0.3",
+    "jquery-validation": "^1.19.5",
+    "jquery-validation-unobtrusive": "^3.2.12",
+    "chart.js": "^2.9.4",
+    "@fortawesome/fontawesome-free": "^6.5.1"
+  }
+}

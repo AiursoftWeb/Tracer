@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE HTML>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="icon" type="image/x-icon" href="https://ui.aiursoft.cn/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
     <title>Tracer - Aiursoft</title>
-    <link rel="stylesheet" href="https://ui.aiursoft.cn/dist/AiurMarket.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/node_modules/@@aiursoft/autodark.js/dist/css/autodark.min.css" />
+    <link rel="stylesheet" href="~/node_modules/@@fortawesome/fontawesome-free/css/all.min.css" />
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
@@ -38,12 +38,22 @@
         </div>
     </nav>
     @RenderBody()
-    <footer class="navbar-expand-md navbar-dark bg-dark pt-2 pb-2">
+
+    <footer class="footer mt-auto py-3">
         <div class="container">
+            &copy; @DateTime.UtcNow.Year - Aiursoft.Tracer - <a href="https://gitlab.aiursoft.cn/aiursoft/tracer">GitLab</a>
         </div>
     </footer>
-    <script src="https://ui.aiursoft.cn/dist/AiurMarket.min.js"></script>
-    <script src="https://ui.aiursoft.cn/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
+
+    <script type="module" src="~/node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script type="module" src="~/node_modules/jquery-validation/dist/jquery.validate.min.js" defer></script>
+    <script type="module" src="~/node_modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js" defer></script>
+    <script type="module" src="~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script type="module">
+        import { autoTheme } from '/node_modules/@@aiursoft/autodark.js/dist/esm/autodark.js';
+        autoTheme();
+    </script>
+    <script src="~/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
     <script src="~/js/ws.js" asp-append-version="true"></script>
     <script src="~/js/http.js" asp-append-version="true"></script>
     <script src="~/js/down.js" asp-append-version="true"></script>

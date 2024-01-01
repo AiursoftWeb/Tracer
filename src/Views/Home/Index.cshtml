@@ -6,7 +6,7 @@
 
 <div class="jumbotron">
     <div class="container">
-        <h1 class="display-4">Hola, @Context.Connection.RemoteIpAddress?.ToString()!</h1>
+        <h1 class="display-4 mt-5">Hola, @Context.Connection.RemoteIpAddress?.ToString()!</h1>
         @{
             var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
         }

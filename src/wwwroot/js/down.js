@@ -22,9 +22,9 @@ const download = () => {
 const startDownload = () => {
     if (testInProgress) return;
     testInProgress = true;
-    $('#downloadbutton').attr('disabled', 'disabled');
-    $('#downStatus').removeClass('d-none');
-    $('#downStatusMbps').removeClass('d-none');
+    document.getElementById('downloadbutton').setAttribute('disabled', 'disabled');
+    document.getElementById('downStatus').classList.remove('d-none');
+    document.getElementById('downStatusMbps').classList.remove('d-none');
 
     download();
     progressUpdateInterval = setInterval(updateStats, 800);
@@ -36,7 +36,7 @@ const stopDownload = () => {
     lastLoadedBytes = 0;
     xhr.abort();
     clearInterval(progressUpdateInterval);
-    $('#downloadbutton').removeAttr('disabled');
+    document.getElementById('downloadbutton').removeAttribute('disabled');
 };
 
 const updateStats = () => {
@@ -47,8 +47,8 @@ const updateStats = () => {
     lastLoadedBytes = loadedBytes;
 
     // Update view
-    $('#downStatus').html('Speed: ' + speed.toFixed(2) + 'MB/s');
-    $('#downStatusMbps').html('Speed: ' + (speed * 8).toFixed(2) + 'Mbps');
+    document.getElementById('downStatus').innerHTML = 'Speed: ' + speed.toFixed(2) + 'MB/s';
+    document.getElementById('downStatusMbps').innerHTML = 'Speed: ' + (speed * 8).toFixed(2) + 'Mbps';
 
     if (downloadchartData.labels.length > 25) {
         downloadchartData.labels.shift();
@@ -59,7 +59,7 @@ const updateStats = () => {
     window.myDownloadLine.update();
 };
 
-$('#downloadbutton').on('click', function () {
+document.getElementById('downloadbutton').addEventListener('click', function () {
     if (testInProgress) {
         stopDownload();
     } else {

@@ -94,8 +94,10 @@ window.myWSLine = new Chart(wsChartCtx, {
 });
 
 var startAll = function () {
-    $('#startAllButton').attr('disabled', 'disabled');
+    const startAllButton = document.querySelector('#startAllButton');
+    startAllButton.setAttribute('disabled', 'disabled');
+
     WsTest();
     ping();
-    download();
+    startDownload();
 };
