@@ -5,7 +5,7 @@
   "author": "Anduin Xue",
   "license": "MIT",
   "dependencies": {
-    "@aiursoft/autodark.js": "^1.1.2",
+    "@aiursoft/autodark.js": "^1.2.0",
     "jquery-validation": "^1.19.5",
     "jquery-validation-unobtrusive": "^3.2.12",
     "chart.js": "^2.9.4",
