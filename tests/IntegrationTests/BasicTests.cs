@@ -83,23 +83,19 @@ public class BasicTests
     [TestMethod]
     public async Task TestConnect()
     {
-        var messagesCount = 0;
         var endPoint = _endpointUrl.Replace("http", "ws") + "/Home/Pushing";
         var socket = await endPoint.ConnectAsWebSocketServer();
         await Task.Factory.StartNew(() => socket.Listen());
 
-        socket.Subscribe(_ => 
-        {
-            messagesCount++;
-            return Task.CompletedTask;
-        });
+        var counter = socket.Counter();
+        var lastStage = socket.StageLast();
         await Task.Delay(5000);
         await socket.Close();
         await Task.Delay(10);
 
-        var latestTime = socket.LastMessage.Split('|')[0];
+        var latestTime = lastStage.Stage?.Split('|')[0];
         Assert.IsTrue(DateTime.TryParse(latestTime, out _), $"Got message {latestTime} is not a date time.");
-        Assert.IsTrue(messagesCount > 30);
-        Assert.IsTrue(messagesCount < 70);
+        Assert.IsTrue(counter.Count > 30);
+        Assert.IsTrue(counter.Count < 70);
     }
 }
