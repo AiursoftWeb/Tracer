@@ -87,8 +87,10 @@ public class BasicTests
         var socket = await endPoint.ConnectAsWebSocketServer();
         await Task.Factory.StartNew(() => socket.Listen());
 
-        var counter = socket.Counter();
-        var lastStage = socket.StageLast();
+        var counter = new MessageCounter<string>();
+        socket.Subscribe(counter);
+        var lastStage = new MessageStageLast<string>(); 
+        socket.Subscribe(lastStage);
         await Task.Delay(5000);
         await socket.Close();
         await Task.Delay(10);
