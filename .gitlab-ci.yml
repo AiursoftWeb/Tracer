@@ -133,4 +133,3 @@ deploy_docker:
     - if: '$CI_COMMIT_BRANCH == "master"'
     - exists:
       - Dockerfile
-    - if: '$CI_COMMIT_BRANCH == "master"'
