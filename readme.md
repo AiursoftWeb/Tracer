@@ -7,8 +7,6 @@
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.cn%2F)](https://tracer.aiursoft.cn)
 [![Docker](https://img.shields.io/badge/docker-latest-blue?logo=docker)](https://hub.aiursoft.cn/#!/taglist/aiursoft/tracer)
 
-Tracer is a simple network speed test app.
-
 Tracer is a simple network speed test app. Deploy this on your server. Open your tracer on your browser. And you can test the speed between you and your server.
 
 ![overview](./screenshot.png)
