@@ -43,6 +43,9 @@ install()
 
     # Clean up
     echo "Install $app_name finished! Please open http://$(hostname):$port to try!"
+    settings_file_path="/opt/apps/$app_name/appsettings.Production.json"
+    echo "Please change the settings in $settings_file_path ASAP to fit your own needs!!!"
+    echo "Currently settings may save files to /tmp folder."
     sudo rm /tmp/repo -rf
 }
 
