@@ -4,8 +4,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Aiursoft.Tracer.Tests.Tools;
 using Microsoft.Extensions.Hosting;
 using static Aiursoft.WebTools.Extends;
-using Aiursoft.WebTools.Services;
-using Aiursoft.AiurObserver;
+using Aiursoft.AiurObserver.DefaultConsumers;
+using Aiursoft.AiurObserver.WebSocket;
 
 namespace Aiursoft.Tracer.Tests.IntegrationTests;
 
