@@ -40,7 +40,7 @@ public class HomeController : Controller
     [AiurNoCache]
     public IActionResult Download()
     {
-        HttpContext.Response.Headers.Add("Content-Length", Length.ToString());
+        HttpContext.Response.Headers.Append("Content-Length", Length.ToString());
         return new FileContentResult(GetData(), "application/octet-stream");
     }
 }
