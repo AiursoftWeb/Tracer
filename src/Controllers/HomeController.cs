@@ -27,6 +27,7 @@ public class HomeController : Controller
     }
 
     [AiurNoCache]
+    [EnforceWebSocket]
     public async Task Pushing()
     {
         var pusher = await HttpContext.AcceptWebSocketClient();
