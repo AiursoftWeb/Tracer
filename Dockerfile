@@ -30,6 +30,10 @@ ARG PROJ_NAME
 WORKDIR /app
 COPY --from=build-env /app .
 
+# Install wget and curl
+RUN apt update; DEBIAN_FRONTEND=noninteractive apt install -y wget curl
+
+# Edit appsettings.json
 RUN sed -i 's/DataSource=app.db/DataSource=\/data\/app.db/g' appsettings.json
 RUN sed -i 's/\/tmp\/data/\/data/g' appsettings.json
 RUN mkdir -p /data
@@ -52,3 +56,6 @@ ENTRYPOINT ["/bin/bash", "-c", "\
     ln -s $VOL_SETTINGS $SRC_SETTINGS && \
     dotnet $DLL_NAME --urls http://*:5000 \
 "]
+
+HEALTHCHECK --interval=10s --timeout=3s --start-period=180s --retries=3 CMD \
+wget --quiet --tries=1 --spider http://localhost:5000/health || exit 1

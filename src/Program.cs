@@ -6,6 +6,7 @@ public class Program
 {
     public static async Task Main(string[] args)
     {
-        await App<Startup>(args).RunAsync();
+        var app = await AppAsync<Startup>(args);
+        await app.RunAsync();
     }
 }
