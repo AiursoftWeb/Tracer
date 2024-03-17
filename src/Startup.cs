@@ -17,6 +17,17 @@ public class Startup : IWebStartup
 
     public void Configure(WebApplication app)
     {
+        // Log raw request headers:
+        app.Use((context, next) =>
+        {
+            Console.WriteLine("Request headers:");
+            foreach (var header in context.Request.Headers)
+            {
+                Console.WriteLine($"{header.Key}: {header.Value}");
+            }
+            return next();
+        });
+        
         app.UseStaticFiles();
         app.UseRouting();
         app.MapDefaultControllerRoute();
