@@ -21,6 +21,7 @@ public class HomeController : Controller
         return _data;
     }
 
+    [LimitPerMin(10)]
     public IActionResult Index()
     {
         return View();
