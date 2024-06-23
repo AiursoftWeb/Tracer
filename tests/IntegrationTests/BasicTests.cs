@@ -27,7 +27,7 @@ public class BasicTests
     [TestInitialize]
     public async Task CreateServer()
     {
-        _server = await AppAsync<Startup>(Array.Empty<string>(), port: _port);
+        _server = await AppAsync<Startup>([], port: _port);
         await _server.StartAsync();
     }
 
