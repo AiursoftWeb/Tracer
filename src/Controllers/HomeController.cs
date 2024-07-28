@@ -5,11 +5,28 @@ using Aiursoft.WebTools.Attributes;
 
 namespace Aiursoft.Tracer.Controllers;
 
-public class HomeController : Controller
+public class HomeController(IConfiguration configuration) : Controller
 {
     private const int Length = 1024 * 1024 * 1024; // 1G
     private static byte[]? _data;
+    private readonly string _workspaceFolder = configuration["Storage:Path"]!;
+    
+    private async Task<string> GetTempFileAsync()
+    {
+        var tempFile = Path.Combine(_workspaceFolder, "temp.dat");
+        if (!Directory.Exists(_workspaceFolder))
+        {
+            Directory.CreateDirectory(_workspaceFolder);
+        }
+        
+        if (!System.IO.File.Exists(tempFile))
+        {
+            await System.IO.File.WriteAllBytesAsync(tempFile, GetData());
+        }
 
+        return tempFile;
+    }
+    
     private static byte[] GetData()
     {
         if (_data != null) return _data;
@@ -40,9 +57,13 @@ public class HomeController : Controller
     }
 
     [AiurNoCache]
-    public IActionResult Download()
+    public async Task<IActionResult> Download()
     {
-        HttpContext.Response.Headers.Append("Content-Length", Length.ToString());
-        return new FileContentResult(GetData(), "application/octet-stream");
+        return PhysicalFile(
+            physicalPath: await GetTempFileAsync(),
+            contentType: "application/octet-stream",
+            fileDownloadName: "temp.dat",
+            enableRangeProcessing: true
+        );
     }
 }
