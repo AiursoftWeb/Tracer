@@ -3,7 +3,7 @@
 var testInProgress = false;
 var loadedBytes = 0;
 var lastLoadedBytes = 0;
-var downloadUrl = '/home/download';
+var downloadUrl = '/download.dat';
 var xhr;
 var progressUpdateInterval;
 

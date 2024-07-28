@@ -12,7 +12,7 @@ public class Startup : IWebStartup
 
         services
             .AddControllersWithViews()
-            .AddApplicationPart(Assembly.GetExecutingAssembly());
+            .AddApplicationPart(typeof(Startup).Assembly);
     }
 
     public void Configure(WebApplication app)

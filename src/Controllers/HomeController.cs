@@ -2,42 +2,13 @@
 using Aiursoft.WebTools;
 using Microsoft.AspNetCore.Mvc;
 using Aiursoft.WebTools.Attributes;
+using Microsoft.Net.Http.Headers;
+using Aiursoft.Tracer.Services;
 
 namespace Aiursoft.Tracer.Controllers;
 
-public class HomeController(IConfiguration configuration) : Controller
+public class HomeController(DataProvider data) : Controller
 {
-    private const int Length = 1024 * 1024 * 1024; // 1G
-    private static byte[]? _data;
-    private readonly string _workspaceFolder = configuration["Storage:Path"]!;
-    
-    private async Task<string> GetTempFileAsync()
-    {
-        var tempFile = Path.Combine(_workspaceFolder, "temp.dat");
-        if (!Directory.Exists(_workspaceFolder))
-        {
-            Directory.CreateDirectory(_workspaceFolder);
-        }
-        
-        if (!System.IO.File.Exists(tempFile))
-        {
-            await System.IO.File.WriteAllBytesAsync(tempFile, GetData());
-        }
-
-        return tempFile;
-    }
-    
-    private static byte[] GetData()
-    {
-        if (_data != null) return _data;
-        var random = new Random();
-
-        _data = new byte[Length];
-        random.NextBytes(_data);
-
-        return _data;
-    }
-
     [LimitPerMin(10)]
     public IActionResult Index()
     {
@@ -57,13 +28,24 @@ public class HomeController(IConfiguration configuration) : Controller
     }
 
     [AiurNoCache]
-    public async Task<IActionResult> Download()
+    [Route("download.dat")]
+    public IActionResult Download()
     {
-        return PhysicalFile(
-            physicalPath: await GetTempFileAsync(),
-            contentType: "application/octet-stream",
-            fileDownloadName: "temp.dat",
-            enableRangeProcessing: true
-        );
+        var stream = data.GetStreamData();
+        var response = HttpContext.Response;
+        response.Headers[HeaderNames.ContentDisposition] = new ContentDispositionHeaderValue("attachment")
+        {
+            FileNameStar = "download.dat"
+        }.ToString();
+        response.Headers[HeaderNames.ContentType] = "application/octet-stream";
+        response.Headers[HeaderNames.ContentLength] = stream.Length.ToString();
+        response.Headers[HeaderNames.AcceptRanges] = "bytes";
+        response.StatusCode = StatusCodes.Status200OK;
+
+        return new FileStreamResult(stream, "application/octet-stream")
+        {
+            EnableRangeProcessing = true,
+            FileDownloadName = "download.dat"
+        };
     }
 }
