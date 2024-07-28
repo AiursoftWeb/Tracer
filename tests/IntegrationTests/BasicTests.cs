@@ -59,7 +59,7 @@ public class BasicTests
     [TestMethod]
     public async Task GetDownload()
     {
-        var url = _endpointUrl + "/Home/Download";
+        var url = _endpointUrl + "/download.dat";
         var response = await _http.GetAsync(url);
         var content = await response.Content.ReadAsStringAsync();
 

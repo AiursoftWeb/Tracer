@@ -1,5 +1,4 @@
 ﻿using Aiursoft.Scanner;
-using System.Reflection;
 using Aiursoft.WebTools.Abstractions.Models;
 
 namespace Aiursoft.Tracer;
