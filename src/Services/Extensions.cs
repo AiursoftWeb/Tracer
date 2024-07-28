@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using Microsoft.Win32;
 
@@ -5,27 +6,42 @@ namespace Aiursoft.Tracer.Services;
 
 public static class Extensions
 {
-    public static string TryGetFullOsVersion()
+    [ExcludeFromCodeCoverage]
+    public static async Task<string> TryGetFullOsVersionAsync()
     {
-        var osVer = Environment.OSVersion;
-        if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) return osVer.VersionString;
-
         try
         {
-            var currentVersion = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion");
-            if (currentVersion != null)
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             {
-                var name = currentVersion.GetValue("ProductName", "Microsoft Windows NT");
-                var ubr = currentVersion.GetValue("UBR", string.Empty).ToString();
-                if (!string.IsNullOrWhiteSpace(ubr))
-                    return $"{name} {osVer.Version.Major}.{osVer.Version.Minor}.{osVer.Version.Build}.{ubr}";
+                var osInfo = await File.ReadAllTextAsync("/etc/lsb-release");
+
+                var prettyName = osInfo
+                    .Split('\n')
+                    .FirstOrDefault(l => l.StartsWith("DISTRIB_DESCRIPTION"))?
+                    .Split('=')[1]
+                    .Trim('"') ?? "Unknown";
+
+                return prettyName.Trim();
+
+            }
+            else if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+            {
+                var currentVersion = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion");
+                if (currentVersion != null)
+                {
+                    var name = currentVersion.GetValue("ProductName", "Microsoft Windows NT");
+                    var ubr = currentVersion.GetValue("UBR", string.Empty).ToString();
+                    var osVer = Environment.OSVersion;
+                    if (!string.IsNullOrWhiteSpace(ubr))
+                        return $"{name} {osVer.Version.Major}.{osVer.Version.Minor}.{osVer.Version.Build}.{ubr}";
+                }
             }
         }
         catch
         {
-            return osVer.VersionString;
+            // ignored
         }
 
-        return osVer.VersionString;
+        return Environment.OSVersion.VersionString;
     }
 }
