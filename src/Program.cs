@@ -1,8 +1,10 @@
-﻿using static Aiursoft.WebTools.Extends;
+﻿using System.Diagnostics.CodeAnalysis;
+using static Aiursoft.WebTools.Extends;
 
 namespace Aiursoft.Tracer;
 
-public class Program
+[ExcludeFromCodeCoverage]
+public abstract class Program
 {
     public static async Task Main(string[] args)
     {

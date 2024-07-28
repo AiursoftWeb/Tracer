@@ -15,11 +15,6 @@ public class DataProvider : ISingletonDependency
         random.NextBytes(Data);
     }
 
-    public byte[] GetData()
-    {
-        return Data;
-    }
-
     public MemoryStream GetStreamData()
     {
         return new MemoryStream(Data, writable: false);
