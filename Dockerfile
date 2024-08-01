@@ -9,7 +9,7 @@ WORKDIR /src
 COPY . .
 
 # NPM Build at PGK_JSON_PATH
-RUN npm install --prefix "${CSPROJ_PATH}wwwroot"
+RUN npm install --prefix "${CSPROJ_PATH}wwwroot" --loglevel verbose
 
 # ============================
 # Prepare Building Environment

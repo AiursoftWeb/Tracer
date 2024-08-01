@@ -31,7 +31,7 @@ install()
     wwwrootPath=$(dirname "/tmp/repo/$proj_path")/wwwroot
     if [ -d "$wwwrootPath" ]; then
         echo "Found wwwroot folder $wwwrootPath, will install node modules."
-        sudo npm install --prefix "$wwwrootPath" -force
+        sudo npm install --prefix "$wwwrootPath" -force --loglevel verbose
     fi
 
     # Publish the app
