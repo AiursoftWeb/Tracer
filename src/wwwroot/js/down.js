@@ -22,6 +22,28 @@ const createDownload = (index, start, end) => {
     xhrs[index].send();
 };
 
+const stopDownload = () => {
+    if (!testInProgress) return;
+
+    // Abort all ongoing XMLHttpRequests
+    for (let i = 0; i < threads; i++) {
+        if (xhrs[i]) {
+            xhrs[i].abort();
+        }
+    }
+
+    // Reset variables
+    testInProgress = false;
+    loadedBytes.fill(0);
+    lastLoadedBytes.fill(0);
+
+    // Clear the progress update interval
+    clearInterval(progressUpdateInterval);
+
+    // Reset the UI elements
+    document.getElementById('downloadbutton').removeAttribute('disabled');
+};
+
 const startDownload = () => {
     if (testInProgress) return;
     testInProgress = true;
