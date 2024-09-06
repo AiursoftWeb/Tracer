@@ -31,16 +31,15 @@ public class HomeController : Controller
     [Route("download.dat")]
     public IActionResult Download()
     {
-        var stream = new LazyRandomStream();
+        var streamSize = 0x100000000; // 4GB
+        var stream = new LazyRandomStream(streamSize);
         var response = HttpContext.Response;
         response.Headers[HeaderNames.ContentDisposition] = new ContentDispositionHeaderValue("attachment")
         {
             FileNameStar = "download.dat"
         }.ToString();
         response.Headers[HeaderNames.ContentType] = "application/octet-stream";
-        
-        // 4GB
-        response.Headers[HeaderNames.ContentLength] = 0x100000000.ToString();
+        response.Headers[HeaderNames.ContentLength] = streamSize.ToString();
         response.Headers[HeaderNames.AcceptRanges] = "bytes";
 
         return new FileStreamResult(stream, "application/octet-stream")

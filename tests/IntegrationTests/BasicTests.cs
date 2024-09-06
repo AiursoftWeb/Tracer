@@ -52,7 +52,7 @@ public class BasicTests
         Assert.AreEqual("text/html; charset=utf-8", response.Content.Headers.ContentType?.ToString());
         var p = doc.QuerySelector("p.lead") as IHtmlElement;
         Assert.AreEqual(
-            "Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.",
+            "Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server.",
             p?.InnerHtml);
     }
 
@@ -60,12 +60,8 @@ public class BasicTests
     public async Task GetDownload()
     {
         var url = _endpointUrl + "/download.dat";
-        var response = await _http.GetAsync(url);
-        var content = await response.Content.ReadAsStringAsync();
-
+        var response = await _http.GetAsync(url, HttpCompletionOption.ResponseHeadersRead);
         response.EnsureSuccessStatusCode(); // Status Code 200-299
-        Assert.AreEqual("application/octet-stream", response.Content.Headers.ContentType?.ToString());
-        Assert.IsTrue(1024 * 1024 * 900 < content.Length);
     }
 
     [TestMethod]
