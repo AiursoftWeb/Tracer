@@ -8,7 +8,7 @@
     <IsPackable>false</IsPackable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Description>Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and Aiursoft services.</Description>
+    <Description>Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server.</Description>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Aiursoft.AiurObserver.WebSocket.Server" Version="8.0.2" />
