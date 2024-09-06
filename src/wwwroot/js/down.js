@@ -1,15 +1,15 @@
 ﻿'use strict';
 
 var testInProgress = false;
-var threads = 4;
+var threads = 8;
+var refreshPeriod = 0.8;
 var loadedBytes = new Array(threads).fill(0);
 var lastLoadedBytes = new Array(threads).fill(0);
 var downloadUrl = '/download.dat';
 var xhrs = [];
 var progressUpdateInterval;
-var chunkSize = (1024 / threads) * 1024 * 1024; // 256MB per thread
 
-const createDownload = (index, start, end) => {
+const createDownload = (index) => {
     xhrs[index] = new XMLHttpRequest();
 
     xhrs[index].addEventListener('progress', (event) => {
@@ -18,7 +18,9 @@ const createDownload = (index, start, end) => {
     });
 
     xhrs[index].open('GET', downloadUrl);
-    xhrs[index].setRequestHeader('Range', `bytes=${start}-${end}`);
+    
+    // Set the responseType to blob to allow reading the response as a binary string
+    xhrs[index].responseType = 'blob';
     xhrs[index].send();
 };
 
@@ -52,19 +54,17 @@ const startDownload = () => {
     document.getElementById('downStatusMbps').classList.remove('d-none');
 
     for (let i = 0; i < threads; i++) {
-        let start = i * chunkSize;
-        let end = start + chunkSize - 1;
-        createDownload(i, start, end);
+        createDownload(i);
     }
 
-    progressUpdateInterval = setInterval(updateStats, 800);
+    progressUpdateInterval = setInterval(updateStats, refreshPeriod * 1000);
 };
 
 const updateStats = () => {
     let totalSpeed = 0;
 
     for (let i = 0; i < threads; i++) {
-        let speed = (loadedBytes[i] - lastLoadedBytes[i]) / 0.8 / (1024 * 1024);
+        let speed = (loadedBytes[i] - lastLoadedBytes[i]) / refreshPeriod / (1024 * 1024);
         totalSpeed += speed;
         lastLoadedBytes[i] = loadedBytes[i];
     }

@@ -7,7 +7,7 @@ using Aiursoft.Tracer.Services;
 
 namespace Aiursoft.Tracer.Controllers;
 
-public class HomeController(DataProvider data) : Controller
+public class HomeController : Controller
 {
     [LimitPerMin(10)]
     public IActionResult Index()
@@ -31,16 +31,17 @@ public class HomeController(DataProvider data) : Controller
     [Route("download.dat")]
     public IActionResult Download()
     {
-        var stream = data.GetStreamData();
+        var stream = new LazyRandomStream();
         var response = HttpContext.Response;
         response.Headers[HeaderNames.ContentDisposition] = new ContentDispositionHeaderValue("attachment")
         {
             FileNameStar = "download.dat"
         }.ToString();
         response.Headers[HeaderNames.ContentType] = "application/octet-stream";
-        response.Headers[HeaderNames.ContentLength] = stream.Length.ToString();
+        
+        // 4GB
+        response.Headers[HeaderNames.ContentLength] = 0x400000000.ToString();
         response.Headers[HeaderNames.AcceptRanges] = "bytes";
-        response.StatusCode = StatusCodes.Status200OK;
 
         return new FileStreamResult(stream, "application/octet-stream")
         {
