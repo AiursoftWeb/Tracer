@@ -40,7 +40,7 @@ public class HomeController : Controller
         response.Headers[HeaderNames.ContentType] = "application/octet-stream";
         
         // 4GB
-        response.Headers[HeaderNames.ContentLength] = 0x400000000.ToString();
+        response.Headers[HeaderNames.ContentLength] = 0x100000000.ToString();
         response.Headers[HeaderNames.AcceptRanges] = "bytes";
 
         return new FileStreamResult(stream, "application/octet-stream")

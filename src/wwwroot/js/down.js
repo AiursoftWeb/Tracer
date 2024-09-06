@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 var testInProgress = false;
-var threads = 8;
+var threads = 4;
 var refreshPeriod = 0.8;
 var loadedBytes = new Array(threads).fill(0);
 var lastLoadedBytes = new Array(threads).fill(0);
