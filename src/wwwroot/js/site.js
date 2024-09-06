@@ -92,12 +92,3 @@ window.myWSLine = new Chart(wsChartCtx, {
     data: wschartData,
     options: chartOption
 });
-
-var startAll = function () {
-    const startAllButton = document.querySelector('#startAllButton');
-    startAllButton.setAttribute('disabled', 'disabled');
-
-    WsTest();
-    ping();
-    startDownload();
-};
