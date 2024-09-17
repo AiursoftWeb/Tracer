@@ -32,7 +32,7 @@ public class HomeController : Controller
     public IActionResult Download()
     {
         var streamSize = 0x100000000; // 4GB
-        var stream = new LazyRandomStream(streamSize);
+        var stream = new ZeroStream(streamSize);
         var response = HttpContext.Response;
         response.Headers[HeaderNames.ContentDisposition] = new ContentDispositionHeaderValue("attachment")
         {

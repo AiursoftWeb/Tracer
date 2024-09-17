@@ -1,18 +1,15 @@
 namespace Aiursoft.Tracer.Services;
 
 /// <summary>
-/// This stream generates read-only random data with a limited size.
-/// The data is generated lazily, meaning it is generated only once and only when needed.
+/// This stream generates read-only zero data with a limited size.
+/// All data is zero, and the size is specified at construction.
 /// </summary>
-public class LazyRandomStream : Stream
+public class ZeroStream : Stream
 {
-    private const int BufferSize = 128 * 1024 * 1024; // 128MB buffer for random data
-    private readonly Random _random = new();
-    private readonly byte[] _buffer = new byte[BufferSize];
     private readonly long _streamSize;
     private long _bytesRead;
 
-    public LazyRandomStream(long streamSize)
+    public ZeroStream(long streamSize)
     {
         if (streamSize < 0)
         {
@@ -20,7 +17,6 @@ public class LazyRandomStream : Stream
         }
 
         _streamSize = streamSize;
-        _random.NextBytes(_buffer); // Generate random data once
     }
 
     public override int Read(byte[] buffer, int offset, int count)
@@ -38,9 +34,11 @@ public class LazyRandomStream : Stream
             return 0; // No more data to read, return 0 to indicate end of stream
         }
 
-        // Cap the read count by the remaining bytes and buffer size
-        var bytesToRead = (int)Math.Min(Math.Min(count, remainingBytes), BufferSize);
-        Array.Copy(_buffer, 0, buffer, offset, bytesToRead);
+        // Cap the read count by the remaining bytes
+        var bytesToRead = (int)Math.Min(count, remainingBytes);
+
+        // Fill the buffer with zeros
+        Array.Clear(buffer, offset, bytesToRead);
 
         // Update the total bytes read
         _bytesRead += bytesToRead;
