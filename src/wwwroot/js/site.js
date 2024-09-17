@@ -70,23 +70,31 @@ var chartOption = {
             scaleLabel: {
                 display: true,
                 labelString: 'Value'
+            },
+            ticks: {
+                beginAtZero: true
             }
         }]
     }
 };
 
+chartOption.scales.yAxes[0].ticks.suggestedMax = 120;
 window.myLine = new Chart(ctx, {
     type: 'line',
     data: chartData,
     options: chartOption
 });
 
+chartOption.scales.yAxes[0].ticks.suggestedMax = 120;
 window.myDownloadLine = new Chart(downloadChartCtx, {
     type: 'line',
     data: downloadchartData,
     options: chartOption
 });
 
+chartOption.scales.yAxes[0].ticks.beginAtZero = false;
+chartOption.scales.yAxes[0].ticks.suggestedMin = 80;
+chartOption.scales.yAxes[0].ticks.suggestedMax = 120;
 window.myWSLine = new Chart(wsChartCtx, {
     type: 'line',
     data: wschartData,
