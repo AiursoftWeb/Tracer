@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 var trig = function (trigger, value) {
     var newTr = logTable.insertRow(-1);
@@ -85,7 +85,7 @@ window.myLine = new Chart(ctx, {
     options: chartOption
 });
 
-chartOption.scales.yAxes[0].ticks.suggestedMax = 120;
+chartOption.scales.yAxes[0].ticks.suggestedMax = 20;
 window.myDownloadLine = new Chart(downloadChartCtx, {
     type: 'line',
     data: downloadchartData,
