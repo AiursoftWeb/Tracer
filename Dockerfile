@@ -30,9 +30,6 @@ ARG PROJ_NAME
 WORKDIR /app
 COPY --from=build-env /app .
 
-# Install wget and curl
-RUN apt update; DEBIAN_FRONTEND=noninteractive apt install -y wget curl
-
 # Edit appsettings.json
 RUN sed -i 's/DataSource=app.db/DataSource=\/data\/app.db/g' appsettings.json
 RUN sed -i 's/\/tmp\/data/\/data/g' appsettings.json
