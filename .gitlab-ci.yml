@@ -139,6 +139,7 @@ deploy_docker_hub:
     - if [ "$CI_COMMIT_REF_NAME" = "master" ]; then TAG="latest"; else TAG="$CI_COMMIT_REF_NAME"; fi
     - echo building image $CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:$TAG
     - docker build . -t $CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:latest
+    - echo "Logging in to Docker Hub..."
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
     - docker push $CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:latest
   rules:
