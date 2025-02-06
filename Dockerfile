@@ -1,6 +1,6 @@
-ARG CSPROJ_PATH="./src/"
+ARG CSPROJ_PATH="./src/Aiursoft.Tracer"
 ARG PROJ_NAME="Aiursoft.Tracer"
-ARG FRONT_END_PATH="${CSPROJ_PATH}wwwroot/"
+ARG FRONT_END_PATH="${CSPROJ_PATH}/wwwroot"
 
 # ============================
 # Prepare node modules

@@ -21,6 +21,6 @@
     <PackageReference Include="AngleSharp" Version="1.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\Aiursoft.Tracer.csproj" />
+    <ProjectReference Include="..\..\src\Aiursoft.Tracer\Aiursoft.Tracer.csproj" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,228 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Aiursoft.Tracer/1.0.0": {
+        "dependencies": {
+          "Aiursoft.AiurObserver.WebSocket.Server": "9.0.1",
+          "Aiursoft.Scanner": "9.0.2",
+          "Aiursoft.WebTools": "9.0.1"
+        },
+        "runtime": {
+          "Aiursoft.Tracer.dll": {}
+        }
+      },
+      "Aiursoft.AiurObserver/9.0.0": {
+        "dependencies": {
+          "Aiursoft.AiurObserver.Abstractions": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/Aiursoft.AiurObserver.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "Aiursoft.AiurObserver.Abstractions/9.0.0": {
+        "runtime": {
+          "lib/net9.0/Aiursoft.AiurObserver.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "Aiursoft.AiurObserver.WebSocket/9.0.1": {
+        "dependencies": {
+          "Aiursoft.AiurObserver": "9.0.0",
+          "Microsoft.AspNetCore.Connections.Abstractions": "9.0.1"
+        },
+        "runtime": {
+          "lib/net9.0/Aiursoft.AiurObserver.WebSocket.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.1.0"
+          }
+        }
+      },
+      "Aiursoft.AiurObserver.WebSocket.Server/9.0.1": {
+        "dependencies": {
+          "Aiursoft.AiurObserver.WebSocket": "9.0.1"
+        },
+        "runtime": {
+          "lib/net9.0/Aiursoft.AiurObserver.WebSocket.Server.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.1.0"
+          }
+        }
+      },
+      "Aiursoft.CSTools/9.0.1": {
+        "dependencies": {
+          "Aiursoft.Scanner.Abstractions": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/Aiursoft.CSTools.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.1.0"
+          }
+        }
+      },
+      "Aiursoft.Scanner/9.0.2": {
+        "dependencies": {
+          "Aiursoft.Scanner.Abstractions": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1"
+        },
+        "runtime": {
+          "lib/net9.0/Aiursoft.Scanner.dll": {
+            "assemblyVersion": "9.0.2.0",
+            "fileVersion": "9.0.2.0"
+          }
+        }
+      },
+      "Aiursoft.Scanner.Abstractions/9.0.0": {
+        "runtime": {
+          "lib/net9.0/Aiursoft.Scanner.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "Aiursoft.WebTools/9.0.1": {
+        "dependencies": {
+          "Aiursoft.CSTools": "9.0.1",
+          "Aiursoft.WebTools.Abstractions": "9.0.0",
+          "Net.Codecrete.QrCodeGenerator": "2.0.6"
+        },
+        "runtime": {
+          "lib/net9.0/Aiursoft.WebTools.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.1.0"
+          }
+        }
+      },
+      "Aiursoft.WebTools.Abstractions/9.0.0": {
+        "runtime": {
+          "lib/net9.0/Aiursoft.WebTools.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Connections.Abstractions/9.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Features": "9.0.1"
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.1": {},
+      "Microsoft.Extensions.Features/9.0.1": {},
+      "Net.Codecrete.QrCodeGenerator/2.0.6": {
+        "runtime": {
+          "lib/net6.0/QrCodeGenerator.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "2.0.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aiursoft.Tracer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aiursoft.AiurObserver/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-idRHSqYIkhKrq5bWd4p92p7/VQCewp/aZQdaBCwVlBoGcwT4eSl6CpoY0oi0DKhZOBaizHcP//9bVt3b1FQBYg==",
+      "path": "aiursoft.aiurobserver/9.0.0",
+      "hashPath": "aiursoft.aiurobserver.9.0.0.nupkg.sha512"
+    },
+    "Aiursoft.AiurObserver.Abstractions/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2aR+piJTeOIsHxqxyKq/Kai2NocRDQpDuh8MP++EYdW1+hngdJUAiGePhQi3IUYlrqZRyiJ1K+VUR0V2UcL7XA==",
+      "path": "aiursoft.aiurobserver.abstractions/9.0.0",
+      "hashPath": "aiursoft.aiurobserver.abstractions.9.0.0.nupkg.sha512"
+    },
+    "Aiursoft.AiurObserver.WebSocket/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YiuHxBpy6MzbtkZis+LDve8t4GVBzcV1GP3G+Mz0gU1swwmySKYDf3iNulSHyBnR/YF6jbpI7oh0IpB7aZpaZw==",
+      "path": "aiursoft.aiurobserver.websocket/9.0.1",
+      "hashPath": "aiursoft.aiurobserver.websocket.9.0.1.nupkg.sha512"
+    },
+    "Aiursoft.AiurObserver.WebSocket.Server/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UKvfkbEDB32KAMjGqjF0WuxryaeBO+Q8zwZ+KNywYTiCb6fUbAoNJ0F+VGWh/L0z2VB9MB1v+HPHGfJzspzUKg==",
+      "path": "aiursoft.aiurobserver.websocket.server/9.0.1",
+      "hashPath": "aiursoft.aiurobserver.websocket.server.9.0.1.nupkg.sha512"
+    },
+    "Aiursoft.CSTools/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hHUazVHTcUT0BiYCoRSKa0VS/65J8upMpX2Sq7Zw5klf9J/oBHKThpyfa5BmAzTrd21hoaNrW+0UoKjjx0+G+Q==",
+      "path": "aiursoft.cstools/9.0.1",
+      "hashPath": "aiursoft.cstools.9.0.1.nupkg.sha512"
+    },
+    "Aiursoft.Scanner/9.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U1dw9pe8W92ko/ogTPSt377CuayOZePm8ckh7AIUtYsZ5gwwaNr3E0r7qPADMQSMgffoRxXB/LLvltq0qu9UMQ==",
+      "path": "aiursoft.scanner/9.0.2",
+      "hashPath": "aiursoft.scanner.9.0.2.nupkg.sha512"
+    },
+    "Aiursoft.Scanner.Abstractions/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6xGqDi954ipVdZunS+QJqAytueD3GNbNhMyF4mJ06aG5nHXvwmFcLEiuxGkF6Pdlk05N4so6dn9gV4/gSrh3yQ==",
+      "path": "aiursoft.scanner.abstractions/9.0.0",
+      "hashPath": "aiursoft.scanner.abstractions.9.0.0.nupkg.sha512"
+    },
+    "Aiursoft.WebTools/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KkwE4mt5W9LBBOjs6W2vEQjDekHW2dzKXHC28gkY8gkh0z36xU/Ea4sM5M+LB4fePdMwiZhzfR8f3OzKLwV8DQ==",
+      "path": "aiursoft.webtools/9.0.1",
+      "hashPath": "aiursoft.webtools.9.0.1.nupkg.sha512"
+    },
+    "Aiursoft.WebTools.Abstractions/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E0RcFBtCF2AguR2OqUjVhs3BjJ67o3IdEs0GGI+JtQmdAKDvy3Mq1KmI2fy6KoF/AcxSpvpgAM4jkx46Zc47hw==",
+      "path": "aiursoft.webtools.abstractions/9.0.0",
+      "hashPath": "aiursoft.webtools.abstractions.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Connections.Abstractions/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FGAdSJ+ghn/6N8OzRqdeahPm5bupBInv/bJYFK9/ubvunMHMU9V+MaGtc6laa197Vn8cRyx64fAa/BrlA0Flng==",
+      "path": "microsoft.aspnetcore.connections.abstractions/9.0.1",
+      "hashPath": "microsoft.aspnetcore.connections.abstractions.9.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Tr74eP0oQ3AyC24ch17N8PuEkrPbD0JqIfENCYqmgKYNOmL8wQKzLJu3ObxTUDrjnn4rHoR1qKa37/eQyHmCDA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Features/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GU+tXhB+m9brx7YZwpzlZ57FVevfaQgZTSrjbQk5o9tb2QWbpzeUtJDPPG8Cav0OrTPDG+7zrcrGL69Rwv8Gzg==",
+      "path": "microsoft.extensions.features/9.0.1",
+      "hashPath": "microsoft.extensions.features.9.0.1.nupkg.sha512"
+    },
+    "Net.Codecrete.QrCodeGenerator/2.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Go9wbHKqpNkU3E/RGMOLx0icLGjRxZklS/CHM2Zy+iGymK+lBEJnacxouhAGQrhesYa+NG1s0dnYbIIIYGlbQ==",
+      "path": "net.codecrete.qrcodegenerator/2.0.6",
+      "hashPath": "net.codecrete.qrcodegenerator.2.0.6.nupkg.sha512"
+    }
+  }
+}
