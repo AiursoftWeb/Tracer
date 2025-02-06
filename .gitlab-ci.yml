@@ -83,22 +83,7 @@ pack:
     paths:
       - '**/*.nupkg'
 
-upload_to_nuget:
-  stage: deploy
-  environment: production
-  needs:
-    - pack
-  dependencies:
-    - pack
-  script:
-    - |
-      for file in $(find . -name "*.nupkg"); do
-        dotnet nuget push "$file" --api-key "$NUGET_API_KEY" --source "https://api.nuget.org/v3/index.json" --skip-duplicate || exit 1;
-      done
-  only:
-    - master
-
-upload_to_local_nuget:
+deploy_local_nuget:
   stage: deploy
   environment: production
   needs:
@@ -109,6 +94,22 @@ upload_to_local_nuget:
     - |
       for file in $(find . -name "*.nupkg"); do
         dotnet nuget push "$file" --api-key "$LOCAL_NUGET_API_KEY" --source "https://nuget.aiursoft.cn/v3/index.json" --skip-duplicate || exit 1;
+      done
+  only:
+    - master
+
+deploy_public_nuget:
+  stage: deploy
+  environment: production
+  needs:
+    - pack
+    - deploy_local_nuget
+  dependencies:
+    - pack
+  script:
+    - |
+      for file in $(find . -name "*.nupkg"); do
+        dotnet nuget push "$file" --api-key "$NUGET_API_KEY" --source "https://api.nuget.org/v3/index.json" --skip-duplicate || exit 1;
       done
   only:
     - master
