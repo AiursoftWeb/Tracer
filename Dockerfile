@@ -1,14 +1,21 @@
 ARG CSPROJ_PATH="./src/"
 ARG PROJ_NAME="Aiursoft.Tracer"
+ARG FRONT_END_PATH="${CSPROJ_PATH}wwwroot/"
 
 # ============================
 # Prepare node modules
 # ============================
 FROM hub.aiursoft.cn/node:21-alpine AS npm-env
-ARG CSPROJ_PATH
+ARG FRONT_END_PATH
 WORKDIR /src
-COPY ${CSPROJ_PATH}wwwroot/package*.json ./wwwroot/
-RUN npm install --prefix "wwwroot" --loglevel verbose
+
+# Restore
+COPY ${FRONT_END_PATH}/package*.json .
+RUN npm install --loglevel verbose --force
+
+# Build (no need to build. Static files project)
+# COPY ${FRONT_END_PATH}/ .
+# RUN npm run build --loglevel verbose
 
 # ============================
 # Prepare .NET binaries
@@ -18,12 +25,9 @@ ARG CSPROJ_PATH
 ARG PROJ_NAME
 WORKDIR /src
 
-COPY ${CSPROJ_PATH}${PROJ_NAME}.csproj ${CSPROJ_PATH}
-RUN dotnet restore ${CSPROJ_PATH}${PROJ_NAME}.csproj
-COPY . .
-
 # Build
-RUN dotnet publish ${CSPROJ_PATH}${PROJ_NAME}.csproj  --configuration Release --no-self-contained --runtime linux-x64 --output /app
+COPY . .
+RUN dotnet publish ${CSPROJ_PATH}/${PROJ_NAME}.csproj  --configuration Release --no-self-contained --runtime linux-x64 --output /app
 
 # ============================
 # Prepare runtime image
@@ -32,7 +36,7 @@ FROM hub.aiursoft.cn/aiursoft/internalimages/dotnet
 ARG PROJ_NAME
 WORKDIR /app
 COPY --from=build-env /app .
-COPY --from=npm-env /src/wwwroot ./wwwroot
+COPY --from=npm-env /src ./wwwroot
 
 # Edit appsettings.json
 RUN sed -i 's/DataSource=app.db/DataSource=\/data\/app.db/g' appsettings.json && \
