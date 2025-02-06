@@ -27,7 +27,7 @@ WORKDIR /src
 
 # Build
 COPY . .
-RUN dotnet publish ${CSPROJ_PATH}/${PROJ_NAME}.csproj  --configuration Release --no-self-contained --runtime linux-x64 --output /app
+RUN dotnet publish ${CSPROJ_PATH}/${PROJ_NAME}.csproj --configuration Release --no-self-contained --runtime linux-x64 --output /app
 
 # ============================
 # Prepare runtime image
