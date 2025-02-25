@@ -5,7 +5,7 @@
 [![Test Coverage](https://gitlab.aiursoft.cn/aiursoft/tracer/badges/master/coverage.svg)](https://gitlab.aiursoft.cn/aiursoft/tracer/-/pipelines)
 [![ManHours](https://manhours.aiursoft.cn/r/gitlab.aiursoft.cn/aiursoft/tracer.svg)](https://gitlab.aiursoft.cn/aiursoft/tracer/-/commits/master?ref_type=heads)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.cn%2F)](https://tracer.aiursoft.cn)
-[![Docker](https://img.shields.io/badge/docker-latest-blue?logo=docker)](https://hub.aiursoft.cn/#!/taglist/aiursoft/tracer)
+[![Docker](https://img.shields.io/docker/pulls/aiursoft/tracer.svg)](https://hub.docker.com/r/aiursoft/tracer)
 
 Tracer is a simple network speed test app. Deploy this on your server. Open your tracer on your browser. And you can test the speed between you and your server.
 
@@ -37,7 +37,7 @@ It will install the app as a systemd service, and start it automatically. Binary
 
 Requirements about how to run
 
-1. Install [.NET 8 SDK](http://dot.net/) and [Node.js](https://nodejs.org/).
+1. Install [.NET 9 SDK](http://dot.net/) and [Node.js](https://nodejs.org/).
 2. Execute `npm install` at `wwwroot` folder to install the dependencies.
 3. Execute `dotnet run` to run the app.
 4. Use your browser to view [http://localhost:5000](http://localhost:5000).
