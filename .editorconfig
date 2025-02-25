@@ -18,7 +18,8 @@ trim_trailing_whitespace = false
 [*.json]
 indent_size = 2
 
-[*.cs, *.cshtml]
+[*.cs]
+[*.cshtml]
 # Some CSS Resharper doesn't know how to load.
 resharper_unknown_css_class_highlighting=none
 
