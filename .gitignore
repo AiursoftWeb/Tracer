@@ -17,3 +17,6 @@ appsettings.Development.json
 *.log
 TestResults/
 app.db*
+.angular/
+.yarn/
+*.tsbuildinfo
