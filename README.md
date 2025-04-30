@@ -17,7 +17,7 @@ Try a running tracer [here](https://tracer.aiursoft.cn).
 
 ## Run in Ubuntu
 
-The following script will install\update this app on your Ubuntu server. Supports Ubuntu 22.04.
+The following script will install\update this app on your Ubuntu server. Supports Ubuntu 25.04.
 
 On your Ubuntu server, run the following command:
 
