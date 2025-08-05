@@ -127,7 +127,9 @@ deploy_docker_registry:
     - docker build . -t registry.aiursoft.cn/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:latest
     - echo "Logging in to Docker Registry..."
     - echo "$LOCAL_DOCKER_PASSWORD" | docker login registry.aiursoft.cn -u "$LOCAL_DOCKER_USERNAME" --password-stdin
-    - docker push registry.aiursoft.cn/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:latest
+    - docker save ${CI_PROJECT_NAMESPACE}/$CI_PROJECT_NAME:$TAG -o temp.tar
+    - regctl image import registry.aiursoft.cn/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME:$TAG temp.tar
+    - rm ./temp.tar
   rules:
     - if: '$CI_COMMIT_BRANCH == "master"'
       exists:
