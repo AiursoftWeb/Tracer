@@ -209,7 +209,7 @@
                             </tr>
                             <tr>
                                 <td class="w-25">System</td>
-                                <td>@await Extensions.TryGetFullOsVersionAsync() @(Environment.Is64BitOperatingSystem ? "(64-bit)" : "(32-bit)")</td>
+                                <td>@Aiursoft.CSTools.Services.OperatingSystemExtensions.TryGetFullOsVersion() @(Environment.Is64BitOperatingSystem ? "(64-bit)" : "(32-bit)")</td>
                             </tr>
                             <tr>
                                 <td>Directory</td>
