@@ -12,7 +12,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Aiursoft.AiurObserver.WebSocket.Server" Version="9.0.8" />
-    <PackageReference Include="Aiursoft.CSTools" Version="9.0.3" />
     <PackageReference Include="Aiursoft.Scanner" Version="9.0.9" />
     <PackageReference Include="Aiursoft.WebTools" Version="9.0.4" />
   </ItemGroup>
