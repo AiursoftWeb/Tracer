@@ -93,7 +93,7 @@ public class BasicTests
 
         var latestTime = lastStage.Stage?.Split('|')[0];
         Assert.IsTrue(DateTime.TryParse(latestTime, out _), $"Got message {latestTime} is not a date time.");
-        Assert.IsTrue(counter.Count > 30);
-        Assert.IsTrue(counter.Count < 70);
+        Assert.IsGreaterThan(30, counter.Count);
+        Assert.IsLessThan(70, counter.Count);
     }
 }
