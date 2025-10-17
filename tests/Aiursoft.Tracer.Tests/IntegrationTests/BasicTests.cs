@@ -1,11 +1,12 @@
 ﻿using Aiursoft.CSTools.Tools;
 using AngleSharp.Html.Dom;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Aiursoft.Tracer.Tests.Tools;
 using Microsoft.Extensions.Hosting;
 using static Aiursoft.WebTools.Extends;
 using Aiursoft.AiurObserver.DefaultConsumers;
 using Aiursoft.AiurObserver.WebSocket;
+
+[assembly: DoNotParallelize]
 
 namespace Aiursoft.Tracer.Tests.IntegrationTests;
 
@@ -85,7 +86,7 @@ public class BasicTests
 
         var counter = new MessageCounter<string>();
         socket.Subscribe(counter);
-        var lastStage = new MessageStageLast<string>(); 
+        var lastStage = new MessageStageLast<string>();
         socket.Subscribe(lastStage);
         await Task.Delay(5000);
         await socket.Close();
