@@ -37,7 +37,7 @@ It will install the app as a systemd service, and start it automatically. Binary
 
 Requirements about how to run
 
-1. Install [.NET 9 SDK](http://dot.net/) and [Node.js](https://nodejs.org/).
+1. Install [.NET 10 SDK](http://dot.net/) and [Node.js](https://nodejs.org/).
 2. Execute `npm install` at `wwwroot` folder to install the dependencies.
 3. Execute `dotnet run` to run the app.
 4. Use your browser to view [http://localhost:5000](http://localhost:5000).
