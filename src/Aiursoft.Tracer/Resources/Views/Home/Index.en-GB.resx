@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>This is a template project</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Multiple Database Support</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect Integration</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC Authorisation</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Why use the Aiursoft Template?</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Seamlessly integrate with any OpenID Connect provider, with automatic role synchronisation.</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>A modern, feature-rich, and highly extensible foundation for your next web application.</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Hello World!</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Easily switch between providers such as SQLite, MySQL, SQL Server, and an in-memory database for testing.</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Dynamic Navigation Bar</value>
+  </data>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>A built-in Role-Based Access Control (RBAC) system for fine-grained permission management.</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>The navigation bar automatically adjusts based on user roles and permissions.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Comprehensive Documentation</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-Powered Translations</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Built-in User Management</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Includes extensive documentation and practical examples to get you started quickly.</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Automatic, AI-driven translation into 28 languages for global reach.</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Automatic Dependency Injection</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Integrated File Management</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Responsive Design</value>
+  </data>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>All dependencies are automatically registered and always available via constructor injection.</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Features a built-in file management system with automatic profile picture compression.</value>
+  </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>A fully responsive layout that looks great on both desktop and mobile devices.</value>
+  </data>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>A complete solution for user authentication and profile management, ready to use straight out of the box.</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Automatic Dark Mode</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>An intelligent dark mode that automatically adapts to the user&apos;s system settings.</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Comes with full Docker support for streamlined, consistent, and reliable deployments.</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Dockerised for Deployment</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Read the documentation</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>This is a template project, where we begin the voyage...</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>quicker</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Build your next big thing,</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Go to dashboard</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Open Source</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT License</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Achieve more with Aiursoft Template</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Music Tools</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>What our developers say</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Control Panel Website</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown to HTML</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless.</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Reviews</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Here&apos;s what developers from our community have to say.</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Technical Lead</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Frequently Asked Questions</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Frequently asked questions</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Here are some of the answers you might be looking for.</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Is it free to use Aiursoft Template?</value>
+  </data>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management.</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>What do I need to get started?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Yes, Aiursoft Template is completely free and open-source under the MIT Licence. You can use it for personal and commercial projects without any cost.</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>How do I deploy my application?</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>How can I get support?</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>You can obtain community support via GitHub Discussions. Please visit our</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>You&apos;ll need the .NET 10 SDK, npm and your favourite IDE, such as Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation.</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Discussions page</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Join our community and start building today!</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Join the Discussion</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>for any enquiries or to report issues.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>The template is designed for straightforward deployment. It includes comprehensive Docker support, allowing you to containerise your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Start a new project</value>
+  </data>
+
+</root>

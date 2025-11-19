@@ -1,0 +1,44 @@
+@model Aiursoft.Tracer.Models.ErrorViewModels.ErrorViewModel
+
+<div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+        <div class="card">
+            <div class="card-body text-center p-4 p-sm-5">
+
+                <div class="mb-4">
+                    @* A large, clear icon immediately communicates a problem state. *@
+                    <i class="align-middle text-danger" data-lucide="alert-triangle" style="width: 64px; height: 64px;"></i>
+                </div>
+
+                <h1 class="h3 mb-3">@Localizer["An Error Occurred"]</h1>
+
+                <p class="lead">
+                    @Localizer["We're sorry, something went wrong while processing your request."]
+                </p>
+
+                <p class="text-muted">
+                    @Localizer["Please try again later or contact support if the problem persists."]
+                </p>
+
+                @* The server-side conditional logic for RequestId is fully preserved. *@
+                @if (Model.ShowRequestId)
+                {
+                    <div class="border rounded p-2 mt-4 bg-body-tertiary d-inline-block">
+                        <small>
+                            <strong>@Localizer["Request ID:"]</strong> <code>@Model.RequestId</code>
+                        </small>
+                    </div>
+                }
+
+                <div class="mt-4">
+                    @* The asp-* tag helper is preserved, ensuring correct URL generation. *@
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-primary btn-lg">
+                        @* The icon is updated to the theme's standard Lucide icon set. *@
+                        <i class="align-middle me-2" data-lucide="home"></i> @Localizer["Back to Home"]
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

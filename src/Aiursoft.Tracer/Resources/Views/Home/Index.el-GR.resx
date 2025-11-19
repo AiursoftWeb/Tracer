@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Welcome" xml:space="preserve">
+    <value>Καλώς ήρθατε</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Αυτό είναι ένα πρότυπο έργο</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>Εξουσιοδότηση RBAC</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>Ενσωμάτωση OpenID Connect</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Γεια σου Κόσμε!</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Γιατί να χρησιμοποιήσετε το Πρότυπο Aiursoft;</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Υποστήριξη Πολλαπλών Βάσεων Δεδομένων</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Εύκολη εναλλαγή μεταξύ παρόχων όπως SQLite, MySQL, SQL Server και μιας βάσης δεδομένων στη μνήμη για δοκιμές.</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Μια σύγχρονη, πλούσια σε λειτουργίες και εξαιρετικά επεκτάσιμη βάση για την επόμενη εφαρμογή σας web.</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Απολαύστε απρόσκοπτη ενσωμάτωση με οποιονδήποτε πάροχο OpenID Connect, με αυτόματο συγχρονισμό ρόλων.</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Δυναμική Γραμμή Πλοήγησης</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Η γραμμή πλοήγησης προσαρμόζεται αυτόματα με βάση τους ρόλους και τα δικαιώματα των χρηστών.</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Αυτόματη, τεχνητή νοημοσύνη μετάφραση σε 28 γλώσσες για παγκόσμια εμβέλεια.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Πληρέστερη Τεκμηρίωση</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Ενσωματωμένη Διαχείριση Χρηστών</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Περιλαμβάνει εκτενή τεκμηρίωση και πρακτικά παραδείγματα για να ξεκινήσετε γρήγορα.</value>
+  </data>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>Ένα ενσωματωμένο σύστημα Ελέγχου Πρόσβασης Βάσει Ρόλων (RBAC) για λεπτομερή διαχείριση δικαιωμάτων.</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Αυτόματη Ενσωμάτωση Εξαρτήσεων</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Ενσωματωμένη Διαχείριση Αρχείων</value>
+  </data>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>Μια ολοκληρωμένη λύση για την πιστοποίηση χρηστών και τη διαχείριση προφίλ, έτοιμη προς χρήση.</value>
+  </data>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Όλες οι εξαρτήσεις εγγράφονται αυτόματα και είναι πάντα διαθέσιμες μέσω της εισαγωγής από κατασκευαστή.</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Αποκρισιμό Σχεδιασμό</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Διαθέτει ενσωματωμένο σύστημα διαχείρισης αρχείων με αυτόματη συμπίεση avatar.</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Αυτόματη Λειτουργία Σκούρου Θέματος</value>
+  </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>Μια πλήρως ανταποκρινόμενη διάταξη που φαίνεται εξαιρετική τόσο σε επιτραπέζιους υπολογιστές όσο και σε κινητές συσκευές.</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Σε Docker για Ανάπτυξη</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Έξυπνη λειτουργία σκούρου θέματος που προσαρμόζεται αυτόματα στις ρυθμίσεις συστήματος του χρήστη.</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Διαθέτει πλήρη υποστήριξη Docker για απλοποιημένες, συνεπείς και αξιόπιστες αναπτύξεις.</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Διαβάστε το έγγραφο</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Αυτό είναι ένα πρότυπο έργο, από όπου ξεκινάμε το ταξίδι...</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>γρηγορότερα</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Χρήση</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Λειτουργίες</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Ανοιχτού Κώδικα</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Μετάβαση στον πίνακα ελέγχου</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Άδεια MIT</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Δωρεάν</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Δημιουργήστε το επόμενό σας μεγάλο πράγμα,</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Κερδίστε περισσότερα με το Aiursoft Template</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown σε HTML</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Κριτικές</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Εργαλεία Μουσικής</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Ιστοσελίδα Πίνακα Ελέγχου</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Τι λένε οι προγραμματιστές μας</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Αυτά έχουν να πουν οι προγραμματιστές από την κοινότητά μας.</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Τεχνικός Υπεύθυνος</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Συχνές ερωτήσεις</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Χρησιμοποιήστε το ως θεμέλιο για το SaaS σας, ως backend για την εφαρμογή του κινητού σας, ως εταιρική ιστοσελίδα ή ως προσωπικό ιστολόγιο. Οι δυνατότητες είναι ατελείωτες.</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Συχνές Ερωτήσεις</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Ακολουθούν μερικές από τις απαντήσεις που ίσως ψάχνετε.</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Είναι δωρεάν η χρήση του Aiursoft Template;</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Τι χρειάζομαι για να ξεκινήσω;</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Πώς μπορώ να αναπτύξω την εφαρμογή μου;</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Πώς μπορώ να λάβω υποστήριξη;</value>
+  </data>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Το Aiursoft Template είναι η απόλυτη μας επιλογή για εταιρικά έργα! Είναι φτιαγμένο για προγραμματιστές και είναι ελαφρύ αλλά και ισχυρό. Μπορούμε να παραλείψουμε όλο τον τυπικό κώδικα για την ταυτοποίηση και τη διαχείριση χρηστών.</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Ναι, το Aiursoft Template είναι εντελώς δωρεάν και ανοιχτού κώδικα υπό την άδεια MIT. Μπορείτε να το χρησιμοποιήσετε για προσωπικά και εμπορικά projects χωρίς κανένα κόστος.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Μπορείτε να λάβετε υποστήριξη από την κοινότητα μέσω των Συζητήσεων GitHub. Παρακαλούμε επισκεφτείτε την</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Σελίδα Συζητήσεων</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Θα χρειαστείτε το .NET 10 SDK, το npm και το αγαπημένο σας περιβάλλον ανάπτυξης (IDE), όπως το Visual Studio ή το JetBrains Rider. Μπορείτε να βρείτε τον πλήρη οδηγό ρύθμισης στην τεκμηρίωσή μας.</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Συμμετέχετε στις Συζητήσεις</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Γίνετε μέλος της κοινότητάς μας και ξεκινήστε να χτίζετε σήμερα!</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Το πρότυπο είναι κατασκευασμένο για εύκολη ανάπτυξη. Περιλαμβάνει πλήρη υποστήριξη Docker, ώστε να μπορείτε να συσκευάσετε την εφαρμογή σας σε containers και να την εκτελέσετε οπουδήποτε. Μπορείτε επίσης να την αναπτύξετε απευθείας στο IIS, στο Azure App Service ή σε οποιονδήποτε διακομιστή που υποστηρίζει ASP.NET Core.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Ξεκινήστε ένα νέο έργο</value>
+  </data>
+
+</root>

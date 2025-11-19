@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Welcome" xml:space="preserve">
+    <value>ยินดีต้อนรับ</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>นี่คือโครงการต้นแบบ</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>รองรับหลายฐานข้อมูล</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>สวัสดีชาวโลก!</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>การผสานรวม OpenID Connect</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>ทำไมจึงควรใช้ Aiursoft Template?</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>การอนุญาตตามบทบาท RBAC</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>เปลี่ยนระหว่างผู้ให้บริการอย่าง SQLite, MySQL, SQL Server และฐานข้อมูลในหน่วยความจำสำหรับการทดสอบได้อย่างง่ายดาย</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>พื้นฐานที่ทันสมัย อุดมไปด้วยคุณสมบัติ และสามารถขยายได้สูงสำหรับเว็บแอปพลิเคชันถัดไปของคุณ</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>ผสานรวมได้อย่างราบรื่นกับผู้ให้บริการ OpenID Connect ใดก็ได้ พร้อมการซิงโครไนซ์บทบาทอัตโนมัติ</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>การแปลด้วยพลัง AI</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>แถบนำทางจะปรับเปลี่ยนโดยอัตโนมัติตามบทบาทและสิทธิ์ของผู้ใช้</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>แถบนำทางแบบไดนามิก</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>เอกสารคู่มือที่ครอบคลุม</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>ประกอบด้วยเอกสารที่ครอบคลุมและตัวอย่างเชิงปฏิบัติเพื่อให้คุณเริ่มต้นได้อย่างรวดเร็ว</value>
+  </data>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>ระบบควบคุมการเข้าถึงตามบทบาท (RBAC) ในตัว สำหรับการจัดการสิทธิ์แบบละเอียด</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>การจัดการผู้ใช้ในตัว</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>การแปลอัตโนมัติด้วยระบบ AI ไปยัง 28 ภาษา เพื่อการเข้าถึงทั่วโลก</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>การฉีดการพึ่งพาอัตโนมัติ</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>การจัดการไฟล์แบบครบวงจร</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>การออกแบบที่ตอบสนองต่ออุปกรณ์</value>
+  </data>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>การอ้างอิงทั้งหมดจะถูกลงทะเบียนโดยอัตโนมัติและพร้อมใช้งานเสมอผ่าน Constructor Injection</value>
+  </data>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>โซลูชันที่สมบูรณ์แบบสำหรับการยืนยันตัวตนผู้ใช้และการจัดการโปรไฟล์ พร้อมใช้งานทันที</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>มีระบบจัดการไฟล์ในตัวพร้อมการบีบอัดอวาตาร์อัตโนมัติ</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>โหมดมืดอัตโนมัติ</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>แพ็คเกจด้วย Docker สำหรับการปรับใช้งาน</value>
+  </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>การจัดวางที่ตอบสนองได้อย่างสมบูรณ์ ซึ่งดูดีทั้งบนเดสก์ท็อปและอุปกรณ์มือถือ</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>โหมดมืดอัจฉริยะที่ปรับเปลี่ยนอัตโนมัติตามการตั้งค่าระบบของผู้ใช้</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>มาพร้อมการสนับสนุน Docker เต็มรูปแบบเพื่อให้การติดตั้งง่ายขึ้น สม่ำเสมอ และเชื่อถือได้</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>อ่านเอกสาร</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>นี่คือโครงการเทมเพลต ซึ่งเป็นจุดเริ่มต้นของการเดินทาง...</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>คุณสมบัติ</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>เร็วขึ้น</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>โอเพนซอร์ส</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>สัญญาอนุญาต MIT</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>ฟรี</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>สร้างสิ่งที่ยิ่งใหญ่ครั้งต่อไปของคุณ</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>ไปยังแดชบอร์ด</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>การใช้งาน</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>บรรลุผลได้มากขึ้นด้วย Aiursoft Template</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>นักพัฒนาของเราพูดว่าอย่างไร</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>รีวิว</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>เครื่องมือด้านดนตรี</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>เว็บไซต์แดชบอร์ด</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>มาร์กดาวน์เป็นเอชทีเอ็มแอล</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>นี่คือสิ่งที่นักพัฒนาจากชุมชนของเรามีจะบอก</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>ใช้เป็นพื้นฐานสำหรับ SaaS ของคุณ, แบ็กเอนด์สำหรับแอปมือถือ, เว็บไซต์องค์กร, หรือบล็อกส่วนตัว ความเป็นไปได้นั้นไม่มีที่สิ้นสุด</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>คำถามที่พบบ่อย</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>คำถามที่พบบ่อย</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>หัวหน้าฝ่ายเทคนิค</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Aiursoft Template ใช้ฟรีหรือไม่?</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>นี่คือบางส่วนของคำตอบที่คุณอาจกำลังมองหา</value>
+  </data>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template คือตัวเลือกที่ดีที่สุดสำหรับโครงการระดับองค์กร! มันถูกสร้างขึ้นสำหรับนักพัฒนา มีน้ำหนักเบาแต่ทรงพลัง เราสามารถข้ามขั้นตอนพื้นฐานสำหรับการยืนยันตัวตนและการจัดการผู้ใช้ได้ทั้งหมด</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>ฉันจะปรับใช้แอปพลิเคชันของฉันได้อย่างไร?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>ใช่แล้ว Aiursoft Template นั้นฟรีและเป็นโอเพนซอร์สสมบูรณ์ภายใต้สัญญาอนุญาต MIT คุณสามารถใช้งานสำหรับโครงการส่วนตัวและเชิงพาณิชย์ได้โดยไม่มีค่าใช้จ่ายใดๆ</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>ฉันจะได้รับการสนับสนุนได้อย่างไร?</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>ฉันต้องมีอะไรบ้างเพื่อเริ่มต้นใช้งาน?</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>คุณสามารถรับการสนับสนุนจากชุมชนผ่าน GitHub Discussions กรุณาเยี่ยมชม</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>หน้าห้องสนทนา</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>คุณจะต้องมี .NET 10 SDK, npm และ IDE ที่คุณชื่นชอบ เช่น Visual Studio หรือ JetBrains Rider คุณสามารถค้นหาแนวทางการติดตั้งแบบเต็มได้ในเอกสารประกอบของเรา</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>เข้าร่วมการสนทนา</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>สำหรับข้อสงสัยใดๆ หรือเพื่อรายงานปัญหา</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>เทมเพลตนี้ถูกสร้างขึ้นเพื่อให้การปรับใช้เป็นเรื่องง่าย โดยมีระบบรองรับ Docker เต็มรูปแบบ ทำให้คุณสามารถสร้างคอนเทนเนอร์สำหรับแอปพลิเคชันและรันได้ทุกที่ นอกจากนี้คุณยังสามารถปรับใช้โดยตรงไปยัง IIS, Azure App Service หรือเซิร์ฟเวอร์ใดๆ ที่รองรับ ASP.NET Core ได้อีกด้วย</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>เข้าร่วมชุมชนของเราและเริ่มสร้างสรรค์สิ่งใหม่วันนี้!</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>เริ่มต้นโปรเจกต์ใหม่</value>
+  </data>
+
+</root>

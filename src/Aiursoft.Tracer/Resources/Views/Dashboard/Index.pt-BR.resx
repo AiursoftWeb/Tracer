@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Welcome" xml:space="preserve">
+    <value>Bem-vindo</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Por que usar o Aiursoft Template?</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Ler a documentação</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Olá, Mundo!</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Uma base moderna, rica em recursos e altamente extensível para sua próxima aplicação web.</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Este é um projeto de modelo, onde iniciamos a jornada...</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Suporte a Múltiplos Bancos de Dados</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>Integração OpenID Connect</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Altere facilmente entre provedores como SQLite, MySQL, SQL Server e um banco de dados em memória para testes.</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Barra de Navegação Dinâmica</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>Autorização RBAC</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Integre-se perfeitamente com qualquer provedor OpenID Connect, com sincronização automática de funções.</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>A barra de navegação ajusta-se automaticamente com base nas funções e permissões do usuário.</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Traduções com IA</value>
+  </data>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>Um sistema integrado de Controle de Acesso Baseado em Funções (RBAC) para gerenciamento de permissões refinado.</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Gerenciamento de Usuários Integrado</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Inclui documentação extensa e exemplos práticos para você começar rapidamente.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Documentação Abrangente</value>
+  </data>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>Uma solução completa para autenticação de usuários e gerenciamento de perfis pronta para uso imediato.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Gerenciamento Integrado de Arquivos</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Tradução automática e orientada por IA para 28 idiomas para alcance global.</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Injeção Automática de Dependência</value>
+  </data>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Todas as dependências são registradas automaticamente e sempre disponíveis via injeção de construtor.</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Modo Escuro Automático</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Design Responsivo</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Possui um sistema de gerenciamento de arquivos integrado com compactação automática de avatares.</value>
+  </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>Um layout totalmente responsivo que fica ótimo tanto em dispositivos desktop quanto móveis.</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Modo escuro inteligente que se adapta automaticamente às configurações do sistema do usuário.</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Dockerizado para Implantação</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Oferece suporte completo ao Docker para implantações simplificadas, consistentes e confiáveis.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Iniciar um novo projeto</value>
+  </data>
+
+</root>

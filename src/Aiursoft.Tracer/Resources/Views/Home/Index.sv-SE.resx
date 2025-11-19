@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Welcome" xml:space="preserve">
+    <value>Välkommen</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Det här är ett mallprojekt</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Stöd för flera databaser</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Hej Världen!</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Varför använda Aiursoft Template?</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC-auktorisering</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>En modern, funktionsrik och mycket utbyggbar grund för din nästa webbapplikation.</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect-integrering</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Enkelt växla mellan leverantörer som SQLite, MySQL, SQL Server och ett minnesbaserat databassystem för testning.</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Integrera sömlöst med vilken OpenID Connect-leverantör som helst, med automatisk rollsynkronisering.</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Dynamiskt navigeringsfält</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-drivna översättningar</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Omfattande dokumentation</value>
+  </data>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>Ett inbyggt rollbaserat åtkomstkontrollsystem (RBAC) för detaljerad behörighetshantering.</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Inbyggd användarhantering</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Automatisk, AI-driven översättning till 28 språk för global räckvidd.</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Navigeringsfältet anpassas automatiskt baserat på användarroller och behörigheter.</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Inkluderar omfattande dokumentation och praktiska exempel för att du snabbt ska komma igång.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Integrerad filhantering</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Automatisk beroendeinjektion</value>
+  </data>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Alla beroenden registreras automatiskt och är alltid tillgängliga via konstruktorinjektion.</value>
+  </data>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>En komplett lösning för användarautentisering och profilanpassning direkt ur lådan.</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Responsiv Design</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Automatiskt mörkt läge</value>
+  </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>En helt responsiv layout som ser bra ut på både skrivbord och mobila enheter.</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Har ett inbyggt filhanteringssystem med automatisk komprimering av avatarer.</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Dockeriserad för distribution</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Smart mörkt läge som automatiskt anpassar sig efter användarens systeminställningar.</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Levererar fullt Docker-stöd för förenklade, konsekventa och pålitliga distributioner.</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Läs dokumentet</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Det här är ett mallprojekt, där vi startar resan...</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Funktioner</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>snabbare</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Användning</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-licens</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Öppen källkod</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Gå till instrumentpanelen</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Bygg din nästa stora grej,</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Uppnå mer med Aiursoft Template</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Musikverktyg</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Recensioner</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown till HTML</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Vad våra utvecklare säger</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Här är vad utvecklare från vår community har att säga.</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Använd den som grund för din SaaS, som backend för din mobilapp, som företagswebbplats eller som en personlig blogg. Möjligheterna är oändliga.</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Instrumentpanelswebbplats</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Teknisk ledare</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Vanliga frågor</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Är det gratis att använda Aiursoft Template?</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Vanliga frågor</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Här är några av de svar du kanske letar efter.</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Vad behöver jag för att komma igång?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Ja, Aiursoft Template är helt gratis och öppen källkod under MIT-licensen. Du kan använda den för både privata och kommersiella projekt utan någon kostnad.</value>
+  </data>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template är vårt slutgiltiga val för företagsprojekt! Den är byggd för utvecklare och är lättviktig men ändå kraftfull. Vi kan hoppa över all standardkod för autentisering och användarhantering.</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Hur distribuerar jag min applikation?</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Du behöver .NET 10 SDK, npm och din favorit-IDE, som Visual Studio eller JetBrains Rider. Du hittar den fullständiga installationsguiden i vår dokumentation.</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Diskussionssida</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Du kan få communitysupport via GitHub Discussions. Besök vår</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Hur får jag support?</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Delta i diskussioner</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>för frågor eller för att rapportera problem.</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Gå med i vår community och börja bygga idag!</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Mallen är byggd för enkel distribution. Den inkluderar fullt Docker-stöd, så du kan containerisera din app och köra den var som helst. Du kan också distribuera den direkt till IIS, Azure App Service eller vilken server som helst som stöder ASP.NET Core.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Starta ett nytt projekt</value>
+  </data>
+
+</root>

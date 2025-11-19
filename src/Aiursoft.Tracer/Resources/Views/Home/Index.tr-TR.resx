@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Welcome" xml:space="preserve">
+    <value>Hoş Geldiniz</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Bu bir şablon projedir</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC Yetkilendirmesi</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Merhaba Dünya!</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Çoklu Veritabanı Desteği</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect Entegrasyonu</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Neden Aiursoft Template Kullanmalısınız?</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Herhangi bir OpenID Connect sağlayıcısıyla sorunsuz bir şekilde entegre olun, otomatik rol senkronizasyonu ile.</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Modern, zengin özelliklere sahip ve bir sonraki web uygulamanız için oldukça genişletilebilir bir temel.</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>SQLite, MySQL, SQL Server gibi sağlayıcılar ile testler için kullanılan bellek içi veritabanı arasında kolayca geçiş yapın.</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Dinamik Gezinti Çubuğu</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Gezinme çubuğu, kullanıcı rollerine ve izinlerine göre otomatik olarak ayarlanır.</value>
+  </data>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>İnce taneli izin yönetimi için yerleşik bir Rol Tabanlı Erişim Kontrolü (RBAC) sistemi.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Kapsamlı Dokümantasyon</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Yapay Zeka Destekli Çeviriler</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Dahili Kullanıcı Yönetimi</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Küresel erişim için 28 dile otomatik, yapay zeka destekli çeviri.</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Kapsamlı belgeler ve hızlı bir şekilde başlamanızı sağlayacak pratik örnekler içerir.</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Otomatik Bağımlılık Enjeksiyonu</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Entegre Dosya Yönetimi</value>
+  </data>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>Kutudan çıkar çıkmaz kullanıma hazır, kullanıcı kimlik doğrulama ve profil yönetimi için eksiksiz bir çözüm.</value>
+  </data>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Tüm bağımlılıklar otomatik olere kaydedilir ve constructor injection yoluyla her zaman kullanılabilir.</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Duyarlı Tasarım</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Otomatik Karanlık Mod</value>
+  </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>Hem masaüstü hem de mobil cihazlarda harika görünen tamamen duyarlı bir düzen.</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Otomatik avatar sıkıştırmalı, dahili bir dosya yönetim sistemi özelliği sunar.</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Docker ile Dağıtıma Hazır</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Basitleştirilmiş, tutarlı ve güvenilir dağıtımlar için tam Docker desteği ile birlikte gelir.</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Kullanıcının sistem ayarlarına otomatik olarak uyum sağlayan akıllı karanlık mod.</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Belgeyi okuyun</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Bu, yolculuğa başladığımız bir şablon projedir...</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Açık Kaynak</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Kullanım</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT Lisansı</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Panele git</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Ücretsiz</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>daha hızlı</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Bir sonraki büyük projenizi oluşturun,</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft Template ile daha fazlasını başarın</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Kontrol Paneli Web Sitesi</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>İncelemeler</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Müzik Araçları</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Geliştiricilerimizin Görüşleri</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown&apos;dan HTML&apos;e</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Onu SaaS&apos;ınız için bir temel, mobil uygulamanız için bir arka uç, bir kurumsal web sitesi veya kişisel bir blog olarak kullanın. Olanaklar sonsuzdur.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Topluluğumuzdaki geliştiricilerin söyledikleri.</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Sıkça Sorulan Sorular</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Teknik Lider</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>SSS</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Aiursoft Template&apos;ı kullanmak ücretsiz mi?</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>İşte aradığınız cevaplardan bazıları.</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Başlamak için neye ihtiyacım var?</value>
+  </data>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template, kurumsal projeler için nihai tercihimizdir! Geliştiriciler için tasarlandı, hafif ama güçlüdür. Kimlik doğrulama ve kullanıcı yönetimi için gerekli tüm standart kodlardan kurtulabiliriz.</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Uygulamamı nasıl dağıtırım?</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Nasıl destek alabilirim?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Evet, Aiursoft Template MIT Lisansı altında tamamen ücretsiz ve açık kaynaklıdır. Kişisel ve ticari projelerinizde hiçbir ücret ödemeden kullanabilirsiniz.</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Tartışmalar sayfası</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>.NET 10 SDK&apos;ye, npm&apos;ye ve Visual Studio veya JetBrains Rider gibi favori IDE&apos;nize ihtiyacınız olacak. Tüm kurulum kılavuzunu belgelerimizde bulabilirsiniz.</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>GitHub Tartışmaları aracılığıyla topluluk desteği alabilirsiniz. Lütfen bizim</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Topluluğumuza katılın ve hemen bugün inşa etmeye başlayın!</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>her türlü soru veya sorun bildirimi için.</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Tartışmalara Katıl</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Şablon, kolay dağıtım için oluşturulmuştur. Tam Docker desteği içerir, böylece uygulamanızı konteynerleştirip her yerde çalıştırabilirsiniz. Ayrıca doğrudan IIS, Azure App Service veya ASP.NET Core destekleyen herhangi bir sunucuya dağıtabilirsiniz.</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Yeni bir proje başlat</value>
+  </data>
+
+</root>

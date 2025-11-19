@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Welcome" xml:space="preserve">
+    <value>ようこそ</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>これはテンプレートプロジェクトです</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>こんにちは、世界！</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>複数データベースサポート</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC認可</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect 連携</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Aiursoftテンプレートを使用する理由</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>あらゆるOpenID Connectプロバイダーとシームレスに統合し、自動的なロール同期を実現します。</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>モダンで機能豊富、かつ高度に拡張可能な基盤を、あなたの次のWebアプリケーションに提供します。</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>SQLite、MySQL、SQL Server、およびテスト用のインメモリデータベースなどのプロバイダーを簡単に切り替えられます。</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AIによる翻訳</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>動的ナビゲーションバー</value>
+  </data>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>きめ細かい権限管理のための組み込みのロールベースアクセス制御（RBAC）システム。</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>ナビゲーションバーは、ユーザーの役割と権限に基づいて自動的に調整されます。</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>AIによる自動翻訳で28言語に対応し、グローバルな展開を実現します。</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>包括的なドキュメント</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>豊富なドキュメントと実用的な例を含んでいるため、すぐに使い始めることができます。</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>組み込みユーザー管理</value>
+  </data>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>ユーザー認証とプロファイル管理のための完全なソリューションが、すぐに利用できます。</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>統合ファイル管理</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>レスポンシブデザイン</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>自動アバター圧縮機能を備えた組み込みファイル管理システムを特徴としています。</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>自動依存性注入</value>
+  </data>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>すべての依存関係は自動的に登録され、コンストラクタインジェクションを通じて常に利用可能です。</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>自動ダークモード</value>
+  </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>デスクトップとモバイルの両方のデバイスで美しく表示される、完全なレスポンシブレイアウト。</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Docker化によるデプロイ</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>ユーザーのシステム設定に自動的に適応するスマートダークモード。</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>完全なDockerサポートにより、簡素化された一貫性のある信頼性の高いデプロイが可能です。</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>ドキュメントを読む</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>これはテンプレートプロジェクトであり、ここからボイジャーの旅が始まります...</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>機能</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>より迅速に</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>使用方法</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MITライセンス</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>ダッシュボードへ</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>オープンソース</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>無料</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>次の大きなプロジェクトを構築しよう、</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft Templateでさらに多くのことを実現</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>音楽ツール</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>レビュー</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>MarkdownからHTMLへ</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>ダッシュボードウェブサイト</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>コミュニティの開発者からの声をご紹介します。</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>SaaSの基盤として、モバイルアプリのバックエンドとして、コーポレートサイトとして、個人ブログとしてお使いいただけます。可能性は無限大です。</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>開発者の声</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>よくある質問</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>テクニカルリード</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>よくある質問</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>以下に、お探しの回答の一部をご紹介します。</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>始めるには何が必要ですか？</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Aiursoft Templateは無料で使用できますか？</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>アプリケーションをデプロイするにはどうすればよいですか？</value>
+  </data>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Templateは、エンタープライズプロジェクトにおける私たちの確固たる選択です！開発者のために構築されており、軽量でありながら強力です。認証やユーザー管理に関する定型コードをすべて省略できます。</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>はい、Aiursoft TemplateはMITライセンスの下で完全に無料かつオープンソースです。個人プロジェクトや商用プロジェクトで無償でご利用いただけます。</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>.NET 10 SDK、npm、そしてVisual StudioやJetBrains Riderのようなお好みのIDEが必要です。完全なセットアップガイドはドキュメントでご覧いただけます。</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>GitHub Discussionsでコミュニティサポートを受けることができます。当社の</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>サポートを受けるにはどうすればよいですか？</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>ディスカッションページ</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>お問い合わせや問題の報告はこちらへ。</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>コミュニティに参加して、今すぐ構築を始めましょう！</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>ディスカッションに参加</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>このテンプレートは簡単なデプロイを実現するために構築されています。完全なDockerサポートを含んでいるため、アプリをコンテナ化してどこでも実行できます。また、IIS、Azure App Service、またはASP.NET Coreをサポートする任意のサーバーに直接デプロイすることも可能です。</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>新規プロジェクトを開始</value>
+  </data>
+
+</root>
