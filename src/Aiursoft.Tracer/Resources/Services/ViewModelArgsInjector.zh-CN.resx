@@ -138,5 +138,8 @@
   <data name="Network Quality Tester" xml:space="preserve">
     <value>网络质量测试器</value>
   </data>
+  <data name="Self host your own server" xml:space="preserve">
+    <value>自托管您自己的服务器</value>
+  </data>
 
 </root>

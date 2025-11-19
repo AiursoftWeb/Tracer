@@ -138,5 +138,8 @@
   <data name="Tester" xml:space="preserve">
     <value>ผู้ทดสอบ</value>
   </data>
+  <data name="Self host your own server" xml:space="preserve">
+    <value>โฮสต์เซิร์ฟเวอร์ของคุณเอง</value>
+  </data>
 
 </root>

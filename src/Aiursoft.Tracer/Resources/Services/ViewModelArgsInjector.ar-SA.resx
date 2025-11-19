@@ -135,5 +135,8 @@
   <data name="Network Quality Tester" xml:space="preserve">
     <value>اختبار جودة الشبكة</value>
   </data>
+  <data name="Self host your own server" xml:space="preserve">
+    <value>استضف خادمك الخاص</value>
+  </data>
 
 </root>

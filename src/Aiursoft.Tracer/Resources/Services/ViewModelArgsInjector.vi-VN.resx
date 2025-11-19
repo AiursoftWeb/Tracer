@@ -138,5 +138,8 @@
   <data name="Tester" xml:space="preserve">
     <value>Trình Kiểm Thử</value>
   </data>
+  <data name="Self host your own server" xml:space="preserve">
+    <value>Tự lưu trữ máy chủ của riêng bạn</value>
+  </data>
 
 </root>

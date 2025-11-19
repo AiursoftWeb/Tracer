@@ -66,6 +66,7 @@ public class ViewModelArgsInjector(
         _ = localizer["Error"];
         _ = localizer["Network Quality Tester"];
         _ = localizer["Tester"];
+        _ = localizer["Self host your own server"];
     }
 
     public void InjectSimple(

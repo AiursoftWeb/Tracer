@@ -135,5 +135,8 @@
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Δοκιμαστής Ποιότητας Δικτύου</value>
   </data>
+  <data name="Self host your own server" xml:space="preserve">
+    <value>Φιλοξενήστε τον δικό σας διακομιστή</value>
+  </data>
 
 </root>

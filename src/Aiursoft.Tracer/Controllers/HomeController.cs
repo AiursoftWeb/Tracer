@@ -25,6 +25,19 @@ public class HomeController : Controller
         return this.StackView(new IndexViewModel());
     }
 
+    [RenderInNavBar(
+        NavGroupName = "Features",
+        NavGroupOrder = 1,
+        CascadedLinksGroupName = "Home",
+        CascadedLinksIcon = "home",
+        CascadedLinksOrder = 1,
+        LinkText = "Self host your own server",
+        LinkOrder = 1)]
+    public IActionResult Selfhost()
+    {
+        return this.StackView(new SelfhostViewModel());
+    }
+
     [AiurNoCache]
     [EnforceWebSocket]
     public async Task Pushing()

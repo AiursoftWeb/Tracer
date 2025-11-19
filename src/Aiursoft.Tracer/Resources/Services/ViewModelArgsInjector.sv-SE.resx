@@ -135,5 +135,8 @@
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Nätverkskvalitetstestare</value>
   </data>
+  <data name="Self host your own server" xml:space="preserve">
+    <value>Värd din egen server</value>
+  </data>
 
 </root>

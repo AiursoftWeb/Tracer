@@ -135,5 +135,8 @@
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Verkon Laadun Testaaja</value>
   </data>
+  <data name="Self host your own server" xml:space="preserve">
+    <value>Isännöi oma palvelimesi itse</value>
+  </data>
 
 </root>

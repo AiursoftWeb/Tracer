@@ -135,5 +135,8 @@
   <data name="Tester" xml:space="preserve">
     <value>Testador</value>
   </data>
+  <data name="Self host your own server" xml:space="preserve">
+    <value>Hospede seu próprio servidor</value>
+  </data>
 
 </root>

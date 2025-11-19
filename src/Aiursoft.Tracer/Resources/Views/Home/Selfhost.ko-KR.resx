@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Recommended" xml:space="preserve">
+    <value>권장</value>
+  </data>
+  <data name="Run in Docker" xml:space="preserve">
+    <value>Docker에서 실행</value>
+  </data>
+  <data name="Anywhere" xml:space="preserve">
+    <value>어디서나</value>
+  </data>
+  <data name="About Tracer" xml:space="preserve">
+    <value>Tracer 정보</value>
+  </data>
+  <data name="Deploy" xml:space="preserve">
+    <value>배포</value>
+  </data>
+  <data name="Live Demo" xml:space="preserve">
+    <value>라이브 데모</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>자체 호스팅</value>
+  </data>
+  <data name="First, install Docker." xml:space="preserve">
+    <value>먼저 Docker를 설치하세요.</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>속성</value>
+  </data>
+  <data name="Then run the following commands in a Linux shell:" xml:space="preserve">
+    <value>그런 다음 Linux 셸에서 다음 명령어를 실행하세요:</value>
+  </data>
+  <data name="Run in Ubuntu" xml:space="preserve">
+    <value>Ubuntu에서 실행</value>
+  </data>
+  <data name="Tracer is a simple network speed test app. Deploy this on your server, open Tracer in your browser, and test the speed between you and your server instantly." xml:space="preserve">
+    <value>Tracer는 간단한 네트워크 속도 테스트 앱입니다. 서버에 배포한 후 브라우저에서 Tracer를 열면 즉시 사용자와 서버 간의 속도를 테스트할 수 있습니다.</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="Container Context" xml:space="preserve">
+    <value>컨테이너 컨텍스트</value>
+  </data>
+  <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
+    <value>그러면 http://localhost:5000에서 웹 서버가 시작되며 앱을 테스트할 수 있습니다.</value>
+  </data>
+  <data name="Contribute" xml:space="preserve">
+    <value>기여</value>
+  </data>
+  <data name="Report Issue" xml:space="preserve">
+    <value>이슈 보고</value>
+  </data>
+  <data name="Or with a custom port:" xml:space="preserve">
+    <value>또는 사용자 지정 포트로:</value>
+  </data>
+  <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
+    <value>다음 스크립트는 Ubuntu 서버에서 이 앱을 설치/업데이트합니다. Ubuntu 25.04를 지원합니다.</value>
+  </data>
+  <data name="Pull Request" xml:space="preserve">
+    <value>풀 리퀘스트</value>
+  </data>
+  <data name="Development &amp; Manual Run" xml:space="preserve">
+    <value>개발 및 수동 실행</value>
+  </data>
+  <data name="Run Manually" xml:space="preserve">
+    <value>수동 실행</value>
+  </data>
+  <data name="Prerequisites" xml:space="preserve">
+    <value>필수 조건</value>
+  </data>
+  <data name="We&apos;re interested in your feedback! You can submit a suggestion or feature request through the issue tracker." xml:space="preserve">
+    <value>여러분의 피드백에 관심 있습니다! 이슈 트래커를 통해 제안이나 기능 요청을 제출할 수 있습니다.</value>
+  </data>
+  <data name="Run in Visual Studio" xml:space="preserve">
+    <value>Visual Studio에서 실행</value>
+  </data>
+  <data name="Execute `npm install` at `wwwroot` folder." xml:space="preserve">
+    <value>wwwroot` 폴더에서 `npm install`을 실행하세요.</value>
+  </data>
+  <data name="Open the `.sln` file." xml:space="preserve">
+    <value>.sln` 파일을 엽니다.</value>
+  </data>
+  <data name="Execute `dotnet run` to run the app." xml:space="preserve">
+    <value>앱을 실행하려면 `dotnet run`을 실행하세요.</value>
+  </data>
+  <data name="Visit http://localhost:5000." xml:space="preserve">
+    <value>http://localhost:5000에 접속하세요.</value>
+  </data>
+  <data name="Press `F5` to run the app." xml:space="preserve">
+    <value>앱을 실행하려면 `F5` 키를 누르세요.</value>
+  </data>
+  <data name="Always create a personal fork before submitting PRs." xml:space="preserve">
+    <value>PR을 제출하기 전에 항상 개인 포크를 생성하세요.</value>
+  </data>
+
+</root>
