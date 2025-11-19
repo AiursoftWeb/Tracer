@@ -18,7 +18,7 @@ public class HomeController : Controller
         CascadedLinksGroupName = "Home",
         CascadedLinksIcon = "home",
         CascadedLinksOrder = 1,
-        LinkText = "Index",
+        LinkText = "Network Quality Tester",
         LinkOrder = 1)]
     public IActionResult Index()
     {

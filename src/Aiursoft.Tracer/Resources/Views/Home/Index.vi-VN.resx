@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Bắt đầu một dự án mới</value>
   </data>
+  <data name="Network" xml:space="preserve">
+    <value>Mạng</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Xin chào!</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Chẩn đoán</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Bảng điều khiển</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Bộ lọc nhật ký (ms)</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Bắt đầu Kiểm tra</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Kiểm tra Độ trễ HTTP</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Gửi một tin nhắn đơn giản đến máy chủ. Giá trị thấp hơn thì tốt hơn.</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Đang chờ...</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Băng thông</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Biểu đồ Thời gian Thực</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Độ trễ tối đa</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Dừng</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Trạng thái hiện tại</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Kiểm tra tốc độ tải xuống</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Liên kết Trực tiếp</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Tải xuống các khối dữ liệu 4GB. Giá trị cao hơn thì tốt hơn.</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Tốc độ (MB/s)</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Bộ lọc nhật ký (MB/s)</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Hoặc kiểm tra trực tiếp:</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/giây</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Tốc độ (Mbps)</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>Độ trễ WebSocket</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Biểu đồ Thông lượng</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Không hoạt động</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Khoảng cách hiện tại</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Khoảng cách tối đa</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Biểu đồ Độ trễ Sự kiện</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Tác nhân kích hoạt</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Giá trị</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Xóa Nhật ký</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Khoảng cách giữa các sự kiện máy chủ. Mục tiêu: ~100ms.</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Nhật ký Lỗi</value>
+  </data>
 
 </root>

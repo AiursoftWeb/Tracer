@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>새 프로젝트 시작하기</value>
   </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>대시보드</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP 지연 시간 테스트</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>로그 필터 (밀리초)</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>진단</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>네트워크</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>테스트 시작</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>안녕하세요!</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>서버에 간단한 메시지를 전송합니다. 낮을수록 좋습니다.</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>대기 중...</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>중지</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>현재 상태</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>실시간 차트</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>다운로드 속도 테스트</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>최대 지연 시간</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>대역폭</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>4GB 청크를 다운로드합니다. 높을수록 좋습니다.</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>로그 필터 (MB/s)</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>또는 직접 테스트:</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>속도 (MB/s)</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>직접 링크</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>웹소켓 지연 시간</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>처리량 차트</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/초</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>속도 (Mbps)</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>대기 중</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>서버 이벤트 간 간격. 목표: 약 100ms.</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>현재 간격</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>트리거</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>이벤트 지연 시간 차트</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>최대 갭</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>예외 로그</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>값</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>로그 지우기</value>
+  </data>
 
 </root>

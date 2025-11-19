@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Démarrer un nouveau projet</value>
   </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Diagnostics</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Bonjour !</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Réseau</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Test de Latence HTTP</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Démarrer le test</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Filtre du journal (ms)</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Tableau de bord</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Envoie un message simple au serveur. Plus la valeur est basse, mieux c&apos;est.</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>En attente...</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Latence maximale</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Graphique en temps réel</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Statut actuel</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Arrêter</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Bande passante</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Filtre du journal (Mo/s)</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Test de vitesse de téléchargement</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Télécharge des blocs de 4 Go. Plus c&apos;est élevé, mieux c&apos;est.</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Ou tester directement :</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 Mo/s</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Lien direct</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Débit (Mo/s)</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Débit (Mbit/s)</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbit/s</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Graphique de Débit</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Intervalle entre les événements du serveur. Cible : ~100 ms.</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>Latence WebSocket</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Écart actuel</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Inactif</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Écart maximum</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Graphique de latence des événements</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valeur</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Déclencheur</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Effacer le journal</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Journal des Exceptions</value>
+  </data>
 
 </root>

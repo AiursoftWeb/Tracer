@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>开始新项目</value>
   </data>
+  <data name="Network" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>你好！</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP 延迟测试</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>仪表板</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>开始测试</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>日志过滤（毫秒）</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>向服务器发送简单消息。数值越低越好。</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>最大延迟</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>实时图表</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>等待中...</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>带宽</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>当前状态</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>下载4GB数据块。数值越高越好。</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>下载速度测试</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>或直接测试：</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>速度 (MB/s)</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>日志过滤 (MB/s)</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>直接链接</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>吞吐量图表</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>速度 (Mbps)</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/秒</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>空闲</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>服务器事件间隔。目标值：约100毫秒。</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>WebSocket 延迟</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>当前间隔</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>最大间隔</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>触发器</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>事件延迟图表</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>数值</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>异常日志</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>清空日志</value>
+  </data>
 
 </root>

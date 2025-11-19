@@ -1,5 +1,7 @@
 using System.Net;
 using System.Text.RegularExpressions;
+using Aiursoft.AiurObserver.DefaultConsumers;
+using Aiursoft.AiurObserver.WebSocket;
 using Aiursoft.CSTools.Tools;
 using Aiursoft.DbTools;
 using Aiursoft.Tracer.Entities;
@@ -58,6 +60,47 @@ public class BasicTests
         response.EnsureSuccessStatusCode();
     }
 
+    [TestMethod]
+    public async Task GetDownload()
+    {
+        var url = "/download.dat";
+        var response = await _http.GetAsync(url, HttpCompletionOption.ResponseHeadersRead);
+        response.EnsureSuccessStatusCode(); // Status Code 200-299
+    }
+
+    [TestMethod]
+    public async Task Ping()
+    {
+        var url = "/pINg";
+        var response = await _http.GetAsync(url);
+        var content = await response.Content.ReadAsStringAsync();
+
+        response.EnsureSuccessStatusCode(); // Status Code 200-299
+        Assert.AreEqual("application/json; charset=utf-8", response.Content.Headers.ContentType?.ToString());
+        Assert.AreEqual("[]", content);
+    }
+
+    [TestMethod]
+    public async Task TestConnect()
+    {
+        var pusingUrl = $"ws://localhost:{_port}/Home/Pushing";
+        var socket = await pusingUrl.ConnectAsWebSocketServer();
+        await Task.Factory.StartNew(() => socket.Listen());
+
+        var counter = new MessageCounter<string>();
+        socket.Subscribe(counter);
+        var lastStage = new MessageStageLast<string>();
+        socket.Subscribe(lastStage);
+        await Task.Delay(5000);
+        await socket.Close();
+        await Task.Delay(10);
+
+        var latestTime = lastStage.Stage?.Split('|')[0];
+        Assert.IsTrue(DateTime.TryParse(latestTime, out _), $"Got message {latestTime} is not a date time.");
+        Assert.IsGreaterThan(30, counter.Count);
+        Assert.IsLessThan(70, counter.Count);
+    }
+
     private async Task<string> GetAntiCsrfToken(string url)
     {
         var response = await _http.GetAsync(url);
@@ -91,7 +134,7 @@ public class BasicTests
         });
         var registerResponse = await _http.PostAsync("/Account/Register", registerContent);
         Assert.AreEqual(HttpStatusCode.Found, registerResponse.StatusCode);
-        Assert.AreEqual("/Dashboard/Index", registerResponse.Headers.Location?.OriginalString);
+        Assert.AreEqual("/Home/Index", registerResponse.Headers.Location?.OriginalString);
 
         // Step 2: Log off the user and assert a successful redirect.
         var homePageResponse = await _http.GetAsync("/Manage/Index");
@@ -115,10 +158,10 @@ public class BasicTests
         });
         var loginResponse = await _http.PostAsync("/Account/Login", loginContent);
         Assert.AreEqual(HttpStatusCode.Found, loginResponse.StatusCode);
-        Assert.AreEqual("/Dashboard/Index", loginResponse.Headers.Location?.OriginalString);
+        Assert.AreEqual("/Home/Index", loginResponse.Headers.Location?.OriginalString);
 
         // Step 4: Verify the final login state by checking the home page content.
-        var finalHomePageResponse = await _http.GetAsync("/dashboard/index");
+        var finalHomePageResponse = await _http.GetAsync("/home/index");
         finalHomePageResponse.EnsureSuccessStatusCode();
         var finalHtml = await finalHomePageResponse.Content.ReadAsStringAsync();
         Assert.Contains(expectedUserName, finalHtml);
@@ -394,7 +437,7 @@ public class BasicTests
         Assert.AreEqual("/Manage?Message=ChangeProfileSuccess", changeProfileResponse.Headers.Location?.OriginalString);
 
         // Step 5: Visit the home page and verify the new name is displayed.
-        var homePageResponse = await _http.GetAsync("/dashboard/index");
+        var homePageResponse = await _http.GetAsync("/Home/index");
         homePageResponse.EnsureSuccessStatusCode();
         var html = await homePageResponse.Content.ReadAsStringAsync();
         Assert.Contains(newUserName, html);

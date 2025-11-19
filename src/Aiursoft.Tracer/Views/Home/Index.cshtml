@@ -1,6 +1,7 @@
 @using System.Reflection
+@inject IViewLocalizer Localizer
 @{
-    ViewData["Title"] = "Connection Tracer";
+    ViewData["Title"] = Localizer["Connection Tracer"];
     var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
     var ipAddress = Context.Connection.RemoteIpAddress?.ToString();
 }
@@ -9,7 +10,7 @@
 
     <div class="row mb-2 mb-xl-3">
         <div class="col-auto d-none d-sm-block">
-            <h3><strong>Network</strong> Diagnostics</h3>
+            <h3><strong>@Localizer["Network"]</strong> @Localizer["Diagnostics"]</h3>
         </div>
 
         <div class="col-auto ms-auto text-end mt-n1">
@@ -17,7 +18,7 @@
                 <ol class="breadcrumb bg-transparent p-0 mt-1 mb-0">
                     <li class="breadcrumb-item"><a href="#">Aiursoft</a></li>
                     <li class="breadcrumb-item"><a href="#">Tracer</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                    <li class="breadcrumb-item active" aria-current="page">@Localizer["Dashboard"]</li>
                 </ol>
             </nav>
         </div>
@@ -30,7 +31,7 @@
                     <div class="row g-0 w-100">
                         <div class="col-6">
                             <div class="illustration-text p-3 m-1">
-                                <h4 class="illustration-text">Hola, @ipAddress!</h4>
+                                <h4 class="illustration-text">@Localizer["Hola!"] @ipAddress</h4>
                                 <p class="mb-0">@description</p>
                             </div>
                         </div>
@@ -47,12 +48,12 @@
                     <div class="card-actions float-end">
                         <span class="badge bg-primary">HTTP/1.1</span>
                     </div>
-                    <h5 class="card-title mb-0">HTTP Latency Test</h5>
+                    <h5 class="card-title mb-0">@Localizer["HTTP Latency Test"]</h5>
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-start mb-3">
                         <div class="flex-grow-1">
-                            <small class="text-muted">Sends a simple message to server. Lower is better.</small>
+                            <small class="text-muted">@Localizer["Sends a simple message to server. Lower is better."]</small>
                         </div>
                         <div class="d-inline-block ms-3">
                             <i class="align-middle text-primary" data-lucide="arrow-left-right"></i>
@@ -60,26 +61,26 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="pinglagfilter" class="form-label">Log filter (ms)</label>
+                        <label for="pinglagfilter" class="form-label">@Localizer["Log filter (ms)"]</label>
                         <input type="number" class="form-control" id="pinglagfilter" value="200">
                     </div>
 
                     <div class="d-grid gap-2 d-md-block">
                         <button class="btn btn-primary" id="pingbutton" onclick="ping()">
-                            <i class="align-middle me-1" data-lucide="play"></i> Start Test
+                            <i class="align-middle me-1" data-lucide="play"></i> @Localizer["Start Test"]
                         </button>
-                        <button class="btn btn-light" id="stop-pingbutton" onclick="stopPing()">Stop</button>
+                        <button class="btn btn-light" id="stop-pingbutton" onclick="stopPing()">@Localizer["Stop"]</button>
                     </div>
 
                     <hr />
 
                     <div class="mt-3">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="text-muted">Current Status</span>
-                            <span id="httpStatus" class="badge bg-info d-none">Waiting...</span>
+                            <span class="text-muted">@Localizer["Current Status"]</span>
+                            <span id="httpStatus" class="badge bg-info d-none">@Localizer["Waiting..."]</span>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <span class="text-muted">Max Latency</span>
+                            <span class="text-muted">@Localizer["Max Latency"]</span>
                             <span id="httpMax" class="badge bg-danger d-none">0ms</span>
                         </div>
                     </div>
@@ -89,7 +90,7 @@
         <div class="col-12 col-lg-7 d-flex">
             <div class="card flex-fill w-100">
                 <div class="card-header">
-                    <h5 class="card-title mb-0">Real-time Chart</h5>
+                    <h5 class="card-title mb-0">@Localizer["Real-time Chart"]</h5>
                 </div>
                 <div class="card-body">
                     <div class="chart chart-sm">
@@ -105,14 +106,14 @@
             <div class="card flex-fill w-100">
                 <div class="card-header">
                     <div class="card-actions float-end">
-                        <span class="badge bg-success">Bandwidth</span>
+                        <span class="badge bg-success">@Localizer["Bandwidth"]</span>
                     </div>
-                    <h5 class="card-title mb-0">Download Speed Test</h5>
+                    <h5 class="card-title mb-0">@Localizer["Download Speed Test"]</h5>
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-start mb-3">
                         <div class="flex-grow-1">
-                            <small class="text-muted">Downloads 4GB chunks. Higher is better.</small>
+                            <small class="text-muted">@Localizer["Downloads 4GB chunks. Higher is better."]</small>
                         </div>
                         <div class="d-inline-block ms-3">
                             <i class="align-middle text-success" data-lucide="download-cloud"></i>
@@ -120,31 +121,31 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="speedlagfilter" class="form-label">Log filter (MB/s)</label>
+                        <label for="speedlagfilter" class="form-label">@Localizer["Log filter (MB/s)"]</label>
                         <input type="number" class="form-control" id="speedlagfilter" value="0.7">
                     </div>
 
                     <div class="d-grid gap-2 d-md-block">
                         <button class="btn btn-primary" id="downloadbutton">
-                            <i class="align-middle me-1" data-lucide="play"></i> Start Test
+                            <i class="align-middle me-1" data-lucide="play"></i> @Localizer["Start Test"]
                         </button>
-                        <button class="btn btn-light" id="stopdownloadbutton" onclick="stopDownload()">Stop</button>
+                        <button class="btn btn-light" id="stopdownloadbutton" onclick="stopDownload()">@Localizer["Stop"]</button>
                     </div>
 
                     <div class="mt-2">
-                        <small class="text-muted">Or test directly: <a asp-controller="Home" asp-action="Download" class="text-decoration-none">Direct Link</a></small>
+                        <small class="text-muted">@Localizer["Or test directly:"] <a asp-controller="Home" asp-action="Download" class="text-decoration-none">@Localizer["Direct Link"]</a></small>
                     </div>
 
                     <hr />
 
                     <div class="mt-3">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="text-muted">Speed (MB/s)</span>
-                            <span id="downStatus" class="badge bg-success d-none">0 MB/s</span>
+                            <span class="text-muted">@Localizer["Speed (MB/s)"]</span>
+                            <span id="downStatus" class="badge bg-success d-none">@Localizer["0 MB/s"]</span>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <span class="text-muted">Speed (Mbps)</span>
-                            <span id="downStatusMbps" class="badge bg-secondary d-none">0 Mbps</span>
+                            <span class="text-muted">@Localizer["Speed (Mbps)"]</span>
+                            <span id="downStatusMbps" class="badge bg-secondary d-none">@Localizer["0 Mbps"]</span>
                         </div>
                     </div>
                 </div>
@@ -153,7 +154,7 @@
         <div class="col-12 col-lg-7 d-flex">
             <div class="card flex-fill w-100">
                 <div class="card-header">
-                    <h5 class="card-title mb-0">Throughput Chart</h5>
+                    <h5 class="card-title mb-0">@Localizer["Throughput Chart"]</h5>
                 </div>
                 <div class="card-body">
                     <div class="chart chart-sm">
@@ -171,12 +172,12 @@
                     <div class="card-actions float-end">
                         <span class="badge bg-warning text-dark">WebSocket</span>
                     </div>
-                    <h5 class="card-title mb-0">WebSocket Latency</h5>
+                    <h5 class="card-title mb-0">@Localizer["WebSocket Latency"]</h5>
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-start mb-3">
                         <div class="flex-grow-1">
-                            <small class="text-muted">Gap between server events. Target: ~100ms.</small>
+                            <small class="text-muted">@Localizer["Gap between server events. Target: ~100ms."]</small>
                         </div>
                         <div class="d-inline-block ms-3">
                             <i class="align-middle text-warning" data-lucide="zap"></i>
@@ -184,29 +185,29 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="wslagfilter" class="form-label">Log filter (ms)</label>
+                        <label for="wslagfilter" class="form-label">@Localizer["Log filter (ms)"]</label>
                         <input type="number" class="form-control" id="wslagfilter" value="300">
                     </div>
 
                     <div class="d-grid gap-2 d-md-block">
                         <button class="btn btn-primary" id="wsbutton" onclick="WsTest()">
-                            <i class="align-middle me-1" data-lucide="play"></i> Start Test
+                            <i class="align-middle me-1" data-lucide="play"></i> @Localizer["Start Test"]
                         </button>
-                        <button class="btn btn-light" id="stopwsbutton" onclick="stopWsTest()">Stop</button>
+                        <button class="btn btn-light" id="stopwsbutton" onclick="stopWsTest()">@Localizer["Stop"]</button>
                     </div>
 
                     <hr />
 
                     <div class="mt-3">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="text-muted">Current Gap</span>
+                            <span class="text-muted">@Localizer["Current Gap"]</span>
                             <div>
                                 <span id="wsStatus" class="badge bg-warning text-dark d-none">0ms</span>
-                                <span class="badge bg-secondary ms-1" id="spanStatus">Idle</span>
+                                <span class="badge bg-secondary ms-1" id="spanStatus">@Localizer["Idle"]</span>
                             </div>
                         </div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <span class="text-muted">Max Gap</span>
+                            <span class="text-muted">@Localizer["Max Gap"]</span>
                             <span id="wsmax" class="badge bg-danger d-none">0ms</span>
                         </div>
                     </div>
@@ -216,7 +217,7 @@
         <div class="col-12 col-lg-7 d-flex">
             <div class="card flex-fill w-100">
                 <div class="card-header">
-                    <h5 class="card-title mb-0">Event Latency Chart</h5>
+                    <h5 class="card-title mb-0">@Localizer["Event Latency Chart"]</h5>
                 </div>
                 <div class="card-body">
                     <div class="chart chart-sm">
@@ -237,23 +238,23 @@
                                 <i class="align-middle" data-lucide="more-horizontal"></i>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end">
-                                <a class="dropdown-item" href="#" onclick="document.getElementById('logTable').innerHTML='<tr><th>Time</th><th>Trigger</th><th>Value</th></tr>';">Clear Log</a>
+                                <a class="dropdown-item" href="#" onclick="document.getElementById('logTable').innerHTML='<tr><th>@Localizer["Time"]</th><th>@Localizer["Trigger"]</th><th>@Localizer["Value"]</th></tr>';">@Localizer["Clear Log"]</a>
                             </div>
                         </div>
                     </div>
-                    <h5 class="card-title mb-0">Exception Log</h5>
+                    <h5 class="card-title mb-0">@Localizer["Exception Log"]</h5>
                 </div>
                 <div class="table-responsive">
                     <table class="table table-hover table-striped my-0" id="logTable">
                         <thead>
                             <tr>
-                                <th>Time</th>
-                                <th>Trigger</th>
-                                <th>Value</th>
+                                <th>@Localizer["Time"]</th>
+                                <th>@Localizer["Trigger"]</th>
+                                <th>@Localizer["Value"]</th>
                             </tr>
                         </thead>
                         <tbody>
-                            </tbody>
+                        </tbody>
                     </table>
                 </div>
             </div>

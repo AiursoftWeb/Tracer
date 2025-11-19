@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Розпочати новий проєкт</value>
   </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Привіт!</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Мережа</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Діагностика</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Почати тест</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Фільтр журналу (мс)</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Панель керування</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Тест затримки HTTP</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Надсилає просте повідомлення на сервер. Чим менше значення, тим краще.</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Поточний статус</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Максимальна затримка</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Зупинити</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Очікування...</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Чарт у реальному часі</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Тест швидкості завантаження</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Пропускна здатність</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Фільтр журналу (МБ/с)</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Пряме посилання</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Завантажує фрагменти по 4 ГБ. Чим вище значення, тим краще.</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 МБ/с</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Швидкість (МБ/с)</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Або протестуйте напряму:</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>Затримка WebSocket</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Мбіт/с</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Швидкість (Мбіт/с)</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Неактивний</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Графік Пропускної Здатності</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Поточний розрив</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Максимальний розрив</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Інтервал між подіями сервера. Ціль: ~100мс.</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Графік затримки подій</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Тригер</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Очистити журнал</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Час</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значення</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Журнал винятків</value>
+  </data>
 
 </root>

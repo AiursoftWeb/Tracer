@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>بدء مشروع جديد</value>
   </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>لوحة التحكم</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>مرحباً!</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>الشبكة</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>التشخيصات</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>مرشح السجل (مللي ثانية)</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>بدء الاختبار</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>يرسل رسالة بسيطة إلى الخادم. القيم الأقل أفضل.</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>اختبار زمن الوصول لبروتوكول HTTP</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>في انتظار...</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>الحالة الحالية</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>أقصى زمن انتقال</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>عرض النطاق الترددي</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>مخطط فوري</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>يقوم بتحميل أجزاء بحجم 4 جيجابايت. القيم الأعلى أفضل.</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>اختبار سرعة التنزيل</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>مرشح السجل (ميجابايت/ثانية)</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>رابط مباشر</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>السرعة (ميجابايت/ثانية)</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>السرعة (ميغابت في الثانية)</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>أو اختبر مباشرةً:</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 ميجابايت/ثانية</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 ميغابت في الثانية</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>مخطط الإنتاجية</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>زمن انتقال WebSocket</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>الفجوة الحالية</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>الفجوة بين أحداث الخادم. الهدف: ~100 مللي ثانية.</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>خامل</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>أقصى فارق</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>الوقت</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>مخطط زمن وصول الأحداث</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>المُحَفِّز</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>القيمة</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>سجل الاستثناءات</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>مسح السجلات</value>
+  </data>
 
 </root>

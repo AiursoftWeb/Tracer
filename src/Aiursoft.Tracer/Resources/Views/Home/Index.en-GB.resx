@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Start a new project</value>
   </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Hello!</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Diagnostics</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Log filter (ms)</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Sends a simple message to the server. Lower values are better.</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP Latency Test</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Begin Test</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Maximum Latency</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Current Status</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Awaiting...</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Download Speed Test</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Real-time Chart</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Bandwidth</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Downloads 4GB chunks. Higher values are better.</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Or test directly:</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Direct Link</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/s</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Speed (Mbps)</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Log filter (MB/s)</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Speed (MB/s)</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Current Interval</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Interval between server events. Target: ~100ms.</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>WebSocket Latency</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Maximum Gap</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Event Latency Chart</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Throughput Chart</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Exception Log</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Clear Log</value>
+  </data>
 
 </root>

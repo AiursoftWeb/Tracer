@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Avvia un nuovo progetto</value>
   </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Cruscotto</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Rete</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Ciao!</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Avvia Test</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Test della Latenza HTTP</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Diagnostica</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Filtro log (ms)</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Invia un semplice messaggio al server. Valori più bassi sono migliori.</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Arresta</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Stato Corrente</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>In attesa...</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Latenza Massima</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Grafico in Tempo Reale</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Test Velocità Download</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Larghezza di banda</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Filtro log (MB/s)</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Scarica blocchi da 4GB. Valori più alti indicano prestazioni migliori.</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Velocità (MB/s)</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Collegamento diretto</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Oppure testa direttamente:</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/s</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Grafico della Velocità di Trasmissione</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Velocità (Mbps)</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>Latenza WebSocket</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Intervallo tra gli eventi del server. Obiettivo: ~100ms.</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Intervallo Corrente</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Inattivo</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Scarto Massimo</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Grafico della Latenza degli Eventi</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Cancella registro</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Causa</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valore</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Registro delle Eccezioni</value>
+  </data>
 
 </root>

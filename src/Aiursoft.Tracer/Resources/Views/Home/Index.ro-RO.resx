@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Începe un proiect nou</value>
   </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Salut!</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Rețea</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Începe Testul</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Filtru jurnal (ms)</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Test de Latență HTTP</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Diagnostică</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Panou de control</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Trimite un mesaj simplu către server. Valori mai mici sunt mai bune.</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Oprește</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Grafic în timp real</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Lățime de bandă</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Se așteaptă...</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Latență Maximă</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Test de Viteză de Descărcare</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Stare curentă</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Descarcă segmente de 4GB. Valori mai mari sunt mai bune.</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Sau testează direct:</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Filtru jurnal (MB/s)</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Viteză (Mbps)</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Viteză (MB/s)</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/s</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>Latența WebSocket</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Graficul Debitului</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Decalajul curent</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Inactiv</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Legătură Directă</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Intervalul dintre evenimentele serverului. Țintă: ~100ms.</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Timp</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Graficul Latenței Evenimentelor</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Decalajul Maxim</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Declanșator</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Șterge Jurnal</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Jurnal de Excepții</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valoare</value>
+  </data>
 
 </root>

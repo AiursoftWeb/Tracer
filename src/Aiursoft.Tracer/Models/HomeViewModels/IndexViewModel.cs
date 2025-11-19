@@ -6,6 +6,6 @@ public class IndexViewModel : UiStackLayoutViewModel
 {
     public IndexViewModel()
     {
-        PageTitle = "Dashboard";
+        PageTitle = "Tester";
     }
 }

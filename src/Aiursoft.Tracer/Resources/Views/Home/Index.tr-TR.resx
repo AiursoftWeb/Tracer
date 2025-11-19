@@ -216,5 +216,110 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Yeni bir proje başlat</value>
   </data>
+  <data name="Network" xml:space="preserve">
+    <value>Ağ</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Kontrol Paneli</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Günlük filtresi (ms)</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Merhaba!</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Testi Başlat</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Tanı</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP Gecikme Testi</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Sunucuya basit bir mesaj gönderir. Düşük değerler daha iyidir.</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Bekleniyor...</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Maksimum Gecikme</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Mevcut Durum</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Bant Genişliği</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Gerçek Zamanlı Grafik</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Veya doğrudan test et:</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>İndirme Hızı Testi</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Günlük filtresi (MB/sn)</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>4GB&apos;lık parçalar indirir. Yüksek olan daha iyidir.</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/sn</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Doğrudan Bağlantı</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Hız (MB/sn)</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Hız (Mbps)</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Aktarım Grafiği</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>WebSocket Gecikmesi</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Mevcut Aralık</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Boşta</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Maksimum Aralık</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Sunucu olayları arasındaki boşluk. Hedef: ~100ms.</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Zaman</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Olay Gecikme Grafiği</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Değer</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Tetikleyici</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Günlüğü Temizle</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>İstisna Günlüğü</value>
+  </data>
 
 </root>
