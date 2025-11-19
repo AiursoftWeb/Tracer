@@ -64,5 +64,6 @@ public class Startup : IWebStartup
         app.UseAuthentication();
         app.UseAuthorization();
         app.MapDefaultControllerRoute();
+        app.UseWebSockets();
     }
 }

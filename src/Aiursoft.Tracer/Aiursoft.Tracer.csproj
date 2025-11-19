@@ -21,10 +21,14 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.12" />
+    <PackageReference Include="Aiursoft.AiurObserver.WebSocket.Server" Version="10.0.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Aiursoft.Tracer.InMemory\Aiursoft.Tracer.InMemory.csproj" />
     <ProjectReference Include="..\Aiursoft.Tracer.MySql\Aiursoft.Tracer.MySql.csproj" />
     <ProjectReference Include="..\Aiursoft.Tracer.Sqlite\Aiursoft.Tracer.Sqlite.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
   </ItemGroup>
 </Project>

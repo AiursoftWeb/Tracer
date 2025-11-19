@@ -1,340 +1,271 @@
-@* ReSharper disable once Razor.SectionNotResolved *@
-@section styles {
-    <link rel="stylesheet" href="~/styles/site.css" xmlns="http://www.w3.org/1999/html"/>
+@using System.Reflection
+@{
+    ViewData["Title"] = "Connection Tracer";
+    var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
+    var ipAddress = Context.Connection.RemoteIpAddress?.ToString();
 }
 
-<vc:marketing-navbar></vc:marketing-navbar>
+<div class="container-fluid p-0">
 
-<section class="landing-intro text-bg-dark pt-5 pt-lg-6 pb-5 pb-lg-7">
-    <div class="landing-intro-content container h-100">
-        <div class="row align-items-center h-100">
-            <div class="col-lg-5 mx-auto">
-                <span class="badge badge-subtle-primary p-1">@Localizer["Open Source"]</span>
-                <span class="badge badge-subtle-primary p-1">@Localizer["Free"]</span>
-                <span class="badge badge-subtle-primary p-1">@Localizer["MIT Licence"]</span>
-                <h1 id="main-slogan" class="my-4 text-white" style="font-size: 3rem;">
-                    @Localizer["Build your next big thing,"] <span class='text-primary'>@Localizer["faster"]</span>
-                </h1>
-                <p class="text-lg text-white-50">@Localizer["This is a template project, where we start the voyager..."] @Localizer["A modern, feature-rich, and highly extensible foundation for your next web application."]</p>
-                <div class="my-4">
-                    <a class="btn btn-primary btn-lg btn-pill" href="https://template-docs.aiursoft.com/Tutorial/before.html">
-                        <i class="align-middle" data-lucide="rocket"></i> @Localizer["Start a new project"]
-                    </a>
-                    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-primary btn-lg btn-pill">
-                        <i class="align-middle" data-lucide="grid"></i> @Localizer["Go to dashboard"]
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-7 d-none d-lg-flex mx-auto text-center">
-                <div class="landing-intro-screenshot">
-                    <img src="~/images/screenshot.png" alt="Aiursoft Template Main screenshot" class="img-fluid" />
-                </div>
-            </div>
+    <div class="row mb-2 mb-xl-3">
+        <div class="col-auto d-none d-sm-block">
+            <h3><strong>Network</strong> Diagnostics</h3>
+        </div>
+
+        <div class="col-auto ms-auto text-end mt-n1">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent p-0 mt-1 mb-0">
+                    <li class="breadcrumb-item"><a href="#">Aiursoft</a></li>
+                    <li class="breadcrumb-item"><a href="#">Tracer</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                </ol>
+            </nav>
         </div>
     </div>
-</section>
 
-<section class="py-6">
-    <div class="container">
-        <div class="mb-5 text-center">
-            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["Features"]</span>
-            <h2 class="h1">@Localizer["Why use the Aiursoft Template?"]</h2>
-            <p class="text-muted fs-lg">@Localizer["A modern, feature-rich, and highly extensible foundation for your next web application."]</p>
-        </div>
-
-        <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="database"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Multiple Database Support"]</h4>
-                        <p class="fs-lg">@Localizer["Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="key-round"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["OpenID Connect Integration"]</h4>
-                        <p class="fs-lg">@Localizer["Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="shield-check"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["RBAC Authorization"]</h4>
-                        <p class="fs-lg">@Localizer["A built-in Role-Based Access Control (RBAC) system for fine-grained permission management."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="navigation"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Dynamic Navigation Bar"]</h4>
-                        <p class="fs-lg">@Localizer["The navigation bar automatically adjusts based on user roles and permissions."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="languages"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["AI-Powered Translations"]</h4>
-                        <p class="fs-lg">@Localizer["Automatic, AI-driven translation into 28 languages for global reach."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="book-open-text"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Comprehensive Documentation"]</h4>
-                        <p class="fs-lg">@Localizer["Includes extensive documentation and practical examples to get you started quickly."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="user-cog"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Built-in User Management"]</h4>
-                        <p class="fs-lg">@Localizer["A complete solution for user authentication and profile management right out of the box."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="zap"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Automatic Dependency Injection"]</h4>
-                        <p class="fs-lg">@Localizer["All dependencies are automatically registered and always available via constructor injection."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="folder-archive"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Integrated File Management"]</h4>
-                        <p class="fs-lg">@Localizer["Features a built-in file management system with automatic avatar compression."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="airplay"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Responsive Design"]</h4>
-                        <p class="fs-lg">@Localizer["A fully responsive layout that looks great on both desktop and mobile devices."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="moon"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Automatic Dark Mode"]</h4>
-                        <p class="fs-lg">@Localizer["Smart dark mode that automatically adapts to the user's system settings."]</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <div class="d-flex align-items-start py-3">
-                    <div class="landing-feature">
-                        <i data-lucide="ship"></i>
-                    </div>
-                    <div class="flex-grow-1">
-                        <h4 class="mt-0">@Localizer["Dockerized for Deployment"]</h4>
-                        <p class="fs-lg">@Localizer["Comes with full Docker support for simplified, consistent, and reliable deployments."]</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="py-6 bg-white">
-    <div class="container position-relative z-3">
-        <div class="row">
-            <div class="col-md-12 mx-auto text-center">
-                <div class="row">
-                    <div class="col-lg-10 col-xl-9 mx-auto">
-                        <div class="mb-4">
-                            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["Usage"]</span>
-                            <h2 class="h1 mb-3">@Localizer["Achieve more with Aiursoft Template"]</h2>
-                            <p class="text-muted fs-lg">
-                                @Localizer["Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless."]
-                            </p>
+    <div class="row">
+        <div class="col-12">
+            <div class="card illustration flex-fill">
+                <div class="card-body p-0 d-flex flex-fill">
+                    <div class="row g-0 w-100">
+                        <div class="col-6">
+                            <div class="illustration-text p-3 m-1">
+                                <h4 class="illustration-text">Hola, @ipAddress!</h4>
+                                <p class="mb-0">@description</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="row">
-                    <div class="col-md-3 py-3">
-                        <a href="https://stathub.aiursoft.com/" target="_blank">
-                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/stathub/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Dashboard Website" />
-                        </a>
-                        <h4 class="mt-3">StatHub</h4>
+    <div class="row">
+        <div class="col-12 col-lg-5 d-flex">
+            <div class="card flex-fill w-100">
+                <div class="card-header">
+                    <div class="card-actions float-end">
+                        <span class="badge bg-primary">HTTP/1.1</span>
                     </div>
-                    <div class="col-md-3 py-3">
-                        <a href="https://musictools.aiursoft.com/" target="_blank">
-                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/musictools/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Music Tools"/>
-                        </a>
-                        <h4 class="mt-3">Music Tools</h4>
+                    <h5 class="card-title mb-0">HTTP Latency Test</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-start mb-3">
+                        <div class="flex-grow-1">
+                            <small class="text-muted">Sends a simple message to server. Lower is better.</small>
+                        </div>
+                        <div class="d-inline-block ms-3">
+                            <i class="align-middle text-primary" data-lucide="arrow-left-right"></i>
+                        </div>
                     </div>
-                    <div class="col-md-3 py-3">
-                        <a href="https://marktohtml.aiursoft.com/" target="_blank">
-                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/marktohtml/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Markdown To HTML"/>
-                        </a>
-                        <h4 class="mt-3">Markdown To HTML</h4>
+
+                    <div class="mb-3">
+                        <label for="pinglagfilter" class="form-label">Log filter (ms)</label>
+                        <input type="number" class="form-control" id="pinglagfilter" value="200">
                     </div>
-                    <div class="col-md-3 py-3">
-                        <a href="https://www.anduinos.com/" target="_blank">
-                            <img gallery src="https://gitlab.aiursoft.com/anduin/anduinos-home/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="AnduinOS"/>
-                        </a>
-                        <h4 class="mt-3">AnduinOS</h4>
+
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-primary" id="pingbutton" onclick="ping()">
+                            <i class="align-middle me-1" data-lucide="play"></i> Start Test
+                        </button>
+                        <button class="btn btn-light" id="stop-pingbutton" onclick="stopPing()">Stop</button>
+                    </div>
+
+                    <hr />
+
+                    <div class="mt-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="text-muted">Current Status</span>
+                            <span id="httpStatus" class="badge bg-info d-none">Waiting...</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-muted">Max Latency</span>
+                            <span id="httpMax" class="badge bg-danger d-none">0ms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-7 d-flex">
+            <div class="card flex-fill w-100">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Real-time Chart</h5>
+                </div>
+                <div class="card-body">
+                    <div class="chart chart-sm">
+                        <canvas id="httpChart"></canvas>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
 
-<section class="py-6">
-    <div class="container-fluid">
-        <div class="mb-5 text-center">
-            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["Reviews"]</span>
-            <h2 class="h1">@Localizer["What our developers say"]</h2>
-            <p class="text-muted fs-lg">@Localizer["Here's what developers from our community have to say."]</p>
+    <div class="row mt-3">
+        <div class="col-12 col-lg-5 d-flex">
+            <div class="card flex-fill w-100">
+                <div class="card-header">
+                    <div class="card-actions float-end">
+                        <span class="badge bg-success">Bandwidth</span>
+                    </div>
+                    <h5 class="card-title mb-0">Download Speed Test</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-start mb-3">
+                        <div class="flex-grow-1">
+                            <small class="text-muted">Downloads 4GB chunks. Higher is better.</small>
+                        </div>
+                        <div class="d-inline-block ms-3">
+                            <i class="align-middle text-success" data-lucide="download-cloud"></i>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="speedlagfilter" class="form-label">Log filter (MB/s)</label>
+                        <input type="number" class="form-control" id="speedlagfilter" value="0.7">
+                    </div>
+
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-primary" id="downloadbutton">
+                            <i class="align-middle me-1" data-lucide="play"></i> Start Test
+                        </button>
+                        <button class="btn btn-light" id="stopdownloadbutton" onclick="stopDownload()">Stop</button>
+                    </div>
+
+                    <div class="mt-2">
+                        <small class="text-muted">Or test directly: <a asp-controller="Home" asp-action="Download" class="text-decoration-none">Direct Link</a></small>
+                    </div>
+
+                    <hr />
+
+                    <div class="mt-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="text-muted">Speed (MB/s)</span>
+                            <span id="downStatus" class="badge bg-success d-none">0 MB/s</span>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-muted">Speed (Mbps)</span>
+                            <span id="downStatusMbps" class="badge bg-secondary d-none">0 Mbps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="d-flex flex-nowrap overflow-auto review-scroll container" style="scrollbar-width: thin;">
+        <div class="col-12 col-lg-7 d-flex">
+            <div class="card flex-fill w-100">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Throughput Chart</h5>
+                </div>
+                <div class="card-body">
+                    <div class="chart chart-sm">
+                        <canvas id="downloadChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            <div class="flex-shrink-0 me-3" style="max-width: 430px;">
-                <blockquote class="landing-quote card border">
-                    <div class="card-body p-4">
-                        <div class="d-flex align-items-center mb-3">
+    <div class="row mt-3">
+        <div class="col-12 col-lg-5 d-flex">
+            <div class="card flex-fill w-100">
+                <div class="card-header">
+                    <div class="card-actions float-end">
+                        <span class="badge bg-warning text-dark">WebSocket</span>
+                    </div>
+                    <h5 class="card-title mb-0">WebSocket Latency</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-flex align-items-start mb-3">
+                        <div class="flex-grow-1">
+                            <small class="text-muted">Gap between server events. Target: ~100ms.</small>
+                        </div>
+                        <div class="d-inline-block ms-3">
+                            <i class="align-middle text-warning" data-lucide="zap"></i>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="wslagfilter" class="form-label">Log filter (ms)</label>
+                        <input type="number" class="form-control" id="wslagfilter" value="300">
+                    </div>
+
+                    <div class="d-grid gap-2 d-md-block">
+                        <button class="btn btn-primary" id="wsbutton" onclick="WsTest()">
+                            <i class="align-middle me-1" data-lucide="play"></i> Start Test
+                        </button>
+                        <button class="btn btn-light" id="stopwsbutton" onclick="stopWsTest()">Stop</button>
+                    </div>
+
+                    <hr />
+
+                    <div class="mt-3">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="text-muted">Current Gap</span>
                             <div>
-                                <a href="https://anduin.aiursoft.com/" target="_blank">
-                                    <img src="https://anduin.aiursoft.com/avatar" width="48" height="48" alt="User Aimer's avatar" loading="lazy" style="background-color: #eee; border-radius: 50%;" />
-                                </a>
-                            </div>
-                            <div class="ps-3">
-                                <h5 class="mb-1 mt-2">@Localizer["Anduin"]</h5>
-                                <small class="d-block text-muted h5 fw-normal">@Localizer["Technical Lead"]</small>
+                                <span id="wsStatus" class="badge bg-warning text-dark d-none">0ms</span>
+                                <span class="badge bg-secondary ms-1" id="spanStatus">Idle</span>
                             </div>
                         </div>
-                        <p class="lead mb-2">@Localizer["Aiursoft Template is our definitive choice for enterprise projects! It's built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management."]</p>
-                        <div class="landing-stars">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </blockquote>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="py-6 bg-white">
-    <div class="container">
-        <div class="mb-5 text-center">
-            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["FAQ"]</span>
-            <h2 class="h1">@Localizer["Frequently asked questions"]</h2>
-            <p class="text-muted fs-lg">@Localizer["Here are some of the answers you might be looking for."]</p>
-        </div>
-
-        <div class="row">
-            <div class="col-md-9 col-lg-8 mx-auto">
-                <div class="accordion" id="accordionFaq">
-                    <div class="card border mb-3">
-                        <div class="card-header cursor-pointer" id="faqZero" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
-                            <h6 class="mb-0">@Localizer["Is it free to use Aiursoft Template?"]</h6>
-                        </div>
-                        <div id="collapseZero" class="collapse" aria-labelledby="faqZero" data-bs-parent="#accordionFaq">
-                            <div class="card-body py-3">
-                                @Localizer["Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost."]
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card border mb-3">
-                        <div class="card-header cursor-pointer" id="faqOne" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            <h6 class="mb-0">@Localizer["What do I need to get started?"]</h6>
-                        </div>
-                        <div id="collapseOne" class="collapse" aria-labelledby="faqOne" data-bs-parent="#accordionFaq">
-                            <div class="card-body py-3">
-                                @Localizer["You'll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation."]
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card border mb-3">
-                        <div class="card-header cursor-pointer" id="faqTwo" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h6 class="mb-0">@Localizer["How do I deploy my application?"]</h6>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="faqTwo" data-bs-parent="#accordionFaq">
-                            <div class="card-body py-3">
-                                @Localizer["The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core."]
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card border mb-3">
-                        <div class="card-header cursor-pointer" id="faqThree" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h6 class="mb-0">@Localizer["How can I get support?"]</h6>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="faqThree" data-bs-parent="#accordionFaq">
-                            <div class="card-body py-3">
-                                @Localizer["You can get community support via GitHub Discussions. Please visit our"] <a href="https://github.com/aiursoftweb/template/discussions" target="_blank">@Localizer["Discussions page"]</a> @Localizer["for any inquiries or to report issues."]
-                            </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="text-muted">Max Gap</span>
+                            <span id="wsmax" class="badge bg-danger d-none">0ms</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section class="py-6">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
-                <h2 class="h1 mb-3">
-                    @Localizer["Join our community and start building today!"]
-                </h2>
-                <a href="https://github.com/aiursoftweb/template/discussions" class="align-middle btn btn-dark btn-pill btn-lg mt-n1" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                    <span class="ms-1">@Localizer["Join Discussions"]</span>
-                </a>
-                <a href="https://template-docs.aiursoft.com/Tutorial/before.html" class="align-middle btn btn-primary btn-pill btn-lg mt-n1" target="_blank">
-                    <i class="fa-solid fa-rocket"></i>
-                    <span class="ms-1">@Localizer["Start a new project"]</span>
-                </a>
+        <div class="col-12 col-lg-7 d-flex">
+            <div class="card flex-fill w-100">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Event Latency Chart</h5>
+                </div>
+                <div class="card-body">
+                    <div class="chart chart-sm">
+                        <canvas id="wsChart"></canvas>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
 
-<vc:marketing-footer></vc:marketing-footer>
+    <div class="row mt-3">
+        <div class="col-12">
+            <div class="card flex-fill">
+                <div class="card-header">
+                    <div class="card-actions float-end">
+                        <div class="dropdown position-relative">
+                            <a href="#" data-bs-toggle="dropdown" data-bs-display="static">
+                                <i class="align-middle" data-lucide="more-horizontal"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a class="dropdown-item" href="#" onclick="document.getElementById('logTable').innerHTML='<tr><th>Time</th><th>Trigger</th><th>Value</th></tr>';">Clear Log</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="card-title mb-0">Exception Log</h5>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped my-0" id="logTable">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Trigger</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section scripts {
+    <script src="~/node_modules/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="~/js/ws.js" asp-append-version="true"></script>
+    <script src="~/js/http.js" asp-append-version="true"></script>
+    <script src="~/js/down.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}

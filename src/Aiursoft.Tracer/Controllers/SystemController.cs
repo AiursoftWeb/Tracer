@@ -11,11 +11,9 @@ namespace Aiursoft.Tracer.Controllers;
 /// <summary>
 /// This controller is used to handle system related actions like shutdown.
 /// </summary>
-[Authorize]
 [LimitPerMin]
 public class SystemController(ILogger<SystemController> logger) : Controller
 {
-    [Authorize(Policy = AppPermissionNames.CanViewSystemContext)]
     [RenderInNavBar(
         NavGroupName = "Administration",
         NavGroupOrder = 9999,
@@ -30,6 +28,7 @@ public class SystemController(ILogger<SystemController> logger) : Controller
     }
 
     [HttpPost]
+    [Authorize]
     [Authorize(Policy = AppPermissionNames.CanRebootThisApp)] // Use the specific permission
     [ProducesResponseType(StatusCodes.Status202Accepted)]
     public IActionResult Shutdown([FromServices] IHostApplicationLifetime appLifetime)
