@@ -13,7 +13,7 @@ public class ZeroStream : Stream
     {
         if (streamSize < 0)
         {
-            throw new ArgumentOutOfRangeException(nameof(streamSize), "Stream size must be non-negative.");
+            throw new ArgumentOutOfRangeException(nameof(streamSize), @"Stream size must be non-negative.");
         }
 
         _streamSize = streamSize;

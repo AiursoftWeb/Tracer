@@ -1,5 +1,5 @@
 using Aiursoft.AiurObserver.WebSocket.Server;
-using Aiursoft.Tracer.Models.DashboardViewModels;
+using Aiursoft.Tracer.Models.HomeViewModels;
 using Aiursoft.Tracer.Services;
 using Aiursoft.UiStack.Navigation;
 using Aiursoft.WebTools;
