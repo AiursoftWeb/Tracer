@@ -1,7 +1,5 @@
-@using System.Reflection
 @inject IViewLocalizer Localizer
 @{
-    var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
     var ipAddress = Context.Connection.RemoteIpAddress?.ToString();
 }
 
