@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Log Pengecualian</value>
   </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Diagnosis Jaringan</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Angka ini menunjukkan selisih waktu antara peristiwa server saat ini dan peristiwa server sebelumnya. Angka ini seharusnya mendekati 100ms. Lebih dari 120ms atau kurang dari 90ms tidak dianggap normal.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Browser Anda akan mengunduh 4 file berukuran 4GB dari server kami. Dari waktu mulai hingga file berhasil didapatkan, kami akan membantu menghitung kecepatan unduh jaringan Anda. Semakin besar angkanya, semakin baik kualitas jaringan Anda.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Browser Anda akan mengirimkan pesan sederhana ke server dan menerima respons sederhana. Angka ini menunjukkan waktu yang dibutuhkan dari permintaan hingga respons. Semakin kecil angkanya, semakin baik jaringan Anda.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Anda terhubung sebagai:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer adalah aplikasi pengujian kualitas jaringan yang sederhana. Membantu menguji kecepatan koneksi antara Anda dan server.</value>
+  </data>
 
 </root>

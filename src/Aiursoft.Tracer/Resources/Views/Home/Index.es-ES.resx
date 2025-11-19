@@ -321,5 +321,23 @@
   <data name="Clear Log" xml:space="preserve">
     <value>Borrar registro</value>
   </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Su navegador enviará un mensaje simple al servidor y recibirá una respuesta simple. Este número representa el tiempo que transcurre desde la solicitud hasta la respuesta. Cuanto menor sea el número, mejor será su red.</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Este número indica el intervalo de tiempo entre el evento actual del servidor y el evento anterior del servidor. El valor debería ser cercano a 100ms. Un valor superior a 120ms o inferior a 90ms no es adecuado.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Su navegador descargará 4 archivos de 4GB de nuestro servidor. Desde que comienza hasta que obtiene el archivo, le ayudaremos a calcular la velocidad de descarga de su red. Cuanto mayor sea el número, mejor será su red.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Te estás conectando como:</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Diagnóstico de Red</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer es una aplicación sencilla para probar la calidad de la red. Ayuda a comprobar la velocidad de conexión entre usted y el servidor.</value>
+  </data>
 
 </root>

@@ -129,5 +129,11 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>Luvaton</value>
   </data>
+  <data name="Tester" xml:space="preserve">
+    <value>Testaaja</value>
+  </data>
+  <data name="Network Quality Tester" xml:space="preserve">
+    <value>Verkon Laadun Testaaja</value>
+  </data>
 
 </root>

@@ -216,5 +216,113 @@
   <data name="Start a new project" xml:space="preserve">
     <value>Ξεκινήστε ένα νέο έργο</value>
   </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Διαγνωστικά Δικτύου</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Δοκιμή Καθυστέρησης HTTP</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Φίλτρο καταγραφής (ms)</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Γεια σας!</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Συνδέεστε ως:</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Έναρξη Δοκιμής</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Πίνακας Ελέγχου</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Αναμονή...</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Διακοπή</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Τρέχουσα Κατάσταση</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Δοκιμή Ταχύτητας Λήψης</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Διάγραμμα σε Πραγματικό Χρόνο</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Μέγιστη Καθυστέρηση</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Εύρος Ζώνης</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Φίλτρο καταγραφής (MB/s)</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Ή δοκιμάστε απευθείας:</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Ταχύτητα (MB/s)</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Απευθείας Σύνδεσμος</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Ο περιηγητής σας θα στείλει στον διακομιστή ένα απλό μήνυμα και θα λάβει μια απλή απάντηση. Αυτός ο αριθμός δείχνει τον χρόνο που απαιτείται από το αίτημα μέχρι την απάντηση. Όσο μικρότερος είναι ο αριθμός, τόσο καλύτερο είναι το δίκτυό σας.</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Ταχύτητα (Mbps)</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/s</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>Καθυστέρηση WebSocket</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Διάγραμμα Ρυθμού Μεταφοράς</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Τρέχον Κενό</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Αδρανής</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Ο περιηγητής σας θα κατεβάσει 4 αρχεία των 4GB από τον διακομιστή μας. Από τη στιγμή που ξεκινά και λαμβάνει το αρχείο, θα σας βοηθήσουμε να υπολογίσετε την ταχύτητα λήψης του δικτύου σας. Όσο μεγαλύτερος είναι ο αριθμός, τόσο καλύτερο είναι το δίκτυό σας.</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Μέγιστο Κενό</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Διάγραμμα Καθυστέρησης Συμβάντων</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Χρόνος</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Τιμή</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Συναγερμός</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Καθαρισμός Καταγραφής</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Καταγραφή Εξαιρέσεων</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Αυτός ο αριθμός δείχνει το χρονικό διάστημα μεταξύ του τρέχοντος γεγονότος στον διακομιστή και του προηγούμενου. Ο αριθμός θα πρέπει να είναι κοντά στα 100ms. Τιμές άνω των 120ms ή κάτω των 90ms δεν είναι κατάλληλες.</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Το Aiursoft Tracer είναι μια απλή εφαρμογή δοκιμής ποιότητας δικτύου. Βοηθά στη δοκιμή της ταχύτητας σύνδεσης μεταξύ εσάς και του διακομιστή.</value>
+  </data>
 
 </root>

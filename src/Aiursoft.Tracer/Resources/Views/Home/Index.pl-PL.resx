@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Dziennik Wyjątków</value>
   </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Diagnostyka sieci</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Twoja przeglądarka wyśle do serwera prostą wiadomość i otrzyma prostą odpowiedź. Ta liczba oznacza czas potrzebny od żądania do odpowiedzi. Im mniejsza liczba, tym lepsza jest twoja sieć.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Twoja przeglądarka pobierze 4 pliki o rozmiarze 4 GB z naszego serwera. Na podstawie czasu rozpoczęcia i zakończenia pobierania pomożemy obliczyć prędkość pobierania w twojej sieci. Im wyższa wartość, tym lepsza jest twoja sieć.</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Ta liczba oznacza odstęp czasu pomiędzy bieżącym zdarzeniem serwera a poprzednim zdarzeniem serwera. Wartość powinna być zbliżona do 100 ms. Przedział powyżej 120 ms lub poniżej 90 ms nie jest prawidłowy.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Łączysz się jako:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer to prosta aplikacja do testowania jakości sieci. Pomaga sprawdzić prędkość połączenia między Tobą a serwerem.</value>
+  </data>
 
 </root>

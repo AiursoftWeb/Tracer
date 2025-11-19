@@ -129,5 +129,11 @@
   <data name="Error" xml:space="preserve">
     <value>Erro</value>
   </data>
+  <data name="Tester" xml:space="preserve">
+    <value>Testador</value>
+  </data>
+  <data name="Network Quality Tester" xml:space="preserve">
+    <value>Testador de Qualidade de Rede</value>
+  </data>
 
 </root>

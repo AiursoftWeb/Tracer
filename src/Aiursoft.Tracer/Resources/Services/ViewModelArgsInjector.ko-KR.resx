@@ -132,5 +132,11 @@
   <data name="Error" xml:space="preserve">
     <value>오류</value>
   </data>
+  <data name="Network Quality Tester" xml:space="preserve">
+    <value>네트워크 품질 테스터</value>
+  </data>
+  <data name="Tester" xml:space="preserve">
+    <value>테스터</value>
+  </data>
 
 </root>

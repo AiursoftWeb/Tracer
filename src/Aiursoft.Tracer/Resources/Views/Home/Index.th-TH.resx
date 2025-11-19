@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>บันทึกข้อยกเว้น</value>
   </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>ตัวเลขนี้หมายถึงระยะเวลาช่วงว่างระหว่างเหตุการณ์เซิร์ฟเวอร์ปัจจุบันและเหตุการณ์เซิร์ฟเวอร์ล่าสุด ตัวเลขควรอยู่ใกล้กับ 100ms หากมากกว่า 120ms หรือน้อยกว่า 90ms ถือว่าไม่เหมาะสม</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>เบราว์เซอร์ของคุณจะดาวน์โหลดไฟล์ขนาด 4GB จำนวน 4 ไฟล์จากเซิร์ฟเวอร์ของเรา ตั้งแต่เริ่มต้นจนได้รับไฟล์ เราจะช่วยคุณคำนวณความเร็วในการดาวน์โหลดของเครือข่าย ตัวเลขยิ่งมากแสดงว่าเครือข่ายของคุณยิ่งดี</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>เบราว์เซอร์ของคุณจะส่งข้อความง่ายๆ ไปยังเซิร์ฟเวอร์และรับการตอบสนองกลับมา ตัวเลขนี้หมายถึงเวลาที่ใช้ตั้งแต่การร้องขอจนถึงการตอบสนอง ยิ่งตัวเลขนี้น้อยเท่าใด เครือข่ายของคุณก็ยิ่งดีขึ้นเท่านั้น</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>คุณกำลังเชื่อมต่อในฐานะ:</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>การวินิจฉัยเครือข่าย</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer เป็นแอปทดสอบคุณภาพเครือข่ายอย่างง่าย ช่วยทดสอบความเร็วการเชื่อมต่อระหว่างคุณและเซิร์ฟเวอร์</value>
+  </data>
 
 </root>

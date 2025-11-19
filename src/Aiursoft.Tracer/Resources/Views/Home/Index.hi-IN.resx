@@ -216,5 +216,113 @@
   <data name="Start a new project" xml:space="preserve">
     <value>एक नया प्रोजेक्ट शुरू करें</value>
   </data>
+  <data name="Stop" xml:space="preserve">
+    <value>रोकें</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>नेटवर्क निदान</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>डैशबोर्ड</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>नमस्ते!</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP विलंबता परीक्षण</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>परीक्षण शुरू करें</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>लॉग फ़िल्टर (मिलीसेकंड)</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>प्रतीक्षा कर रहे हैं...</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>वर्तमान स्थिति</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>रीयल-टाइम चार्ट</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>अधिकतम विलंबता</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>बैंडविड्थ</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>डाउनलोड स्पीड टेस्ट</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>लॉग फ़िल्टर (MB/s)</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>गति (MB/s)</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 एमबी/सेकंड</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>गति (एमबीपीएस)</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>आपका ब्राउज़र सर्वर को एक साधारण संदेश भेजेगा और एक साधारण प्रतिक्रिया प्राप्त करेगा। यह संख्या अनुरोध से प्रतिक्रिया तक के समय को दर्शाती है। संख्या जितनी छोटी होगी, आपका नेटवर्क उतना ही बेहतर होगा।</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>सीधा लिंक</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>या सीधे परीक्षण करें:</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 एमबीपीएस</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>थ्रूपुट चार्ट</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>वर्तमान अंतर</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>निष्क्रिय</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>अधिकतम अंतराल</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>WebSocket विलंबता</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>समय</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>आपका ब्राउज़र हमारे सर्वर से 4 4GB फ़ाइलें डाउनलोड करेगा। जिस समय यह शुरू होता है और फ़ाइल प्राप्त करता है, हम उस समय के आधार पर आपके नेटवर्क की डाउनलोड गति की गणना करने में आपकी सहायता करेंगे। संख्या जितनी बड़ी होगी, आपका नेटवर्क उतना ही बेहतर होगा।</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>इवेंट विलंबता चार्ट</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>ट्रिगर</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>मान</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>लॉग साफ़ करें</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>यह संख्या वर्तमान सर्वर इवेंट और पिछले सर्वर इवेंट के बीच के अंतराल समय को दर्शाती है। यह संख्या 100ms के करीब होनी चाहिए। 120ms से अधिक या 90ms से कम होना उचित नहीं है।</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>एक्सेप्शन लॉग</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>आप इस रूप में कनेक्ट हो रहे हैं:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer एक सरल नेटवर्क गुणवत्ता परीक्षण ऐप है। यह आपके और सर्वर के बीच कनेक्शन की गति का परीक्षण करने में सहायता करता है।</value>
+  </data>
 
 </root>

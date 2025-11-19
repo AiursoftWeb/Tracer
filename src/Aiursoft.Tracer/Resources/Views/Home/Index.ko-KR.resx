@@ -321,5 +321,23 @@
   <data name="Clear Log" xml:space="preserve">
     <value>로그 지우기</value>
   </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>브라우저가 서버에 간단한 메시지를 전송하고 간단한 응답을 받습니다. 이 숫자는 요청부터 응답까지 소요되는 시간을 의미합니다. 숫자가 작을수록 네트워크 상태가 더 좋다는 것을 나타냅니다.</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>이 수치는 현재 서버 이벤트와 이전 서버 이벤트 간의 간격 시간을 의미합니다. 이 수치는 100ms에 가까워야 합니다. 120ms를 초과하거나 90ms 미만인 경우 정상적이지 않습니다.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>귀하의 브라우저는 당사 서버에서 4개의 4GB 파일을 다운로드합니다. 다운로드 시작 시점부터 파일 수신 완료 시점까지의 시간을 기준으로 네트워크 다운로드 속도를 계산해 드립니다. 숫자가 클수록 네트워크 상태가 우수함을 의미합니다.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>연결된 IP 주소:</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>네트워크 진단</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer는 간단한 네트워크 품질 테스트 앱입니다. 사용자와 서버 간의 연결 속도를 테스트하는 데 도움을 줍니다.</value>
+  </data>
 
 </root>

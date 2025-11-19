@@ -1,28 +1,19 @@
-# Tracer - A sample project
+# Tracer
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://gitlab.aiursoft.com/aiursoft/tracer/-/blob/master/LICENSE)
 [![Pipeline stat](https://gitlab.aiursoft.com/aiursoft/tracer/badges/master/pipeline.svg)](https://gitlab.aiursoft.com/aiursoft/tracer/-/pipelines)
 [![Test Coverage](https://gitlab.aiursoft.com/aiursoft/tracer/badges/master/coverage.svg)](https://gitlab.aiursoft.com/aiursoft/tracer/-/pipelines)
 [![ManHours](https://manhours.aiursoft.com/r/gitlab.aiursoft.com/aiursoft/tracer.svg)](https://gitlab.aiursoft.com/aiursoft/tracer/-/commits/master?ref_type=heads)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.com)](https://tracer.aiursoft.com)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Ftracer.aiursoft.com%2F)](https://tracer.aiursoft.com)
 [![Docker](https://img.shields.io/docker/pulls/aiursoft/tracer.svg)](https://hub.docker.com/r/aiursoft/tracer)
 
-Tracer is a sample project.
+Tracer is a simple network speed test app. Deploy this on your server. Open your tracer on your browser. And you can test the speed between you and your server.
 
-![screenshot](./screenshot.png)
-
-Default user name is `admin@default.com` and default password is `admin123`.
-
-## Projects using Aiursoft Tracer
-
-* [Stathub](https://gitlab.aiursoft.com/aiursoft/stathub)
-* [MarkToHtml](https://gitlab.aiursoft.com/aiursoft/marktohtml)
-* [MusicTools](https://gitlab.aiursoft.com/aiursoft/musictools)
-* [AnduinOS Home](https://gitlab.aiursoft.com/anduin/AnduinOS-Home)
+![overview](./screenshot.png)
 
 ## Try
 
-Try a running Tracer [here](https://tracer.aiursoft.com).
+Try a running tracer [here](https://tracer.aiursoft.com).
 
 ## Run in Ubuntu
 
@@ -65,8 +56,8 @@ Then run the following commands in a Linux shell:
 ```bash
 image=aiursoft/tracer
 appName=tracer
-sudo docker pull $image
-sudo docker run -d --name $appName --restart unless-stopped -p 5000:5000 -v /var/www/$appName:/data $image
+docker pull $image
+docker run -d --name $appName --restart unless-stopped -p 5000:5000 -v /var/www/$appName:/data $image
 ```
 
 That will start a web server at `http://localhost:5000` and you can test the app.
@@ -75,7 +66,7 @@ The docker image has the following context:
 
 | Properties  | Value                           |
 |-------------|---------------------------------|
-| Image       | aiursoft/tracer               |
+| Image       | aiursoft/tracer                 |
 | Ports       | 5000                            |
 | Binary path | /app                            |
 | Data path   | /data                           |

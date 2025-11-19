@@ -321,5 +321,23 @@
   <data name="Value" xml:space="preserve">
     <value>Valoare</value>
   </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Diagnosticare Rețea</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Browser-ul dvs. va trimite serverului un mesaj simplu și va primi un răspuns simplu. Acest număr reprezintă timpul necesar de la cerere până la răspuns. Cu cât numărul este mai mic, cu atât este mai bună rețeaua dvs.</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Acest număr reprezintă intervalul de timp dintre evenimentul curent de pe server și ultimul eveniment de pe server. Valoarea ar trebui să fie apropiată de 100ms. O valoare mai mare de 120ms sau mai mică de 90ms nu este adecvată.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Browser-ul dvs. va descărca 4 fișiere a câte 4GB de pe serverul nostru. Vom calcula viteza de descărcare a rețelei dvs. pe baza timpului scurs de la începerea descărcării până la primirea fișierelor. Cu cât numărul este mai mare, cu atât rețeaua dvs. este mai bună.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Vă conectați ca:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer este o aplicație simplă de testare a calității rețelei. Ajută la testarea vitezei de conexiune dintre dvs. și server.</value>
+  </data>
 
 </root>

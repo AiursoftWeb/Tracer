@@ -1,7 +1,6 @@
 @using System.Reflection
 @inject IViewLocalizer Localizer
 @{
-    ViewData["Title"] = Localizer["Connection Tracer"];
     var description = Assembly.GetExecutingAssembly().GetCustomAttribute<AssemblyDescriptionAttribute>()?.Description;
     var ipAddress = Context.Connection.RemoteIpAddress?.ToString();
 }
@@ -10,7 +9,7 @@
 
     <div class="row mb-2 mb-xl-3">
         <div class="col-auto d-none d-sm-block">
-            <h3><strong>@Localizer["Network"]</strong> @Localizer["Diagnostics"]</h3>
+            <h3><strong>@Localizer["Network Diagnostics"]</strong></h3>
         </div>
 
         <div class="col-auto ms-auto text-end mt-n1">
@@ -31,8 +30,8 @@
                     <div class="row g-0 w-100">
                         <div class="col-6">
                             <div class="illustration-text p-3 m-1">
-                                <h4 class="illustration-text">@Localizer["Hola!"] @ipAddress</h4>
-                                <p class="mb-0">@description</p>
+                                <h4 class="illustration-text">@Localizer["Hola!"] @Localizer["You are connecting as:"] @ipAddress</h4>
+                                <p class="mb-0">@Localizer["Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server."]</p>
                             </div>
                         </div>
                     </div>
@@ -53,7 +52,7 @@
                 <div class="card-body">
                     <div class="d-flex align-items-start mb-3">
                         <div class="flex-grow-1">
-                            <small class="text-muted">@Localizer["Sends a simple message to server. Lower is better."]</small>
+                            <p class="text-muted">@Localizer["Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is."]</p>
                         </div>
                         <div class="d-inline-block ms-3">
                             <i class="align-middle text-primary" data-lucide="arrow-left-right"></i>
@@ -113,7 +112,7 @@
                 <div class="card-body">
                     <div class="d-flex align-items-start mb-3">
                         <div class="flex-grow-1">
-                            <small class="text-muted">@Localizer["Downloads 4GB chunks. Higher is better."]</small>
+                            <p class="text-muted">@Localizer["Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is."]</p>
                         </div>
                         <div class="d-inline-block ms-3">
                             <i class="align-middle text-success" data-lucide="download-cloud"></i>
@@ -133,7 +132,7 @@
                     </div>
 
                     <div class="mt-2">
-                        <small class="text-muted">@Localizer["Or test directly:"] <a asp-controller="Home" asp-action="Download" class="text-decoration-none">@Localizer["Direct Link"]</a></small>
+                        <p class="text-muted">@Localizer["Or test directly:"] <a asp-controller="Home" asp-action="Download" class="text-decoration-none">@Localizer["Direct Link"]</a></p>
                     </div>
 
                     <hr />
@@ -177,7 +176,7 @@
                 <div class="card-body">
                     <div class="d-flex align-items-start mb-3">
                         <div class="flex-grow-1">
-                            <small class="text-muted">@Localizer["Gap between server events. Target: ~100ms."]</small>
+                             <small class="text-muted">@Localizer["This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper."]</small>
                         </div>
                         <div class="d-inline-block ms-3">
                             <i class="align-middle text-warning" data-lucide="zap"></i>

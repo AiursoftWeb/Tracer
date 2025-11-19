@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>異常記錄</value>
   </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>你的瀏覽器會向伺服器發送一個簡單訊息並接收一個簡單回應。這個數字代表從請求到回應所需的時間。數字愈細，代表你的網絡狀況愈好。</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>此數值表示目前伺服器事件與上一個伺服器事件之間嘅時間間隔。數值應該接近100毫秒。超過120毫秒或少過90毫秒都唔正常。</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>你的瀏覽器將會從我們的伺服器下載 4 個 4GB 檔案。我們會根據開始下載到取得檔案的時間，幫你計算網絡下載速度。數字越大，代表你的網絡狀況越好。</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>你目前嘅連接身份係：</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>網絡診斷</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer 係一個簡單嘅網絡質量測試應用程式。幫你測試你同伺服器之間嘅連接速度。</value>
+  </data>
 
 </root>

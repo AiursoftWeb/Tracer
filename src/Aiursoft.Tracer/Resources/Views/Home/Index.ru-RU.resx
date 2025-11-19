@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Журнал исключений</value>
   </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Ваш браузер отправит серверу простое сообщение и получит простой ответ. Это число означает время, затраченное на запрос и ответ. Чем меньше число, тем лучше ваша сеть.</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Это число означает временной интервал между текущим и предыдущим серверным событием. Значение должно быть близко к 100 мс. Показатели свыше 120 мс или менее 90 мс являются некорректными.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Ваш браузер загрузит 4 файла по 4 ГБ с нашего сервера. Мы поможем рассчитать скорость загрузки вашей сети, измеряя время от начала до получения файла. Чем выше число, тем лучше ваша сеть.</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Диагностика сети</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Вы подключаетесь как:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer — это простое приложение для проверки качества сети. Оно помогает измерить скорость соединения между вами и сервером.</value>
+  </data>
 
 </root>

@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Registo de Exceções</value>
   </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>O seu navegador enviará uma mensagem simples ao servidor e receberá uma resposta simples. Este número significa o tempo que demora desde o pedido até à resposta. Quanto menor for o número, melhor é a sua rede.</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Este número indica o intervalo de tempo entre o evento atual do servidor e o evento anterior do servidor. O valor deve ser próximo de 100ms. Valores superiores a 120ms ou inferiores a 90ms não são adequados.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>O seu navegador irá transferir 4 ficheiros de 4GB do nosso servidor. A partir do momento em que inicia e obtém o ficheiro, iremos ajudá-lo a calcular a velocidade de descarga da sua rede. Quanto maior for o número, melhor é a sua rede.</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Diagnóstico de Rede</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Está a ligar como:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>O Aiursoft Tracer é uma aplicação simples de teste de qualidade de rede. Ajuda a testar a velocidade da ligação entre si e o servidor.</value>
+  </data>
 
 </root>

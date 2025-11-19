@@ -129,5 +129,11 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>Yetkisiz</value>
   </data>
+  <data name="Network Quality Tester" xml:space="preserve">
+    <value>Ağ Kalitesi Test Cihazı</value>
+  </data>
+  <data name="Tester" xml:space="preserve">
+    <value>Test Cihazı</value>
+  </data>
 
 </root>

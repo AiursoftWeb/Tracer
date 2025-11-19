@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Fellogg</value>
   </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Nätverksdiagnostik</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Detta nummer anger tidsintervallet mellan nuvarande serverhändelse och föregående serverhändelse. Numret bör ligga nära 100ms. Mer än 120ms eller mindre än 90ms är inte lämpligt.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Din webbläsare kommer att skicka servern ett enkelt meddelande och få ett enkelt svar. Denna siffra representerar tiden det tar från förfrågan till svar. Ju lägre siffra, desto bättre är ditt nätverk.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Din webbläsare kommer att ladda ner 4 filer på 4 GB från vår server. Från det att den börjar tills den hämtar filen kommer vi att hjälpa dig att beräkna din nedladdningshastighet. Ju högre tal, desto bättre är ditt nätverk.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Du ansluter som:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer är en enkel app för att testa nätverkskvalitet. Den hjälper till att testa anslutningshastigheten mellan dig och servern.</value>
+  </data>
 
 </root>

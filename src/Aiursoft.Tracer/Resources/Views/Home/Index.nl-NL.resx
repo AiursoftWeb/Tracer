@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Foutenlogboek</value>
   </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Netwerkdiagnostiek</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Uw browser stuurt een eenvoudig bericht naar de server en ontvangt een eenvoudig antwoord. Dit getal geeft de tijd aan die verstrijkt tussen verzoek en antwoord. Hoe lager het getal, hoe beter uw netwerk is.</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Dit getal geeft de tijdsduur aan tussen het huidige servergebeurtenis en het vorige servergebeurtenis. Het getal zou dicht bij 100ms moeten liggen. Meer dan 120ms of minder dan 90ms is niet goed.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Uw browser zal 4 bestanden van 4 GB van onze server downloaden. Vanaf het moment dat het begint en het bestand ontvangt, helpen we u uw netwerksnelheid te berekenen. Hoe hoger het getal, hoe beter uw netwerk is.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>U verbindt als:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer is een eenvoudige app voor het testen van netwerkkwaliteit. Het helpt bij het testen van de verbindingssnelheid tussen u en de server.</value>
+  </data>
 
 </root>

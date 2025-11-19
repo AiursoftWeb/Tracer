@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>İstisna Günlüğü</value>
   </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Ağ Tanılama</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Bu sayı, mevcut sunucu olayı ile önceki sunucu olayı arasındaki zaman farkını ifade eder. Bu sayı 100ms&apos;ye yakın olmalıdır. 120ms&apos;den fazla veya 90ms&apos;den az olması uygun değildir.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Tarayıcınız sunucuya basit bir mesaj gönderecek ve basit bir yanıt alacaktır. Bu sayı, isteğin başlangıcından yanıtın alınmasına kadar geçen süreyi ifade eder. Sayı ne kadar küçükse, ağ bağlantınız o kadar iyidir.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Tarayıcınız sunucumuzdan 4 adet 4GB dosya indirecektir. İndirme başladığı andan itibaren dosyayı aldığı ana kadar geçen sürede, ağ indirme hızınızı hesaplamanıza yardımcı olacağız. Bu sayı ne kadar büyükse, ağ bağlantınız o kadar iyi demektir.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Bağlandığınız IP adresi:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer, basit bir ağ kalitesi test uygulamasıdır. Sizinle sunucu arasındaki bağlantı hızını test etmeye yardımcı olur.</value>
+  </data>
 
 </root>

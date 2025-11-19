@@ -132,5 +132,11 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>ไม่ได้รับอนุญาต</value>
   </data>
+  <data name="Network Quality Tester" xml:space="preserve">
+    <value>เครื่องมือทดสอบคุณภาพเครือข่าย</value>
+  </data>
+  <data name="Tester" xml:space="preserve">
+    <value>ผู้ทดสอบ</value>
+  </data>
 
 </root>

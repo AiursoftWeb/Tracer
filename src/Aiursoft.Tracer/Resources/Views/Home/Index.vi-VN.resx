@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Nhật ký Lỗi</value>
   </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Con số này thể hiện khoảng thời gian giữa sự kiện máy chủ hiện tại và sự kiện máy chủ trước đó. Giá trị này nên gần với 100ms. Lớn hơn 120ms hoặc nhỏ hơn 90ms là không phù hợp.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Trình duyệt của bạn sẽ gửi cho máy chủ một tin nhắn đơn giản và nhận về một phản hồi đơn giản. Con số này biểu thị thời gian từ lúc gửi yêu cầu đến khi nhận phản hồi. Con số càng nhỏ chứng tỏ mạng của bạn càng tốt.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Trình duyệt của bạn sẽ tải xuống 4 tập tin 4GB từ máy chủ của chúng tôi. Từ thời điểm bắt đầu cho đến khi nhận được tập tin, chúng tôi sẽ giúp bạn tính toán tốc độ tải xuống mạng. Con số này càng lớn thì chất lượng mạng của bạn càng tốt.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Bạn đang kết nối với địa chỉ:</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Chẩn đoán Mạng</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer là một ứng dụng kiểm tra chất lượng mạng đơn giản. Giúp kiểm tra tốc độ kết nối giữa bạn và máy chủ.</value>
+  </data>
 
 </root>

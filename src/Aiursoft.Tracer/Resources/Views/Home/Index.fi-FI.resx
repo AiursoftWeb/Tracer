@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Poikkeuslokki</value>
   </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Verkkodiagnostiikka</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Tämä numero ilmaisee aikaeron nykyisen palvelintapahtuman ja edellisen palvelintapahtuman välillä. Numeron tulisi olla lähellä 100 ms. Yli 120 ms tai alle 90 ms ei ole sopivaa.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Selaimesi lähettää palvelimelle yksinkertaisen viestin ja saa yksinkertaisen vastauksen. Tämä numero ilmaisee ajan, joka kuluu pyynnöstä vastaukseen. Mitä pienempi numero on, sitä parempi verkkoyhteytesi on.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Selaimesi lataa 4 tiedostoa (kukin 4 GB) palvelimeltamme. Laskemme verkkoyhteytesi latausnopeuden sen perusteella, kuinka kauan tiedostojen lataaminen kestää. Mitä suurempi luku on, sitä parempi verkkoyhteytesi on.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Yhteysosoitteesi on:</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer on yksinkertainen verkonlaadun testaussovellus. Se auttaa testaamaan yhteyden nopeutta sinun ja palvelimen välillä.</value>
+  </data>
 
 </root>

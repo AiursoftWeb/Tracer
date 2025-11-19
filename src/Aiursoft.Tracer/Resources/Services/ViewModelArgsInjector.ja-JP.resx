@@ -132,5 +132,11 @@
   <data name="Unauthorized" xml:space="preserve">
     <value>権限がありません</value>
   </data>
+  <data name="Network Quality Tester" xml:space="preserve">
+    <value>ネットワーク品質テスト</value>
+  </data>
+  <data name="Tester" xml:space="preserve">
+    <value>テスター</value>
+  </data>
 
 </root>

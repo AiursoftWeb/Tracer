@@ -321,5 +321,23 @@
   <data name="Clear Log" xml:space="preserve">
     <value>清空日志</value>
   </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>该数值表示当前服务器事件与上一服务器事件之间的间隔时间，应接近100毫秒。大于120毫秒或小于90毫秒均属异常。</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>您的浏览器将向服务器发送一条简单消息并获取简单响应。此数值表示从请求到响应所耗费的时间。数值越小，表示您的网络状况越好。</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>您的浏览器将从我们的服务器下载4个4GB文件。从开始下载到获取文件的这段时间，我们将帮您计算网络下载速度。数值越大，表示您的网络状况越好。</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>网络诊断</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>您的连接地址为：</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer 是一款简单的网络质量测试应用，用于检测您与服务器之间的连接速度。</value>
+  </data>
 
 </root>

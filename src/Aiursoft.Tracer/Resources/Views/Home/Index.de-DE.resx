@@ -321,5 +321,23 @@
   <data name="Clear Log" xml:space="preserve">
     <value>Protokoll löschen</value>
   </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Diese Zahl gibt an, wie viel Zeit zwischen dem aktuellen Serverereignis und dem letzten Serverereignis vergeht. Der Wert sollte nahe bei 100 ms liegen. Mehr als 120 ms oder weniger als 90 ms sind nicht optimal.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Ihr Browser sendet dem Server eine einfache Nachricht und erhält eine einfache Antwort. Diese Zahl gibt die Zeit an, die vom Senden der Anfrage bis zum Empfang der Antwort benötigt wird. Je kleiner die Zahl, desto besser ist Ihr Netzwerk.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Ihr Browser lädt 4 Dateien mit je 4 GB von unserem Server herunter. Wir messen die Zeit vom Start bis zum vollständigen Erhalt der Datei und berechnen daraus Ihre Download-Geschwindigkeit. Je höher der Wert, desto besser ist Ihre Netzwerkverbindung.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Sie verbinden sich als:</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Netzwerkdiagnose</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer ist eine einfache App zur Überprüfung der Netzwerkqualität. Sie hilft bei der Messung der Verbindungsgeschwindigkeit zwischen Ihnen und dem Server.</value>
+  </data>
 
 </root>

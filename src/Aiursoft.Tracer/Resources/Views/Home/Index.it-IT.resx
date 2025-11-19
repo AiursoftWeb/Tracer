@@ -321,5 +321,23 @@
   <data name="Exception Log" xml:space="preserve">
     <value>Registro delle Eccezioni</value>
   </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Questo numero indica l&apos;intervallo di tempo tra l&apos;evento corrente del server e l&apos;evento precedente. Il valore dovrebbe essere vicino a 100ms. Un valore superiore a 120ms o inferiore a 90ms non è appropriato.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Il tuo browser invierà un semplice messaggio al server e riceverà una semplice risposta. Questo numero rappresenta il tempo impiegato dalla richiesta alla risposta. Più piccolo è il numero, migliore è la tua rete.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Il tuo browser scaricherà 4 file da 4GB dal nostro server. Dal momento in cui inizia a scaricare e riceve il file, ti aiuteremo a calcolare la velocità di download della tua rete. Più alto è il numero, migliore è la tua connessione.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Ti stai connettendo come:</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Diagnostica di Rete</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer è una semplice applicazione per testare la qualità della rete. Aiuta a testare la velocità di connessione tra te e il server.</value>
+  </data>
 
 </root>
