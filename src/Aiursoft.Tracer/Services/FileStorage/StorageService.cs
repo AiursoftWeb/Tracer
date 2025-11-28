@@ -20,7 +20,18 @@ public class StorageService(IConfiguration configuration) : ISingletonDependency
     /// <returns>The actual path where the file is saved relative to the workspace folder.</returns>
     public async Task<string> Save(string savePath, IFormFile file)
     {
-        var finalFilePath = Path.Combine(StorageRootFolder, "Workspace", savePath);
+        var workspaceFolder = Path.Combine(StorageRootFolder, "Workspace");
+        var finalFilePath = Path.GetFullPath(Path.Combine(workspaceFolder, savePath));
+        var workspaceFullPath = Path.GetFullPath(workspaceFolder);
+        if (!workspaceFullPath.EndsWith(Path.DirectorySeparatorChar))
+        {
+            workspaceFullPath += Path.DirectorySeparatorChar;
+        }
+
+        if (!finalFilePath.StartsWith(workspaceFullPath, StringComparison.Ordinal))
+        {
+            throw new ArgumentException("Attempted to access a restricted path.");
+        }
         var finalFolder = Path.GetDirectoryName(finalFilePath);
 
         // Create the folder if it does not exist.
@@ -64,7 +75,18 @@ public class StorageService(IConfiguration configuration) : ISingletonDependency
     /// <returns>The full physical path of the file within the workspace folder.</returns>
     public string GetFilePhysicalPath(string relativePath)
     {
-        return Path.Combine(StorageRootFolder, relativePath);
+        var physicalPath = Path.GetFullPath(Path.Combine(StorageRootFolder, relativePath));
+        var workspaceFullPath = Path.GetFullPath(StorageRootFolder);
+        if (!workspaceFullPath.EndsWith(Path.DirectorySeparatorChar))
+        {
+            workspaceFullPath += Path.DirectorySeparatorChar;
+        }
+
+        if (!physicalPath.StartsWith(workspaceFullPath, StringComparison.Ordinal))
+        {
+            throw new ArgumentException("Attempted to access a restricted path.");
+        }
+        return physicalPath;
     }
 
     /// <summary>

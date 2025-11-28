@@ -69,9 +69,12 @@ public class FilesController(
             return BadRequest();
         }
 
-        var physicalPath = storage.GetFilePhysicalPath(folderNames);
-        var workspaceFullPath = Path.GetFullPath(storage.StorageRootFolder);
-        if (!physicalPath.StartsWith(workspaceFullPath))
+        string physicalPath;
+        try
+        {
+            physicalPath = storage.GetFilePhysicalPath(folderNames);
+        }
+        catch (ArgumentException)
         {
             return BadRequest("Attempted to access a restricted path.");
         }
