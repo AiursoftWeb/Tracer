@@ -129,5 +129,8 @@
   <data name="Reloading page..." xml:space="preserve">
     <value>重新載入頁面中...</value>
   </data>
+  <data name="Location" xml:space="preserve">
+    <value>位置</value>
+  </data>
 
 </root>

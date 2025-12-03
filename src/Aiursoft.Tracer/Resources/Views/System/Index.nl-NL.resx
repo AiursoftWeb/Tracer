@@ -129,5 +129,8 @@
   <data name="Reloading page..." xml:space="preserve">
     <value>Pagina wordt herladen...</value>
   </data>
+  <data name="Location" xml:space="preserve">
+    <value>Locatie</value>
+  </data>
 
 </root>

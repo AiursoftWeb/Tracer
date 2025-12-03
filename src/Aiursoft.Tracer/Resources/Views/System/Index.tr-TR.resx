@@ -129,5 +129,8 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Uygulamayı yeniden başlatmak istediğinizden emin misiniz? Bu işlem geri alınamaz ve tüm aktif bağlantıları sonlandıracaktır.</value>
   </data>
+  <data name="Location" xml:space="preserve">
+    <value>Konum</value>
+  </data>
 
 </root>

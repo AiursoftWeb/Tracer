@@ -129,5 +129,8 @@
   <data name="Yes, Restart Now" xml:space="preserve">
     <value>Да, перезапустить сейчас</value>
   </data>
+  <data name="Location" xml:space="preserve">
+    <value>Местоположение</value>
+  </data>
 
 </root>
