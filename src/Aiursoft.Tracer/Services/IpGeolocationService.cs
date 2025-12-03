@@ -18,9 +18,7 @@ public class IpGeolocationService(
     {
         if (string.IsNullOrWhiteSpace(ip) || ip == "::1" || ip == "127.0.0.1")
         {
-            // mock data:
-            return ("China", "CN");
-            //return null;
+            return null;
         }
 
         try
