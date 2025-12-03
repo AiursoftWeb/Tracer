@@ -9,6 +9,6 @@ public class IndexViewModel : UiStackLayoutViewModel
         PageTitle = "System Info";
     }
 
-    public string CountryName { get; set; }
-    public string CountryCode { get; set; }
+    public string? CountryName { get; set; }
+    public string? CountryCode { get; set; }
 }

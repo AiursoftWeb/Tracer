@@ -14,7 +14,7 @@ namespace Aiursoft.Tracer.Controllers;
 [LimitPerMin]
 public class SystemController(
     ILogger<SystemController> logger,
-    IPGeolocationService ipGeolocationService) : Controller
+    IpGeolocationService ipGeolocationService) : Controller
 {
     [RenderInNavBar(
         NavGroupName = "Administration",
@@ -28,11 +28,14 @@ public class SystemController(
     {
         var model = new IndexViewModel();
         var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
-        var location = await ipGeolocationService.GetLocationAsync(ip);
-        if (location != null)
+        if (!string.IsNullOrWhiteSpace(ip))
         {
-            model.CountryName = location.Value.CountryName;
-            model.CountryCode = location.Value.CountryCode;
+            var location = await ipGeolocationService.GetLocationAsync(ip);
+            if (location != null)
+            {
+                model.CountryName = location.Value.CountryName;
+                model.CountryCode = location.Value.CountryCode;
+            }
         }
         return this.StackView(model);
     }
