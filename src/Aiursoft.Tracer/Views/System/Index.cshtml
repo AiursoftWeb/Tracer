@@ -142,6 +142,16 @@
                         <td>@Localizer["Remote IP"]</td>
                         <td>@Context.Connection.RemoteIpAddress?.ToString()</td>
                     </tr>
+                    @if (!string.IsNullOrWhiteSpace(Model.CountryName))
+                    {
+                        <tr>
+                            <td>@Localizer["Location"]</td>
+                            <td>
+                                <img src="~/node_modules/@@aiursoft/uistack/dist/img/flags/@(Model.CountryCode.ToLower()).png" alt="@Model.CountryName" style="height: 15px; margin-right: 5px;" />
+                                @Model.CountryName
+                            </td>
+                        </tr>
+                    }
                     <tr>
                         <td>@Localizer["Remote Port"]</td>
                         <td>@Context.Connection.RemotePort</td>
