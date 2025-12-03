@@ -10,7 +10,7 @@ using Microsoft.Net.Http.Headers;
 namespace Aiursoft.Tracer.Controllers;
 
 [LimitPerMin]
-public class HomeController : Controller
+public class HomeController(IpGeolocationService ipGeolocationService) : Controller
 {
     [RenderInNavBar(
         NavGroupName = "Features",
@@ -20,9 +20,20 @@ public class HomeController : Controller
         CascadedLinksOrder = 1,
         LinkText = "Network Quality Tester",
         LinkOrder = 1)]
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return this.StackView(new IndexViewModel());
+        var model = new IndexViewModel();
+        var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
+        if (!string.IsNullOrWhiteSpace(ip))
+        {
+            var location = await ipGeolocationService.GetLocationAsync(ip);
+            if (location != null)
+            {
+                model.CountryName = location.Value.CountryName;
+                model.CountryCode = location.Value.CountryCode;
+            }
+        }
+        return this.StackView(model);
     }
 
     [RenderInNavBar(

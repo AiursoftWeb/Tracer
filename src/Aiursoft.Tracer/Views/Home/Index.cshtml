@@ -1,3 +1,4 @@
+@model Aiursoft.Tracer.Models.HomeViewModels.IndexViewModel
 @inject IViewLocalizer Localizer
 @{
     var ipAddress = Context.Connection.RemoteIpAddress?.ToString();
@@ -28,7 +29,17 @@
                     <div class="row g-0 w-100">
                         <div class="col-6">
                             <div class="illustration-text p-3 m-1">
-                                <h4 class="illustration-text">@Localizer["Hola!"] @Localizer["You are connecting as:"] @ipAddress</h4>
+                                <h4 class="illustration-text">
+                                    @Localizer["Hola!"] @Localizer["You are connecting as:"] @ipAddress
+                                    @if (!string.IsNullOrWhiteSpace(Model.CountryName) && !string.IsNullOrWhiteSpace(Model.CountryCode))
+                                    {
+                                        @Localizer[", From "]
+                                        <span class="ms-2">
+                                            <img src="~/node_modules/@("@aiursoft")/uistack/dist/img/flags/@(Model.CountryCode.ToLower()).png" alt="@Model.CountryName" style="height: 15px; margin-right: 5px;" />
+                                            @Model.CountryName
+                                        </span>
+                                    }
+                                </h4>
                                 <p class="mb-0">@Localizer["Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server."]</p>
                             </div>
                         </div>

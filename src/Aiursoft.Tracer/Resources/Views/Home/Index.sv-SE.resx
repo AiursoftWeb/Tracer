@@ -339,5 +339,8 @@
   <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
     <value>Aiursoft Tracer är en enkel app för att testa nätverkskvalitet. Den hjälper till att testa anslutningshastigheten mellan dig och servern.</value>
   </data>
+  <data name=", From " xml:space="preserve">
+    <value>, Från</value>
+  </data>
 
 </root>
