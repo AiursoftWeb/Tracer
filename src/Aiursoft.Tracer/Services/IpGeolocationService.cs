@@ -37,7 +37,7 @@ public class IpGeolocationService(
                     try
                     {
                         var region = new System.Globalization.RegionInfo(result.Country);
-                        return (region.DisplayName, result.Country);
+                        return (region.EnglishName, result.Country);
                     }
                     catch
                     {
