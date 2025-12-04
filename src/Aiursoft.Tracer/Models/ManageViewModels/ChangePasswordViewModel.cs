@@ -7,7 +7,7 @@ public class ChangePasswordViewModel : UiStackLayoutViewModel
 {
     public ChangePasswordViewModel()
     {
-        PageTitle = "Change password";
+        PageTitle = "Change Password";
     }
 
     [Required(ErrorMessage = "The {0} is required.")]
