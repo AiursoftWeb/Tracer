@@ -129,5 +129,8 @@
   <data name="Reloading page..." xml:space="preserve">
     <value>ページを再読み込み中...</value>
   </data>
+  <data name="Location" xml:space="preserve">
+    <value>所在地</value>
+  </data>
 
 </root>

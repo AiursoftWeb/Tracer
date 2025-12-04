@@ -129,5 +129,8 @@
   <data name="Restarting..." xml:space="preserve">
     <value>Riavvio in corso...</value>
   </data>
+  <data name="Location" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
 
 </root>

@@ -12,7 +12,9 @@ namespace Aiursoft.Tracer.Controllers;
 /// This controller is used to handle system related actions like shutdown.
 /// </summary>
 [LimitPerMin]
-public class SystemController(ILogger<SystemController> logger) : Controller
+public class SystemController(
+    ILogger<SystemController> logger,
+    IpGeolocationService ipGeolocationService) : Controller
 {
     [RenderInNavBar(
         NavGroupName = "Administration",
@@ -22,9 +24,20 @@ public class SystemController(ILogger<SystemController> logger) : Controller
         CascadedLinksOrder = 9999,
         LinkText = "Info",
         LinkOrder = 1)]
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        return this.StackView(new IndexViewModel());
+        var model = new IndexViewModel();
+        var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
+        if (!string.IsNullOrWhiteSpace(ip))
+        {
+            var location = await ipGeolocationService.GetLocationAsync(ip);
+            if (location != null)
+            {
+                model.CountryName = location.Value.CountryName;
+                model.CountryCode = location.Value.CountryCode;
+            }
+        }
+        return this.StackView(model);
     }
 
     [HttpPost]

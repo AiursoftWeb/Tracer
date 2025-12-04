@@ -129,5 +129,8 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>क्या आप वाकई एप्लिकेशन को पुनरारंभ करना चाहते हैं? यह क्रिया अपरिवर्तनीय है और सभी सक्रिय कनेक्शनों को समाप्त कर देगी।</value>
   </data>
+  <data name="Location" xml:space="preserve">
+    <value>स्थान</value>
+  </data>
 
 </root>

@@ -129,5 +129,8 @@
   <data name="Restarting..." xml:space="preserve">
     <value>Se repornește...</value>
   </data>
+  <data name="Location" xml:space="preserve">
+    <value>Locație</value>
+  </data>
 
 </root>
