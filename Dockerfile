@@ -3,7 +3,7 @@ ARG PROJ_NAME="Aiursoft.Tracer"
 
 # ============================
 # Prepare NPM Environment
-FROM hub.aiursoft.com/node:21-alpine AS npm-env
+FROM hub.aiursoft.com/node:24-alpine AS npm-env
 ARG CSPROJ_PATH
 WORKDIR /src
 COPY . .
