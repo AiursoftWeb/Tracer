@@ -21,29 +21,29 @@
       <data name="Actions" xml:space="preserve">
     <value>Acțiuni</value>
   </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Editează</value>
-  </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>Nume Rol</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Șterge</value>
-  </data>
-  <data name="Manage Roles" xml:space="preserve">
-    <value>Gestionează Roluri</value>
-  </data>
-  <data name="User Count" xml:space="preserve">
-    <value>Număr de utilizatori</value>
+  <data name="All Roles" xml:space="preserve">
+    <value>Toate Rolurile</value>
   </data>
   <data name="Create a new role" xml:space="preserve">
     <value>Creează un rol nou</value>
   </data>
-  <data name="All Roles" xml:space="preserve">
-    <value>Toate Rolurile</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Șterge</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editează</value>
+  </data>
+  <data name="Manage Roles" xml:space="preserve">
+    <value>Gestionează Roluri</value>
+  </data>
+  <data name="Role Name" xml:space="preserve">
+    <value>Nume Rol</value>
   </data>
   <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
     <value>Selectați un rol pentru a vedea detaliile acestuia sau utilizați acțiunile pentru a-l edita sau șterge.</value>
+  </data>
+  <data name="User Count" xml:space="preserve">
+    <value>Număr de utilizatori</value>
   </data>
 
 </root>

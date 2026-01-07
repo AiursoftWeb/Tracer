@@ -21,14 +21,14 @@
       <data name="An error has occurred." xml:space="preserve">
     <value>エラーが発生しました。</value>
   </data>
-  <data name="Your password has been changed." xml:space="preserve">
-    <value>パスワードが変更されました。</value>
+  <data name="The file is not a valid image." xml:space="preserve">
+    <value>ファイルは有効な画像ではありません。</value>
   </data>
   <data name="Your avatar has been saved." xml:space="preserve">
     <value>アバターが保存されました。</value>
   </data>
-  <data name="The file is not a valid image." xml:space="preserve">
-    <value>ファイルは有効な画像ではありません。</value>
+  <data name="Your password has been changed." xml:space="preserve">
+    <value>パスワードが変更されました。</value>
   </data>
   <data name="Your profile has been saved." xml:space="preserve">
     <value>プロフィールが保存されました。</value>

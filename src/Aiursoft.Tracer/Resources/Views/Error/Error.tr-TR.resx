@@ -18,29 +18,29 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to Home" xml:space="preserve">
+      <data name="An Error Occurred" xml:space="preserve">
+    <value>Bir Hata Oluştu</value>
+  </data>
+  <data name="An error occurred while processing your request." xml:space="preserve">
+    <value>İsteğiniz işlenirken bir hata oluştu.</value>
+  </data>
+  <data name="Back to Home" xml:space="preserve">
     <value>Ana Sayfaya Dön</value>
   </data>
   <data name="Error." xml:space="preserve">
     <value>Hata.</value>
   </data>
-  <data name="Request ID:" xml:space="preserve">
-    <value>İstek Kimliği:</value>
-  </data>
-  <data name="An error occurred while processing your request." xml:space="preserve">
-    <value>İsteğiniz işlenirken bir hata oluştu.</value>
-  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>Lütfen yardım için yönetici ile iletişime geçin.</value>
   </data>
-  <data name="An Error Occurred" xml:space="preserve">
-    <value>Bir Hata Oluştu</value>
+  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
+    <value>Lütfen daha sonra tekrar deneyin veya sorun devam ederse destek ekibiyle iletişime geçin.</value>
+  </data>
+  <data name="Request ID:" xml:space="preserve">
+    <value>İstek Kimliği:</value>
   </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>Üzgünüz, isteğiniz işlenirken bir sorun oluştu.</value>
-  </data>
-  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
-    <value>Lütfen daha sonra tekrar deneyin veya sorun devam ederse destek ekibiyle iletişime geçin.</value>
   </data>
 
 </root>

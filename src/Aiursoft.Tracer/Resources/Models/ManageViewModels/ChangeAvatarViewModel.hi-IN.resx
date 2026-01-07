@@ -21,14 +21,14 @@
       <data name="Avatar file" xml:space="preserve">
     <value>अवतार फ़ाइल</value>
   </data>
-  <data name="The avatar file is required." xml:space="preserve">
-    <value>अवतार फ़ाइल आवश्यक है।</value>
+  <data name="Name" xml:space="preserve">
+    <value>नाम</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>अवतार फ़ाइल अमान्य है। कृपया इसे फिर से अपलोड करें।</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>नाम</value>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>अवतार फ़ाइल आवश्यक है।</value>
   </data>
   <data name="The name is required." xml:space="preserve">
     <value>नाम आवश्यक है।</value>

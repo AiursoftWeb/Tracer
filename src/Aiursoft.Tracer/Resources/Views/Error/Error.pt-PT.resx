@@ -18,11 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Error." xml:space="preserve">
-    <value>Erro.</value>
-  </data>
-  <data name="Request ID:" xml:space="preserve">
-    <value>ID do Pedido:</value>
+      <data name="An Error Occurred" xml:space="preserve">
+    <value>Ocorreu um Erro</value>
   </data>
   <data name="An error occurred while processing your request." xml:space="preserve">
     <value>Ocorreu um erro ao processar o seu pedido.</value>
@@ -30,17 +27,20 @@
   <data name="Back to Home" xml:space="preserve">
     <value>Voltar à Página Inicial</value>
   </data>
+  <data name="Error." xml:space="preserve">
+    <value>Erro.</value>
+  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>Por favor, contacte o administrador para obter ajuda.</value>
   </data>
-  <data name="An Error Occurred" xml:space="preserve">
-    <value>Ocorreu um Erro</value>
+  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
+    <value>Por favor, tente novamente mais tarde ou contacte o suporte se o problema persistir.</value>
+  </data>
+  <data name="Request ID:" xml:space="preserve">
+    <value>ID do Pedido:</value>
   </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>Lamentamos, ocorreu um erro ao processar o seu pedido.</value>
-  </data>
-  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
-    <value>Por favor, tente novamente mais tarde ou contacte o suporte se o problema persistir.</value>
   </data>
 
 </root>

@@ -18,29 +18,29 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Error." xml:space="preserve">
-    <value>エラー。</value>
+      <data name="An Error Occurred" xml:space="preserve">
+    <value>エラーが発生しました</value>
   </data>
   <data name="An error occurred while processing your request." xml:space="preserve">
     <value>リクエストの処理中にエラーが発生しました。</value>
   </data>
-  <data name="Request ID:" xml:space="preserve">
-    <value>リクエストID:</value>
+  <data name="Back to Home" xml:space="preserve">
+    <value>ホームに戻る</value>
+  </data>
+  <data name="Error." xml:space="preserve">
+    <value>エラー。</value>
   </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>管理者に連絡して支援を受けてください。</value>
   </data>
-  <data name="Back to Home" xml:space="preserve">
-    <value>ホームに戻る</value>
+  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
+    <value>後でもう一度お試しいただくか、問題が解決しない場合はサポートまでご連絡ください。</value>
   </data>
-  <data name="An Error Occurred" xml:space="preserve">
-    <value>エラーが発生しました</value>
+  <data name="Request ID:" xml:space="preserve">
+    <value>リクエストID:</value>
   </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>申し訳ございません。リクエストの処理中に問題が発生しました。</value>
-  </data>
-  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
-    <value>後でもう一度お試しいただくか、問題が解決しない場合はサポートまでご連絡ください。</value>
   </data>
 
 </root>

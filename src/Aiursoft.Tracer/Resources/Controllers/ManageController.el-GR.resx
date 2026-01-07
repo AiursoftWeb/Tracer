@@ -21,14 +21,14 @@
       <data name="An error has occurred." xml:space="preserve">
     <value>Παρουσιάστηκε σφάλμα.</value>
   </data>
-  <data name="Your password has been changed." xml:space="preserve">
-    <value>Ο κωδικός πρόσβασής σας άλλαξε.</value>
+  <data name="The file is not a valid image." xml:space="preserve">
+    <value>Το αρχείο δεν είναι έγκυρη εικόνα.</value>
   </data>
   <data name="Your avatar has been saved." xml:space="preserve">
     <value>Το avatar σας αποθηκεύτηκε.</value>
   </data>
-  <data name="The file is not a valid image." xml:space="preserve">
-    <value>Το αρχείο δεν είναι έγκυρη εικόνα.</value>
+  <data name="Your password has been changed." xml:space="preserve">
+    <value>Ο κωδικός πρόσβασής σας άλλαξε.</value>
   </data>
   <data name="Your profile has been saved." xml:space="preserve">
     <value>Το προφίλ σας αποθηκεύτηκε.</value>

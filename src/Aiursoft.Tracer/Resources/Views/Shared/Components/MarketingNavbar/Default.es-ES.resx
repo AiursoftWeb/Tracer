@@ -18,23 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="GitHub" xml:space="preserve">
-    <value>GitHub</value>
-  </data>
-  <data name="Documentation" xml:space="preserve">
-    <value>Documentación</value>
-  </data>
-  <data name="Aiursoft Template" xml:space="preserve">
+      <data name="Aiursoft Template" xml:space="preserve">
     <value>Plantilla de Aiursoft</value>
   </data>
   <data name="Community" xml:space="preserve">
     <value>Comunidad</value>
   </data>
-  <data name="Try the dashboard" xml:space="preserve">
-    <value>Probar el panel de control</value>
+  <data name="Documentation" xml:space="preserve">
+    <value>Documentación</value>
+  </data>
+  <data name="GitHub" xml:space="preserve">
+    <value>GitHub</value>
   </data>
   <data name="Source Code" xml:space="preserve">
     <value>Código Fuente</value>
+  </data>
+  <data name="Try the dashboard" xml:space="preserve">
+    <value>Probar el panel de control</value>
   </data>
 
 </root>

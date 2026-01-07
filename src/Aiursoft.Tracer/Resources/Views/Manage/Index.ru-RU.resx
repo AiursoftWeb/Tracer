@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change your password" xml:space="preserve">
-    <value>Изменить пароль</value>
-  </data>
-  <data name="Account Management" xml:space="preserve">
+      <data name="Account Management" xml:space="preserve">
     <value>Управление учётной записью</value>
-  </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>Изменить настройки аккаунта</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>Вы не можете изменить свой пароль, так как локальная аутентификация отключена. Пожалуйста, отредактируйте свой профиль у поставщика аутентификации.</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Пароль</value>
-  </data>
-  <data name="Avatar settings" xml:space="preserve">
-    <value>Настройки аватара</value>
-  </data>
-  <data name="Change your avatar" xml:space="preserve">
-    <value>Сменить аватар</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Успех!</value>
-  </data>
-  <data name="Profile" xml:space="preserve">
-    <value>Профиль</value>
-  </data>
-  <data name="Change your profile" xml:space="preserve">
-    <value>Изменить профиль</value>
   </data>
   <data name="auth provider" xml:space="preserve">
     <value>поставщик аутентификации</value>
   </data>
+  <data name="Avatar settings" xml:space="preserve">
+    <value>Настройки аватара</value>
+  </data>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>Изменить настройки аккаунта</value>
+  </data>
+  <data name="Change your avatar" xml:space="preserve">
+    <value>Сменить аватар</value>
+  </data>
+  <data name="Change your password" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="Change your profile" xml:space="preserve">
+    <value>Изменить профиль</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Профиль</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Успех!</value>
+  </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>Вы не можете изменить свой пароль, так как локальная аутентификация отключена. Пожалуйста, отредактируйте свой профиль через</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>Вы не можете изменить свой пароль, так как локальная аутентификация отключена. Пожалуйста, отредактируйте свой профиль у поставщика аутентификации.</value>
   </data>
 
 </root>

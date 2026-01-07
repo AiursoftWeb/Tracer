@@ -21,17 +21,17 @@
       <data name="Avatar file" xml:space="preserve">
     <value>Файл аватара</value>
   </data>
-  <data name="The avatar file is required." xml:space="preserve">
-    <value>Файл аватара обов&apos;язковий.</value>
+  <data name="Name" xml:space="preserve">
+    <value>Ім&apos;я</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>Файл аватара недійсний. Будь ласка, завантажте його знову.</value>
   </data>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>Файл аватара обов&apos;язковий.</value>
+  </data>
   <data name="The name is required." xml:space="preserve">
     <value>Ім&apos;я є обов&apos;язковим.</value>
-  </data>
-  <data name="Name" xml:space="preserve">
-    <value>Ім&apos;я</value>
   </data>
 
 </root>

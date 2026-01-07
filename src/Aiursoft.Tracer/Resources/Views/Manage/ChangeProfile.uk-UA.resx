@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change profile" xml:space="preserve">
-    <value>Змінити профіль</value>
-  </data>
-  <data name="Edit your profile" xml:space="preserve">
-    <value>Редагувати профіль</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
+      <data name="Cancel" xml:space="preserve">
     <value>Скасувати</value>
   </data>
-  <data name="Save changes" xml:space="preserve">
-    <value>Зберегти зміни</value>
+  <data name="Change profile" xml:space="preserve">
+    <value>Змінити профіль</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>Відображуване ім&apos;я</value>
   </data>
-  <data name="Profile Information" xml:space="preserve">
-    <value>Інформація про профіль</value>
+  <data name="Edit your profile" xml:space="preserve">
+    <value>Редагувати профіль</value>
   </data>
   <data name="Enter your display name" xml:space="preserve">
     <value>Введіть ваше відображуване ім&apos;я</value>
+  </data>
+  <data name="Profile Information" xml:space="preserve">
+    <value>Інформація про профіль</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Зберегти зміни</value>
   </data>
   <data name="This name will be displayed publicly across the application." xml:space="preserve">
     <value>Це ім&apos;я буде публічно відображатися в усій програмі.</value>

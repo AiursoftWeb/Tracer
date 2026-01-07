@@ -18,17 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="The avatar file is required." xml:space="preserve">
-    <value>Tập tin avatar là bắt buộc.</value>
-  </data>
-  <data name="Avatar file" xml:space="preserve">
+      <data name="Avatar file" xml:space="preserve">
     <value>Tệp ảnh đại diện</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Tên</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>Tập tin avatar không hợp lệ. Vui lòng tải lên lại.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Tên</value>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>Tập tin avatar là bắt buộc.</value>
   </data>
   <data name="The name is required." xml:space="preserve">
     <value>Tên là bắt buộc.</value>

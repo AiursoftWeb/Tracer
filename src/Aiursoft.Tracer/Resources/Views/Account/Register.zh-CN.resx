@@ -18,11 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Register" xml:space="preserve">
-    <value>注册</value>
+      <data name="Already have an account?" xml:space="preserve">
+    <value>已有帐户？</value>
+  </data>
+  <data name="Confirm Password" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="Confirm your password" xml:space="preserve">
+    <value>确认密码</value>
   </data>
   <data name="Create a new account." xml:space="preserve">
     <value>创建新账户。</value>
+  </data>
+  <data name="Create a password" xml:space="preserve">
+    <value>创建密码</value>
+  </data>
+  <data name="Create Account" xml:space="preserve">
+    <value>创建账户</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>电子邮件地址</value>
@@ -30,8 +42,8 @@
   <data name="Enter your email address" xml:space="preserve">
     <value>输入您的电子邮件地址</value>
   </data>
-  <data name="Create a password" xml:space="preserve">
-    <value>创建密码</value>
+  <data name="Get Started" xml:space="preserve">
+    <value>开始使用</value>
   </data>
   <data name="Join us now to start your journey." xml:space="preserve">
     <value>立即加入我们，开启您的旅程。</value>
@@ -39,20 +51,8 @@
   <data name="Password" xml:space="preserve">
     <value>密码</value>
   </data>
-  <data name="Confirm your password" xml:space="preserve">
-    <value>确认密码</value>
-  </data>
-  <data name="Confirm Password" xml:space="preserve">
-    <value>确认密码</value>
-  </data>
-  <data name="Get Started" xml:space="preserve">
-    <value>开始使用</value>
-  </data>
-  <data name="Create Account" xml:space="preserve">
-    <value>创建账户</value>
-  </data>
-  <data name="Already have an account?" xml:space="preserve">
-    <value>已有帐户？</value>
+  <data name="Register" xml:space="preserve">
+    <value>注册</value>
   </data>
   <data name="Sign in" xml:space="preserve">
     <value>登录</value>

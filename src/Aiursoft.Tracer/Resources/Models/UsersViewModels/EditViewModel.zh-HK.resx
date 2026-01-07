@@ -18,32 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="User name" xml:space="preserve">
-    <value>用戶名稱</value>
+      <data name="Avatar file" xml:space="preserve">
+    <value>頭像檔案</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>電郵地址</value>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>名稱</value>
+  </data>
   <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
     <value>重設密碼（留空以保持原有密碼）</value>
-  </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>{0} 是必需的。</value>
   </data>
   <data name="The {0} is not a valid email address." xml:space="preserve">
     <value>{0} 不是有效的電郵地址。</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>名稱</value>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} 是必需的。</value>
   </data>
-  <data name="Avatar file" xml:space="preserve">
-    <value>頭像檔案</value>
+  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
+    <value>頭像檔案無效。請重新上傳。</value>
   </data>
   <data name="The avatar file is required." xml:space="preserve">
     <value>頭像檔案是必需的。</value>
   </data>
-  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
-    <value>頭像檔案無效。請重新上傳。</value>
+  <data name="User name" xml:space="preserve">
+    <value>用戶名稱</value>
   </data>
 
 </root>

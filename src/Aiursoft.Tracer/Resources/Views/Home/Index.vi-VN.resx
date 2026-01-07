@@ -18,290 +18,278 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Chào mừng</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Đây là một dự án mẫu</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>Tích hợp OpenID Connect</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Xin chào thế giới!</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Hỗ trợ Đa Cơ sở Dữ liệu</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Tại sao nên sử dụng Mẫu Aiursoft?</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>Một nền tảng hiện đại, giàu tính năng và có khả năng mở rộng cao cho ứng dụng web tiếp theo của bạn.</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Tích hợp liền mạch với bất kỳ nhà cung cấp OpenID Connect nào, đồng thời tự động đồng bộ hóa vai trò.</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Dễ dàng chuyển đổi giữa các nhà cung cấp như SQLite, MySQL, SQL Server và cơ sở dữ liệu trong bộ nhớ để kiểm thử.</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>Ủy quyền RBAC</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Thanh Điều Hướng Động</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Thanh điều hướng tự động điều chỉnh dựa trên vai trò và quyền của người dùng.</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Tài liệu Toàn diện</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Dịch Thuật Hỗ Trợ Bởi AI</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Tự động dịch thuật bằng AI sang 28 ngôn ngữ để tiếp cận toàn cầu.</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Bao gồm tài liệu phong phú và các ví dụ thực tế để giúp bạn bắt đầu nhanh chóng.</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
-    <value>Hệ thống Kiểm soát Truy cập Dựa trên Vai trò (RBAC) được tích hợp sẵn để quản lý quyền chi tiết.</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Quản lý Người dùng Tích hợp sẵn</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Tiêm phụ thuộc Tự động</value>
-  </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Quản lý Tập tin Tích hợp</value>
-  </data>
-  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
-    <value>Một giải pháp hoàn chỉnh cho xác thực người dùng và quản lý hồ sơ ngay lập tức, không cần cấu hình thêm.</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Tất cả các dependency đều được tự động đăng ký và luôn sẵn sàng thông qua constructor injection.</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Tích hợp hệ thống quản lý tập tin với tính năng nén ảnh đại diện tự động.</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Thiết kế đáp ứng</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Chế độ Tối Tự động</value>
-  </data>
-  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
-    <value>Bố cục hoàn toàn thích ứng, hiển thị đẹp mắt trên cả thiết bị máy tính để bàn và thiết bị di động.</value>
-  </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Đã được Docker hóa để Triển khai</value>
-  </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Chế độ tối thông minh tự động điều chỉnh theo cài đặt hệ thống của người dùng.</value>
-  </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Đi kèm với hỗ trợ Docker đầy đủ để triển khai đơn giản, nhất quán và đáng tin cậy.</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Đọc tài liệu</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Đây là một dự án mẫu, nơi chúng ta bắt đầu hành trình khám phá...</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Cách sử dụng</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Miễn phí</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Mã nguồn mở</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Tính năng</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Giấy phép MIT</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>nhanh hơn</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Truy cập bảng điều khiển</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Xây dựng dự án lớn tiếp theo của bạn,</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Đánh giá</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Trang Tổng quan</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Đạt được nhiều hơn với Aiursoft Template</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Những gì nhà phát triển của chúng tôi nói</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Công cụ Âm nhạc</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Chuyển Đổi Markdown Sang HTML</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Đây là những gì các nhà phát triển từ cộng đồng của chúng tôi nói.</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Hãy sử dụng nó làm nền tảng cho SaaS của bạn, backend cho ứng dụng di động, trang web doanh nghiệp, hoặc blog cá nhân. Các khả năng là vô tận.</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Trưởng nhóm Kỹ thuật</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>Câu hỏi thường gặp</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Các câu hỏi thường gặp</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Có phải Aiursoft Template được sử dụng miễn phí không?</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Tôi cần gì để bắt đầu?</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Dưới đây là một số câu trả lời bạn có thể đang tìm kiếm.</value>
-  </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template là lựa chọn tối ưu cho các dự án doanh nghiệp! Nó được xây dựng cho nhà phát triển, nhẹ nhàng nhưng mạnh mẽ. Chúng ta có thể bỏ qua tất cả các mã mẫu cho xác thực và quản lý người dùng.</value>
-  </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Vâng, Aiursoft Template hoàn toàn miễn phí và mã nguồn mở theo Giấy phép MIT. Bạn có thể sử dụng nó cho các dự án cá nhân và thương mại mà không mất bất kỳ chi phí nào.</value>
-  </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Làm thế nào để tôi triển khai ứng dụng của mình?</value>
-  </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Làm thế nào để tôi nhận được hỗ trợ?</value>
-  </data>
-  <data name="Discussions page" xml:space="preserve">
-    <value>Trang Thảo luận</value>
-  </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>Bạn có thể nhận hỗ trợ từ cộng đồng thông qua GitHub Discussions. Vui lòng truy cập</value>
-  </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>Bạn sẽ cần .NET 10 SDK, npm và IDE yêu thích của bạn, như Visual Studio hoặc JetBrains Rider. Bạn có thể tìm thấy hướng dẫn thiết lập đầy đủ trong tài liệu của chúng tôi.</value>
-  </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>Tham gia thảo luận</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Mẫu này được xây dựng để triển khai dễ dàng. Nó bao gồm hỗ trợ Docker đầy đủ, vì vậy bạn có thể đóng gói ứng dụng của mình và chạy nó ở bất cứ đâu. Bạn cũng có thể triển khai trực tiếp lên IIS, Azure App Service hoặc bất kỳ máy chủ nào hỗ trợ ASP.NET Core.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>để có bất kỳ thắc mắc nào hoặc để báo cáo sự cố.</value>
-  </data>
-  <data name="Join our community and start building today!" xml:space="preserve">
-    <value>Hãy tham gia cộng đồng của chúng tôi và bắt đầu xây dựng ngay hôm nay!</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Bắt đầu một dự án mới</value>
-  </data>
-  <data name="Network" xml:space="preserve">
-    <value>Mạng</value>
-  </data>
-  <data name="Hola!" xml:space="preserve">
-    <value>Xin chào!</value>
-  </data>
-  <data name="Diagnostics" xml:space="preserve">
-    <value>Chẩn đoán</value>
-  </data>
-  <data name="Dashboard" xml:space="preserve">
-    <value>Bảng điều khiển</value>
-  </data>
-  <data name="Log filter (ms)" xml:space="preserve">
-    <value>Bộ lọc nhật ký (ms)</value>
-  </data>
-  <data name="Start Test" xml:space="preserve">
-    <value>Bắt đầu Kiểm tra</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>Kiểm tra Độ trễ HTTP</value>
-  </data>
-  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
-    <value>Gửi một tin nhắn đơn giản đến máy chủ. Giá trị thấp hơn thì tốt hơn.</value>
-  </data>
-  <data name="Waiting..." xml:space="preserve">
-    <value>Đang chờ...</value>
-  </data>
-  <data name="Bandwidth" xml:space="preserve">
-    <value>Băng thông</value>
-  </data>
-  <data name="Real-time Chart" xml:space="preserve">
-    <value>Biểu đồ Thời gian Thực</value>
-  </data>
-  <data name="Max Latency" xml:space="preserve">
-    <value>Độ trễ tối đa</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Dừng</value>
-  </data>
-  <data name="Current Status" xml:space="preserve">
-    <value>Trạng thái hiện tại</value>
-  </data>
-  <data name="Download Speed Test" xml:space="preserve">
-    <value>Kiểm tra tốc độ tải xuống</value>
-  </data>
-  <data name="Direct Link" xml:space="preserve">
-    <value>Liên kết Trực tiếp</value>
-  </data>
-  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
-    <value>Tải xuống các khối dữ liệu 4GB. Giá trị cao hơn thì tốt hơn.</value>
-  </data>
-  <data name="Speed (MB/s)" xml:space="preserve">
-    <value>Tốc độ (MB/s)</value>
-  </data>
-  <data name="Log filter (MB/s)" xml:space="preserve">
-    <value>Bộ lọc nhật ký (MB/s)</value>
-  </data>
-  <data name="Or test directly:" xml:space="preserve">
-    <value>Hoặc kiểm tra trực tiếp:</value>
+      <data name=", From " xml:space="preserve">
+    <value>, Từ</value>
   </data>
   <data name="0 MB/s" xml:space="preserve">
     <value>0 MB/giây</value>
   </data>
-  <data name="Speed (Mbps)" xml:space="preserve">
-    <value>Tốc độ (Mbps)</value>
-  </data>
-  <data name="WebSocket Latency" xml:space="preserve">
-    <value>Độ trễ WebSocket</value>
-  </data>
-  <data name="Throughput Chart" xml:space="preserve">
-    <value>Biểu đồ Thông lượng</value>
-  </data>
   <data name="0 Mbps" xml:space="preserve">
     <value>0 Mbps</value>
   </data>
-  <data name="Idle" xml:space="preserve">
-    <value>Không hoạt động</value>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>Hệ thống Kiểm soát Truy cập Dựa trên Vai trò (RBAC) được tích hợp sẵn để quản lý quyền chi tiết.</value>
+  </data>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>Một giải pháp hoàn chỉnh cho xác thực người dùng và quản lý hồ sơ ngay lập tức, không cần cấu hình thêm.</value>
+  </data>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>Bố cục hoàn toàn thích ứng, hiển thị đẹp mắt trên cả thiết bị máy tính để bàn và thiết bị di động.</value>
+  </data>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Một nền tảng hiện đại, giàu tính năng và có khả năng mở rộng cao cho ứng dụng web tiếp theo của bạn.</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Đạt được nhiều hơn với Aiursoft Template</value>
+  </data>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Dịch Thuật Hỗ Trợ Bởi AI</value>
+  </data>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template là lựa chọn tối ưu cho các dự án doanh nghiệp! Nó được xây dựng cho nhà phát triển, nhẹ nhàng nhưng mạnh mẽ. Chúng ta có thể bỏ qua tất cả các mã mẫu cho xác thực và quản lý người dùng.</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer là một ứng dụng kiểm tra chất lượng mạng đơn giản. Giúp kiểm tra tốc độ kết nối giữa bạn và máy chủ.</value>
+  </data>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Tất cả các dependency đều được tự động đăng ký và luôn sẵn sàng thông qua constructor injection.</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Chế độ Tối Tự động</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Tiêm phụ thuộc Tự động</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Tự động dịch thuật bằng AI sang 28 ngôn ngữ để tiếp cận toàn cầu.</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Băng thông</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Xây dựng dự án lớn tiếp theo của bạn,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Quản lý Người dùng Tích hợp sẵn</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Xóa Nhật ký</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Đi kèm với hỗ trợ Docker đầy đủ để triển khai đơn giản, nhất quán và đáng tin cậy.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Tài liệu Toàn diện</value>
   </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Khoảng cách hiện tại</value>
   </data>
-  <data name="Max Gap" xml:space="preserve">
-    <value>Khoảng cách tối đa</value>
+  <data name="Current Status" xml:space="preserve">
+    <value>Trạng thái hiện tại</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Bảng điều khiển</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Trang Tổng quan</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Chẩn đoán</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Liên kết Trực tiếp</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Trang Thảo luận</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Đã được Docker hóa để Triển khai</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Kiểm tra tốc độ tải xuống</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Tải xuống các khối dữ liệu 4GB. Giá trị cao hơn thì tốt hơn.</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Thanh Điều Hướng Động</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Dễ dàng chuyển đổi giữa các nhà cung cấp như SQLite, MySQL, SQL Server và cơ sở dữ liệu trong bộ nhớ để kiểm thử.</value>
   </data>
   <data name="Event Latency Chart" xml:space="preserve">
     <value>Biểu đồ Độ trễ Sự kiện</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Nhật ký Lỗi</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Câu hỏi thường gặp</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>nhanh hơn</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Tính năng</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Tích hợp hệ thống quản lý tập tin với tính năng nén ảnh đại diện tự động.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>để có bất kỳ thắc mắc nào hoặc để báo cáo sự cố.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Miễn phí</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Các câu hỏi thường gặp</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Khoảng cách giữa các sự kiện máy chủ. Mục tiêu: ~100ms.</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Truy cập bảng điều khiển</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Xin chào thế giới!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Dưới đây là một số câu trả lời bạn có thể đang tìm kiếm.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Đây là những gì các nhà phát triển từ cộng đồng của chúng tôi nói.</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Xin chào!</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Làm thế nào để tôi nhận được hỗ trợ?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Làm thế nào để tôi triển khai ứng dụng của mình?</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Kiểm tra Độ trễ HTTP</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Không hoạt động</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Bao gồm tài liệu phong phú và các ví dụ thực tế để giúp bạn bắt đầu nhanh chóng.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Quản lý Tập tin Tích hợp</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Có phải Aiursoft Template được sử dụng miễn phí không?</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Tham gia thảo luận</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Hãy tham gia cộng đồng của chúng tôi và bắt đầu xây dựng ngay hôm nay!</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Bộ lọc nhật ký (MB/s)</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Bộ lọc nhật ký (ms)</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Chuyển Đổi Markdown Sang HTML</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Khoảng cách tối đa</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Độ trễ tối đa</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Giấy phép MIT</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Hỗ trợ Đa Cơ sở Dữ liệu</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Công cụ Âm nhạc</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Mạng</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Chẩn đoán Mạng</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Mã nguồn mở</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>Tích hợp OpenID Connect</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Hoặc kiểm tra trực tiếp:</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>Ủy quyền RBAC</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Đọc tài liệu</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Biểu đồ Thời gian Thực</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Thiết kế đáp ứng</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Đánh giá</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Tích hợp liền mạch với bất kỳ nhà cung cấp OpenID Connect nào, đồng thời tự động đồng bộ hóa vai trò.</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Gửi một tin nhắn đơn giản đến máy chủ. Giá trị thấp hơn thì tốt hơn.</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Chế độ tối thông minh tự động điều chỉnh theo cài đặt hệ thống của người dùng.</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Tốc độ (MB/s)</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Tốc độ (Mbps)</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Bắt đầu một dự án mới</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Bắt đầu Kiểm tra</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Dừng</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Trưởng nhóm Kỹ thuật</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Thanh điều hướng tự động điều chỉnh dựa trên vai trò và quyền của người dùng.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Mẫu này được xây dựng để triển khai dễ dàng. Nó bao gồm hỗ trợ Docker đầy đủ, vì vậy bạn có thể đóng gói ứng dụng của mình và chạy nó ở bất cứ đâu. Bạn cũng có thể triển khai trực tiếp lên IIS, Azure App Service hoặc bất kỳ máy chủ nào hỗ trợ ASP.NET Core.</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Đây là một dự án mẫu</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Đây là một dự án mẫu, nơi chúng ta bắt đầu hành trình khám phá...</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Con số này thể hiện khoảng thời gian giữa sự kiện máy chủ hiện tại và sự kiện máy chủ trước đó. Giá trị này nên gần với 100ms. Lớn hơn 120ms hoặc nhỏ hơn 90ms là không phù hợp.</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Biểu đồ Thông lượng</value>
   </data>
   <data name="Time" xml:space="preserve">
     <value>Thời gian</value>
@@ -309,38 +297,50 @@
   <data name="Trigger" xml:space="preserve">
     <value>Tác nhân kích hoạt</value>
   </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Cách sử dụng</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Hãy sử dụng nó làm nền tảng cho SaaS của bạn, backend cho ứng dụng di động, trang web doanh nghiệp, hoặc blog cá nhân. Các khả năng là vô tận.</value>
+  </data>
   <data name="Value" xml:space="preserve">
     <value>Giá trị</value>
   </data>
-  <data name="Clear Log" xml:space="preserve">
-    <value>Xóa Nhật ký</value>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Đang chờ...</value>
   </data>
-  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
-    <value>Khoảng cách giữa các sự kiện máy chủ. Mục tiêu: ~100ms.</value>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>Độ trễ WebSocket</value>
   </data>
-  <data name="Exception Log" xml:space="preserve">
-    <value>Nhật ký Lỗi</value>
+  <data name="Welcome" xml:space="preserve">
+    <value>Chào mừng</value>
   </data>
-  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
-    <value>Con số này thể hiện khoảng thời gian giữa sự kiện máy chủ hiện tại và sự kiện máy chủ trước đó. Giá trị này nên gần với 100ms. Lớn hơn 120ms hoặc nhỏ hơn 90ms là không phù hợp.</value>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Tôi cần gì để bắt đầu?</value>
   </data>
-  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
-    <value>Trình duyệt của bạn sẽ gửi cho máy chủ một tin nhắn đơn giản và nhận về một phản hồi đơn giản. Con số này biểu thị thời gian từ lúc gửi yêu cầu đến khi nhận phản hồi. Con số càng nhỏ chứng tỏ mạng của bạn càng tốt.</value>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Những gì nhà phát triển của chúng tôi nói</value>
   </data>
-  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
-    <value>Trình duyệt của bạn sẽ tải xuống 4 tập tin 4GB từ máy chủ của chúng tôi. Từ thời điểm bắt đầu cho đến khi nhận được tập tin, chúng tôi sẽ giúp bạn tính toán tốc độ tải xuống mạng. Con số này càng lớn thì chất lượng mạng của bạn càng tốt.</value>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Tại sao nên sử dụng Mẫu Aiursoft?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Vâng, Aiursoft Template hoàn toàn miễn phí và mã nguồn mở theo Giấy phép MIT. Bạn có thể sử dụng nó cho các dự án cá nhân và thương mại mà không mất bất kỳ chi phí nào.</value>
   </data>
   <data name="You are connecting as:" xml:space="preserve">
     <value>Bạn đang kết nối với địa chỉ:</value>
   </data>
-  <data name="Network Diagnostics" xml:space="preserve">
-    <value>Chẩn đoán Mạng</value>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Bạn có thể nhận hỗ trợ từ cộng đồng thông qua GitHub Discussions. Vui lòng truy cập</value>
   </data>
-  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
-    <value>Aiursoft Tracer là một ứng dụng kiểm tra chất lượng mạng đơn giản. Giúp kiểm tra tốc độ kết nối giữa bạn và máy chủ.</value>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Bạn sẽ cần .NET 10 SDK, npm và IDE yêu thích của bạn, như Visual Studio hoặc JetBrains Rider. Bạn có thể tìm thấy hướng dẫn thiết lập đầy đủ trong tài liệu của chúng tôi.</value>
   </data>
-  <data name=", From " xml:space="preserve">
-    <value>, Từ</value>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Trình duyệt của bạn sẽ tải xuống 4 tập tin 4GB từ máy chủ của chúng tôi. Từ thời điểm bắt đầu cho đến khi nhận được tập tin, chúng tôi sẽ giúp bạn tính toán tốc độ tải xuống mạng. Con số này càng lớn thì chất lượng mạng của bạn càng tốt.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Trình duyệt của bạn sẽ gửi cho máy chủ một tin nhắn đơn giản và nhận về một phản hồi đơn giản. Con số này biểu thị thời gian từ lúc gửi yêu cầu đến khi nhận phản hồi. Con số càng nhỏ chứng tỏ mạng của bạn càng tốt.</value>
   </data>
 
 </root>

@@ -18,98 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Value" xml:space="preserve">
-    <value>Значение</value>
-  </data>
-  <data name="System Information" xml:space="preserve">
-    <value>Системная информация</value>
-  </data>
-  <data name="User Name" xml:space="preserve">
-    <value>Имя пользователя</value>
-  </data>
-  <data name="Property" xml:space="preserve">
-    <value>Свойство</value>
-  </data>
-  <data name="System" xml:space="preserve">
-    <value>Система</value>
-  </data>
-  <data name="Server &amp; Process Information" xml:space="preserve">
-    <value>Сведения о сервере и процессах</value>
-  </data>
-  <data name="Machine Name" xml:space="preserve">
-    <value>Имя компьютера</value>
+      <data name=".NET Version" xml:space="preserve">
+    <value>Версия .NET</value>
   </data>
   <data name="An overview of the application&apos;s server environment, process, and current request context." xml:space="preserve">
     <value>Обзор серверного окружения приложения, его процессов и текущего контекста запроса.</value>
   </data>
-  <data name="Start Time" xml:space="preserve">
-    <value>Время запуска</value>
-  </data>
-  <data name=".NET Version" xml:space="preserve">
-    <value>Версия .NET</value>
-  </data>
-  <data name="Server Time" xml:space="preserve">
-    <value>Время сервера</value>
-  </data>
-  <data name="Directory" xml:space="preserve">
-    <value>Рабочий каталог</value>
-  </data>
-  <data name="Memory Usage" xml:space="preserve">
-    <value>Использование памяти</value>
-  </data>
-  <data name="Docker Container" xml:space="preserve">
-    <value>Контейнер Docker</value>
-  </data>
-  <data name="Worker Process" xml:space="preserve">
-    <value>Рабочий процесс</value>
-  </data>
-  <data name="Request HTTP Headers" xml:space="preserve">
-    <value>Заголовки HTTP-запроса</value>
-  </data>
-  <data name="Header" xml:space="preserve">
-    <value>Заголовок</value>
-  </data>
-  <data name="Path" xml:space="preserve">
-    <value>Путь</value>
-  </data>
-  <data name="Host" xml:space="preserve">
-    <value>Хост</value>
-  </data>
-  <data name="Request Properties" xml:space="preserve">
-    <value>Свойства запроса</value>
-  </data>
-  <data name="Method" xml:space="preserve">
-    <value>Метод</value>
-  </data>
-  <data name="Protocol" xml:space="preserve">
-    <value>Протокол</value>
-  </data>
-  <data name="Scheme" xml:space="preserve">
-    <value>Схема</value>
-  </data>
-  <data name="Is HTTPS" xml:space="preserve">
-    <value>Используется HTTPS</value>
-  </data>
-  <data name="Remote Port" xml:space="preserve">
-    <value>Удалённый порт</value>
-  </data>
-  <data name="Remote IP" xml:space="preserve">
-    <value>Удаленный IP-адрес</value>
-  </data>
-  <data name="Local Port" xml:space="preserve">
-    <value>Локальный порт</value>
-  </data>
-  <data name="Danger Zone" xml:space="preserve">
-    <value>Зона опасности</value>
-  </data>
-  <data name="Restart Application" xml:space="preserve">
-    <value>Перезапустить приложение</value>
-  </data>
-  <data name="Request Restart" xml:space="preserve">
-    <value>Запросить перезапуск</value>
-  </data>
-  <data name="This will gracefully shut down the application. A process manager is expected to restart it." xml:space="preserve">
-    <value>Это корректно завершит работу приложения. Ожидается, что менеджер процессов перезапустит его.</value>
+  <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
+    <value>Вы уверены, что хотите перезапустить приложение? Это действие необратимо и завершит все активные подключения.</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Отмена</value>
@@ -117,20 +33,104 @@
   <data name="Confirm Application Restart" xml:space="preserve">
     <value>Подтвердите перезапуск приложения</value>
   </data>
-  <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
-    <value>Вы уверены, что хотите перезапустить приложение? Это действие необратимо и завершит все активные подключения.</value>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Зона опасности</value>
+  </data>
+  <data name="Directory" xml:space="preserve">
+    <value>Рабочий каталог</value>
+  </data>
+  <data name="Docker Container" xml:space="preserve">
+    <value>Контейнер Docker</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>Хост</value>
+  </data>
+  <data name="Is HTTPS" xml:space="preserve">
+    <value>Используется HTTPS</value>
+  </data>
+  <data name="Local Port" xml:space="preserve">
+    <value>Локальный порт</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Местоположение</value>
+  </data>
+  <data name="Machine Name" xml:space="preserve">
+    <value>Имя компьютера</value>
+  </data>
+  <data name="Memory Usage" xml:space="preserve">
+    <value>Использование памяти</value>
+  </data>
+  <data name="Method" xml:space="preserve">
+    <value>Метод</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Путь</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Свойство</value>
+  </data>
+  <data name="Protocol" xml:space="preserve">
+    <value>Протокол</value>
   </data>
   <data name="Reloading page..." xml:space="preserve">
     <value>Перезагрузка страницы...</value>
   </data>
+  <data name="Remote IP" xml:space="preserve">
+    <value>Удаленный IP-адрес</value>
+  </data>
+  <data name="Remote Port" xml:space="preserve">
+    <value>Удалённый порт</value>
+  </data>
+  <data name="Request HTTP Headers" xml:space="preserve">
+    <value>Заголовки HTTP-запроса</value>
+  </data>
+  <data name="Request Properties" xml:space="preserve">
+    <value>Свойства запроса</value>
+  </data>
+  <data name="Request Restart" xml:space="preserve">
+    <value>Запросить перезапуск</value>
+  </data>
+  <data name="Restart Application" xml:space="preserve">
+    <value>Перезапустить приложение</value>
+  </data>
   <data name="Restarting..." xml:space="preserve">
     <value>Перезапуск...</value>
   </data>
+  <data name="Scheme" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="Server &amp; Process Information" xml:space="preserve">
+    <value>Сведения о сервере и процессах</value>
+  </data>
+  <data name="Server Time" xml:space="preserve">
+    <value>Время сервера</value>
+  </data>
+  <data name="Start Time" xml:space="preserve">
+    <value>Время запуска</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="System Information" xml:space="preserve">
+    <value>Системная информация</value>
+  </data>
+  <data name="This will gracefully shut down the application. A process manager is expected to restart it." xml:space="preserve">
+    <value>Это корректно завершит работу приложения. Ожидается, что менеджер процессов перезапустит его.</value>
+  </data>
+  <data name="User Name" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="Worker Process" xml:space="preserve">
+    <value>Рабочий процесс</value>
+  </data>
   <data name="Yes, Restart Now" xml:space="preserve">
     <value>Да, перезапустить сейчас</value>
-  </data>
-  <data name="Location" xml:space="preserve">
-    <value>Местоположение</value>
   </data>
 
 </root>

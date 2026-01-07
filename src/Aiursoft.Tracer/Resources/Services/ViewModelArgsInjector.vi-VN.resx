@@ -18,95 +18,20 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Template" xml:space="preserve">
-    <value>Mẫu</value>
-  </data>
-  <data name="Home" xml:space="preserve">
-    <value>Trang Chủ</value>
-  </data>
-  <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft Template</value>
-  </data>
-  <data name="Login" xml:space="preserve">
-    <value>Đăng nhập</value>
-  </data>
-  <data name="Login to get access to all features." xml:space="preserve">
-    <value>Đăng nhập để truy cập tất cả các tính năng.</value>
-  </data>
-  <data name="Register" xml:space="preserve">
-    <value>Đăng ký</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Tính năng</value>
-  </data>
-  <data name="Index" xml:space="preserve">
-    <value>Trang chủ</value>
-  </data>
-  <data name="Directory" xml:space="preserve">
-    <value>Thư mục</value>
-  </data>
-  <data name="Users" xml:space="preserve">
-    <value>Người dùng</value>
-  </data>
-  <data name="Roles" xml:space="preserve">
-    <value>Vai trò</value>
-  </data>
-  <data name="System" xml:space="preserve">
-    <value>Hệ thống</value>
-  </data>
-  <data name="Info" xml:space="preserve">
-    <value>Thông tin</value>
+      <data name="Account Settings" xml:space="preserve">
+    <value>Cài đặt Tài khoản</value>
   </data>
   <data name="Admin" xml:space="preserve">
     <value>Quản trị viên</value>
   </data>
-  <data name="Anonymous" xml:space="preserve">
-    <value>Ẩn danh</value>
-  </data>
-  <data name="Sign out" xml:space="preserve">
-    <value>Đăng xuất</value>
-  </data>
-  <data name="Profile" xml:space="preserve">
-    <value>Hồ sơ</value>
-  </data>
   <data name="Administration" xml:space="preserve">
     <value>Quản trị</value>
   </data>
-  <data name="Click to login" xml:space="preserve">
-    <value>Nhấp để đăng nhập</value>
+  <data name="Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft Template</value>
   </data>
-  <data name="Manage" xml:space="preserve">
-    <value>Quản lý</value>
-  </data>
-  <data name="Create User" xml:space="preserve">
-    <value>Tạo Người Dùng</value>
-  </data>
-  <data name="Delete User" xml:space="preserve">
-    <value>Xóa Người Dùng</value>
-  </data>
-  <data name="Create Role" xml:space="preserve">
-    <value>Tạo Vai Trò</value>
-  </data>
-  <data name="User Details" xml:space="preserve">
-    <value>Thông tin người dùng</value>
-  </data>
-  <data name="System Info" xml:space="preserve">
-    <value>Thông tin Hệ thống</value>
-  </data>
-  <data name="Role Details" xml:space="preserve">
-    <value>Chi tiết Vai trò</value>
-  </data>
-  <data name="Edit User" xml:space="preserve">
-    <value>Chỉnh sửa Người dùng</value>
-  </data>
-  <data name="Edit Role" xml:space="preserve">
-    <value>Chỉnh sửa Vai trò</value>
-  </data>
-  <data name="Delete Role" xml:space="preserve">
-    <value>Xóa Vai trò</value>
-  </data>
-  <data name="Change Profile" xml:space="preserve">
-    <value>Thay đổi Hồ sơ</value>
+  <data name="Anonymous" xml:space="preserve">
+    <value>Ẩn danh</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Thay đổi Ảnh đại diện</value>
@@ -114,32 +39,107 @@
   <data name="Change Password" xml:space="preserve">
     <value>Đổi Mật khẩu</value>
   </data>
-  <data name="Settings" xml:space="preserve">
-    <value>Cài đặt</value>
+  <data name="Change Profile" xml:space="preserve">
+    <value>Thay đổi Hồ sơ</value>
   </data>
-  <data name="Personal" xml:space="preserve">
-    <value>Cá nhân</value>
+  <data name="Click to login" xml:space="preserve">
+    <value>Nhấp để đăng nhập</value>
   </data>
-  <data name="Account Settings" xml:space="preserve">
-    <value>Cài đặt Tài khoản</value>
+  <data name="Create Role" xml:space="preserve">
+    <value>Tạo Vai Trò</value>
   </data>
-  <data name="Profile Settings" xml:space="preserve">
-    <value>Cài đặt Hồ sơ</value>
+  <data name="Create User" xml:space="preserve">
+    <value>Tạo Người Dùng</value>
+  </data>
+  <data name="Delete Role" xml:space="preserve">
+    <value>Xóa Vai trò</value>
+  </data>
+  <data name="Delete User" xml:space="preserve">
+    <value>Xóa Người Dùng</value>
+  </data>
+  <data name="Directory" xml:space="preserve">
+    <value>Thư mục</value>
+  </data>
+  <data name="Edit Role" xml:space="preserve">
+    <value>Chỉnh sửa Vai trò</value>
+  </data>
+  <data name="Edit User" xml:space="preserve">
+    <value>Chỉnh sửa Người dùng</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Lỗi</value>
   </data>
-  <data name="Unauthorized" xml:space="preserve">
-    <value>Không được ủy quyền</value>
+  <data name="Features" xml:space="preserve">
+    <value>Tính năng</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Trang Chủ</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Thông tin</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="Login to get access to all features." xml:space="preserve">
+    <value>Đăng nhập để truy cập tất cả các tính năng.</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Quản lý</value>
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Trình Kiểm Tra Chất Lượng Mạng</value>
   </data>
-  <data name="Tester" xml:space="preserve">
-    <value>Trình Kiểm Thử</value>
+  <data name="Personal" xml:space="preserve">
+    <value>Cá nhân</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Hồ sơ</value>
+  </data>
+  <data name="Profile Settings" xml:space="preserve">
+    <value>Cài đặt Hồ sơ</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Đăng ký</value>
+  </data>
+  <data name="Role Details" xml:space="preserve">
+    <value>Chi tiết Vai trò</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Vai trò</value>
   </data>
   <data name="Self host your own server" xml:space="preserve">
     <value>Tự lưu trữ máy chủ của riêng bạn</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="Sign out" xml:space="preserve">
+    <value>Đăng xuất</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="System Info" xml:space="preserve">
+    <value>Thông tin Hệ thống</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Mẫu</value>
+  </data>
+  <data name="Tester" xml:space="preserve">
+    <value>Trình Kiểm Thử</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>Không được ủy quyền</value>
+  </data>
+  <data name="User Details" xml:space="preserve">
+    <value>Thông tin người dùng</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Người dùng</value>
   </data>
 
 </root>

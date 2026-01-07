@@ -18,29 +18,29 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Error." xml:space="preserve">
-    <value>错误。</value>
+      <data name="An Error Occurred" xml:space="preserve">
+    <value>发生错误</value>
   </data>
   <data name="An error occurred while processing your request." xml:space="preserve">
     <value>处理您的请求时发生错误。</value>
   </data>
-  <data name="Request ID:" xml:space="preserve">
-    <value>请求 ID：</value>
+  <data name="Back to Home" xml:space="preserve">
+    <value>返回首页</value>
+  </data>
+  <data name="Error." xml:space="preserve">
+    <value>错误。</value>
   </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>请联系管理员寻求帮助。</value>
   </data>
-  <data name="Back to Home" xml:space="preserve">
-    <value>返回首页</value>
+  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
+    <value>如果问题仍然存在，请稍后重试或联系支持团队。</value>
   </data>
-  <data name="An Error Occurred" xml:space="preserve">
-    <value>发生错误</value>
+  <data name="Request ID:" xml:space="preserve">
+    <value>请求 ID：</value>
   </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>很抱歉，处理您的请求时出现了问题。</value>
-  </data>
-  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
-    <value>如果问题仍然存在，请稍后重试或联系支持团队。</value>
   </data>
 
 </root>

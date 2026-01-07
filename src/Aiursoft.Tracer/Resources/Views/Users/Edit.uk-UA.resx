@@ -18,59 +18,59 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Basic Information" xml:space="preserve">
-    <value>Основна інформація</value>
-  </data>
-  <data name="Assigned Roles" xml:space="preserve">
+      <data name="Assigned Roles" xml:space="preserve">
     <value>Призначені ролі</value>
-  </data>
-  <data name="Save Role Assignments" xml:space="preserve">
-    <value>Зберегти призначення ролей</value>
   </data>
   <data name="Back to Details" xml:space="preserve">
     <value>Назад до деталей</value>
   </data>
-  <data name="Edit User:" xml:space="preserve">
-    <value>Редагування користувача:</value>
-  </data>
-  <data name="Save User Details" xml:space="preserve">
-    <value>Зберегти дані користувача</value>
+  <data name="Back to List" xml:space="preserve">
+    <value>Назад до списку</value>
   </data>
   <data name="Back to Users List" xml:space="preserve">
     <value>Назад до списку користувачів</value>
   </data>
-  <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
-    <value>Змініть дані користувача або керуйте призначеними йому ролями нижче.</value>
-  </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Увага!</value>
-  </data>
-  <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
-    <value>Цей обліковий запис синхронізовано з провайдером OpenID Connect (OIDC). Будь-які зміни, внесені тут (наприклад, до відображуваного імені чи електронної пошти), можуть бути перезаписані під час наступної синхронізації даних. Для постійних змін будь ласка оновіть профіль користувача безпосередньо у вашому провайдері OIDC.</value>
-  </data>
-  <data name="View Details" xml:space="preserve">
-    <value>Переглянути деталі</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>Новий пароль</value>
-  </data>
-  <data name="Email Address" xml:space="preserve">
-    <value>Електронна адреса</value>
+  <data name="Basic Information" xml:space="preserve">
+    <value>Основна інформація</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>Відображуване ім&apos;я</value>
   </data>
-  <data name="Username" xml:space="preserve">
-    <value>Ім&apos;я користувача</value>
+  <data name="Edit User:" xml:space="preserve">
+    <value>Редагування користувача:</value>
+  </data>
+  <data name="Email Address" xml:space="preserve">
+    <value>Електронна адреса</value>
   </data>
   <data name="Leave blank if you don&apos;t want to change the password." xml:space="preserve">
     <value>Залиште порожнім, якщо ви не хочете змінювати пароль.</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Назад до списку</value>
+  <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
+    <value>Змініть дані користувача або керуйте призначеними йому ролями нижче.</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>Новий файл аватара</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Новий пароль</value>
+  </data>
+  <data name="Save Role Assignments" xml:space="preserve">
+    <value>Зберегти призначення ролей</value>
+  </data>
+  <data name="Save User Details" xml:space="preserve">
+    <value>Зберегти дані користувача</value>
+  </data>
+  <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
+    <value>Цей обліковий запис синхронізовано з провайдером OpenID Connect (OIDC). Будь-які зміни, внесені тут (наприклад, до відображуваного імені чи електронної пошти), можуть бути перезаписані під час наступної синхронізації даних. Для постійних змін будь ласка оновіть профіль користувача безпосередньо у вашому провайдері OIDC.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Ім&apos;я користувача</value>
+  </data>
+  <data name="View Details" xml:space="preserve">
+    <value>Переглянути деталі</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>Увага!</value>
   </data>
 
 </root>

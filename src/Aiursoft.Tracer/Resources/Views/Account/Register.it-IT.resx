@@ -18,26 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Register" xml:space="preserve">
-    <value>Registrati</value>
-  </data>
-  <data name="Create a new account." xml:space="preserve">
-    <value>Crea un nuovo account.</value>
-  </data>
-  <data name="Get Started" xml:space="preserve">
-    <value>Inizia</value>
-  </data>
-  <data name="Email Address" xml:space="preserve">
-    <value>Indirizzo email</value>
-  </data>
-  <data name="Join us now to start your journey." xml:space="preserve">
-    <value>Unisciti a noi ora per iniziare il tuo viaggio.</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Password</value>
-  </data>
-  <data name="Create a password" xml:space="preserve">
-    <value>Crea una password</value>
+      <data name="Already have an account?" xml:space="preserve">
+    <value>Hai già un account?</value>
   </data>
   <data name="Confirm Password" xml:space="preserve">
     <value>Conferma password</value>
@@ -45,14 +27,32 @@
   <data name="Confirm your password" xml:space="preserve">
     <value>Conferma la tua password</value>
   </data>
-  <data name="Enter your email address" xml:space="preserve">
-    <value>Inserisci il tuo indirizzo email</value>
+  <data name="Create a new account." xml:space="preserve">
+    <value>Crea un nuovo account.</value>
+  </data>
+  <data name="Create a password" xml:space="preserve">
+    <value>Crea una password</value>
   </data>
   <data name="Create Account" xml:space="preserve">
     <value>Crea account</value>
   </data>
-  <data name="Already have an account?" xml:space="preserve">
-    <value>Hai già un account?</value>
+  <data name="Email Address" xml:space="preserve">
+    <value>Indirizzo email</value>
+  </data>
+  <data name="Enter your email address" xml:space="preserve">
+    <value>Inserisci il tuo indirizzo email</value>
+  </data>
+  <data name="Get Started" xml:space="preserve">
+    <value>Inizia</value>
+  </data>
+  <data name="Join us now to start your journey." xml:space="preserve">
+    <value>Unisciti a noi ora per iniziare il tuo viaggio.</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registrati</value>
   </data>
   <data name="Sign in" xml:space="preserve">
     <value>Accedi</value>

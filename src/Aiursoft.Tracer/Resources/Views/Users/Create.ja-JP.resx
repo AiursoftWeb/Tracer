@@ -18,29 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create" xml:space="preserve">
-    <value>作成</value>
-  </data>
-  <data name="User" xml:space="preserve">
-    <value>ユーザー</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>リストに戻る</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>作成</value>
   </data>
   <data name="Create a new user" xml:space="preserve">
     <value>新規ユーザーを作成</value>
   </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>警告！</value>
+  <data name="Create a password for the new user" xml:space="preserve">
+    <value>新しいユーザーのパスワードを作成</value>
   </data>
-  <data name="OpenID Connect (OIDC) is enabled. User accounts are synchronized from an external identity provider. We strongly recommend creating new users on your OIDC provider to ensure they are managed centrally. This form will create a local-only account that exists solely within this application." xml:space="preserve">
-    <value>OpenID Connect (OIDC) が有効になっています。ユーザーアカウントは外部のアイデンティティプロバイダーから同期されます。一元管理を確実にするため、新しいユーザーは OIDC プロバイダー上で作成することを強く推奨します。このフォームは、このアプリケーション内にのみ存在するローカル限定のアカウントを作成します。</value>
+  <data name="Create New User" xml:space="preserve">
+    <value>新規ユーザーを作成</value>
+  </data>
+  <data name="Create User" xml:space="preserve">
+    <value>ユーザーを作成</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>表示名</value>
-  </data>
-  <data name="Username" xml:space="preserve">
-    <value>ユーザー名</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>メールアドレス</value>
@@ -48,26 +45,29 @@
   <data name="Enter display name" xml:space="preserve">
     <value>表示名を入力</value>
   </data>
-  <data name="Enter username" xml:space="preserve">
-    <value>ユーザー名を入力</value>
-  </data>
   <data name="Enter email address" xml:space="preserve">
     <value>メールアドレスを入力</value>
   </data>
-  <data name="Create New User" xml:space="preserve">
-    <value>新規ユーザーを作成</value>
+  <data name="Enter username" xml:space="preserve">
+    <value>ユーザー名を入力</value>
   </data>
-  <data name="User Account Details" xml:space="preserve">
-    <value>ユーザーアカウントの詳細</value>
+  <data name="OpenID Connect (OIDC) is enabled. User accounts are synchronized from an external identity provider. We strongly recommend creating new users on your OIDC provider to ensure they are managed centrally. This form will create a local-only account that exists solely within this application." xml:space="preserve">
+    <value>OpenID Connect (OIDC) が有効になっています。ユーザーアカウントは外部のアイデンティティプロバイダーから同期されます。一元管理を確実にするため、新しいユーザーは OIDC プロバイダー上で作成することを強く推奨します。このフォームは、このアプリケーション内にのみ存在するローカル限定のアカウントを作成します。</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>パスワード</value>
   </data>
-  <data name="Create User" xml:space="preserve">
-    <value>ユーザーを作成</value>
+  <data name="User" xml:space="preserve">
+    <value>ユーザー</value>
   </data>
-  <data name="Create a password for the new user" xml:space="preserve">
-    <value>新しいユーザーのパスワードを作成</value>
+  <data name="User Account Details" xml:space="preserve">
+    <value>ユーザーアカウントの詳細</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>警告！</value>
   </data>
 
 </root>

@@ -18,47 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Project" xml:space="preserve">
-    <value>Projekt</value>
-  </data>
-  <data name="Documentation" xml:space="preserve">
-    <value>Dokumentation</value>
-  </data>
-  <data name="Source Code" xml:space="preserve">
-    <value>Kildekode</value>
-  </data>
-  <data name="Report an Issue" xml:space="preserve">
-    <value>Rapporter et problem</value>
-  </data>
-  <data name="Community" xml:space="preserve">
-    <value>Fællesskab</value>
-  </data>
-  <data name="Resources" xml:space="preserve">
-    <value>Ressourcer</value>
-  </data>
-  <data name="Get Started" xml:space="preserve">
-    <value>Kom i gang</value>
-  </data>
-  <data name="Licence" xml:space="preserve">
-    <value>Licens</value>
-  </data>
-  <data name="Legal" xml:space="preserve">
-    <value>Juridisk</value>
+      <data name="Aiursoft" xml:space="preserve">
+    <value>Aiursoft</value>
   </data>
   <data name="Aiursoft Template - A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Aiursoft Template - Et moderne, funktionsrigt og høj grad af udvidelsesmuligheder fundament til din næste webapplikation.</value>
   </data>
+  <data name="Community" xml:space="preserve">
+    <value>Fællesskab</value>
+  </data>
   <data name="Contributions" xml:space="preserve">
     <value>Bidrag</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Dokumentation</value>
+  </data>
+  <data name="Get Started" xml:space="preserve">
+    <value>Kom i gang</value>
+  </data>
+  <data name="Github" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
+  <data name="Legal" xml:space="preserve">
+    <value>Juridisk</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Licens</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Projekt</value>
+  </data>
+  <data name="Report an Issue" xml:space="preserve">
+    <value>Rapporter et problem</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Ressourcer</value>
   </data>
   <data name="Social" xml:space="preserve">
     <value>Sociale medier</value>
   </data>
-  <data name="Aiursoft" xml:space="preserve">
-    <value>Aiursoft</value>
-  </data>
-  <data name="Github" xml:space="preserve">
-    <value>GitHub</value>
+  <data name="Source Code" xml:space="preserve">
+    <value>Kildekode</value>
   </data>
 
 </root>

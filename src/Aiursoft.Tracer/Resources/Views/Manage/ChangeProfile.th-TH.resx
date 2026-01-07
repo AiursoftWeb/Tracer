@@ -18,17 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change profile" xml:space="preserve">
-    <value>แก้ไขโปรไฟล์</value>
+      <data name="Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
   </data>
-  <data name="Edit your profile" xml:space="preserve">
-    <value>แก้ไขโปรไฟล์ของคุณ</value>
+  <data name="Change profile" xml:space="preserve">
+    <value>แก้ไขโปรไฟล์</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>ชื่อที่แสดง</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>ยกเลิก</value>
+  <data name="Edit your profile" xml:space="preserve">
+    <value>แก้ไขโปรไฟล์ของคุณ</value>
   </data>
   <data name="Enter your display name" xml:space="preserve">
     <value>ป้อนชื่อที่ต้องการแสดง</value>

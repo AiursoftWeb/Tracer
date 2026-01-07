@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="User name" xml:space="preserve">
-    <value>Nama Pengguna</value>
+      <data name="Avatar file" xml:space="preserve">
+    <value>Berkas avatar</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>Alamat Email</value>
   </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>{0} wajib diisi.</value>
+  <data name="Name" xml:space="preserve">
+    <value>Nama</value>
   </data>
   <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
     <value>Atur Ulang Kata Sandi (biarkan kosong untuk menggunakan kata sandi yang sama)</value>
@@ -33,17 +33,17 @@
   <data name="The {0} is not a valid email address." xml:space="preserve">
     <value>{0} bukan alamat email yang valid.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Nama</value>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} wajib diisi.</value>
   </data>
-  <data name="Avatar file" xml:space="preserve">
-    <value>Berkas avatar</value>
+  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
+    <value>File avatar tidak valid. Silakan unggah lagi.</value>
   </data>
   <data name="The avatar file is required." xml:space="preserve">
     <value>File avatar wajib diisi.</value>
   </data>
-  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
-    <value>File avatar tidak valid. Silakan unggah lagi.</value>
+  <data name="User name" xml:space="preserve">
+    <value>Nama Pengguna</value>
   </data>
 
 </root>

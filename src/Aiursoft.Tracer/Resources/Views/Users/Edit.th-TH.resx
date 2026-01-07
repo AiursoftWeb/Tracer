@@ -18,47 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Basic Information" xml:space="preserve">
-    <value>ข้อมูลพื้นฐาน</value>
-  </data>
-  <data name="Edit User:" xml:space="preserve">
-    <value>แก้ไขผู้ใช้:</value>
-  </data>
-  <data name="Save Role Assignments" xml:space="preserve">
-    <value>บันทึกการกำหนดบทบาท</value>
+      <data name="Assigned Roles" xml:space="preserve">
+    <value>บทบาทที่ได้รับมอบหมาย</value>
   </data>
   <data name="Back to Details" xml:space="preserve">
     <value>กลับไปยังรายละเอียด</value>
   </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>กลับไปยังรายการ</value>
+  </data>
   <data name="Back to Users List" xml:space="preserve">
     <value>กลับไปยังรายการผู้ใช้</value>
   </data>
-  <data name="Save User Details" xml:space="preserve">
-    <value>บันทึกรายละเอียดผู้ใช้</value>
-  </data>
-  <data name="Assigned Roles" xml:space="preserve">
-    <value>บทบาทที่ได้รับมอบหมาย</value>
-  </data>
-  <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
-    <value>แก้ไขรายละเอียดผู้ใช้หรือจัดการบทบาทที่ได้รับมอบหมายด้านล่าง</value>
-  </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>คำเตือน!</value>
-  </data>
-  <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
-    <value>บัญชีผู้ใช้นี้ถูกซิงโครไนซ์กับผู้ให้บริการ OpenID Connect (OIDC) การแก้ไขใด ๆ ที่ทำที่นี่ (เช่น ชื่อที่แสดงหรืออีเมล) อาจถูกเขียนทับระหว่างการซิงค์ข้อมูลครั้งถัดไป สำหรับการเปลี่ยนแปลงอย่างถาวร โปรดอัปเดตโปรไฟล์ผู้ใช้โดยตรงบนผู้ให้บริการ OIDC ของคุณ</value>
-  </data>
-  <data name="View Details" xml:space="preserve">
-    <value>ดูรายละเอียด</value>
+  <data name="Basic Information" xml:space="preserve">
+    <value>ข้อมูลพื้นฐาน</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>ชื่อที่แสดง</value>
   </data>
-  <data name="Username" xml:space="preserve">
-    <value>ชื่อผู้ใช้</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>รหัสผ่านใหม่</value>
+  <data name="Edit User:" xml:space="preserve">
+    <value>แก้ไขผู้ใช้:</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>ที่อยู่อีเมล</value>
@@ -66,11 +45,32 @@
   <data name="Leave blank if you don&apos;t want to change the password." xml:space="preserve">
     <value>หากไม่ต้องการเปลี่ยนรหัสผ่าน ให้ปล่อยว่างไว้</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>กลับไปยังรายการ</value>
+  <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
+    <value>แก้ไขรายละเอียดผู้ใช้หรือจัดการบทบาทที่ได้รับมอบหมายด้านล่าง</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>ไฟล์ภาพโปรไฟล์ใหม่</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>รหัสผ่านใหม่</value>
+  </data>
+  <data name="Save Role Assignments" xml:space="preserve">
+    <value>บันทึกการกำหนดบทบาท</value>
+  </data>
+  <data name="Save User Details" xml:space="preserve">
+    <value>บันทึกรายละเอียดผู้ใช้</value>
+  </data>
+  <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
+    <value>บัญชีผู้ใช้นี้ถูกซิงโครไนซ์กับผู้ให้บริการ OpenID Connect (OIDC) การแก้ไขใด ๆ ที่ทำที่นี่ (เช่น ชื่อที่แสดงหรืออีเมล) อาจถูกเขียนทับระหว่างการซิงค์ข้อมูลครั้งถัดไป สำหรับการเปลี่ยนแปลงอย่างถาวร โปรดอัปเดตโปรไฟล์ผู้ใช้โดยตรงบนผู้ให้บริการ OIDC ของคุณ</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>ชื่อผู้ใช้</value>
+  </data>
+  <data name="View Details" xml:space="preserve">
+    <value>ดูรายละเอียด</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>คำเตือน!</value>
   </data>
 
 </root>

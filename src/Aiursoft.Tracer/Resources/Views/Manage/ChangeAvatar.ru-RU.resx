@@ -18,35 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change avatar" xml:space="preserve">
+      <data name="Avatar Settings" xml:space="preserve">
+    <value>Настройки аватара</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Change avatar" xml:space="preserve">
     <value>Сменить аватар</value>
   </data>
   <data name="Change your avatar" xml:space="preserve">
     <value>Изменить аватар</value>
   </data>
-  <data name="Upload the new avatar file." xml:space="preserve">
-    <value>Загрузите новый файл аватара.</value>
-  </data>
-  <data name="Save the avatar" xml:space="preserve">
-    <value>Сохранить аватар</value>
-  </data>
-  <data name="Save New Avatar" xml:space="preserve">
-    <value>Сохранить новый аватар</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="Avatar Settings" xml:space="preserve">
-    <value>Настройки аватара</value>
-  </data>
   <data name="Current Avatar" xml:space="preserve">
     <value>Текущий аватар</value>
+  </data>
+  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
+    <value>Для достижения наилучших результатов используйте квадратное изображение в формате .jpg или .png.</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>Новый файл аватара</value>
   </data>
-  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
-    <value>Для достижения наилучших результатов используйте квадратное изображение в формате .jpg или .png.</value>
+  <data name="Save New Avatar" xml:space="preserve">
+    <value>Сохранить новый аватар</value>
+  </data>
+  <data name="Save the avatar" xml:space="preserve">
+    <value>Сохранить аватар</value>
+  </data>
+  <data name="Upload the new avatar file." xml:space="preserve">
+    <value>Загрузите новый файл аватара.</value>
   </data>
 
 </root>

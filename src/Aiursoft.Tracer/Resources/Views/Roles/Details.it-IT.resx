@@ -18,44 +18,44 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="View User" xml:space="preserve">
-    <value>Visualizza Utente</value>
-  </data>
-  <data name="Users with this Role" xml:space="preserve">
-    <value>Utenti con questo ruolo</value>
-  </data>
-  <data name="Edit this Role" xml:space="preserve">
-    <value>Modifica questo Ruolo</value>
-  </data>
-  <data name="Role Details:" xml:space="preserve">
-    <value>Dettagli del Ruolo:</value>
-  </data>
-  <data name="Permissions Granted by this Role" xml:space="preserve">
-    <value>Permessi Concessi da questo Ruolo</value>
-  </data>
-  <data name="No users are currently assigned to this role." xml:space="preserve">
-    <value>Nessun utente è attualmente assegnato a questo ruolo.</value>
-  </data>
-  <data name="This role has no specific permissions assigned." xml:space="preserve">
-    <value>Questo ruolo non ha alcun permesso specifico assegnato.</value>
-  </data>
-  <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
+      <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
     <value>Una panoramica completa del ruolo, delle sue autorizzazioni e degli utenti assegnati.</value>
-  </data>
-  <data name="Delete this Role" xml:space="preserve">
-    <value>Elimina questo ruolo</value>
-  </data>
-  <data name="Back to Roles List" xml:space="preserve">
-    <value>Torna all&apos;elenco dei ruoli</value>
-  </data>
-  <data name="Permissions Granted" xml:space="preserve">
-    <value>Permessi Concessi</value>
   </data>
   <data name="Assigned Users" xml:space="preserve">
     <value>Utenti Assegnati</value>
   </data>
+  <data name="Back to Roles List" xml:space="preserve">
+    <value>Torna all&apos;elenco dei ruoli</value>
+  </data>
+  <data name="Delete this Role" xml:space="preserve">
+    <value>Elimina questo ruolo</value>
+  </data>
+  <data name="Edit this Role" xml:space="preserve">
+    <value>Modifica questo Ruolo</value>
+  </data>
+  <data name="No users are currently assigned to this role." xml:space="preserve">
+    <value>Nessun utente è attualmente assegnato a questo ruolo.</value>
+  </data>
+  <data name="Permissions Granted" xml:space="preserve">
+    <value>Permessi Concessi</value>
+  </data>
+  <data name="Permissions Granted by this Role" xml:space="preserve">
+    <value>Permessi Concessi da questo Ruolo</value>
+  </data>
+  <data name="Role Details:" xml:space="preserve">
+    <value>Dettagli del Ruolo:</value>
+  </data>
+  <data name="This role has no specific permissions assigned." xml:space="preserve">
+    <value>Questo ruolo non ha alcun permesso specifico assegnato.</value>
+  </data>
+  <data name="Users with this Role" xml:space="preserve">
+    <value>Utenti con questo ruolo</value>
+  </data>
   <data name="View" xml:space="preserve">
     <value>Visualizza</value>
+  </data>
+  <data name="View User" xml:space="preserve">
+    <value>Visualizza Utente</value>
   </data>
 
 </root>

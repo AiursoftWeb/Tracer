@@ -18,35 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change avatar" xml:space="preserve">
+      <data name="Avatar Settings" xml:space="preserve">
+    <value>إعدادات الصورة الشخصية</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Change avatar" xml:space="preserve">
     <value>تغيير الصورة الشخصية</value>
   </data>
   <data name="Change your avatar" xml:space="preserve">
     <value>تغيير صورتك الشخصية</value>
   </data>
-  <data name="Upload the new avatar file." xml:space="preserve">
-    <value>قم برفع ملف الصورة الشخصية الجديد.</value>
-  </data>
-  <data name="Save the avatar" xml:space="preserve">
-    <value>حفظ الصورة الشخصية</value>
-  </data>
   <data name="Current Avatar" xml:space="preserve">
     <value>الصورة الحالية</value>
   </data>
-  <data name="Save New Avatar" xml:space="preserve">
-    <value>حفظ الصورة الجديدة</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>إلغاء</value>
+  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
+    <value>للحصول على أفضل النتائج، استخدم صورة مربعة بصيغة .jpg أو .png.</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>ملف الصورة الشخصية الجديد</value>
   </data>
-  <data name="Avatar Settings" xml:space="preserve">
-    <value>إعدادات الصورة الشخصية</value>
+  <data name="Save New Avatar" xml:space="preserve">
+    <value>حفظ الصورة الجديدة</value>
   </data>
-  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
-    <value>للحصول على أفضل النتائج، استخدم صورة مربعة بصيغة .jpg أو .png.</value>
+  <data name="Save the avatar" xml:space="preserve">
+    <value>حفظ الصورة الشخصية</value>
+  </data>
+  <data name="Upload the new avatar file." xml:space="preserve">
+    <value>قم برفع ملف الصورة الشخصية الجديد.</value>
   </data>
 
 </root>

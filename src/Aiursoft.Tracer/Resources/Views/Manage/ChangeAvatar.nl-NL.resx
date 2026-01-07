@@ -18,26 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change avatar" xml:space="preserve">
-    <value>Avatar wijzigen</value>
-  </data>
-  <data name="Change your avatar" xml:space="preserve">
-    <value>Wijzig je avatar</value>
-  </data>
-  <data name="Upload the new avatar file." xml:space="preserve">
-    <value>Upload het nieuwe avatar-bestand.</value>
-  </data>
-  <data name="Save the avatar" xml:space="preserve">
-    <value>Avatar opslaan</value>
-  </data>
-  <data name="Avatar Settings" xml:space="preserve">
+      <data name="Avatar Settings" xml:space="preserve">
     <value>Avatar-instellingen</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuleren</value>
   </data>
+  <data name="Change avatar" xml:space="preserve">
+    <value>Avatar wijzigen</value>
+  </data>
+  <data name="Change your avatar" xml:space="preserve">
+    <value>Wijzig je avatar</value>
+  </data>
   <data name="Current Avatar" xml:space="preserve">
     <value>Huidige Avatar</value>
+  </data>
+  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
+    <value>Voor het beste resultaat gebruik je een vierkante afbeelding in .jpg- of .png-formaat.</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>Nieuw avatar-bestand</value>
@@ -45,8 +42,11 @@
   <data name="Save New Avatar" xml:space="preserve">
     <value>Nieuwe avatar opslaan</value>
   </data>
-  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
-    <value>Voor het beste resultaat gebruik je een vierkante afbeelding in .jpg- of .png-formaat.</value>
+  <data name="Save the avatar" xml:space="preserve">
+    <value>Avatar opslaan</value>
+  </data>
+  <data name="Upload the new avatar file." xml:space="preserve">
+    <value>Upload het nieuwe avatar-bestand.</value>
   </data>
 
 </root>

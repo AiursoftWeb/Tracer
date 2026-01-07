@@ -18,29 +18,29 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Back to Home" xml:space="preserve">
-    <value>На главную</value>
-  </data>
-  <data name="Request ID:" xml:space="preserve">
-    <value>Идентификатор запроса:</value>
+      <data name="An Error Occurred" xml:space="preserve">
+    <value>Произошла ошибка</value>
   </data>
   <data name="An error occurred while processing your request." xml:space="preserve">
     <value>Во время обработки вашего запроса произошла ошибка.</value>
   </data>
-  <data name="Please contact the administrator for help." xml:space="preserve">
-    <value>Пожалуйста, обратитесь к администратору за помощью.</value>
+  <data name="Back to Home" xml:space="preserve">
+    <value>На главную</value>
   </data>
   <data name="Error." xml:space="preserve">
     <value>Ошибка.</value>
   </data>
-  <data name="An Error Occurred" xml:space="preserve">
-    <value>Произошла ошибка</value>
-  </data>
-  <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
-    <value>Приносим извинения, во время обработки вашего запроса произошла ошибка.</value>
+  <data name="Please contact the administrator for help." xml:space="preserve">
+    <value>Пожалуйста, обратитесь к администратору за помощью.</value>
   </data>
   <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
     <value>Пожалуйста, повторите попытку позже или обратитесь в службу поддержки, если проблема не исчезнет.</value>
+  </data>
+  <data name="Request ID:" xml:space="preserve">
+    <value>Идентификатор запроса:</value>
+  </data>
+  <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
+    <value>Приносим извинения, во время обработки вашего запроса произошла ошибка.</value>
   </data>
 
 </root>

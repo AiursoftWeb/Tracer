@@ -18,44 +18,44 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="View User" xml:space="preserve">
-    <value>Προβολή Χρήστη</value>
-  </data>
-  <data name="Role Details:" xml:space="preserve">
-    <value>Λεπτομέρειες Ρόλου:</value>
-  </data>
-  <data name="Users with this Role" xml:space="preserve">
-    <value>Χρήστες με αυτόν τον Ρόλο</value>
-  </data>
-  <data name="Edit this Role" xml:space="preserve">
-    <value>Επεξεργαστείτε αυτόν τον Ρόλο</value>
-  </data>
-  <data name="Permissions Granted by this Role" xml:space="preserve">
-    <value>Δικαιώματα που Παραχωρούνται από αυτόν τον Ρόλο</value>
-  </data>
-  <data name="This role has no specific permissions assigned." xml:space="preserve">
-    <value>Αυτός ο ρόλος δεν έχει καμία συγκεκριμένη ανάθεση δικαιωμάτων.</value>
-  </data>
-  <data name="No users are currently assigned to this role." xml:space="preserve">
-    <value>Δεν υπάρχουν χρήστες που να έχουν ανατεθεί σε αυτόν τον ρόλο αυτήν τη στιγμή.</value>
-  </data>
-  <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
+      <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
     <value>Μια περιεκτική επισκόπηση του ρόλου, των δικαιωμάτων του και των αντιστοιχισμένων χρηστών.</value>
-  </data>
-  <data name="Delete this Role" xml:space="preserve">
-    <value>Διαγραφή αυτού του Ρόλου</value>
-  </data>
-  <data name="Back to Roles List" xml:space="preserve">
-    <value>Πίσω στη Λίστα Ρόλων</value>
-  </data>
-  <data name="View" xml:space="preserve">
-    <value>Προβολή</value>
   </data>
   <data name="Assigned Users" xml:space="preserve">
     <value>Ανατεθειμένοι Χρήστες</value>
   </data>
+  <data name="Back to Roles List" xml:space="preserve">
+    <value>Πίσω στη Λίστα Ρόλων</value>
+  </data>
+  <data name="Delete this Role" xml:space="preserve">
+    <value>Διαγραφή αυτού του Ρόλου</value>
+  </data>
+  <data name="Edit this Role" xml:space="preserve">
+    <value>Επεξεργαστείτε αυτόν τον Ρόλο</value>
+  </data>
+  <data name="No users are currently assigned to this role." xml:space="preserve">
+    <value>Δεν υπάρχουν χρήστες που να έχουν ανατεθεί σε αυτόν τον ρόλο αυτήν τη στιγμή.</value>
+  </data>
   <data name="Permissions Granted" xml:space="preserve">
     <value>Δικαιώματα που Εχουν Παραχωρηθεί</value>
+  </data>
+  <data name="Permissions Granted by this Role" xml:space="preserve">
+    <value>Δικαιώματα που Παραχωρούνται από αυτόν τον Ρόλο</value>
+  </data>
+  <data name="Role Details:" xml:space="preserve">
+    <value>Λεπτομέρειες Ρόλου:</value>
+  </data>
+  <data name="This role has no specific permissions assigned." xml:space="preserve">
+    <value>Αυτός ο ρόλος δεν έχει καμία συγκεκριμένη ανάθεση δικαιωμάτων.</value>
+  </data>
+  <data name="Users with this Role" xml:space="preserve">
+    <value>Χρήστες με αυτόν τον Ρόλο</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Προβολή</value>
+  </data>
+  <data name="View User" xml:space="preserve">
+    <value>Προβολή Χρήστη</value>
   </data>
 
 </root>

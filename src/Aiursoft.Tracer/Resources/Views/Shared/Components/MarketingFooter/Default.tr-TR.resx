@@ -18,47 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Source Code" xml:space="preserve">
-    <value>Kaynak Kodu</value>
-  </data>
-  <data name="Project" xml:space="preserve">
-    <value>Proje</value>
-  </data>
-  <data name="Get Started" xml:space="preserve">
-    <value>Başlayın</value>
-  </data>
-  <data name="Community" xml:space="preserve">
-    <value>Topluluk</value>
-  </data>
-  <data name="Resources" xml:space="preserve">
-    <value>Kaynaklar</value>
-  </data>
-  <data name="Documentation" xml:space="preserve">
-    <value>Belgeler</value>
-  </data>
-  <data name="Report an Issue" xml:space="preserve">
-    <value>Bir Sorun Bildir</value>
-  </data>
-  <data name="Legal" xml:space="preserve">
-    <value>Yasal</value>
-  </data>
-  <data name="Contributions" xml:space="preserve">
-    <value>Katkılar</value>
-  </data>
-  <data name="Social" xml:space="preserve">
-    <value>Sosyal</value>
+      <data name="Aiursoft" xml:space="preserve">
+    <value>Aiursoft</value>
   </data>
   <data name="Aiursoft Template - A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Aiursoft Template - Bir sonraki web uygulamanız için modern, özellik zengini ve oldukça genişletilebilir bir temel.</value>
   </data>
-  <data name="Licence" xml:space="preserve">
-    <value>Lisans</value>
+  <data name="Community" xml:space="preserve">
+    <value>Topluluk</value>
+  </data>
+  <data name="Contributions" xml:space="preserve">
+    <value>Katkılar</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Belgeler</value>
+  </data>
+  <data name="Get Started" xml:space="preserve">
+    <value>Başlayın</value>
   </data>
   <data name="Github" xml:space="preserve">
     <value>GitHub</value>
   </data>
-  <data name="Aiursoft" xml:space="preserve">
-    <value>Aiursoft</value>
+  <data name="Legal" xml:space="preserve">
+    <value>Yasal</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Lisans</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Proje</value>
+  </data>
+  <data name="Report an Issue" xml:space="preserve">
+    <value>Bir Sorun Bildir</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Kaynaklar</value>
+  </data>
+  <data name="Social" xml:space="preserve">
+    <value>Sosyal</value>
+  </data>
+  <data name="Source Code" xml:space="preserve">
+    <value>Kaynak Kodu</value>
   </data>
 
 </root>

@@ -21,14 +21,14 @@
       <data name="Invalid login attempt." xml:space="preserve">
     <value>Intento de inicio de sesión no válido.</value>
   </data>
-  <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>Esta cuenta ha sido bloqueada, por favor inténtelo de nuevo más tarde.</value>
-  </data>
   <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
     <value>Intento de inicio de sesión no válido. Por favor, compruebe el nombre de usuario y la contraseña.</value>
   </data>
   <data name="The username already exists. Please try another username." xml:space="preserve">
     <value>El nombre de usuario ya existe. Por favor, prueba con otro nombre de usuario.</value>
+  </data>
+  <data name="This account has been locked out, please try again later." xml:space="preserve">
+    <value>Esta cuenta ha sido bloqueada, por favor inténtelo de nuevo más tarde.</value>
   </data>
 
 </root>

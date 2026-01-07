@@ -18,47 +18,47 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Documentation" xml:space="preserve">
-    <value>Tài liệu</value>
-  </data>
-  <data name="Source Code" xml:space="preserve">
-    <value>Mã Nguồn</value>
-  </data>
-  <data name="Project" xml:space="preserve">
-    <value>Dự án</value>
-  </data>
-  <data name="Get Started" xml:space="preserve">
-    <value>Bắt Đầu</value>
-  </data>
-  <data name="Community" xml:space="preserve">
-    <value>Cộng đồng</value>
-  </data>
-  <data name="Resources" xml:space="preserve">
-    <value>Tài nguyên</value>
-  </data>
-  <data name="Report an Issue" xml:space="preserve">
-    <value>Báo cáo lỗi</value>
+      <data name="Aiursoft" xml:space="preserve">
+    <value>Aiursoft</value>
   </data>
   <data name="Aiursoft Template - A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Aiursoft Template - Nền tảng hiện đại, đầy đủ tính năng và có khả năng mở rộng cao cho ứng dụng web tiếp theo của bạn.</value>
   </data>
-  <data name="Legal" xml:space="preserve">
-    <value>Pháp lý</value>
+  <data name="Community" xml:space="preserve">
+    <value>Cộng đồng</value>
   </data>
   <data name="Contributions" xml:space="preserve">
     <value>Đóng góp</value>
   </data>
-  <data name="Licence" xml:space="preserve">
-    <value>Giấy phép</value>
+  <data name="Documentation" xml:space="preserve">
+    <value>Tài liệu</value>
+  </data>
+  <data name="Get Started" xml:space="preserve">
+    <value>Bắt Đầu</value>
   </data>
   <data name="Github" xml:space="preserve">
     <value>Github</value>
   </data>
+  <data name="Legal" xml:space="preserve">
+    <value>Pháp lý</value>
+  </data>
+  <data name="Licence" xml:space="preserve">
+    <value>Giấy phép</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Dự án</value>
+  </data>
+  <data name="Report an Issue" xml:space="preserve">
+    <value>Báo cáo lỗi</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Tài nguyên</value>
+  </data>
   <data name="Social" xml:space="preserve">
     <value>Mạng xã hội</value>
   </data>
-  <data name="Aiursoft" xml:space="preserve">
-    <value>Aiursoft</value>
+  <data name="Source Code" xml:space="preserve">
+    <value>Mã Nguồn</value>
   </data>
 
 </root>

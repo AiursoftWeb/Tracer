@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Delete" xml:space="preserve">
-    <value>Sil</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>İşlemler</value>
+  </data>
+  <data name="All Roles" xml:space="preserve">
+    <value>Tüm Roller</value>
+  </data>
+  <data name="Create a new role" xml:space="preserve">
+    <value>Yeni rol oluştur</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Sil</value>
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Düzenle</value>
@@ -30,20 +36,14 @@
   <data name="Manage Roles" xml:space="preserve">
     <value>Rolleri Yönet</value>
   </data>
-  <data name="User Count" xml:space="preserve">
-    <value>Kullanıcı Sayısı</value>
-  </data>
   <data name="Role Name" xml:space="preserve">
     <value>Rol Adı</value>
   </data>
-  <data name="Create a new role" xml:space="preserve">
-    <value>Yeni rol oluştur</value>
-  </data>
-  <data name="All Roles" xml:space="preserve">
-    <value>Tüm Roller</value>
-  </data>
   <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
     <value>Bir rolü detaylarını görüntülemek için seçin veya düzenlemek veya silmek için işlemleri kullanın.</value>
+  </data>
+  <data name="User Count" xml:space="preserve">
+    <value>Kullanıcı Sayısı</value>
   </data>
 
 </root>

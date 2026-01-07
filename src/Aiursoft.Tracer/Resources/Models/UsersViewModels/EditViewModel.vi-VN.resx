@@ -18,32 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="User name" xml:space="preserve">
-    <value>Tên người dùng</value>
+      <data name="Avatar file" xml:space="preserve">
+    <value>Tập tin ảnh đại diện</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>Địa chỉ Email</value>
   </data>
+  <data name="Name" xml:space="preserve">
+    <value>Tên</value>
+  </data>
   <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
     <value>Đặt lại mật khẩu (để trống nếu muốn giữ nguyên mật khẩu hiện tại)</value>
-  </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>{0} là bắt buộc.</value>
   </data>
   <data name="The {0} is not a valid email address." xml:space="preserve">
     <value>{0} không phải là một địa chỉ email hợp lệ.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Tên</value>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} là bắt buộc.</value>
   </data>
-  <data name="Avatar file" xml:space="preserve">
-    <value>Tập tin ảnh đại diện</value>
+  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
+    <value>Tập tin avatar không hợp lệ. Vui lòng tải lên lại.</value>
   </data>
   <data name="The avatar file is required." xml:space="preserve">
     <value>Tập tin avatar là bắt buộc.</value>
   </data>
-  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
-    <value>Tập tin avatar không hợp lệ. Vui lòng tải lên lại.</value>
+  <data name="User name" xml:space="preserve">
+    <value>Tên người dùng</value>
   </data>
 
 </root>

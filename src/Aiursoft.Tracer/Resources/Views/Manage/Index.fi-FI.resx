@@ -21,38 +21,38 @@
       <data name="Account Management" xml:space="preserve">
     <value>Tilin hallinta</value>
   </data>
-  <data name="Change your password" xml:space="preserve">
-    <value>Vaihda salasanasi</value>
-  </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>Muuta tilin asetukset</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>Et voi vaihtaa salasanaasi, koska paikallinen tunnistautuminen on poistettu käytöstä. Muokkaa profiiliasi tunnistautumispalvelun kautta.</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Salasana</value>
+  <data name="auth provider" xml:space="preserve">
+    <value>tunnistuspalvelu</value>
   </data>
   <data name="Avatar settings" xml:space="preserve">
     <value>Avatar-asetukset</value>
   </data>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>Muuta tilin asetukset</value>
+  </data>
   <data name="Change your avatar" xml:space="preserve">
     <value>Vaihda avatarisi</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Onnistui!</value>
+  <data name="Change your password" xml:space="preserve">
+    <value>Vaihda salasanasi</value>
   </data>
   <data name="Change your profile" xml:space="preserve">
     <value>Muuta profiiliasi</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>Salasana</value>
+  </data>
   <data name="Profile" xml:space="preserve">
     <value>Profiili</value>
   </data>
-  <data name="auth provider" xml:space="preserve">
-    <value>tunnistuspalvelu</value>
+  <data name="Success!" xml:space="preserve">
+    <value>Onnistui!</value>
   </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>Et voi vaihtaa salasanasi, koska paikallinen tunnistautuminen on poistettu käytöstä. Muokkaa profiiliasi</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>Et voi vaihtaa salasanaasi, koska paikallinen tunnistautuminen on poistettu käytöstä. Muokkaa profiiliasi tunnistautumispalvelun kautta.</value>
   </data>
 
 </root>

@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Email Address" xml:space="preserve">
+      <data name="Avatar file" xml:space="preserve">
+    <value>Avatarfil</value>
+  </data>
+  <data name="Email Address" xml:space="preserve">
     <value>E-mail-adresse</value>
   </data>
-  <data name="User name" xml:space="preserve">
-    <value>Brugernavn</value>
-  </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>{0} er påkrævet.</value>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
   </data>
   <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
     <value>Nulstil adgangskode (lad være tom for at beholde den samme adgangskode)</value>
@@ -33,17 +33,17 @@
   <data name="The {0} is not a valid email address." xml:space="preserve">
     <value>{0} er ikke en gyldig e-mailadresse.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Navn</value>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} er påkrævet.</value>
   </data>
-  <data name="Avatar file" xml:space="preserve">
-    <value>Avatarfil</value>
+  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
+    <value>Avatarfilen er ugyldig. Upload den venligst igen.</value>
   </data>
   <data name="The avatar file is required." xml:space="preserve">
     <value>Avatarfilen er påkrævet.</value>
   </data>
-  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
-    <value>Avatarfilen er ugyldig. Upload den venligst igen.</value>
+  <data name="User name" xml:space="preserve">
+    <value>Brugernavn</value>
   </data>
 
 </root>

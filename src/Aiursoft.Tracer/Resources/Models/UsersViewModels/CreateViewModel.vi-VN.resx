@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="User name" xml:space="preserve">
-    <value>Tên người dùng</value>
-  </data>
-  <data name="Email Address" xml:space="preserve">
+      <data name="Email Address" xml:space="preserve">
     <value>Địa chỉ Email</value>
   </data>
-  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
-    <value>{0} phải có ít nhất {2} và tối đa {1} ký tự.</value>
+  <data name="Name" xml:space="preserve">
+    <value>Tên</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Mật khẩu</value>
   </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>{0} là bắt buộc.</value>
-  </data>
   <data name="The {0} is not a valid email address." xml:space="preserve">
     <value>{0} không phải là một địa chỉ email hợp lệ.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Tên</value>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} là bắt buộc.</value>
+  </data>
+  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
+    <value>{0} phải có ít nhất {2} và tối đa {1} ký tự.</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Tên người dùng</value>
   </data>
 
 </root>

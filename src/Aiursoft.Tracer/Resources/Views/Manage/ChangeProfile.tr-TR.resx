@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change profile" xml:space="preserve">
-    <value>Profilini Değiştir</value>
-  </data>
-  <data name="Edit your profile" xml:space="preserve">
-    <value>Profilinizi Düzenleyin</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
+      <data name="Cancel" xml:space="preserve">
     <value>İptal</value>
   </data>
-  <data name="Profile Information" xml:space="preserve">
-    <value>Profil Bilgileri</value>
+  <data name="Change profile" xml:space="preserve">
+    <value>Profilini Değiştir</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>Görünen İsim</value>
   </data>
-  <data name="Save changes" xml:space="preserve">
-    <value>Değişiklikleri kaydet</value>
+  <data name="Edit your profile" xml:space="preserve">
+    <value>Profilinizi Düzenleyin</value>
   </data>
   <data name="Enter your display name" xml:space="preserve">
     <value>Görüntülenecek adınızı girin</value>
+  </data>
+  <data name="Profile Information" xml:space="preserve">
+    <value>Profil Bilgileri</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Değişiklikleri kaydet</value>
   </data>
   <data name="This name will be displayed publicly across the application." xml:space="preserve">
     <value>Bu isim uygulama genelinde herkese açık olarak görüntülenecektir.</value>

@@ -18,8 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Remove" xml:space="preserve">
-    <value>移除</value>
+      <data name="Drag and drop a file here or click" xml:space="preserve">
+    <value>將檔案拖放到此處或點擊</value>
   </data>
   <data name="Drag and drop or click to replace" xml:space="preserve">
     <value>拖放或點擊以替換</value>
@@ -27,20 +27,14 @@
   <data name="Ooops, something wrong happended." xml:space="preserve">
     <value>哎呀，出咗啲問題。</value>
   </data>
-  <data name="Drag and drop a file here or click" xml:space="preserve">
-    <value>將檔案拖放到此處或點擊</value>
+  <data name="Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="The file is not allowed ({{ value }} only)." xml:space="preserve">
+    <value>此檔案不被允許（只接受 {{ value }}）。</value>
   </data>
   <data name="The file size is too big ({{ value }} max)." xml:space="preserve">
     <value>檔案大小過大（上限為 {{ value }}）。</value>
-  </data>
-  <data name="The image width is too big ({{ value }}px max)." xml:space="preserve">
-    <value>圖片寬度過大（最大 {{ value }} 像素）。</value>
-  </data>
-  <data name="The image height is too small ({{ value }}px min)." xml:space="preserve">
-    <value>圖片高度過小（最小需為 {{ value }} 像素）。</value>
-  </data>
-  <data name="The image width is too small ({{ value }}px min)." xml:space="preserve">
-    <value>圖片寬度過小（最小為 {{ value }} 像素）。</value>
   </data>
   <data name="The image format is not allowed ({{ value }} only)." xml:space="preserve">
     <value>圖片格式不被允許（只允許 {{ value }}）。</value>
@@ -48,8 +42,14 @@
   <data name="The image height is too big ({{ value }}px max)." xml:space="preserve">
     <value>圖片高度過大（最大 {{ value }} 像素）。</value>
   </data>
-  <data name="The file is not allowed ({{ value }} only)." xml:space="preserve">
-    <value>此檔案不被允許（只接受 {{ value }}）。</value>
+  <data name="The image height is too small ({{ value }}px min)." xml:space="preserve">
+    <value>圖片高度過小（最小需為 {{ value }} 像素）。</value>
+  </data>
+  <data name="The image width is too big ({{ value }}px max)." xml:space="preserve">
+    <value>圖片寬度過大（最大 {{ value }} 像素）。</value>
+  </data>
+  <data name="The image width is too small ({{ value }}px min)." xml:space="preserve">
+    <value>圖片寬度過小（最小為 {{ value }} 像素）。</value>
   </data>
 
 </root>

@@ -21,38 +21,38 @@
       <data name="Account Management" xml:space="preserve">
     <value>アカウント管理</value>
   </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>アカウント設定の変更</value>
-  </data>
-  <data name="Change your password" xml:space="preserve">
-    <value>パスワードを変更</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>ローカル認証が無効になっているため、パスワードを変更できません。認証プロバイダーからプロフィールを編集してください。</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>パスワード</value>
+  <data name="auth provider" xml:space="preserve">
+    <value>認証プロバイダー</value>
   </data>
   <data name="Avatar settings" xml:space="preserve">
     <value>アバター設定</value>
   </data>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>アカウント設定の変更</value>
+  </data>
   <data name="Change your avatar" xml:space="preserve">
     <value>アバターを変更</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>成功しました！</value>
+  <data name="Change your password" xml:space="preserve">
+    <value>パスワードを変更</value>
   </data>
   <data name="Change your profile" xml:space="preserve">
     <value>プロフィールを変更</value>
   </data>
+  <data name="Password" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
   <data name="Profile" xml:space="preserve">
     <value>プロフィール</value>
   </data>
-  <data name="auth provider" xml:space="preserve">
-    <value>認証プロバイダー</value>
+  <data name="Success!" xml:space="preserve">
+    <value>成功しました！</value>
   </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>ローカル認証が無効になっているため、パスワードを変更できません。プロファイルの編集は、</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>ローカル認証が無効になっているため、パスワードを変更できません。認証プロバイダーからプロフィールを編集してください。</value>
   </data>
 
 </root>

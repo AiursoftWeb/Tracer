@@ -21,38 +21,38 @@
       <data name="Account Management" xml:space="preserve">
     <value>Gestionare Cont</value>
   </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>Modifică setările contului tău</value>
-  </data>
-  <data name="Change your password" xml:space="preserve">
-    <value>Schimbă-ți parola</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>Nu vă puteți schimba parola deoarece autentificarea locală este dezactivată. Vă rugăm să vă editați profilul de la furnizorul de autentificare.</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Parolă</value>
+  <data name="auth provider" xml:space="preserve">
+    <value>furnizor de autentificare</value>
   </data>
   <data name="Avatar settings" xml:space="preserve">
     <value>Setări avatar</value>
   </data>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>Modifică setările contului tău</value>
+  </data>
   <data name="Change your avatar" xml:space="preserve">
     <value>Schimbă-ți avatarul</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Succes!</value>
-  </data>
-  <data name="Profile" xml:space="preserve">
-    <value>Profil</value>
+  <data name="Change your password" xml:space="preserve">
+    <value>Schimbă-ți parola</value>
   </data>
   <data name="Change your profile" xml:space="preserve">
     <value>Modifică-ți profilul</value>
   </data>
-  <data name="auth provider" xml:space="preserve">
-    <value>furnizor de autentificare</value>
+  <data name="Password" xml:space="preserve">
+    <value>Parolă</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Succes!</value>
   </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>Nu vă puteți schimba parola deoarece autentificarea locală este dezactivată. Vă rugăm să vă editați profilul de pe</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>Nu vă puteți schimba parola deoarece autentificarea locală este dezactivată. Vă rugăm să vă editați profilul de la furnizorul de autentificare.</value>
   </data>
 
 </root>

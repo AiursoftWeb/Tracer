@@ -18,14 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Role Details:" xml:space="preserve">
-    <value>ロールの詳細:</value>
-  </data>
-  <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
+      <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
     <value>このロール、その権限、および割り当てられたユーザーに関する包括的な概要。</value>
+  </data>
+  <data name="Assigned Users" xml:space="preserve">
+    <value>割り当て済みユーザー</value>
+  </data>
+  <data name="Back to Roles List" xml:space="preserve">
+    <value>ロール一覧に戻る</value>
+  </data>
+  <data name="Delete this Role" xml:space="preserve">
+    <value>このロールを削除</value>
+  </data>
+  <data name="Edit this Role" xml:space="preserve">
+    <value>このロールを編集</value>
+  </data>
+  <data name="No users are currently assigned to this role." xml:space="preserve">
+    <value>このロールには現在ユーザーが割り当てられていません。</value>
+  </data>
+  <data name="Permissions Granted" xml:space="preserve">
+    <value>付与された権限</value>
   </data>
   <data name="Permissions Granted by this Role" xml:space="preserve">
     <value>このロールによって付与される権限</value>
+  </data>
+  <data name="Role Details:" xml:space="preserve">
+    <value>ロールの詳細:</value>
   </data>
   <data name="This role has no specific permissions assigned." xml:space="preserve">
     <value>このロールには特定の権限が割り当てられていません。</value>
@@ -33,29 +51,11 @@
   <data name="Users with this Role" xml:space="preserve">
     <value>このロールを持つユーザー</value>
   </data>
-  <data name="View User" xml:space="preserve">
-    <value>ユーザーを表示</value>
-  </data>
-  <data name="No users are currently assigned to this role." xml:space="preserve">
-    <value>このロールには現在ユーザーが割り当てられていません。</value>
-  </data>
-  <data name="Edit this Role" xml:space="preserve">
-    <value>このロールを編集</value>
-  </data>
-  <data name="Delete this Role" xml:space="preserve">
-    <value>このロールを削除</value>
-  </data>
-  <data name="Back to Roles List" xml:space="preserve">
-    <value>ロール一覧に戻る</value>
-  </data>
   <data name="View" xml:space="preserve">
     <value>表示</value>
   </data>
-  <data name="Permissions Granted" xml:space="preserve">
-    <value>付与された権限</value>
-  </data>
-  <data name="Assigned Users" xml:space="preserve">
-    <value>割り当て済みユーザー</value>
+  <data name="View User" xml:space="preserve">
+    <value>ユーザーを表示</value>
   </data>
 
 </root>

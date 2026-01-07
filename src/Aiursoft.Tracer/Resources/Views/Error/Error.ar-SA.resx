@@ -18,29 +18,29 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Error." xml:space="preserve">
-    <value>خطأ.</value>
-  </data>
-  <data name="Request ID:" xml:space="preserve">
-    <value>معرف الطلب:</value>
-  </data>
-  <data name="Back to Home" xml:space="preserve">
-    <value>العودة إلى الصفحة الرئيسية</value>
+      <data name="An Error Occurred" xml:space="preserve">
+    <value>حدث خطأ</value>
   </data>
   <data name="An error occurred while processing your request." xml:space="preserve">
     <value>حدث خطأ أثناء معالجة طلبك.</value>
   </data>
+  <data name="Back to Home" xml:space="preserve">
+    <value>العودة إلى الصفحة الرئيسية</value>
+  </data>
+  <data name="Error." xml:space="preserve">
+    <value>خطأ.</value>
+  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>يرجى التواصل مع المسؤول للمساعدة.</value>
   </data>
-  <data name="An Error Occurred" xml:space="preserve">
-    <value>حدث خطأ</value>
+  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
+    <value>يرجى المحاولة مرة أخرى لاحقًا أو الاتصال بالدعم إذا استمرت المشكلة.</value>
+  </data>
+  <data name="Request ID:" xml:space="preserve">
+    <value>معرف الطلب:</value>
   </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>نعتذر، حدث خطأ ما أثناء معالجة طلبك.</value>
-  </data>
-  <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
-    <value>يرجى المحاولة مرة أخرى لاحقًا أو الاتصال بالدعم إذا استمرت المشكلة.</value>
   </data>
 
 </root>

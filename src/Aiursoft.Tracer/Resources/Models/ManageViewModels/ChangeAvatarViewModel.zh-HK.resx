@@ -21,14 +21,14 @@
       <data name="Avatar file" xml:space="preserve">
     <value>頭像檔案</value>
   </data>
-  <data name="The avatar file is required." xml:space="preserve">
-    <value>頭像檔案係必須嘅。</value>
+  <data name="Name" xml:space="preserve">
+    <value>名稱</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>頭像檔案無效。請重新上傳。</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>名稱</value>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>頭像檔案係必須嘅。</value>
   </data>
   <data name="The name is required." xml:space="preserve">
     <value>必須提供名稱。</value>

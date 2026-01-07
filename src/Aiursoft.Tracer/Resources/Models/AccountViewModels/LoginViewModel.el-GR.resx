@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="The {0} is required." xml:space="preserve">
-    <value>Το {0} απαιτείται.</value>
+      <data name="Email or User name" xml:space="preserve">
+    <value>Email ή Όνομα χρήστη</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Κωδικός πρόσβασης</value>
   </data>
-  <data name="Email or User name" xml:space="preserve">
-    <value>Email ή Όνομα χρήστη</value>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>Το {0} απαιτείται.</value>
   </data>
   <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
     <value>Το {0} πρέπει να έχει τουλάχιστον {2} και το πολύ {1} χαρακτήρες.</value>

@@ -18,8 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Edit your profile" xml:space="preserve">
-    <value>Modifier votre profil</value>
+      <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
   </data>
   <data name="Change profile" xml:space="preserve">
     <value>Modifier le profil</value>
@@ -27,17 +27,17 @@
   <data name="Display Name" xml:space="preserve">
     <value>Nom d&apos;affichage</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Annuler</value>
+  <data name="Edit your profile" xml:space="preserve">
+    <value>Modifier votre profil</value>
+  </data>
+  <data name="Enter your display name" xml:space="preserve">
+    <value>Saisissez votre nom d&apos;affichage</value>
   </data>
   <data name="Profile Information" xml:space="preserve">
     <value>Informations du profil</value>
   </data>
   <data name="Save changes" xml:space="preserve">
     <value>Enregistrer les modifications</value>
-  </data>
-  <data name="Enter your display name" xml:space="preserve">
-    <value>Saisissez votre nom d&apos;affichage</value>
   </data>
   <data name="This name will be displayed publicly across the application." xml:space="preserve">
     <value>Ce nom sera affiché publiquement dans toute l&apos;application.</value>

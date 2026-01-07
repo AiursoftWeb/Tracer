@@ -18,10 +18,7 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Remove" xml:space="preserve">
-    <value>إزالة</value>
-  </data>
-  <data name="Drag and drop a file here or click" xml:space="preserve">
+      <data name="Drag and drop a file here or click" xml:space="preserve">
     <value>اسحب ملفًا وأفلته هنا أو انقر</value>
   </data>
   <data name="Drag and drop or click to replace" xml:space="preserve">
@@ -30,26 +27,29 @@
   <data name="Ooops, something wrong happended." xml:space="preserve">
     <value>أُووبس، حدث خطأ ما.</value>
   </data>
+  <data name="Remove" xml:space="preserve">
+    <value>إزالة</value>
+  </data>
+  <data name="The file is not allowed ({{ value }} only)." xml:space="preserve">
+    <value>الملف غير مسموح به ({{ value }} فقط).</value>
+  </data>
   <data name="The file size is too big ({{ value }} max)." xml:space="preserve">
     <value>حجم الملف كبير جداً (الحد الأقصى {{ value }}).</value>
+  </data>
+  <data name="The image format is not allowed ({{ value }} only)." xml:space="preserve">
+    <value>صيغة الصورة غير مسموح بها ({{ value }} فقط).</value>
+  </data>
+  <data name="The image height is too big ({{ value }}px max)." xml:space="preserve">
+    <value>ارتفاع الصورة كبير جداً (الحد الأقصى {{ value }} بكسل).</value>
+  </data>
+  <data name="The image height is too small ({{ value }}px min)." xml:space="preserve">
+    <value>ارتفاع الصورة صغير جداً ({{ value }} بكسل كحد أدنى).</value>
   </data>
   <data name="The image width is too big ({{ value }}px max)." xml:space="preserve">
     <value>عرض الصورة كبير جداً (الحد الأقصى {{ value }} بكسل).</value>
   </data>
   <data name="The image width is too small ({{ value }}px min)." xml:space="preserve">
     <value>عرض الصورة صغير جداً (الحد الأدنى {{ value }} بكسل).</value>
-  </data>
-  <data name="The image height is too small ({{ value }}px min)." xml:space="preserve">
-    <value>ارتفاع الصورة صغير جداً ({{ value }} بكسل كحد أدنى).</value>
-  </data>
-  <data name="The image height is too big ({{ value }}px max)." xml:space="preserve">
-    <value>ارتفاع الصورة كبير جداً (الحد الأقصى {{ value }} بكسل).</value>
-  </data>
-  <data name="The image format is not allowed ({{ value }} only)." xml:space="preserve">
-    <value>صيغة الصورة غير مسموح بها ({{ value }} فقط).</value>
-  </data>
-  <data name="The file is not allowed ({{ value }} only)." xml:space="preserve">
-    <value>الملف غير مسموح به ({{ value }} فقط).</value>
   </data>
 
 </root>

@@ -18,35 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change avatar" xml:space="preserve">
+      <data name="Avatar Settings" xml:space="preserve">
+    <value>Avatar Ayarları</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Change avatar" xml:space="preserve">
     <value>Avatarı Değiştir</value>
   </data>
   <data name="Change your avatar" xml:space="preserve">
     <value>Profil resmini değiştir</value>
   </data>
-  <data name="Upload the new avatar file." xml:space="preserve">
-    <value>Yeni avatar dosyasını yükleyin.</value>
-  </data>
-  <data name="Save the avatar" xml:space="preserve">
-    <value>Avatarı kaydet</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>İptal</value>
-  </data>
   <data name="Current Avatar" xml:space="preserve">
     <value>Mevcut Avatar</value>
   </data>
-  <data name="Save New Avatar" xml:space="preserve">
-    <value>Yeni Avatarı Kaydet</value>
-  </data>
-  <data name="Avatar Settings" xml:space="preserve">
-    <value>Avatar Ayarları</value>
+  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
+    <value>En iyi sonuçlar için, kare bir görseli .jpg veya .png formatında kullanın.</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>Yeni avatar dosyası</value>
   </data>
-  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
-    <value>En iyi sonuçlar için, kare bir görseli .jpg veya .png formatında kullanın.</value>
+  <data name="Save New Avatar" xml:space="preserve">
+    <value>Yeni Avatarı Kaydet</value>
+  </data>
+  <data name="Save the avatar" xml:space="preserve">
+    <value>Avatarı kaydet</value>
+  </data>
+  <data name="Upload the new avatar file." xml:space="preserve">
+    <value>Yeni avatar dosyasını yükleyin.</value>
   </data>
 
 </root>

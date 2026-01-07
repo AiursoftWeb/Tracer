@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Community" xml:space="preserve">
+      <data name="Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft Şablonu</value>
+  </data>
+  <data name="Community" xml:space="preserve">
     <value>Topluluk</value>
   </data>
-  <data name="Try the dashboard" xml:space="preserve">
-    <value>Panoyu Deneyin</value>
-  </data>
-  <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft Şablonu</value>
+  <data name="Documentation" xml:space="preserve">
+    <value>Dokümantasyon</value>
   </data>
   <data name="GitHub" xml:space="preserve">
     <value>GitHub</value>
@@ -33,8 +33,8 @@
   <data name="Source Code" xml:space="preserve">
     <value>Kaynak Kodu</value>
   </data>
-  <data name="Documentation" xml:space="preserve">
-    <value>Dokümantasyon</value>
+  <data name="Try the dashboard" xml:space="preserve">
+    <value>Panoyu Deneyin</value>
   </data>
 
 </root>

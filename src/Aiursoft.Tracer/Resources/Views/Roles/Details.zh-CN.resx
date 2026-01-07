@@ -18,14 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Role Details:" xml:space="preserve">
-    <value>角色详情：</value>
-  </data>
-  <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
+      <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
     <value>关于该角色、其权限及已分配用户的全面概览。</value>
+  </data>
+  <data name="Assigned Users" xml:space="preserve">
+    <value>已分配用户</value>
+  </data>
+  <data name="Back to Roles List" xml:space="preserve">
+    <value>返回角色列表</value>
+  </data>
+  <data name="Delete this Role" xml:space="preserve">
+    <value>删除此角色</value>
+  </data>
+  <data name="Edit this Role" xml:space="preserve">
+    <value>编辑此角色</value>
+  </data>
+  <data name="No users are currently assigned to this role." xml:space="preserve">
+    <value>当前没有用户被分配到此角色。</value>
+  </data>
+  <data name="Permissions Granted" xml:space="preserve">
+    <value>已授予权限</value>
   </data>
   <data name="Permissions Granted by this Role" xml:space="preserve">
     <value>此角色授予的权限</value>
+  </data>
+  <data name="Role Details:" xml:space="preserve">
+    <value>角色详情：</value>
   </data>
   <data name="This role has no specific permissions assigned." xml:space="preserve">
     <value>该角色未分配任何特定权限。</value>
@@ -33,29 +51,11 @@
   <data name="Users with this Role" xml:space="preserve">
     <value>拥有此角色的用户</value>
   </data>
-  <data name="View User" xml:space="preserve">
-    <value>查看用户</value>
-  </data>
-  <data name="No users are currently assigned to this role." xml:space="preserve">
-    <value>当前没有用户被分配到此角色。</value>
-  </data>
-  <data name="Edit this Role" xml:space="preserve">
-    <value>编辑此角色</value>
-  </data>
-  <data name="Delete this Role" xml:space="preserve">
-    <value>删除此角色</value>
-  </data>
-  <data name="Back to Roles List" xml:space="preserve">
-    <value>返回角色列表</value>
-  </data>
-  <data name="Permissions Granted" xml:space="preserve">
-    <value>已授予权限</value>
-  </data>
   <data name="View" xml:space="preserve">
     <value>查看</value>
   </data>
-  <data name="Assigned Users" xml:space="preserve">
-    <value>已分配用户</value>
+  <data name="View User" xml:space="preserve">
+    <value>查看用户</value>
   </data>
 
 </root>

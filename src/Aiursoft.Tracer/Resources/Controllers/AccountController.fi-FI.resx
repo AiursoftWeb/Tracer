@@ -21,11 +21,11 @@
       <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
     <value>Virheellinen kirjautumisyritys. Tarkista käyttäjätunnus ja salasana.</value>
   </data>
-  <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>Tämä tili on lukittu, yritä myöhemmin uudelleen.</value>
-  </data>
   <data name="The username already exists. Please try another username." xml:space="preserve">
     <value>Käyttäjätunnus on jo olemassa. Yritä toista käyttäjätunnusta.</value>
+  </data>
+  <data name="This account has been locked out, please try again later." xml:space="preserve">
+    <value>Tämä tili on lukittu, yritä myöhemmin uudelleen.</value>
   </data>
 
 </root>

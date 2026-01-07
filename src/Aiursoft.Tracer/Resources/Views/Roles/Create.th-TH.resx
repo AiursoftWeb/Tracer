@@ -18,35 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create" xml:space="preserve">
-    <value>สร้าง</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>กลับสู่รายการ</value>
   </data>
-  <data name="Role" xml:space="preserve">
-    <value>บทบาท</value>
-  </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>คำเตือน!</value>
-  </data>
-  <data name="OpenID Connect (OIDC) is enabled. Roles are synchronized from an external identity provider. We strongly recommend creating new roles or groups on your OIDC provider to ensure they are managed centrally. This form will create a local-only role that exists solely within this application." xml:space="preserve">
-    <value>เปิดใช้งาน OpenID Connect (OIDC) แล้ว บทบาทจะถูกซิงโครไนซ์จากผู้ให้บริการระบุตัวตนภายนอก เราแนะนำอย่างยิ่งให้สร้างบทบาทหรือกลุ่มใหม่บนผู้ให้บริการ OIDC ของคุณเพื่อให้มั่นใจว่าบทบาทเหล่านี้จะถูกจัดการจากศูนย์กลาง แบบฟอร์มนี้จะสร้างบทบาทเฉพาะภายในเท่านั้นที่มีอยู่เพียงภายในแอปพลิเคชันนี้</value>
-  </data>
-  <data name="Create Role" xml:space="preserve">
-    <value>สร้างบทบาท</value>
-  </data>
-  <data name="Role Details" xml:space="preserve">
-    <value>รายละเอียดบทบาท</value>
+  <data name="Create" xml:space="preserve">
+    <value>สร้าง</value>
   </data>
   <data name="Create New Role" xml:space="preserve">
     <value>สร้างบทบาทใหม่</value>
   </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>ชื่อบทบาท</value>
+  <data name="Create Role" xml:space="preserve">
+    <value>สร้างบทบาท</value>
   </data>
   <data name="Enter the new role name" xml:space="preserve">
     <value>ป้อนชื่อบทบาทใหม่</value>
+  </data>
+  <data name="OpenID Connect (OIDC) is enabled. Roles are synchronized from an external identity provider. We strongly recommend creating new roles or groups on your OIDC provider to ensure they are managed centrally. This form will create a local-only role that exists solely within this application." xml:space="preserve">
+    <value>เปิดใช้งาน OpenID Connect (OIDC) แล้ว บทบาทจะถูกซิงโครไนซ์จากผู้ให้บริการระบุตัวตนภายนอก เราแนะนำอย่างยิ่งให้สร้างบทบาทหรือกลุ่มใหม่บนผู้ให้บริการ OIDC ของคุณเพื่อให้มั่นใจว่าบทบาทเหล่านี้จะถูกจัดการจากศูนย์กลาง แบบฟอร์มนี้จะสร้างบทบาทเฉพาะภายในเท่านั้นที่มีอยู่เพียงภายในแอปพลิเคชันนี้</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>บทบาท</value>
+  </data>
+  <data name="Role Details" xml:space="preserve">
+    <value>รายละเอียดบทบาท</value>
+  </data>
+  <data name="Role Name" xml:space="preserve">
+    <value>ชื่อบทบาท</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>คำเตือน!</value>
   </data>
 
 </root>

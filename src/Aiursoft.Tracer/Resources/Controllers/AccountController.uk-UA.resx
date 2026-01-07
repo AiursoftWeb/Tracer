@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>Цей обліковий запис заблоковано, будь ласка, спробуйте пізніше.</value>
-  </data>
-  <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
+      <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
     <value>Невдала спроба входу. Будь ласка, перевірте ім&apos;я користувача та пароль.</value>
   </data>
   <data name="The username already exists. Please try another username." xml:space="preserve">
     <value>Це ім&apos;я користувача вже існує. Будь ласка, спробуйте інше.</value>
+  </data>
+  <data name="This account has been locked out, please try again later." xml:space="preserve">
+    <value>Цей обліковий запис заблоковано, будь ласка, спробуйте пізніше.</value>
   </data>
 
 </root>

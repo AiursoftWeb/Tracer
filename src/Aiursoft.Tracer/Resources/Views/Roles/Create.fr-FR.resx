@@ -18,26 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Create" xml:space="preserve">
-    <value>Créer</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>Retour à la liste</value>
   </data>
-  <data name="Role" xml:space="preserve">
-    <value>Rôle</value>
-  </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Avertissement !</value>
-  </data>
-  <data name="OpenID Connect (OIDC) is enabled. Roles are synchronized from an external identity provider. We strongly recommend creating new roles or groups on your OIDC provider to ensure they are managed centrally. This form will create a local-only role that exists solely within this application." xml:space="preserve">
-    <value>OpenID Connect (OIDC) est activé. Les rôles sont synchronisés à partir d&apos;un fournisseur d&apos;identité externe. Nous recommandons vivement de créer de nouveaux rôles ou groupes sur votre fournisseur OIDC pour garantir une gestion centralisée. Ce formulaire créera un rôle local qui existe uniquement au sein de cette application.</value>
-  </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>Nom du Rôle</value>
-  </data>
-  <data name="Role Details" xml:space="preserve">
-    <value>Détails du rôle</value>
+  <data name="Create" xml:space="preserve">
+    <value>Créer</value>
   </data>
   <data name="Create New Role" xml:space="preserve">
     <value>Créer un nouveau rôle</value>
@@ -47,6 +32,21 @@
   </data>
   <data name="Enter the new role name" xml:space="preserve">
     <value>Saisissez le nouveau nom de rôle</value>
+  </data>
+  <data name="OpenID Connect (OIDC) is enabled. Roles are synchronized from an external identity provider. We strongly recommend creating new roles or groups on your OIDC provider to ensure they are managed centrally. This form will create a local-only role that exists solely within this application." xml:space="preserve">
+    <value>OpenID Connect (OIDC) est activé. Les rôles sont synchronisés à partir d&apos;un fournisseur d&apos;identité externe. Nous recommandons vivement de créer de nouveaux rôles ou groupes sur votre fournisseur OIDC pour garantir une gestion centralisée. Ce formulaire créera un rôle local qui existe uniquement au sein de cette application.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rôle</value>
+  </data>
+  <data name="Role Details" xml:space="preserve">
+    <value>Détails du rôle</value>
+  </data>
+  <data name="Role Name" xml:space="preserve">
+    <value>Nom du Rôle</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>Avertissement !</value>
   </data>
 
 </root>

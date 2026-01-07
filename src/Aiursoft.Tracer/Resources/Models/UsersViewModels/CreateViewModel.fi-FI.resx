@@ -21,11 +21,14 @@
       <data name="Email Address" xml:space="preserve">
     <value>Sähköpostiosoite</value>
   </data>
-  <data name="User name" xml:space="preserve">
-    <value>Käyttäjätunnus</value>
+  <data name="Name" xml:space="preserve">
+    <value>Nimi</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Salasana</value>
+  </data>
+  <data name="The {0} is not a valid email address." xml:space="preserve">
+    <value>{0} ei ole kelvollinen sähköpostiosoite.</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} on pakollinen.</value>
@@ -33,11 +36,8 @@
   <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
     <value>{0}:n on oltava vähintään {2} ja enintään {1} merkkiä pitkä.</value>
   </data>
-  <data name="The {0} is not a valid email address." xml:space="preserve">
-    <value>{0} ei ole kelvollinen sähköpostiosoite.</value>
-  </data>
-  <data name="Name" xml:space="preserve">
-    <value>Nimi</value>
+  <data name="User name" xml:space="preserve">
+    <value>Käyttäjätunnus</value>
   </data>
 
 </root>

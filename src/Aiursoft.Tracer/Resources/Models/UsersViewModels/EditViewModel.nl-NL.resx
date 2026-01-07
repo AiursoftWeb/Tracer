@@ -18,32 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Email Address" xml:space="preserve">
+      <data name="Avatar file" xml:space="preserve">
+    <value>Avatarbestand</value>
+  </data>
+  <data name="Email Address" xml:space="preserve">
     <value>E-mailadres</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Gebruikersnaam</value>
-  </data>
-  <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
-    <value>Wachtwoord opnieuw instellen (laat leeg om hetzelfde wachtwoord te behouden)</value>
-  </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>Het {0} is verplicht.</value>
-  </data>
-  <data name="The {0} is not a valid email address." xml:space="preserve">
-    <value>Het {0} is geen geldig e-mailadres.</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Naam</value>
   </data>
-  <data name="Avatar file" xml:space="preserve">
-    <value>Avatarbestand</value>
+  <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
+    <value>Wachtwoord opnieuw instellen (laat leeg om hetzelfde wachtwoord te behouden)</value>
+  </data>
+  <data name="The {0} is not a valid email address." xml:space="preserve">
+    <value>Het {0} is geen geldig e-mailadres.</value>
+  </data>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>Het {0} is verplicht.</value>
+  </data>
+  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
+    <value>Het avatarbestand is ongeldig. Upload het opnieuw.</value>
   </data>
   <data name="The avatar file is required." xml:space="preserve">
     <value>Het avatar-bestand is verplicht.</value>
   </data>
-  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
-    <value>Het avatarbestand is ongeldig. Upload het opnieuw.</value>
+  <data name="User name" xml:space="preserve">
+    <value>Gebruikersnaam</value>
   </data>
 
 </root>

@@ -18,26 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change avatar" xml:space="preserve">
-    <value>變更大頭貼</value>
-  </data>
-  <data name="Upload the new avatar file." xml:space="preserve">
-    <value>上傳新的頭像檔案。</value>
-  </data>
-  <data name="Change your avatar" xml:space="preserve">
-    <value>變更您的頭像</value>
-  </data>
-  <data name="Save the avatar" xml:space="preserve">
-    <value>儲存頭像</value>
+      <data name="Avatar Settings" xml:space="preserve">
+    <value>頭像設定</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
-  <data name="Avatar Settings" xml:space="preserve">
-    <value>頭像設定</value>
+  <data name="Change avatar" xml:space="preserve">
+    <value>變更大頭貼</value>
+  </data>
+  <data name="Change your avatar" xml:space="preserve">
+    <value>變更您的頭像</value>
   </data>
   <data name="Current Avatar" xml:space="preserve">
     <value>目前頭像</value>
+  </data>
+  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
+    <value>為達最佳效果，請使用正方形 .jpg 或 .png 格式的圖片。</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>新頭像檔案</value>
@@ -45,8 +42,11 @@
   <data name="Save New Avatar" xml:space="preserve">
     <value>儲存新頭像</value>
   </data>
-  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
-    <value>為達最佳效果，請使用正方形 .jpg 或 .png 格式的圖片。</value>
+  <data name="Save the avatar" xml:space="preserve">
+    <value>儲存頭像</value>
+  </data>
+  <data name="Upload the new avatar file." xml:space="preserve">
+    <value>上傳新的頭像檔案。</value>
   </data>
 
 </root>

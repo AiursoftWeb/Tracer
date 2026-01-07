@@ -21,14 +21,14 @@
       <data name="An error has occurred." xml:space="preserve">
     <value>Произошла ошибка.</value>
   </data>
-  <data name="Your password has been changed." xml:space="preserve">
-    <value>Ваш пароль был изменён.</value>
+  <data name="The file is not a valid image." xml:space="preserve">
+    <value>Файл не является допустимым изображением.</value>
   </data>
   <data name="Your avatar has been saved." xml:space="preserve">
     <value>Ваш аватар сохранён.</value>
   </data>
-  <data name="The file is not a valid image." xml:space="preserve">
-    <value>Файл не является допустимым изображением.</value>
+  <data name="Your password has been changed." xml:space="preserve">
+    <value>Ваш пароль был изменён.</value>
   </data>
   <data name="Your profile has been saved." xml:space="preserve">
     <value>Ваш профиль был сохранён.</value>

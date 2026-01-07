@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change profile" xml:space="preserve">
-    <value>變更個人資料</value>
+      <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
   </data>
-  <data name="Edit your profile" xml:space="preserve">
-    <value>編輯您的個人資料</value>
+  <data name="Change profile" xml:space="preserve">
+    <value>變更個人資料</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>顯示名稱</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>取消</value>
+  <data name="Edit your profile" xml:space="preserve">
+    <value>編輯您的個人資料</value>
   </data>
-  <data name="Save changes" xml:space="preserve">
-    <value>儲存變更</value>
+  <data name="Enter your display name" xml:space="preserve">
+    <value>輸入您的顯示名稱</value>
   </data>
   <data name="Profile Information" xml:space="preserve">
     <value>個人資料資訊</value>
   </data>
-  <data name="Enter your display name" xml:space="preserve">
-    <value>輸入您的顯示名稱</value>
+  <data name="Save changes" xml:space="preserve">
+    <value>儲存變更</value>
   </data>
   <data name="This name will be displayed publicly across the application." xml:space="preserve">
     <value>此名稱將會在整個應用程式中公開顯示。</value>

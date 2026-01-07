@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Error." xml:space="preserve">
-    <value>Lỗi.</value>
+      <data name="An Error Occurred" xml:space="preserve">
+    <value>Đã Xảy Ra Lỗi</value>
   </data>
   <data name="An error occurred while processing your request." xml:space="preserve">
     <value>Đã xảy ra lỗi trong quá trình xử lý yêu cầu của bạn.</value>
   </data>
-  <data name="Request ID:" xml:space="preserve">
-    <value>Mã Yêu Cầu:</value>
+  <data name="Back to Home" xml:space="preserve">
+    <value>Quay về Trang Chủ</value>
+  </data>
+  <data name="Error." xml:space="preserve">
+    <value>Lỗi.</value>
   </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>Vui lòng liên hệ với quản trị viên để được trợ giúp.</value>
   </data>
-  <data name="Back to Home" xml:space="preserve">
-    <value>Quay về Trang Chủ</value>
-  </data>
-  <data name="An Error Occurred" xml:space="preserve">
-    <value>Đã Xảy Ra Lỗi</value>
-  </data>
   <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
     <value>Vui lòng thử lại sau hoặc liên hệ bộ phận hỗ trợ nếu sự cố vẫn tiếp diễn.</value>
+  </data>
+  <data name="Request ID:" xml:space="preserve">
+    <value>Mã Yêu Cầu:</value>
   </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>Chúng tôi thành thật xin lỗi, đã xảy ra lỗi trong quá trình xử lý yêu cầu của bạn.</value>

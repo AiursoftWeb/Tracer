@@ -18,8 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Register" xml:space="preserve">
-    <value>Đăng ký</value>
+      <data name="Already have an account?" xml:space="preserve">
+    <value>Đã có tài khoản?</value>
+  </data>
+  <data name="Confirm Password" xml:space="preserve">
+    <value>Xác nhận mật khẩu</value>
+  </data>
+  <data name="Confirm your password" xml:space="preserve">
+    <value>Xác nhận mật khẩu của bạn</value>
   </data>
   <data name="Create a new account." xml:space="preserve">
     <value>Tạo một tài khoản mới.</value>
@@ -27,35 +33,29 @@
   <data name="Create a password" xml:space="preserve">
     <value>Tạo mật khẩu</value>
   </data>
-  <data name="Get Started" xml:space="preserve">
-    <value>Bắt Đầu Ngay</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Mật khẩu</value>
+  <data name="Create Account" xml:space="preserve">
+    <value>Tạo Tài Khoản</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>Địa chỉ Email</value>
   </data>
-  <data name="Confirm Password" xml:space="preserve">
-    <value>Xác nhận mật khẩu</value>
-  </data>
   <data name="Enter your email address" xml:space="preserve">
     <value>Nhập địa chỉ email của bạn</value>
   </data>
-  <data name="Confirm your password" xml:space="preserve">
-    <value>Xác nhận mật khẩu của bạn</value>
+  <data name="Get Started" xml:space="preserve">
+    <value>Bắt Đầu Ngay</value>
   </data>
   <data name="Join us now to start your journey." xml:space="preserve">
     <value>Hãy tham gia ngay để bắt đầu hành trình của bạn.</value>
   </data>
-  <data name="Already have an account?" xml:space="preserve">
-    <value>Đã có tài khoản?</value>
+  <data name="Password" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Đăng ký</value>
   </data>
   <data name="Sign in" xml:space="preserve">
     <value>Đăng nhập</value>
-  </data>
-  <data name="Create Account" xml:space="preserve">
-    <value>Tạo Tài Khoản</value>
   </data>
 
 </root>

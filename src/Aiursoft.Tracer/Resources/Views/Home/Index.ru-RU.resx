@@ -18,329 +18,329 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Добро пожаловать</value>
-  </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Это шаблонный проект</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Здравствуй, мир!</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>Авторизация RBAC</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Поддержка нескольких баз данных</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>Интеграция OpenID Connect</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>Современная, многофункциональная и легко расширяемая основа для вашего следующего веб-приложения.</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Беспрепятственно интегрируйтесь с любым провайдером OpenID Connect с автоматической синхронизацией ролей.</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Почему стоит использовать шаблон Aiursoft?</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Легко переключайтесь между поставщиками, такими как SQLite, MySQL, SQL Server, и используйте базу данных в памяти для тестирования.</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Динамическая панель навигации</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Панель навигации автоматически настраивается в зависимости от ролей и разрешений пользователя.</value>
-  </data>
-  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
-    <value>Встроенная система управления доступом на основе ролей (RBAC) для детализированного управления разрешениями.</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Переводы на основе ИИ</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Полная документация</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Автоматический перевод с использованием искусственного интеллекта на 28 языков для глобального охвата.</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Включает обширную документацию и практические примеры для быстрого начала работы.</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Автоматическое внедрение зависимостей</value>
-  </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Интегрированное управление файлами</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Все зависимости автоматически регистрируются и всегда доступны через внедрение в конструктор.</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Оснащена встроенной системой управления файлами с автоматическим сжатием аватаров.</value>
-  </data>
-  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
-    <value>Полное решение для аутентификации пользователей и управления профилями, готовое к использованию сразу после установки.</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Встроенное управление пользователями</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Адаптивный дизайн</value>
-  </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Подготовлено для развертывания в Docker</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Автоматический тёмный режим</value>
-  </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Умный тёмный режим, который автоматически подстраивается под системные настройки пользователя.</value>
-  </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Предоставляет полную поддержку Docker для упрощённых, согласованных и надёжных развёртываний.</value>
-  </data>
-  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
-    <value>Адаптивный макет, который отлично выглядит как на настольных компьютерах, так и на мобильных устройствах.</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Прочитать документацию</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Это шаблонный проект, с которого мы начинаем путешествие...</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Использование</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Открытое ПО</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Возможности</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>быстрее</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Бесплатно</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Лицензия MIT</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Перейти в панель управления</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Создайте свой следующий большой проект,</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Отзывы</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Музыкальные инструменты</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Веб-сайт панели управления</value>
-  </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Достигайте большего с Aiursoft Template</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Что говорят наши разработчики</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdown в HTML</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Вот что говорят разработчики из нашего сообщества.</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Используйте его как основу для вашего SaaS, бэкенд для мобильного приложения, корпоративный сайт или личный блог. Возможности безграничны.</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Ведущий разработчик</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Андуин</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>ЧАВО</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Часто задаваемые вопросы</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Бесплатно ли использовать Aiursoft Template?</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Вот некоторые из ответов, которые вы, возможно, ищете.</value>
-  </data>
-  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
-    <value>Aiursoft Template — это наш окончательный выбор для корпоративных проектов! Он создан для разработчиков, легковесный, но мощный. Мы можем пропустить всю стандартную работу по аутентификации и управлению пользователями.</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Что мне нужно, чтобы начать?</value>
-  </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Как развернуть моё приложение?</value>
-  </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Да, Aiursoft Template полностью бесплатен и имеет открытый исходный код под лицензией MIT. Вы можете использовать его для личных и коммерческих проектов без каких-либо затрат.</value>
-  </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Как я могу получить поддержку?</value>
-  </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>Вы можете получить поддержку сообщества через GitHub Discussions. Пожалуйста, посетите нашу</value>
-  </data>
-  <data name="Discussions page" xml:space="preserve">
-    <value>Страница обсуждений</value>
-  </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>Вам понадобятся .NET 10 SDK, npm и ваша любимая IDE, например Visual Studio или JetBrains Rider. Полное руководство по настройке вы найдёте в нашей документации.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>по любым вопросам или для сообщения о проблемах.</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Шаблон создан для простого развертывания. Он включает полную поддержку Docker, что позволяет контейнеризировать ваше приложение и запускать его где угодно. Вы также можете развернуть его напрямую в IIS, Azure App Service или на любом сервере, который поддерживает ASP.NET Core.</value>
-  </data>
-  <data name="Join our community and start building today!" xml:space="preserve">
-    <value>Присоединяйтесь к нашему сообществу и начните создавать уже сегодня!</value>
-  </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>Присоединиться к обсуждениям</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Начать новый проект</value>
-  </data>
-  <data name="Network" xml:space="preserve">
-    <value>Сеть</value>
-  </data>
-  <data name="Diagnostics" xml:space="preserve">
-    <value>Диагностика</value>
-  </data>
-  <data name="Dashboard" xml:space="preserve">
-    <value>Панель управления</value>
-  </data>
-  <data name="Log filter (ms)" xml:space="preserve">
-    <value>Фильтр лога (мс)</value>
-  </data>
-  <data name="Start Test" xml:space="preserve">
-    <value>Начать тест</value>
-  </data>
-  <data name="Hola!" xml:space="preserve">
-    <value>Привет!</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>Тест задержки HTTP</value>
-  </data>
-  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
-    <value>Отправляет простой запрос на сервер. Чем меньше, тем лучше.</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Остановить</value>
-  </data>
-  <data name="Waiting..." xml:space="preserve">
-    <value>Ожидание...</value>
-  </data>
-  <data name="Current Status" xml:space="preserve">
-    <value>Текущий статус</value>
-  </data>
-  <data name="Max Latency" xml:space="preserve">
-    <value>Максимальная задержка</value>
-  </data>
-  <data name="Bandwidth" xml:space="preserve">
-    <value>Пропускная способность</value>
-  </data>
-  <data name="Real-time Chart" xml:space="preserve">
-    <value>График в реальном времени</value>
-  </data>
-  <data name="Download Speed Test" xml:space="preserve">
-    <value>Тест скорости загрузки</value>
-  </data>
-  <data name="Log filter (MB/s)" xml:space="preserve">
-    <value>Фильтр лога (МБ/с)</value>
-  </data>
-  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
-    <value>Загружает блоки по 4 ГБ. Чем выше, тем лучше.</value>
-  </data>
-  <data name="Direct Link" xml:space="preserve">
-    <value>Прямая ссылка</value>
+      <data name=", From " xml:space="preserve">
+    <value>, из</value>
   </data>
   <data name="0 MB/s" xml:space="preserve">
     <value>0 МБ/с</value>
   </data>
-  <data name="Speed (Mbps)" xml:space="preserve">
-    <value>Скорость (Мбит/с)</value>
-  </data>
-  <data name="Or test directly:" xml:space="preserve">
-    <value>Или протестировать напрямую:</value>
-  </data>
-  <data name="Throughput Chart" xml:space="preserve">
-    <value>График Пропускной Способности</value>
-  </data>
-  <data name="Speed (MB/s)" xml:space="preserve">
-    <value>Скорость (МБ/с)</value>
-  </data>
   <data name="0 Mbps" xml:space="preserve">
     <value>0 Мбит/с</value>
   </data>
-  <data name="WebSocket Latency" xml:space="preserve">
-    <value>Задержка WebSocket</value>
+  <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
+    <value>Встроенная система управления доступом на основе ролей (RBAC) для детализированного управления разрешениями.</value>
   </data>
-  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
-    <value>Интервал между событиями сервера. Цель: ~100 мс.</value>
+  <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
+    <value>Полное решение для аутентификации пользователей и управления профилями, готовое к использованию сразу после установки.</value>
   </data>
-  <data name="Max Gap" xml:space="preserve">
-    <value>Максимальный разрыв</value>
+  <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
+    <value>Адаптивный макет, который отлично выглядит как на настольных компьютерах, так и на мобильных устройствах.</value>
   </data>
-  <data name="Event Latency Chart" xml:space="preserve">
-    <value>График задержки событий</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Современная, многофункциональная и легко расширяемая основа для вашего следующего веб-приложения.</value>
   </data>
-  <data name="Idle" xml:space="preserve">
-    <value>Простой</value>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Достигайте большего с Aiursoft Template</value>
   </data>
-  <data name="Trigger" xml:space="preserve">
-    <value>Триггер</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Переводы на основе ИИ</value>
   </data>
-  <data name="Current Gap" xml:space="preserve">
-    <value>Текущий интервал</value>
-  </data>
-  <data name="Clear Log" xml:space="preserve">
-    <value>Очистить журнал</value>
-  </data>
-  <data name="Value" xml:space="preserve">
-    <value>Значение</value>
-  </data>
-  <data name="Time" xml:space="preserve">
-    <value>Время</value>
-  </data>
-  <data name="Exception Log" xml:space="preserve">
-    <value>Журнал исключений</value>
-  </data>
-  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
-    <value>Ваш браузер отправит серверу простое сообщение и получит простой ответ. Это число означает время, затраченное на запрос и ответ. Чем меньше число, тем лучше ваша сеть.</value>
-  </data>
-  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
-    <value>Это число означает временной интервал между текущим и предыдущим серверным событием. Значение должно быть близко к 100 мс. Показатели свыше 120 мс или менее 90 мс являются некорректными.</value>
-  </data>
-  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
-    <value>Ваш браузер загрузит 4 файла по 4 ГБ с нашего сервера. Мы поможем рассчитать скорость загрузки вашей сети, измеряя время от начала до получения файла. Чем выше число, тем лучше ваша сеть.</value>
-  </data>
-  <data name="Network Diagnostics" xml:space="preserve">
-    <value>Диагностика сети</value>
-  </data>
-  <data name="You are connecting as:" xml:space="preserve">
-    <value>Вы подключаетесь как:</value>
+  <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
+    <value>Aiursoft Template — это наш окончательный выбор для корпоративных проектов! Он создан для разработчиков, легковесный, но мощный. Мы можем пропустить всю стандартную работу по аутентификации и управлению пользователями.</value>
   </data>
   <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
     <value>Aiursoft Tracer — это простое приложение для проверки качества сети. Оно помогает измерить скорость соединения между вами и сервером.</value>
   </data>
-  <data name=", From " xml:space="preserve">
-    <value>, из</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Все зависимости автоматически регистрируются и всегда доступны через внедрение в конструктор.</value>
+  </data>
+  <data name="Anduin" xml:space="preserve">
+    <value>Андуин</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Автоматический тёмный режим</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Автоматическое внедрение зависимостей</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Автоматический перевод с использованием искусственного интеллекта на 28 языков для глобального охвата.</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Пропускная способность</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Создайте свой следующий большой проект,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Встроенное управление пользователями</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Очистить журнал</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Предоставляет полную поддержку Docker для упрощённых, согласованных и надёжных развёртываний.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Полная документация</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Текущий интервал</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Текущий статус</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Панель управления</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Веб-сайт панели управления</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Диагностика</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Прямая ссылка</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Страница обсуждений</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Подготовлено для развертывания в Docker</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Тест скорости загрузки</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Загружает блоки по 4 ГБ. Чем выше, тем лучше.</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Динамическая панель навигации</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Легко переключайтесь между поставщиками, такими как SQLite, MySQL, SQL Server, и используйте базу данных в памяти для тестирования.</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>График задержки событий</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Журнал исключений</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>ЧАВО</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>быстрее</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Возможности</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Оснащена встроенной системой управления файлами с автоматическим сжатием аватаров.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>по любым вопросам или для сообщения о проблемах.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Бесплатно</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Часто задаваемые вопросы</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Интервал между событиями сервера. Цель: ~100 мс.</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Перейти в панель управления</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Здравствуй, мир!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Вот некоторые из ответов, которые вы, возможно, ищете.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Вот что говорят разработчики из нашего сообщества.</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Привет!</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Как я могу получить поддержку?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Как развернуть моё приложение?</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Тест задержки HTTP</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Простой</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Включает обширную документацию и практические примеры для быстрого начала работы.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Интегрированное управление файлами</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Бесплатно ли использовать Aiursoft Template?</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Присоединиться к обсуждениям</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Присоединяйтесь к нашему сообществу и начните создавать уже сегодня!</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Фильтр лога (МБ/с)</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Фильтр лога (мс)</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown в HTML</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Максимальный разрыв</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Максимальная задержка</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Лицензия MIT</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Поддержка нескольких баз данных</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Музыкальные инструменты</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Сеть</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Диагностика сети</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Открытое ПО</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>Интеграция OpenID Connect</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Или протестировать напрямую:</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>Авторизация RBAC</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Прочитать документацию</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>График в реальном времени</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Адаптивный дизайн</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Отзывы</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Беспрепятственно интегрируйтесь с любым провайдером OpenID Connect с автоматической синхронизацией ролей.</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Отправляет простой запрос на сервер. Чем меньше, тем лучше.</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Умный тёмный режим, который автоматически подстраивается под системные настройки пользователя.</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Скорость (МБ/с)</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Скорость (Мбит/с)</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Начать новый проект</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Начать тест</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Остановить</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Ведущий разработчик</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Панель навигации автоматически настраивается в зависимости от ролей и разрешений пользователя.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Шаблон создан для простого развертывания. Он включает полную поддержку Docker, что позволяет контейнеризировать ваше приложение и запускать его где угодно. Вы также можете развернуть его напрямую в IIS, Azure App Service или на любом сервере, который поддерживает ASP.NET Core.</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Это шаблонный проект</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Это шаблонный проект, с которого мы начинаем путешествие...</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Это число означает временной интервал между текущим и предыдущим серверным событием. Значение должно быть близко к 100 мс. Показатели свыше 120 мс или менее 90 мс являются некорректными.</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>График Пропускной Способности</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Триггер</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Использование</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Используйте его как основу для вашего SaaS, бэкенд для мобильного приложения, корпоративный сайт или личный блог. Возможности безграничны.</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Ожидание...</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>Задержка WebSocket</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Что мне нужно, чтобы начать?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Что говорят наши разработчики</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Почему стоит использовать шаблон Aiursoft?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Да, Aiursoft Template полностью бесплатен и имеет открытый исходный код под лицензией MIT. Вы можете использовать его для личных и коммерческих проектов без каких-либо затрат.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Вы подключаетесь как:</value>
+  </data>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Вы можете получить поддержку сообщества через GitHub Discussions. Пожалуйста, посетите нашу</value>
+  </data>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Вам понадобятся .NET 10 SDK, npm и ваша любимая IDE, например Visual Studio или JetBrains Rider. Полное руководство по настройке вы найдёте в нашей документации.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Ваш браузер загрузит 4 файла по 4 ГБ с нашего сервера. Мы поможем рассчитать скорость загрузки вашей сети, измеряя время от начала до получения файла. Чем выше число, тем лучше ваша сеть.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Ваш браузер отправит серверу простое сообщение и получит простой ответ. Это число означает время, затраченное на запрос и ответ. Чем меньше число, тем лучше ваша сеть.</value>
   </data>
 
 </root>

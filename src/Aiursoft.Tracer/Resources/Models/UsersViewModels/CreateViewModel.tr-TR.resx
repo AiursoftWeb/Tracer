@@ -21,23 +21,23 @@
       <data name="Email Address" xml:space="preserve">
     <value>E-posta Adresi</value>
   </data>
-  <data name="User name" xml:space="preserve">
-    <value>Kullanıcı adı</value>
+  <data name="Name" xml:space="preserve">
+    <value>Ad</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Şifre</value>
   </data>
-  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
-    <value>{0} en az {2} ve en fazla {1} karakter uzunluğunda olmalıdır.</value>
+  <data name="The {0} is not a valid email address." xml:space="preserve">
+    <value>{0} geçerli bir e-posta adresi değildir.</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} gereklidir.</value>
   </data>
-  <data name="The {0} is not a valid email address." xml:space="preserve">
-    <value>{0} geçerli bir e-posta adresi değildir.</value>
+  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
+    <value>{0} en az {2} ve en fazla {1} karakter uzunluğunda olmalıdır.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Ad</value>
+  <data name="User name" xml:space="preserve">
+    <value>Kullanıcı adı</value>
   </data>
 
 </root>

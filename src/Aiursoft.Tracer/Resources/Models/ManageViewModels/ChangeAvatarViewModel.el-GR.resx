@@ -21,14 +21,14 @@
       <data name="Avatar file" xml:space="preserve">
     <value>Αρχείο αβατάρ</value>
   </data>
-  <data name="The avatar file is required." xml:space="preserve">
-    <value>Το αρχείο avatar απαιτείται.</value>
+  <data name="Name" xml:space="preserve">
+    <value>Όνομα</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>Το αρχείο του avatar δεν είναι έγκυρο. Παρακαλώ μεταφορτώστε το ξανά.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Όνομα</value>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>Το αρχείο avatar απαιτείται.</value>
   </data>
   <data name="The name is required." xml:space="preserve">
     <value>Το όνομα απαιτείται.</value>

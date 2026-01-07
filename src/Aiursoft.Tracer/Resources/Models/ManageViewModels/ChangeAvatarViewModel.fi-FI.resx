@@ -21,14 +21,14 @@
       <data name="Avatar file" xml:space="preserve">
     <value>Avatar-tiedosto</value>
   </data>
-  <data name="The avatar file is required." xml:space="preserve">
-    <value>Avatar-tiedosto vaaditaan.</value>
+  <data name="Name" xml:space="preserve">
+    <value>Nimi</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>Avatar-tiedosto on virheellinen. Lataa se uudelleen.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Nimi</value>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>Avatar-tiedosto vaaditaan.</value>
   </data>
   <data name="The name is required." xml:space="preserve">
     <value>Nimi on pakollinen.</value>

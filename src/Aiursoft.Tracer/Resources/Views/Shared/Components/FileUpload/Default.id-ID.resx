@@ -18,29 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Drag and drop or click to replace" xml:space="preserve">
-    <value>Seret dan lepas atau klik untuk mengganti</value>
-  </data>
-  <data name="Remove" xml:space="preserve">
-    <value>Hapus</value>
-  </data>
-  <data name="Drag and drop a file here or click" xml:space="preserve">
+      <data name="Drag and drop a file here or click" xml:space="preserve">
     <value>Seret dan letakkan file di sini atau klik</value>
+  </data>
+  <data name="Drag and drop or click to replace" xml:space="preserve">
+    <value>Seret dan lepas atau klik untuk mengganti</value>
   </data>
   <data name="Ooops, something wrong happended." xml:space="preserve">
     <value>Ups, ada yang salah terjadi.</value>
   </data>
-  <data name="The image height is too small ({{ value }}px min)." xml:space="preserve">
-    <value>Tinggi gambar terlalu kecil (minimal {{ value }}px).</value>
+  <data name="Remove" xml:space="preserve">
+    <value>Hapus</value>
+  </data>
+  <data name="The file is not allowed ({{ value }} only)." xml:space="preserve">
+    <value>Berkas tidak diizinkan (hanya {{ value }}).</value>
   </data>
   <data name="The file size is too big ({{ value }} max)." xml:space="preserve">
     <value>Ukuran file terlalu besar (maksimal {{ value }}).</value>
-  </data>
-  <data name="The image width is too big ({{ value }}px max)." xml:space="preserve">
-    <value>Lebar gambar terlalu besar (maksimal {{ value }}px).</value>
-  </data>
-  <data name="The image width is too small ({{ value }}px min)." xml:space="preserve">
-    <value>Lebar gambar terlalu kecil (minimal {{ value }}px).</value>
   </data>
   <data name="The image format is not allowed ({{ value }} only)." xml:space="preserve">
     <value>Format gambar tidak diizinkan (hanya {{ value }}).</value>
@@ -48,8 +42,14 @@
   <data name="The image height is too big ({{ value }}px max)." xml:space="preserve">
     <value>Tinggi gambar terlalu besar (maksimal {{ value }}px).</value>
   </data>
-  <data name="The file is not allowed ({{ value }} only)." xml:space="preserve">
-    <value>Berkas tidak diizinkan (hanya {{ value }}).</value>
+  <data name="The image height is too small ({{ value }}px min)." xml:space="preserve">
+    <value>Tinggi gambar terlalu kecil (minimal {{ value }}px).</value>
+  </data>
+  <data name="The image width is too big ({{ value }}px max)." xml:space="preserve">
+    <value>Lebar gambar terlalu besar (maksimal {{ value }}px).</value>
+  </data>
+  <data name="The image width is too small ({{ value }}px min)." xml:space="preserve">
+    <value>Lebar gambar terlalu kecil (minimal {{ value }}px).</value>
   </data>
 
 </root>

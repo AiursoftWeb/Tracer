@@ -18,41 +18,50 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Basic Information" xml:space="preserve">
-    <value>Perustiedot</value>
-  </data>
-  <data name="Edit User:" xml:space="preserve">
-    <value>Muokkaa käyttäjää:</value>
-  </data>
-  <data name="Save Role Assignments" xml:space="preserve">
-    <value>Tallenna roolimääritykset</value>
-  </data>
-  <data name="Assigned Roles" xml:space="preserve">
+      <data name="Assigned Roles" xml:space="preserve">
     <value>Määritetyt roolit</value>
   </data>
   <data name="Back to Details" xml:space="preserve">
     <value>Takaisin yksityiskohtiin</value>
   </data>
-  <data name="Save User Details" xml:space="preserve">
-    <value>Tallenna käyttäjän tiedot</value>
+  <data name="Back to List" xml:space="preserve">
+    <value>Takaisin listaan</value>
   </data>
   <data name="Back to Users List" xml:space="preserve">
     <value>Takaisin käyttäjälistaan</value>
   </data>
+  <data name="Basic Information" xml:space="preserve">
+    <value>Perustiedot</value>
+  </data>
+  <data name="Display Name" xml:space="preserve">
+    <value>Näyttönimi</value>
+  </data>
+  <data name="Edit User:" xml:space="preserve">
+    <value>Muokkaa käyttäjää:</value>
+  </data>
+  <data name="Email Address" xml:space="preserve">
+    <value>Sähköpostiosoite</value>
+  </data>
+  <data name="Leave blank if you don&apos;t want to change the password." xml:space="preserve">
+    <value>Jätä tyhjäksi, jos et halua vaihtaa salasanaa.</value>
+  </data>
   <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
     <value>Muokkaa käyttäjän tietoja tai hallitse hänelle määritettyjä rooleja alla.</value>
   </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Varoitus!</value>
-  </data>
-  <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
-    <value>Tämä käyttäjätili on synkronoitu OpenID Connect (OIDC) -palvelun kanssa. Tässä tehdyt muutokset (esimerkiksi näyttönimeen tai sähköpostiosoitteeseen) saatetaan korvata seuraavan datan synkronoinnin yhteydessä. Pysyvien muutosten tekemiseksi päivitä käyttäjän profiili suoraan OIDC-palvelussasi.</value>
+  <data name="New avatar file" xml:space="preserve">
+    <value>Uusi avatar-tiedosto</value>
   </data>
   <data name="New Password" xml:space="preserve">
     <value>Uusi salasana</value>
   </data>
-  <data name="Email Address" xml:space="preserve">
-    <value>Sähköpostiosoite</value>
+  <data name="Save Role Assignments" xml:space="preserve">
+    <value>Tallenna roolimääritykset</value>
+  </data>
+  <data name="Save User Details" xml:space="preserve">
+    <value>Tallenna käyttäjän tiedot</value>
+  </data>
+  <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
+    <value>Tämä käyttäjätili on synkronoitu OpenID Connect (OIDC) -palvelun kanssa. Tässä tehdyt muutokset (esimerkiksi näyttönimeen tai sähköpostiosoitteeseen) saatetaan korvata seuraavan datan synkronoinnin yhteydessä. Pysyvien muutosten tekemiseksi päivitä käyttäjän profiili suoraan OIDC-palvelussasi.</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Käyttäjätunnus</value>
@@ -60,17 +69,8 @@
   <data name="View Details" xml:space="preserve">
     <value>Näytä tiedot</value>
   </data>
-  <data name="Display Name" xml:space="preserve">
-    <value>Näyttönimi</value>
-  </data>
-  <data name="Leave blank if you don&apos;t want to change the password." xml:space="preserve">
-    <value>Jätä tyhjäksi, jos et halua vaihtaa salasanaa.</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Takaisin listaan</value>
-  </data>
-  <data name="New avatar file" xml:space="preserve">
-    <value>Uusi avatar-tiedosto</value>
+  <data name="Warning!" xml:space="preserve">
+    <value>Varoitus!</value>
   </data>
 
 </root>

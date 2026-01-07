@@ -18,17 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Role Details:" xml:space="preserve">
-    <value>Detail Peran:</value>
+      <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
+    <value>Ringkasan komprehensif tentang peran, izin-izinnya, dan pengguna yang ditetapkan.</value>
   </data>
-  <data name="View User" xml:space="preserve">
-    <value>Lihat Pengguna</value>
+  <data name="Assigned Users" xml:space="preserve">
+    <value>Pengguna yang Ditugaskan</value>
   </data>
-  <data name="Users with this Role" xml:space="preserve">
-    <value>Pengguna dengan Peran Ini</value>
+  <data name="Back to Roles List" xml:space="preserve">
+    <value>Kembali ke Daftar Peran</value>
   </data>
-  <data name="Permissions Granted by this Role" xml:space="preserve">
-    <value>Izin yang Diberikan oleh Peran Ini</value>
+  <data name="Delete this Role" xml:space="preserve">
+    <value>Hapus Peran Ini</value>
   </data>
   <data name="Edit this Role" xml:space="preserve">
     <value>Edit Peran Ini</value>
@@ -36,26 +36,26 @@
   <data name="No users are currently assigned to this role." xml:space="preserve">
     <value>Tidak ada pengguna yang saat ini ditetapkan untuk peran ini.</value>
   </data>
+  <data name="Permissions Granted" xml:space="preserve">
+    <value>Izin yang Diberikan</value>
+  </data>
+  <data name="Permissions Granted by this Role" xml:space="preserve">
+    <value>Izin yang Diberikan oleh Peran Ini</value>
+  </data>
+  <data name="Role Details:" xml:space="preserve">
+    <value>Detail Peran:</value>
+  </data>
   <data name="This role has no specific permissions assigned." xml:space="preserve">
     <value>Peran ini tidak memiliki izin spesifik yang ditetapkan.</value>
   </data>
-  <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
-    <value>Ringkasan komprehensif tentang peran, izin-izinnya, dan pengguna yang ditetapkan.</value>
-  </data>
-  <data name="Delete this Role" xml:space="preserve">
-    <value>Hapus Peran Ini</value>
-  </data>
-  <data name="Back to Roles List" xml:space="preserve">
-    <value>Kembali ke Daftar Peran</value>
+  <data name="Users with this Role" xml:space="preserve">
+    <value>Pengguna dengan Peran Ini</value>
   </data>
   <data name="View" xml:space="preserve">
     <value>Lihat</value>
   </data>
-  <data name="Permissions Granted" xml:space="preserve">
-    <value>Izin yang Diberikan</value>
-  </data>
-  <data name="Assigned Users" xml:space="preserve">
-    <value>Pengguna yang Ditugaskan</value>
+  <data name="View User" xml:space="preserve">
+    <value>Lihat Pengguna</value>
   </data>
 
 </root>

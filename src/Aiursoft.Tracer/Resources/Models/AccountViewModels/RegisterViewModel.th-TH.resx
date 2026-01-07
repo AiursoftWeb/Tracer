@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Email Address (For login)" xml:space="preserve">
-    <value>ที่อยู่อีเมล (สำหรับเข้าสู่ระบบ)</value>
+      <data name="Confirm Password" xml:space="preserve">
+    <value>ยืนยันรหัสผ่าน</value>
   </data>
-  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
-    <value>{0} ต้องมีความยาวอย่างน้อย {2} ตัวอักษร และไม่เกิน {1} ตัวอักษร</value>
+  <data name="Email Address (For login)" xml:space="preserve">
+    <value>ที่อยู่อีเมล (สำหรับเข้าสู่ระบบ)</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>รหัสผ่าน</value>
   </data>
-  <data name="Confirm Password" xml:space="preserve">
-    <value>ยืนยันรหัสผ่าน</value>
-  </data>
-  <data name="The password and confirmation password do not match." xml:space="preserve">
-    <value>รหัสผ่านและรหัสผ่านยืนยันไม่ตรงกัน</value>
+  <data name="The {0} is not a valid email address." xml:space="preserve">
+    <value>{0} ไม่ใช่ที่อยู่อีเมลที่ถูกต้อง</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>ต้องระบุ {0}</value>
   </data>
-  <data name="The {0} is not a valid email address." xml:space="preserve">
-    <value>{0} ไม่ใช่ที่อยู่อีเมลที่ถูกต้อง</value>
+  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
+    <value>{0} ต้องมีความยาวอย่างน้อย {2} ตัวอักษร และไม่เกิน {1} ตัวอักษร</value>
+  </data>
+  <data name="The password and confirmation password do not match." xml:space="preserve">
+    <value>รหัสผ่านและรหัสผ่านยืนยันไม่ตรงกัน</value>
   </data>
 
 </root>

@@ -18,32 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Email Address" xml:space="preserve">
+      <data name="Avatar file" xml:space="preserve">
+    <value>Fișier avatar</value>
+  </data>
+  <data name="Email Address" xml:space="preserve">
     <value>Adresă de email</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Nume de utilizator</value>
-  </data>
-  <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
-    <value>Resetează parola (lăsați necompletat pentru a păstra parola actuală)</value>
-  </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>{0} este obligatoriu.</value>
-  </data>
-  <data name="The {0} is not a valid email address." xml:space="preserve">
-    <value>{0} nu este o adresă de email validă.</value>
   </data>
   <data name="Name" xml:space="preserve">
     <value>Nume</value>
   </data>
-  <data name="The avatar file is required." xml:space="preserve">
-    <value>Fișierul avatar este obligatoriu.</value>
+  <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
+    <value>Resetează parola (lăsați necompletat pentru a păstra parola actuală)</value>
   </data>
-  <data name="Avatar file" xml:space="preserve">
-    <value>Fișier avatar</value>
+  <data name="The {0} is not a valid email address." xml:space="preserve">
+    <value>{0} nu este o adresă de email validă.</value>
+  </data>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} este obligatoriu.</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>Fișierul avatar este invalid. Vă rugăm să îl încărcați din nou.</value>
+  </data>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>Fișierul avatar este obligatoriu.</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Nume de utilizator</value>
   </data>
 
 </root>

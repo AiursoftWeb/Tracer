@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Error." xml:space="preserve">
-    <value>Virhe.</value>
-  </data>
-  <data name="Back to Home" xml:space="preserve">
-    <value>Takaisin etusivulle</value>
-  </data>
-  <data name="Request ID:" xml:space="preserve">
-    <value>Pyyntötunnus:</value>
+      <data name="An Error Occurred" xml:space="preserve">
+    <value>Tapahtui virhe</value>
   </data>
   <data name="An error occurred while processing your request." xml:space="preserve">
     <value>Pyyntöäsi käsiteltäessä tapahtui virhe.</value>
   </data>
+  <data name="Back to Home" xml:space="preserve">
+    <value>Takaisin etusivulle</value>
+  </data>
+  <data name="Error." xml:space="preserve">
+    <value>Virhe.</value>
+  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>Ota yhteyttä ylläpitäjään saadaksesi apua.</value>
   </data>
-  <data name="An Error Occurred" xml:space="preserve">
-    <value>Tapahtui virhe</value>
-  </data>
   <data name="Please try again later or contact support if the problem persists." xml:space="preserve">
     <value>Yritä myöhemmin uudelleen tai ota yhteyttä tukeen, jos ongelma jatkuu.</value>
+  </data>
+  <data name="Request ID:" xml:space="preserve">
+    <value>Pyyntötunnus:</value>
   </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>Olemme pahoillamme, jotain meni vikaan pyyntöäsi käsiteltäessä.</value>

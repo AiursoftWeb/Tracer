@@ -21,14 +21,14 @@
       <data name="Invalid login attempt." xml:space="preserve">
     <value>無効なログイン試行です。</value>
   </data>
-  <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>このアカウントはロックアウトされました。後ほど再度お試しください。</value>
-  </data>
   <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
     <value>ログインに失敗しました。ユーザー名とパスワードを確認してください。</value>
   </data>
   <data name="The username already exists. Please try another username." xml:space="preserve">
     <value>このユーザー名は既に存在します。別のユーザー名をお試しください。</value>
+  </data>
+  <data name="This account has been locked out, please try again later." xml:space="preserve">
+    <value>このアカウントはロックアウトされました。後ほど再度お試しください。</value>
   </data>
 
 </root>

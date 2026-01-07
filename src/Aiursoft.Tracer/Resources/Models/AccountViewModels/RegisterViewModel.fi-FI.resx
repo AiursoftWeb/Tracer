@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Password" xml:space="preserve">
-    <value>Salasana</value>
-  </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>{0} on pakollinen.</value>
-  </data>
-  <data name="Confirm Password" xml:space="preserve">
+      <data name="Confirm Password" xml:space="preserve">
     <value>Vahvista salasana</value>
   </data>
   <data name="Email Address (For login)" xml:space="preserve">
     <value>Sähköpostiosoite (kirjautumista varten)</value>
   </data>
-  <data name="The password and confirmation password do not match." xml:space="preserve">
-    <value>Salasana ja vahvistussalasana eivät täsmää.</value>
+  <data name="Password" xml:space="preserve">
+    <value>Salasana</value>
+  </data>
+  <data name="The {0} is not a valid email address." xml:space="preserve">
+    <value>{0} ei ole kelvollinen sähköpostiosoite.</value>
+  </data>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>{0} on pakollinen.</value>
   </data>
   <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
     <value>{0}:n on oltava vähintään {2} ja enintään {1} merkkiä pitkä.</value>
   </data>
-  <data name="The {0} is not a valid email address." xml:space="preserve">
-    <value>{0} ei ole kelvollinen sähköpostiosoite.</value>
+  <data name="The password and confirmation password do not match." xml:space="preserve">
+    <value>Salasana ja vahvistussalasana eivät täsmää.</value>
   </data>
 
 </root>

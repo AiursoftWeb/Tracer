@@ -18,185 +18,317 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Tervetuloa</value>
+      <data name=", From " xml:space="preserve">
+    <value>, Paikasta</value>
   </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Tämä on malliprojekti</value>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 Mt/s</value>
   </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Hei maailma!</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>RBAC-valtuutus</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>OpenID Connect -integraatio</value>
-  </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Usean tietokannan tuki</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Miksi käyttää Aiursoft Templatea?</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>Nykyaikainen, ominaisuuksiltaan monipuolinen ja erittäin laajennettava perusta seuraavaa verkkosovellustasi varten.</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Vaihda helposti tietokantapalveluntarjoajien, kuten SQLite, MySQL, SQL Server ja testaukseen tarkoitetun muistissa olevan tietokannan, välillä.</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Saatumattomasti integroi minkä tahansa OpenID Connect -palveluntarjoajan kanssa, automaattisen roolisynkronoinnin avulla.</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Dynaaminen navigointipalkki</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>Tehokäännökset tekoälyllä</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Navigointipalkki sopeutuu automaattisesti käyttäjän roolien ja käyttöoikeuksien perusteella.</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Kattava dokumentaatio</value>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
   </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Sisäänrakennettu roolipohjainen käyttöoikeusjärjestelmä (RBAC) hienojakoista käyttöoikeudenhallintaa varten.</value>
   </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Automaattinen, tekoälyavusteinen käännös 28 kielelle maailmanlaajuista saavutettavuutta varten.</value>
-  </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Sisäänrakennettu käyttäjienhallinta</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Sisältää laajan dokumentaation ja käytännön esimerkit, joiden avulla pääset nopeasti alkuun.</value>
-  </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>Valmis ratkaisu käyttäjätunnistukseen ja profiilin hallintaan heti käyttöönoton yhteydessä.</value>
-  </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Integroitu tiedostonhallinta</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Automaattinen riippuvuuden injektointi</value>
-  </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Sisältää sisäänrakennetun tiedostonhallintajärjestelmän automaattisella avatar-pakkauksella.</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Responsiivinen suunnittelu</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Automaattinen tumma tila</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Kaikki riippuvuudet rekisteröidään automaattisesti ja ne ovat aina saatavilla konstruktorin kautta tapahtuvan injektoinnin välityksellä.</value>
   </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>Täysin responsiivinen ulkoasu, joka näyttää erinomaiselta sekä työpöytä- että mobiililaitteilla.</value>
   </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Dockeröity käyttöönottoa varten</value>
-  </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Älykäs tumma tila, joka mukautuu automaattisesti käyttäjän järjestelmäasetuksiin.</value>
-  </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Tukee täysin Docker-ympäristöä, mikä helpottaa, tehostaa ja luotettavistaa käyttöönottoa.</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Lue dokumentti</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Tämä on malliprojekti, josta aloitamme matkan...</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>nopeammin</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Käyttö</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Siirry kojelautaan</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Avoin lähdekoodi</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Ominaisuudet</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Rakenna seuraava suuri juttusi,</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Ilmainen</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT-lisenssi</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Kojelauta-sivusto</value>
-  </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Musiikkityökalut</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdownista HTML:ksi</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>Nykyaikainen, ominaisuuksiltaan monipuolinen ja erittäin laajennettava perusta seuraavaa verkkosovellustasi varten.</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Saavuta enemmän Aiursoft Templatella</value>
   </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Arvostelut</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Tässä on mitä yhteisömme kehittäjät sanovat.</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Mitä kehittäjämme sanovat</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Tekninen Päällikkö</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Käytä sitä perustana SaaS-palvelullesi, mobiilisovelluksesi taustajärjestelmänä, yrityssivustona tai henkilökohtaisena blogina. Mahdollisuudet ovat rajattomat.</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Usein kysytyt kysymykset</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>UKK</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Onko Aiursoft Templaten käyttö ilmaista?</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Tässä on joitain vastauksia, joita saatat etsiä.</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Mitä tarvitsen aloittamiseen?</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>Tehokäännökset tekoälyllä</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template on ratkaiseva valintamme yritysprojekteihin! Se on rakennettu kehittäjille ja on kevyt mutta tehokas. Voimme ohittaa kaiken valmiin koodin todennukseen ja käyttäjien hallintaan.</value>
   </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Kuinka otan sovellukseni käyttöön?</value>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer on yksinkertainen verkonlaadun testaussovellus. Se auttaa testaamaan yhteyden nopeutta sinun ja palvelimen välillä.</value>
   </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Miten saan tukea?</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Kaikki riippuvuudet rekisteröidään automaattisesti ja ne ovat aina saatavilla konstruktorin kautta tapahtuvan injektoinnin välityksellä.</value>
   </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Kyllä, Aiursoft Template on täysin ilmainen ja avoin lähdekoodi MIT-lisenssin alla. Voit käyttää sitä henkilökohtaisiin ja kaupallisiin projekteihin ilman mitään kustannuksia.</value>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
+  </data>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Automaattinen tumma tila</value>
+  </data>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Automaattinen riippuvuuden injektointi</value>
+  </data>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Automaattinen, tekoälyavusteinen käännös 28 kielelle maailmanlaajuista saavutettavuutta varten.</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Kaistanleveys</value>
+  </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Rakenna seuraava suuri juttusi,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Sisäänrakennettu käyttäjienhallinta</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Tyhjennä loki</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Tukee täysin Docker-ympäristöä, mikä helpottaa, tehostaa ja luotettavistaa käyttöönottoa.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Kattava dokumentaatio</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Nykyinen aukko</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Nykyinen tila</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Kojelauta</value>
+  </data>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Kojelauta-sivusto</value>
+  </data>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Diagnostiikka</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Suora linkki</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Keskustelusivu</value>
   </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Dockeröity käyttöönottoa varten</value>
+  </data>
+  <data name="Download Speed Test" xml:space="preserve">
+    <value>Latausnopeustesti</value>
+  </data>
+  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
+    <value>Lataa 4 gigatavun osia. Mitä suurempi, sen parempi.</value>
+  </data>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Dynaaminen navigointipalkki</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Vaihda helposti tietokantapalveluntarjoajien, kuten SQLite, MySQL, SQL Server ja testaukseen tarkoitetun muistissa olevan tietokannan, välillä.</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Tapahtuman viivekaavio</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Poikkeuslokki</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>UKK</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>nopeammin</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Ominaisuudet</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Sisältää sisäänrakennetun tiedostonhallintajärjestelmän automaattisella avatar-pakkauksella.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>kaikkiin kyselyihin tai ongelmien ilmoittamiseen.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Ilmainen</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Usein kysytyt kysymykset</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Aikaväli palvelintapahtumien välillä. Tavoite: ~100ms.</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Siirry kojelautaan</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Hei maailma!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Tässä on joitain vastauksia, joita saatat etsiä.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Tässä on mitä yhteisömme kehittäjät sanovat.</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Hei!</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Miten saan tukea?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Kuinka otan sovellukseni käyttöön?</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP-vasteustesti</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Toimettomana</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Sisältää laajan dokumentaation ja käytännön esimerkit, joiden avulla pääset nopeasti alkuun.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Integroitu tiedostonhallinta</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Onko Aiursoft Templaten käyttö ilmaista?</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Liity keskusteluun</value>
+  </data>
   <data name="Join our community and start building today!" xml:space="preserve">
     <value>Liity yhteisöömme ja aloita rakentaminen tänään!</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Lokisuodatin (Mt/s)</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Lokisuodatin (ms)</value>
+  </data>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdownista HTML:ksi</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Maksimiväli</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Maksimiviive</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-lisenssi</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Usean tietokannan tuki</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Musiikkityökalut</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Verkko</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Verkkodiagnostiikka</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Avoin lähdekoodi</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect -integraatio</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Tai testaa suoraan:</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC-valtuutus</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Lue dokumentti</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Reaaliaikainen Kaavio</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Responsiivinen suunnittelu</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Arvostelut</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Saatumattomasti integroi minkä tahansa OpenID Connect -palveluntarjoajan kanssa, automaattisen roolisynkronoinnin avulla.</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Lähettää yksinkertaisen viestin palvelimelle. Mitä pienempi arvo, sitä parempi.</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Älykäs tumma tila, joka mukautuu automaattisesti käyttäjän järjestelmäasetuksiin.</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Nopeus (Mt/s)</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Nopeus (Mbps)</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Aloita uusi projekti</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Aloita testi</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Lopeta</value>
+  </data>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Tekninen Päällikkö</value>
+  </data>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Navigointipalkki sopeutuu automaattisesti käyttäjän roolien ja käyttöoikeuksien perusteella.</value>
+  </data>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Malli on suunniteltu helppokäyttöiseksi käyttöönottoa varten. Se sisältää täyden Docker-tuen, joten voit konttipohjata sovelluksesi ja ajaa sitä missä tahansa. Voit myös ottaa sen käyttöön suoraan IIS:ään, Azure App Serviceen tai mihin tahansa palvelimeen, joka tukee ASP.NET Corea.</value>
+  </data>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Tämä on malliprojekti</value>
+  </data>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Tämä on malliprojekti, josta aloitamme matkan...</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Tämä numero ilmaisee aikaeron nykyisen palvelintapahtuman ja edellisen palvelintapahtuman välillä. Numeron tulisi olla lähellä 100 ms. Yli 120 ms tai alle 90 ms ei ole sopivaa.</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Läpimenokaavio</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Aika</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Laukaise</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Käyttö</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Käytä sitä perustana SaaS-palvelullesi, mobiilisovelluksesi taustajärjestelmänä, yrityssivustona tai henkilökohtaisena blogina. Mahdollisuudet ovat rajattomat.</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Arvo</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Odotetaan...</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>WebSocket-viive</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Tervetuloa</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Mitä tarvitsen aloittamiseen?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Mitä kehittäjämme sanovat</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Miksi käyttää Aiursoft Templatea?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Kyllä, Aiursoft Template on täysin ilmainen ja avoin lähdekoodi MIT-lisenssin alla. Voit käyttää sitä henkilökohtaisiin ja kaupallisiin projekteihin ilman mitään kustannuksia.</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Yhteysosoitteesi on:</value>
   </data>
   <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
     <value>Saat yhteisötukea GitHub Discussionsin kautta. Käy meidän</value>
@@ -204,143 +336,11 @@
   <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
     <value>Tarvitset .NET 10 SDK:n, npm:n ja suosikki-IDE:si, kuten Visual Studion tai JetBrains Riderin. Löydät täydellisen asennusoppaan dokumentaatiostamme.</value>
   </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>kaikkiin kyselyihin tai ongelmien ilmoittamiseen.</value>
-  </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>Liity keskusteluun</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Malli on suunniteltu helppokäyttöiseksi käyttöönottoa varten. Se sisältää täyden Docker-tuen, joten voit konttipohjata sovelluksesi ja ajaa sitä missä tahansa. Voit myös ottaa sen käyttöön suoraan IIS:ään, Azure App Serviceen tai mihin tahansa palvelimeen, joka tukee ASP.NET Corea.</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Aloita uusi projekti</value>
-  </data>
-  <data name="Diagnostics" xml:space="preserve">
-    <value>Diagnostiikka</value>
-  </data>
-  <data name="Hola!" xml:space="preserve">
-    <value>Hei!</value>
-  </data>
-  <data name="Start Test" xml:space="preserve">
-    <value>Aloita testi</value>
-  </data>
-  <data name="Network" xml:space="preserve">
-    <value>Verkko</value>
-  </data>
-  <data name="Log filter (ms)" xml:space="preserve">
-    <value>Lokisuodatin (ms)</value>
-  </data>
-  <data name="Dashboard" xml:space="preserve">
-    <value>Kojelauta</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>HTTP-vasteustesti</value>
-  </data>
-  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
-    <value>Lähettää yksinkertaisen viestin palvelimelle. Mitä pienempi arvo, sitä parempi.</value>
-  </data>
-  <data name="Waiting..." xml:space="preserve">
-    <value>Odotetaan...</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Lopeta</value>
-  </data>
-  <data name="Max Latency" xml:space="preserve">
-    <value>Maksimiviive</value>
-  </data>
-  <data name="Current Status" xml:space="preserve">
-    <value>Nykyinen tila</value>
-  </data>
-  <data name="Real-time Chart" xml:space="preserve">
-    <value>Reaaliaikainen Kaavio</value>
-  </data>
-  <data name="Bandwidth" xml:space="preserve">
-    <value>Kaistanleveys</value>
-  </data>
-  <data name="Download Speed Test" xml:space="preserve">
-    <value>Latausnopeustesti</value>
-  </data>
-  <data name="Or test directly:" xml:space="preserve">
-    <value>Tai testaa suoraan:</value>
-  </data>
-  <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
-    <value>Lataa 4 gigatavun osia. Mitä suurempi, sen parempi.</value>
-  </data>
-  <data name="Speed (MB/s)" xml:space="preserve">
-    <value>Nopeus (Mt/s)</value>
-  </data>
-  <data name="Log filter (MB/s)" xml:space="preserve">
-    <value>Lokisuodatin (Mt/s)</value>
-  </data>
-  <data name="Direct Link" xml:space="preserve">
-    <value>Suora linkki</value>
-  </data>
-  <data name="0 MB/s" xml:space="preserve">
-    <value>0 Mt/s</value>
-  </data>
-  <data name="Speed (Mbps)" xml:space="preserve">
-    <value>Nopeus (Mbps)</value>
-  </data>
-  <data name="0 Mbps" xml:space="preserve">
-    <value>0 Mbps</value>
-  </data>
-  <data name="Throughput Chart" xml:space="preserve">
-    <value>Läpimenokaavio</value>
-  </data>
-  <data name="WebSocket Latency" xml:space="preserve">
-    <value>WebSocket-viive</value>
-  </data>
-  <data name="Current Gap" xml:space="preserve">
-    <value>Nykyinen aukko</value>
-  </data>
-  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
-    <value>Aikaväli palvelintapahtumien välillä. Tavoite: ~100ms.</value>
-  </data>
-  <data name="Idle" xml:space="preserve">
-    <value>Toimettomana</value>
-  </data>
-  <data name="Max Gap" xml:space="preserve">
-    <value>Maksimiväli</value>
-  </data>
-  <data name="Value" xml:space="preserve">
-    <value>Arvo</value>
-  </data>
-  <data name="Time" xml:space="preserve">
-    <value>Aika</value>
-  </data>
-  <data name="Event Latency Chart" xml:space="preserve">
-    <value>Tapahtuman viivekaavio</value>
-  </data>
-  <data name="Trigger" xml:space="preserve">
-    <value>Laukaise</value>
-  </data>
-  <data name="Clear Log" xml:space="preserve">
-    <value>Tyhjennä loki</value>
-  </data>
-  <data name="Exception Log" xml:space="preserve">
-    <value>Poikkeuslokki</value>
-  </data>
-  <data name="Network Diagnostics" xml:space="preserve">
-    <value>Verkkodiagnostiikka</value>
-  </data>
-  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
-    <value>Tämä numero ilmaisee aikaeron nykyisen palvelintapahtuman ja edellisen palvelintapahtuman välillä. Numeron tulisi olla lähellä 100 ms. Yli 120 ms tai alle 90 ms ei ole sopivaa.</value>
-  </data>
-  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
-    <value>Selaimesi lähettää palvelimelle yksinkertaisen viestin ja saa yksinkertaisen vastauksen. Tämä numero ilmaisee ajan, joka kuluu pyynnöstä vastaukseen. Mitä pienempi numero on, sitä parempi verkkoyhteytesi on.</value>
-  </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Selaimesi lataa 4 tiedostoa (kukin 4 GB) palvelimeltamme. Laskemme verkkoyhteytesi latausnopeuden sen perusteella, kuinka kauan tiedostojen lataaminen kestää. Mitä suurempi luku on, sitä parempi verkkoyhteytesi on.</value>
   </data>
-  <data name="You are connecting as:" xml:space="preserve">
-    <value>Yhteysosoitteesi on:</value>
-  </data>
-  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
-    <value>Aiursoft Tracer on yksinkertainen verkonlaadun testaussovellus. Se auttaa testaamaan yhteyden nopeutta sinun ja palvelimen välillä.</value>
-  </data>
-  <data name=", From " xml:space="preserve">
-    <value>, Paikasta</value>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Selaimesi lähettää palvelimelle yksinkertaisen viestin ja saa yksinkertaisen vastauksen. Tämä numero ilmaisee ajan, joka kuluu pyynnöstä vastaukseen. Mitä pienempi numero on, sitä parempi verkkoyhteytesi on.</value>
   </data>
 
 </root>

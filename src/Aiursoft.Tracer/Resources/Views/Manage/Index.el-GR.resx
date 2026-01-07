@@ -21,38 +21,38 @@
       <data name="Account Management" xml:space="preserve">
     <value>Διαχείριση Λογαριασμού</value>
   </data>
-  <data name="Change your password" xml:space="preserve">
-    <value>Αλλάξτε τον κωδικό πρόσβασής σας</value>
-  </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>Αλλαγή των ρυθμίσεων του λογαριασμού σας</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>Δεν μπορείτε να αλλάξετε τον κωδικό πρόσβασής σας, επειδή η τοπική πιστοποίηση είναι απενεργοποιημένη. Παρακαλούμε επεξεργαστείτε το προφίλ σας από τον πάροχο ταυτοποίησης.</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Κωδικός πρόσβασης</value>
+  <data name="auth provider" xml:space="preserve">
+    <value>παροχέας ταυτοποίησης</value>
   </data>
   <data name="Avatar settings" xml:space="preserve">
     <value>Ρυθμίσεις Avatar</value>
   </data>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>Αλλαγή των ρυθμίσεων του λογαριασμού σας</value>
+  </data>
   <data name="Change your avatar" xml:space="preserve">
     <value>Αλλάξτε το avatar σας</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Επιτυχία!</value>
-  </data>
-  <data name="Profile" xml:space="preserve">
-    <value>Προφίλ</value>
+  <data name="Change your password" xml:space="preserve">
+    <value>Αλλάξτε τον κωδικό πρόσβασής σας</value>
   </data>
   <data name="Change your profile" xml:space="preserve">
     <value>Αλλαγή του προφίλ σας</value>
   </data>
-  <data name="auth provider" xml:space="preserve">
-    <value>παροχέας ταυτοποίησης</value>
+  <data name="Password" xml:space="preserve">
+    <value>Κωδικός πρόσβασης</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Προφίλ</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Επιτυχία!</value>
   </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>Δεν μπορείτε να αλλάξετε τον κωδικό πρόσβασής σας επειδή η τοπική πιστοποίηση είναι απενεργοποιημένη. Παρακαλούμε επεξεργαστείτε το προφίλ σας από τον</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>Δεν μπορείτε να αλλάξετε τον κωδικό πρόσβασής σας, επειδή η τοπική πιστοποίηση είναι απενεργοποιημένη. Παρακαλούμε επεξεργαστείτε το προφίλ σας από τον πάροχο ταυτοποίησης.</value>
   </data>
 
 </root>

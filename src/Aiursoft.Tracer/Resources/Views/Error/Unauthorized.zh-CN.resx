@@ -18,10 +18,7 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Try again" xml:space="preserve">
-    <value>重试</value>
-  </data>
-  <data name="Access Denied" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
     <value>访问被拒绝</value>
   </data>
   <data name="Back to Home" xml:space="preserve">
@@ -32,6 +29,9 @@
   </data>
   <data name="Sorry, you do not have the necessary permissions to access this page." xml:space="preserve">
     <value>抱歉，您没有访问此页面的必要权限。</value>
+  </data>
+  <data name="Try again" xml:space="preserve">
+    <value>重试</value>
   </data>
 
 </root>

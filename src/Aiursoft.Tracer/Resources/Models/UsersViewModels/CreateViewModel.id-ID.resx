@@ -18,14 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="User name" xml:space="preserve">
-    <value>Nama Pengguna</value>
-  </data>
-  <data name="Email Address" xml:space="preserve">
+      <data name="Email Address" xml:space="preserve">
     <value>Alamat Email</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nama</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Kata Sandi</value>
+  </data>
+  <data name="The {0} is not a valid email address." xml:space="preserve">
+    <value>{0} bukan alamat email yang valid.</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} wajib diisi.</value>
@@ -33,11 +36,8 @@
   <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
     <value>{0} harus memiliki panjang setidaknya {2} dan maksimal {1} karakter.</value>
   </data>
-  <data name="The {0} is not a valid email address." xml:space="preserve">
-    <value>{0} bukan alamat email yang valid.</value>
-  </data>
-  <data name="Name" xml:space="preserve">
-    <value>Nama</value>
+  <data name="User name" xml:space="preserve">
+    <value>Nama Pengguna</value>
   </data>
 
 </root>

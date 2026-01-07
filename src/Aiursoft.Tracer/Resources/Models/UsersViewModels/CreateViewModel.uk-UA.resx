@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
-    <value>{0} має містити щонайменше {2} та не більше {1} символів.</value>
+      <data name="Email Address" xml:space="preserve">
+    <value>Електронна адреса</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ім&apos;я</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Пароль</value>
   </data>
-  <data name="User name" xml:space="preserve">
-    <value>Ім&apos;я користувача</value>
-  </data>
-  <data name="Email Address" xml:space="preserve">
-    <value>Електронна адреса</value>
+  <data name="The {0} is not a valid email address." xml:space="preserve">
+    <value>Поле {0} не є дійсною email-адресою.</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>Поле {0} є обов&apos;язковим.</value>
   </data>
-  <data name="The {0} is not a valid email address." xml:space="preserve">
-    <value>Поле {0} не є дійсною email-адресою.</value>
+  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
+    <value>{0} має містити щонайменше {2} та не більше {1} символів.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Ім&apos;я</value>
+  <data name="User name" xml:space="preserve">
+    <value>Ім&apos;я користувача</value>
   </data>
 
 </root>

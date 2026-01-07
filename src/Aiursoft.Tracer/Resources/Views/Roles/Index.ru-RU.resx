@@ -21,29 +21,29 @@
       <data name="Actions" xml:space="preserve">
     <value>Действия</value>
   </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Редактировать</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Удалить</value>
-  </data>
-  <data name="User Count" xml:space="preserve">
-    <value>Количество пользователей</value>
-  </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>Название роли</value>
-  </data>
-  <data name="Manage Roles" xml:space="preserve">
-    <value>Управление ролями</value>
+  <data name="All Roles" xml:space="preserve">
+    <value>Все роли</value>
   </data>
   <data name="Create a new role" xml:space="preserve">
     <value>Создать новую роль</value>
   </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Manage Roles" xml:space="preserve">
+    <value>Управление ролями</value>
+  </data>
+  <data name="Role Name" xml:space="preserve">
+    <value>Название роли</value>
+  </data>
   <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
     <value>Выберите роль, чтобы просмотреть её детали, или используйте действия для редактирования или удаления.</value>
   </data>
-  <data name="All Roles" xml:space="preserve">
-    <value>Все роли</value>
+  <data name="User Count" xml:space="preserve">
+    <value>Количество пользователей</value>
   </data>
 
 </root>

@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change your password" xml:space="preserve">
-    <value>Alterar a sua palavra-passe</value>
-  </data>
-  <data name="Account Management" xml:space="preserve">
+      <data name="Account Management" xml:space="preserve">
     <value>Gestão de Conta</value>
-  </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>Alterar as definições da sua conta</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>Não pode alterar a sua palavra-passe porque a autenticação local está desativada. Por favor, edite o seu perfil no fornecedor de autenticação.</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Palavra-passe</value>
-  </data>
-  <data name="Avatar settings" xml:space="preserve">
-    <value>Definições do Avatar</value>
-  </data>
-  <data name="Change your avatar" xml:space="preserve">
-    <value>Alterar o seu avatar</value>
-  </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Sucesso!</value>
-  </data>
-  <data name="Change your profile" xml:space="preserve">
-    <value>Alterar o seu perfil</value>
-  </data>
-  <data name="Profile" xml:space="preserve">
-    <value>Perfil</value>
   </data>
   <data name="auth provider" xml:space="preserve">
     <value>provedor de autenticação</value>
   </data>
+  <data name="Avatar settings" xml:space="preserve">
+    <value>Definições do Avatar</value>
+  </data>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>Alterar as definições da sua conta</value>
+  </data>
+  <data name="Change your avatar" xml:space="preserve">
+    <value>Alterar o seu avatar</value>
+  </data>
+  <data name="Change your password" xml:space="preserve">
+    <value>Alterar a sua palavra-passe</value>
+  </data>
+  <data name="Change your profile" xml:space="preserve">
+    <value>Alterar o seu perfil</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Palavra-passe</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Sucesso!</value>
+  </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>Não pode alterar a sua palavra-passe porque a autenticação local está desativada. Por favor, edite o seu perfil a partir do</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>Não pode alterar a sua palavra-passe porque a autenticação local está desativada. Por favor, edite o seu perfil no fornecedor de autenticação.</value>
   </data>
 
 </root>

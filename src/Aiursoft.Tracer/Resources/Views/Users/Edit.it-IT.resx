@@ -18,59 +18,59 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Edit User:" xml:space="preserve">
-    <value>Modifica utente:</value>
-  </data>
-  <data name="Back to Users List" xml:space="preserve">
-    <value>Torna all&apos;elenco utenti</value>
-  </data>
-  <data name="Save User Details" xml:space="preserve">
-    <value>Salva Dettagli Utente</value>
+      <data name="Assigned Roles" xml:space="preserve">
+    <value>Ruoli Assegnati</value>
   </data>
   <data name="Back to Details" xml:space="preserve">
     <value>Torna ai Dettagli</value>
   </data>
-  <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
-    <value>Modifica i dettagli utente o gestisci i ruoli assegnati di seguito.</value>
+  <data name="Back to List" xml:space="preserve">
+    <value>Torna all&apos;elenco</value>
+  </data>
+  <data name="Back to Users List" xml:space="preserve">
+    <value>Torna all&apos;elenco utenti</value>
   </data>
   <data name="Basic Information" xml:space="preserve">
     <value>Informazioni di Base</value>
   </data>
-  <data name="Assigned Roles" xml:space="preserve">
-    <value>Ruoli Assegnati</value>
-  </data>
-  <data name="Save Role Assignments" xml:space="preserve">
-    <value>Salva Assegnazioni Ruoli</value>
-  </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Attenzione!</value>
-  </data>
-  <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
-    <value>Questo account utente è sincronizzato con un provider OpenID Connect (OIDC). Qualsiasi modifica apportata qui (ad esempio, al nome visualizzato o all&apos;email) potrebbe essere sovrascritta durante la prossima sincronizzazione dei dati. Per modifiche permanenti, aggiorna il profilo utente direttamente sul tuo provider OIDC.</value>
-  </data>
   <data name="Display Name" xml:space="preserve">
     <value>Nome visualizzato</value>
   </data>
-  <data name="New Password" xml:space="preserve">
-    <value>Nuova Password</value>
-  </data>
-  <data name="View Details" xml:space="preserve">
-    <value>Visualizza Dettagli</value>
+  <data name="Edit User:" xml:space="preserve">
+    <value>Modifica utente:</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>Indirizzo Email</value>
   </data>
-  <data name="Username" xml:space="preserve">
-    <value>Nome utente</value>
-  </data>
   <data name="Leave blank if you don&apos;t want to change the password." xml:space="preserve">
     <value>Lascia vuoto se non desideri cambiare la password.</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Torna all&apos;elenco</value>
+  <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
+    <value>Modifica i dettagli utente o gestisci i ruoli assegnati di seguito.</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>Nuovo file avatar</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Nuova Password</value>
+  </data>
+  <data name="Save Role Assignments" xml:space="preserve">
+    <value>Salva Assegnazioni Ruoli</value>
+  </data>
+  <data name="Save User Details" xml:space="preserve">
+    <value>Salva Dettagli Utente</value>
+  </data>
+  <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
+    <value>Questo account utente è sincronizzato con un provider OpenID Connect (OIDC). Qualsiasi modifica apportata qui (ad esempio, al nome visualizzato o all&apos;email) potrebbe essere sovrascritta durante la prossima sincronizzazione dei dati. Per modifiche permanenti, aggiorna il profilo utente direttamente sul tuo provider OIDC.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Nome utente</value>
+  </data>
+  <data name="View Details" xml:space="preserve">
+    <value>Visualizza Dettagli</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>Attenzione!</value>
   </data>
 
 </root>

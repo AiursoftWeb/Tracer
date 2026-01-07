@@ -21,6 +21,15 @@
       <data name="Actions" xml:space="preserve">
     <value>Handlinger</value>
   </data>
+  <data name="All Roles" xml:space="preserve">
+    <value>Alle Roller</value>
+  </data>
+  <data name="Create a new role" xml:space="preserve">
+    <value>Opret en ny rolle</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+  </data>
   <data name="Edit" xml:space="preserve">
     <value>Rediger</value>
   </data>
@@ -30,20 +39,11 @@
   <data name="Role Name" xml:space="preserve">
     <value>Rollenavn</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Slet</value>
+  <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
+    <value>Vælg en rolle for at se dens detaljer, eller brug handlingerne til at redigere eller slette.</value>
   </data>
   <data name="User Count" xml:space="preserve">
     <value>Antal brugere</value>
-  </data>
-  <data name="Create a new role" xml:space="preserve">
-    <value>Opret en ny rolle</value>
-  </data>
-  <data name="All Roles" xml:space="preserve">
-    <value>Alle Roller</value>
-  </data>
-  <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
-    <value>Vælg en rolle for at se dens detaljer, eller brug handlingerne til at redigere eller slette.</value>
   </data>
 
 </root>

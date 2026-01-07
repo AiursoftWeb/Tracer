@@ -21,29 +21,29 @@
       <data name="Actions" xml:space="preserve">
     <value>Azioni</value>
   </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Elimina</value>
-  </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>Nome del Ruolo</value>
-  </data>
-  <data name="User Count" xml:space="preserve">
-    <value>Numero Utenti</value>
-  </data>
-  <data name="Manage Roles" xml:space="preserve">
-    <value>Gestisci Ruoli</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Modifica</value>
+  <data name="All Roles" xml:space="preserve">
+    <value>Tutti i Ruoli</value>
   </data>
   <data name="Create a new role" xml:space="preserve">
     <value>Crea un nuovo ruolo</value>
   </data>
-  <data name="All Roles" xml:space="preserve">
-    <value>Tutti i Ruoli</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="Manage Roles" xml:space="preserve">
+    <value>Gestisci Ruoli</value>
+  </data>
+  <data name="Role Name" xml:space="preserve">
+    <value>Nome del Ruolo</value>
   </data>
   <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
     <value>Seleziona un ruolo per visualizzarne i dettagli, oppure utilizza le azioni per modificare o eliminare.</value>
+  </data>
+  <data name="User Count" xml:space="preserve">
+    <value>Numero Utenti</value>
   </data>
 
 </root>

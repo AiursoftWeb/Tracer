@@ -24,29 +24,29 @@
   <data name="Create" xml:space="preserve">
     <value>Opret</value>
   </data>
-  <data name="Role" xml:space="preserve">
-    <value>Rolle</value>
-  </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Advarsel!</value>
-  </data>
-  <data name="OpenID Connect (OIDC) is enabled. Roles are synchronized from an external identity provider. We strongly recommend creating new roles or groups on your OIDC provider to ensure they are managed centrally. This form will create a local-only role that exists solely within this application." xml:space="preserve">
-    <value>OpenID Connect (OIDC) er aktiveret. Roller synkroniseres fra en ekstern identitetsudbyder. Vi anbefaler på det kraftigste at oprette nye roller eller grupper på din OIDC-udbyder for at sikre, at de administreres centralt. Denne formular vil oprette en rolle, der kun eksisterer lokalt og alene i denne applikation.</value>
+  <data name="Create New Role" xml:space="preserve">
+    <value>Opret ny rolle</value>
   </data>
   <data name="Create Role" xml:space="preserve">
     <value>Opret rolle</value>
   </data>
+  <data name="Enter the new role name" xml:space="preserve">
+    <value>Indtast det nye rollenavn</value>
+  </data>
+  <data name="OpenID Connect (OIDC) is enabled. Roles are synchronized from an external identity provider. We strongly recommend creating new roles or groups on your OIDC provider to ensure they are managed centrally. This form will create a local-only role that exists solely within this application." xml:space="preserve">
+    <value>OpenID Connect (OIDC) er aktiveret. Roller synkroniseres fra en ekstern identitetsudbyder. Vi anbefaler på det kraftigste at oprette nye roller eller grupper på din OIDC-udbyder for at sikre, at de administreres centralt. Denne formular vil oprette en rolle, der kun eksisterer lokalt og alene i denne applikation.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
   <data name="Role Details" xml:space="preserve">
     <value>Roledetaljer</value>
-  </data>
-  <data name="Create New Role" xml:space="preserve">
-    <value>Opret ny rolle</value>
   </data>
   <data name="Role Name" xml:space="preserve">
     <value>Rollenavn</value>
   </data>
-  <data name="Enter the new role name" xml:space="preserve">
-    <value>Indtast det nye rollenavn</value>
+  <data name="Warning!" xml:space="preserve">
+    <value>Advarsel!</value>
   </data>
 
 </root>

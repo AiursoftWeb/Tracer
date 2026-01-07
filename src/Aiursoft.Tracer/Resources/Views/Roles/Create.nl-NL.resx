@@ -24,14 +24,20 @@
   <data name="Create" xml:space="preserve">
     <value>Aanmaken</value>
   </data>
-  <data name="Role" xml:space="preserve">
-    <value>Rol</value>
+  <data name="Create New Role" xml:space="preserve">
+    <value>Nieuwe rol aanmaken</value>
   </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Waarschuwing!</value>
+  <data name="Create Role" xml:space="preserve">
+    <value>Rol aanmaken</value>
+  </data>
+  <data name="Enter the new role name" xml:space="preserve">
+    <value>Voer de nieuwe rolnaam in</value>
   </data>
   <data name="OpenID Connect (OIDC) is enabled. Roles are synchronized from an external identity provider. We strongly recommend creating new roles or groups on your OIDC provider to ensure they are managed centrally. This form will create a local-only role that exists solely within this application." xml:space="preserve">
     <value>OpenID Connect (OIDC) is ingeschakeld. Rollen worden gesynchroniseerd vanuit een externe identiteitsprovider. Wij raden ten zeerste aan om nieuwe rollen of groepen op uw OIDC-provider aan te maken om ervoor te zorgen dat deze centraal worden beheerd. Dit formulier zal een lokale rol aanmaken die uitsluitend binnen deze applicatie bestaat.</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Rol</value>
   </data>
   <data name="Role Details" xml:space="preserve">
     <value>Rolgegevens</value>
@@ -39,14 +45,8 @@
   <data name="Role Name" xml:space="preserve">
     <value>Rolnaam</value>
   </data>
-  <data name="Enter the new role name" xml:space="preserve">
-    <value>Voer de nieuwe rolnaam in</value>
-  </data>
-  <data name="Create New Role" xml:space="preserve">
-    <value>Nieuwe rol aanmaken</value>
-  </data>
-  <data name="Create Role" xml:space="preserve">
-    <value>Rol aanmaken</value>
+  <data name="Warning!" xml:space="preserve">
+    <value>Waarschuwing!</value>
   </data>
 
 </root>

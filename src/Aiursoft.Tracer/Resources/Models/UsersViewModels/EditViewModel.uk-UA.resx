@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="The {0} is required." xml:space="preserve">
-    <value>Поле {0} є обов&apos;язковим.</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Ім&apos;я користувача</value>
+      <data name="Avatar file" xml:space="preserve">
+    <value>Файл аватара</value>
   </data>
   <data name="Email Address" xml:space="preserve">
     <value>Адреса електронної пошти</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Ім&apos;я</value>
   </data>
   <data name="Reset Password (leave empty to keep the same password)" xml:space="preserve">
     <value>Скинути пароль (залиште порожнім, щоб залишити той самий пароль)</value>
@@ -33,17 +33,17 @@
   <data name="The {0} is not a valid email address." xml:space="preserve">
     <value>Поле {0} не є дійсною email-адресою.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Ім&apos;я</value>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>Поле {0} є обов&apos;язковим.</value>
   </data>
-  <data name="Avatar file" xml:space="preserve">
-    <value>Файл аватара</value>
+  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
+    <value>Файл аватара недійсний. Будь ласка, завантажте його знову.</value>
   </data>
   <data name="The avatar file is required." xml:space="preserve">
     <value>Файл аватара є обов&apos;язковим.</value>
   </data>
-  <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
-    <value>Файл аватара недійсний. Будь ласка, завантажте його знову.</value>
+  <data name="User name" xml:space="preserve">
+    <value>Ім&apos;я користувача</value>
   </data>
 
 </root>

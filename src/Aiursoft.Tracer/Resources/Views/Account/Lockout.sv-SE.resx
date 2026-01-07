@@ -18,11 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>Det här kontot har låsts, försök igen senare.</value>
-  </data>
-  <data name="Locked out." xml:space="preserve">
+      <data name="Locked out." xml:space="preserve">
     <value>Utelåst.</value>
+  </data>
+  <data name="This account has been locked out, please try again later." xml:space="preserve">
+    <value>Det här kontot har låsts, försök igen senare.</value>
   </data>
 
 </root>

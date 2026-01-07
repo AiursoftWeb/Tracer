@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Role" xml:space="preserve">
-    <value>Ruolo</value>
-  </data>
-  <data name="Save" xml:space="preserve">
-    <value>Salva</value>
+      <data name="Back to List" xml:space="preserve">
+    <value>Torna all&apos;elenco</value>
   </data>
   <data name="Edit" xml:space="preserve">
     <value>Modifica</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Torna all&apos;elenco</value>
+  <data name="Edit Role" xml:space="preserve">
+    <value>Modifica Ruolo</value>
   </data>
   <data name="Manage Claims for this Role" xml:space="preserve">
     <value>Gestisci le autorizzazioni per questo ruolo</value>
   </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Attenzione!</value>
+  <data name="Manage Permissions for this Role" xml:space="preserve">
+    <value>Gestisci le autorizzazioni per questo ruolo</value>
   </data>
-  <data name="This role is synchronized from an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the name) may cause conflicts during the next data sync. For permanent changes, please update the role directly on your OIDC provider." xml:space="preserve">
-    <value>Questo ruolo è sincronizzato da un provider OpenID Connect (OIDC). Qualsiasi modifica apportata qui (ad esempio, al nome) potrebbe causare conflitti durante la prossima sincronizzazione dei dati. Per modifiche permanenti, aggiorna il ruolo direttamente sul tuo provider OIDC.</value>
-  </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>Nome del Ruolo</value>
-  </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>Salva modifiche</value>
-  </data>
-  <data name="Edit Role" xml:space="preserve">
-    <value>Modifica Ruolo</value>
+  <data name="Role" xml:space="preserve">
+    <value>Ruolo</value>
   </data>
   <data name="Role Details and Permissions" xml:space="preserve">
     <value>Dettagli e Permessi del Ruolo</value>
   </data>
-  <data name="Manage Permissions for this Role" xml:space="preserve">
-    <value>Gestisci le autorizzazioni per questo ruolo</value>
+  <data name="Role Name" xml:space="preserve">
+    <value>Nome del Ruolo</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Salva modifiche</value>
+  </data>
+  <data name="This role is synchronized from an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the name) may cause conflicts during the next data sync. For permanent changes, please update the role directly on your OIDC provider." xml:space="preserve">
+    <value>Questo ruolo è sincronizzato da un provider OpenID Connect (OIDC). Qualsiasi modifica apportata qui (ad esempio, al nome) potrebbe causare conflitti durante la prossima sincronizzazione dei dati. Per modifiche permanenti, aggiorna il ruolo direttamente sul tuo provider OIDC.</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>Attenzione!</value>
   </data>
 
 </root>

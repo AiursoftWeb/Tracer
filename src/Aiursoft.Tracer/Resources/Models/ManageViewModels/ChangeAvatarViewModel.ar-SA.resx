@@ -21,14 +21,14 @@
       <data name="Avatar file" xml:space="preserve">
     <value>ملف الصورة الشخصية</value>
   </data>
-  <data name="The avatar file is required." xml:space="preserve">
-    <value>ملف الصورة الشخصية مطلوب.</value>
+  <data name="Name" xml:space="preserve">
+    <value>الاسم</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>ملف الصورة الشخصية غير صالح. يرجى تحميله مرة أخرى.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>الاسم</value>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>ملف الصورة الشخصية مطلوب.</value>
   </data>
   <data name="The name is required." xml:space="preserve">
     <value>الاسم مطلوب.</value>

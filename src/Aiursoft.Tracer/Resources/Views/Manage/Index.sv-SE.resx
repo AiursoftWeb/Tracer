@@ -21,38 +21,38 @@
       <data name="Account Management" xml:space="preserve">
     <value>Kontohantering</value>
   </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>Ändra dina kontoinställningar</value>
-  </data>
-  <data name="Change your password" xml:space="preserve">
-    <value>Ändra ditt lösenord</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>Du kan inte ändra ditt lösenord eftersom lokal autentisering är inaktiverad. Vänligen redigera din profil från autentiseringsleverantören.</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Lösenord</value>
+  <data name="auth provider" xml:space="preserve">
+    <value>autentiseringsleverantör</value>
   </data>
   <data name="Avatar settings" xml:space="preserve">
     <value>Avatarinställningar</value>
   </data>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>Ändra dina kontoinställningar</value>
+  </data>
   <data name="Change your avatar" xml:space="preserve">
     <value>Ändra din avatar</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Framgång!</value>
-  </data>
-  <data name="Profile" xml:space="preserve">
-    <value>Profil</value>
+  <data name="Change your password" xml:space="preserve">
+    <value>Ändra ditt lösenord</value>
   </data>
   <data name="Change your profile" xml:space="preserve">
     <value>Ändra din profil</value>
   </data>
-  <data name="auth provider" xml:space="preserve">
-    <value>autentiseringsleverantör</value>
+  <data name="Password" xml:space="preserve">
+    <value>Lösenord</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Framgång!</value>
   </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>Du kan inte ändra ditt lösenord eftersom lokal autentisering är inaktiverad. Vänligen redigera din profil från den</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>Du kan inte ändra ditt lösenord eftersom lokal autentisering är inaktiverad. Vänligen redigera din profil från autentiseringsleverantören.</value>
   </data>
 
 </root>

@@ -18,23 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Edit your profile" xml:space="preserve">
-    <value>Redigera din profil</value>
+      <data name="Cancel" xml:space="preserve">
+    <value>Avbryt</value>
   </data>
   <data name="Change profile" xml:space="preserve">
     <value>Ändra profil</value>
   </data>
-  <data name="Profile Information" xml:space="preserve">
-    <value>Profilinformation</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Avbryt</value>
-  </data>
   <data name="Display Name" xml:space="preserve">
     <value>Visningsnamn</value>
   </data>
+  <data name="Edit your profile" xml:space="preserve">
+    <value>Redigera din profil</value>
+  </data>
   <data name="Enter your display name" xml:space="preserve">
     <value>Ange ditt visningsnamn</value>
+  </data>
+  <data name="Profile Information" xml:space="preserve">
+    <value>Profilinformation</value>
   </data>
   <data name="Save changes" xml:space="preserve">
     <value>Spara ändringar</value>

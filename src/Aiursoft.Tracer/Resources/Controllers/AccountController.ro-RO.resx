@@ -18,14 +18,14 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>Acest cont a fost blocat, vă rugăm să încercați din nou mai târziu.</value>
-  </data>
-  <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
+      <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
     <value>Încercare de autentificare invalidă. Vă rugăm să verificați numele de utilizator și parola.</value>
   </data>
   <data name="The username already exists. Please try another username." xml:space="preserve">
     <value>Numele de utilizator există deja. Vă rugăm să încercați alt nume de utilizator.</value>
+  </data>
+  <data name="This account has been locked out, please try again later." xml:space="preserve">
+    <value>Acest cont a fost blocat, vă rugăm să încercați din nou mai târziu.</value>
   </data>
 
 </root>

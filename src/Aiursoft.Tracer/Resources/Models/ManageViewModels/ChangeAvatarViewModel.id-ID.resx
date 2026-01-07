@@ -18,17 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="The avatar file is required." xml:space="preserve">
-    <value>File avatar diperlukan.</value>
-  </data>
-  <data name="Avatar file" xml:space="preserve">
+      <data name="Avatar file" xml:space="preserve">
     <value>Berkas avatar</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nama</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>File avatar tidak valid. Silakan unggah lagi.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Nama</value>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>File avatar diperlukan.</value>
   </data>
   <data name="The name is required." xml:space="preserve">
     <value>Nama wajib diisi.</value>

@@ -24,14 +24,14 @@
   <data name="Back to Home" xml:space="preserve">
     <value>Powrót do strony głównej</value>
   </data>
-  <data name="Try again" xml:space="preserve">
-    <value>Spróbuj ponownie</value>
+  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
+    <value>Jeśli uważasz, że powinieneś mieć dostęp, skontaktuj się z administratorem systemu. Możesz też spróbować wylogować się i zalogować ponownie.</value>
   </data>
   <data name="Sorry, you do not have the necessary permissions to access this page." xml:space="preserve">
     <value>Przepraszamy, nie posiadasz wymaganych uprawnień, aby uzyskać dostęp do tej strony.</value>
   </data>
-  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
-    <value>Jeśli uważasz, że powinieneś mieć dostęp, skontaktuj się z administratorem systemu. Możesz też spróbować wylogować się i zalogować ponownie.</value>
+  <data name="Try again" xml:space="preserve">
+    <value>Spróbuj ponownie</value>
   </data>
 
 </root>

@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Name" xml:space="preserve">
-    <value>नाम</value>
+      <data name="Account Details" xml:space="preserve">
+    <value>खाता विवरण</value>
   </data>
-  <data name="Email" xml:space="preserve">
-    <value>ईमेल</value>
+  <data name="An overview of the user&apos;s profile, assigned roles, and effective permissions." xml:space="preserve">
+    <value>उपयोगकर्ता के प्रोफ़ाइल, सौंपी गई भूमिकाओं और प्रभावी अनुमतियों का एक सिंहावलोकन।</value>
+  </data>
+  <data name="Assigned Roles" xml:space="preserve">
+    <value>नियत भूमिकाएँ</value>
+  </data>
+  <data name="Back to list" xml:space="preserve">
+    <value>सूची पर वापस जाएं</value>
   </data>
   <data name="Basic Information" xml:space="preserve">
     <value>मूल जानकारी</value>
@@ -30,44 +36,38 @@
   <data name="Creation Time" xml:space="preserve">
     <value>निर्माण समय</value>
   </data>
-  <data name="User Details:" xml:space="preserve">
-    <value>उपयोगकर्ता विवरण:</value>
-  </data>
-  <data name="Assigned Roles" xml:space="preserve">
-    <value>नियत भूमिकाएँ</value>
-  </data>
-  <data name="This user has not been assigned any roles." xml:space="preserve">
-    <value>इस उपयोगकर्ता को कोई भूमिका नहीं दी गई है।</value>
-  </data>
-  <data name="An overview of the user&apos;s profile, assigned roles, and effective permissions." xml:space="preserve">
-    <value>उपयोगकर्ता के प्रोफ़ाइल, सौंपी गई भूमिकाओं और प्रभावी अनुमतियों का एक सिंहावलोकन।</value>
-  </data>
   <data name="Delete this User" xml:space="preserve">
     <value>इस उपयोगकर्ता को हटाएं</value>
   </data>
   <data name="Edit this User" xml:space="preserve">
     <value>इस उपयोगकर्ता को संपादित करें</value>
   </data>
+  <data name="Effective Permissions" xml:space="preserve">
+    <value>प्रभावी अनुमतियाँ</value>
+  </data>
   <data name="Effective Permissions (from all roles)" xml:space="preserve">
     <value>प्रभावी अनुमतियाँ (सभी भूमिकाओं से)</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Profile Details" xml:space="preserve">
+    <value>प्रोफ़ाइल विवरण</value>
   </data>
   <data name="This user has no effective permissions." xml:space="preserve">
     <value>इस उपयोगकर्ता के पास कोई प्रभावी अनुमतियाँ नहीं हैं।</value>
   </data>
-  <data name="Back to list" xml:space="preserve">
-    <value>सूची पर वापस जाएं</value>
+  <data name="This user has not been assigned any roles." xml:space="preserve">
+    <value>इस उपयोगकर्ता को कोई भूमिका नहीं दी गई है।</value>
+  </data>
+  <data name="User Details:" xml:space="preserve">
+    <value>उपयोगकर्ता विवरण:</value>
   </data>
   <data name="User name" xml:space="preserve">
     <value>उपयोगकर्ता नाम</value>
-  </data>
-  <data name="Effective Permissions" xml:space="preserve">
-    <value>प्रभावी अनुमतियाँ</value>
-  </data>
-  <data name="Account Details" xml:space="preserve">
-    <value>खाता विवरण</value>
-  </data>
-  <data name="Profile Details" xml:space="preserve">
-    <value>प्रोफ़ाइल विवरण</value>
   </data>
 
 </root>

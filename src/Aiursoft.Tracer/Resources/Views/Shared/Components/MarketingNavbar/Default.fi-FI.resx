@@ -27,14 +27,14 @@
   <data name="Documentation" xml:space="preserve">
     <value>Dokumentaatio</value>
   </data>
+  <data name="GitHub" xml:space="preserve">
+    <value>GitHub</value>
+  </data>
   <data name="Source Code" xml:space="preserve">
     <value>Lähdekoodi</value>
   </data>
   <data name="Try the dashboard" xml:space="preserve">
     <value>Kokeile kojelautaa</value>
-  </data>
-  <data name="GitHub" xml:space="preserve">
-    <value>GitHub</value>
   </data>
 
 </root>

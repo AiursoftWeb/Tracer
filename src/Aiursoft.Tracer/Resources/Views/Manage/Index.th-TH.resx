@@ -21,38 +21,38 @@
       <data name="Account Management" xml:space="preserve">
     <value>การจัดการบัญชี</value>
   </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>เปลี่ยนการตั้งค่าบัญชีของคุณ</value>
-  </data>
-  <data name="Change your password" xml:space="preserve">
-    <value>เปลี่ยนรหัสผ่านของคุณ</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>คุณไม่สามารถเปลี่ยนรหัสผ่านได้ เนื่องจากการยืนยันตัวตนภายในระบบถูกปิดใช้งาน กรุณาแก้ไขโปรไฟล์ของคุณจากผู้ให้บริการยืนยันตัวตน</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>รหัสผ่าน</value>
-  </data>
-  <data name="Change your avatar" xml:space="preserve">
-    <value>เปลี่ยนอวาตาร์ของคุณ</value>
+  <data name="auth provider" xml:space="preserve">
+    <value>ผู้ให้บริการการรับรองความถูกต้อง</value>
   </data>
   <data name="Avatar settings" xml:space="preserve">
     <value>การตั้งค่าอวาตาร์</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>สำเร็จ!</value>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>เปลี่ยนการตั้งค่าบัญชีของคุณ</value>
   </data>
-  <data name="Profile" xml:space="preserve">
-    <value>โปรไฟล์</value>
+  <data name="Change your avatar" xml:space="preserve">
+    <value>เปลี่ยนอวาตาร์ของคุณ</value>
+  </data>
+  <data name="Change your password" xml:space="preserve">
+    <value>เปลี่ยนรหัสผ่านของคุณ</value>
   </data>
   <data name="Change your profile" xml:space="preserve">
     <value>เปลี่ยนโปรไฟล์ของคุณ</value>
   </data>
-  <data name="auth provider" xml:space="preserve">
-    <value>ผู้ให้บริการการรับรองความถูกต้อง</value>
+  <data name="Password" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>โปรไฟล์</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>สำเร็จ!</value>
   </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>คุณไม่สามารถเปลี่ยนรหัสผ่านได้ เนื่องจากการยืนยันตัวตนภายในระบบถูกปิดใช้งาน กรุณาแก้ไขโปรไฟล์ของคุณจาก</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>คุณไม่สามารถเปลี่ยนรหัสผ่านได้ เนื่องจากการยืนยันตัวตนภายในระบบถูกปิดใช้งาน กรุณาแก้ไขโปรไฟล์ของคุณจากผู้ให้บริการยืนยันตัวตน</value>
   </data>
 
 </root>

@@ -21,14 +21,14 @@
       <data name="An error has occurred." xml:space="preserve">
     <value>A apărut o eroare.</value>
   </data>
-  <data name="Your password has been changed." xml:space="preserve">
-    <value>Parola dvs. a fost modificată.</value>
+  <data name="The file is not a valid image." xml:space="preserve">
+    <value>Fișierul nu este o imagine validă.</value>
   </data>
   <data name="Your avatar has been saved." xml:space="preserve">
     <value>Avatarul tău a fost salvat.</value>
   </data>
-  <data name="The file is not a valid image." xml:space="preserve">
-    <value>Fișierul nu este o imagine validă.</value>
+  <data name="Your password has been changed." xml:space="preserve">
+    <value>Parola dvs. a fost modificată.</value>
   </data>
   <data name="Your profile has been saved." xml:space="preserve">
     <value>Profilul dvs. a fost salvat.</value>

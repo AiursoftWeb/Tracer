@@ -24,11 +24,11 @@
   <data name="Password" xml:space="preserve">
     <value>密碼</value>
   </data>
-  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
-    <value>{0} 必須至少包含 {2} 個字符，最多 {1} 個字符。</value>
-  </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>{0} 是必需的。</value>
+  </data>
+  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
+    <value>{0} 必須至少包含 {2} 個字符，最多 {1} 個字符。</value>
   </data>
 
 </root>

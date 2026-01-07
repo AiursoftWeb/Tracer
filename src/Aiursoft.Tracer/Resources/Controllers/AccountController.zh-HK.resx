@@ -21,14 +21,14 @@
       <data name="Invalid login attempt." xml:space="preserve">
     <value>登入嘗試無效。</value>
   </data>
-  <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>此帳戶已被鎖定，請稍後再試。</value>
-  </data>
   <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
     <value>登入嘗試無效。請檢查使用者名稱同密碼。</value>
   </data>
   <data name="The username already exists. Please try another username." xml:space="preserve">
     <value>該用戶名稱已被使用。請嘗試另一個用戶名稱。</value>
+  </data>
+  <data name="This account has been locked out, please try again later." xml:space="preserve">
+    <value>此帳戶已被鎖定，請稍後再試。</value>
   </data>
 
 </root>

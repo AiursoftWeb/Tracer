@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change profile" xml:space="preserve">
-    <value>Muokkaa profiilia</value>
-  </data>
-  <data name="Edit your profile" xml:space="preserve">
-    <value>Muokkaa profiiliasi</value>
-  </data>
-  <data name="Cancel" xml:space="preserve">
+      <data name="Cancel" xml:space="preserve">
     <value>Peruuta</value>
   </data>
-  <data name="Profile Information" xml:space="preserve">
-    <value>Profiilitiedot</value>
+  <data name="Change profile" xml:space="preserve">
+    <value>Muokkaa profiilia</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>Näyttönimi</value>
   </data>
-  <data name="Save changes" xml:space="preserve">
-    <value>Tallenna muutokset</value>
+  <data name="Edit your profile" xml:space="preserve">
+    <value>Muokkaa profiiliasi</value>
   </data>
   <data name="Enter your display name" xml:space="preserve">
     <value>Kirjoita näyttönimesi</value>
+  </data>
+  <data name="Profile Information" xml:space="preserve">
+    <value>Profiilitiedot</value>
+  </data>
+  <data name="Save changes" xml:space="preserve">
+    <value>Tallenna muutokset</value>
   </data>
   <data name="This name will be displayed publicly across the application." xml:space="preserve">
     <value>Tämä nimi näytetään julkisesti koko sovelluksessa.</value>

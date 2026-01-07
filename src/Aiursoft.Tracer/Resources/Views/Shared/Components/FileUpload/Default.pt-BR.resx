@@ -18,38 +18,38 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Remove" xml:space="preserve">
-    <value>Remover</value>
-  </data>
-  <data name="Ooops, something wrong happended." xml:space="preserve">
-    <value>Ops, algo deu errado.</value>
+      <data name="Drag and drop a file here or click" xml:space="preserve">
+    <value>Arraste e solte um arquivo aqui ou clique</value>
   </data>
   <data name="Drag and drop or click to replace" xml:space="preserve">
     <value>Arraste e solte ou clique para substituir</value>
   </data>
-  <data name="Drag and drop a file here or click" xml:space="preserve">
-    <value>Arraste e solte um arquivo aqui ou clique</value>
+  <data name="Ooops, something wrong happended." xml:space="preserve">
+    <value>Ops, algo deu errado.</value>
   </data>
-  <data name="The image height is too small ({{ value }}px min)." xml:space="preserve">
-    <value>A altura da imagem é muito pequena (mínimo de {{ value }}px).</value>
+  <data name="Remove" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="The file is not allowed ({{ value }} only)." xml:space="preserve">
+    <value>O arquivo não é permitido (apenas {{ value }}).</value>
   </data>
   <data name="The file size is too big ({{ value }} max)." xml:space="preserve">
     <value>O tamanho do arquivo é muito grande (máximo de {{ value }}).</value>
+  </data>
+  <data name="The image format is not allowed ({{ value }} only)." xml:space="preserve">
+    <value>O formato da imagem não é permitido (apenas {{ value }}).</value>
+  </data>
+  <data name="The image height is too big ({{ value }}px max)." xml:space="preserve">
+    <value>A altura da imagem é muito grande (máximo de {{ value }}px).</value>
+  </data>
+  <data name="The image height is too small ({{ value }}px min)." xml:space="preserve">
+    <value>A altura da imagem é muito pequena (mínimo de {{ value }}px).</value>
   </data>
   <data name="The image width is too big ({{ value }}px max)." xml:space="preserve">
     <value>A largura da imagem é muito grande (máximo de {{ value }}px).</value>
   </data>
   <data name="The image width is too small ({{ value }}px min)." xml:space="preserve">
     <value>A largura da imagem é muito pequena (mínimo de {{ value }}px).</value>
-  </data>
-  <data name="The image height is too big ({{ value }}px max)." xml:space="preserve">
-    <value>A altura da imagem é muito grande (máximo de {{ value }}px).</value>
-  </data>
-  <data name="The image format is not allowed ({{ value }} only)." xml:space="preserve">
-    <value>O formato da imagem não é permitido (apenas {{ value }}).</value>
-  </data>
-  <data name="The file is not allowed ({{ value }} only)." xml:space="preserve">
-    <value>O arquivo não é permitido (apenas {{ value }}).</value>
   </data>
 
 </root>

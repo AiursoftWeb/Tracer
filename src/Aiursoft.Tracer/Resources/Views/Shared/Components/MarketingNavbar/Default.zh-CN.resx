@@ -18,20 +18,20 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Documentation" xml:space="preserve">
-    <value>文档</value>
+      <data name="Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft 模板</value>
   </data>
   <data name="Community" xml:space="preserve">
     <value>社区</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>文档</value>
   </data>
   <data name="GitHub" xml:space="preserve">
     <value>GitHub</value>
   </data>
   <data name="Source Code" xml:space="preserve">
     <value>源代码</value>
-  </data>
-  <data name="Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft 模板</value>
   </data>
   <data name="Try the dashboard" xml:space="preserve">
     <value>试用仪表板</value>

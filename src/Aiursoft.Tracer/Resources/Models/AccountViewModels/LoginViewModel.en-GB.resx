@@ -24,11 +24,11 @@
   <data name="Password" xml:space="preserve">
     <value>Password</value>
   </data>
-  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
-    <value>The {0} must be at least {2} and at most {1} characters long.</value>
-  </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>The {0} is required.</value>
+  </data>
+  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
+    <value>The {0} must be at least {2} and at most {1} characters long.</value>
   </data>
 
 </root>

@@ -21,17 +21,17 @@
       <data name="Access Denied" xml:space="preserve">
     <value>Zugriff verweigert</value>
   </data>
-  <data name="Try again" xml:space="preserve">
-    <value>Erneut versuchen</value>
-  </data>
   <data name="Back to Home" xml:space="preserve">
     <value>Zurück zur Startseite</value>
+  </data>
+  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
+    <value>Wenn Sie glauben, dass Sie Zugriff haben sollten, wenden Sie sich bitte an Ihren Systemadministrator. Oder versuchen Sie, sich ab- und wieder anzumelden.</value>
   </data>
   <data name="Sorry, you do not have the necessary permissions to access this page." xml:space="preserve">
     <value>Entschuldigung, Sie verfügen nicht über die erforderlichen Berechtigungen, um auf diese Seite zuzugreifen.</value>
   </data>
-  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
-    <value>Wenn Sie glauben, dass Sie Zugriff haben sollten, wenden Sie sich bitte an Ihren Systemadministrator. Oder versuchen Sie, sich ab- und wieder anzumelden.</value>
+  <data name="Try again" xml:space="preserve">
+    <value>Erneut versuchen</value>
   </data>
 
 </root>

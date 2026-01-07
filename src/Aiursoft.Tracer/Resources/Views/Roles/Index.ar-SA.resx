@@ -18,11 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Manage Roles" xml:space="preserve">
-    <value>إدارة الأدوار</value>
+      <data name="Actions" xml:space="preserve">
+    <value>الإجراءات</value>
   </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>اسم الدور</value>
+  <data name="All Roles" xml:space="preserve">
+    <value>جميع الأدوار</value>
   </data>
   <data name="Create a new role" xml:space="preserve">
     <value>إنشاء دور جديد</value>
@@ -30,20 +30,20 @@
   <data name="Delete" xml:space="preserve">
     <value>حذف</value>
   </data>
-  <data name="Actions" xml:space="preserve">
-    <value>الإجراءات</value>
-  </data>
-  <data name="User Count" xml:space="preserve">
-    <value>عدد المستخدمين</value>
-  </data>
   <data name="Edit" xml:space="preserve">
     <value>تعديل</value>
   </data>
-  <data name="All Roles" xml:space="preserve">
-    <value>جميع الأدوار</value>
+  <data name="Manage Roles" xml:space="preserve">
+    <value>إدارة الأدوار</value>
+  </data>
+  <data name="Role Name" xml:space="preserve">
+    <value>اسم الدور</value>
   </data>
   <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
     <value>اختر دورًا لعرض تفاصيله، أو استخدم الإجراءات للتعديل أو الحذف.</value>
+  </data>
+  <data name="User Count" xml:space="preserve">
+    <value>عدد المستخدمين</value>
   </data>
 
 </root>

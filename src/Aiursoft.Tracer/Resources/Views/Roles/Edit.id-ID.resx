@@ -18,41 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Edit" xml:space="preserve">
-    <value>Ubah</value>
-  </data>
-  <data name="Role" xml:space="preserve">
-    <value>Peran</value>
-  </data>
-  <data name="Save" xml:space="preserve">
-    <value>Simpan</value>
-  </data>
-  <data name="Back to List" xml:space="preserve">
+      <data name="Back to List" xml:space="preserve">
     <value>Kembali ke Daftar</value>
   </data>
-  <data name="Manage Claims for this Role" xml:space="preserve">
-    <value>Kelola Klaim untuk Peran Ini</value>
-  </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Peringatan!</value>
-  </data>
-  <data name="This role is synchronized from an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the name) may cause conflicts during the next data sync. For permanent changes, please update the role directly on your OIDC provider." xml:space="preserve">
-    <value>Peran ini disinkronkan dari penyedia OpenID Connect (OIDC). Modifikasi apa pun yang dibuat di sini (misalnya, pada nama) dapat menyebabkan konflik selama sinkronisasi data berikutnya. Untuk perubahan permanen, harap perbarui peran langsung di penyedia OIDC Anda.</value>
-  </data>
-  <data name="Save Changes" xml:space="preserve">
-    <value>Simpan Perubahan</value>
+  <data name="Edit" xml:space="preserve">
+    <value>Ubah</value>
   </data>
   <data name="Edit Role" xml:space="preserve">
     <value>Edit Peran</value>
   </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>Nama Peran</value>
+  <data name="Manage Claims for this Role" xml:space="preserve">
+    <value>Kelola Klaim untuk Peran Ini</value>
+  </data>
+  <data name="Manage Permissions for this Role" xml:space="preserve">
+    <value>Kelola Izin untuk Peran Ini</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Peran</value>
   </data>
   <data name="Role Details and Permissions" xml:space="preserve">
     <value>Detail dan Izin Peran</value>
   </data>
-  <data name="Manage Permissions for this Role" xml:space="preserve">
-    <value>Kelola Izin untuk Peran Ini</value>
+  <data name="Role Name" xml:space="preserve">
+    <value>Nama Peran</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="Save Changes" xml:space="preserve">
+    <value>Simpan Perubahan</value>
+  </data>
+  <data name="This role is synchronized from an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the name) may cause conflicts during the next data sync. For permanent changes, please update the role directly on your OIDC provider." xml:space="preserve">
+    <value>Peran ini disinkronkan dari penyedia OpenID Connect (OIDC). Modifikasi apa pun yang dibuat di sini (misalnya, pada nama) dapat menyebabkan konflik selama sinkronisasi data berikutnya. Untuk perubahan permanen, harap perbarui peran langsung di penyedia OIDC Anda.</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>Peringatan!</value>
   </data>
 
 </root>

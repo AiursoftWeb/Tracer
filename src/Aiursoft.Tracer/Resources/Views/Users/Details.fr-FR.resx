@@ -18,11 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Name" xml:space="preserve">
-    <value>Nom</value>
+      <data name="Account Details" xml:space="preserve">
+    <value>Détails du compte</value>
   </data>
-  <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
+  <data name="An overview of the user&apos;s profile, assigned roles, and effective permissions." xml:space="preserve">
+    <value>Aperçu du profil de l&apos;utilisateur, des rôles attribués et des permissions effectives.</value>
+  </data>
+  <data name="Assigned Roles" xml:space="preserve">
+    <value>Rôles attribués</value>
+  </data>
+  <data name="Back to list" xml:space="preserve">
+    <value>Retour à la liste</value>
   </data>
   <data name="Basic Information" xml:space="preserve">
     <value>Informations de base</value>
@@ -30,44 +36,38 @@
   <data name="Creation Time" xml:space="preserve">
     <value>Date de création</value>
   </data>
-  <data name="Assigned Roles" xml:space="preserve">
-    <value>Rôles attribués</value>
-  </data>
-  <data name="User Details:" xml:space="preserve">
-    <value>Détails de l&apos;utilisateur :</value>
-  </data>
-  <data name="This user has not been assigned any roles." xml:space="preserve">
-    <value>Cet utilisateur n&apos;a été assigné à aucun rôle.</value>
-  </data>
-  <data name="An overview of the user&apos;s profile, assigned roles, and effective permissions." xml:space="preserve">
-    <value>Aperçu du profil de l&apos;utilisateur, des rôles attribués et des permissions effectives.</value>
-  </data>
-  <data name="Effective Permissions (from all roles)" xml:space="preserve">
-    <value>Permissions effectives (de tous les rôles)</value>
-  </data>
   <data name="Delete this User" xml:space="preserve">
     <value>Supprimer cet utilisateur</value>
-  </data>
-  <data name="Back to list" xml:space="preserve">
-    <value>Retour à la liste</value>
   </data>
   <data name="Edit this User" xml:space="preserve">
     <value>Modifier cet utilisateur</value>
   </data>
-  <data name="This user has no effective permissions." xml:space="preserve">
-    <value>Cet utilisateur n&apos;a aucune autorisation effective.</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Nom d&apos;utilisateur</value>
-  </data>
   <data name="Effective Permissions" xml:space="preserve">
     <value>Permissions effectives</value>
+  </data>
+  <data name="Effective Permissions (from all roles)" xml:space="preserve">
+    <value>Permissions effectives (de tous les rôles)</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
   </data>
   <data name="Profile Details" xml:space="preserve">
     <value>Détails du profil</value>
   </data>
-  <data name="Account Details" xml:space="preserve">
-    <value>Détails du compte</value>
+  <data name="This user has no effective permissions." xml:space="preserve">
+    <value>Cet utilisateur n&apos;a aucune autorisation effective.</value>
+  </data>
+  <data name="This user has not been assigned any roles." xml:space="preserve">
+    <value>Cet utilisateur n&apos;a été assigné à aucun rôle.</value>
+  </data>
+  <data name="User Details:" xml:space="preserve">
+    <value>Détails de l&apos;utilisateur :</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Nom d&apos;utilisateur</value>
   </data>
 
 </root>

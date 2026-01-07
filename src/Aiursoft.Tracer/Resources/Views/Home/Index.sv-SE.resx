@@ -18,245 +18,95 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Welcome" xml:space="preserve">
-    <value>Välkommen</value>
+      <data name=", From " xml:space="preserve">
+    <value>, Från</value>
   </data>
-  <data name="This is a template project" xml:space="preserve">
-    <value>Det här är ett mallprojekt</value>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/s</value>
   </data>
-  <data name="Multiple Database Support" xml:space="preserve">
-    <value>Stöd för flera databaser</value>
-  </data>
-  <data name="Hello World!" xml:space="preserve">
-    <value>Hej Världen!</value>
-  </data>
-  <data name="Why use the Aiursoft Template?" xml:space="preserve">
-    <value>Varför använda Aiursoft Template?</value>
-  </data>
-  <data name="RBAC Authorization" xml:space="preserve">
-    <value>RBAC-auktorisering</value>
-  </data>
-  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
-    <value>En modern, funktionsrik och mycket utbyggbar grund för din nästa webbapplikation.</value>
-  </data>
-  <data name="OpenID Connect Integration" xml:space="preserve">
-    <value>OpenID Connect-integrering</value>
-  </data>
-  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
-    <value>Enkelt växla mellan leverantörer som SQLite, MySQL, SQL Server och ett minnesbaserat databassystem för testning.</value>
-  </data>
-  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
-    <value>Integrera sömlöst med vilken OpenID Connect-leverantör som helst, med automatisk rollsynkronisering.</value>
-  </data>
-  <data name="Dynamic Navigation Bar" xml:space="preserve">
-    <value>Dynamiskt navigeringsfält</value>
-  </data>
-  <data name="AI-Powered Translations" xml:space="preserve">
-    <value>AI-drivna översättningar</value>
-  </data>
-  <data name="Comprehensive Documentation" xml:space="preserve">
-    <value>Omfattande dokumentation</value>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbit/s</value>
   </data>
   <data name="A built-in Role-Based Access Control (RBAC) system for fine-grained permission management." xml:space="preserve">
     <value>Ett inbyggt rollbaserat åtkomstkontrollsystem (RBAC) för detaljerad behörighetshantering.</value>
   </data>
-  <data name="Built-in User Management" xml:space="preserve">
-    <value>Inbyggd användarhantering</value>
-  </data>
-  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
-    <value>Automatisk, AI-driven översättning till 28 språk för global räckvidd.</value>
-  </data>
-  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
-    <value>Navigeringsfältet anpassas automatiskt baserat på användarroller och behörigheter.</value>
-  </data>
-  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
-    <value>Inkluderar omfattande dokumentation och praktiska exempel för att du snabbt ska komma igång.</value>
-  </data>
-  <data name="Integrated File Management" xml:space="preserve">
-    <value>Integrerad filhantering</value>
-  </data>
-  <data name="Automatic Dependency Injection" xml:space="preserve">
-    <value>Automatisk beroendeinjektion</value>
-  </data>
-  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
-    <value>Alla beroenden registreras automatiskt och är alltid tillgängliga via konstruktorinjektion.</value>
-  </data>
   <data name="A complete solution for user authentication and profile management right out of the box." xml:space="preserve">
     <value>En komplett lösning för användarautentisering och profilanpassning direkt ur lådan.</value>
-  </data>
-  <data name="Responsive Design" xml:space="preserve">
-    <value>Responsiv Design</value>
-  </data>
-  <data name="Automatic Dark Mode" xml:space="preserve">
-    <value>Automatiskt mörkt läge</value>
   </data>
   <data name="A fully responsive layout that looks great on both desktop and mobile devices." xml:space="preserve">
     <value>En helt responsiv layout som ser bra ut på både skrivbord och mobila enheter.</value>
   </data>
-  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
-    <value>Har ett inbyggt filhanteringssystem med automatisk komprimering av avatarer.</value>
-  </data>
-  <data name="Dockerized for Deployment" xml:space="preserve">
-    <value>Dockeriserad för distribution</value>
-  </data>
-  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
-    <value>Smart mörkt läge som automatiskt anpassar sig efter användarens systeminställningar.</value>
-  </data>
-  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
-    <value>Levererar fullt Docker-stöd för förenklade, konsekventa och pålitliga distributioner.</value>
-  </data>
-  <data name="Read the document" xml:space="preserve">
-    <value>Läs dokumentet</value>
-  </data>
-  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
-    <value>Det här är ett mallprojekt, där vi startar resan...</value>
-  </data>
-  <data name="Features" xml:space="preserve">
-    <value>Funktioner</value>
-  </data>
-  <data name="Free" xml:space="preserve">
-    <value>Gratis</value>
-  </data>
-  <data name="faster" xml:space="preserve">
-    <value>snabbare</value>
-  </data>
-  <data name="Usage" xml:space="preserve">
-    <value>Användning</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT-licens</value>
-  </data>
-  <data name="Open Source" xml:space="preserve">
-    <value>Öppen källkod</value>
-  </data>
-  <data name="Go to dashboard" xml:space="preserve">
-    <value>Gå till instrumentpanelen</value>
-  </data>
-  <data name="Build your next big thing," xml:space="preserve">
-    <value>Bygg din nästa stora grej,</value>
+  <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
+    <value>En modern, funktionsrik och mycket utbyggbar grund för din nästa webbapplikation.</value>
   </data>
   <data name="Achieve more with Aiursoft Template" xml:space="preserve">
     <value>Uppnå mer med Aiursoft Template</value>
   </data>
-  <data name="Music Tools" xml:space="preserve">
-    <value>Musikverktyg</value>
-  </data>
-  <data name="Reviews" xml:space="preserve">
-    <value>Recensioner</value>
-  </data>
-  <data name="Markdown To HTML" xml:space="preserve">
-    <value>Markdown till HTML</value>
-  </data>
-  <data name="What our developers say" xml:space="preserve">
-    <value>Vad våra utvecklare säger</value>
-  </data>
-  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
-    <value>Här är vad utvecklare från vår community har att säga.</value>
-  </data>
-  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
-    <value>Använd den som grund för din SaaS, som backend för din mobilapp, som företagswebbplats eller som en personlig blogg. Möjligheterna är oändliga.</value>
-  </data>
-  <data name="Dashboard Website" xml:space="preserve">
-    <value>Instrumentpanelswebbplats</value>
-  </data>
-  <data name="Anduin" xml:space="preserve">
-    <value>Anduin</value>
-  </data>
-  <data name="Technical Lead" xml:space="preserve">
-    <value>Teknisk ledare</value>
-  </data>
-  <data name="FAQ" xml:space="preserve">
-    <value>Vanliga frågor</value>
-  </data>
-  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
-    <value>Är det gratis att använda Aiursoft Template?</value>
-  </data>
-  <data name="Frequently asked questions" xml:space="preserve">
-    <value>Vanliga frågor</value>
-  </data>
-  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
-    <value>Här är några av de svar du kanske letar efter.</value>
-  </data>
-  <data name="What do I need to get started?" xml:space="preserve">
-    <value>Vad behöver jag för att komma igång?</value>
-  </data>
-  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
-    <value>Ja, Aiursoft Template är helt gratis och öppen källkod under MIT-licensen. Du kan använda den för både privata och kommersiella projekt utan någon kostnad.</value>
+  <data name="AI-Powered Translations" xml:space="preserve">
+    <value>AI-drivna översättningar</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template är vårt slutgiltiga val för företagsprojekt! Den är byggd för utvecklare och är lättviktig men ändå kraftfull. Vi kan hoppa över all standardkod för autentisering och användarhantering.</value>
   </data>
-  <data name="How do I deploy my application?" xml:space="preserve">
-    <value>Hur distribuerar jag min applikation?</value>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer är en enkel app för att testa nätverkskvalitet. Den hjälper till att testa anslutningshastigheten mellan dig och servern.</value>
   </data>
-  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
-    <value>Du behöver .NET 10 SDK, npm och din favorit-IDE, som Visual Studio eller JetBrains Rider. Du hittar den fullständiga installationsguiden i vår dokumentation.</value>
+  <data name="All dependencies are automatically registered and always available via constructor injection." xml:space="preserve">
+    <value>Alla beroenden registreras automatiskt och är alltid tillgängliga via konstruktorinjektion.</value>
   </data>
-  <data name="Discussions page" xml:space="preserve">
-    <value>Diskussionssida</value>
+  <data name="Anduin" xml:space="preserve">
+    <value>Anduin</value>
   </data>
-  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
-    <value>Du kan få communitysupport via GitHub Discussions. Besök vår</value>
+  <data name="Automatic Dark Mode" xml:space="preserve">
+    <value>Automatiskt mörkt läge</value>
   </data>
-  <data name="How can I get support?" xml:space="preserve">
-    <value>Hur får jag support?</value>
+  <data name="Automatic Dependency Injection" xml:space="preserve">
+    <value>Automatisk beroendeinjektion</value>
   </data>
-  <data name="Join Discussions" xml:space="preserve">
-    <value>Delta i diskussioner</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>för frågor eller för att rapportera problem.</value>
-  </data>
-  <data name="Join our community and start building today!" xml:space="preserve">
-    <value>Gå med i vår community och börja bygga idag!</value>
-  </data>
-  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
-    <value>Mallen är byggd för enkel distribution. Den inkluderar fullt Docker-stöd, så du kan containerisera din app och köra den var som helst. Du kan också distribuera den direkt till IIS, Azure App Service eller vilken server som helst som stöder ASP.NET Core.</value>
-  </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Starta ett nytt projekt</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>HTTP-svarstidstest</value>
-  </data>
-  <data name="Hola!" xml:space="preserve">
-    <value>Hej!</value>
-  </data>
-  <data name="Diagnostics" xml:space="preserve">
-    <value>Diagnostik</value>
-  </data>
-  <data name="Network" xml:space="preserve">
-    <value>Nätverk</value>
-  </data>
-  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
-    <value>Skickar ett enkelt meddelande till servern. Lägre är bättre.</value>
-  </data>
-  <data name="Dashboard" xml:space="preserve">
-    <value>Instrumentpanel</value>
-  </data>
-  <data name="Start Test" xml:space="preserve">
-    <value>Starta test</value>
-  </data>
-  <data name="Log filter (ms)" xml:space="preserve">
-    <value>Loggfilter (ms)</value>
-  </data>
-  <data name="Real-time Chart" xml:space="preserve">
-    <value>Realtidsdiagram</value>
+  <data name="Automatic, AI-driven translation into 28 languages for global reach." xml:space="preserve">
+    <value>Automatisk, AI-driven översättning till 28 språk för global räckvidd.</value>
   </data>
   <data name="Bandwidth" xml:space="preserve">
     <value>Bandbredd</value>
   </data>
+  <data name="Build your next big thing," xml:space="preserve">
+    <value>Bygg din nästa stora grej,</value>
+  </data>
+  <data name="Built-in User Management" xml:space="preserve">
+    <value>Inbyggd användarhantering</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Rensa logg</value>
+  </data>
+  <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
+    <value>Levererar fullt Docker-stöd för förenklade, konsekventa och pålitliga distributioner.</value>
+  </data>
+  <data name="Comprehensive Documentation" xml:space="preserve">
+    <value>Omfattande dokumentation</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Aktuellt intervall</value>
+  </data>
   <data name="Current Status" xml:space="preserve">
     <value>Aktuell status</value>
   </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Stopp</value>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Instrumentpanel</value>
   </data>
-  <data name="Waiting..." xml:space="preserve">
-    <value>Väntar...</value>
+  <data name="Dashboard Website" xml:space="preserve">
+    <value>Instrumentpanelswebbplats</value>
   </data>
-  <data name="Max Latency" xml:space="preserve">
-    <value>Maximal fördröjning</value>
+  <data name="Diagnostics" xml:space="preserve">
+    <value>Diagnostik</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Direktlänk</value>
+  </data>
+  <data name="Discussions page" xml:space="preserve">
+    <value>Diskussionssida</value>
+  </data>
+  <data name="Dockerized for Deployment" xml:space="preserve">
+    <value>Dockeriserad för distribution</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Nedladdningshastighetstest</value>
@@ -264,17 +114,146 @@
   <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
     <value>Laddar ner 4 GB-stycken. Högre är bättre.</value>
   </data>
-  <data name="Or test directly:" xml:space="preserve">
-    <value>Eller testa direkt:</value>
+  <data name="Dynamic Navigation Bar" xml:space="preserve">
+    <value>Dynamiskt navigeringsfält</value>
+  </data>
+  <data name="Easily switch between providers like SQLite, MySQL, SQL Server, and an in-memory database for testing." xml:space="preserve">
+    <value>Enkelt växla mellan leverantörer som SQLite, MySQL, SQL Server och ett minnesbaserat databassystem för testning.</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Händelsesvarsdiagram</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Fellogg</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Vanliga frågor</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>snabbare</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Funktioner</value>
+  </data>
+  <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
+    <value>Har ett inbyggt filhanteringssystem med automatisk komprimering av avatarer.</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>för frågor eller för att rapportera problem.</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>Gratis</value>
+  </data>
+  <data name="Frequently asked questions" xml:space="preserve">
+    <value>Vanliga frågor</value>
+  </data>
+  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
+    <value>Mellanrum mellan serverhändelser. Mål: ~100ms.</value>
+  </data>
+  <data name="Go to dashboard" xml:space="preserve">
+    <value>Gå till instrumentpanelen</value>
+  </data>
+  <data name="Hello World!" xml:space="preserve">
+    <value>Hej Världen!</value>
+  </data>
+  <data name="Here are some of the answers you might be looking for." xml:space="preserve">
+    <value>Här är några av de svar du kanske letar efter.</value>
+  </data>
+  <data name="Here&apos;s what developers from our community have to say." xml:space="preserve">
+    <value>Här är vad utvecklare från vår community har att säga.</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Hej!</value>
+  </data>
+  <data name="How can I get support?" xml:space="preserve">
+    <value>Hur får jag support?</value>
+  </data>
+  <data name="How do I deploy my application?" xml:space="preserve">
+    <value>Hur distribuerar jag min applikation?</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP-svarstidstest</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Inaktiv</value>
+  </data>
+  <data name="Includes extensive documentation and practical examples to get you started quickly." xml:space="preserve">
+    <value>Inkluderar omfattande dokumentation och praktiska exempel för att du snabbt ska komma igång.</value>
+  </data>
+  <data name="Integrated File Management" xml:space="preserve">
+    <value>Integrerad filhantering</value>
+  </data>
+  <data name="Is it free to use Aiursoft Template?" xml:space="preserve">
+    <value>Är det gratis att använda Aiursoft Template?</value>
+  </data>
+  <data name="Join Discussions" xml:space="preserve">
+    <value>Delta i diskussioner</value>
+  </data>
+  <data name="Join our community and start building today!" xml:space="preserve">
+    <value>Gå med i vår community och börja bygga idag!</value>
   </data>
   <data name="Log filter (MB/s)" xml:space="preserve">
     <value>Loggfilter (MB/s)</value>
   </data>
-  <data name="0 MB/s" xml:space="preserve">
-    <value>0 MB/s</value>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Loggfilter (ms)</value>
   </data>
-  <data name="Direct Link" xml:space="preserve">
-    <value>Direktlänk</value>
+  <data name="Markdown To HTML" xml:space="preserve">
+    <value>Markdown till HTML</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Maximalt intervall</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Maximal fördröjning</value>
+  </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-licens</value>
+  </data>
+  <data name="Multiple Database Support" xml:space="preserve">
+    <value>Stöd för flera databaser</value>
+  </data>
+  <data name="Music Tools" xml:space="preserve">
+    <value>Musikverktyg</value>
+  </data>
+  <data name="Network" xml:space="preserve">
+    <value>Nätverk</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Nätverksdiagnostik</value>
+  </data>
+  <data name="Open Source" xml:space="preserve">
+    <value>Öppen källkod</value>
+  </data>
+  <data name="OpenID Connect Integration" xml:space="preserve">
+    <value>OpenID Connect-integrering</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Eller testa direkt:</value>
+  </data>
+  <data name="RBAC Authorization" xml:space="preserve">
+    <value>RBAC-auktorisering</value>
+  </data>
+  <data name="Read the document" xml:space="preserve">
+    <value>Läs dokumentet</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Realtidsdiagram</value>
+  </data>
+  <data name="Responsive Design" xml:space="preserve">
+    <value>Responsiv Design</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Recensioner</value>
+  </data>
+  <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
+    <value>Integrera sömlöst med vilken OpenID Connect-leverantör som helst, med automatisk rollsynkronisering.</value>
+  </data>
+  <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
+    <value>Skickar ett enkelt meddelande till servern. Lägre är bättre.</value>
+  </data>
+  <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
+    <value>Smart mörkt läge som automatiskt anpassar sig efter användarens systeminställningar.</value>
   </data>
   <data name="Speed (MB/s)" xml:space="preserve">
     <value>Hastighet (MB/s)</value>
@@ -282,65 +261,86 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>Hastighet (Mbit/s)</value>
   </data>
-  <data name="Throughput Chart" xml:space="preserve">
-    <value>Genomströmningsdiagram</value>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Starta ett nytt projekt</value>
   </data>
-  <data name="0 Mbps" xml:space="preserve">
-    <value>0 Mbit/s</value>
+  <data name="Start Test" xml:space="preserve">
+    <value>Starta test</value>
   </data>
-  <data name="WebSocket Latency" xml:space="preserve">
-    <value>WebSocket-fördröjning</value>
+  <data name="Stop" xml:space="preserve">
+    <value>Stopp</value>
   </data>
-  <data name="Idle" xml:space="preserve">
-    <value>Inaktiv</value>
+  <data name="Technical Lead" xml:space="preserve">
+    <value>Teknisk ledare</value>
   </data>
-  <data name="Current Gap" xml:space="preserve">
-    <value>Aktuellt intervall</value>
+  <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
+    <value>Navigeringsfältet anpassas automatiskt baserat på användarroller och behörigheter.</value>
   </data>
-  <data name="Gap between server events. Target: ~100ms." xml:space="preserve">
-    <value>Mellanrum mellan serverhändelser. Mål: ~100ms.</value>
+  <data name="The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core." xml:space="preserve">
+    <value>Mallen är byggd för enkel distribution. Den inkluderar fullt Docker-stöd, så du kan containerisera din app och köra den var som helst. Du kan också distribuera den direkt till IIS, Azure App Service eller vilken server som helst som stöder ASP.NET Core.</value>
   </data>
-  <data name="Trigger" xml:space="preserve">
-    <value>Utlösare</value>
+  <data name="This is a template project" xml:space="preserve">
+    <value>Det här är ett mallprojekt</value>
   </data>
-  <data name="Max Gap" xml:space="preserve">
-    <value>Maximalt intervall</value>
-  </data>
-  <data name="Time" xml:space="preserve">
-    <value>Tid</value>
-  </data>
-  <data name="Event Latency Chart" xml:space="preserve">
-    <value>Händelsesvarsdiagram</value>
-  </data>
-  <data name="Value" xml:space="preserve">
-    <value>Värde</value>
-  </data>
-  <data name="Clear Log" xml:space="preserve">
-    <value>Rensa logg</value>
-  </data>
-  <data name="Exception Log" xml:space="preserve">
-    <value>Fellogg</value>
-  </data>
-  <data name="Network Diagnostics" xml:space="preserve">
-    <value>Nätverksdiagnostik</value>
+  <data name="This is a template project, where we start the voyager..." xml:space="preserve">
+    <value>Det här är ett mallprojekt, där vi startar resan...</value>
   </data>
   <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
     <value>Detta nummer anger tidsintervallet mellan nuvarande serverhändelse och föregående serverhändelse. Numret bör ligga nära 100ms. Mer än 120ms eller mindre än 90ms är inte lämpligt.</value>
   </data>
-  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
-    <value>Din webbläsare kommer att skicka servern ett enkelt meddelande och få ett enkelt svar. Denna siffra representerar tiden det tar från förfrågan till svar. Ju lägre siffra, desto bättre är ditt nätverk.</value>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Genomströmningsdiagram</value>
   </data>
-  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
-    <value>Din webbläsare kommer att ladda ner 4 filer på 4 GB från vår server. Från det att den börjar tills den hämtar filen kommer vi att hjälpa dig att beräkna din nedladdningshastighet. Ju högre tal, desto bättre är ditt nätverk.</value>
+  <data name="Time" xml:space="preserve">
+    <value>Tid</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Utlösare</value>
+  </data>
+  <data name="Usage" xml:space="preserve">
+    <value>Användning</value>
+  </data>
+  <data name="Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless." xml:space="preserve">
+    <value>Använd den som grund för din SaaS, som backend för din mobilapp, som företagswebbplats eller som en personlig blogg. Möjligheterna är oändliga.</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Värde</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Väntar...</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>WebSocket-fördröjning</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Välkommen</value>
+  </data>
+  <data name="What do I need to get started?" xml:space="preserve">
+    <value>Vad behöver jag för att komma igång?</value>
+  </data>
+  <data name="What our developers say" xml:space="preserve">
+    <value>Vad våra utvecklare säger</value>
+  </data>
+  <data name="Why use the Aiursoft Template?" xml:space="preserve">
+    <value>Varför använda Aiursoft Template?</value>
+  </data>
+  <data name="Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost." xml:space="preserve">
+    <value>Ja, Aiursoft Template är helt gratis och öppen källkod under MIT-licensen. Du kan använda den för både privata och kommersiella projekt utan någon kostnad.</value>
   </data>
   <data name="You are connecting as:" xml:space="preserve">
     <value>Du ansluter som:</value>
   </data>
-  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
-    <value>Aiursoft Tracer är en enkel app för att testa nätverkskvalitet. Den hjälper till att testa anslutningshastigheten mellan dig och servern.</value>
+  <data name="You can get community support via GitHub Discussions. Please visit our" xml:space="preserve">
+    <value>Du kan få communitysupport via GitHub Discussions. Besök vår</value>
   </data>
-  <data name=", From " xml:space="preserve">
-    <value>, Från</value>
+  <data name="You&apos;ll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation." xml:space="preserve">
+    <value>Du behöver .NET 10 SDK, npm och din favorit-IDE, som Visual Studio eller JetBrains Rider. Du hittar den fullständiga installationsguiden i vår dokumentation.</value>
+  </data>
+  <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Din webbläsare kommer att ladda ner 4 filer på 4 GB från vår server. Från det att den börjar tills den hämtar filen kommer vi att hjälpa dig att beräkna din nedladdningshastighet. Ju högre tal, desto bättre är ditt nätverk.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Din webbläsare kommer att skicka servern ett enkelt meddelande och få ett enkelt svar. Denna siffra representerar tiden det tar från förfrågan till svar. Ju lägre siffra, desto bättre är ditt nätverk.</value>
   </data>
 
 </root>

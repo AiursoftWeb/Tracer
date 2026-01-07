@@ -21,14 +21,14 @@
       <data name="An error has occurred." xml:space="preserve">
     <value>एक त्रुटि हुई है।</value>
   </data>
-  <data name="Your password has been changed." xml:space="preserve">
-    <value>आपका पासवर्ड बदल दिया गया है।</value>
+  <data name="The file is not a valid image." xml:space="preserve">
+    <value>यह फ़ाइल एक वैध छवि नहीं है।</value>
   </data>
   <data name="Your avatar has been saved." xml:space="preserve">
     <value>आपका अवतार सहेजा गया है।</value>
   </data>
-  <data name="The file is not a valid image." xml:space="preserve">
-    <value>यह फ़ाइल एक वैध छवि नहीं है।</value>
+  <data name="Your password has been changed." xml:space="preserve">
+    <value>आपका पासवर्ड बदल दिया गया है।</value>
   </data>
   <data name="Your profile has been saved." xml:space="preserve">
     <value>आपकी प्रोफ़ाइल सहेज ली गई है।</value>

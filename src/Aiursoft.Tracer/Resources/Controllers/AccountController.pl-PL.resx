@@ -21,11 +21,11 @@
       <data name="Invalid login attempt. Please check username and password." xml:space="preserve">
     <value>Nieprawidłowa próba logowania. Proszę sprawdzić nazwę użytkownika i hasło.</value>
   </data>
-  <data name="This account has been locked out, please try again later." xml:space="preserve">
-    <value>To konto zostało zablokowane, spróbuj ponownie później.</value>
-  </data>
   <data name="The username already exists. Please try another username." xml:space="preserve">
     <value>Ta nazwa użytkownika już istnieje. Proszę spróbować inną nazwę użytkownika.</value>
+  </data>
+  <data name="This account has been locked out, please try again later." xml:space="preserve">
+    <value>To konto zostało zablokowane, spróbuj ponownie później.</value>
   </data>
 
 </root>

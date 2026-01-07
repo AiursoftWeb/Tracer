@@ -18,11 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Password" xml:space="preserve">
-    <value>Пароль</value>
-  </data>
-  <data name="Email or User name" xml:space="preserve">
+      <data name="Email or User name" xml:space="preserve">
     <value>Електронна пошта або ім&apos;я користувача</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
   </data>
   <data name="The {0} is required." xml:space="preserve">
     <value>Поле {0} є обов&apos;язковим.</value>

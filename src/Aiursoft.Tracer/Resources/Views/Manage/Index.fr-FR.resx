@@ -21,38 +21,38 @@
       <data name="Account Management" xml:space="preserve">
     <value>Gestion du compte</value>
   </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>Modifier les paramètres de votre compte</value>
-  </data>
-  <data name="Change your password" xml:space="preserve">
-    <value>Modifier votre mot de passe</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>Vous ne pouvez pas modifier votre mot de passe car l&apos;authentification locale est désactivée. Veuillez modifier votre profil depuis le fournisseur d&apos;authentification.</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>Mot de passe</value>
-  </data>
-  <data name="Change your avatar" xml:space="preserve">
-    <value>Modifier votre avatar</value>
+  <data name="auth provider" xml:space="preserve">
+    <value>fournisseur d&apos;authentification</value>
   </data>
   <data name="Avatar settings" xml:space="preserve">
     <value>Paramètres de l&apos;avatar</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>Succès !</value>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>Modifier les paramètres de votre compte</value>
   </data>
-  <data name="Profile" xml:space="preserve">
-    <value>Profil</value>
+  <data name="Change your avatar" xml:space="preserve">
+    <value>Modifier votre avatar</value>
+  </data>
+  <data name="Change your password" xml:space="preserve">
+    <value>Modifier votre mot de passe</value>
   </data>
   <data name="Change your profile" xml:space="preserve">
     <value>Modifier votre profil</value>
   </data>
-  <data name="auth provider" xml:space="preserve">
-    <value>fournisseur d&apos;authentification</value>
+  <data name="Password" xml:space="preserve">
+    <value>Mot de passe</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>Succès !</value>
   </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>Vous ne pouvez pas modifier votre mot de passe car l&apos;authentification locale est désactivée. Veuillez modifier votre profil depuis le</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>Vous ne pouvez pas modifier votre mot de passe car l&apos;authentification locale est désactivée. Veuillez modifier votre profil depuis le fournisseur d&apos;authentification.</value>
   </data>
 
 </root>

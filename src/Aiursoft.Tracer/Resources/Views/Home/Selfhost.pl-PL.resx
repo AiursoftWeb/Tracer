@@ -18,98 +18,98 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Self Host" xml:space="preserve">
-    <value>Własny hosting</value>
-  </data>
-  <data name="Deploy" xml:space="preserve">
-    <value>Wdróż</value>
-  </data>
-  <data name="About Tracer" xml:space="preserve">
+      <data name="About Tracer" xml:space="preserve">
     <value>O Tracerze</value>
-  </data>
-  <data name="Run in Docker" xml:space="preserve">
-    <value>Uruchom w Dockerze</value>
-  </data>
-  <data name="Live Demo" xml:space="preserve">
-    <value>Pokaz na żywo</value>
-  </data>
-  <data name="Anywhere" xml:space="preserve">
-    <value>Gdziekolwiek</value>
-  </data>
-  <data name="Recommended" xml:space="preserve">
-    <value>Polecane</value>
-  </data>
-  <data name="Container Context" xml:space="preserve">
-    <value>Kontekst Kontenera</value>
-  </data>
-  <data name="First, install Docker." xml:space="preserve">
-    <value>Najpierw zainstaluj Dockera.</value>
-  </data>
-  <data name="Run in Ubuntu" xml:space="preserve">
-    <value>Uruchom w Ubuntu</value>
-  </data>
-  <data name="Value" xml:space="preserve">
-    <value>Wartość</value>
-  </data>
-  <data name="Then run the following commands in a Linux shell:" xml:space="preserve">
-    <value>Następnie uruchom następujące polecenia w powłoce systemu Linux:</value>
-  </data>
-  <data name="Property" xml:space="preserve">
-    <value>Właściwość</value>
-  </data>
-  <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
-    <value>Spowoduje to uruchomienie serwera WWW pod adresem http://localhost:5000, gdzie możesz przetestować aplikację.</value>
-  </data>
-  <data name="Tracer is a simple network speed test app. Deploy this on your server, open Tracer in your browser, and test the speed between you and your server instantly." xml:space="preserve">
-    <value>Tracer to prosta aplikacja do testowania prędkości sieci. Wdróż ją na swoim serwerze, otwórz Tracer w przeglądarce i natychmiast przetestuj prędkość między Tobą a serwerem.</value>
-  </data>
-  <data name="Contribute" xml:space="preserve">
-    <value>Współtwórz</value>
-  </data>
-  <data name="Or with a custom port:" xml:space="preserve">
-    <value>Lub z niestandardowym portem:</value>
-  </data>
-  <data name="Pull Request" xml:space="preserve">
-    <value>Żądanie scalenia</value>
-  </data>
-  <data name="Development &amp; Manual Run" xml:space="preserve">
-    <value>Programowanie i uruchamianie ręczne</value>
-  </data>
-  <data name="Report Issue" xml:space="preserve">
-    <value>Zgłoś problem</value>
-  </data>
-  <data name="Run Manually" xml:space="preserve">
-    <value>Uruchom ręcznie</value>
-  </data>
-  <data name="Prerequisites" xml:space="preserve">
-    <value>Wymagania wstępne</value>
-  </data>
-  <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
-    <value>Poniższy skrypt zainstaluje/zaktualizuje tę aplikację na twoim serwerze Ubuntu. Obsługuje Ubuntu 25.04.</value>
-  </data>
-  <data name="Execute `npm install` at `wwwroot` folder." xml:space="preserve">
-    <value>Wykonaj polecenie `npm install` w folderze `wwwroot`.</value>
-  </data>
-  <data name="We&apos;re interested in your feedback! You can submit a suggestion or feature request through the issue tracker." xml:space="preserve">
-    <value>Jesteśmy zainteresowani Twoją opinią! Możesz przesłać sugestię lub prośbę o funkcję za pomocą systemu śledzenia zgłoszeń.</value>
-  </data>
-  <data name="Visit http://localhost:5000." xml:space="preserve">
-    <value>Odwiedź http://localhost:5000.</value>
-  </data>
-  <data name="Run in Visual Studio" xml:space="preserve">
-    <value>Uruchom w Visual Studio</value>
-  </data>
-  <data name="Open the `.sln` file." xml:space="preserve">
-    <value>Otwórz plik `.sln`.</value>
-  </data>
-  <data name="Press `F5` to run the app." xml:space="preserve">
-    <value>Naciśnij klawisz `F5`, aby uruchomić aplikację.</value>
   </data>
   <data name="Always create a personal fork before submitting PRs." xml:space="preserve">
     <value>Zawsze utwórz własnego forka przed wysłaniem PR-ów.</value>
   </data>
+  <data name="Anywhere" xml:space="preserve">
+    <value>Gdziekolwiek</value>
+  </data>
+  <data name="Container Context" xml:space="preserve">
+    <value>Kontekst Kontenera</value>
+  </data>
+  <data name="Contribute" xml:space="preserve">
+    <value>Współtwórz</value>
+  </data>
+  <data name="Deploy" xml:space="preserve">
+    <value>Wdróż</value>
+  </data>
+  <data name="Development &amp; Manual Run" xml:space="preserve">
+    <value>Programowanie i uruchamianie ręczne</value>
+  </data>
   <data name="Execute `dotnet run` to run the app." xml:space="preserve">
     <value>Wykonaj polecenie `dotnet run`, aby uruchomić aplikację.</value>
+  </data>
+  <data name="Execute `npm install` at `wwwroot` folder." xml:space="preserve">
+    <value>Wykonaj polecenie `npm install` w folderze `wwwroot`.</value>
+  </data>
+  <data name="First, install Docker." xml:space="preserve">
+    <value>Najpierw zainstaluj Dockera.</value>
+  </data>
+  <data name="Live Demo" xml:space="preserve">
+    <value>Pokaz na żywo</value>
+  </data>
+  <data name="Open the `.sln` file." xml:space="preserve">
+    <value>Otwórz plik `.sln`.</value>
+  </data>
+  <data name="Or with a custom port:" xml:space="preserve">
+    <value>Lub z niestandardowym portem:</value>
+  </data>
+  <data name="Prerequisites" xml:space="preserve">
+    <value>Wymagania wstępne</value>
+  </data>
+  <data name="Press `F5` to run the app." xml:space="preserve">
+    <value>Naciśnij klawisz `F5`, aby uruchomić aplikację.</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Właściwość</value>
+  </data>
+  <data name="Pull Request" xml:space="preserve">
+    <value>Żądanie scalenia</value>
+  </data>
+  <data name="Recommended" xml:space="preserve">
+    <value>Polecane</value>
+  </data>
+  <data name="Report Issue" xml:space="preserve">
+    <value>Zgłoś problem</value>
+  </data>
+  <data name="Run in Docker" xml:space="preserve">
+    <value>Uruchom w Dockerze</value>
+  </data>
+  <data name="Run in Ubuntu" xml:space="preserve">
+    <value>Uruchom w Ubuntu</value>
+  </data>
+  <data name="Run in Visual Studio" xml:space="preserve">
+    <value>Uruchom w Visual Studio</value>
+  </data>
+  <data name="Run Manually" xml:space="preserve">
+    <value>Uruchom ręcznie</value>
+  </data>
+  <data name="Self Host" xml:space="preserve">
+    <value>Własny hosting</value>
+  </data>
+  <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
+    <value>Spowoduje to uruchomienie serwera WWW pod adresem http://localhost:5000, gdzie możesz przetestować aplikację.</value>
+  </data>
+  <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
+    <value>Poniższy skrypt zainstaluje/zaktualizuje tę aplikację na twoim serwerze Ubuntu. Obsługuje Ubuntu 25.04.</value>
+  </data>
+  <data name="Then run the following commands in a Linux shell:" xml:space="preserve">
+    <value>Następnie uruchom następujące polecenia w powłoce systemu Linux:</value>
+  </data>
+  <data name="Tracer is a simple network speed test app. Deploy this on your server, open Tracer in your browser, and test the speed between you and your server instantly." xml:space="preserve">
+    <value>Tracer to prosta aplikacja do testowania prędkości sieci. Wdróż ją na swoim serwerze, otwórz Tracer w przeglądarce i natychmiast przetestuj prędkość między Tobą a serwerem.</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Wartość</value>
+  </data>
+  <data name="Visit http://localhost:5000." xml:space="preserve">
+    <value>Odwiedź http://localhost:5000.</value>
+  </data>
+  <data name="We&apos;re interested in your feedback! You can submit a suggestion or feature request through the issue tracker." xml:space="preserve">
+    <value>Jesteśmy zainteresowani Twoją opinią! Możesz przesłać sugestię lub prośbę o funkcję za pomocą systemu śledzenia zgłoszeń.</value>
   </data>
 
 </root>

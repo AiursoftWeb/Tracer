@@ -18,44 +18,44 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Roles" xml:space="preserve">
-    <value>Rollen</value>
-  </data>
-  <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Acties</value>
-  </data>
-  <data name="Manage Users" xml:space="preserve">
-    <value>Gebruikers beheren</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Gebruikersnaam</value>
-  </data>
-  <data name="Create a new user" xml:space="preserve">
-    <value>Maak een nieuwe gebruiker aan</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Bewerken</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Verwijderen</value>
-  </data>
-  <data name="Name" xml:space="preserve">
-    <value>Naam</value>
-  </data>
-  <data name="All Users" xml:space="preserve">
-    <value>Alle gebruikers</value>
+      <data name="(no role assigned)" xml:space="preserve">
+    <value>(geen rol toegewezen)</value>
   </data>
   <data name="A list of all user accounts registered in the system." xml:space="preserve">
     <value>Een lijst van alle gebruikersaccounts die in het systeem zijn geregistreerd.</value>
   </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Acties</value>
+  </data>
+  <data name="All Users" xml:space="preserve">
+    <value>Alle gebruikers</value>
+  </data>
   <data name="Avatar" xml:space="preserve">
     <value>Avatar</value>
   </data>
-  <data name="(no role assigned)" xml:space="preserve">
-    <value>(geen rol toegewezen)</value>
+  <data name="Create a new user" xml:space="preserve">
+    <value>Maak een nieuwe gebruiker aan</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bewerken</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Manage Users" xml:space="preserve">
+    <value>Gebruikers beheren</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rollen</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Gebruikersnaam</value>
   </data>
 
 </root>

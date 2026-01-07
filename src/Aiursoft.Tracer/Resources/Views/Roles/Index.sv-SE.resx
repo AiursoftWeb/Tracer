@@ -18,32 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Role Name" xml:space="preserve">
-    <value>Rollnamn</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Redigera</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Ta bort</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>Åtgärder</value>
-  </data>
-  <data name="Manage Roles" xml:space="preserve">
-    <value>Hantera roller</value>
-  </data>
-  <data name="Create a new role" xml:space="preserve">
-    <value>Skapa en ny roll</value>
-  </data>
-  <data name="User Count" xml:space="preserve">
-    <value>Antal användare</value>
   </data>
   <data name="All Roles" xml:space="preserve">
     <value>Alla roller</value>
   </data>
+  <data name="Create a new role" xml:space="preserve">
+    <value>Skapa en ny roll</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ta bort</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Redigera</value>
+  </data>
+  <data name="Manage Roles" xml:space="preserve">
+    <value>Hantera roller</value>
+  </data>
+  <data name="Role Name" xml:space="preserve">
+    <value>Rollnamn</value>
+  </data>
   <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
     <value>Välj en roll för att se dess detaljer, eller använd åtgärderna för att redigera eller ta bort.</value>
+  </data>
+  <data name="User Count" xml:space="preserve">
+    <value>Antal användare</value>
   </data>
 
 </root>

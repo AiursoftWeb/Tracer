@@ -18,32 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Manage Roles" xml:space="preserve">
-    <value>Gerenciar Funções</value>
-  </data>
-  <data name="User Count" xml:space="preserve">
-    <value>Número de Usuários</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Editar</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
     <value>Ações</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Excluir</value>
-  </data>
-  <data name="Role Name" xml:space="preserve">
-    <value>Nome da Função</value>
-  </data>
-  <data name="Create a new role" xml:space="preserve">
-    <value>Criar um novo cargo</value>
   </data>
   <data name="All Roles" xml:space="preserve">
     <value>Todos os Papéis</value>
   </data>
+  <data name="Create a new role" xml:space="preserve">
+    <value>Criar um novo cargo</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Manage Roles" xml:space="preserve">
+    <value>Gerenciar Funções</value>
+  </data>
+  <data name="Role Name" xml:space="preserve">
+    <value>Nome da Função</value>
+  </data>
   <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
     <value>Selecione um cargo para ver seus detalhes ou use as ações para editar ou excluir.</value>
+  </data>
+  <data name="User Count" xml:space="preserve">
+    <value>Número de Usuários</value>
   </data>
 
 </root>

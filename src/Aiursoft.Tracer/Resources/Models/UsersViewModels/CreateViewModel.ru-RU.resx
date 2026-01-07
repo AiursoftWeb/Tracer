@@ -18,26 +18,26 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="User name" xml:space="preserve">
-    <value>Имя пользователя</value>
-  </data>
-  <data name="Email Address" xml:space="preserve">
+      <data name="Email Address" xml:space="preserve">
     <value>Адрес электронной почты</value>
   </data>
-  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
-    <value>Поле {0} должно содержать не менее {2} и не более {1} символов.</value>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Пароль</value>
   </data>
-  <data name="The {0} is required." xml:space="preserve">
-    <value>Поле {0} обязательно для заполнения.</value>
-  </data>
   <data name="The {0} is not a valid email address." xml:space="preserve">
     <value>Поле {0} не является допустимым адресом электронной почты.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Имя</value>
+  <data name="The {0} is required." xml:space="preserve">
+    <value>Поле {0} обязательно для заполнения.</value>
+  </data>
+  <data name="The {0} must be at least {2} and at max {1} characters long." xml:space="preserve">
+    <value>Поле {0} должно содержать не менее {2} и не более {1} символов.</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Имя пользователя</value>
   </data>
 
 </root>

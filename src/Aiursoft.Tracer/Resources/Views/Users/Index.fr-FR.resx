@@ -18,44 +18,44 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
-  </data>
-  <data name="Roles" xml:space="preserve">
-    <value>Rôles</value>
-  </data>
-  <data name="Manage Users" xml:space="preserve">
-    <value>Gérer les utilisateurs</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Nom d&apos;utilisateur</value>
-  </data>
-  <data name="Create a new user" xml:space="preserve">
-    <value>Créer un nouvel utilisateur</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Actions</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Modifier</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Supprimer</value>
-  </data>
-  <data name="Name" xml:space="preserve">
-    <value>Nom</value>
-  </data>
-  <data name="All Users" xml:space="preserve">
-    <value>Tous les utilisateurs</value>
+      <data name="(no role assigned)" xml:space="preserve">
+    <value>(aucun rôle attribué)</value>
   </data>
   <data name="A list of all user accounts registered in the system." xml:space="preserve">
     <value>Une liste de tous les comptes utilisateurs enregistrés dans le système.</value>
   </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="All Users" xml:space="preserve">
+    <value>Tous les utilisateurs</value>
+  </data>
   <data name="Avatar" xml:space="preserve">
     <value>Avatar</value>
   </data>
-  <data name="(no role assigned)" xml:space="preserve">
-    <value>(aucun rôle attribué)</value>
+  <data name="Create a new user" xml:space="preserve">
+    <value>Créer un nouvel utilisateur</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Manage Users" xml:space="preserve">
+    <value>Gérer les utilisateurs</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Rôles</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Nom d&apos;utilisateur</value>
   </data>
 
 </root>

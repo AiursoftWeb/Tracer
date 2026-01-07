@@ -18,20 +18,41 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Basic Information" xml:space="preserve">
-    <value>Informations de base</value>
-  </data>
-  <data name="Assigned Roles" xml:space="preserve">
+      <data name="Assigned Roles" xml:space="preserve">
     <value>Rôles attribués</value>
   </data>
   <data name="Back to Details" xml:space="preserve">
     <value>Retour aux détails</value>
   </data>
-  <data name="Edit User:" xml:space="preserve">
-    <value>Modifier l&apos;utilisateur :</value>
+  <data name="Back to List" xml:space="preserve">
+    <value>Retour à la liste</value>
   </data>
   <data name="Back to Users List" xml:space="preserve">
     <value>Retour à la liste des utilisateurs</value>
+  </data>
+  <data name="Basic Information" xml:space="preserve">
+    <value>Informations de base</value>
+  </data>
+  <data name="Display Name" xml:space="preserve">
+    <value>Nom d&apos;affichage</value>
+  </data>
+  <data name="Edit User:" xml:space="preserve">
+    <value>Modifier l&apos;utilisateur :</value>
+  </data>
+  <data name="Email Address" xml:space="preserve">
+    <value>Adresse e-mail</value>
+  </data>
+  <data name="Leave blank if you don&apos;t want to change the password." xml:space="preserve">
+    <value>Laissez vide si vous ne souhaitez pas modifier le mot de passe.</value>
+  </data>
+  <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
+    <value>Modifiez les détails de l&apos;utilisateur ou gérez ses rôles attribués ci-dessous.</value>
+  </data>
+  <data name="New avatar file" xml:space="preserve">
+    <value>Nouveau fichier d&apos;avatar</value>
+  </data>
+  <data name="New Password" xml:space="preserve">
+    <value>Nouveau mot de passe</value>
   </data>
   <data name="Save Role Assignments" xml:space="preserve">
     <value>Enregistrer les attributions de rôles</value>
@@ -39,38 +60,17 @@
   <data name="Save User Details" xml:space="preserve">
     <value>Enregistrer les détails de l&apos;utilisateur</value>
   </data>
-  <data name="Modify user details or manage their assigned roles below." xml:space="preserve">
-    <value>Modifiez les détails de l&apos;utilisateur ou gérez ses rôles attribués ci-dessous.</value>
-  </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Attention !</value>
-  </data>
   <data name="This user account is synchronized with an OpenID Connect (OIDC) provider. Any modifications made here (e.g., to the display name or email) may be overwritten during the next data sync. For permanent changes, please update the user&apos;s profile directly on your OIDC provider." xml:space="preserve">
     <value>Ce compte utilisateur est synchronisé avec un fournisseur OpenID Connect (OIDC). Toute modification effectuée ici (par exemple, sur le nom d&apos;affichage ou l&apos;adresse e-mail) pourrait être écrasée lors de la prochaine synchronisation des données. Pour des modifications permanentes, veuillez mettre à jour le profil de l&apos;utilisateur directement sur votre fournisseur OIDC.</value>
-  </data>
-  <data name="View Details" xml:space="preserve">
-    <value>Voir les détails</value>
-  </data>
-  <data name="Email Address" xml:space="preserve">
-    <value>Adresse e-mail</value>
-  </data>
-  <data name="Display Name" xml:space="preserve">
-    <value>Nom d&apos;affichage</value>
-  </data>
-  <data name="New Password" xml:space="preserve">
-    <value>Nouveau mot de passe</value>
   </data>
   <data name="Username" xml:space="preserve">
     <value>Nom d&apos;utilisateur</value>
   </data>
-  <data name="Leave blank if you don&apos;t want to change the password." xml:space="preserve">
-    <value>Laissez vide si vous ne souhaitez pas modifier le mot de passe.</value>
+  <data name="View Details" xml:space="preserve">
+    <value>Voir les détails</value>
   </data>
-  <data name="Back to List" xml:space="preserve">
-    <value>Retour à la liste</value>
-  </data>
-  <data name="New avatar file" xml:space="preserve">
-    <value>Nouveau fichier d&apos;avatar</value>
+  <data name="Warning!" xml:space="preserve">
+    <value>Attention !</value>
   </data>
 
 </root>

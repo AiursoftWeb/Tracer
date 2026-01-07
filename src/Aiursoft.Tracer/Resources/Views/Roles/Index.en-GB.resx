@@ -18,32 +18,32 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Manage Roles" xml:space="preserve">
+      <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="All Roles" xml:space="preserve">
+    <value>All Roles</value>
+  </data>
+  <data name="Create a new role" xml:space="preserve">
+    <value>Create a new role</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Manage Roles" xml:space="preserve">
     <value>Manage Roles</value>
   </data>
   <data name="Role Name" xml:space="preserve">
     <value>Role Name</value>
   </data>
-  <data name="User Count" xml:space="preserve">
-    <value>Number of Users</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Actions</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="Create a new role" xml:space="preserve">
-    <value>Create a new role</value>
-  </data>
-  <data name="All Roles" xml:space="preserve">
-    <value>All Roles</value>
-  </data>
   <data name="Select a role to view its details, or use the actions to edit or delete." xml:space="preserve">
     <value>Select a role to view its details, or use the actions to edit or delete.</value>
+  </data>
+  <data name="User Count" xml:space="preserve">
+    <value>Number of Users</value>
   </data>
 
 </root>

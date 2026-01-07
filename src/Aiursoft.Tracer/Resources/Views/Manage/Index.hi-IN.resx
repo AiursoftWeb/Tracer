@@ -21,38 +21,38 @@
       <data name="Account Management" xml:space="preserve">
     <value>खाता प्रबंधन</value>
   </data>
-  <data name="Change your password" xml:space="preserve">
-    <value>अपना पासवर्ड बदलें</value>
-  </data>
-  <data name="Change your account settings" xml:space="preserve">
-    <value>अपनी खाता सेटिंग्स बदलें</value>
-  </data>
-  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
-    <value>आप अपना पासवर्ड नहीं बदल सकते क्योंकि स्थानीय प्रमाणीकरण अक्षम है। कृपया अपना प्रोफ़ाइल ऑथ प्रदाता से संपादित करें।</value>
-  </data>
-  <data name="Password" xml:space="preserve">
-    <value>पासवर्ड</value>
-  </data>
-  <data name="Change your avatar" xml:space="preserve">
-    <value>अपना अवतार बदलें</value>
+  <data name="auth provider" xml:space="preserve">
+    <value>प्रमाणीकरण प्रदाता</value>
   </data>
   <data name="Avatar settings" xml:space="preserve">
     <value>अवतार सेटिंग्स</value>
   </data>
-  <data name="Success!" xml:space="preserve">
-    <value>सफलता!</value>
+  <data name="Change your account settings" xml:space="preserve">
+    <value>अपनी खाता सेटिंग्स बदलें</value>
   </data>
-  <data name="Profile" xml:space="preserve">
-    <value>प्रोफ़ाइल</value>
+  <data name="Change your avatar" xml:space="preserve">
+    <value>अपना अवतार बदलें</value>
+  </data>
+  <data name="Change your password" xml:space="preserve">
+    <value>अपना पासवर्ड बदलें</value>
   </data>
   <data name="Change your profile" xml:space="preserve">
     <value>अपनी प्रोफ़ाइल बदलें</value>
   </data>
-  <data name="auth provider" xml:space="preserve">
-    <value>प्रमाणीकरण प्रदाता</value>
+  <data name="Password" xml:space="preserve">
+    <value>पासवर्ड</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>प्रोफ़ाइल</value>
+  </data>
+  <data name="Success!" xml:space="preserve">
+    <value>सफलता!</value>
   </data>
   <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the" xml:space="preserve">
     <value>आप अपना पासवर्ड नहीं बदल सकते क्योंकि स्थानीय प्रमाणीकरण अक्षम है। कृपया अपना प्रोफ़ाइल संपादित करें</value>
+  </data>
+  <data name="You can&apos;t change your password because local authentication is disabled. Please edit your profile from the auth provider." xml:space="preserve">
+    <value>आप अपना पासवर्ड नहीं बदल सकते क्योंकि स्थानीय प्रमाणीकरण अक्षम है। कृपया अपना प्रोफ़ाइल ऑथ प्रदाता से संपादित करें।</value>
   </data>
 
 </root>

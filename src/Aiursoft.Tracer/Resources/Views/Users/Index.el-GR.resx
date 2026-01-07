@@ -18,44 +18,44 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Roles" xml:space="preserve">
-    <value>Ρόλοι</value>
-  </data>
-  <data name="Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
-  <data name="Actions" xml:space="preserve">
-    <value>Ενέργειες</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Όνομα χρήστη</value>
-  </data>
-  <data name="Manage Users" xml:space="preserve">
-    <value>Διαχείριση Χρηστών</value>
-  </data>
-  <data name="Create a new user" xml:space="preserve">
-    <value>Δημιουργία νέου χρήστη</value>
-  </data>
-  <data name="Edit" xml:space="preserve">
-    <value>Επεξεργασία</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Διαγραφή</value>
-  </data>
-  <data name="Name" xml:space="preserve">
-    <value>Όνομα</value>
-  </data>
-  <data name="All Users" xml:space="preserve">
-    <value>Όλοι οι Χρήστες</value>
+      <data name="(no role assigned)" xml:space="preserve">
+    <value>(δεν έχει ανατεθεί ρόλος)</value>
   </data>
   <data name="A list of all user accounts registered in the system." xml:space="preserve">
     <value>Μια λίστα όλων των λογαριασμών χρηστών που είναι εγγεγραμμένοι στο σύστημα.</value>
   </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Ενέργειες</value>
+  </data>
+  <data name="All Users" xml:space="preserve">
+    <value>Όλοι οι Χρήστες</value>
+  </data>
   <data name="Avatar" xml:space="preserve">
     <value>Αβάταρ</value>
   </data>
-  <data name="(no role assigned)" xml:space="preserve">
-    <value>(δεν έχει ανατεθεί ρόλος)</value>
+  <data name="Create a new user" xml:space="preserve">
+    <value>Δημιουργία νέου χρήστη</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Διαγραφή</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Manage Users" xml:space="preserve">
+    <value>Διαχείριση Χρηστών</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>Ρόλοι</value>
+  </data>
+  <data name="User name" xml:space="preserve">
+    <value>Όνομα χρήστη</value>
   </data>
 
 </root>

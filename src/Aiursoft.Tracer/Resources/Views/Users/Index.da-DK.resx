@@ -18,23 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Email" xml:space="preserve">
-    <value>E-mail</value>
+      <data name="(no role assigned)" xml:space="preserve">
+    <value>(ingen rolle tildelt)</value>
   </data>
-  <data name="Roles" xml:space="preserve">
-    <value>Roller</value>
-  </data>
-  <data name="Manage Users" xml:space="preserve">
-    <value>Administrer brugere</value>
-  </data>
-  <data name="Create a new user" xml:space="preserve">
-    <value>Opret en ny bruger</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Brugernavn</value>
+  <data name="A list of all user accounts registered in the system." xml:space="preserve">
+    <value>En liste over alle brugerkonti registreret i systemet.</value>
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Handlinger</value>
+  </data>
+  <data name="All Users" xml:space="preserve">
+    <value>Alle brugere</value>
+  </data>
+  <data name="Avatar" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="Create a new user" xml:space="preserve">
+    <value>Opret en ny bruger</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Slet</value>
@@ -42,20 +42,20 @@
   <data name="Edit" xml:space="preserve">
     <value>Rediger</value>
   </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Manage Users" xml:space="preserve">
+    <value>Administrer brugere</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Navn</value>
   </data>
-  <data name="All Users" xml:space="preserve">
-    <value>Alle brugere</value>
+  <data name="Roles" xml:space="preserve">
+    <value>Roller</value>
   </data>
-  <data name="A list of all user accounts registered in the system." xml:space="preserve">
-    <value>En liste over alle brugerkonti registreret i systemet.</value>
-  </data>
-  <data name="Avatar" xml:space="preserve">
-    <value>Avatar</value>
-  </data>
-  <data name="(no role assigned)" xml:space="preserve">
-    <value>(ingen rolle tildelt)</value>
+  <data name="User name" xml:space="preserve">
+    <value>Brugernavn</value>
   </data>
 
 </root>

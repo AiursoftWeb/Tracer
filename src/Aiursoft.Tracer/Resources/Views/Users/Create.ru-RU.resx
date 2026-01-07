@@ -21,26 +21,20 @@
       <data name="Back to List" xml:space="preserve">
     <value>Назад к списку</value>
   </data>
-  <data name="User" xml:space="preserve">
-    <value>Пользователь</value>
-  </data>
   <data name="Create" xml:space="preserve">
     <value>Создать</value>
   </data>
   <data name="Create a new user" xml:space="preserve">
     <value>Создать нового пользователя</value>
   </data>
-  <data name="Warning!" xml:space="preserve">
-    <value>Внимание!</value>
+  <data name="Create a password for the new user" xml:space="preserve">
+    <value>Создайте пароль для нового пользователя</value>
   </data>
-  <data name="OpenID Connect (OIDC) is enabled. User accounts are synchronized from an external identity provider. We strongly recommend creating new users on your OIDC provider to ensure they are managed centrally. This form will create a local-only account that exists solely within this application." xml:space="preserve">
-    <value>Включен OpenID Connect (OIDC). Учетные записи пользователей синхронизируются из внешнего поставщика удостоверений. Мы настоятельно рекомендуем создавать новых пользователей в вашем OIDC-провайдере, чтобы обеспечить их централизованное управление. Эта форма создаст локальную учетную запись, которая существует исключительно в рамках этого приложения.</value>
+  <data name="Create New User" xml:space="preserve">
+    <value>Создать нового пользователя</value>
   </data>
-  <data name="Username" xml:space="preserve">
-    <value>Имя пользователя</value>
-  </data>
-  <data name="User Account Details" xml:space="preserve">
-    <value>Данные учетной записи пользователя</value>
+  <data name="Create User" xml:space="preserve">
+    <value>Создать пользователя</value>
   </data>
   <data name="Display Name" xml:space="preserve">
     <value>Отображаемое имя</value>
@@ -48,26 +42,32 @@
   <data name="Email Address" xml:space="preserve">
     <value>Адрес электронной почты</value>
   </data>
-  <data name="Enter username" xml:space="preserve">
-    <value>Введите имя пользователя</value>
-  </data>
-  <data name="Create New User" xml:space="preserve">
-    <value>Создать нового пользователя</value>
-  </data>
   <data name="Enter display name" xml:space="preserve">
     <value>Введите отображаемое имя</value>
   </data>
   <data name="Enter email address" xml:space="preserve">
     <value>Введите адрес электронной почты</value>
   </data>
-  <data name="Create User" xml:space="preserve">
-    <value>Создать пользователя</value>
+  <data name="Enter username" xml:space="preserve">
+    <value>Введите имя пользователя</value>
+  </data>
+  <data name="OpenID Connect (OIDC) is enabled. User accounts are synchronized from an external identity provider. We strongly recommend creating new users on your OIDC provider to ensure they are managed centrally. This form will create a local-only account that exists solely within this application." xml:space="preserve">
+    <value>Включен OpenID Connect (OIDC). Учетные записи пользователей синхронизируются из внешнего поставщика удостоверений. Мы настоятельно рекомендуем создавать новых пользователей в вашем OIDC-провайдере, чтобы обеспечить их централизованное управление. Эта форма создаст локальную учетную запись, которая существует исключительно в рамках этого приложения.</value>
   </data>
   <data name="Password" xml:space="preserve">
     <value>Пароль</value>
   </data>
-  <data name="Create a password for the new user" xml:space="preserve">
-    <value>Создайте пароль для нового пользователя</value>
+  <data name="User" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="User Account Details" xml:space="preserve">
+    <value>Данные учетной записи пользователя</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Warning!" xml:space="preserve">
+    <value>Внимание!</value>
   </data>
 
 </root>

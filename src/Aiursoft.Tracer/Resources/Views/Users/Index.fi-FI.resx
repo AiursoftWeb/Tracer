@@ -18,23 +18,23 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Email" xml:space="preserve">
-    <value>Sähköposti</value>
+      <data name="(no role assigned)" xml:space="preserve">
+    <value>(ei roolia määritetty)</value>
   </data>
-  <data name="Roles" xml:space="preserve">
-    <value>Roolit</value>
+  <data name="A list of all user accounts registered in the system." xml:space="preserve">
+    <value>Luettelo kaikista järjestelmään rekisteröidyistä käyttäjätileistä.</value>
   </data>
   <data name="Actions" xml:space="preserve">
     <value>Toiminnot</value>
   </data>
+  <data name="All Users" xml:space="preserve">
+    <value>Kaikki käyttäjät</value>
+  </data>
+  <data name="Avatar" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
   <data name="Create a new user" xml:space="preserve">
     <value>Luo uusi käyttäjä</value>
-  </data>
-  <data name="User name" xml:space="preserve">
-    <value>Käyttäjätunnus</value>
-  </data>
-  <data name="Manage Users" xml:space="preserve">
-    <value>Hallinnoi käyttäjiä</value>
   </data>
   <data name="Delete" xml:space="preserve">
     <value>Poista</value>
@@ -42,20 +42,20 @@
   <data name="Edit" xml:space="preserve">
     <value>Muokkaa</value>
   </data>
+  <data name="Email" xml:space="preserve">
+    <value>Sähköposti</value>
+  </data>
+  <data name="Manage Users" xml:space="preserve">
+    <value>Hallinnoi käyttäjiä</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>Nimi</value>
   </data>
-  <data name="All Users" xml:space="preserve">
-    <value>Kaikki käyttäjät</value>
+  <data name="Roles" xml:space="preserve">
+    <value>Roolit</value>
   </data>
-  <data name="A list of all user accounts registered in the system." xml:space="preserve">
-    <value>Luettelo kaikista järjestelmään rekisteröidyistä käyttäjätileistä.</value>
-  </data>
-  <data name="Avatar" xml:space="preserve">
-    <value>Avatar</value>
-  </data>
-  <data name="(no role assigned)" xml:space="preserve">
-    <value>(ei roolia määritetty)</value>
+  <data name="User name" xml:space="preserve">
+    <value>Käyttäjätunnus</value>
   </data>
 
 </root>

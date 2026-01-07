@@ -21,14 +21,14 @@
       <data name="Avatar file" xml:space="preserve">
     <value>Plik awatara</value>
   </data>
-  <data name="The avatar file is required." xml:space="preserve">
-    <value>Plik awatara jest wymagany.</value>
+  <data name="Name" xml:space="preserve">
+    <value>Nazwa</value>
   </data>
   <data name="The avatar file is invalid. Please upload it again." xml:space="preserve">
     <value>Plik awatara jest nieprawidłowy. Proszę przesłać go ponownie.</value>
   </data>
-  <data name="Name" xml:space="preserve">
-    <value>Nazwa</value>
+  <data name="The avatar file is required." xml:space="preserve">
+    <value>Plik awatara jest wymagany.</value>
   </data>
   <data name="The name is required." xml:space="preserve">
     <value>Nazwa jest wymagana.</value>

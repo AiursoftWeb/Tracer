@@ -18,17 +18,17 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Your password has been changed." xml:space="preserve">
-    <value>Mật khẩu của bạn đã được thay đổi.</value>
-  </data>
-  <data name="An error has occurred." xml:space="preserve">
+      <data name="An error has occurred." xml:space="preserve">
     <value>Đã xảy ra lỗi.</value>
+  </data>
+  <data name="The file is not a valid image." xml:space="preserve">
+    <value>Tệp không phải là một hình ảnh hợp lệ.</value>
   </data>
   <data name="Your avatar has been saved." xml:space="preserve">
     <value>Ảnh đại diện của bạn đã được lưu.</value>
   </data>
-  <data name="The file is not a valid image." xml:space="preserve">
-    <value>Tệp không phải là một hình ảnh hợp lệ.</value>
+  <data name="Your password has been changed." xml:space="preserve">
+    <value>Mật khẩu của bạn đã được thay đổi.</value>
   </data>
   <data name="Your profile has been saved." xml:space="preserve">
     <value>Hồ sơ của bạn đã được lưu.</value>

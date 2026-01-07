@@ -18,29 +18,11 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="View User" xml:space="preserve">
-    <value>Wyświetl użytkownika</value>
-  </data>
-  <data name="Users with this Role" xml:space="preserve">
-    <value>Użytkownicy z tą rolą</value>
-  </data>
-  <data name="Role Details:" xml:space="preserve">
-    <value>Szczegóły roli:</value>
-  </data>
-  <data name="This role has no specific permissions assigned." xml:space="preserve">
-    <value>Ta rola nie ma przypisanych żadnych konkretnych uprawnień.</value>
-  </data>
-  <data name="Permissions Granted by this Role" xml:space="preserve">
-    <value>Uprawnienia nadane przez tę rolę</value>
-  </data>
-  <data name="No users are currently assigned to this role." xml:space="preserve">
-    <value>Żaden użytkownik nie jest obecnie przypisany do tej roli.</value>
-  </data>
-  <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
+      <data name="A comprehensive overview of the role, its permissions, and assigned users." xml:space="preserve">
     <value>Kompleksowy przegląd roli, jej uprawnień i przypisanych użytkowników.</value>
   </data>
-  <data name="Edit this Role" xml:space="preserve">
-    <value>Edytuj tę rolę</value>
+  <data name="Assigned Users" xml:space="preserve">
+    <value>Przypisani użytkownicy</value>
   </data>
   <data name="Back to Roles List" xml:space="preserve">
     <value>Powrót do listy ról</value>
@@ -48,14 +30,32 @@
   <data name="Delete this Role" xml:space="preserve">
     <value>Usuń tę rolę</value>
   </data>
-  <data name="View" xml:space="preserve">
-    <value>Wyświetl</value>
+  <data name="Edit this Role" xml:space="preserve">
+    <value>Edytuj tę rolę</value>
+  </data>
+  <data name="No users are currently assigned to this role." xml:space="preserve">
+    <value>Żaden użytkownik nie jest obecnie przypisany do tej roli.</value>
   </data>
   <data name="Permissions Granted" xml:space="preserve">
     <value>Nadane uprawnienia</value>
   </data>
-  <data name="Assigned Users" xml:space="preserve">
-    <value>Przypisani użytkownicy</value>
+  <data name="Permissions Granted by this Role" xml:space="preserve">
+    <value>Uprawnienia nadane przez tę rolę</value>
+  </data>
+  <data name="Role Details:" xml:space="preserve">
+    <value>Szczegóły roli:</value>
+  </data>
+  <data name="This role has no specific permissions assigned." xml:space="preserve">
+    <value>Ta rola nie ma przypisanych żadnych konkretnych uprawnień.</value>
+  </data>
+  <data name="Users with this Role" xml:space="preserve">
+    <value>Użytkownicy z tą rolą</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Wyświetl</value>
+  </data>
+  <data name="View User" xml:space="preserve">
+    <value>Wyświetl użytkownika</value>
   </data>
 
 </root>

@@ -18,35 +18,35 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Change your avatar" xml:space="preserve">
-    <value>Modifier votre avatar</value>
-  </data>
-  <data name="Change avatar" xml:space="preserve">
-    <value>Modifier l&apos;avatar</value>
-  </data>
-  <data name="Upload the new avatar file." xml:space="preserve">
-    <value>Téléversez le nouveau fichier d&apos;avatar.</value>
-  </data>
-  <data name="Save the avatar" xml:space="preserve">
-    <value>Enregistrer l&apos;avatar</value>
-  </data>
-  <data name="Avatar Settings" xml:space="preserve">
+      <data name="Avatar Settings" xml:space="preserve">
     <value>Paramètres de l&apos;avatar</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Annuler</value>
   </data>
+  <data name="Change avatar" xml:space="preserve">
+    <value>Modifier l&apos;avatar</value>
+  </data>
+  <data name="Change your avatar" xml:space="preserve">
+    <value>Modifier votre avatar</value>
+  </data>
   <data name="Current Avatar" xml:space="preserve">
     <value>Avatar actuel</value>
   </data>
-  <data name="Save New Avatar" xml:space="preserve">
-    <value>Enregistrer le nouvel avatar</value>
+  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
+    <value>Pour de meilleurs résultats, utilisez une image carrée aux formats .jpg ou .png.</value>
   </data>
   <data name="New avatar file" xml:space="preserve">
     <value>Nouveau fichier d&apos;avatar</value>
   </data>
-  <data name="For best results, use a square image in .jpg or .png format." xml:space="preserve">
-    <value>Pour de meilleurs résultats, utilisez une image carrée aux formats .jpg ou .png.</value>
+  <data name="Save New Avatar" xml:space="preserve">
+    <value>Enregistrer le nouvel avatar</value>
+  </data>
+  <data name="Save the avatar" xml:space="preserve">
+    <value>Enregistrer l&apos;avatar</value>
+  </data>
+  <data name="Upload the new avatar file." xml:space="preserve">
+    <value>Téléversez le nouveau fichier d&apos;avatar.</value>
   </data>
 
 </root>

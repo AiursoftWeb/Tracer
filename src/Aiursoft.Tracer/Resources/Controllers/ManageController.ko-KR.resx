@@ -21,14 +21,14 @@
       <data name="An error has occurred." xml:space="preserve">
     <value>오류가 발생했습니다.</value>
   </data>
-  <data name="Your password has been changed." xml:space="preserve">
-    <value>비밀번호가 변경되었습니다.</value>
+  <data name="The file is not a valid image." xml:space="preserve">
+    <value>유효한 이미지 파일이 아닙니다.</value>
   </data>
   <data name="Your avatar has been saved." xml:space="preserve">
     <value>아바타가 저장되었습니다.</value>
   </data>
-  <data name="The file is not a valid image." xml:space="preserve">
-    <value>유효한 이미지 파일이 아닙니다.</value>
+  <data name="Your password has been changed." xml:space="preserve">
+    <value>비밀번호가 변경되었습니다.</value>
   </data>
   <data name="Your profile has been saved." xml:space="preserve">
     <value>프로필이 저장되었습니다.</value>
