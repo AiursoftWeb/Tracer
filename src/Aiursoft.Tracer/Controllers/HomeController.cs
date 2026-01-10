@@ -9,9 +9,9 @@ using Microsoft.Net.Http.Headers;
 
 namespace Aiursoft.Tracer.Controllers;
 
-[LimitPerMin]
 public class HomeController(IpGeolocationService ipGeolocationService) : Controller
 {
+    [LimitPerMin]
     [RenderInNavBar(
         NavGroupName = "Features",
         NavGroupOrder = 1,
@@ -36,6 +36,7 @@ public class HomeController(IpGeolocationService ipGeolocationService) : Control
         return this.StackView(model);
     }
 
+    [LimitPerMin]
     [RenderInNavBar(
         NavGroupName = "Features",
         NavGroupOrder = 1,
@@ -49,6 +50,7 @@ public class HomeController(IpGeolocationService ipGeolocationService) : Control
         return this.StackView(new SelfhostViewModel());
     }
 
+    [LimitPerMin]
     [AiurNoCache]
     [EnforceWebSocket]
     public async Task Pushing()
