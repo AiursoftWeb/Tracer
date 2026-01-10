@@ -116,16 +116,24 @@
                     <div class="card-actions float-end">
                         <span class="badge bg-success">@Localizer["Bandwidth"]</span>
                     </div>
-                    <h5 class="card-title mb-0">@Localizer["Download Speed Test"]</h5>
+                    <h5 class="card-title mb-0">@Localizer["Bandwidth Test"]</h5>
                 </div>
                 <div class="card-body">
                     <div class="d-flex align-items-start mb-3">
                         <div class="flex-grow-1">
-                            <p class="text-muted">@Localizer["Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is."]</p>
+                            <p class="text-muted">@Localizer["Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is."]</p>
                         </div>
                         <div class="d-inline-block ms-3">
-                            <i class="align-middle text-success" data-lucide="download-cloud"></i>
+                            <i class="align-middle text-success" data-lucide="download-cloud" id="direction-icon"></i>
                         </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="transferDirection" class="form-label">@Localizer["Transfer Direction"]</label>
+                        <select class="form-select" id="transferDirection">
+                            <option value="download" selected>@Localizer["Download from this server"]</option>
+                            <option value="upload">@Localizer["Upload to this server"]</option>
+                        </select>
                     </div>
 
                     <div class="mb-3">

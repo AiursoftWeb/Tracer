@@ -82,4 +82,13 @@ public class HomeController(IpGeolocationService ipGeolocationService) : Control
             FileDownloadName = "download.dat"
         };
     }
+
+    [AiurNoCache]
+    [HttpPost]
+    [Route("upload")]
+    public async Task<IActionResult> Upload()
+    {
+        await Request.Body.CopyToAsync(Stream.Null);
+        return Ok();
+    }
 }
