@@ -69,6 +69,15 @@ public class BasicTests
     }
 
     [TestMethod]
+    public async Task PostUpload()
+    {
+        var url = "/upload";
+        var content = new ByteArrayContent(new byte[1024 * 1024]);
+        var response = await _http.PostAsync(url, content);
+        response.EnsureSuccessStatusCode(); // Status Code 200-299
+    }
+
+    [TestMethod]
     public async Task Ping()
     {
         var url = "/pINg";
