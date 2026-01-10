@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>帯域幅</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>帯域テスト</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>次の大きなプロジェクトを構築しよう、</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Docker化によるデプロイ</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>このサーバーからダウンロード</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>ダウンロード速度テスト</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>時間</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>転送方向</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>トリガー</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>このサーバーへのアップロード</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>使用方法</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>お使いのブラウザは当サーバーから4つの4GBファイルをダウンロードします。ダウンロード開始からファイル取得までの時間から、ネットワークのダウンロード速度を計算します。数値が大きいほど、ネットワークの状態が良好であることを示します。</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>あなたのブラウザは、あなたと当社のサーバーの間でデータをダウンロードまたはアップロードします。ネットワーク速度の計算をサポートします。数値が大きいほど、ネットワークの状態が良好です。</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>ブラウザはサーバーにシンプルなメッセージを送信し、シンプルな応答を受け取ります。この数値はリクエストからレスポンスまでにかかる時間を意味します。数値が小さいほど、ネットワークの状態が良好であることを示します。</value>

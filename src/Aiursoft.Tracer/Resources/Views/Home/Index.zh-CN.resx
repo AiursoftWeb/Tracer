@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>带宽</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>带宽测试</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>构建你的下一个伟大项目，</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>支持 Docker 部署</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>从这台服务器下载</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>下载速度测试</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>时间</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>传输方向</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>触发器</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>向这台服务器上传</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>使用</value>
@@ -339,22 +351,11 @@
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>您的浏览器将从我们的服务器下载4个4GB文件。从开始下载到获取文件的这段时间，我们将帮您计算网络下载速度。数值越大，表示您的网络状况越好。</value>
   </data>
-  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
-    <value>您的浏览器将向服务器发送一条简单消息并获取简单响应。此数值表示从请求到响应所耗费的时间。数值越小，表示您的网络状况越好。</value>
-  </data>
-  <data name="Transfer Direction" xml:space="preserve">
-    <value>传输方向</value>
-  </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>从这台服务器下载</value>
-  </data>
-  <data name="Upload to this server" xml:space="preserve">
-    <value>向这台服务器上传</value>
-  </data>
-  <data name="Bandwidth Test" xml:space="preserve">
-    <value>带宽测试</value>
-  </data>
   <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
     <value>您的浏览器将与我们的服务器之间进行数据下载或上传。我们将帮您计算网络速度。数值越大，表示您的网络状况越好。</value>
   </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>您的浏览器将向服务器发送一条简单消息并获取简单响应。此数值表示从请求到响应所耗费的时间。数值越小，表示您的网络状况越好。</value>
+  </data>
+
 </root>

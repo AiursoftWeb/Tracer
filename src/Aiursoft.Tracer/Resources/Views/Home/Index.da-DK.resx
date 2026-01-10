@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Båndbredde</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Båndbredde-test</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Byg din næste store ting,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Dockeriseret til implementering</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Hent fra denne server</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Downloadhastighedstest</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Tid</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Overførselsretning</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Udløser</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Upload til denne server</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Brug</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Din browser vil downloade 4 4GB-filer fra vores server. Fra det øjeblik den starter, til den modtager filen, vil vi hjælpe dig med at beregne din netværks downloadhastighed. Jo højere tallet er, jo bedre er dit netværk.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Din browser vil downloade eller uploade data mellem dig og vores server. Vi hjælper dig med at beregne din netværkshastighed. Jo større tallet er, jo bedre er dit netværk.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Din browser vil sende serveren en simpel besked og modtage et simpelt svar. Dette tal angiver den tid, det tager fra anmodning til svar. Jo mindre tallet er, desto bedre er dit netværk.</value>

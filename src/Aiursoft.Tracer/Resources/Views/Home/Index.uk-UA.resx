@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Пропускна здатність</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Тест пропускної здатності</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Створіть свою наступну велику річ,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Підготовлено для розгортання в Docker</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Завантажити з цього сервера</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Тест швидкості завантаження</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Час</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Напрямок передачі</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Тригер</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Надіслати на цей сервер</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Використання</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Ваш браузер завантажить 4 файли розміром 4 ГБ з нашого сервера. Від моменту початку до отримання файлу ми допоможемо обчислити швидкість завантаження вашої мережі. Чим більше це число, тим краща ваша мережа.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Ваш браузер буде завантажувати або надсилати дані між вами та нашим сервером. Ми допоможемо вам обчислити швидкість мережі. Чим більше число, тим краща ваша мережа.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Ваш браузер надішле серверу просте повідомлення та отримає просту відповідь. Це число означає час, який проходить від запиту до відповіді. Чим менше число, тим краща ваша мережа.</value>

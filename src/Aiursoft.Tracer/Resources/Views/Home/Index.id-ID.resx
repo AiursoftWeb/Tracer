@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Lebar Pita</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Uji Bandwidth</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Bangun hal besar berikutnya Anda,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Terdockerisasi untuk Deployment</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Unduh dari server ini</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Tes Kecepatan Unduh</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Waktu</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Arah Transfer</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Pemicu</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Unggah ke server ini</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Penggunaan</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Browser Anda akan mengunduh 4 file berukuran 4GB dari server kami. Dari waktu mulai hingga file berhasil didapatkan, kami akan membantu menghitung kecepatan unduh jaringan Anda. Semakin besar angkanya, semakin baik kualitas jaringan Anda.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Peramban Anda akan mengunduh atau mengunggah data antara Anda dan server kami. Kami akan membantu Anda menghitung kecepatan jaringan Anda. Semakin besar angkanya, semakin baik kualitas jaringan Anda.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Browser Anda akan mengirimkan pesan sederhana ke server dan menerima respons sederhana. Angka ini menunjukkan waktu yang dibutuhkan dari permintaan hingga respons. Semakin kecil angkanya, semakin baik jaringan Anda.</value>

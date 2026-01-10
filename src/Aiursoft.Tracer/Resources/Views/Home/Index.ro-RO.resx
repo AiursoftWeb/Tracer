@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Lățime de bandă</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Test de bandă largă</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Construiește-ți următorul proiect important,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Containerizat pentru Implementare</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Descarcă de pe acest server</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Test de Viteză de Descărcare</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Timp</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Direcția transferului</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Declanșator</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Încarcă pe acest server</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Utilizare</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Browser-ul dvs. va descărca 4 fișiere a câte 4GB de pe serverul nostru. Vom calcula viteza de descărcare a rețelei dvs. pe baza timpului scurs de la începerea descărcării până la primirea fișierelor. Cu cât numărul este mai mare, cu atât rețeaua dvs. este mai bună.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Browserul tău va descărca sau încărca date între tine și serverul nostru. Vom ajuta la calcularea vitezei de rețea. Cu cât numărul este mai mare, cu atât rețeaua ta este mai bună.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Browser-ul dvs. va trimite serverului un mesaj simplu și va primi un răspuns simplu. Acest număr reprezintă timpul necesar de la cerere până la răspuns. Cu cât numărul este mai mic, cu atât este mai bună rețeaua dvs.</value>

@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Przepustowość</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Test przepustowości</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Stwórz swój następny wielki projekt,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Dockerowany do wdrożenia</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Pobierz z tego serwera</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Test prędkości pobierania</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Czas</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Kierunek transferu</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Wyzwalacz</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Prześlij do tego serwera</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Wykorzystanie</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Twoja przeglądarka pobierze 4 pliki o rozmiarze 4 GB z naszego serwera. Na podstawie czasu rozpoczęcia i zakończenia pobierania pomożemy obliczyć prędkość pobierania w twojej sieci. Im wyższa wartość, tym lepsza jest twoja sieć.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Twój przeglądarka pobierze lub przekaże dane między Tobą a naszym serwerem. Pomogą Ci obliczyć prędkość sieci. Im większa liczba, tym lepsza Twoja sieć.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Twoja przeglądarka wyśle do serwera prostą wiadomość i otrzyma prostą odpowiedź. Ta liczba oznacza czas potrzebny od żądania do odpowiedzi. Im mniejsza liczba, tym lepsza jest twoja sieć.</value>

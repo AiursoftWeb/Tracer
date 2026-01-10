@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Εύρος Ζώνης</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Δοκιμή Εύρους Ζώνης</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Δημιουργήστε το επόμενό σας μεγάλο πράγμα,</value>
   </data>
@@ -104,6 +107,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Σε Docker για Ανάπτυξη</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Λήψη από αυτόν τον διακομιστή</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Δοκιμή Ταχύτητας Λήψης</value>
@@ -279,8 +285,14 @@
   <data name="Time" xml:space="preserve">
     <value>Χρόνος</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Κατεύθυνση Μεταφοράς</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Συναγερμός</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Ανέβασμα σε αυτόν τον διακομιστή</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Χρήση</value>
@@ -323,6 +335,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Ο περιηγητής σας θα κατεβάσει 4 αρχεία των 4GB από τον διακομιστή μας. Από τη στιγμή που ξεκινά και λαμβάνει το αρχείο, θα σας βοηθήσουμε να υπολογίσετε την ταχύτητα λήψης του δικτύου σας. Όσο μεγαλύτερος είναι ο αριθμός, τόσο καλύτερο είναι το δίκτυό σας.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Ο περιηγητής σας θα λάβει ή θα αποστείλει δεδομένα μεταξύ σας και του διακομιστή μας. Θα σας βοηθήσουμε να υπολογίσετε την ταχύτητα του δικτύου σας.Όσο μεγαλύτερος είναι ο αριθμός, τόσο καλύτερο είναι το δίκτυό σας.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Ο περιηγητής σας θα στείλει στον διακομιστή ένα απλό μήνυμα και θα λάβει μια απλή απάντηση. Αυτός ο αριθμός δείχνει τον χρόνο που απαιτείται από το αίτημα μέχρι την απάντηση. Όσο μικρότερος είναι ο αριθμός, τόσο καλύτερο είναι το δίκτυό σας.</value>

@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Bandbreedte</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Bandbreedte test</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Bouw je volgende grote ding,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Gedockeriseerd voor implementatie</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Downloaden van deze server</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Downloadsnelheidstest</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Tijd</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Overdracht richting</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Trigger</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Uploaden naar deze server</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Gebruik</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Uw browser zal 4 bestanden van 4 GB van onze server downloaden. Vanaf het moment dat het begint en het bestand ontvangt, helpen we u uw netwerksnelheid te berekenen. Hoe hoger het getal, hoe beter uw netwerk is.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Uw browser zal gegevens downloaden of uploaden tussen u en onze server. Wij helpen u bij het berekenen van uw netwerk snelheid. Hoe groter het getal, hoe beter uw netwerk is.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Uw browser stuurt een eenvoudig bericht naar de server en ontvangt een eenvoudig antwoord. Dit getal geeft de tijd aan die verstrijkt tussen verzoek en antwoord. Hoe lager het getal, hoe beter uw netwerk is.</value>

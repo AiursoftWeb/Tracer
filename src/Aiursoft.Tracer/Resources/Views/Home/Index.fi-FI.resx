@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Kaistanleveys</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Kaistavuustesti</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Rakenna seuraava suuri juttusi,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Dockeröity käyttöönottoa varten</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Lataa palvelimelta</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Latausnopeustesti</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Aika</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Siirto suunta</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Laukaise</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Lähetä tähän palvelimeen</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Käyttö</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Selaimesi lataa 4 tiedostoa (kukin 4 GB) palvelimeltamme. Laskemme verkkoyhteytesi latausnopeuden sen perusteella, kuinka kauan tiedostojen lataaminen kestää. Mitä suurempi luku on, sitä parempi verkkoyhteytesi on.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Selaimesi lataa tai lähettää tietoja sinun ja palvelimemme välillä. Autamme sinua laskemaan verkon nopeutesi. Mitä suurempi luku, sitä parempi verkkosi on.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Selaimesi lähettää palvelimelle yksinkertaisen viestin ja saa yksinkertaisen vastauksen. Tämä numero ilmaisee ajan, joka kuluu pyynnöstä vastaukseen. Mitä pienempi numero on, sitä parempi verkkoyhteytesi on.</value>
