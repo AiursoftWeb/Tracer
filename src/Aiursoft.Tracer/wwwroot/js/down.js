@@ -10,7 +10,7 @@ var downloadUrl = '/download.dat';
 var uploadUrl = '/upload';
 var xhrs = [];
 var progressUpdateInterval;
-var uploadData = new Uint8Array(10 * 1024 * 1024); // 10MB
+var uploadData = new Uint8Array(100 * 1024 * 1024); // 100MB
 
 const createDownload = (index) => {
     xhrs[index] = new XMLHttpRequest();
