@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>頻寬</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>頻寬測試</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>打造你的下一個大事業，</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>容器化部署</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>從此伺服器下載</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>下載速度測試</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>時間</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>傳輸方向</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>觸發條件</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>上傳至此伺服器</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>使用方式</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>您的瀏覽器將從我們的伺服器下載 4 個 4GB 的檔案。從開始下載到取得檔案的時間，我們將協助您計算網路下載速度。數值越大，代表您的網路狀況越好。</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>您的瀏覽器將在您與我們的伺服器之間下載或上傳資料。我們將協助您計算網路速度。數值越大，代表您的網路品質越好。</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>您的瀏覽器會向伺服器發送一個簡單訊息並取得回應。此數字代表從請求到回應所花費的時間。數字越小，表示您的網路狀況越好。</value>

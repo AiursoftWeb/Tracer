@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>عرض النطاق الترددي</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>اختبار عرض الشبكة</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>ابنِ مشروعك الكبير القادم،</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>معبأ في حاويات للنشر</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>تنزيل من هذا الخادم</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>اختبار سرعة التنزيل</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>الوقت</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>اتجاه النقل</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>المُحَفِّز</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>تحميل إلى هذا الخادم</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>الاستخدام</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>سيقوم متصفحك بتحميل 4 ملفات بحجم 4 جيجابايت من خادمنا. من لحظة بدء التحميل وحتى الحصول على الملف، سنساعدك في حساب سرعة التحميل على شبكتك. كلما كان الرقم أكبر، كانت شبكتك أفضل.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>سيقوم متصفحك بتنزيل أو تحميل البيانات بينك وبين خادمنا.我们将 مساعدتك في حساب سرعة الشبكة الخاصة بك. كلما زاد الرقم، كانت شبكتك أفضل.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>سوف يرسل متصفحك رسالة بسيطة إلى الخادم ويستقبل ردًا بسيطًا. هذا الرقم يمثل الوقت المستغرق من بداية الطلب حتى الرد. كلما كان الرقم أصغر، كانت شبكتك أفضل.</value>

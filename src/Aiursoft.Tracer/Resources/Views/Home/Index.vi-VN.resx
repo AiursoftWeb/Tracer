@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Băng thông</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Kiểm tra băng thông</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Xây dựng dự án lớn tiếp theo của bạn,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Đã được Docker hóa để Triển khai</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Tải xuống từ máy chủ này</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Kiểm tra tốc độ tải xuống</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Thời gian</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Hướng truyền tải</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Tác nhân kích hoạt</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Tải lên máy chủ này</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Cách sử dụng</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Trình duyệt của bạn sẽ tải xuống 4 tập tin 4GB từ máy chủ của chúng tôi. Từ thời điểm bắt đầu cho đến khi nhận được tập tin, chúng tôi sẽ giúp bạn tính toán tốc độ tải xuống mạng. Con số này càng lớn thì chất lượng mạng của bạn càng tốt.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Trình duyệt của bạn sẽ tải xuống hoặc tải lên dữ liệu giữa bạn và máy chủ của chúng tôi. Chúng tôi sẽ giúp bạn tính toán tốc độ mạng. Số càng lớn, mạng của bạn càng tốt.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Trình duyệt của bạn sẽ gửi cho máy chủ một tin nhắn đơn giản và nhận về một phản hồi đơn giản. Con số này biểu thị thời gian từ lúc gửi yêu cầu đến khi nhận phản hồi. Con số càng nhỏ chứng tỏ mạng của bạn càng tốt.</value>

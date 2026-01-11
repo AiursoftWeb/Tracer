@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Пропускная способность</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Тест пропускной способности</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Создайте свой следующий большой проект,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Подготовлено для развертывания в Docker</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Скачать с этого сервера</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Тест скорости загрузки</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Время</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Направление передачи</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Триггер</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Загрузить на этот сервер</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Использование</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Ваш браузер загрузит 4 файла по 4 ГБ с нашего сервера. Мы поможем рассчитать скорость загрузки вашей сети, измеряя время от начала до получения файла. Чем выше число, тем лучше ваша сеть.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Ваш браузер будет скачивать или загружать данные между вами и нашим сервером. Мы поможем вам рассчитать скорость вашего сетевого подключения. Чем больше число, тем лучше ваша сеть.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Ваш браузер отправит серверу простое сообщение и получит простой ответ. Это число означает время, затраченное на запрос и ответ. Чем меньше число, тем лучше ваша сеть.</value>

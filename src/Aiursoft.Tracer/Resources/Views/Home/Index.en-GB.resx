@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Bandwidth</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Bandwidth Test</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Build your next big thing,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Dockerised for Deployment</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Download from this server</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Download Speed Test</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Time</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Transfer Direction</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Trigger</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Upload to this server</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Usage</value>
@@ -339,22 +351,14 @@
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Your browser will download four 4GB files from our server. From the time it starts until it receives the file, we will calculate your network download speed. The higher the number, the better your network performance.</value>
   </data>
-  <data name="Your browser will send the server a simple message and receive a simple response. This number represents the time taken from request to response. The smaller the number, the better your network is." xml:space="preserve">
-    <value>Your browser will send the server a simple message and receive a simple response. This number represents the time taken from request to response. The smaller the number, the better your network is.</value>
-  </data>
-  <data name="Transfer Direction" xml:space="preserve">
-    <value>Transfer Direction</value>
-  </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>Download from this server</value>
-  </data>
-  <data name="Upload to this server" xml:space="preserve">
-    <value>Upload to this server</value>
-  </data>
-  <data name="Bandwidth Test" xml:space="preserve">
-    <value>Bandwidth Test</value>
-  </data>
   <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is.</value>
   </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Your browser will send the server a simple message and receive a simple response. This number represents the time taken from request to response. The smaller the number, the better your network performance is.</value>
+  </data>
+  <data name="Your browser will send the server a simple message and receive a simple response. This number represents the time taken from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Your browser will send the server a simple message and receive a simple response. This number represents the time taken from request to response. The smaller the number, the better your network is.</value>
+  </data>
+
 </root>

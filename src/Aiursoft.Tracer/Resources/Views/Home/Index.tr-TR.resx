@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Bant Genişliği</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Bant Genişliği Testi</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Bir sonraki büyük projenizi oluşturun,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Docker ile Dağıtıma Hazır</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Bu sunucudan indir</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>İndirme Hızı Testi</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Zaman</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Transfer Direction</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Tetikleyici</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Bu sunucuya yükle</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Kullanım</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Tarayıcınız sunucumuzdan 4 adet 4GB dosya indirecektir. İndirme başladığı andan itibaren dosyayı aldığı ana kadar geçen sürede, ağ indirme hızınızı hesaplamanıza yardımcı olacağız. Bu sayı ne kadar büyükse, ağ bağlantınız o kadar iyi demektir.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Tarayıcınız, sizinle sunucumuz arasında veri indirme veya yükleme yapacaktır. Ağ hızınızı hesaplamak için size yardımcı olacağız. Sayı ne kadar büyükse, ağınız o kadar iyidir.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Tarayıcınız sunucuya basit bir mesaj gönderecek ve basit bir yanıt alacaktır. Bu sayı, isteğin başlangıcından yanıtın alınmasına kadar geçen süreyi ifade eder. Sayı ne kadar küçükse, ağ bağlantınız o kadar iyidir.</value>

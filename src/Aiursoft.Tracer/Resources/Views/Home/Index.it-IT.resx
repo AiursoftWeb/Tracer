@@ -69,6 +69,9 @@
   <data name="Bandwidth" xml:space="preserve">
     <value>Larghezza di banda</value>
   </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Test della larghezza di banda</value>
+  </data>
   <data name="Build your next big thing," xml:space="preserve">
     <value>Costruisci la tua prossima grande idea,</value>
   </data>
@@ -107,6 +110,9 @@
   </data>
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Containerizzato per il Deployment</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Scarica da questo server</value>
   </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Test Velocità Download</value>
@@ -294,8 +300,14 @@
   <data name="Time" xml:space="preserve">
     <value>Ora</value>
   </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Direzione trasferimento</value>
+  </data>
   <data name="Trigger" xml:space="preserve">
     <value>Causa</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Carica su questo server</value>
   </data>
   <data name="Usage" xml:space="preserve">
     <value>Utilizzo</value>
@@ -338,6 +350,9 @@
   </data>
   <data name="Your browser will download 4 4GB files from our server. From the time it starts and it gets the file, we will help you calculate your network downloading speed. The larger the number, the better your network is." xml:space="preserve">
     <value>Il tuo browser scaricherà 4 file da 4GB dal nostro server. Dal momento in cui inizia a scaricare e riceve il file, ti aiuteremo a calcolare la velocità di download della tua rete. Più alto è il numero, migliore è la tua connessione.</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Il tuo browser scaricherà o caricherà dati tra te e il nostro server. Ti aiuteremo a calcolare la velocità della tua rete. Più alto è il numero, migliore è la tua rete.</value>
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Il tuo browser invierà un semplice messaggio al server e riceverà una semplice risposta. Questo numero rappresenta il tempo impiegato dalla richiesta alla risposta. Più piccolo è il numero, migliore è la tua rete.</value>
