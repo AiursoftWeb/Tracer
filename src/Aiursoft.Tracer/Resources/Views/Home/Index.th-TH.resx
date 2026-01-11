@@ -294,6 +294,9 @@
   <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
     <value>ตัวเลขนี้หมายถึงระยะเวลาช่วงว่างระหว่างเหตุการณ์เซิร์ฟเวอร์ปัจจุบันและเหตุการณ์เซิร์ฟเวอร์ล่าสุด ตัวเลขควรอยู่ใกล้กับ 100ms หากมากกว่า 120ms หรือน้อยกว่า 90ms ถือว่าไม่เหมาะสม</value>
   </data>
+  <data name="Threads" xml:space="preserve">
+    <value>เธรด</value>
+  </data>
   <data name="Throughput Chart" xml:space="preserve">
     <value>แผนภูมิปริมาณการส่งข้อมูล</value>
   </data>

@@ -294,6 +294,9 @@
   <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
     <value>此數值表示目前伺服器事件與上一個伺服器事件之間嘅時間間隔。數值應該接近100毫秒。超過120毫秒或少過90毫秒都唔正常。</value>
   </data>
+  <data name="Threads" xml:space="preserve">
+    <value>執行緒</value>
+  </data>
   <data name="Throughput Chart" xml:space="preserve">
     <value>吞吐量圖表</value>
   </data>

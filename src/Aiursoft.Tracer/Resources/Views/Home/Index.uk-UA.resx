@@ -294,6 +294,9 @@
   <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
     <value>Це число показує інтервал часу між поточною подією на сервері та попередньою подією на сервері. Значення має бути близьким до 100 мс. Показник понад 120 мс або менше 90 мс є неприйнятним.</value>
   </data>
+  <data name="Threads" xml:space="preserve">
+    <value>Потоки</value>
+  </data>
   <data name="Throughput Chart" xml:space="preserve">
     <value>Графік Пропускної Здатності</value>
   </data>
