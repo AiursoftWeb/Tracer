@@ -3,9 +3,9 @@
 var testInProgress = false;
 var threads = 4;
 var refreshPeriod = 0.8;
-var loadedBytes = new Array(threads).fill(0);
-var lastLoadedBytes = new Array(threads).fill(0);
-var baseBytes = new Array(threads).fill(0);
+var loadedBytes = [];
+var lastLoadedBytes = [];
+var baseBytes = [];
 var downloadUrl = '/download.dat';
 var uploadUrl = '/upload';
 var xhrs = [];
@@ -71,6 +71,15 @@ const stopDownload = () => {
 const startDownload = () => {
     if (testInProgress) return;
     testInProgress = true;
+    threads = parseInt(document.getElementById('threads').value);
+    if (threads < 1) threads = 1;
+    if (threads > 16) threads = 16;
+
+    loadedBytes = new Array(threads).fill(0);
+    lastLoadedBytes = new Array(threads).fill(0);
+    baseBytes = new Array(threads).fill(0);
+    xhrs = new Array(threads);
+
     const direction = document.getElementById('transferDirection').value;
     document.getElementById('downloadbutton').setAttribute('disabled', 'disabled');
     document.getElementById('downStatus').classList.remove('d-none');
