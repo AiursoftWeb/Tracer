@@ -72,7 +72,7 @@ const startDownload = () => {
     if (testInProgress) return;
     testInProgress = true;
     threads = parseInt(document.getElementById('threads').value);
-    if (threads < 1) threads = 1;
+    if (isNaN(threads) || threads < 1) threads = 1;
     if (threads > 16) threads = 16;
 
     loadedBytes = new Array(threads).fill(0);
@@ -144,7 +144,3 @@ const updateStats = () => {
     downloadchartData.datasets[0].data.push(totalSpeed.toFixed(2));
     window.myDownloadLine.update();
 };
-
-document.getElementById('downloadbutton').addEventListener('click', function () {
-    startDownload();
-});
