@@ -294,6 +294,9 @@
   <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
     <value>Bu sayı, mevcut sunucu olayı ile önceki sunucu olayı arasındaki zaman farkını ifade eder. Bu sayı 100ms&apos;ye yakın olmalıdır. 120ms&apos;den fazla veya 90ms&apos;den az olması uygun değildir.</value>
   </data>
+  <data name="Threads" xml:space="preserve">
+    <value>İş Parçacıkları</value>
+  </data>
   <data name="Throughput Chart" xml:space="preserve">
     <value>Aktarım Grafiği</value>
   </data>

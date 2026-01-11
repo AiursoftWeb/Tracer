@@ -294,6 +294,9 @@
   <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
     <value>Este número indica el intervalo de tiempo entre el evento actual del servidor y el evento anterior del servidor. El valor debería ser cercano a 100ms. Un valor superior a 120ms o inferior a 90ms no es adecuado.</value>
   </data>
+  <data name="Threads" xml:space="preserve">
+    <value>Hilos</value>
+  </data>
   <data name="Throughput Chart" xml:space="preserve">
     <value>Gráfico de Rendimiento</value>
   </data>

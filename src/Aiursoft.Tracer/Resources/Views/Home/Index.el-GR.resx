@@ -279,6 +279,9 @@
   <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
     <value>Αυτός ο αριθμός δείχνει το χρονικό διάστημα μεταξύ του τρέχοντος γεγονότος στον διακομιστή και του προηγούμενου. Ο αριθμός θα πρέπει να είναι κοντά στα 100ms. Τιμές άνω των 120ms ή κάτω των 90ms δεν είναι κατάλληλες.</value>
   </data>
+  <data name="Threads" xml:space="preserve">
+    <value>Νήματα</value>
+  </data>
   <data name="Throughput Chart" xml:space="preserve">
     <value>Διάγραμμα Ρυθμού Μεταφοράς</value>
   </data>

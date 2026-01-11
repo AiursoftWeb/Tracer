@@ -294,6 +294,9 @@
   <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
     <value>Con số này thể hiện khoảng thời gian giữa sự kiện máy chủ hiện tại và sự kiện máy chủ trước đó. Giá trị này nên gần với 100ms. Lớn hơn 120ms hoặc nhỏ hơn 90ms là không phù hợp.</value>
   </data>
+  <data name="Threads" xml:space="preserve">
+    <value>Luồng</value>
+  </data>
   <data name="Throughput Chart" xml:space="preserve">
     <value>Biểu đồ Thông lượng</value>
   </data>
