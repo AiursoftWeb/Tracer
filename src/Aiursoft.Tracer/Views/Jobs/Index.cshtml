@@ -1,0 +1,173 @@
+@model Aiursoft.Tracer.Models.BackgroundJobs.JobsIndexViewModel
+@using Aiursoft.WebTools
+@using Aiursoft.Tracer.Models.BackgroundJobs
+
+@{
+    ViewData["Title"] = "Background Jobs";
+}
+
+<h1 class="h3 mb-3">@Localizer["Background Jobs"]</h1>
+<p class="lead">@Localizer["Monitor and manage background job queues and their execution status."]</p>
+
+<div class="row mb-3">
+    <div class="col-12">
+        <form asp-action="CreateTestJobA" method="post" class="d-inline me-2">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-primary">
+                <i class="align-middle me-2" data-lucide="plus-circle"></i>
+                @Localizer["New Job A"]
+            </button>
+        </form>
+        <form asp-action="CreateTestJobB" method="post" class="d-inline">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-success">
+                <i class="align-middle me-2" data-lucide="plus-circle"></i>
+                @Localizer["New Job B"]
+            </button>
+        </form>
+        <small class="text-muted ms-2 d-block mt-2">@Localizer["Creates test jobs in different queues (15-30s sleep, 10% failure rate). Jobs in different queues run in parallel."]</small>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="table-responsive">
+                @if (Model.AllRecentJobs.Any())
+                {
+                    <table class="table table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th style="width: 12%;">@Localizer["Queue Name"]</th>
+                                <th style="width: 18%;">@Localizer["Job Name"]</th>
+                                <th style="width: 25%;">@Localizer["Status"]</th>
+                                <th style="width: 15%;">@Localizer["Queued At"]</th>
+                                <th style="width: 15%;">@Localizer["Finished At"]</th>
+                                <th style="width: 15%;">@Localizer["Actions"]</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var job in Model.AllRecentJobs)
+                            {
+                                <tr>
+                                    <td><code>@job.QueueName</code></td>
+                                    <td>@job.JobName</td>
+                                    <td>
+                                        @switch (job.Status)
+                                        {
+                                            case JobStatus.Processing:
+                                                <div>
+                                                    <span class="badge bg-primary">@Localizer["Processing"]</span>
+                                                    <div class="progress mt-2" style="height: 8px;">
+                                                        <div class="progress-bar bg-primary progress-bar-striped"
+                                                             role="progressbar" data-job-id="@job.JobId"
+                                                             data-started-at="@job.StartedAt?.ToString("o")" style="width: 0%; transition: none;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                break;
+                                            case JobStatus.Pending:
+                                                <span class="badge bg-warning text-dark">@Localizer["Pending"]</span>
+                                                break;
+                                            case JobStatus.Success:
+                                                if (job.StartedAt.HasValue && job.CompletedAt.HasValue)
+                                                {
+                                                    var duration = job.CompletedAt.Value - job.StartedAt.Value;
+                                                    <span class="badge bg-success">@Localizer["Success"]</span>
+                                                    <small class="text-muted ms-2">(@duration.TotalSeconds.ToString("F1")s)</small>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-success">@Localizer["Success"]</span>
+                                                }
+                                                break;
+                                            case JobStatus.Failed:
+                                                <div>
+                                                    <span class="badge bg-danger">@Localizer["Failed"]</span>
+                                                    @if (!string.IsNullOrEmpty(job.ErrorMessage))
+                                                    {
+                                                        <details class="mt-2">
+                                                            <summary class="text-danger" style="cursor: pointer; font-size: 0.85rem;">
+                                                                @job.ErrorMessage.Split('\n')[0].Trim()
+                                                            </summary>
+                                                            <pre class="mt-2 p-2 bg-light" style="font-size: 0.75rem; max-height: 150px; overflow-y: auto;">@job.ErrorMessage</pre>
+                                                        </details>
+                                                    }
+                                                </div>
+                                                break;
+                                            case JobStatus.Cancelled:
+                                                <span class="badge bg-secondary">@Localizer["Cancelled"]</span>
+                                                break;
+                                        }
+                                    </td>
+                                    <td><label data-utc-time="@job.QueuedAt.ToHtmlDateTime()" class="text-monospace mb-0"></label></td>
+                                    <td>
+                                        @if (job.CompletedAt.HasValue)
+                                        {
+                                            <label data-utc-time="@job.CompletedAt.Value.ToHtmlDateTime()" class="text-monospace mb-0"></label>
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (job.Status == JobStatus.Pending)
+                                        {
+                                            <form asp-action="Cancel" method="post" class="d-inline">
+                                                @Html.AntiForgeryToken()
+                                                <input type="hidden" name="jobId" value="@job.JobId" />
+                                                <button type="submit" class="btn btn-sm btn-danger">
+                                                    <i class="align-middle" data-lucide="x-circle" style="width: 14px; height: 14px;"></i>
+                                                    @Localizer["Cancel"]
+                                                </button>
+                                            </form>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                }
+                else
+                {
+                    <div class="card-body text-muted">@Localizer["No jobs"]</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@* ReSharper disable once Razor.SectionNotResolved *@
+
+@section scripts {
+    <script>
+        // Progress bar calculation function
+        function calculateProgress(elapsedSeconds) {
+            var x = elapsedSeconds;
+            var k = 5; // Speed parameter (1-100, higher = slower growth)
+
+            // y = 100 * (x - k * sqrt(x)) / (x - k^2)
+            var y = 100 * (x - k * Math.sqrt(x)) / (x - k * k);
+
+            // Ensure progress is between 0 and 99.9
+            return Math.max(0, Math.min(99.9, y));
+        }
+
+        // Update progress bars
+        function updateProgressBars() {
+            var now = new Date();
+            document.querySelectorAll('.progress-bar[data-started-at]').forEach(function (progressBar) {
+                var startedAt = new Date(progressBar.getAttribute('data-started-at'));
+                var elapsedSeconds = (now - startedAt) / 1000;
+                var progress = calculateProgress(elapsedSeconds);
+                progressBar.style.width = progress + '%';
+            });
+        }
+
+        // Update progress bars immediately and every 500ms
+        updateProgressBars();
+        setInterval(updateProgressBars, 500);
+
+        // Auto-refresh page every 5 seconds
+        setTimeout(function () {
+            window.location.reload();
+        }, 5000);
+    </script>
+}
