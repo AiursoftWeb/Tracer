@@ -7,11 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace Aiursoft.Tracer.Models.UsersViewModels;
 
 // Manage if a role is selected or not in the UI.
-public class UserRoleViewModel
-{
-    public required string RoleName { get; set; }
-    public bool IsSelected { get; set; }
-}
 
 public class EditViewModel : UiStackLayoutViewModel
 {

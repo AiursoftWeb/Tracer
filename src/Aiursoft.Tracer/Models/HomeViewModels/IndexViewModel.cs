@@ -12,11 +12,3 @@ public class IndexViewModel : UiStackLayoutViewModel
         PageTitle = "Tester";
     }
 }
-
-public class SelfhostViewModel : UiStackLayoutViewModel
-{
-    public SelfhostViewModel()
-    {
-        PageTitle = "Self host your own server";
-    }
-}
