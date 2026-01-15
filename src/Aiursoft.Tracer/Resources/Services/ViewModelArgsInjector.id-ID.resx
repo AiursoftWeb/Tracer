@@ -30,6 +30,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonim</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Pekerjaan Latar Belakang</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Ubah Avatar</value>
   </data>
@@ -69,6 +72,9 @@
   <data name="Features" xml:space="preserve">
     <value>Fitur</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Pengaturan Global</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Beranda</value>
   </data>
@@ -89,6 +95,9 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Penguji Kualitas Jaringan</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Izin</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Pribadi</value>

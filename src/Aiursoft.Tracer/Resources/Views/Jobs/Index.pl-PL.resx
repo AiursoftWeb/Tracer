@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Actions" xml:space="preserve">
+    <value>Działania</value>
+  </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Zadania w tle</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Anuluj</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Anulowano</value>
+  </data>
+  <data name="Creates test jobs in different queues (15-30s sleep, 10% failure rate). Jobs in different queues run in parallel." xml:space="preserve">
+    <value>Tworzy testowe zadania w różnych kolejkach (przerwa 15-30 s, 10% prawdopodobieństwo awarii). Zadania w różnych kolejkach uruchamiają się równolegle.</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Nie powiodło się</value>
+  </data>
+  <data name="Finished At" xml:space="preserve">
+    <value>Zakończono o</value>
+  </data>
+  <data name="Job Name" xml:space="preserve">
+    <value>Nazwa zadania</value>
+  </data>
+  <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
+    <value>Monitoruj i zarządzaj kolejkami zadań w tle oraz ich stanem wykonywania.</value>
+  </data>
+  <data name="New Job A" xml:space="preserve">
+    <value>Nowe Zadanie A</value>
+  </data>
+  <data name="New Job B" xml:space="preserve">
+    <value>Nowe zadanie B</value>
+  </data>
+  <data name="No jobs" xml:space="preserve">
+    <value>Brak zadań</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Oczekujące</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Przetwarzanie</value>
+  </data>
+  <data name="Queue Name" xml:space="preserve">
+    <value>Nazwa kolejki</value>
+  </data>
+  <data name="Queued At" xml:space="preserve">
+    <value>Zgłoszono o</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stan</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Powodzenie</value>
+  </data>
+
+</root>

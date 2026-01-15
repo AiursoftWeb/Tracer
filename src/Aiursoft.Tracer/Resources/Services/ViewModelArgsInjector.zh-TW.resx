@@ -33,6 +33,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>匿名</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>背景工作</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>變更大頭貼</value>
   </data>
@@ -72,6 +75,9 @@
   <data name="Features" xml:space="preserve">
     <value>功能</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>全域設定</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>首頁</value>
   </data>
@@ -92,6 +98,9 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>網路品質測試工具</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>權限</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>個人</value>

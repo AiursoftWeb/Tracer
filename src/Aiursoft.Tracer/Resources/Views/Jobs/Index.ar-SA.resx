@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Actions" xml:space="preserve">
+    <value>الإجراءات</value>
+  </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>مهام الخلفية</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>ملغى</value>
+  </data>
+  <data name="Creates test jobs in different queues (15-30s sleep, 10% failure rate). Jobs in different queues run in parallel." xml:space="preserve">
+    <value>يُنشئ وظائف اختبار في طوابير مختلفة (استراحة 15-30 ثانية، معدل فشل 10٪). تُنفَّذ الوظائف في الطوابير المختلفة بالتوازي.</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>فشل</value>
+  </data>
+  <data name="Finished At" xml:space="preserve">
+    <value>منتهي في</value>
+  </data>
+  <data name="Job Name" xml:space="preserve">
+    <value>اسم المهمة</value>
+  </data>
+  <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
+    <value>مراقبة وإدارة صفوف المهام الخلفية وحالة تنفيذها.</value>
+  </data>
+  <data name="New Job A" xml:space="preserve">
+    <value>مهمة جديدة أ</value>
+  </data>
+  <data name="New Job B" xml:space="preserve">
+    <value>مهمة جديدة ب</value>
+  </data>
+  <data name="No jobs" xml:space="preserve">
+    <value>لا توجد مهام</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>معلّق</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>جاري المعالجة</value>
+  </data>
+  <data name="Queue Name" xml:space="preserve">
+    <value>اسم الطابور</value>
+  </data>
+  <data name="Queued At" xml:space="preserve">
+    <value>مُنتَظِر في</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>ناجح</value>
+  </data>
+
+</root>

@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Permite ștergerea permanentă a conturilor de utilizator.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Permite vizualizarea și modificarea setărilor globale ale aplicației.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Permite vizualizarea informațiilor și setărilor la nivel de sistem.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Permite vizualizarea panoului de control al sarcinilor în fundal și gestionarea sarcinilor.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Permite vizualizarea listei tuturor permisiunilor și a atribuirii lor rolurilor și utilizatorilor.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Permite vizualizarea listei cu toți utilizatorii.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Acordă permisiunea de a reporni instanța aplicației. Poate cauza întreruperi de disponibilitate, dar toate setările și memoria cache vor fi reîncărcate.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Gestionează Setările Globale</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Citire Permisiuni</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Citește Roluri</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Repornește această aplicație</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Vizualizează sarcinile în fundal</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Vizualizare Context Sistem</value>

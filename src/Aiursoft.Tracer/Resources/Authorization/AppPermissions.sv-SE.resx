@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Tillåter permanent borttagning av användarkonton.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Tillåter visning och ändring av globala programinställningar.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Ger tillgång att visa systemnivåinformation och inställningar.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Tillåter visning av bakgrundsjobbskärmen och hantering av jobb.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Tillåter visning av listan över alla behörigheter och deras tilldelningar till roller och användare.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Tillåter att se listan över alla användare.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Ger tillstånd att starta om applikationsinstansen. Kan orsaka tillgänglighetsavbrott men alla inställningar och cacheminnen kommer att laddas om.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Hantera globala inställningar</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Läs Behörigheter</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Läs roller</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Starta om den här appen</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Visa bakgrundsjobb</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Visa systemkontext</value>

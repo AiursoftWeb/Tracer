@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>允許永久刪除使用者帳戶。</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>允許檢視和修改全域應用程式設定。</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>允許檢視系統層級的資訊與設定。</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>允許檢視背景工作儀表板並管理工作。</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>允許檢視所有權限及其指派給角色和使用者的清單。</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>允許檢視所有使用者的清單。</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>授予重新啟動應用程式實例的權限。可能導致服務中斷，但所有設定和快取都將重新載入。</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>管理全域設定</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>讀取權限</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>讀取角色</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>重新啟動此應用程式</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>檢視背景工作</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>檢視系統內容</value>

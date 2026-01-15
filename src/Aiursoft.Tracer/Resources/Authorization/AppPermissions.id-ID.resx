@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Memungkinkan penghapusan permanen akun pengguna.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Memungkinkan melihat dan mengubah pengaturan aplikasi global.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Memungkinkan melihat informasi dan pengaturan tingkat sistem.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Memungkinkan melihat dasbor pekerjaan latar belakang dan mengelola pekerjaan.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Memungkinkan melihat daftar semua izin dan penugasan mereka ke peran serta pengguna.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Memungkinkan melihat daftar semua pengguna.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Memberikan izin untuk memulai ulang instance aplikasi. Dapat menyebabkan gangguan ketersediaan, tetapi semua pengaturan dan cache akan dimuat ulang.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Kelola Pengaturan Global</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Baca Izin</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Lihat Peran</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Mulai Ulang Aplikasi Ini</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Lihat Pekerja Latar Belakang</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Lihat Konteks Sistem</value>

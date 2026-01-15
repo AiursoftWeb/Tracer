@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Consente l&apos;eliminazione permanente degli account utente.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Consente la visualizzazione e la modifica delle impostazioni globali dell&apos;applicazione.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Consente di visualizzare informazioni e impostazioni a livello di sistema.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Consente di visualizzare il dashboard dei processi in background e di gestire i processi.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Consente di visualizzare l&apos;elenco di tutti i permessi e le relative assegnazioni a ruoli e utenti.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Consente di visualizzare l&apos;elenco di tutti gli utenti.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Concede il permesso di riavviare l&apos;istanza dell&apos;applicazione. Potrebbe causare interruzioni della disponibilità, ma tutte le impostazioni e la cache verranno ricaricate.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Gestisci Impostazioni Globali</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Leggi Autorizzazioni</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Leggere i ruoli</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Riavvia Questa App</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Visualizza i processi in background</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Visualizza Contesto di Sistema</value>

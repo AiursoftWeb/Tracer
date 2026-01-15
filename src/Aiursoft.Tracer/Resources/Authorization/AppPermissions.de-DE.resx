@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Ermöglicht das dauerhafte Löschen von Benutzerkonten.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Erlaubt das Anzeigen und Ändern von globalen Anwendungseinstellungen.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Ermöglicht das Anzeigen von systemweiten Informationen und Einstellungen.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Ermöglicht das Anzeigen der Hintergrundaufgabenübersicht und die Verwaltung von Aufgaben.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Ermöglicht das Anzeigen der Liste aller Berechtigungen und ihrer Zuweisungen zu Rollen und Benutzern.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Ermöglicht das Anzeigen der Liste aller Benutzer.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Erteilt die Berechtigung, die Anwendungsinstanz neu zu starten. Kann zu Verfügbarkeitsunterbrechungen führen, aber alle Einstellungen und der Cache werden neu geladen.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Globale Einstellungen verwalten</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Berechtigungen lesen</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Rollen lesen</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Diese App neu starten</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Hintergrundaufträge anzeigen</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Systemkontext anzeigen</value>

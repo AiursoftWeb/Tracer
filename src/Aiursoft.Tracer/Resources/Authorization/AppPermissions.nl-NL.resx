@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Staat het permanent verwijderen van gebruikersaccounts toe.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Staats het bekijken en wijzigen van globale toepassingsinstellingen.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Staat het bekijken van systeeminformatie en -instellingen toe.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Staat het bekijken van het dashboard voor achtergrondtaken en het beheren van taken toe.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Staat het bekijken van de lijst met alle machtigingen en hun toewijzingen aan rollen en gebruikers toe.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Staat het bekijken van de lijst met alle gebruikers toe.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Verleent toestemming om de applicatie-instantie opnieuw op te starten. Kan beschikbaarheidsonderbrekingen veroorzaken, maar alle instellingen en cache worden opnieuw geladen.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Algemene instellingen beheren</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Toegang tot machtigingen lezen</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Rollen lezen</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Herstart deze app</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Achtergrondtaken weergeven</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Systeemcontext weergeven</value>
