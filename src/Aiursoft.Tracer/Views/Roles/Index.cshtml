@@ -1,4 +1,7 @@
+@using Aiursoft.Tracer.Authorization
+@using Microsoft.Extensions.Localization
 @model Aiursoft.Tracer.Models.RolesViewModels.IndexViewModel
+@inject IStringLocalizer<AppPermissions> PermissionLocalizer
 
 @* The page-specific style is preserved. *@
 <style>
@@ -33,6 +36,7 @@
             <thead>
             <tr>
                 <th>@Localizer["Role Name"]</th>
+                <th>@Localizer["Permissions"]</th>
                 <th>@Localizer["User Count"]</th>
                 <th class="text-end">@Localizer["Actions"]</th>
             </tr>
@@ -43,6 +47,21 @@
                 @* The clickable-row class and data-href attribute are fully preserved. *@
                 <tr class="clickable-row" data-href="@Url.Action("Details", new { id = item.Role.Id })">
                     <td>@item.Role.Name</td>
+                    <td>
+                        @if (item.PermissionCount > 0)
+                        {
+                            const int maxPermissionsToShow = 3;
+                            var displayPermissions = item.PermissionNames.Count > maxPermissionsToShow
+                                ? string.Join(", ", item.PermissionNames.Take(maxPermissionsToShow).Select(n => PermissionLocalizer[n].Value)) + "..."
+                                : string.Join(", ", item.PermissionNames.Select(n => PermissionLocalizer[n].Value));
+                            
+                            <span>@displayPermissions (@item.PermissionCount)</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted">@Localizer["No permissions"]</span>
+                        }
+                    </td>
                     <td>@item.UserCount</td>
                     <td class="text-end">
                         <a asp-action="Edit" asp-route-id="@item.Role.Id" class="btn btn-sm btn-outline-primary">

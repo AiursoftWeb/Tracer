@@ -1,3 +1,4 @@
+using System.Diagnostics.CodeAnalysis;
 using Aiursoft.Tracer.Authorization;
 using Aiursoft.Tracer.Configuration;
 using Aiursoft.Tracer.Entities;
@@ -9,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace Aiursoft.Tracer.Services.Authentication;
 
+[ExcludeFromCodeCoverage]
 public static class AuthenticationExtensions
 {
     public static IServiceCollection AddTemplateAuth(

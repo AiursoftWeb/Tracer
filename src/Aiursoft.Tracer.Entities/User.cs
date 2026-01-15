@@ -5,7 +5,7 @@ namespace Aiursoft.Tracer.Entities;
 
 public class User : IdentityUser
 {
-    public const string DefaultAvatarPath = "Workspace/avatar/default-avatar.jpg";
+    public const string DefaultAvatarPath = "avatar/default-avatar.jpg";
 
     [MaxLength(30)]
     [MinLength(2)]

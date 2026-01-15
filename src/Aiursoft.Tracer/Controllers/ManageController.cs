@@ -25,6 +25,7 @@ public class ManageController(
     IOptions<AppSettings> appSettings,
     UserManager<User> userManager,
     SignInManager<User> signInManager,
+    GlobalSettingsService settingsService,
     ILogger<ManageController> logger)
     : Controller
 {
@@ -39,7 +40,7 @@ public class ManageController(
         LinkText = "Profile Settings",
         LinkOrder = 3)]
     [HttpGet]
-    public IActionResult Index(ManageMessageId? message = null)
+    public async Task<IActionResult> Index(ManageMessageId? message = null)
     {
         ViewData["StatusMessage"] =
             message == ManageMessageId.ChangeProfileSuccess ? localizer["Your profile has been saved."] :
@@ -48,7 +49,10 @@ public class ManageController(
             message == ManageMessageId.Error ? localizer["An error has occurred."]
             : "";
 
-        var model = new IndexViewModel();
+        var model = new IndexViewModel
+        {
+            AllowUserAdjustNickname = await settingsService.GetBoolSettingAsync(SettingsMap.AllowUserAdjustNickname)
+        };
         return this.StackView(model);
     }
 
@@ -99,6 +103,11 @@ public class ManageController(
     [HttpGet]
     public async Task<IActionResult> ChangeProfile()
     {
+        if (!await settingsService.GetBoolSettingAsync(SettingsMap.AllowUserAdjustNickname))
+        {
+            return BadRequest("Adjusting nickname is disabled by administrator.");
+        }
+
         var user = await GetCurrentUserAsync();
         return this.StackView(new ChangeProfileViewModel
         {
@@ -112,6 +121,11 @@ public class ManageController(
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> ChangeProfile(ChangeProfileViewModel model)
     {
+        if (!await settingsService.GetBoolSettingAsync(SettingsMap.AllowUserAdjustNickname))
+        {
+            return BadRequest("Adjusting nickname is disabled by administrator.");
+        }
+
         if (!ModelState.IsValid)
         {
             return this.StackView(model);

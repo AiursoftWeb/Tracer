@@ -44,11 +44,31 @@ public class RolesController(
             })
             .ToDictionaryAsync(x => x.RoleId, x => x.Count);
 
+        var allRolePermissions = await context.RoleClaims
+            .Where(rc => rc.ClaimType == AppPermissions.Type)
+            .ToListAsync();
+
+        var rolePermissionsGrouped = allRolePermissions
+            .GroupBy(rc => rc.RoleId)
+            .ToDictionary(g => g.Key, g => g.Select(rc => rc.ClaimValue).ToList());
+
+        var allPermissionsDescriptors = AppPermissions.GetAllPermissions();
+
         var allRoles = await roleManager.Roles.ToListAsync();
-        var rolesWithCount = allRoles.Select(role => new IdentityRoleWithCount
+        var rolesWithCount = allRoles.Select(role =>
         {
-            Role = role,
-            UserCount = roleUserCounts.GetValueOrDefault(role.Id, 0)
+            var permissionKeys = rolePermissionsGrouped.GetValueOrDefault(role.Id, []);
+            var matchedPermissions = allPermissionsDescriptors
+                .Where(p => permissionKeys.Contains(p.Key))
+                .ToList();
+
+            return new IdentityRoleWithCount
+            {
+                Role = role,
+                UserCount = roleUserCounts.GetValueOrDefault(role.Id, 0),
+                PermissionCount = matchedPermissions.Count,
+                PermissionNames = matchedPermissions.Select(p => p.Name).ToList()
+            };
         }).ToList();
 
         return this.StackView(new IndexViewModel

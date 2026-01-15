@@ -8,4 +8,6 @@ public class IndexViewModel: UiStackLayoutViewModel
     {
         PageTitle = "Manage";
     }
+
+    public bool AllowUserAdjustNickname { get; set; }
 }

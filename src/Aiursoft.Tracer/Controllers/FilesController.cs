@@ -17,7 +17,7 @@ public class FilesController(
     StorageService storage) : ControllerBase
 {
     [Route("upload/{subfolder}")]
-    public async Task<IActionResult> Index([FromRoute] [ValidDomainName] string subfolder)
+    public async Task<IActionResult> Index([FromRoute][ValidDomainName] string subfolder)
     {
         if (!ModelState.IsValid)
         {
@@ -51,6 +51,8 @@ public class FilesController(
             DateTime.UtcNow.Month.ToString("D2"),
             DateTime.UtcNow.Day.ToString("D2"),
             file.FileName);
+        
+        // Save returns the logical path (e.g. avatar/2026/01/14/logo.png)
         var relativePath = await storage.Save(storePath, file);
         return Ok(new
         {
@@ -69,6 +71,7 @@ public class FilesController(
             return BadRequest();
         }
 
+        // 1. Check if resource exists in Workspace (using logical path to resolve)
         string physicalPath;
         try
         {
@@ -78,37 +81,42 @@ public class FilesController(
         {
             return BadRequest("Attempted to access a restricted path.");
         }
+        
         if (!System.IO.File.Exists(physicalPath))
         {
             return NotFound();
         }
+
+        // 2. Image Processing (using logical path)
+        // If it is an image, we enforce privacy protection (ClearExif) or resizing
         if (physicalPath.IsStaticImage() && await imageCompressor.IsValidImageAsync(physicalPath))
         {
-            logger.LogInformation("Processing image compression request for path: {Path}", physicalPath);
-            return await FileWithImageCompressor(physicalPath);
+            logger.LogInformation("Processing image compression/clearing request for logical path: {Path}", folderNames);
+            return await FileWithImageCompressor(folderNames);
         }
 
-        logger.LogInformation("Processing file download request for path: {Path}", physicalPath);
+        // 3. Standard File Download (Non-image)
+        logger.LogInformation("Processing raw file download request for path: {Path}", physicalPath);
         return this.WebFile(physicalPath);
     }
 
-    private async Task<IActionResult> FileWithImageCompressor(string path)
+    private async Task<IActionResult> FileWithImageCompressor(string logicalPath)
     {
         var passedWidth = int.TryParse(Request.Query["w"], out var width);
         var passedSquare = bool.TryParse(Request.Query["square"], out var square);
         if (width > 0 && passedWidth)
         {
             width = SizeCalculator.Ceiling(width);
-            logger.LogInformation("Compressing image '{Path}' to width: {Width}", path, width);
+            logger.LogInformation("Compressing image '{Path}' to width: {Width}", logicalPath, width);
             if (square && passedSquare)
             {
-                var compressedPath = await imageCompressor.CompressAsync(path, width, width);
+                var compressedPath = await imageCompressor.CompressAsync(logicalPath, width, width);
                 logger.LogInformation("Image compressed to square format: {CompressedPath}", compressedPath);
                 return this.WebFile(compressedPath);
             }
             else
             {
-                var compressedPath = await imageCompressor.CompressAsync(path, width, 0);
+                var compressedPath = await imageCompressor.CompressAsync(logicalPath, width, 0);
                 logger.LogInformation("Image compressed to rectangular format: {CompressedPath}", compressedPath);
                 return this.WebFile(compressedPath);
             }
@@ -116,12 +124,12 @@ public class FilesController(
         else
         {
             logger.LogInformation("No valid width parameter provided for {Path}, width={Width}, passedWidth={PassedWidth}",
-                path, width, passedWidth);
+                logicalPath, width, passedWidth);
         }
 
-        // If no width or invalid, just clear EXIF
-        logger.LogInformation("Clearing EXIF data for image: {Path}", path);
-        var clearedPath = await imageCompressor.ClearExifAsync(path);
+        // If no width or invalid, just clear EXIF (Privacy by Default)
+        logger.LogInformation("Clearing EXIF data for image: {Path}", logicalPath);
+        var clearedPath = await imageCompressor.ClearExifAsync(logicalPath);
         return this.WebFile(clearedPath);
     }
 }

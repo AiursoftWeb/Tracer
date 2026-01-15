@@ -3,97 +3,87 @@ using Aiursoft.Scanner.Abstractions;
 namespace Aiursoft.Tracer.Services.FileStorage;
 
 /// <summary>
-/// Represents a service for storing and managing files.
+/// Represents a service for storing and managing files. (Level 3: Business Gateway)
 /// </summary>
-public class StorageService(IConfiguration configuration) : ISingletonDependency
+public class StorageService(
+    FeatureFoldersProvider folders,
+    FileLockProvider fileLockProvider) : ITransientDependency
 {
-    public readonly string StorageRootFolder = configuration["Storage:Path"]!;
-
-    // Async lock.
-    private readonly SemaphoreSlim _lock = new(1, 1);
-
     /// <summary>
     /// Saves a file to the storage.
     /// </summary>
-    /// <param name="savePath">The path where the file will be saved. The 'savePath' is the path that the user wants to save. Not related to actual disk path.</param>
+    /// <param name="logicalPath">The logical path (relative to Workspace) where the file will be saved.</param>
     /// <param name="file">The file to be saved.</param>
-    /// <returns>The actual path where the file is saved relative to the workspace folder.</returns>
-    public async Task<string> Save(string savePath, IFormFile file)
+    /// <returns>The actual logical path where the file is saved (may differ if renamed).</returns>
+    public async Task<string> Save(string logicalPath, IFormFile file)
     {
-        var workspaceFolder = Path.Combine(StorageRootFolder, "Workspace");
-        var finalFilePath = Path.GetFullPath(Path.Combine(workspaceFolder, savePath));
-        var workspaceFullPath = Path.GetFullPath(workspaceFolder);
-        if (!workspaceFullPath.EndsWith(Path.DirectorySeparatorChar))
+        // 1. Get Workspace root
+        var workspaceRoot = folders.GetWorkspaceFolder();
+        
+        // 2. Resolve physical path
+        var physicalPath = Path.GetFullPath(Path.Combine(workspaceRoot, logicalPath));
+
+        // 3. Security check: Ensure path is within Workspace
+        if (!physicalPath.StartsWith(workspaceRoot, StringComparison.OrdinalIgnoreCase))
         {
-            workspaceFullPath += Path.DirectorySeparatorChar;
+            throw new ArgumentException("Path traversal attempt detected!");
         }
 
-        if (!finalFilePath.StartsWith(workspaceFullPath, StringComparison.Ordinal))
+        // 4. Create directory if needed
+        var directory = Path.GetDirectoryName(physicalPath);
+        if (!Directory.Exists(directory))
         {
-            throw new ArgumentException("Attempted to access a restricted path.");
-        }
-        var finalFolder = Path.GetDirectoryName(finalFilePath);
-
-        // Create the folder if it does not exist.
-        if (!Directory.Exists(finalFolder))
-        {
-            Directory.CreateDirectory(finalFolder!);
+             Directory.CreateDirectory(directory!);
         }
 
-        // The problem is: What if the file already exists?
-        await _lock.WaitAsync();
+        // 5. Handle collisions (Renaming)
+        // Lock on the directory to prevent race conditions during renaming
+        var lockObj = fileLockProvider.GetLock(directory!); 
+        await lockObj.WaitAsync();
         try
         {
-            var expectedFileName = Path.GetFileName(finalFilePath);
-            while (File.Exists(finalFilePath))
+            var expectedFileName = Path.GetFileName(physicalPath);
+            while (File.Exists(physicalPath))
             {
                 expectedFileName = "_" + expectedFileName;
-                finalFilePath = Path.Combine(finalFolder!, expectedFileName);
+                physicalPath = Path.Combine(directory!, expectedFileName);
             }
 
-            // This is to avoid the case that the file already exists.
-            // However, we can't copy the stream to the new file. Because this is running in a lock and we need to release the lock ASAP.
-            // So we create a new file and close it to ensure the file is valid and can be copied to.
-            File.Create(finalFilePath).Close();
+            // Create placeholder to reserve name
+            File.Create(physicalPath).Close();
         }
         finally
         {
-            _lock.Release();
+            lockObj.Release();
         }
 
-        await using var fileStream = new FileStream(finalFilePath, FileMode.Create);
+        // 6. Write file content
+        await using var fileStream = new FileStream(physicalPath, FileMode.Create);
         await file.CopyToAsync(fileStream);
-        fileStream.Close();
-
-        return Path.GetRelativePath(StorageRootFolder, finalFilePath);
+        
+        // 7. Return logical path (relative to Workspace)
+        return Path.GetRelativePath(workspaceRoot, physicalPath).Replace("\\", "/");
     }
 
     /// <summary>
-    /// Retrieves the physical file path for a given file name within the storage workspace folder.
+    /// Retrieves the physical file path for a given logical path.
+    /// Defaults to Workspace.
     /// </summary>
-    /// <param name="relativePath">The name of the file for which the physical path is required.</param>
-    /// <returns>The full physical path of the file within the workspace folder.</returns>
-    public string GetFilePhysicalPath(string relativePath)
+    public string GetFilePhysicalPath(string logicalPath)
     {
-        var physicalPath = Path.GetFullPath(Path.Combine(StorageRootFolder, relativePath));
-        var workspaceFullPath = Path.GetFullPath(StorageRootFolder);
-        if (!workspaceFullPath.EndsWith(Path.DirectorySeparatorChar))
-        {
-            workspaceFullPath += Path.DirectorySeparatorChar;
-        }
+        var workspaceRoot = folders.GetWorkspaceFolder();
+        var physicalPath = Path.GetFullPath(Path.Combine(workspaceRoot, logicalPath));
 
-        if (!physicalPath.StartsWith(workspaceFullPath, StringComparison.Ordinal))
+        if (!physicalPath.StartsWith(workspaceRoot, StringComparison.OrdinalIgnoreCase))
         {
-            throw new ArgumentException("Attempted to access a restricted path.");
+            throw new ArgumentException("Restricted path access!");
         }
         return physicalPath;
     }
 
     /// <summary>
-    /// Converts a relative path to a URI-compatible path.
+    /// Converts a logical path to a URI-compatible path.
     /// </summary>
-    /// <param name="relativePath">The relative file path to be converted.</param>
-    /// <returns>A URI-compatible path derived from the relative path.</returns>
     private string RelativePathToUriPath(string relativePath)
     {
         var urlPath = Uri.EscapeDataString(relativePath)

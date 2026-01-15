@@ -5,7 +5,8 @@ using SixLabors.ImageSharp.Processing;
 namespace Aiursoft.Tracer.Services.FileStorage;
 
 public class ImageProcessingService(
-    PathResolver pathResolver,
+    FeatureFoldersProvider folders,
+    StorageService storageService,
     ILogger<ImageProcessingService> logger,
     FileLockProvider fileLockProvider) : ITransientDependency
 {
@@ -26,21 +27,38 @@ public class ImageProcessingService(
 
     /// <summary>
     /// Clears the EXIF data while retaining the same resolution,
-    /// then writes the result to the "ClearedEXIF" subdirectory.
+    /// then writes the result to the "ClearExif" subdirectory.
     /// </summary>
-    public async Task<string> ClearExifAsync(string sourceAbsolute)
+    public async Task<string> ClearExifAsync(string logicalPath)
     {
-        var targetAbsolute = pathResolver.GetClearedExifAbsolutePath(sourceAbsolute);
+        // 1. Resolve source path (Workspace)
+        var sourceAbsolute = storageService.GetFilePhysicalPath(logicalPath);
+        
+        // 2. Resolve target path (ClearExif/logicalPath)
+        var targetAbsolute = Path.GetFullPath(Path.Combine(folders.GetClearExifFolder(), logicalPath));
+
+        // 3. Check cache
         if (File.Exists(targetAbsolute) && FileCanBeRead(targetAbsolute))
         {
             logger.LogInformation("EXIF-cleared file already exists: {Target}", targetAbsolute);
             return targetAbsolute;
         }
 
+        // 4. Ensure target directory exists
+        var targetDir = Path.GetDirectoryName(targetAbsolute);
+        if (!Directory.Exists(targetDir)) Directory.CreateDirectory(targetDir!);
+
+        // 5. Process
         var lockOnCreatedFile = fileLockProvider.GetLock(targetAbsolute);
         await lockOnCreatedFile.WaitAsync();
         try
         {
+            // Double check inside lock
+             if (File.Exists(targetAbsolute) && FileCanBeRead(targetAbsolute))
+            {
+                return targetAbsolute;
+            }
+
             await WaitTillFileCanBeReadAsync(sourceAbsolute);
             using var image = await Image.LoadAsync(sourceAbsolute);
             image.Mutate(ctx => { ctx.AutoOrient(); });
@@ -51,13 +69,16 @@ public class ImageProcessingService(
         catch (UnknownImageFormatException e)
         {
             logger.LogWarning(e, "Not a known image format; skipping EXIF clear for {Source}", sourceAbsolute);
-            // Return original. Or you can throw an exception, up to you.
-            return sourceAbsolute;
+            return sourceAbsolute; // Return original if fail
         }
         catch (ImageFormatException e)
         {
-            // e.g. if it's a corrupted or non-image file
             logger.LogWarning(e, "Invalid image; returning original path for {Source}", sourceAbsolute);
+            return sourceAbsolute;
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, "Failed to clear EXIF for {Source}", sourceAbsolute);
             return sourceAbsolute;
         }
         finally
@@ -70,22 +91,39 @@ public class ImageProcessingService(
 
     /// <summary>
     /// Compresses the image to the specified width/height.
-    /// If width or height is 0, that dimension is not constrained.
     /// Also clears EXIF data.
     /// </summary>
-    public async Task<string> CompressAsync(string sourceAbsolute, int width, int height)
+    public async Task<string> CompressAsync(string logicalPath, int width, int height)
     {
-        var targetAbsolute = pathResolver.GetCompressedAbsolutePath(sourceAbsolute, width, height);
+        var sourceAbsolute = storageService.GetFilePhysicalPath(logicalPath);
+        
+        // Calculate target path in Compressed folder
+        var compressedRoot = folders.GetCompressedFolder();
+        var dimensionSuffix = BuildDimensionSuffix(width, height);
+        
+        // "avatar/2026/01/14/logo.png" -> "avatar/2026/01/14/" + "logo_w100.png"
+        var extension = Path.GetExtension(logicalPath);
+        var fileNameWithoutExt = Path.GetFileNameWithoutExtension(logicalPath);
+        var directoryInStore = Path.GetDirectoryName(logicalPath) ?? string.Empty;
+        
+        var newFileName = $"{fileNameWithoutExt}{dimensionSuffix}{extension}";
+        var targetAbsolute = Path.GetFullPath(Path.Combine(compressedRoot, directoryInStore, newFileName));
+
         if (File.Exists(targetAbsolute) && FileCanBeRead(targetAbsolute))
         {
             logger.LogInformation("Compressed file already exists: {Target}", targetAbsolute);
             return targetAbsolute;
         }
+        
+        var targetDir = Path.GetDirectoryName(targetAbsolute);
+        if (!Directory.Exists(targetDir)) Directory.CreateDirectory(targetDir!);
 
         var lockOnCreatedFile = fileLockProvider.GetLock(targetAbsolute);
         await lockOnCreatedFile.WaitAsync();
         try
         {
+            if (File.Exists(targetAbsolute) && FileCanBeRead(targetAbsolute)) return targetAbsolute;
+
             await WaitTillFileCanBeReadAsync(sourceAbsolute);
             using var image = await Image.LoadAsync(sourceAbsolute);
             image.Mutate(x => x.AutoOrient());
@@ -102,7 +140,12 @@ public class ImageProcessingService(
         }
         catch (ImageFormatException e)
         {
-            logger.LogWarning(e, "Invalid image format; returning original path for {Source}", sourceAbsolute);
+             logger.LogWarning(e, "Invalid image; returning original path for {Source}", sourceAbsolute);
+             return sourceAbsolute;
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, "Failed to compress {Source}", sourceAbsolute);
             return sourceAbsolute;
         }
         finally
@@ -113,11 +156,22 @@ public class ImageProcessingService(
         return targetAbsolute;
     }
 
+    private static string BuildDimensionSuffix(int width, int height)
+    {
+        if (width > 0 && height > 0) return $"_w{width}_h{height}";
+        if (width > 0) return $"_w{width}";
+        if (height > 0) return $"_h{height}";
+        return string.Empty;
+    }
+
     private async Task WaitTillFileCanBeReadAsync(string path)
     {
-        while (!FileCanBeRead(path))
+        // Don't wait forever
+        int retries = 0;
+        while (!FileCanBeRead(path) && retries < 20)
         {
             await Task.Delay(100);
+            retries++;
         }
     }
 
