@@ -30,6 +30,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonim</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Arka Plan Görevleri</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Profil Resmini Değiştir</value>
   </data>
@@ -69,6 +72,9 @@
   <data name="Features" xml:space="preserve">
     <value>Özellikler</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Genel Ayarlar</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Ana Sayfa</value>
   </data>
@@ -89,6 +95,9 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Ağ Kalitesi Test Cihazı</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>İzinler</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Kişisel</value>

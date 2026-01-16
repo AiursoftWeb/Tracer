@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>ユーザーアカウントの完全削除を許可します。</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>グローバルなアプリケーション設定の表示および変更を許可します。</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>システムレベルの情報と設定の表示を許可します。</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>バックグラウンドジョブダッシュボードの表示とジョブの管理を許可します。</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>すべての権限およびそれらのロールとユーザーへの割り当ての一覧を表示できるようにします。</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>すべてのユーザーのリストを表示することを許可します。</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>アプリケーションインスタンスの再起動を許可します。可用性の中断を引き起こす可能性がありますが、すべての設定とキャッシュは再読み込みされます。</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>グローバル設定の管理</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>権限の読み取り</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>ロールの閲覧</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>このアプリを再起動</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>バックグラウンドジョブの表示</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>システムコンテキストの表示</value>

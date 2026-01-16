@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Allows the permanent deletion of user accounts.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Allows viewing and modifying global application settings.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Allows viewing system-level information and settings.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Allows viewing the background job dashboard and managing jobs.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Allows viewing the list of all permissions and their assignments to roles and users.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Allows viewing the list of all users.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Grants permission to restart the application instance. May cause service interruptions, but all settings and cache will be reloaded.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Manage Global Settings</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Read Permissions</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>View Roles</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Restart This Application</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>View Background Jobs</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>View System Context</value>

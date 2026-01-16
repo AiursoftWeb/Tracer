@@ -36,6 +36,12 @@
   <data name="Manage Roles" xml:space="preserve">
     <value>Hallitse rooleja</value>
   </data>
+  <data name="No permissions" xml:space="preserve">
+    <value>Ei oikeuksia</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Oikeudet</value>
+  </data>
   <data name="Role Name" xml:space="preserve">
     <value>Roolin nimi</value>
   </data>

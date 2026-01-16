@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Actions" xml:space="preserve">
+    <value>Acciones</value>
+  </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Trabajos en segundo plano</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="Creates test jobs in different queues (15-30s sleep, 10% failure rate). Jobs in different queues run in parallel." xml:space="preserve">
+    <value>Crea trabajos de prueba en colas diferentes (retardo de 15-30 segundos, tasa de fallo del 10%). Los trabajos en colas diferentes se ejecutan en paralelo.</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Finished At" xml:space="preserve">
+    <value>Finalizado a las</value>
+  </data>
+  <data name="Job Name" xml:space="preserve">
+    <value>Nombre del trabajo</value>
+  </data>
+  <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
+    <value>Supervisar y gestionar colas de trabajos en segundo plano y su estado de ejecución.</value>
+  </data>
+  <data name="New Job A" xml:space="preserve">
+    <value>Nuevo trabajo A</value>
+  </data>
+  <data name="New Job B" xml:space="preserve">
+    <value>Nuevo trabajo B</value>
+  </data>
+  <data name="No jobs" xml:space="preserve">
+    <value>Sin trabajos</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Procesando</value>
+  </data>
+  <data name="Queue Name" xml:space="preserve">
+    <value>Nombre de cola</value>
+  </data>
+  <data name="Queued At" xml:space="preserve">
+    <value>Colocado en cola el</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Éxito</value>
+  </data>
+
+</root>

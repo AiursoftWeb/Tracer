@@ -30,6 +30,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anonimowy</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Zadania w tle</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Zmień awatar</value>
   </data>
@@ -69,6 +72,9 @@
   <data name="Features" xml:space="preserve">
     <value>Funkcje</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Ustawienia globalne</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Strona główna</value>
   </data>
@@ -89,6 +95,9 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Tester Jakości Sieci</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Uprawnienia</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Osobiste</value>

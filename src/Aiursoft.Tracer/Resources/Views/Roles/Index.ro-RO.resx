@@ -36,6 +36,12 @@
   <data name="Manage Roles" xml:space="preserve">
     <value>Gestionează Roluri</value>
   </data>
+  <data name="No permissions" xml:space="preserve">
+    <value>Fără permisiuni</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Permisiuni</value>
+  </data>
   <data name="Role Name" xml:space="preserve">
     <value>Nume Rol</value>
   </data>

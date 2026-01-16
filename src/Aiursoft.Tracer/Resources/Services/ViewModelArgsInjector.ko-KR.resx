@@ -33,6 +33,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>익명</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>백그라운드 작업</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>아바타 변경</value>
   </data>
@@ -72,6 +75,9 @@
   <data name="Features" xml:space="preserve">
     <value>기능</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>전역 설정</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>홈</value>
   </data>
@@ -92,6 +98,9 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>네트워크 품질 테스터</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>권한</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>개인</value>

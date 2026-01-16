@@ -36,6 +36,12 @@
   <data name="Manage Roles" xml:space="preserve">
     <value>ロールの管理</value>
   </data>
+  <data name="No permissions" xml:space="preserve">
+    <value>権限がありません</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>権限</value>
+  </data>
   <data name="Role Name" xml:space="preserve">
     <value>ロール名</value>
   </data>

@@ -30,6 +30,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Anoniem</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Achtergrondtaken</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Avatar wijzigen</value>
   </data>
@@ -69,6 +72,9 @@
   <data name="Features" xml:space="preserve">
     <value>Functionaliteiten</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Algemene instellingen</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
@@ -89,6 +95,9 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Netwerkkwaliteit Tester</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Machtigingen</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Persoonlijk</value>

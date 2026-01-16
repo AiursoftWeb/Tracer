@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>يسمح بالحذف الدائم لحسابات المستخدمين.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>يسمح بالعَرض وتعديل إعدادات التطبيق العالمية.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>يسمح بعرض معلومات وإعدادات على مستوى النظام.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>يُتيح عرض لوحة تحكم المهام الخلفية وإدارة المهام.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>يُمكّن من عرض قائمة جميع الصلاحيات وتخصيصاتها للدورات والمستخدمين.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>يسمح بعرض قائمة جميع المستخدمين.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>يمنح الإذن بإعادة تشغيل نسخة التطبيق. قد يتسبب ذلك في انقطاعات في التوفر ولكن سيتم إعادة تحميل جميع الإعدادات والذاكرة المؤقتة.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>إدارة الإعدادات العالمية</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>عرض الصلاحيات</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>قراءة الأدوار</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>إعادة تشغيل هذا التطبيق</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>عرض مهام الخلفية</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>عرض سياق النظام</value>

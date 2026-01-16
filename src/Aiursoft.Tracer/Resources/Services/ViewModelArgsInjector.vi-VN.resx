@@ -33,6 +33,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Ẩn danh</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Các nhiệm vụ nền</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Thay đổi Ảnh đại diện</value>
   </data>
@@ -72,6 +75,9 @@
   <data name="Features" xml:space="preserve">
     <value>Tính năng</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Cài đặt toàn cục</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Trang Chủ</value>
   </data>
@@ -92,6 +98,9 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Trình Kiểm Tra Chất Lượng Mạng</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Quyền hạn</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Cá nhân</value>

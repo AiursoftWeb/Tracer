@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Cho phép xóa vĩnh viễn tài khoản người dùng.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Cho phép xem và chỉnh sửa cài đặt toàn cục của ứng dụng.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Cho phép xem thông tin và cài đặt ở cấp hệ thống.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Cho phép xem bảng điều khiển công việc nền và quản lý các công việc.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Cho phép xem danh sách tất cả các quyền và việc phân công chúng cho vai trò và người dùng.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Cho phép xem danh sách tất cả người dùng.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Cấp quyền khởi động lại phiên bản ứng dụng. Có thể gây ra gián đoạn về tính khả dụng nhưng tất cả cài đặt và bộ nhớ đệm sẽ được tải lại.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Quản lý Cài đặt Toàn cầu</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Xem Quyền Truy Cập</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Xem Vai trò</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Khởi Động Lại Ứng Dụng Này</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Xem Các Nhiệm Vụ Nền</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Xem Ngữ cảnh Hệ thống</value>

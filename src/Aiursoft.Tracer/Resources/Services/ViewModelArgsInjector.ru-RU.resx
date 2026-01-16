@@ -30,6 +30,9 @@
   <data name="Anonymous" xml:space="preserve">
     <value>Аноним</value>
   </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Фоновые задачи</value>
+  </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Сменить аватар</value>
   </data>
@@ -69,6 +72,9 @@
   <data name="Features" xml:space="preserve">
     <value>Возможности</value>
   </data>
+  <data name="Global Settings" xml:space="preserve">
+    <value>Глобальные настройки</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Главная</value>
   </data>
@@ -89,6 +95,9 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Тестер качества сети</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Разрешения</value>
   </data>
   <data name="Personal" xml:space="preserve">
     <value>Личное</value>

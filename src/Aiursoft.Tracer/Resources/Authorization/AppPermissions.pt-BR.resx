@@ -39,8 +39,17 @@
   <data name="Allows the permanent deletion of user accounts." xml:space="preserve">
     <value>Permite a exclusão permanente de contas de usuário.</value>
   </data>
+  <data name="Allows viewing and modifying global application settings." xml:space="preserve">
+    <value>Permite visualizar e modificar as configurações globais da aplicação.</value>
+  </data>
   <data name="Allows viewing system-level information and settings." xml:space="preserve">
     <value>Permite visualizar informações e configurações em nível de sistema.</value>
+  </data>
+  <data name="Allows viewing the background job dashboard and managing jobs." xml:space="preserve">
+    <value>Permite visualizar o painel de controle de tarefas em segundo plano e gerenciar tarefas.</value>
+  </data>
+  <data name="Allows viewing the list of all permissions and their assignments to roles and users." xml:space="preserve">
+    <value>Permite visualizar a lista de todas as permissões e suas atribuições a funções e usuários.</value>
   </data>
   <data name="Allows viewing the list of all users." xml:space="preserve">
     <value>Permite visualizar a lista de todos os usuários.</value>
@@ -72,6 +81,12 @@
   <data name="Grants permission to restart the application instance. May cause availability interruptions but all settings and cache will be reloaded." xml:space="preserve">
     <value>Concede permissão para reiniciar a instância do aplicativo. Pode causar interrupções na disponibilidade, mas todas as configurações e o cache serão recarregados.</value>
   </data>
+  <data name="Manage Global Settings" xml:space="preserve">
+    <value>Gerenciar Configurações Globais</value>
+  </data>
+  <data name="Read Permissions" xml:space="preserve">
+    <value>Ler Permissões</value>
+  </data>
   <data name="Read Roles" xml:space="preserve">
     <value>Ler Funções</value>
   </data>
@@ -80,6 +95,9 @@
   </data>
   <data name="Reboot This App" xml:space="preserve">
     <value>Reiniciar Este Aplicativo</value>
+  </data>
+  <data name="View Background Jobs" xml:space="preserve">
+    <value>Visualizar Tarefas em Segundo Plano</value>
   </data>
   <data name="View System Context" xml:space="preserve">
     <value>Visualizar Contexto do Sistema</value>

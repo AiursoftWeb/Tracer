@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Actions" xml:space="preserve">
+    <value>क्रियाएँ</value>
+  </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>बैकग्राउंड जॉब्स</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>रद्द करें</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>रद्द किया गया</value>
+  </data>
+  <data name="Creates test jobs in different queues (15-30s sleep, 10% failure rate). Jobs in different queues run in parallel." xml:space="preserve">
+    <value>अलग-अलग कतारों में परीक्षण कार्य बनाता है (15-30 सेकंड का सोना, 10% असफलता दर)। अलग-अलग कतारों में कार्य समानांतर रूप से चलते हैं।</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>विफल</value>
+  </data>
+  <data name="Finished At" xml:space="preserve">
+    <value>समाप्त किया गया</value>
+  </data>
+  <data name="Job Name" xml:space="preserve">
+    <value>कार्य नाम</value>
+  </data>
+  <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
+    <value>बैकग्राउंड जॉब कतारों और उनके निष्पादन स्थिति को मॉनिटर और प्रबंधित करें।</value>
+  </data>
+  <data name="New Job A" xml:space="preserve">
+    <value>नया काम A</value>
+  </data>
+  <data name="New Job B" xml:space="preserve">
+    <value>नया कार्य B</value>
+  </data>
+  <data name="No jobs" xml:space="preserve">
+    <value>कोई काम नहीं</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>प्रतीक्षा कर रहा है</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>प्रोसेसिंग</value>
+  </data>
+  <data name="Queue Name" xml:space="preserve">
+    <value>कतार का नाम</value>
+  </data>
+  <data name="Queued At" xml:space="preserve">
+    <value>कतार में रखा गया</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>सफलता</value>
+  </data>
+
+</root>

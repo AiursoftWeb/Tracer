@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Actions" xml:space="preserve">
+    <value>Действия</value>
+  </data>
+  <data name="Background Jobs" xml:space="preserve">
+    <value>Фоновые задачи</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
+  <data name="Creates test jobs in different queues (15-30s sleep, 10% failure rate). Jobs in different queues run in parallel." xml:space="preserve">
+    <value>Создает тестовые задания в различных очередях (задержка 15–30 сек, 10% вероятность сбоя). Задания в разных очередях выполняются параллельно.</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>Не выполнено</value>
+  </data>
+  <data name="Finished At" xml:space="preserve">
+    <value>Завершено в</value>
+  </data>
+  <data name="Job Name" xml:space="preserve">
+    <value>Имя задания</value>
+  </data>
+  <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
+    <value>Мониторинг и управление очередями фоновых задач и их статусом выполнения.</value>
+  </data>
+  <data name="New Job A" xml:space="preserve">
+    <value>Новая задача A</value>
+  </data>
+  <data name="New Job B" xml:space="preserve">
+    <value>Новая задача B</value>
+  </data>
+  <data name="No jobs" xml:space="preserve">
+    <value>Нет заданий</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Ожидает</value>
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="Queue Name" xml:space="preserve">
+    <value>Имя очереди</value>
+  </data>
+  <data name="Queued At" xml:space="preserve">
+    <value>В очереди в</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Успешно</value>
+  </data>
+
+</root>

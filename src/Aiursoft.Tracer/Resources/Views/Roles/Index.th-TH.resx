@@ -36,6 +36,12 @@
   <data name="Manage Roles" xml:space="preserve">
     <value>จัดการบทบาท</value>
   </data>
+  <data name="No permissions" xml:space="preserve">
+    <value>ไม่มีสิทธิ์การใช้งาน</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>สิทธิ์การเข้าถึง</value>
+  </data>
   <data name="Role Name" xml:space="preserve">
     <value>ชื่อบทบาท</value>
   </data>

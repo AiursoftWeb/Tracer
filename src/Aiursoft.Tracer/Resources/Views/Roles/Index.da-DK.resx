@@ -36,6 +36,12 @@
   <data name="Manage Roles" xml:space="preserve">
     <value>Administrer Roller</value>
   </data>
+  <data name="No permissions" xml:space="preserve">
+    <value>Ingen tillgange</value>
+  </data>
+  <data name="Permissions" xml:space="preserve">
+    <value>Tilladelser</value>
+  </data>
   <data name="Role Name" xml:space="preserve">
     <value>Rollenavn</value>
   </data>
