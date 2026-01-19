@@ -30,6 +30,15 @@
   <data name="Error." xml:space="preserve">
     <value>Kesalahan.</value>
   </data>
+  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
+    <value>Jika Anda yakin seharusnya memiliki akses, silakan hubungi administrator sistem Anda. Atau coba keluar dan masuk kembali.</value>
+  </data>
+  <data name="Please check the URL and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>Silakan periksa URL dan coba lagi. Jika Anda menganggap ini adalah kesalahan server, silakan hubungi dukungan.</value>
+  </data>
+  <data name="Please check your request and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>Silakan periksa permintaan Anda dan coba lagi. Jika Anda merasa ini adalah kesalahan server, silakan hubungi dukungan.</value>
+  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>Silakan hubungi administrator untuk bantuan.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Request ID:" xml:space="preserve">
     <value>ID Permintaan:</value>
   </data>
+  <data name="Sorry, you do not have the necessary permissions to access this page." xml:space="preserve">
+    <value>Maaf, Anda tidak memiliki izin yang diperlukan untuk mengakses halaman ini.</value>
+  </data>
+  <data name="The page you are looking for might have been removed, had its name changed, or is temporarily unavailable." xml:space="preserve">
+    <value>Halaman yang Anda cari mungkin telah dihapus, nama halamannya telah diubah, atau sedang tidak tersedia sementara.</value>
+  </data>
+  <data name="Try again" xml:space="preserve">
+    <value>Coba lagi</value>
+  </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>Maaf, terjadi kesalahan saat memproses permintaan Anda.</value>
+  </data>
+  <data name="Your browser sent a request that this server could not understand." xml:space="preserve">
+    <value>Browser Anda mengirim permintaan yang tidak dapat dipahami oleh server ini.</value>
   </data>
 
 </root>
