@@ -30,6 +30,15 @@
   <data name="Error." xml:space="preserve">
     <value>Fout.</value>
   </data>
+  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
+    <value>Als u denkt dat u toegang zou moeten hebben, neem dan contact op met uw systeembeheerder. Of probeer u af te melden en opnieuw aan te melden.</value>
+  </data>
+  <data name="Please check the URL and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>Controleer de URL en probeer het opnieuw. Als u denkt dat dit een serverfout is, neem dan contact op met de ondersteuning.</value>
+  </data>
+  <data name="Please check your request and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>Controleer uw aanvraag en probeer het opnieuw. Als u denkt dat dit een serverfout is, neem dan contact op met de ondersteuning.</value>
+  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>Neem contact op met de beheerder voor hulp.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Request ID:" xml:space="preserve">
     <value>Aanvraag-ID:</value>
   </data>
+  <data name="Sorry, you do not have the necessary permissions to access this page." xml:space="preserve">
+    <value>Sorry, you do not have the necessary permissions to access this page.</value>
+  </data>
+  <data name="The page you are looking for might have been removed, had its name changed, or is temporarily unavailable." xml:space="preserve">
+    <value>De pagina die u zoekt is mogelijk verwijderd, heeft zijn naam gewijzigd of is tijdelijk niet beschikbaar.</value>
+  </data>
+  <data name="Try again" xml:space="preserve">
+    <value>Opnieuw proberen</value>
+  </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>Het spijt ons, er is iets misgegaan tijdens het verwerken van uw verzoek.</value>
+  </data>
+  <data name="Your browser sent a request that this server could not understand." xml:space="preserve">
+    <value>Uw browser heeft een verzoek verzonden dat deze server niet kon begrijpen.</value>
   </data>
 
 </root>

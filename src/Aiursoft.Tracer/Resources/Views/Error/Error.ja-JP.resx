@@ -30,6 +30,15 @@
   <data name="Error." xml:space="preserve">
     <value>エラー。</value>
   </data>
+  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
+    <value>アクセス権があるとお考えの場合、システム管理者にお問い合わせください。または、ログアウトして再度ログインしてみてください。</value>
+  </data>
+  <data name="Please check the URL and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>URLを確認して、再度お試しください。もしサーバーエラーであるとお考えの場合は、サポートまでお問い合わせください。</value>
+  </data>
+  <data name="Please check your request and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>リクエスト内容を確認してから再試行してください。もしサーバー側のエラーであると思われる場合は、サポートまでお問い合わせください。</value>
+  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>管理者に連絡して支援を受けてください。</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Request ID:" xml:space="preserve">
     <value>リクエストID:</value>
   </data>
+  <data name="Sorry, you do not have the necessary permissions to access this page." xml:space="preserve">
+    <value>申し訳ありませんが、このページにアクセスするための必要な権限がありません。</value>
+  </data>
+  <data name="The page you are looking for might have been removed, had its name changed, or is temporarily unavailable." xml:space="preserve">
+    <value>お探しのページは削除された、名前が変更された、または一時的に利用できなくなっている可能性があります。</value>
+  </data>
+  <data name="Try again" xml:space="preserve">
+    <value>再試行する</value>
+  </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>申し訳ございません。リクエストの処理中に問題が発生しました。</value>
+  </data>
+  <data name="Your browser sent a request that this server could not understand." xml:space="preserve">
+    <value>お使いのブラウザからこのサーバーが理解できないリクエストが送信されました。</value>
   </data>
 
 </root>

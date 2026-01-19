@@ -30,6 +30,15 @@
   <data name="Error." xml:space="preserve">
     <value>Error.</value>
   </data>
+  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
+    <value>Si cree que debería tener acceso, póngase en contacto con su administrador del sistema. O intente cerrar sesión y volver a iniciarla.</value>
+  </data>
+  <data name="Please check the URL and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>Por favor, compruebe la URL e inténtelo de nuevo. Si cree que se trata de un error del servidor, póngase en contacto con el soporte.</value>
+  </data>
+  <data name="Please check your request and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>Por favor, compruebe su solicitud e inténtelo de nuevo. Si cree que se trata de un error del servidor, póngase en contacto con el soporte.</value>
+  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>Por favor, contacte con el administrador para obtener ayuda.</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Request ID:" xml:space="preserve">
     <value>ID de solicitud:</value>
   </data>
+  <data name="Sorry, you do not have the necessary permissions to access this page." xml:space="preserve">
+    <value>Lo sentimos, no tienes los permisos necesarios para acceder a esta página.</value>
+  </data>
+  <data name="The page you are looking for might have been removed, had its name changed, or is temporarily unavailable." xml:space="preserve">
+    <value>La página que está buscando podría haberse eliminado, haber cambiado de nombre o estar temporalmente no disponible.</value>
+  </data>
+  <data name="Try again" xml:space="preserve">
+    <value>Volver a intentarlo</value>
+  </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>Lo sentimos, ha ocurrido un error al procesar su solicitud.</value>
+  </data>
+  <data name="Your browser sent a request that this server could not understand." xml:space="preserve">
+    <value>Su navegador envió una solicitud que este servidor no pudo entender.</value>
   </data>
 
 </root>

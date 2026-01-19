@@ -30,6 +30,15 @@
   <data name="Error." xml:space="preserve">
     <value>錯誤。</value>
   </data>
+  <data name="If you believe you should have access, please contact your system administrator. Or try signing out and signing in again." xml:space="preserve">
+    <value>如果你認為你應該有權限存取，請聯絡你的系統管理員。或試試登出後再重新登入。</value>
+  </data>
+  <data name="Please check the URL and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>請檢查網址後再試一次。如認為這是伺服器錯誤，請聯絡支援。</value>
+  </data>
+  <data name="Please check your request and try again. If you believe this is a server error, please contact support." xml:space="preserve">
+    <value>請檢查您的請求並再試一次。如果您認為這是伺服器錯誤，請聯絡支援。</value>
+  </data>
   <data name="Please contact the administrator for help." xml:space="preserve">
     <value>請聯絡管理員以獲得協助。</value>
   </data>
@@ -39,8 +48,20 @@
   <data name="Request ID:" xml:space="preserve">
     <value>請求編號：</value>
   </data>
+  <data name="Sorry, you do not have the necessary permissions to access this page." xml:space="preserve">
+    <value>對不起，您沒有權限存取此頁面。</value>
+  </data>
+  <data name="The page you are looking for might have been removed, had its name changed, or is temporarily unavailable." xml:space="preserve">
+    <value>您尋找的網頁可能已被移除、名稱已更改，或暫時無法使用。</value>
+  </data>
+  <data name="Try again" xml:space="preserve">
+    <value>重試</value>
+  </data>
   <data name="We&apos;re sorry, something went wrong while processing your request." xml:space="preserve">
     <value>很抱歉，處理您的請求時出現錯誤。</value>
+  </data>
+  <data name="Your browser sent a request that this server could not understand." xml:space="preserve">
+    <value>您的瀏覽器發送了一個此伺服器無法理解的請求。</value>
   </data>
 
 </root>
