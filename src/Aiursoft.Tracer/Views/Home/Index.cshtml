@@ -1,0 +1,436 @@
+@* ReSharper disable once Razor.SectionNotResolved *@
+@section styles {
+    <link rel="stylesheet" href="~/styles/site.css" xmlns="http://www.w3.org/1999/html"/>
+}
+
+<vc:marketing-navbar></vc:marketing-navbar>
+
+<section class="landing-intro text-bg-dark pt-5 pt-lg-6 pb-5 pb-lg-7">
+    <div class="landing-intro-content container h-100">
+        <div class="row align-items-center h-100">
+            <div class="col-lg-5 mx-auto">
+                <span class="badge badge-subtle-primary p-1">@Localizer["Open Source"]</span>
+                <span class="badge badge-subtle-primary p-1">@Localizer["Free"]</span>
+                <span class="badge badge-subtle-primary p-1">@Localizer["MIT Licence"]</span>
+                <h1 id="main-slogan" class="my-4 text-white" style="font-size: 3rem;">
+                    @Localizer["Build your next big thing,"] <span class='text-primary'>@Localizer["faster"]</span>
+                </h1>
+                <p class="text-lg text-white-50">@Localizer["This is a template project, where we start the voyager..."] @Localizer["A modern, feature-rich, and highly extensible foundation for your next web application."]</p>
+                <div class="my-4">
+                    <a class="btn btn-primary btn-lg btn-pill" href="https://template-docs.aiursoft.com/Tutorial/before.html">
+                        <i class="align-middle" data-lucide="rocket"></i> @Localizer["Start a new project"]
+                    </a>
+                    <a asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-primary btn-lg btn-pill">
+                        <i class="align-middle" data-lucide="grid"></i> @Localizer["Go to dashboard"]
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-7 d-none d-lg-flex mx-auto text-center">
+                <div class="landing-intro-screenshot">
+                    <img src="~/images/screenshot.png" alt="Aiursoft Template Main screenshot" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-6">
+    <div class="container">
+        <div class="mb-5 text-center">
+            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["Features"]</span>
+            <h2 class="h1">@Localizer["Why use the Aiursoft Template?"]</h2>
+            <p class="text-muted fs-lg">@Localizer["A modern, feature-rich, and highly extensible foundation for your next web application."]</p>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="database"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Multiple Database Provider Support"]</h4>
+                        <p class="fs-lg">@Localizer["Easily switch between database providers, including SQLite, MySQL, SQL Server, and an in-memory database for testing."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="key-round"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["OpenID Connect Integration"]</h4>
+                        <p class="fs-lg">@Localizer["Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["RBAC Authorization"]</h4>
+                        <p class="fs-lg">@Localizer["A built-in Role-Based Access Control (RBAC) system for fine-grained permission management."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="navigation"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Dynamic Navigation Bar"]</h4>
+                        <p class="fs-lg">@Localizer["The navigation bar automatically adjusts based on user roles and permissions."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="check-circle-2"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Consistency Validation"]</h4>
+                        <p class="fs-lg">@Localizer["Models are validated on both client and server sides based on data annotations."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="languages"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["AI-Powered Translations"]</h4>
+                        <p class="fs-lg">@Localizer["Automatic, AI-driven translation into 28 languages."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="book-open-text"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Comprehensive Documentation"]</h4>
+                        <p class="fs-lg">@Localizer["Includes extensive documentation and practical examples to get you started quickly."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="user-cog"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Built-in User Management"]</h4>
+                        <p class="fs-lg">@Localizer["A complete solution for user authentication and profile management."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Automatic Dependency Injection"]</h4>
+                        <p class="fs-lg">@Localizer["All dependencies are automatically registered and always available via constructor injection."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="folder-archive"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Integrated File Management"]</h4>
+                        <p class="fs-lg">@Localizer["Features a built-in file management system with automatic avatar compression and privacy protection."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="airplay"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Responsive Design"]</h4>
+                        <p class="fs-lg">@Localizer["A fully responsive layout that looks great on both desktop and mobile devices."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="moon"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Automatic Dark Mode"]</h4>
+                        <p class="fs-lg">@Localizer["Smart dark mode that adapts to the user's system settings."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="ship"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Dockerized for Easy Deployment"]</h4>
+                        <p class="fs-lg">@Localizer["Comes with Docker support for simplified and consistent deployments."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="test-tube-2"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Robust Integration Testing"]</h4>
+                        <p class="fs-lg">@Localizer["Effortlessly write integration tests using in-memory databases, temporary file systems, built-in mocking, and real-world HTTP request simulation."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Automatic Time Zone Handling"]</h4>
+                        <p class="fs-lg">@Localizer["Develop exclusively in UTC while the system automatically converts and displays dates in the user's local time zone."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="cpu"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Background Job Processing"]</h4>
+                        <p class="fs-lg">@Localizer["\"Fire-and-forget\" support for long-running tasks (like emails or AI), featuring a GUI for queue management, parallel processing, and cancellation."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="calendar-clock"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Scheduled Task Management"]</h4>
+                        <p class="fs-lg">@Localizer["Handle recurring jobs like cleanup and synchronization with a comprehensive GUI for monitoring execution history and logs."]</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <div class="d-flex align-items-start py-3">
+                    <div class="landing-feature">
+                        <i data-lucide="settings-2"></i>
+                    </div>
+                    <div class="flex-grow-1">
+                        <h4 class="mt-0">@Localizer["Smart Configuration Overrides"]</h4>
+                        <p class="fs-lg">@Localizer["Supports both environment variables and database-backed settings, with automatic priority given to environment variables for seamless overrides."]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-6 bg-white">
+    <div class="container position-relative z-3">
+        <div class="row">
+            <div class="col-md-12 mx-auto text-center">
+                <div class="row">
+                    <div class="col-lg-10 col-xl-9 mx-auto">
+                        <div class="mb-4">
+                            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["Usage"]</span>
+                            <h2 class="h1 mb-3">@Localizer["Achieve more with Aiursoft Template"]</h2>
+                            <p class="text-muted fs-lg">
+                                @Localizer["Use it as a foundation for your SaaS, a backend for your mobile app, a corporate website, or a personal blog. The possibilities are endless."]
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 py-3">
+                        <a href="https://stathub.aiursoft.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/stathub/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Dashboard Website" />
+                        </a>
+                        <h4 class="mt-3">StatHub</h4>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <a href="https://musictools.aiursoft.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/musictools/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Music Tools"/>
+                        </a>
+                        <h4 class="mt-3">Music Tools</h4>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <a href="https://marktohtml.aiursoft.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/marktohtml/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Markdown To HTML"/>
+                        </a>
+                        <h4 class="mt-3">Markdown To HTML</h4>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <a href="https://www.anduinos.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/anduin/anduinos-home/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="AnduinOS"/>
+                        </a>
+                        <h4 class="mt-3">AnduinOS</h4>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <a href="https://drive.aiursoft.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/aiurdrive/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="AiurDrive"/>
+                        </a>
+                        <h4 class="mt-3">AiurDrive</h4>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <a href="https://tracer.aiursoft.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/tracer/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Tracer"/>
+                        </a>
+                        <h4 class="mt-3">Tracer</h4>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <a href="https://manhours.aiursoft.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/manhours/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Manhours"/>
+                        </a>
+                        <h4 class="mt-3">Manhours</h4>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <a href="https://warp.aiursoft.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/warp/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Warp"/>
+                        </a>
+                        <h4 class="mt-3">Warp</h4>
+                    </div>
+                    <div class="col-md-4 py-3">
+                        <a href="https://employee.aiursoft.com/" target="_blank">
+                            <img gallery src="https://gitlab.aiursoft.com/aiursoft/employeecenter/-/raw/master/screenshot.png" class="img-fluid" loading="lazy" alt="Employee"/>
+                        </a>
+                        <h4 class="mt-3">Employee Center</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-6">
+    <div class="container-fluid">
+        <div class="mb-5 text-center">
+            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["Reviews"]</span>
+            <h2 class="h1">@Localizer["What our developers say"]</h2>
+            <p class="text-muted fs-lg">@Localizer["Here's what developers from our community have to say."]</p>
+        </div>
+        <div class="d-flex flex-nowrap overflow-auto review-scroll container" style="scrollbar-width: thin;">
+
+            <div class="flex-shrink-0 me-3" style="max-width: 430px;">
+                <blockquote class="landing-quote card border">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div>
+                                <a href="https://anduin.aiursoft.com/" target="_blank">
+                                    <img src="https://anduin.aiursoft.com/avatar" width="48" height="48" alt="User Aimer's avatar" loading="lazy" style="background-color: #eee; border-radius: 50%;" />
+                                </a>
+                            </div>
+                            <div class="ps-3">
+                                <h5 class="mb-1 mt-2">@Localizer["Anduin"]</h5>
+                                <small class="d-block text-muted h5 fw-normal">@Localizer["Technical Lead"]</small>
+                            </div>
+                        </div>
+                        <p class="lead mb-2">@Localizer["Aiursoft Template is our definitive choice for enterprise projects! It's built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management."]</p>
+                        <div class="landing-stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-6 bg-white">
+    <div class="container">
+        <div class="mb-5 text-center">
+            <span class="text-uppercase text-primary text-sm fw-medium mb-1 d-block">@Localizer["FAQ"]</span>
+            <h2 class="h1">@Localizer["Frequently asked questions"]</h2>
+            <p class="text-muted fs-lg">@Localizer["Here are some of the answers you might be looking for."]</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+                <div class="accordion" id="accordionFaq">
+                    <div class="card border mb-3">
+                        <div class="card-header cursor-pointer" id="faqZero" data-bs-toggle="collapse" data-bs-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                            <h6 class="mb-0">@Localizer["Is it free to use Aiursoft Template?"]</h6>
+                        </div>
+                        <div id="collapseZero" class="collapse" aria-labelledby="faqZero" data-bs-parent="#accordionFaq">
+                            <div class="card-body py-3">
+                                @Localizer["Yes, Aiursoft Template is completely free and open-source under the MIT License. You can use it for personal and commercial projects without any cost."]
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border mb-3">
+                        <div class="card-header cursor-pointer" id="faqOne" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <h6 class="mb-0">@Localizer["What do I need to get started?"]</h6>
+                        </div>
+                        <div id="collapseOne" class="collapse" aria-labelledby="faqOne" data-bs-parent="#accordionFaq">
+                            <div class="card-body py-3">
+                                @Localizer["You'll need the .NET 10 SDK, npm and your favorite IDE, like Visual Studio or JetBrains Rider. You can find the full setup guide in our documentation."]
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border mb-3">
+                        <div class="card-header cursor-pointer" id="faqTwo" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h6 class="mb-0">@Localizer["How do I deploy my application?"]</h6>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="faqTwo" data-bs-parent="#accordionFaq">
+                            <div class="card-body py-3">
+                                @Localizer["The template is built for easy deployment. It includes full Docker support, so you can containerize your app and run it anywhere. You can also deploy it directly to IIS, Azure App Service, or any server that supports ASP.NET Core."]
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border mb-3">
+                        <div class="card-header cursor-pointer" id="faqThree" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h6 class="mb-0">@Localizer["How can I get support?"]</h6>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="faqThree" data-bs-parent="#accordionFaq">
+                            <div class="card-body py-3">
+                                @Localizer["You can get community support via GitHub Discussions. Please visit our"] <a href="https://github.com/aiursoftweb/template/discussions" target="_blank">@Localizer["Discussions page"]</a> @Localizer["for any inquiries or to report issues."]
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-6">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12 col-md-10 col-lg-9 col-xl-8 mx-auto">
+                <h2 class="h1 mb-3">
+                    @Localizer["Join our community and start building today!"]
+                </h2>
+                <a href="https://github.com/aiursoftweb/template/discussions" class="align-middle btn btn-dark btn-pill btn-lg mt-n1" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="ms-1">@Localizer["Join Discussions"]</span>
+                </a>
+                <a href="https://template-docs.aiursoft.com/Tutorial/before.html" class="align-middle btn btn-primary btn-pill btn-lg mt-n1" target="_blank">
+                    <i class="fa-solid fa-rocket"></i>
+                    <span class="ms-1">@Localizer["Start a new project"]</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<vc:marketing-footer></vc:marketing-footer>
