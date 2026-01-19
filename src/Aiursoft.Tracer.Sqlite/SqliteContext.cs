@@ -6,7 +6,7 @@ namespace Aiursoft.Tracer.Sqlite;
 
 [ExcludeFromCodeCoverage]
 
-public class SqliteContext(DbContextOptions<SqliteContext> options) : TemplateDbContext(options)
+public class SqliteContext(DbContextOptions<SqliteContext> options) : TracerDbContext(options)
 {
     public override Task<bool> CanConnectAsync()
     {

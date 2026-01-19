@@ -29,6 +29,7 @@ public class GlobalSettingsController(GlobalSettingsService settingsService) : C
             model.Settings.Add(new SettingViewModel
             {
                 Key = definition.Key,
+                Name = definition.Name,
                 Description = definition.Description,
                 Type = definition.Type,
                 DefaultValue = definition.DefaultValue,

@@ -16,8 +16,32 @@ public class FilesController(
     ILogger<FilesController> logger,
     StorageService storage) : ControllerBase
 {
-    [Route("upload/{subfolder}")]
-    public async Task<IActionResult> Index([FromRoute][ValidDomainName] string subfolder)
+    [HttpPost]
+    [Route("upload/{**subfolder}")]
+    [DisableRequestSizeLimit]
+    [RequestFormLimits(MultipartBodyLengthLimit = long.MaxValue, ValueLengthLimit = int.MaxValue)]
+    public async Task<IActionResult> Upload(
+        [FromRoute] string subfolder)
+    {
+        return await ProcessUpload(subfolder, isVault: false);
+    }
+
+    [HttpPost]
+    [Route("upload-private/{**subfolder}")]
+    [DisableRequestSizeLimit]
+    [RequestFormLimits(MultipartBodyLengthLimit = long.MaxValue, ValueLengthLimit = int.MaxValue)]
+    public async Task<IActionResult> UploadPrivate(
+        [FromRoute] string subfolder,
+        [FromQuery] string token)
+    {
+        if (!storage.ValidateToken(subfolder, token, FilePermission.Upload))
+        {
+            return Unauthorized("Invalid or expired token.");
+        }
+        return await ProcessUpload(subfolder, isVault: true);
+    }
+
+    private async Task<IActionResult> ProcessUpload(string subfolder, bool isVault)
     {
         if (!ModelState.IsValid)
         {
@@ -47,41 +71,52 @@ public class FilesController(
 
         var storePath = Path.Combine(
             subfolder,
-            DateTime.UtcNow.Year.ToString("D4"),
-            DateTime.UtcNow.Month.ToString("D2"),
-            DateTime.UtcNow.Day.ToString("D2"),
             file.FileName);
-        
+
         // Save returns the logical path (e.g. avatar/2026/01/14/logo.png)
-        var relativePath = await storage.Save(storePath, file);
+        var relativePath = await storage.Save(storePath, file, isVault);
         return Ok(new
         {
             Path = relativePath,
-            InternetPath = storage.RelativePathToInternetUrl(relativePath, HttpContext)
+            InternetPath = storage.RelativePathToInternetUrl(relativePath, HttpContext, isVault)
         });
     }
 
     [Route("download/{**folderNames}")]
     public async Task<IActionResult> Download([FromRoute] string folderNames)
     {
-        logger.LogInformation("File download requested for path: {FolderNames}", folderNames);
+        return await ProcessDownload(folderNames, isVault: false);
+    }
+
+    [Route("download-private/{**folderNames}")]
+    public async Task<IActionResult> DownloadPrivate([FromRoute] string folderNames, [FromQuery] string token)
+    {
+        if (!storage.ValidateToken(folderNames, token, requiredPermission: FilePermission.Download))
+        {
+            return Unauthorized("Invalid or expired token.");
+        }
+        return await ProcessDownload(folderNames, isVault: true);
+    }
+
+    private async Task<IActionResult> ProcessDownload(string folderNames, bool isVault)
+    {
+        logger.LogInformation("File download requested for path: {FolderNames} (Vault: {IsVault})", folderNames, isVault);
 
         if (!ModelState.IsValid)
         {
             return BadRequest();
         }
 
-        // 1. Check if resource exists in Workspace (using logical path to resolve)
+        // 1. Check if resource exists in Workspace/Vault (using logical path to resolve)
         string physicalPath;
         try
         {
-            physicalPath = storage.GetFilePhysicalPath(folderNames);
+            physicalPath = storage.GetFilePhysicalPath(folderNames, isVault);
         }
         catch (ArgumentException)
         {
             return BadRequest("Attempted to access a restricted path.");
         }
-        
         if (!System.IO.File.Exists(physicalPath))
         {
             return NotFound();
@@ -92,7 +127,7 @@ public class FilesController(
         if (physicalPath.IsStaticImage() && await imageCompressor.IsValidImageAsync(physicalPath))
         {
             logger.LogInformation("Processing image compression/clearing request for logical path: {Path}", folderNames);
-            return await FileWithImageCompressor(folderNames);
+            return await FileWithImageCompressor(folderNames, isVault);
         }
 
         // 3. Standard File Download (Non-image)
@@ -100,7 +135,7 @@ public class FilesController(
         return this.WebFile(physicalPath);
     }
 
-    private async Task<IActionResult> FileWithImageCompressor(string logicalPath)
+    private async Task<IActionResult> FileWithImageCompressor(string logicalPath, bool isVault)
     {
         var passedWidth = int.TryParse(Request.Query["w"], out var width);
         var passedSquare = bool.TryParse(Request.Query["square"], out var square);
@@ -110,13 +145,13 @@ public class FilesController(
             logger.LogInformation("Compressing image '{Path}' to width: {Width}", logicalPath, width);
             if (square && passedSquare)
             {
-                var compressedPath = await imageCompressor.CompressAsync(logicalPath, width, width);
+                var compressedPath = await imageCompressor.CompressAsync(logicalPath, width, width, isVault);
                 logger.LogInformation("Image compressed to square format: {CompressedPath}", compressedPath);
                 return this.WebFile(compressedPath);
             }
             else
             {
-                var compressedPath = await imageCompressor.CompressAsync(logicalPath, width, 0);
+                var compressedPath = await imageCompressor.CompressAsync(logicalPath, width, 0, isVault);
                 logger.LogInformation("Image compressed to rectangular format: {CompressedPath}", compressedPath);
                 return this.WebFile(compressedPath);
             }
@@ -129,7 +164,7 @@ public class FilesController(
 
         // If no width or invalid, just clear EXIF (Privacy by Default)
         logger.LogInformation("Clearing EXIF data for image: {Path}", logicalPath);
-        var clearedPath = await imageCompressor.ClearExifAsync(logicalPath);
+        var clearedPath = await imageCompressor.ClearExifAsync(logicalPath, isVault);
         return this.WebFile(clearedPath);
     }
 }

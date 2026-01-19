@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace Aiursoft.Tracer.MySql;
 
 [ExcludeFromCodeCoverage]
-public class MySqlSupportedDb(bool allowCache, bool splitQuery) : SupportedDatabaseType<TemplateDbContext>
+public class MySqlSupportedDb(bool allowCache, bool splitQuery) : SupportedDatabaseType<TracerDbContext>
 {
     public override string DbType => "MySql";
 
@@ -19,7 +19,7 @@ public class MySqlSupportedDb(bool allowCache, bool splitQuery) : SupportedDatab
             allowCache: allowCache);
     }
 
-    public override TemplateDbContext ContextResolver(IServiceProvider serviceProvider)
+    public override TracerDbContext ContextResolver(IServiceProvider serviceProvider)
     {
         return serviceProvider.GetRequiredService<MySqlContext>();
     }

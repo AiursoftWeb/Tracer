@@ -54,7 +54,6 @@ public class UsersControllerTests : TestBase
         AssertRedirect(editResponse, "/Users/Details/", exact: false);
 
         // 6. ManageRoles (POST)
-        // Note: ManageRoles is POST-only. The form with CSRF token is on the Edit page.
         var manageRolesResponse = await PostForm($"/Users/ManageRoles/{userId}", new Dictionary<string, string>
         {
             { "id", userId },

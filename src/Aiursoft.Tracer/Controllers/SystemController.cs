@@ -11,11 +11,11 @@ namespace Aiursoft.Tracer.Controllers;
 /// <summary>
 /// This controller is used to handle system related actions like shutdown.
 /// </summary>
+[Authorize]
 [LimitPerMin]
-public class SystemController(
-    ILogger<SystemController> logger,
-    IpGeolocationService ipGeolocationService) : Controller
+public class SystemController(ILogger<SystemController> logger) : Controller
 {
+    [Authorize(Policy = AppPermissionNames.CanViewSystemContext)]
     [RenderInNavBar(
         NavGroupName = "Administration",
         NavGroupOrder = 9999,
@@ -24,24 +24,12 @@ public class SystemController(
         CascadedLinksOrder = 9999,
         LinkText = "Info",
         LinkOrder = 1)]
-    public async Task<IActionResult> Index()
+    public IActionResult Index()
     {
-        var model = new IndexViewModel();
-        var ip = HttpContext.Connection.RemoteIpAddress?.ToString();
-        if (!string.IsNullOrWhiteSpace(ip))
-        {
-            var location = await ipGeolocationService.GetLocationAsync(ip);
-            if (location != null)
-            {
-                model.CountryName = location.Value.CountryName;
-                model.CountryCode = location.Value.CountryCode;
-            }
-        }
-        return this.StackView(model);
+        return this.StackView(new IndexViewModel());
     }
 
     [HttpPost]
-    [Authorize]
     [Authorize(Policy = AppPermissionNames.CanRebootThisApp)] // Use the specific permission
     [ProducesResponseType(StatusCodes.Status202Accepted)]
     public IActionResult Shutdown([FromServices] IHostApplicationLifetime appLifetime)

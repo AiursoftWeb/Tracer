@@ -1,5 +1,8 @@
 @using Aiursoft.Tracer.Models
+@using Aiursoft.Tracer.Configuration
+@using Microsoft.Extensions.Localization
 @model Aiursoft.Tracer.Models.GlobalSettingsViewModels.IndexViewModel
+@inject IStringLocalizer<SettingsMap> SettingsLocalizer
 
 <div class="row mb-2 mb-xl-3">
     <div class="col-auto d-none d-sm-block">
@@ -27,13 +30,14 @@
             {
                 <tr>
                     <td>
-                        <code>@item.Key</code>
+                        <div class="fw-bold">@SettingsLocalizer[item.Name]</div>
+                        <code class="small text-muted">@item.Key</code>
                         @if (item.IsOverriddenByConfig)
                         {
                             <span class="badge bg-warning text-dark ms-1" title="@Localizer["This setting is overridden by configuration."]"><i class="align-middle" data-lucide="shield-alert"></i> CFG</span>
                         }
                     </td>
-                    <td>@item.Description</td>
+                    <td>@SettingsLocalizer[item.Description]</td>
                     <td>
                         @if (item.IsOverriddenByConfig)
                         {
@@ -55,7 +59,7 @@
                                     <select name="Value" class="form-select form-select-sm" onchange="document.getElementById('form-@item.Key').submit()">
                                         @foreach (var option in item.ChoiceOptions)
                                         {
-                                            <option value="@option.Key" selected="@(item.Value == option.Key ? "selected" : null)">@option.Value</option>
+                                            <option value="@option.Key" selected="@(item.Value == option.Key ? "selected" : null)">@SettingsLocalizer[option.Value]</option>
                                         }
                                     </select>
                                 }

@@ -1,4 +1,5 @@
 using Aiursoft.Tracer.Services.FileStorage;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.Caching.Memory;
 
 namespace Aiursoft.Tracer.Tests;
@@ -18,7 +19,8 @@ public class FileAccessSecurityTest
         var config = new ConfigurationBuilder()
             .AddInMemoryCollection(new Dictionary<string, string?>
             {
-                { "Storage:Path", _tempPath }
+                { "Storage:Path", _tempPath },
+                { "Storage:Key", "test-key" }
             })
             .Build();
 
@@ -26,8 +28,9 @@ public class FileAccessSecurityTest
         var foldersProvider = new FeatureFoldersProvider(rootProvider);
         var memoryCache = new MemoryCache(new MemoryCacheOptions());
         var fileLockProvider = new FileLockProvider(memoryCache);
+        var dataProtectionProvider = new EphemeralDataProtectionProvider();
 
-        _storageService = new StorageService(foldersProvider, fileLockProvider);
+        _storageService = new StorageService(foldersProvider, fileLockProvider, dataProtectionProvider);
     }
 
     [TestCleanup]

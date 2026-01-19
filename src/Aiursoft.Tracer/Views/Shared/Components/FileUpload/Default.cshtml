@@ -16,7 +16,7 @@
     var defaultValue = Model.AspFor.Model as string;
     if (!string.IsNullOrWhiteSpace(defaultValue))
     {
-        extensionAttributes += $"data-default-file=\"{Storage.RelativePathToInternetUrl(defaultValue)}\" ";
+        extensionAttributes += $"data-default-file=\"{Storage.RelativePathToInternetUrl(defaultValue, Model.IsVault)}\" ";
     }
     if (Model.MaxSizeInMb > 0)
     {

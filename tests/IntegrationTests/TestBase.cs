@@ -32,7 +32,7 @@ public abstract class TestBase
     public virtual async Task CreateServer()
     {
         Server = await AppAsync<Startup>([], port: Port);
-        await Server.UpdateDbAsync<TemplateDbContext>();
+        await Server.UpdateDbAsync<TracerDbContext>();
         await Server.SeedAsync();
         await Server.StartAsync();
     }
@@ -119,5 +119,11 @@ public abstract class TestBase
         Assert.AreEqual(HttpStatusCode.Found, registerResponse.StatusCode);
 
         return (email, password);
+    }
+
+    protected T GetService<T>() where T : notnull
+    {
+        if (Server == null) throw new InvalidOperationException("Server is not started.");
+        return Server.Services.GetRequiredService<T>();
     }
 }

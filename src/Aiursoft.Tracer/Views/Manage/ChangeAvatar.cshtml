@@ -27,7 +27,7 @@
                     @* The custom View Component is wrapped in the standard form structure. *@
                     <div class="mb-3">
                         <label asp-for="AvatarUrl" class="form-label">@Localizer["New avatar file"]</label>
-                        <vc:file-upload asp-for="@Model.AvatarUrl" upload-endpoint="/upload/avatar" allowed-extensions="png bmp jpg" max-size-in-mb="10"></vc:file-upload>
+                        <vc:file-upload asp-for="@Model.AvatarUrl" subfolder="avatar" allowed-extensions="png bmp jpg" max-size-in-mb="10"></vc:file-upload>
                         <span asp-validation-for="AvatarUrl" class="text-danger"></span>
                     </div>
 

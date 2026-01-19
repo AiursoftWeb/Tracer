@@ -8,5 +8,6 @@ public class FileUploadViewModel
     public required string UploadEndpoint { get; init; }
     public required int MaxSizeInMb { get; init; }
     public required string? AllowedExtensions { get; init; }
+    public bool IsVault { get; init; }
     public string UniqueId { get; } = "uploader-" + Guid.NewGuid().ToString("N");
 }

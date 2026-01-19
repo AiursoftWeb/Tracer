@@ -8,6 +8,8 @@ public class FeatureFoldersProvider(StorageRootPathProvider rootPathProvider) : 
 
     public string GetWorkspaceFolder() => EnsureExists(Path.Combine(BasePath, "Workspace"));
 
+    public string GetVaultFolder() => EnsureExists(Path.Combine(BasePath, "Vault"));
+
     public string GetClearExifFolder() => EnsureExists(Path.Combine(BasePath, "ClearExif"));
 
     public string GetCompressedFolder() => EnsureExists(Path.Combine(BasePath, "Compressed"));

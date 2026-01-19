@@ -19,7 +19,7 @@ namespace Aiursoft.Tracer.Controllers;
 [LimitPerMin]
 public class RolesController(
     UserManager<User> userManager,
-    TemplateDbContext context,
+    TracerDbContext context,
     RoleManager<IdentityRole> roleManager)
     : Controller
 {

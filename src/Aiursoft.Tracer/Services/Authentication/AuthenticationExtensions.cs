@@ -39,7 +39,7 @@ public static class AuthenticationExtensions
                     options.Password.RequireUppercase = true;
                 }
             })
-            .AddEntityFrameworkStores<TemplateDbContext>()
+            .AddEntityFrameworkStores<TracerDbContext>()
             .AddDefaultTokenProviders();
 
         services.AddScoped<IUserClaimsPrincipalFactory<User>, UserClaimsPrincipalFactory>();
@@ -54,7 +54,7 @@ public static class AuthenticationExtensions
         {
             options.LoginPath = "/Account/Login";
             options.LogoutPath = "/Account/Logoff";
-            options.AccessDeniedPath = "/Error/Unauthorized";
+            options.AccessDeniedPath = "/Error/Code403";
         });
 
         if (appSettings.OIDCEnabled)

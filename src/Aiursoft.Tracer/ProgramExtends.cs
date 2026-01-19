@@ -10,7 +10,7 @@ namespace Aiursoft.Tracer;
 
 public static class ProgramExtends
 {
-    private static async Task<bool> ShouldSeedAsync(TemplateDbContext dbContext)
+    private static async Task<bool> ShouldSeedAsync(TracerDbContext dbContext)
     {
         var haveUsers = await dbContext.Users.AnyAsync();
         var haveRoles = await dbContext.Roles.AnyAsync();
@@ -52,7 +52,7 @@ public static class ProgramExtends
     {
         using var scope = host.Services.CreateScope();
         var services = scope.ServiceProvider;
-        var db = services.GetRequiredService<TemplateDbContext>();
+        var db = services.GetRequiredService<TracerDbContext>();
         var logger = services.GetRequiredService<ILogger<Program>>();
         
         var settingsService = services.GetRequiredService<GlobalSettingsService>();

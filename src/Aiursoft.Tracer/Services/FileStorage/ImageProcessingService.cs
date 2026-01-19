@@ -29,13 +29,14 @@ public class ImageProcessingService(
     /// Clears the EXIF data while retaining the same resolution,
     /// then writes the result to the "ClearExif" subdirectory.
     /// </summary>
-    public async Task<string> ClearExifAsync(string logicalPath)
+    public async Task<string> ClearExifAsync(string logicalPath, bool isVault = false)
     {
         // 1. Resolve source path (Workspace)
-        var sourceAbsolute = storageService.GetFilePhysicalPath(logicalPath);
+        var sourceAbsolute = storageService.GetFilePhysicalPath(logicalPath, isVault);
         
         // 2. Resolve target path (ClearExif/logicalPath)
-        var targetAbsolute = Path.GetFullPath(Path.Combine(folders.GetClearExifFolder(), logicalPath));
+        var folderName = isVault ? "Vault" : "Workspace";
+        var targetAbsolute = Path.GetFullPath(Path.Combine(folders.GetClearExifFolder(), folderName, logicalPath));
 
         // 3. Check cache
         if (File.Exists(targetAbsolute) && FileCanBeRead(targetAbsolute))
@@ -93,12 +94,13 @@ public class ImageProcessingService(
     /// Compresses the image to the specified width/height.
     /// Also clears EXIF data.
     /// </summary>
-    public async Task<string> CompressAsync(string logicalPath, int width, int height)
+    public async Task<string> CompressAsync(string logicalPath, int width, int height, bool isVault = false)
     {
-        var sourceAbsolute = storageService.GetFilePhysicalPath(logicalPath);
+        var sourceAbsolute = storageService.GetFilePhysicalPath(logicalPath, isVault);
         
         // Calculate target path in Compressed folder
         var compressedRoot = folders.GetCompressedFolder();
+        var folderName = isVault ? "Vault" : "Workspace";
         var dimensionSuffix = BuildDimensionSuffix(width, height);
         
         // "avatar/2026/01/14/logo.png" -> "avatar/2026/01/14/" + "logo_w100.png"
@@ -107,7 +109,7 @@ public class ImageProcessingService(
         var directoryInStore = Path.GetDirectoryName(logicalPath) ?? string.Empty;
         
         var newFileName = $"{fileNameWithoutExt}{dimensionSuffix}{extension}";
-        var targetAbsolute = Path.GetFullPath(Path.Combine(compressedRoot, directoryInStore, newFileName));
+        var targetAbsolute = Path.GetFullPath(Path.Combine(compressedRoot, folderName, directoryInStore, newFileName));
 
         if (File.Exists(targetAbsolute) && FileCanBeRead(targetAbsolute))
         {
