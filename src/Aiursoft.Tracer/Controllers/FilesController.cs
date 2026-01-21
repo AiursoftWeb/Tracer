@@ -21,8 +21,13 @@ public class FilesController(
     [DisableRequestSizeLimit]
     [RequestFormLimits(MultipartBodyLengthLimit = long.MaxValue, ValueLengthLimit = int.MaxValue)]
     public async Task<IActionResult> Upload(
-        [FromRoute] string subfolder)
+        [FromRoute] string subfolder,
+        [FromQuery] string token)
     {
+        if (!storage.ValidateToken(subfolder, token, FilePermission.Upload))
+        {
+            return Unauthorized("Invalid or expired token.");
+        }
         return await ProcessUpload(subfolder, isVault: false);
     }
 

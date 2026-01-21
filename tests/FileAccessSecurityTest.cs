@@ -107,4 +107,20 @@ public class FileAccessSecurityTest
             // Expected
         }
     }
+
+    [TestMethod]
+    public void TestValidateToken_SitePrefixVulnerability()
+    {
+        // Arrange: Hacker creates a site named "A"
+        var hackerSite = "A";
+        var token = _storageService.GetToken(hackerSite, FilePermission.Upload);
+
+        // Act: Hacker tries to upload to "AA" (victim's site) using the token for "A"
+        var victimSite = "AA";
+        var isValid = _storageService.ValidateToken(victimSite, token, FilePermission.Upload);
+
+        // Assert: Access should be DENIED
+        // This assertion is expected to FAIL until the vulnerability is fixed
+        Assert.IsFalse(isValid, "Vulnerability confirmed: Token for 'A' was accepted for 'AA'");
+    }
 }

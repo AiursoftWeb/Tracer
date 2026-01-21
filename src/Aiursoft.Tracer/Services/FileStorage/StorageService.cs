@@ -106,6 +106,7 @@ public class StorageService(
 
     public bool ValidateToken(string requestPath, string tokenString, FilePermission requiredPermission)
     {
+        if (string.IsNullOrEmpty(requestPath) || requestPath.Contains("..")) return false; // Patch for path traversal
         try
         {
             // Create the same protector used for token generation
@@ -124,7 +125,11 @@ public class StorageService(
             if (authorizedPermission != requiredPermission) return false;
 
             // Verify the token authorizes access to the requested path
-            return requestPath.StartsWith(authorizedPath.TrimEnd('/'), StringComparison.OrdinalIgnoreCase);
+            // Fix: Enforce trailing slash to prevent partial directory matching (e.g. "A" matching "AA")
+            var normalizedRequestPath = requestPath.TrimEnd('/') + "/";
+            var normalizedAuthorizedPath = authorizedPath.TrimEnd('/') + "/";
+            
+            return normalizedRequestPath.StartsWith(normalizedAuthorizedPath, StringComparison.OrdinalIgnoreCase);
         }
         catch
         {
@@ -169,11 +174,11 @@ public class StorageService(
 
     public string GetUploadUrl(string subfolder, bool isVault = false)
     {
+        var token = GetToken(subfolder, FilePermission.Upload);
         if (isVault)
         {
-            var token = GetToken(subfolder, FilePermission.Upload);
             return $"/upload-private/{subfolder}?token={token}";
         }
-        return $"/upload/{subfolder}";
+        return $"/upload/{subfolder}?token={token}";
     }
 }

@@ -10,6 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Aiursoft.Tracer.MySql.Migrations
 {
+    // THIS FILE IS AUTO GENERATED AND MAINTAINED BY ENTITY FRAMEWORK!
+    // NEVER EDIT THIS FILE MANUALLY!!!
     [DbContext(typeof(MySqlContext))]
     partial class MySqlContextModelSnapshot : ModelSnapshot
     {

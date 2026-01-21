@@ -10,11 +10,14 @@ public class FilesControllerTests : TestBase
     public async Task TestUploadAndDownload()
     {
         // 1. Upload
+        var storage = GetService<StorageService>();
+        var uploadUrl = storage.GetUploadUrl("test", isVault: false);
+
         var content = new StringContent("Hello World");
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(content, "file", "test.txt");
 
-        var uploadResponse = await Http.PostAsync("/upload/test", multipartContent);
+        var uploadResponse = await Http.PostAsync(uploadUrl, multipartContent);
         uploadResponse.EnsureSuccessStatusCode();
         var uploadResult = await uploadResponse.Content.ReadFromJsonAsync<UploadResult>();
         Assert.IsNotNull(uploadResult);
@@ -74,11 +77,14 @@ public class FilesControllerTests : TestBase
     [TestMethod]
     public async Task TestUploadInvalidFileName()
     {
+        var storage = GetService<StorageService>();
+        var uploadUrl = storage.GetUploadUrl("test", isVault: false);
+
         var content = new StringContent("Hello World");
         var multipartContent = new MultipartFormDataContent();
         multipartContent.Add(content, "file", "../test.txt");
 
-        var uploadResponse = await Http.PostAsync("/upload/test", multipartContent);
+        var uploadResponse = await Http.PostAsync(uploadUrl, multipartContent);
         Assert.AreEqual(HttpStatusCode.BadRequest, uploadResponse.StatusCode);
     }
 
@@ -87,6 +93,30 @@ public class FilesControllerTests : TestBase
     {
         var downloadResponse = await Http.GetAsync("/download/non-existing.txt");
         Assert.AreEqual(HttpStatusCode.NotFound, downloadResponse.StatusCode);
+    }
+
+    [TestMethod]
+    public async Task TestPrivateUploadPathTraversal()
+    {
+        var storage = GetService<StorageService>();
+        var subfolder = "folderA";
+        // Get token for folderA
+        var token = storage.GetToken(subfolder, FilePermission.Upload);
+
+        // Attempt to upload to folderA/../folderB
+        // We use double encoded slashes or explicitly encoded content to ensure it reaches the controller as "folderA/../folderB"
+        // If we just use "folderA/../folderB", the HTTP client or server might normalize it to "folderB" before it hits our logic.
+        // We want to test that IF the controller receives "folderA/../folderB", our logic rejects it.
+        var maliciousPath = "folderA%2F..%2FfolderB";
+        
+        var content = new StringContent("Malicious Content");
+        var multipartContent = new MultipartFormDataContent();
+        multipartContent.Add(content, "file", "hack.txt");
+
+        var uploadResponse = await Http.PostAsync($"/upload-private/{maliciousPath}?token={token}", multipartContent);
+        
+        // Should be rejected because the path contains ".."
+        Assert.AreEqual(HttpStatusCode.Unauthorized, uploadResponse.StatusCode);
     }
 
     private class UploadResult

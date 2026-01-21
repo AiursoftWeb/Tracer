@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Aiursoft.Tracer.Sqlite.Migrations
 {
+    // THIS FILE IS AUTO GENERATED AND MAINTAINED BY ENTITY FRAMEWORK!
+    // NEVER EDIT THIS FILE MANUALLY!!!
     [DbContext(typeof(SqliteContext))]
     partial class SqliteContextModelSnapshot : ModelSnapshot
     {
