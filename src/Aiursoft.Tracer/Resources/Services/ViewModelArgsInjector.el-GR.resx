@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Πρόσβαση απαγορευμένη</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Διαχειριστής</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>Ημικύκλια Εργασιών</value>
+  </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Λάθος Αίτημα</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Αλλαγή Avatar</value>
@@ -84,6 +90,12 @@
   <data name="Info" xml:space="preserve">
     <value>Πληροφορίες</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Εσωτερικό Σφάλμα Διακομιστή</value>
+  </data>
+  <data name="Lockout" xml:space="preserve">
+    <value>Μπλοκάρισμα</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>Σύνδεση</value>
   </data>
@@ -95,6 +107,12 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Δοκιμαστής Ποιότητας Δικτύου</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Δεν βρέθηκε</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Λεπτομέρειες Εξουσιοδότησης</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Άδειες</value>

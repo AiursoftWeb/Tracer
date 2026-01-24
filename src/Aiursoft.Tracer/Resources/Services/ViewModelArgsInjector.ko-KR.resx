@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Account Settings" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>액세스 거부됨</value>
+  </data>
+  <data name="Account Settings" xml:space="preserve">
     <value>계정 설정</value>
   </data>
   <data name="Admin" xml:space="preserve">
@@ -35,6 +38,9 @@
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>백그라운드 작업</value>
+  </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>잘못된 요청</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>아바타 변경</value>
@@ -87,6 +93,12 @@
   <data name="Info" xml:space="preserve">
     <value>정보</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>내부 서버 오류</value>
+  </data>
+  <data name="Lockout" xml:space="preserve">
+    <value>잠금 해제</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>로그인</value>
   </data>
@@ -98,6 +110,12 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>네트워크 품질 테스터</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>찾을 수 없음</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>권한 세부 정보</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>권한</value>

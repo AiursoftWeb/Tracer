@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Pääsy evätty</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>Ylläpitäjä</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>Taustatehtävät</value>
+  </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Virheellinen pyyntö</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Vaihda avataria</value>
@@ -84,6 +90,12 @@
   <data name="Info" xml:space="preserve">
     <value>Tiedot</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Sisäinen palvelinvirhe</value>
+  </data>
+  <data name="Lockout" xml:space="preserve">
+    <value>Lukitus</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>Kirjaudu</value>
   </data>
@@ -95,6 +107,12 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Verkon Laadun Testaaja</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>Ei löytynyt</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Oikeuksien tiedot</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Oikeudet</value>

@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Admin" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>الوصول مرفوض</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
     <value>المشرف</value>
   </data>
   <data name="Administration" xml:space="preserve">
@@ -32,6 +35,9 @@
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>مهام الخلفية</value>
+  </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>طلب غير صحيح</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>تغيير الصورة الشخصية</value>
@@ -84,6 +90,12 @@
   <data name="Info" xml:space="preserve">
     <value>المعلومات</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>خطأ الخادم الداخلي</value>
+  </data>
+  <data name="Lockout" xml:space="preserve">
+    <value>قفل الحساب</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>تسجيل الدخول</value>
   </data>
@@ -95,6 +107,12 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>اختبار جودة الشبكة</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>غير موجود</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>تفاصيل الصلاحيات</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>الصلاحيات</value>

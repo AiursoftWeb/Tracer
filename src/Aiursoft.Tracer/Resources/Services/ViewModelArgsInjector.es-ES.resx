@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-      <data name="Account Settings" xml:space="preserve">
+      <data name="Access Denied" xml:space="preserve">
+    <value>Acceso denegado</value>
+  </data>
+  <data name="Account Settings" xml:space="preserve">
     <value>Configuración de la cuenta</value>
   </data>
   <data name="Admin" xml:space="preserve">
@@ -35,6 +38,9 @@
   </data>
   <data name="Background Jobs" xml:space="preserve">
     <value>Tareas en segundo plano</value>
+  </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Solicitud incorrecta</value>
   </data>
   <data name="Change Avatar" xml:space="preserve">
     <value>Cambiar avatar</value>
@@ -87,6 +93,12 @@
   <data name="Info" xml:space="preserve">
     <value>Información</value>
   </data>
+  <data name="Internal Server Error" xml:space="preserve">
+    <value>Error interno del servidor</value>
+  </data>
+  <data name="Lockout" xml:space="preserve">
+    <value>Bloqueo</value>
+  </data>
   <data name="Login" xml:space="preserve">
     <value>Iniciar sesión</value>
   </data>
@@ -98,6 +110,12 @@
   </data>
   <data name="Network Quality Tester" xml:space="preserve">
     <value>Probador de Calidad de Red</value>
+  </data>
+  <data name="Not Found" xml:space="preserve">
+    <value>No encontrado</value>
+  </data>
+  <data name="Permission Details" xml:space="preserve">
+    <value>Detalles de permiso</value>
   </data>
   <data name="Permissions" xml:space="preserve">
     <value>Permisos</value>
