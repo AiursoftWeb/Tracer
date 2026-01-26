@@ -24,6 +24,9 @@
   <data name="Always create a personal fork before submitting PRs." xml:space="preserve">
     <value>Luo aina henkilökohtainen fork ennen PR:ien lähettämistä.</value>
   </data>
+  <data name="and the default password is:" xml:space="preserve">
+    <value>ja oletussalasana on:</value>
+  </data>
   <data name="Anywhere" xml:space="preserve">
     <value>Missä tahansa</value>
   </data>
@@ -92,6 +95,9 @@
   </data>
   <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
     <value>Tämä käynnistää web-palvelimen osoitteessa http://localhost:5000 ja voit testata sovellusta.</value>
+  </data>
+  <data name="The default username is:" xml:space="preserve">
+    <value>Oletus käyttäjätunnus on:</value>
   </data>
   <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
     <value>Seuraava komentosarja asentaa/päivittää tämän sovelluksen Ubuntu-palvelimellesi. Tukee Ubuntu 25.04.</value>

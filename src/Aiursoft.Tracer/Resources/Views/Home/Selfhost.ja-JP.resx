@@ -24,6 +24,9 @@
   <data name="Always create a personal fork before submitting PRs." xml:space="preserve">
     <value>PRを提出する前に、必ず個人用のフォークを作成してください。</value>
   </data>
+  <data name="and the default password is:" xml:space="preserve">
+    <value>およびデフォルトのパスワードは：</value>
+  </data>
   <data name="Anywhere" xml:space="preserve">
     <value>どこでも</value>
   </data>
@@ -92,6 +95,9 @@
   </data>
   <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
     <value>これにより、http://localhost:5000 でWebサーバーが起動し、アプリをテストできます。</value>
+  </data>
+  <data name="The default username is:" xml:space="preserve">
+    <value>デフォルトのユーザー名は：</value>
   </data>
   <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
     <value>次のスクリプトは、Ubuntuサーバーにこのアプリをインストール/更新します。Ubuntu 25.04をサポートしています。</value>

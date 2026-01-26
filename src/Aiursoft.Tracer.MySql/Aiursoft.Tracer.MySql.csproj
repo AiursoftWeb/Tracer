@@ -13,6 +13,6 @@
     <ProjectReference Include="..\Aiursoft.Tracer.Entities\Aiursoft.Tracer.Entities.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Aiursoft.DbTools.MySql" Version="10.0.10" />
+    <PackageReference Include="Aiursoft.DbTools.MySql" Version="10.0.11" />
   </ItemGroup>
 </Project>
