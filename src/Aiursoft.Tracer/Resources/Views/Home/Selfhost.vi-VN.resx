@@ -24,6 +24,9 @@
   <data name="Always create a personal fork before submitting PRs." xml:space="preserve">
     <value>Luôn tạo một fork cá nhân trước khi gửi PR.</value>
   </data>
+  <data name="and the default password is:" xml:space="preserve">
+    <value>và mật khẩu mặc định là:</value>
+  </data>
   <data name="Anywhere" xml:space="preserve">
     <value>Bất Kỳ Đâu</value>
   </data>
@@ -92,6 +95,9 @@
   </data>
   <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
     <value>Điều này sẽ khởi động một máy chủ web tại http://localhost:5000 và bạn có thể kiểm tra ứng dụng.</value>
+  </data>
+  <data name="The default username is:" xml:space="preserve">
+    <value>Tên người dùng mặc định là:</value>
   </data>
   <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
     <value>Đoạn mã sau sẽ cài đặt/cập nhật ứng dụng này trên máy chủ Ubuntu của bạn. Hỗ trợ Ubuntu 25.04.</value>

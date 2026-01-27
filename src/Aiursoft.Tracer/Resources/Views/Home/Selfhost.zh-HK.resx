@@ -24,6 +24,9 @@
   <data name="Always create a personal fork before submitting PRs." xml:space="preserve">
     <value>提交 PR 前請務必先建立個人複本。</value>
   </data>
+  <data name="and the default password is:" xml:space="preserve">
+    <value>以及預設密碼為：</value>
+  </data>
   <data name="Anywhere" xml:space="preserve">
     <value>任何地方</value>
   </data>
@@ -92,6 +95,9 @@
   </data>
   <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
     <value>咁樣就會喺 http://localhost:5000 啟動一個網頁伺服器，你可以測試個應用程式。</value>
+  </data>
+  <data name="The default username is:" xml:space="preserve">
+    <value>預設使用者名稱是：</value>
   </data>
   <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
     <value>以下腳本將會喺你嘅 Ubuntu 伺服器上安裝/更新呢個應用程式。支援 Ubuntu 25.04。</value>

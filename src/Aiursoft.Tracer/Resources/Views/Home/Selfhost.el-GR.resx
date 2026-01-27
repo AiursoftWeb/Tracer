@@ -24,6 +24,9 @@
   <data name="Always create a personal fork before submitting PRs." xml:space="preserve">
     <value>Πάντα δημιούργησε ένα προσωπικό fork πριν υποβάλεις PRs.</value>
   </data>
+  <data name="and the default password is:" xml:space="preserve">
+    <value>και η προεπιλεγμένη κωδικός πρόσβασης είναι:</value>
+  </data>
   <data name="Anywhere" xml:space="preserve">
     <value>Παντού</value>
   </data>
@@ -92,6 +95,9 @@
   </data>
   <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
     <value>Αυτό θα ξεκινήσει έναν διακομιστή web στο http://localhost:5000 και μπορείτε να δοκιμάσετε την εφαρμογή.</value>
+  </data>
+  <data name="The default username is:" xml:space="preserve">
+    <value>Το προεπιλεγμένο όνομα χρήστη είναι:</value>
   </data>
   <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
     <value>Το ακόλουθο script θα εγκαταστήσει/ενημερώσει αυτήν την εφαρμογή στον διακομιστή σας Ubuntu. Υποστηρίζει Ubuntu 25.04.</value>

@@ -24,6 +24,9 @@
   <data name="Always create a personal fork before submitting PRs." xml:space="preserve">
     <value>PR जमा करने से पहले हमेशा एक व्यक्तिगत फोर्क बनाएं।</value>
   </data>
+  <data name="and the default password is:" xml:space="preserve">
+    <value>और डिफ़ॉल्ट पासवर्ड है:</value>
+  </data>
   <data name="Anywhere" xml:space="preserve">
     <value>कहीं भी</value>
   </data>
@@ -92,6 +95,9 @@
   </data>
   <data name="That will start a web server at http://localhost:5000 and you can test the app." xml:space="preserve">
     <value>इससे http://localhost:5000 पर एक वेब सर्वर शुरू हो जाएगा और आप ऐप का परीक्षण कर सकते हैं।</value>
+  </data>
+  <data name="The default username is:" xml:space="preserve">
+    <value>डिफ़ॉल्ट उपयोगकर्ता नाम है:</value>
   </data>
   <data name="The following script will install/update this app on your Ubuntu server. Supports Ubuntu 25.04." xml:space="preserve">
     <value>निम्नलिखित स्क्रिप्ट आपके Ubuntu सर्वर पर इस ऐप को इंस्टॉल/अपडेट करेगी। Ubuntu 25.04 को सपोर्ट करती है।</value>
