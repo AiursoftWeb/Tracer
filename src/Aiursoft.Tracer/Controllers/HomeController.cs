@@ -64,6 +64,13 @@ public class HomeController(IpGeolocationService ipGeolocationService) : Control
     }
 
     [AiurNoCache]
+    [Route("ip")]
+    public IActionResult Ip()
+    {
+        return Content(HttpContext.Connection.RemoteIpAddress?.ToString() ?? string.Empty, "text/plain");
+    }
+
+    [AiurNoCache]
     [Route("download.dat")]
     public IActionResult Download()
     {

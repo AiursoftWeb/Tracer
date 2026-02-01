@@ -10,4 +10,14 @@ public class HomeControllerTests : TestBase
         var response = await Http.GetAsync(url);
         response.EnsureSuccessStatusCode();
     }
+
+    [TestMethod]
+    public async Task GetIp()
+    {
+        var url = "/ip";
+        var response = await Http.GetAsync(url);
+        response.EnsureSuccessStatusCode();
+        var content = await response.Content.ReadAsStringAsync();
+        Assert.IsFalse(string.IsNullOrWhiteSpace(content));
+    }
 }
