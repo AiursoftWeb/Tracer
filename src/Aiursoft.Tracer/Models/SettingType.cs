@@ -5,5 +5,6 @@ public enum SettingType
     Bool,
     Choice,
     Text,
-    Number
+    Number,
+    File
 }

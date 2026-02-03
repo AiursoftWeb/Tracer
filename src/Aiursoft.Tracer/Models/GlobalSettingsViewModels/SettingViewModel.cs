@@ -10,4 +10,9 @@ public class SettingViewModel
     public required string DefaultValue { get; set; }
     public bool IsOverriddenByConfig { get; set; }
     public Dictionary<string, string>? ChoiceOptions { get; set; }
+    
+    // File upload settings (for SettingType.File)
+    public string? Subfolder { get; set; }
+    public string? AllowedExtensions { get; set; }
+    public int MaxSizeInMb { get; set; }
 }

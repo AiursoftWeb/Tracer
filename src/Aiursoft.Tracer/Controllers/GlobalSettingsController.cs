@@ -35,7 +35,11 @@ public class GlobalSettingsController(GlobalSettingsService settingsService) : C
                 DefaultValue = definition.DefaultValue,
                 ChoiceOptions = definition.ChoiceOptions,
                 Value = await settingsService.GetSettingValueAsync(definition.Key),
-                IsOverriddenByConfig = settingsService.IsOverriddenByConfig(definition.Key)
+                IsOverriddenByConfig = settingsService.IsOverriddenByConfig(definition.Key),
+                // File upload settings
+                Subfolder = definition.Subfolder,
+                AllowedExtensions = definition.AllowedExtensions,
+                MaxSizeInMb = definition.MaxSizeInMb
             });
         }
         return this.StackView(model);
