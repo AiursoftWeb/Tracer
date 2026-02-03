@@ -57,5 +57,8 @@
   <data name="Value" xml:space="preserve">
     <value>값</value>
   </data>
+  <data name="View Current File" xml:space="preserve">
+    <value>현재 파일 보기</value>
+  </data>
 
 </root>
