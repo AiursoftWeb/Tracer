@@ -57,5 +57,8 @@
   <data name="Value" xml:space="preserve">
     <value>Arvo</value>
   </data>
+  <data name="View Current File" xml:space="preserve">
+    <value>Näytä nykyinen tiedosto</value>
+  </data>
 
 </root>

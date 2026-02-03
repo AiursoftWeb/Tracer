@@ -57,5 +57,8 @@
   <data name="Value" xml:space="preserve">
     <value>القيمة</value>
   </data>
+  <data name="View Current File" xml:space="preserve">
+    <value>عرض الملف الحالي</value>
+  </data>
 
 </root>
