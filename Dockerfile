@@ -25,7 +25,7 @@ RUN cp -r ${CSPROJ_PATH}/wwwroot/* /app/wwwroot
 
 # ============================
 # Prepare Runtime Environment
-FROM hub.aiursoft.com/aiursoft/internalimages/dotnet
+FROM hub.aiursoft.com/aiursoft/internalimages/dotnetonlyruntime
 ARG PROJ_NAME
 WORKDIR /app
 COPY --from=build-env /app .
