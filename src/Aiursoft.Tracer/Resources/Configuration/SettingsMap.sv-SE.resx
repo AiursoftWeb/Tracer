@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>Tillåt användare att justera sin smeknamn på sidan för profilhantering.</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>Varumärkesstartsida URL</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>Varumärke</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>Projektlogotyp</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>Projektnamn</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>Det är varumärket för företaget eller projektet. Till exempel Aiursoft.</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>Logotypen för projektet som visas i navigeringsfältet och sidfoten. Stöd för jpg, png, svg.</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>Projektets namn som visas i användargränssnittet.</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>URL:n för företaget eller projektet. T.ex. https://www.aiursoft.com</value>
+  </data>
 
 </root>

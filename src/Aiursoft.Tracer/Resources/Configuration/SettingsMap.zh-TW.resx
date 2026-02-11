@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>允許使用者在個人資料管理頁面調整其暱稱。</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>品牌首頁網址</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>品牌名稱</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>專案標誌</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>專案名稱</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>公司或專案的商標名稱。例如：Aiursoft。</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>專案的圖示顯示於導覽列與頁尾。支援 jpg、png、svg 格式。</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>專案在前端顯示的名稱。</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>公司或專案的網址。例如：https://www.aiursoft.com</value>
+  </data>
 
 </root>

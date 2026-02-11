@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>Kullanıcıların profil yönetimi sayfasında takma isimlerini ayarlamasına izin verin.</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>Marka Ana Sayfa URL&apos;si</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>Marka Adı</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>Proje Logosu</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>Proje Adı</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>Şirketin veya projenin marka adı. Örnek: Aiursoft.</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>Projenin navbar ve footer&apos;da görünen logosu. jpg, png, svg desteklenir.</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>Arayüzde görüntülenen proje adı.</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>Şirketin veya projenin URL&apos;si. Örnek: https://www.aiursoft.com</value>
+  </data>
 
 </root>

@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>프로필 관리 페이지에서 사용자가 닉네임을 수정할 수 있도록 허용합니다.</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>브랜드 홈 URL</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>브랜드 이름</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>프로젝트 로고</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>프로젝트 이름</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>회사 또는 프로젝트의 브랜드 이름입니다. 예: Aiursoft.</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>네비게이션 바와 푸터에 표시되는 프로젝트의 로고입니다. jpg, png, svg 파일을 지원합니다.</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>프론트엔드에 표시되는 프로젝트의 이름입니다.</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>회사 또는 프로젝트의 URL입니다. 예: https://www.aiursoft.com</value>
+  </data>
 
 </root>

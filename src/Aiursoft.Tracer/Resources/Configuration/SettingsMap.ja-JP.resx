@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>プロフィール管理ページでユーザーがニックネームを変更できるようにします。</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>ブランド ホーム URL</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>ブランド名</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>プロジェクトロゴ</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>プロジェクト名</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>会社またはプロジェクトのブランド名。例: Aiursoft。</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>ナビゲーションバーおよびフッターに表示されるプロジェクトのロゴ。jpg、png、svg形式をサポート。</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>フロントエンドに表示されるプロジェクト名です。</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>企業またはプロジェクトのURL。例: https://www.aiursoft.com</value>
+  </data>
 
 </root>

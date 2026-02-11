@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>प्रोफ़ाइल प्रबंधन पृष्ठ पर उपयोगकर्ताओं को अपना निकनेम समायोजित करने की अनुमति दें।</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>ब्रांड होम यूआरएल</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>ब्रांड नाम</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>प्रोजेक्ट लोगो</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>प्रोजेक्ट नाम</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>कंपनी या प्रोजेक्ट का ब्रांड नाम। उदाहरण: Aiursoft।</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>प्रोजेक्ट का लोगो नेवबार और फुटर में प्रदर्शित किया जाता है। jpg, png, svg का समर्थन करता है।</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>फ्रंटएंड में दिखाए जाने वाले प्रोजेक्ट का नाम।</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>कंपनी या प्रोजेक्ट का URL। उदाहरण के लिए https://www.aiursoft.com</value>
+  </data>
 
 </root>
