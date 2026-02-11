@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>Tillad brugere at justere deres nickname på siden til profilhåndtering.</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>Brand- hjemmeside-URL</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>Varenavn</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>Projektlogo</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>Projektnavn</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>Det brandnavn, der hører til virksomheden eller projektet. F.eks. Aiursoft.</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>Logoet for projektet vises i navigationsbaren og foden. Understøtter jpg, png, svg.</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>Navnet på projektet, der vises i brugergrænsefladen.</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>URL&apos;en for virksomheden eller projektet. F.eks. https://www.aiursoft.com</value>
+  </data>
 
 </root>

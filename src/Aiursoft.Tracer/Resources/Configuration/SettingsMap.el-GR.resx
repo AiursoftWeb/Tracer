@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>Επιτρέψτε στους χρήστες να τροποποιήσουν το ψευδώνυμό τους στη σελίδα διαχείρισης προφίλ.</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>URL Αρχικής Σελίδας Μάρκας</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>Όνομα Εταιρείας</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>Λογότυπο Έργου</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>Όνομα Έργου</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>Το όνομα της εταιρείας ή του έργου. Π.χ. Aiursoft.</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>Το λογότυπο του έργου που εμφανίζεται στην ναβιγατόρια και τον πόδα της σελίδας. Υποστήριξη jpg, png, svg.</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>Το όνομα του έργου που εμφανίζεται στην εμφάνιση του χρήστη.</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>Το URL της εταιρείας ή του έργου. Π.χ. https://www.aiursoft.com</value>
+  </data>
 
 </root>

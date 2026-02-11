@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>Cho phép người dùng chỉnh sửa biệt danh của họ trên trang quản lý hồ sơ.</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>URL trang chủ thương hiệu</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>Tên thương hiệu</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>Logo dự án</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>Tên dự án</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>Tên thương hiệu của công ty hoặc dự án. Ví dụ: Aiursoft.</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>Logo của dự án được hiển thị trong thanh điều hướng và chân trang. Hỗ trợ định dạng jpg, png, svg.</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>Tên của dự án được hiển thị trên giao diện người dùng</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>Địa chỉ URL của công ty hoặc dự án. Ví dụ: https://www.aiursoft.com</value>
+  </data>
 
 </root>

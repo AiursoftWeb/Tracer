@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>Permite utilizatorilor să-și ajusteze pseudonimul în pagina de gestionare a profilului.</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>URL site web al mărcii</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>Numele mărcii</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>Logo Proiect</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>Numele proiectului</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>Numele de brand al companiei sau proiectului. De exemplu: Aiursoft.</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>Logo-ul proiectului afișat în bara de navigare și în subsol. Suportă jpg, png, svg.</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>Numele proiectului afișat în interfața frontend.</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>Adresa URL a companiei sau a proiectului. De exemplu: https://www.aiursoft.com</value>
+  </data>
 
 </root>

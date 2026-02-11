@@ -24,5 +24,29 @@
   <data name="Allow users to adjust their nickname in the profile management page." xml:space="preserve">
     <value>Permitir a los usuarios ajustar su apodo en la página de gestión de perfil.</value>
   </data>
+  <data name="Brand Home URL" xml:space="preserve">
+    <value>URL de inicio de la marca</value>
+  </data>
+  <data name="Brand Name" xml:space="preserve">
+    <value>Nombre de marca</value>
+  </data>
+  <data name="Project Logo" xml:space="preserve">
+    <value>Logo del proyecto</value>
+  </data>
+  <data name="Project Name" xml:space="preserve">
+    <value>Nombre del proyecto</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>El nombre de marca de la empresa o proyecto. Por ejemplo: Aiursoft.</value>
+  </data>
+  <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
+    <value>El logotipo del proyecto mostrado en la barra de navegación y el pie de página. Se admiten formatos jpg, png y svg.</value>
+  </data>
+  <data name="The name of the project displayed in the frontend." xml:space="preserve">
+    <value>El nombre del proyecto que se muestra en la interfaz de usuario.</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>La URL de la empresa o proyecto. Por ejemplo: https://www.aiursoft.com</value>
+  </data>
 
 </root>
