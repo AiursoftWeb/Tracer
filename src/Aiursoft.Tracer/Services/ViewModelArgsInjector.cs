@@ -87,7 +87,7 @@ public class ViewModelArgsInjector(
         UiStackLayoutViewModel toInject)
     {
         toInject.PageTitle = localizer[toInject.PageTitle ?? "View"];
-        toInject.AppName = localizer["Network Quality Tester"];
+        toInject.AppName = globalSettingsService.GetSettingValueAsync("ProjectName").GetAwaiter().GetResult();
         toInject.Theme = UiTheme.Light;
         toInject.SidebarTheme = UiSidebarTheme.Default;
         toInject.Layout = UiLayout.Fluid;
@@ -99,17 +99,17 @@ public class ViewModelArgsInjector(
         UiStackLayoutViewModel toInject)
     {
         var preferDarkTheme = context.Request.Cookies[ThemeController.ThemeCookieKey] == true.ToString();
-        toInject.PageTitle = localizer[toInject.PageTitle ?? "View"];
         var projectName = globalSettingsService.GetSettingValueAsync("ProjectName").GetAwaiter().GetResult();
-        var bandName = globalSettingsService.GetSettingValueAsync("BrandName").GetAwaiter().GetResult();
+        var brandName = globalSettingsService.GetSettingValueAsync("BrandName").GetAwaiter().GetResult();
         var brandHomeUrl = globalSettingsService.GetSettingValueAsync("BrandHomeUrl").GetAwaiter().GetResult();
+        toInject.PageTitle = localizer[toInject.PageTitle ?? "View"];
         toInject.AppName = projectName;
         toInject.Theme = preferDarkTheme ? UiTheme.Dark : UiTheme.Light;
         toInject.SidebarTheme = preferDarkTheme ? UiSidebarTheme.Dark : UiSidebarTheme.Default;
         toInject.Layout = UiLayout.Fluid;
         toInject.FooterMenu = new FooterMenuViewModel
         {
-            AppBrand = new Link { Text = bandName, Href = brandHomeUrl },
+            AppBrand = new Link { Text = brandName, Href = brandHomeUrl },
             Links =
             [
                 new Link { Text = localizer["Home"], Href = "/" },
