@@ -1,3 +1,4 @@
+using Aiursoft.Tracer.Configuration;
 using Microsoft.AspNetCore.Mvc;
 using Aiursoft.Tracer.Services;
 using Aiursoft.Tracer.Services.FileStorage;
@@ -11,8 +12,8 @@ public class MarketingNavbar(
     public async Task<IViewComponentResult> InvokeAsync(MarketingNavbarViewModel? model = null)
     {
         model ??= new MarketingNavbarViewModel();
-        model.ProjectName = await globalSettingsService.GetSettingValueAsync("ProjectName");
-        var logoPath = await globalSettingsService.GetSettingValueAsync("ProjectLogo");
+        model.ProjectName = await globalSettingsService.GetSettingValueAsync(SettingsMap.ProjectName);
+        var logoPath = await globalSettingsService.GetSettingValueAsync(SettingsMap.ProjectLogo);
         if (!string.IsNullOrWhiteSpace(logoPath))
         {
             model.LogoUrl = storageService.RelativePathToInternetUrl(logoPath, HttpContext);
