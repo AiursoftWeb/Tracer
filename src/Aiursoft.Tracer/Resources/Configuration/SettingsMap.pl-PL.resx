@@ -30,6 +30,9 @@
   <data name="Brand Name" xml:space="preserve">
     <value>Nazwa marki</value>
   </data>
+  <data name="ICP Number" xml:space="preserve">
+    <value>Numer ICP</value>
+  </data>
   <data name="Project Logo" xml:space="preserve">
     <value>Logo projektu</value>
   </data>
@@ -38,6 +41,9 @@
   </data>
   <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
     <value>Nazwa marki firmy lub projektu. Np. Aiursoft.</value>
+  </data>
+  <data name="The ICP license number for China mainland users. Leave empty to hide." xml:space="preserve">
+    <value>Numer licencji ICP dla użytkowników z Chin. Pozostaw puste, aby ukryć.</value>
   </data>
   <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
     <value>Logo projektu wyświetlany w pasku nawigacyjnym i stopce. Obsługiwane formaty: jpg, png, svg.</value>
