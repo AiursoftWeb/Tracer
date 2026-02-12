@@ -30,6 +30,9 @@
   <data name="Brand Name" xml:space="preserve">
     <value>ชื่อแบรนด์</value>
   </data>
+  <data name="ICP Number" xml:space="preserve">
+    <value>เลขที่ ICP</value>
+  </data>
   <data name="Project Logo" xml:space="preserve">
     <value>โลโก้โครงการ</value>
   </data>
@@ -38,6 +41,9 @@
   </data>
   <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
     <value>ชื่อแบรนด์ของบริษัทหรือโปรเจกต์ ตัวอย่างเช่น Aiursoft</value>
+  </data>
+  <data name="The ICP license number for China mainland users. Leave empty to hide." xml:space="preserve">
+    <value>หมายเลขใบอนุญาต ICP สำหรับผู้ใช้ในจีนแผ่นดินใหญ่ ปล่อยว่างเปล่าเพื่อซ่อน</value>
   </data>
   <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
     <value>โลโก้ของโครงการที่แสดงในแถบเมนูและฟุตเตอร์ รองรับไฟล์ jpg, png, svg</value>

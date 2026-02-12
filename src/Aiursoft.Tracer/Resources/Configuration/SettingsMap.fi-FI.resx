@@ -30,6 +30,9 @@
   <data name="Brand Name" xml:space="preserve">
     <value>Brändin nimi</value>
   </data>
+  <data name="ICP Number" xml:space="preserve">
+    <value>ICP-tunnus</value>
+  </data>
   <data name="Project Logo" xml:space="preserve">
     <value>Projektin logo</value>
   </data>
@@ -38,6 +41,9 @@
   </data>
   <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
     <value>Yrityksen tai projektin brändinimi. Esim. Aiursoft.</value>
+  </data>
+  <data name="The ICP license number for China mainland users. Leave empty to hide." xml:space="preserve">
+    <value>ICP-lisenssinumero Kiinan päävaltakunnan käyttäjille. Jätä tyhjäksi piilottaaksesi.</value>
   </data>
   <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
     <value>Projektin logo näytetään navigointipalkissa ja alatunnisteessa. Tuetut muodot: jpg, png, svg.</value>
