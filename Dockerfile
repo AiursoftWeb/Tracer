@@ -3,7 +3,7 @@ ARG PROJ_NAME="Aiursoft.Tracer"
 
 # ============================
 # Prepare NPM Environment
-FROM hub.aiursoft.com/node:24-alpine AS npm-env
+FROM --platform=$BUILDPLATFORM hub.aiursoft.com/node:24-alpine AS npm-env
 ARG CSPROJ_PATH
 WORKDIR /src
 COPY . .
@@ -13,7 +13,7 @@ RUN npm install --prefix "${CSPROJ_PATH}wwwroot" --loglevel verbose
 
 # ============================
 # Prepare Building Environment
-FROM hub.aiursoft.com/aiursoft/internalimages/dotnet AS build-env
+FROM --platform=$BUILDPLATFORM hub.aiursoft.com/aiursoft/internalimages/dotnet AS build-env
 ARG CSPROJ_PATH
 ARG PROJ_NAME
 ARG TARGETARCH
