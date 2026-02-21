@@ -131,32 +131,40 @@ deploy_docker_all:
         - PUBLIC_TARGET="$HUB_NAMESPACE/$CI_PROJECT_NAME:$TAG"
         
         # ==========================================
-        # 步骤 1: 编译单架构并推送到私有 Registry (极速 & 省流量)
+        # 步骤 1: 编译单架构 -> 导出 tar -> regctl 推送私服 (绕过 Zot 鉴权 Bug)
         # ==========================================
-        # 1. 登录私有节点
+        # 1. 登录私有节点 (regctl 会自动读取 ~/.docker/config.json 里的凭证)
         - echo "$LOCAL_DOCKER_PASSWORD" | docker login hub.aiursoft.com -u "$LOCAL_DOCKER_USERNAME" --password-stdin
         - echo "$CN_DOCKER_PASSWORD" | docker login hub.aiursoft.cn -u "$CN_DOCKER_USERNAME" --password-stdin
         
-        # 2. 切换回原生 Docker Builder（因为只是单架构，且原生驱动处理内网 Host 网络更稳更直白）
+        # 2. 切换回原生 Docker Builder
         - docker buildx use default
         
-        - echo "Building and pushing single-arch (amd64) to internal hubs..."
-        # 使用原生引擎直接编译并打双标签推送
-        - docker buildx build . --platform linux/amd64 -t $LOCAL_TARGET_COM -t $LOCAL_TARGET_CN --push
+        - echo "Building single-arch (amd64) and exporting to tarball..."
+        # 关键修改：去掉 --push，改为 -o type=docker 导出为本地 tar 文件
+        - docker buildx build . --platform linux/amd64 -t $LOCAL_TARGET_COM -o type=docker,dest=image.tar
+        
+        - echo "Pushing to internal Zot registries using regctl..."
+        # regctl 完美处理 Zot 的鉴权
+        - regctl image import $LOCAL_TARGET_COM image.tar
+        # 给 CN 节点打个标签并直接推上去 (或者复用同一个 tar 包)
+        - regctl image import $LOCAL_TARGET_CN image.tar
+        
+        # 完事后清理产生的巨型 tar 包
+        - rm -f image.tar
 
         # ==========================================
-        # 步骤 2: 编译多架构并推送到 Docker Hub (开源兼容)
+        # 步骤 2: 编译多架构并原生推送到 Docker Hub (Docker Hub 无此 Bug)
         # ==========================================
         # 1. 登录 Docker Hub
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
         
-        # 2. 切换到我们预先配置好的支持多架构的全局 Builder
+        # 2. 切换到全局的多架构 Builder
         - echo "Switching to global multi-arch builder..."
         - docker buildx use aiur-global-builder
         
         - echo "Building and pushing multi-arch to Docker Hub..."
-        # 因为步骤 1 刚刚在本地编译过 amd64 相关的层，只要你的 Dockerfile 没写怪异指令，
-        # buildx 在构建这里时能大概率命中大量缓存。这里重点是补充构建 ARM64，合并推送。
+        # 直接使用 --push，Docker Hub 完美支持
         - docker buildx build . --platform linux/amd64,linux/arm64 -t $PUBLIC_TARGET --push
 
     rules:
