@@ -1,11 +1,10 @@
 using System.Net;
-using Aiursoft.Tracer.Models.BackgroundJobs;
-using Aiursoft.Tracer.Services.BackgroundJobs;
+using Aiursoft.Canon.TaskQueue;
 
 namespace Aiursoft.Tracer.Tests.IntegrationTests;
 
 /// <summary>
-/// 后台任务队列集成测试：测试BackgroundJobQueue的队列管理、任务执行、并行处理等核心功能
+/// 后台任务队列集成测试：测试ServiceTaskQueue的队列管理、任务执行、并行处理等核心功能
 /// </summary>
 [TestClass]
 public class BackgroundJobsTests : TestBase
@@ -13,12 +12,12 @@ public class BackgroundJobsTests : TestBase
     [TestMethod]
     public async Task JobQueueBasicOperationsTest()
     {
-        // 直接从服务容器获取BackgroundJobQueue实例
-        var queue = Server!.Services.GetRequiredService<BackgroundJobQueue>();
+        // 直接从服务容器获取ServiceTaskQueue实例
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
 
         // Step 1: 验证初始状态 - 没有任何任务
-        var initialPending = queue.GetPendingJobs().Count();
-        var initialProcessing = queue.GetProcessingJobs().Count();
+        var initialPending = queue.GetPendingTasks().Count();
+        var initialProcessing = queue.GetProcessingTasks().Count();
         Assert.AreEqual(0, initialPending);
         Assert.AreEqual(0, initialProcessing);
 
@@ -26,32 +25,32 @@ public class BackgroundJobsTests : TestBase
         var jobCompleted = false;
         queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(
             queueName: "Test Queue",
-            jobName: "Test Job 1",
-            job: async (_) =>
+            taskName: "Test Job 1",
+            task: async (_) =>
             {
                 await Task.Delay(100); // 短暂延迟
                 jobCompleted = true;
             });
 
         // Step 3: 验证任务已加入待处理队列
-        var pendingJobs = queue.GetPendingJobs().ToList();
-        Assert.HasCount(1, pendingJobs);
-        Assert.AreEqual("Test Queue", pendingJobs[0].QueueName);
-        Assert.AreEqual("Test Job 1", pendingJobs[0].JobName);
+        var pendingTasks = queue.GetPendingTasks().ToList();
+        Assert.HasCount(1, pendingTasks);
+        Assert.AreEqual("Test Queue", pendingTasks[0].QueueName);
+        Assert.AreEqual("Test Job 1", pendingTasks[0].TaskName);
 
         // Step 4: 等待任务执行完成
         await Task.Delay(2000); // 给worker足够时间处理
 
         // Step 5: 验证任务已完成
         Assert.IsTrue(jobCompleted);
-        var recentJobs = queue.GetRecentCompletedJobs(TimeSpan.FromMinutes(1)).ToList();
-        Assert.IsTrue(recentJobs.Any(j => j.JobName == "Test Job 1"));
+        var recentTasks = queue.GetRecentCompletedTasks(TimeSpan.FromMinutes(1)).ToList();
+        Assert.IsTrue(recentTasks.Any(t => t.TaskName == "Test Job 1"));
     }
 
     [TestMethod]
     public async Task JobQueueParallelExecutionTest()
     {
-        var queue = Server!.Services.GetRequiredService<BackgroundJobQueue>();
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
 
         // Step 1: 向两个不同的队列添加任务
         var queueAStartTime = DateTime.MinValue;
@@ -61,8 +60,8 @@ public class BackgroundJobsTests : TestBase
 
         queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(
             queueName: "Queue A",
-            jobName: "Job A1",
-            job: async (_) =>
+            taskName: "Job A1",
+            task: async (_) =>
             {
                 queueAStartTime = DateTime.UtcNow;
                 await Task.Delay(500);
@@ -71,8 +70,8 @@ public class BackgroundJobsTests : TestBase
 
         queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(
             queueName: "Queue B",
-            jobName: "Job B1",
-            job: async (_) =>
+            taskName: "Job B1",
+            task: async (_) =>
             {
                 queueBStartTime = DateTime.UtcNow;
                 await Task.Delay(500);
@@ -94,7 +93,7 @@ public class BackgroundJobsTests : TestBase
     [TestMethod]
     public async Task JobQueueSequentialExecutionInSameQueueTest()
     {
-        var queue = Server!.Services.GetRequiredService<BackgroundJobQueue>();
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
 
         // Step 1: 向同一个队列添加两个任务
         var job1StartTime = DateTime.MinValue;
@@ -104,8 +103,8 @@ public class BackgroundJobsTests : TestBase
 
         queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(
             queueName: "Sequential Queue",
-            jobName: "Sequential Job 1",
-            job: async (_) =>
+            taskName: "Sequential Job 1",
+            task: async (_) =>
             {
                 job1StartTime = DateTime.UtcNow;
                 await Task.Delay(500);
@@ -114,8 +113,8 @@ public class BackgroundJobsTests : TestBase
 
         queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(
             queueName: "Sequential Queue",
-            jobName: "Sequential Job 2",
-            job: async (_) =>
+            taskName: "Sequential Job 2",
+            task: async (_) =>
             {
                 job2StartTime = DateTime.UtcNow;
                 await Task.Delay(500);
@@ -137,13 +136,13 @@ public class BackgroundJobsTests : TestBase
     [TestMethod]
     public async Task JobCancellationTest()
     {
-        var queue = Server!.Services.GetRequiredService<BackgroundJobQueue>();
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
 
         // Step 1: 先添加一个阻塞任务，确保后续任务保持在Pending状态
         queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(
             queueName: "Cancellation Test Queue",
-            jobName: "Blocking Job",
-            job: async (_) =>
+            taskName: "Blocking Job",
+            task: async (_) =>
             {
                 await Task.Delay(10000); // 10秒延迟，确保测试期间一直在运行
             });
@@ -152,8 +151,8 @@ public class BackgroundJobsTests : TestBase
         var jobExecuted = false;
         queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(
             queueName: "Cancellation Test Queue",
-            jobName: "Cancellable Job",
-            job: async (_) =>
+            taskName: "Cancellable Job",
+            task: async (_) =>
             {
                 await Task.Delay(5000); // 5秒延迟
                 jobExecuted = true;
@@ -161,13 +160,13 @@ public class BackgroundJobsTests : TestBase
 
         // Step 3: 等待任务入队，并获取任务ID
         await Task.Delay(500); // 确保任务已入队
-        var pendingJobs = queue.GetPendingJobs().ToList();
-        var cancellableJob = pendingJobs.FirstOrDefault(j => j.JobName == "Cancellable Job");
-        Assert.IsNotNull(cancellableJob, "Cancellable job should be in pending queue");
-        var jobId = cancellableJob.JobId;
+        var pendingTasks = queue.GetPendingTasks().ToList();
+        var cancellableTask = pendingTasks.FirstOrDefault(t => t.TaskName == "Cancellable Job");
+        Assert.IsNotNull(cancellableTask, "Cancellable task should be in pending queue");
+        var taskId = cancellableTask.TaskId;
 
         // Step 4: 取消任务
-        var cancelled = queue.CancelJob(jobId);
+        var cancelled = queue.CancelTask(taskId);
         Assert.IsTrue(cancelled);
 
         // Step 5: 等待足够长的时间，确保任务不会被执行
@@ -177,22 +176,22 @@ public class BackgroundJobsTests : TestBase
         Assert.IsFalse(jobExecuted);
 
         // Step 7: 验证任务状态为已取消
-        var allJobs = queue.GetAllJobs().ToList();
-        var cancelledJobInfo = allJobs.FirstOrDefault(j => j.JobId == jobId);
-        Assert.IsNotNull(cancelledJobInfo);
-        Assert.AreEqual(JobStatus.Cancelled, cancelledJobInfo.Status);
+        var allTasks = queue.GetAllTasks().ToList();
+        var cancelledTaskInfo = allTasks.FirstOrDefault(t => t.TaskId == taskId);
+        Assert.IsNotNull(cancelledTaskInfo);
+        Assert.AreEqual(TaskExecutionStatus.Cancelled, cancelledTaskInfo.Status);
     }
 
     [TestMethod]
     public async Task JobFailureHandlingTest()
     {
-        var queue = Server!.Services.GetRequiredService<BackgroundJobQueue>();
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
 
         // Step 1: 添加一个会失败的任务
         queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(
             queueName: "Failure Test Queue",
-            jobName: "Failing Job",
-            job: async (_) =>
+            taskName: "Failing Job",
+            task: async (_) =>
             {
                 await Task.Delay(100);
                 throw new Exception("Intentional test failure");
@@ -202,11 +201,11 @@ public class BackgroundJobsTests : TestBase
         await Task.Delay(2000);
 
         // Step 3: 验证任务状态为失败，并包含错误信息
-        var recentJobs = queue.GetRecentCompletedJobs(TimeSpan.FromMinutes(1)).ToList();
-        var failedJob = recentJobs.FirstOrDefault(j => j.JobName == "Failing Job");
-        Assert.IsNotNull(failedJob);
-        Assert.AreEqual(JobStatus.Failed, failedJob.Status);
-        Assert.IsTrue(failedJob.ErrorMessage?.Contains("Intentional test failure"));
+        var recentTasks = queue.GetRecentCompletedTasks(TimeSpan.FromMinutes(1)).ToList();
+        var failedTask = recentTasks.FirstOrDefault(t => t.TaskName == "Failing Job");
+        Assert.IsNotNull(failedTask);
+        Assert.AreEqual(TaskExecutionStatus.Failed, failedTask.Status);
+        Assert.IsTrue(failedTask.ErrorMessage?.Contains("Intentional test failure"));
     }
 
     [TestMethod]
@@ -242,27 +241,30 @@ public class BackgroundJobsTests : TestBase
         // Step 1: 以管理员身份登录
         await LoginAsAdmin();
 
-        var queue = Server!.Services.GetRequiredService<BackgroundJobQueue>();
-        var initialJobCount = queue.GetAllJobs().Count();
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
+        var initialTaskCount = queue.GetAllTasks().Count();
 
-        // Step 2: 创建测试Job A
-        var createJobResponse = await PostForm("/Jobs/CreateTestJobA", new Dictionary<string, string>(), tokenUrl: "/Jobs");
+        // Step 2: 通过 Trigger 端点触发 DummyJob
+        var triggerResponse = await PostForm("/Jobs/Trigger", new Dictionary<string, string>
+        {
+            { "jobTypeName", "DummyJob" }
+        }, tokenUrl: "/Jobs");
 
         // Step 3: 应该重定向回Jobs页面
-        Assert.AreEqual(HttpStatusCode.Found, createJobResponse.StatusCode);
-        var redirectUrl = createJobResponse.Headers.Location?.OriginalString;
+        Assert.AreEqual(HttpStatusCode.Found, triggerResponse.StatusCode);
+        var redirectUrl = triggerResponse.Headers.Location?.OriginalString;
         Assert.IsTrue(redirectUrl == "/Jobs/Index" || redirectUrl == "/Jobs");
 
         // Step 4: 验证任务已被创建
         await Task.Delay(200); // 等待任务入队
-        var currentJobCount = queue.GetAllJobs().Count();
-        Assert.IsGreaterThan(initialJobCount, currentJobCount);
+        var currentTaskCount = queue.GetAllTasks().Count();
+        Assert.IsGreaterThan(initialTaskCount, currentTaskCount);
 
-        // Step 5: 验证创建的是Queue A的任务
-        var jobs = queue.GetAllJobs().ToList();
-        var queueAJob = jobs.FirstOrDefault(j => j.QueueName == "Queue A");
-        Assert.IsNotNull(queueAJob);
-        Assert.StartsWith("Job A", queueAJob.JobName);
+        // Step 5: 验证创建的是 DummyJob 队列的任务
+        var tasks = queue.GetAllTasks().ToList();
+        var dummyTask = tasks.FirstOrDefault(t => t.QueueName == "DummyJob");
+        Assert.IsNotNull(dummyTask);
+        Assert.AreEqual(TaskTriggerSource.Manual, dummyTask.TriggerSource);
     }
 
     [TestMethod]
@@ -271,23 +273,61 @@ public class BackgroundJobsTests : TestBase
         // Step 1: 以管理员身份登录
         await LoginAsAdmin();
 
-        var queue = Server!.Services.GetRequiredService<BackgroundJobQueue>();
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
 
-        // Step 2: 创建Job A
-        await PostForm("/Jobs/CreateTestJobA", new Dictionary<string, string>(), tokenUrl: "/Jobs");
+        // Step 2: 触发 DummyJob
+        await PostForm("/Jobs/Trigger", new Dictionary<string, string>
+        {
+            { "jobTypeName", "DummyJob" }
+        }, tokenUrl: "/Jobs");
 
-        // Step 3: 创建Job B
-        await PostForm("/Jobs/CreateTestJobB", new Dictionary<string, string>(), tokenUrl: "/Jobs");
+        // Step 3: 触发 OrphanAvatarCleanupJob
+        await PostForm("/Jobs/Trigger", new Dictionary<string, string>
+        {
+            { "jobTypeName", "OrphanAvatarCleanupJob" }
+        }, tokenUrl: "/Jobs");
 
         // Step 4: 等待任务入队
         await Task.Delay(500);
 
         // Step 5: 验证两个队列都有任务
-        var jobs = queue.GetAllJobs().ToList();
-        var queueAJobs = jobs.Where(j => j.QueueName == "Queue A").ToList();
-        var queueBJobs = jobs.Where(j => j.QueueName == "Queue B").ToList();
+        var tasks = queue.GetAllTasks().ToList();
+        var dummyTasks   = tasks.Where(t => t.QueueName == "DummyJob").ToList();
+        var orphanTasks  = tasks.Where(t => t.QueueName == "OrphanAvatarCleanupJob").ToList();
 
-        Assert.IsNotEmpty(queueAJobs, "Queue A should have at least one job");
-        Assert.IsNotEmpty(queueBJobs, "Queue B should have at least one job");
+        Assert.IsNotEmpty(dummyTasks,  "DummyJob queue should have at least one task");
+        Assert.IsNotEmpty(orphanTasks, "OrphanAvatarCleanupJob queue should have at least one task");
+    }
+
+    [TestMethod]
+    public async Task TestCleanupOldTasks()
+    {
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
+
+        // Add a task and complete it
+        var taskId = queue.QueueWithDependency<ILogger<BackgroundJobsTests>>("Cleanup Queue", "Cleanup Job", async (_) => await Task.CompletedTask);
+
+        // Wait for it to complete
+        await Task.Delay(1000);
+
+        var completedTask = queue.GetRecentCompletedTasks(TimeSpan.FromMinutes(1)).FirstOrDefault(t => t.TaskId == taskId);
+        Assert.IsNotNull(completedTask);
+
+        // Cleanup tasks older than 0 seconds (all completed tasks)
+        queue.CleanupOldCompletedTasks(TimeSpan.FromSeconds(-1));
+
+        var allTasks = queue.GetAllTasks().ToList();
+        Assert.IsFalse(allTasks.Any(t => t.TaskId == taskId));
+    }
+
+    [TestMethod]
+    public void TestQueueWithDependencyDefaultName()
+    {
+        var queue = Server!.Services.GetRequiredService<ServiceTaskQueue>();
+        var taskId = queue.QueueWithDependency<ILogger<BackgroundJobsTests>>(async (_) => await Task.CompletedTask);
+
+        var task = queue.GetAllTasks().FirstOrDefault(t => t.TaskId == taskId);
+        Assert.IsNotNull(task);
+        Assert.AreEqual(typeof(ILogger<BackgroundJobsTests>).Name, task.QueueName);
     }
 }
