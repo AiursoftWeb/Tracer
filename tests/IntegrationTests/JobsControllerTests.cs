@@ -16,14 +16,14 @@ public class JobsControllerTests : TestBase
         var triggerAResponse = await PostForm("/Jobs/Trigger", new Dictionary<string, string>
         {
             { "jobTypeName", "DummyJob" }
-        });
+        }, tokenUrl: "/Jobs");
         AssertRedirect(triggerAResponse, "/Jobs");
 
         // 3. Trigger OrphanAvatarCleanupJob
         var triggerBResponse = await PostForm("/Jobs/Trigger", new Dictionary<string, string>
         {
             { "jobTypeName", "OrphanAvatarCleanupJob" }
-        });
+        }, tokenUrl: "/Jobs");
         AssertRedirect(triggerBResponse, "/Jobs");
 
         // 4. Index again (check if jobs are listed)
@@ -34,7 +34,7 @@ public class JobsControllerTests : TestBase
         var cancelResponse = await PostForm("/Jobs/Cancel", new Dictionary<string, string>
         {
             { "jobId", Guid.NewGuid().ToString() }
-        });
+        }, tokenUrl: "/Jobs");
         AssertRedirect(cancelResponse, "/Jobs");
     }
 }
