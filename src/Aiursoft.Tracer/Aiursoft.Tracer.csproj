@@ -10,8 +10,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Aiursoft.Canon.ServiceTaskQueue" Version="10.0.6" />
-    <PackageReference Include="Aiursoft.Canon.BackgroundJobs" Version="10.0.6" />
     <PackageReference Include="Aiursoft.Canon.ScheduledTasks" Version="10.0.5" />
     <PackageReference Include="Aiursoft.ClickhouseLoggerProvider" Version="10.0.16" />
     <PackageReference Include="Aiursoft.DbTools.Switchable" Version="10.0.16" />
