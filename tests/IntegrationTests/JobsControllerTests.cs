@@ -4,18 +4,37 @@ namespace Aiursoft.Tracer.Tests.IntegrationTests;
 public class JobsControllerTests : TestBase
 {
     [TestMethod]
-    public async Task GetIndex()
+    public async Task TestJobsWorkflow()
     {
-        // This is a basic test to ensure the controller is reachable.
-        // Adjust the path as necessary for specific controllers.
-        var url = "/Jobs/Index";
-        
-        var response = await Http.GetAsync(url);
-        
-        // Assert
-        // For some controllers, it might redirect to login, which is 302.
-        // For others, it might be 200.
-        // We just check if we get a response.
-        Assert.IsNotNull(response);
+        await LoginAsAdmin();
+
+        // 1. Index
+        var indexResponse = await Http.GetAsync("/Jobs/Index");
+        indexResponse.EnsureSuccessStatusCode();
+
+        // 2. Trigger DummyJob
+        var triggerAResponse = await PostForm("/Jobs/Trigger", new Dictionary<string, string>
+        {
+            { "jobTypeName", "DummyJob" }
+        });
+        AssertRedirect(triggerAResponse, "/Jobs");
+
+        // 3. Trigger OrphanAvatarCleanupJob
+        var triggerBResponse = await PostForm("/Jobs/Trigger", new Dictionary<string, string>
+        {
+            { "jobTypeName", "OrphanAvatarCleanupJob" }
+        });
+        AssertRedirect(triggerBResponse, "/Jobs");
+
+        // 4. Index again (check if jobs are listed)
+        var indexResponse2 = await Http.GetAsync("/Jobs/Index");
+        indexResponse2.EnsureSuccessStatusCode();
+
+        // 5. Cancel with a dummy ID — endpoint should still redirect gracefully
+        var cancelResponse = await PostForm("/Jobs/Cancel", new Dictionary<string, string>
+        {
+            { "jobId", Guid.NewGuid().ToString() }
+        });
+        AssertRedirect(cancelResponse, "/Jobs");
     }
 }

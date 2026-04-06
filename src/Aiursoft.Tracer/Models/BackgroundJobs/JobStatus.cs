@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Aiursoft.Tracer.Models.BackgroundJobs;
 
 /// <summary>
@@ -5,9 +7,14 @@ namespace Aiursoft.Tracer.Models.BackgroundJobs;
 /// </summary>
 public enum JobStatus
 {
+    [Display(Name = "Pending")]
     Pending,
+    [Display(Name = "Processing")]
     Processing,
+    [Display(Name = "Success")]
     Success,
+    [Display(Name = "Failed")]
     Failed,
+    [Display(Name = "Cancelled")]
     Cancelled
 }
