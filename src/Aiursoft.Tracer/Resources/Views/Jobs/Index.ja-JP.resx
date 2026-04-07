@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>ジョブ名</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>直近1時間</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>前回実行</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>バックグラウンドのジョブキューとその実行状態を監視および管理する。</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>バックグラウンドジョブキューを監視・管理します。登録されたジョブを手動でトリガーするか、スケジューラに自動実行させます。</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>未実行</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>新規ジョブ A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>新しいジョブ B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>バックグラウンドジョブは登録されていません。Startup.csで services.AddBackgroundJob&lt;TJob&gt;() を使用してジョブを追加してください。</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>ジョブがありません</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>過去1時間内にジョブは実行されていません。</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>保留中</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>処理中</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>キュー</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>キュー名</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>キュー登録日時</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>直近の実行履歴</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>登録済みジョブ</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>状態</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>成功</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>今すぐトリガー</value>
   </data>
 
 </root>

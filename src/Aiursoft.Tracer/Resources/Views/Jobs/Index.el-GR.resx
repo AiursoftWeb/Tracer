@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>Όνομα εργασίας</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>τελευταία ώρα</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>Τελευταία εκτέλεση</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>Παρακολουθήστε και διαχειριστείτε ουρές εργασιών που εκτελούνται στο παρασκήνιο και την κατάσταση εκτέλεσής τους.</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>Παρακολουθήστε και διαχειριστείτε τις ουρές εργασιών παρασκηνίου. Εκτελέστε οποιαδήποτε εγγεγραμμένη εργασία χειροκίνητα ή επιτρέψτε στον προγραμματιστή να την εκτελεί αυτόματα.</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>Δεν εκτελέστηκε ποτέ</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>Νέο Έργο Α</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>Νέο Έργο B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>Δεν έχουν εγγραφεί εργασίες παρασκηνίου. Προσθέστε εργασίες χρησιμοποιώντας τις services.AddBackgroundJob&lt;TJob&gt;() στο Startup.cs.</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>Κανένα εργασίες</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>Δεν έχουν εκτελεστεί εργασίες την τελευταία ώρα.</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Αναμονή</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>Εκτέλεση</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Λίστα αναμονής</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>Όνομα Ουράς</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>Ουράστηκε στις</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>Πρόσφατο Ιστορικό Εκτελέσεων</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>Κατεγεγραμμένες Εργασίες</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Κατάσταση</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>Επιτυχία</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>Εκτέλεση τώρα</value>
   </data>
 
 </root>

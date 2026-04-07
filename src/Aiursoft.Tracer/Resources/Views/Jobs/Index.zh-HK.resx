@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>工作名稱</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>過去一小時</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>上次執行</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>監視及管理背景工作佇列及其執行狀態。</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>監控及管理後台工作佇列。可手動觸發任何已註冊的工作，或讓排程器自動執行。</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>從未執行</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>新工作 A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>新增工作 B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>未註冊任何背景工作。請在 Startup.cs 中使用 services.AddBackgroundJob&lt;TJob&gt;() 添加工作。</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>沒有工作</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>過去一小時內沒有執行任何工作。</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>等候中</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>處理中</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>隊列</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>佇列名稱</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>排隊於</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>最近執行記錄</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>已註冊工作</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>狀態</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>成功</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>立即觸發</value>
   </data>
 
 </root>

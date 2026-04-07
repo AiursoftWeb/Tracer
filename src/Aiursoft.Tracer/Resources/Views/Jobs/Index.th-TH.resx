@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>ชื่องาน</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>ชั่วโมงล่าสุด</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>最后一次运行</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>ติดตามและจัดการคิวงานหลังบ้านและสถานะการดำเนินงานของพวกเขา</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>ตรวจสอบและจัดการคิวงานพื้นหลัง เริ่มใช้งานงานที่ลงทะเบียนด้วยตนเอง หรือให้ตัวกำหนดเวลารันอัตโนมัติ</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>ไม่เคยดำเนินการ</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>งานใหม่ A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>งานใหม่ B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>ไม่มีงานพื้นหลังที่ลงทะเบียน กรุณาเพิ่มงานโดยใช้ services.AddBackgroundJob&lt;TJob&gt;() ใน Startup.cs</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>ไม่มีงาน</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>ไม่มีการทำงานใดที่รันในช่วงชั่วโมงที่ผ่านมา</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>รอดำเนินการ</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>กำลังดำเนินการ</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>คิว</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>ชื่อคิว</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>เวลาที่เพิ่มเข้าคิว</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>ประวัติการดำเนินการล่าสุด</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>งานที่ลงทะเบียน</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>สถานะ</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>สำเร็จ</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>เริ่มทันที</value>
   </data>
 
 </root>

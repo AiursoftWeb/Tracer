@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>Nome do Trabalho</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>última hora</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>Última execução</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>Monitore e gerencie filas de trabalhos em segundo plano e seu status de execução.</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>Monitore e gerencie filas de trabalhos em segundo plano. Dispare qualquer trabalho registrado manualmente ou deixe o agendador executá-lo automaticamente.</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>Nunca executado</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>Novo Trabalho A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>Novo Trabalho B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>Nenhum trabalho de segundo plano está registrado. Adicione trabalhos usando services.AddBackgroundJob&lt;TJob&gt;() em Startup.cs.</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>Nenhum trabalho</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>Nenhum trabalho foi executado na última hora.</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Pendente</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>Processando</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Fila</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>Nome da Fila</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>Enfileirado às</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>Histórico de Execuções Recentes</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>Trabalhos Registrados</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>Sucesso</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>Disparar agora</value>
   </data>
 
 </root>
