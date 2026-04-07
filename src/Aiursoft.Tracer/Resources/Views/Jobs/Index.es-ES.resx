@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>Nombre del trabajo</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>última hora</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>Última ejecución</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>Supervisar y gestionar colas de trabajos en segundo plano y su estado de ejecución.</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>Supervise y gestiona las colas de trabajos en segundo plano. Inicia manualmente cualquier trabajo registrado o permite que el programador lo ejecute automáticamente.</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>Nunca ejecutado</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>Nuevo trabajo A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>Nuevo trabajo B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>No hay trabajos en segundo plano registrados. Añada trabajos usando services.AddBackgroundJob&lt;TJob&gt;() en Startup.cs.</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>Sin trabajos</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>No se han ejecutado trabajos en la última hora.</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Pendiente</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>Procesando</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Cola</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>Nombre de cola</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>Colocado en cola el</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>Historial de ejecuciones recientes</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>Trabajos registrados</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Estado</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>Éxito</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>Ejecutar ahora</value>
   </data>
 
 </root>

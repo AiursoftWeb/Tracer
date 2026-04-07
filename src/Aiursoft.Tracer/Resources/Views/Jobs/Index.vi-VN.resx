@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>Tên công việc</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>giờ qua</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>Lần chạy cuối</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>Theo dõi và quản lý các hàng đợi công việc nền và trạng thái thực thi của chúng.</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>Giám sát và quản lý hàng đợi công việc nền. Kích hoạt bất kỳ công việc đã đăng ký thủ công hoặc để bộ lập lịch tự động chạy nó.</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>Chưa bao giờ thực thi</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>Nhiệm vụ mới A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>Job mới B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>Không có tác vụ nền nào được đăng ký. Thêm tác vụ bằng cách sử dụng services.AddBackgroundJob&lt;TJob&gt;() trong Startup.cs.</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>Không có công việc nào</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>Không có tác vụ nào được chạy trong giờ qua.</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Đang chờ</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>Đang xử lý</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Hàng đợi</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>Tên hàng đợi</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>Đã xếp hàng lúc</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>Lịch sử thực thi gần đây</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>Công việc đã đăng ký</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Trạng thái</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>Thành công</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>Kích hoạt ngay</value>
   </data>
 
 </root>

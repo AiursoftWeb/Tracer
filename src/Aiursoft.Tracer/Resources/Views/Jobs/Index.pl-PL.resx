@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>Nazwa zadania</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>ostatniej godziny</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>Ostatnie uruchomienie</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>Monitoruj i zarządzaj kolejkami zadań w tle oraz ich stanem wykonywania.</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>Monitoruj i zarządzaj kolejkami zadań w tle. Uruchamiaj dowolne zarejestrowane zadanie ręcznie lub pozwól harmonogramowi uruchamiać je automatycznie.</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>Nigdy nie wykonano</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>Nowe Zadanie A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>Nowe zadanie B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>Nie zarejestrowano żadnych zadań tła. Dodaj zadania, używając services.AddBackgroundJob&lt;TJob&gt;() w pliku Startup.cs.</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>Brak zadań</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>W ciągu ostatniej godziny nie uruchomiono żadnych zadań.</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Oczekujące</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>Przetwarzanie</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Kolejka</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>Nazwa kolejki</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>Zgłoszono o</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>Ostatnia historia wykonania</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>Zarejestrowane zadania</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Stan</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>Powodzenie</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>Uruchom teraz</value>
   </data>
 
 </root>

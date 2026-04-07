@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>Jobnavn</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>sidste time</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>Sidste kørsel</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>Overvåg og administrer baggrundstasker og deres udførelsesstatus.</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>Overvåg og håndter køer med jobs i baggrunden. Udløs ethvert registreret job manuelt, eller lad planlæggeren køre det automatisk.</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>Aldrig udført</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>Nyt job A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>Nyt job B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>Ingen baggrundsupgaver er registreret. Tilføj opgaver ved hjælp af services.AddBackgroundJob&lt;TJob&gt;() i Startup.cs.</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>Ingen jobs</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>Ingen jobs er kørt i den sidste time.</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Ventende</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>Behandler</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Kø</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>Queue navn</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>Indsat kl.</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>Seneste kørselshistorik</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>Registrerede jobs</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>Lykkedes</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>Udfør nu</value>
   </data>
 
 </root>

@@ -42,8 +42,20 @@
   <data name="Job Name" xml:space="preserve">
     <value>Job Name</value>
   </data>
+  <data name="last hour" xml:space="preserve">
+    <value>last hour</value>
+  </data>
+  <data name="Last run" xml:space="preserve">
+    <value>Last run</value>
+  </data>
   <data name="Monitor and manage background job queues and their execution status." xml:space="preserve">
     <value>Monitor and manage background job queues and their execution status.</value>
+  </data>
+  <data name="Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically." xml:space="preserve">
+    <value>Monitor and manage background job queues. Trigger any registered job manually or let the scheduler run it automatically.</value>
+  </data>
+  <data name="Never executed" xml:space="preserve">
+    <value>Never executed</value>
   </data>
   <data name="New Job A" xml:space="preserve">
     <value>New Job A</value>
@@ -51,8 +63,14 @@
   <data name="New Job B" xml:space="preserve">
     <value>New Job B</value>
   </data>
+  <data name="No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs." xml:space="preserve">
+    <value>No background jobs are registered. Add jobs using services.AddBackgroundJob&lt;TJob&gt;() in Startup.cs.</value>
+  </data>
   <data name="No jobs" xml:space="preserve">
     <value>No jobs</value>
+  </data>
+  <data name="No jobs have run in the last hour." xml:space="preserve">
+    <value>No jobs have run in the last hour.</value>
   </data>
   <data name="Pending" xml:space="preserve">
     <value>Pending</value>
@@ -60,17 +78,29 @@
   <data name="Processing" xml:space="preserve">
     <value>Processing</value>
   </data>
+  <data name="Queue" xml:space="preserve">
+    <value>Queue</value>
+  </data>
   <data name="Queue Name" xml:space="preserve">
     <value>Queue Name</value>
   </data>
   <data name="Queued At" xml:space="preserve">
     <value>Queued At</value>
   </data>
+  <data name="Recent Execution History" xml:space="preserve">
+    <value>Recent Execution History</value>
+  </data>
+  <data name="Registered Jobs" xml:space="preserve">
+    <value>Registered Jobs</value>
+  </data>
   <data name="Status" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>Success</value>
+  </data>
+  <data name="Trigger Now" xml:space="preserve">
+    <value>Trigger now</value>
   </data>
 
 </root>
