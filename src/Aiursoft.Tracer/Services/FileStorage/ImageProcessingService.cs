@@ -1,6 +1,5 @@
 using Aiursoft.Scanner.Abstractions;
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Processing;
+using SkiaSharp;
 
 namespace Aiursoft.Tracer.Services.FileStorage;
 
@@ -10,19 +9,25 @@ public class ImageProcessingService(
     ILogger<ImageProcessingService> logger,
     FileLockProvider fileLockProvider) : ITransientDependency
 {
-    public async Task<bool> IsValidImageAsync(string imagePath)
+    public Task<bool> IsValidImageAsync(string imagePath)
     {
         try
         {
-            _ = await Image.DetectFormatAsync(imagePath);
-            logger.LogTrace("File with path {ImagePath} is a valid image", imagePath);
-            return true;
+            using var codec = SKCodec.Create(imagePath);
+            if (codec != null)
+            {
+                logger.LogTrace("File with path {ImagePath} is a valid image", imagePath);
+                return Task.FromResult(true);
+            }
         }
         catch (Exception e)
         {
             logger.LogWarning(e, "File with path {ImagePath} is not a valid image", imagePath);
-            return false;
+            return Task.FromResult(false);
         }
+
+        logger.LogWarning("File with path {ImagePath} is not a valid image", imagePath);
+        return Task.FromResult(false);
     }
 
     /// <summary>
@@ -33,7 +38,7 @@ public class ImageProcessingService(
     {
         // 1. Resolve source path (Workspace)
         var sourceAbsolute = storageService.GetFilePhysicalPath(logicalPath, isVault);
-        
+
         // 2. Resolve target path (ClearExif/logicalPath)
         var folderName = isVault ? "Vault" : "Workspace";
         var targetAbsolute = Path.GetFullPath(Path.Combine(folders.GetClearExifFolder(), folderName, logicalPath));
@@ -61,21 +66,24 @@ public class ImageProcessingService(
             }
 
             await WaitTillFileCanBeReadAsync(sourceAbsolute);
-            using var image = await Image.LoadAsync(sourceAbsolute);
-            image.Mutate(ctx => { ctx.AutoOrient(); });
-            image.Metadata.ExifProfile = null;
+            using var codec = SKCodec.Create(sourceAbsolute);
+            if (codec == null)
+            {
+                logger.LogWarning("Not a known image format; skipping EXIF clear for {Source}", sourceAbsolute);
+                return sourceAbsolute;
+            }
+
+            var origin = codec.EncodedOrigin;
+            using var bitmap = SKBitmap.Decode(sourceAbsolute);
+            if (bitmap == null)
+            {
+                logger.LogWarning("Failed to decode image; returning original path for {Source}", sourceAbsolute);
+                return sourceAbsolute;
+            }
+
+            using var oriented = AutoOrient(bitmap, origin);
             logger.LogInformation("Clearing EXIF: {Source} -> {Target}", sourceAbsolute, targetAbsolute);
-            await image.SaveAsync(targetAbsolute);
-        }
-        catch (UnknownImageFormatException e)
-        {
-            logger.LogWarning(e, "Not a known image format; skipping EXIF clear for {Source}", sourceAbsolute);
-            return sourceAbsolute; // Return original if fail
-        }
-        catch (ImageFormatException e)
-        {
-            logger.LogWarning(e, "Invalid image; returning original path for {Source}", sourceAbsolute);
-            return sourceAbsolute;
+            SaveBitmap(oriented, targetAbsolute);
         }
         catch (Exception e)
         {
@@ -97,17 +105,17 @@ public class ImageProcessingService(
     public async Task<string> CompressAsync(string logicalPath, int width, int height, bool isVault = false)
     {
         var sourceAbsolute = storageService.GetFilePhysicalPath(logicalPath, isVault);
-        
+
         // Calculate target path in Compressed folder
         var compressedRoot = folders.GetCompressedFolder();
         var folderName = isVault ? "Vault" : "Workspace";
         var dimensionSuffix = BuildDimensionSuffix(width, height);
-        
+
         // "avatar/2026/01/14/logo.png" -> "avatar/2026/01/14/" + "logo_w100.png"
         var extension = Path.GetExtension(logicalPath);
         var fileNameWithoutExt = Path.GetFileNameWithoutExtension(logicalPath);
         var directoryInStore = Path.GetDirectoryName(logicalPath) ?? string.Empty;
-        
+
         var newFileName = $"{fileNameWithoutExt}{dimensionSuffix}{extension}";
         var targetAbsolute = Path.GetFullPath(Path.Combine(compressedRoot, folderName, directoryInStore, newFileName));
 
@@ -116,7 +124,7 @@ public class ImageProcessingService(
             logger.LogInformation("Compressed file already exists: {Target}", targetAbsolute);
             return targetAbsolute;
         }
-        
+
         var targetDir = Path.GetDirectoryName(targetAbsolute);
         if (!Directory.Exists(targetDir)) Directory.CreateDirectory(targetDir!);
 
@@ -127,23 +135,26 @@ public class ImageProcessingService(
             if (File.Exists(targetAbsolute) && FileCanBeRead(targetAbsolute)) return targetAbsolute;
 
             await WaitTillFileCanBeReadAsync(sourceAbsolute);
-            using var image = await Image.LoadAsync(sourceAbsolute);
-            image.Mutate(x => x.AutoOrient());
-            image.Metadata.ExifProfile = null;
-            image.Mutate(x => x.Resize(width, height));
+            using var codec = SKCodec.Create(sourceAbsolute);
+            if (codec == null)
+            {
+                logger.LogWarning("Not a known image format; skipping compression for {Source}", sourceAbsolute);
+                return sourceAbsolute;
+            }
+
+            var origin = codec.EncodedOrigin;
+            using var bitmap = SKBitmap.Decode(sourceAbsolute);
+            if (bitmap == null)
+            {
+                logger.LogWarning("Failed to decode image; returning original path for {Source}", sourceAbsolute);
+                return sourceAbsolute;
+            }
+
+            using var oriented = AutoOrient(bitmap, origin);
+            using var resized = ResizeBitmap(oriented, width, height);
             logger.LogInformation("Compressing image {Source} -> {Target} (width={Width}, height={Height})",
                 sourceAbsolute, targetAbsolute, width, height);
-            await image.SaveAsync(targetAbsolute);
-        }
-        catch (UnknownImageFormatException e)
-        {
-            logger.LogWarning(e, "Not a known image format; skipping compression for {Source}", sourceAbsolute);
-            return sourceAbsolute;
-        }
-        catch (ImageFormatException e)
-        {
-             logger.LogWarning(e, "Invalid image; returning original path for {Source}", sourceAbsolute);
-             return sourceAbsolute;
+            SaveBitmap(resized, targetAbsolute);
         }
         catch (Exception e)
         {
@@ -188,5 +199,122 @@ public class ImageProcessingService(
         {
             return false;
         }
+    }
+
+    private static SKBitmap AutoOrient(SKBitmap source, SKEncodedOrigin origin)
+    {
+        if (origin == SKEncodedOrigin.TopLeft)
+            return source;
+
+        float[] matrixValues;
+        int outW, outH;
+
+        switch (origin)
+        {
+            case SKEncodedOrigin.TopRight:
+                outW = source.Width;
+                outH = source.Height;
+                matrixValues = [-1, 0, source.Width - 1, 0, 1, 0, 0, 0, 1];
+                break;
+            case SKEncodedOrigin.BottomRight:
+                outW = source.Width;
+                outH = source.Height;
+                matrixValues = [-1, 0, source.Width - 1, 0, -1, source.Height - 1, 0, 0, 1];
+                break;
+            case SKEncodedOrigin.BottomLeft:
+                outW = source.Width;
+                outH = source.Height;
+                matrixValues = [1, 0, 0, 0, -1, source.Height - 1, 0, 0, 1];
+                break;
+            case SKEncodedOrigin.LeftTop:
+                outW = source.Height;
+                outH = source.Width;
+                matrixValues = [0, 1, 0, 1, 0, 0, 0, 0, 1];
+                break;
+            case SKEncodedOrigin.RightTop:
+                outW = source.Height;
+                outH = source.Width;
+                matrixValues = [0, -1, source.Height - 1, 1, 0, 0, 0, 0, 1];
+                break;
+            case SKEncodedOrigin.RightBottom:
+                outW = source.Height;
+                outH = source.Width;
+                matrixValues = [0, -1, source.Height - 1, -1, 0, source.Width - 1, 0, 0, 1];
+                break;
+            case SKEncodedOrigin.LeftBottom:
+                outW = source.Height;
+                outH = source.Width;
+                matrixValues = [0, 1, 0, -1, 0, source.Width - 1, 0, 0, 1];
+                break;
+            default:
+                return source;
+        }
+
+        var result = new SKBitmap(outW, outH);
+        using var canvas = new SKCanvas(result);
+        var matrix = new SKMatrix { Values = matrixValues };
+        canvas.SetMatrix(matrix);
+        canvas.DrawBitmap(source, 0, 0);
+        canvas.Flush();
+        return result;
+    }
+
+    private static SKBitmap ResizeBitmap(SKBitmap source, int targetWidth, int targetHeight)
+    {
+        if (targetWidth <= 0 && targetHeight <= 0)
+            return source;
+
+        int finalWidth, finalHeight;
+
+        if (targetWidth <= 0)
+        {
+            var ratio = (float)targetHeight / source.Height;
+            finalWidth = Math.Max(1, (int)(source.Width * ratio));
+            finalHeight = targetHeight;
+        }
+        else if (targetHeight <= 0)
+        {
+            var ratio = (float)targetWidth / source.Width;
+            finalWidth = targetWidth;
+            finalHeight = Math.Max(1, (int)(source.Height * ratio));
+        }
+        else
+        {
+            finalWidth = targetWidth;
+            finalHeight = targetHeight;
+        }
+
+        var result = new SKBitmap(finalWidth, finalHeight);
+        using var canvas = new SKCanvas(result);
+        using (var paint = new SKPaint())
+        {
+            paint.IsAntialias = true;
+            canvas.DrawBitmap(source,
+                new SKRect(0, 0, source.Width, source.Height),
+                new SKRect(0, 0, finalWidth, finalHeight),
+                paint);
+        }
+        canvas.Flush();
+        return result;
+    }
+
+    private static void SaveBitmap(SKBitmap bitmap, string path)
+    {
+        var ext = Path.GetExtension(path).ToLowerInvariant();
+        var format = ext switch
+        {
+            ".jpg" or ".jpeg" => SKEncodedImageFormat.Jpeg,
+            ".png" => SKEncodedImageFormat.Png,
+            ".gif" => SKEncodedImageFormat.Gif,
+            ".webp" => SKEncodedImageFormat.Webp,
+            ".bmp" => SKEncodedImageFormat.Bmp,
+            _ => SKEncodedImageFormat.Png
+        };
+
+        using var image = SKImage.FromBitmap(bitmap);
+        using var data = image.Encode(format, format == SKEncodedImageFormat.Jpeg ? 90 : 100)
+            ?? image.Encode(SKEncodedImageFormat.Png, 100);
+        using var stream = File.OpenWrite(path);
+        data.SaveTo(stream);
     }
 }
