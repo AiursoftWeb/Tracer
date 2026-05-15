@@ -24,6 +24,9 @@
   <data name="An overview of the application&apos;s server environment, process, and current request context." xml:space="preserve">
     <value>Uygulamanın sunucu ortamı, süreci ve mevcut istek bağlamına genel bir bakış.</value>
   </data>
+  <data name="Applied / Defined" xml:space="preserve">
+    <value>Uygulanan / Tanımlanan</value>
+  </data>
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Uygulamayı yeniden başlatmak istediğinizden emin misiniz? Bu işlem geri alınamaz ve tüm aktif bağlantıları sonlandıracaktır.</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Confirm Application Restart" xml:space="preserve">
     <value>Uygulama Yeniden Başlatmayı Onayla</value>
   </data>
+  <data name="Created" xml:space="preserve">
+    <value>Oluşturulma</value>
+  </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>Tehlike Bölgesi</value>
+  </data>
+  <data name="Database Migrations" xml:space="preserve">
+    <value>Veritabanı Göçleri</value>
+  </data>
+  <data name="Database Table Counts" xml:space="preserve">
+    <value>Veritabanı Tablo Sayıları</value>
   </data>
   <data name="Directory" xml:space="preserve">
     <value>Dizin</value>
@@ -65,6 +77,9 @@
   </data>
   <data name="Method" xml:space="preserve">
     <value>Metod</value>
+  </data>
+  <data name="Migration" xml:space="preserve">
+    <value>Göç</value>
   </data>
   <data name="Path" xml:space="preserve">
     <value>Yol</value>
@@ -99,6 +114,9 @@
   <data name="Restarting..." xml:space="preserve">
     <value>Yeniden başlatılıyor...</value>
   </data>
+  <data name="Rows" xml:space="preserve">
+    <value>Satır Sayısı</value>
+  </data>
   <data name="Scheme" xml:space="preserve">
     <value>Şema</value>
   </data>
@@ -116,6 +134,9 @@
   </data>
   <data name="System Information" xml:space="preserve">
     <value>Sistem Bilgisi</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>Tablo</value>
   </data>
   <data name="This will gracefully shut down the application. A process manager is expected to restart it." xml:space="preserve">
     <value>Bu, uygulamayı sorunsuz bir şekilde kapatacaktır. Bir işlem yöneticisinin uygulamayı yeniden başlatması beklenir.</value>
