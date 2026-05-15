@@ -24,6 +24,9 @@
   <data name="An overview of the application&apos;s server environment, process, and current request context." xml:space="preserve">
     <value>Eine Übersicht über die Serverumgebung, den Prozess und den aktuellen Anforderungskontext der Anwendung.</value>
   </data>
+  <data name="Applied / Defined" xml:space="preserve">
+    <value>Angewendet / Definiert</value>
+  </data>
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Sind Sie sicher, dass Sie die Anwendung neu starten möchten? Diese Aktion ist unwiderruflich und beendet alle aktiven Verbindungen.</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Confirm Application Restart" xml:space="preserve">
     <value>Anwendungsneustart bestätigen</value>
   </data>
+  <data name="Created" xml:space="preserve">
+    <value>Erstellt</value>
+  </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>Gefahrenbereich</value>
+  </data>
+  <data name="Database Migrations" xml:space="preserve">
+    <value>Datenbankmigrationen</value>
+  </data>
+  <data name="Database Table Counts" xml:space="preserve">
+    <value>Anzahl der Datenbanktabellen</value>
   </data>
   <data name="Directory" xml:space="preserve">
     <value>Verzeichnis</value>
@@ -65,6 +77,9 @@
   </data>
   <data name="Method" xml:space="preserve">
     <value>Methode</value>
+  </data>
+  <data name="Migration" xml:space="preserve">
+    <value>Migration</value>
   </data>
   <data name="Path" xml:space="preserve">
     <value>Pfad</value>
@@ -99,6 +114,9 @@
   <data name="Restarting..." xml:space="preserve">
     <value>Wird neu gestartet...</value>
   </data>
+  <data name="Rows" xml:space="preserve">
+    <value>Zeilen</value>
+  </data>
   <data name="Scheme" xml:space="preserve">
     <value>Schema</value>
   </data>
@@ -116,6 +134,9 @@
   </data>
   <data name="System Information" xml:space="preserve">
     <value>Systeminformationen</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>Tabelle</value>
   </data>
   <data name="This will gracefully shut down the application. A process manager is expected to restart it." xml:space="preserve">
     <value>Dadurch wird die Anwendung ordnungsgemäß heruntergefahren. Es wird erwartet, dass ein Prozess-Manager sie neu startet.</value>
