@@ -24,6 +24,9 @@
   <data name="An overview of the application&apos;s server environment, process, and current request context." xml:space="preserve">
     <value>एप्लिकेशन के सर्वर वातावरण, प्रक्रिया, और वर्तमान अनुरोध संदर्भ का एक अवलोकन।</value>
   </data>
+  <data name="Applied / Defined" xml:space="preserve">
+    <value>लागू / परिभाषित</value>
+  </data>
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>क्या आप वाकई एप्लिकेशन को पुनरारंभ करना चाहते हैं? यह क्रिया अपरिवर्तनीय है और सभी सक्रिय कनेक्शनों को समाप्त कर देगी।</value>
   </data>
@@ -33,8 +36,17 @@
   <data name="Confirm Application Restart" xml:space="preserve">
     <value>एप्लिकेशन पुनरारंभ की पुष्टि करें</value>
   </data>
+  <data name="Created" xml:space="preserve">
+    <value>निर्मित</value>
+  </data>
   <data name="Danger Zone" xml:space="preserve">
     <value>खतरा क्षेत्र</value>
+  </data>
+  <data name="Database Migrations" xml:space="preserve">
+    <value>डेटाबेस माइग्रेशन</value>
+  </data>
+  <data name="Database Table Counts" xml:space="preserve">
+    <value>डेटाबेस टेबल गणना</value>
   </data>
   <data name="Directory" xml:space="preserve">
     <value>डायरेक्टरी</value>
@@ -65,6 +77,9 @@
   </data>
   <data name="Method" xml:space="preserve">
     <value>विधि</value>
+  </data>
+  <data name="Migration" xml:space="preserve">
+    <value>प्रवास</value>
   </data>
   <data name="Path" xml:space="preserve">
     <value>पथ</value>
@@ -99,6 +114,9 @@
   <data name="Restarting..." xml:space="preserve">
     <value>पुनः आरंभ हो रहा है...</value>
   </data>
+  <data name="Rows" xml:space="preserve">
+    <value>पंक्तियाँ</value>
+  </data>
   <data name="Scheme" xml:space="preserve">
     <value>स्कीम</value>
   </data>
@@ -116,6 +134,9 @@
   </data>
   <data name="System Information" xml:space="preserve">
     <value>सिस्टम जानकारी</value>
+  </data>
+  <data name="Table" xml:space="preserve">
+    <value>टेबल</value>
   </data>
   <data name="This will gracefully shut down the application. A process manager is expected to restart it." xml:space="preserve">
     <value>यह एप्लिकेशन को सुरुचिपूर्ण ढंग से बंद कर देगा। अपेक्षा है कि एक प्रक्रिया प्रबंधक इसे पुनः आरंभ करेगा।</value>
