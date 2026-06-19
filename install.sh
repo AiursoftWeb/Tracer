@@ -24,26 +24,26 @@ install()
     aiur install/dotnet
     aiur install/node
 
-    # Clone the repo
-    aiur git/clone_to $repo_path /tmp/repo
+    # Clone the repo (use /var/tmp instead of /tmp to avoid tmpfs size limits)
+    aiur git/clone_to $repo_path /var/tmp/repo
 
     # Install node modules
-    wwwrootPath=$(dirname "/tmp/repo/$proj_path")/wwwroot
+    wwwrootPath=$(dirname "/var/tmp/repo/$proj_path")/wwwroot
     if [ -d "$wwwrootPath" ]; then
         echo "Found wwwroot folder $wwwrootPath, will install node modules."
         sudo npm install --prefix "$wwwrootPath" -force --loglevel verbose
     fi
 
     # Publish the app
-    aiur dotnet/publish "/tmp/repo/$proj_path" "/opt/apps/$app_name"
-    
+    aiur dotnet/publish "/var/tmp/repo/$proj_path" "/opt/apps/$app_name"
+
     # Register the service
     dll_name=$(get_dll_name)
     aiur services/register_aspnet_service $app_name $port "/opt/apps/$app_name" $dll_name
 
     # Clean up
     echo "Install $app_name finished! Please open http://$(hostname):$port to try!"
-    sudo rm /tmp/repo -rf
+    sudo rm /var/tmp/repo -rf
 }
 
 # This will install this app under /opt/apps and register a new service with systemd.
