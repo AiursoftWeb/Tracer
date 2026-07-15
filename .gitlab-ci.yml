@@ -151,12 +151,22 @@ deploy_docker_all:
         - docker buildx use aiur-global-builder
         - echo "Building and pushing multi-arch to all registries..."
         - |
-            docker buildx build . \
-              --platform linux/amd64,linux/arm64 \
-              -t $LOCAL_TARGET_COM \
-              -t $LOCAL_TARGET_CN \
-              -t $PUBLIC_TARGET \
-              --push
+            for i in 1 2 3 4; do
+              docker buildx build . \
+                --platform linux/amd64,linux/arm64 \
+                -t $LOCAL_TARGET_COM \
+                -t $LOCAL_TARGET_CN \
+                -t $PUBLIC_TARGET \
+                --push && break
+              if [ $i -eq 4 ]; then exit 1; fi
+              case $i in
+                1) DELAY=$((RANDOM % 60));;   # 0-1 min
+                2) DELAY=$((RANDOM % 240));;  # 0-4 min
+                3) DELAY=$((RANDOM % 960));;  # 0-16 min
+              esac
+              echo "Docker buildx push failed (attempt $i/4). Retrying in $DELAY seconds..."
+              sleep $DELAY
+            done
 
     rules:
         - if: '$CI_COMMIT_BRANCH == "master"'
