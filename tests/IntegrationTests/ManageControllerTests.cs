@@ -3,7 +3,6 @@ using Aiursoft.Tracer.Services;
 using Aiursoft.Tracer.Entities;
 using System.Net;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
 namespace Aiursoft.Tracer.Tests.IntegrationTests;
 
 [TestClass]
