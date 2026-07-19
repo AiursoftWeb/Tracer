@@ -1,9 +1,18 @@
-@model dynamic
-@{
-    ViewData["Title"] = Localizer["Delete Account"];
-}
+@using Aiursoft.UiStack.Layout
+@using Aiursoft.Tracer.Configuration;
+@using Microsoft.Extensions.Options
+@inject IOptions<AppSettings> AppSettings
+@model UiStackLayoutViewModel
 
-<h1 class="h3 mb-3">@ViewData["Title"]</h1>
+
+@if (AppSettings.Value.LocalEnabled)
+{
+    <h1 class="h3 mb-3">@Localizer["Delete Account"]</h1>
+}
+else
+{
+    <h1 class="h3 mb-3">@Localizer["Delete Account Data"]</h1>
+}
 
 <div class="card border-danger">
     <div class="card-header bg-danger text-white">

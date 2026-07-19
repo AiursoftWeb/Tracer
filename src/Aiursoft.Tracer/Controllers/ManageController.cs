@@ -194,7 +194,7 @@ public class ManageController(
     [HttpGet]
     public IActionResult DeleteAccount()
     {
-        return this.StackView(new UiStackLayoutViewModel());
+        return this.StackView(new UiStackLayoutViewModel { PageTitle = "Delete Account" });
     }
 
     //
