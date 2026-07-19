@@ -3,6 +3,7 @@ using Aiursoft.Tracer.Entities;
 using Aiursoft.Tracer.Models.ManageViewModels;
 using Aiursoft.Tracer.Services;
 using Aiursoft.Tracer.Services.FileStorage;
+using Aiursoft.UiStack.Layout;
 using Aiursoft.UiStack.Navigation;
 using Aiursoft.WebTools.Attributes;
 using Microsoft.AspNetCore.Authorization;
@@ -193,7 +194,7 @@ public class ManageController(
     [HttpGet]
     public IActionResult DeleteAccount()
     {
-        return this.StackView(new Aiursoft.UiStack.Layout.UiStackLayoutViewModel());
+        return this.StackView(new UiStackLayoutViewModel());
     }
 
     //
