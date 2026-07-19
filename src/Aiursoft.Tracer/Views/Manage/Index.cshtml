@@ -57,6 +57,13 @@
                 </span>
                 <i class="align-middle" data-lucide="chevron-right"></i>
             </a>
+            <a asp-controller="Manage" asp-action="DeleteAccount" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                <span>
+                    <i class="align-middle me-2" data-lucide="user-minus"></i>
+                    @Localizer["Delete your account"]
+                </span>
+                <i class="align-middle" data-lucide="chevron-right"></i>
+            </a>
         }
         else
         {

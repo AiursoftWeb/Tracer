@@ -188,6 +188,31 @@ public class ManageController(
         return this.StackView(model);
     }
 
+    //
+    // GET: /Manage/DeleteAccount
+    [HttpGet]
+    public IActionResult DeleteAccount()
+    {
+        return this.StackView(new Aiursoft.UiStack.Layout.UiStackLayoutViewModel());
+    }
+
+    //
+    // POST: /Manage/DeleteAccount
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> DeleteAccountPost()
+    {
+        var user = await GetCurrentUserAsync();
+        if (user != null)
+        {
+            await signInManager.SignOutAsync();
+            await userManager.DeleteAsync(user);
+            logger.LogInformation(3, "User deleted their account successfully");
+            return Redirect("/");
+        }
+        return RedirectToAction(nameof(Index), new { Message = ManageMessageId.Error });
+    }
+
     #region Helpers
 
     private void AddErrors(IdentityResult result)
