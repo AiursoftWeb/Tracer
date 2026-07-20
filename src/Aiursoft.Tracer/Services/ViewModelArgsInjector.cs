@@ -80,6 +80,8 @@ public class ViewModelArgsInjector(
         _ = localizer["Not Found"];
         _ = localizer["Permission Details"];
         _ = localizer["Register"];
+    
+        _ = localizer["Delete Account"];
     }
 
     public void InjectSimple(

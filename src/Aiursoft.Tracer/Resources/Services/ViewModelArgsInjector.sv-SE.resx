@@ -57,6 +57,9 @@
   <data name="Create User" xml:space="preserve">
     <value>Skapa användare</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Radera konto</value>
+  </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Ta bort roll</value>
   </data>

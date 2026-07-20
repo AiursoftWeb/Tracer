@@ -60,6 +60,9 @@
   <data name="Create User" xml:space="preserve">
     <value>Benutzer erstellen</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Konto löschen</value>
+  </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Rolle löschen</value>
   </data>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name="Are you sure you want to delete your account?" xml:space="preserve">
+    <value>Apakah Anda yakin ingin menghapus akun Anda?</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Zona Bahaya</value>
+  </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Hapus Akun</value>
+  </data>
+  <data name="Delete Account Data" xml:space="preserve">
+    <value>Hapus Data Akun</value>
+  </data>
+  <data name="This action will permanently erase all your data from our servers. This includes your profile, comments, likes, and favorites. This action cannot be undone." xml:space="preserve">
+    <value>Tindakan ini akan menghapus semua data Anda dari server kami secara permanen. Ini termasuk profil, komentar, suka, dan favorit Anda. Tindakan ini tidak dapat dibatalkan.</value>
+  </data>
+  <data name="Yes, delete my account" xml:space="preserve">
+    <value>Ya, hapus akun saya</value>
+  </data>
+
+</root>
