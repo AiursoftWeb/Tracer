@@ -60,6 +60,9 @@
   <data name="Create User" xml:space="preserve">
     <value>Tạo Người Dùng</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Xóa tài khoản</value>
+  </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Xóa Vai trò</value>
   </data>

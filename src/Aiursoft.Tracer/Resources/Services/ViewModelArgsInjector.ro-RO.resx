@@ -57,6 +57,9 @@
   <data name="Create User" xml:space="preserve">
     <value>Creează utilizator</value>
   </data>
+  <data name="Delete Account" xml:space="preserve">
+    <value>Șterge contul</value>
+  </data>
   <data name="Delete Role" xml:space="preserve">
     <value>Șterge Rol</value>
   </data>

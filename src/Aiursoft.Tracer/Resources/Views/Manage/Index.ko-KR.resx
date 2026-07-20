@@ -39,6 +39,15 @@
   <data name="Change your profile" xml:space="preserve">
     <value>프로필 변경</value>
   </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>위험 영역</value>
+  </data>
+  <data name="Delete your account" xml:space="preserve">
+    <value>계정 삭제</value>
+  </data>
+  <data name="Delete your account data" xml:space="preserve">
+    <value>계정 데이터 삭제</value>
+  </data>
   <data name="Password" xml:space="preserve">
     <value>비밀번호</value>
   </data>

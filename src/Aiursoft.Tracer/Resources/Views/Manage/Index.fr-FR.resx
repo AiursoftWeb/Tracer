@@ -39,6 +39,15 @@
   <data name="Change your profile" xml:space="preserve">
     <value>Modifier votre profil</value>
   </data>
+  <data name="Danger Zone" xml:space="preserve">
+    <value>Zone de danger</value>
+  </data>
+  <data name="Delete your account" xml:space="preserve">
+    <value>Supprimer votre compte</value>
+  </data>
+  <data name="Delete your account data" xml:space="preserve">
+    <value>Supprimer les données de votre compte</value>
+  </data>
   <data name="Password" xml:space="preserve">
     <value>Mot de passe</value>
   </data>
