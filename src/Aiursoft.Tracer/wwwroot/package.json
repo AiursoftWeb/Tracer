@@ -5,7 +5,16 @@
   "author": "Anduin Xue",
   "license": "MIT",
   "dependencies": {
-    "@aiursoft/uistack": "^1.0.8",
+    "@aiursoft/uistack": "^1.0.11",
+    "chart.js": "^4.4.1",
     "dropify": "^0.2.2"
+  },
+  "keep": {
+    "@aiursoft/uistack": "dist",
+    "chart.js": "dist",
+    "dropify": "dist"
+  },
+  "scripts": {
+    "build": "node build.mjs"
   }
 }
