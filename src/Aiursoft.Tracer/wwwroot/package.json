@@ -5,11 +5,9 @@
   "author": "Anduin Xue",
   "license": "MIT",
   "dependencies": {
-    "chart.js": "^4.4.1",
     "dropify": "^0.2.2"
   },
   "keep": {
-    "chart.js": "dist",
     "dropify": "dist"
   },
   "scripts": {
