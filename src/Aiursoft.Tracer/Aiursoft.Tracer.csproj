@@ -13,7 +13,6 @@
     <PackageReference Include="Aiursoft.Canon.ScheduledTasks" Version="10.0.13" />
     <PackageReference Include="Aiursoft.ClickhouseLoggerProvider" Version="10.0.24" />
     <PackageReference Include="Aiursoft.DbTools.Switchable" Version="10.0.24" />
-    <PackageReference Include="Aiursoft.CSTools" Version="10.0.6" />
     <PackageReference Include="Aiursoft.Scanner" Version="10.0.11" />
     <PackageReference Include="Aiursoft.UiStack" Version="10.0.25" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="10.0.11" />
