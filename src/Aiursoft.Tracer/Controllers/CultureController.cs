@@ -1,3 +1,4 @@
+using System.Globalization;
 using Aiursoft.WebTools.Attributes;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
@@ -15,9 +16,19 @@ public class CultureController : ControllerBase
         if (string.IsNullOrEmpty(culture))
             return BadRequest("Culture cannot be null or empty.");
 
+        RequestCulture requestCulture;
+        try
+        {
+            requestCulture = new RequestCulture(culture);
+        }
+        catch (CultureNotFoundException)
+        {
+            return BadRequest("Culture is not supported.");
+        }
+
         Response.Cookies.Append(
             CookieRequestCultureProvider.DefaultCookieName,
-            CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
+            CookieRequestCultureProvider.MakeCookieValue(requestCulture),
             new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
         );
 
