@@ -101,8 +101,13 @@
 }
 else
 {
-    <div class="alert alert-info mb-4">
-        @Localizer["No background jobs are registered. Add jobs using services.AddBackgroundJob<TJob>() in Startup.cs."]
+    <div class="alert alert-info mb-4" role="alert">
+        <div class="alert-icon">
+            <i class="align-middle" data-lucide="info"></i>
+        </div>
+        <div class="alert-message">
+            @Localizer["No background jobs are registered. Add jobs using services.AddBackgroundJob<TJob>() in Startup.cs."]
+        </div>
     </div>
 }
 
