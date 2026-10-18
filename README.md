@@ -15,23 +15,15 @@ Tracer is a simple network speed test app. Deploy this on your server. Open your
 
 Try a running tracer [here](https://tracer.aiursoft.com).
 
-## Run in Ubuntu
+## Install with Docker
 
-The following script will install\update this app on your Ubuntu server. Supports Ubuntu 25.04.
-
-On your Ubuntu server, run the following command:
+Run the installer with the desired port (omit it to choose an available port):
 
 ```bash
-curl -sL https://github.com/aiursoftweb/tracer/raw/master/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/aiursoftweb/tracer/master/install.sh | sudo bash -s -- 8080
 ```
 
-Of course it is suggested that append a custom port number to the command:
-
-```bash
-curl -sL https://github.com/aiursoftweb/tracer/raw/master/install.sh | sudo bash -s 8080
-```
-
-It will install the app as a systemd service, and start it automatically. Binary files will be located at `/opt/apps`. Service files will be located at `/etc/systemd/system`.
+Installation starts after three seconds; press Ctrl+C to cancel. Then open `http://localhost:8080`.
 
 ## Run manually
 
