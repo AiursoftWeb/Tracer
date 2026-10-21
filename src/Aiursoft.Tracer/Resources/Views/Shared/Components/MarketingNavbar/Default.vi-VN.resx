@@ -33,6 +33,9 @@
   <data name="Source Code" xml:space="preserve">
     <value>Mã Nguồn</value>
   </data>
+  <data name="Test your connection" xml:space="preserve">
+    <value>Kiểm tra kết nối của bạn</value>
+  </data>
   <data name="Try the dashboard" xml:space="preserve">
     <value>Dùng thử bảng điều khiển</value>
   </data>
