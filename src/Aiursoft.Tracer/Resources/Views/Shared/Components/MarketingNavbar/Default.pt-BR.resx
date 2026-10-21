@@ -33,6 +33,9 @@
   <data name="Source Code" xml:space="preserve">
     <value>Código Fonte</value>
   </data>
+  <data name="Test your connection" xml:space="preserve">
+    <value>Teste sua conexão</value>
+  </data>
   <data name="Try the dashboard" xml:space="preserve">
     <value>Experimente o painel</value>
   </data>

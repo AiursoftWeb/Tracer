@@ -33,6 +33,9 @@
   <data name="Source Code" xml:space="preserve">
     <value>Kaynak Kodu</value>
   </data>
+  <data name="Test your connection" xml:space="preserve">
+    <value>Bağlantınızı test edin</value>
+  </data>
   <data name="Try the dashboard" xml:space="preserve">
     <value>Panoyu Deneyin</value>
   </data>
