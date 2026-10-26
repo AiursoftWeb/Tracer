@@ -10,10 +10,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Aiursoft.Canon.ScheduledTasks" Version="10.0.17" />
-    <PackageReference Include="Aiursoft.ClickhouseLoggerProvider" Version="10.0.27" />
-    <PackageReference Include="Aiursoft.DbTools.Switchable" Version="10.0.29" />
-    <PackageReference Include="Aiursoft.Scanner" Version="10.0.14" />
+    <PackageReference Include="Aiursoft.Canon.ScheduledTasks" Version="10.0.18" />
+    <PackageReference Include="Aiursoft.ClickhouseLoggerProvider" Version="10.0.28" />
+    <PackageReference Include="Aiursoft.DbTools.Switchable" Version="10.0.30" />
+    <PackageReference Include="Aiursoft.Scanner" Version="10.0.15" />
     <PackageReference Include="Aiursoft.UiStack" Version="10.0.31" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="10.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="10.0.14" />
@@ -23,7 +23,7 @@
     </PackageReference>
     <PackageReference Include="SkiaSharp" Version="4.153.1" />
     <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="4.153.1" />
-    <PackageReference Include="Aiursoft.AiurObserver.WebSocket.Server" Version="10.0.15" />
+    <PackageReference Include="Aiursoft.AiurObserver.WebSocket.Server" Version="10.0.16" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Aiursoft.Tracer.InMemory\Aiursoft.Tracer.InMemory.csproj" />
