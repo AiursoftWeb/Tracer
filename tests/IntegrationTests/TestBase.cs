@@ -10,6 +10,7 @@ public abstract class TestBase
 {
     protected readonly HttpClient Http;
     protected IHost? Server;
+    private string? _storagePath;
 
     protected TestBase()
     {
@@ -27,9 +28,10 @@ public abstract class TestBase
     {
         using var reservation = new TestPortReservation();
         Http.BaseAddress = new Uri($"http://localhost:{reservation.Port}");
-        Server = await AppAsync<Startup>([], port: reservation.Port);
+        _storagePath = Directory.CreateTempSubdirectory("AiursoftTests-").FullName;
         try
         {
+            Server = await AppAsync<Startup>([$"Storage:Path={_storagePath}"], port: reservation.Port);
             reservation.ConfigureServer(Server);
             await Server.UpdateDbAsync<TracerDbContext>();
             await Server.SeedAsync();
@@ -37,8 +39,9 @@ public abstract class TestBase
         }
         catch
         {
-            Server.Dispose();
+            Server?.Dispose();
             Server = null;
+            Directory.Delete(_storagePath, recursive: true);
             throw;
         }
     }
@@ -46,9 +49,22 @@ public abstract class TestBase
     [TestCleanup]
     public virtual async Task CleanServer()
     {
-        if (Server == null) return;
-        await Server.StopAsync();
-        Server.Dispose();
+        try
+        {
+            if (Server != null)
+            {
+                await Server.StopAsync();
+            }
+        }
+        finally
+        {
+            Server?.Dispose();
+            Server = null;
+            if (_storagePath != null && Directory.Exists(_storagePath))
+            {
+                Directory.Delete(_storagePath, recursive: true);
+            }
+        }
     }
 
     protected async Task<string> GetAntiCsrfToken(string url)
