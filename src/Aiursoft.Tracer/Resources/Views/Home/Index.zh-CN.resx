@@ -249,6 +249,9 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>响应式设计</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>用户评价</value>
   </data>
@@ -276,8 +279,14 @@
   <data name="Stop" xml:space="preserve">
     <value>停止</value>
   </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>已停止</value>
+  </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>技术负责人</value>
+  </data>
+  <data name="Test failed. Try again." xml:space="preserve">
+    <value>测试失败。请重试。</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>导航栏会根据用户角色和权限自动调整显示内容。</value>
