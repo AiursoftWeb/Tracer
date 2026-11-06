@@ -249,6 +249,9 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>Responsiivinen suunnittelu</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Yritä uudelleen</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>Arvostelut</value>
   </data>
@@ -276,8 +279,14 @@
   <data name="Stop" xml:space="preserve">
     <value>Lopeta</value>
   </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Keskeytetty</value>
+  </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>Tekninen Päällikkö</value>
+  </data>
+  <data name="Test failed. Try again." xml:space="preserve">
+    <value>Testi epäonnistui. Yritä uudelleen.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Navigointipalkki sopeutuu automaattisesti käyttäjän roolien ja käyttöoikeuksien perusteella.</value>

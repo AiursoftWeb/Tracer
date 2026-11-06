@@ -249,6 +249,9 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>Design Responsivo</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Tentar novamente</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>Avaliações</value>
   </data>
@@ -276,8 +279,14 @@
   <data name="Stop" xml:space="preserve">
     <value>Parar</value>
   </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Parado</value>
+  </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>Líder Técnico</value>
+  </data>
+  <data name="Test failed. Try again." xml:space="preserve">
+    <value>Falha no teste. Tente novamente.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>A barra de navegação ajusta-se automaticamente com base nas funções e permissões do usuário.</value>
