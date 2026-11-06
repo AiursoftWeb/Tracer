@@ -249,6 +249,9 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>Design Responsiv</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Reîncearcă</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>Recenzii</value>
   </data>
@@ -276,8 +279,14 @@
   <data name="Stop" xml:space="preserve">
     <value>Oprește</value>
   </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Oprit</value>
+  </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>Conducător Tehnic</value>
+  </data>
+  <data name="Test failed. Try again." xml:space="preserve">
+    <value>Testul a eșuat. Încercați din nou.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Bara de navigare se ajustează automat în funcție de rolurile și permisiunile utilizatorului.</value>

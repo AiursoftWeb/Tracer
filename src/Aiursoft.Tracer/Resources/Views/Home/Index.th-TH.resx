@@ -249,6 +249,9 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>การออกแบบที่ตอบสนองต่ออุปกรณ์</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>ลองใหม่</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>รีวิว</value>
   </data>
@@ -276,8 +279,14 @@
   <data name="Stop" xml:space="preserve">
     <value>หยุด</value>
   </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>หยุดแล้ว</value>
+  </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>หัวหน้าฝ่ายเทคนิค</value>
+  </data>
+  <data name="Test failed. Try again." xml:space="preserve">
+    <value>การทดสอบล้มเหลว ลองใหม่อีกครั้ง</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>แถบนำทางจะปรับเปลี่ยนโดยอัตโนมัติตามบทบาทและสิทธิ์ของผู้ใช้</value>

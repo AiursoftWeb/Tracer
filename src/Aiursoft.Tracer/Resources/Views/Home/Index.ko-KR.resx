@@ -249,6 +249,9 @@
   <data name="Responsive Design" xml:space="preserve">
     <value>반응형 디자인</value>
   </data>
+  <data name="Retry" xml:space="preserve">
+    <value>재시도</value>
+  </data>
   <data name="Reviews" xml:space="preserve">
     <value>리뷰</value>
   </data>
@@ -276,8 +279,14 @@
   <data name="Stop" xml:space="preserve">
     <value>중지</value>
   </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>정지됨</value>
+  </data>
   <data name="Technical Lead" xml:space="preserve">
     <value>기술 리드</value>
+  </data>
+  <data name="Test failed. Try again." xml:space="preserve">
+    <value>테스트 실패. 다시 시도하세요.</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>네비게이션 바는 사용자 역할과 권한에 따라 자동으로 조정됩니다.</value>
