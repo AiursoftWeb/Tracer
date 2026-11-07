@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>包括的なドキュメント</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>接続済み</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>接続中...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>現在のギャップ</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>直接リンク</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>切断されました。もう一度お試しください。</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>ディスカッションページ</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>サーバーにシンプルなメッセージを送信します。値が低いほど良好です。</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>サーバー時間:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>ユーザーのシステム設定に自動的に適応するスマートダークモード。</value>

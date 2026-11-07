@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Omfattande dokumentation</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Ansluten</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>Ansluter...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Aktuellt intervall</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>Direktlänk</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Frakopplad. Försök igen.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Diskussionssida</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>Skickar ett enkelt meddelande till servern. Lägre är bättre.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Server tid:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Smart mörkt läge som automatiskt anpassar sig efter användarens systeminställningar.</value>

@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>全面文档支持</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>已连接</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>连接中...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>当前间隔</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>直接链接</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>已断开连接。请重试。</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>讨论页面</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>向服务器发送简单消息。数值越低越好。</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>服务器时间：</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>智能深色模式，可自动适应用户的系统设置。</value>

@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>توثيق شامل</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>متصل</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>جارٍ الاتصال...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>الفجوة الحالية</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>رابط مباشر</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>انقطع الاتصال. حاول مرة أخرى.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>صفحة المناقشات</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>يرسل رسالة بسيطة إلى الخادم. القيم الأقل أفضل.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>وقت الخادم:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>وضع الظلام الذكي الذي يتكيف تلقائيًا مع إعدادات نظام المستخدم.</value>

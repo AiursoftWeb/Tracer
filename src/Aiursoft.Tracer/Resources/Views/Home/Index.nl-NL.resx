@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Uitgebreide documentatie</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Verbonden</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>Verbinding maken...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Huidig verschil</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>Directe Link</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Verbond verbroken. Probeer het opnieuw.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Discussiespagina</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>Verstuurt een eenvoudig bericht naar de server. Lager is beter.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Servertijd:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Slimme donkere modus die automatisch aanpast aan de systeeminstellingen van de gebruiker.</value>
