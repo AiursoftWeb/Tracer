@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Tài liệu Toàn diện</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Đã kết nối</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>Đang kết nối...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Khoảng cách hiện tại</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>Liên kết Trực tiếp</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Mất kết nối. Hãy thử lại.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Trang Thảo luận</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>Gửi một tin nhắn đơn giản đến máy chủ. Giá trị thấp hơn thì tốt hơn.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Thời gian máy chủ:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Chế độ tối thông minh tự động điều chỉnh theo cài đặt hệ thống của người dùng.</value>

@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Πληρέστερη Τεκμηρίωση</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Συμμεσυχασμένος</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>Σύνδεση...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Τρέχον Κενό</value>
   </data>
@@ -101,6 +107,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>Απευθείας Σύνδεσμος</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Αποσυνδέθηκε. Δοκιμάστε ξανά.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Σελίδα Συζητήσεων</value>
@@ -245,6 +254,9 @@
   </data>
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>Απολαύστε απρόσκοπτη ενσωμάτωση με οποιονδήποτε πάροχο OpenID Connect, με αυτόματο συγχρονισμό ρόλων.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Ώρα διακομιστή:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Έξυπνη λειτουργία σκούρου θέματος που προσαρμόζεται αυτόματα στις ρυθμίσεις συστήματος του χρήστη.</value>

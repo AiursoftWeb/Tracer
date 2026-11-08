@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Полная документация</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Подключено</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>Подключение...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Текущий интервал</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>Прямая ссылка</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Отключено. Попробуйте снова.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Страница обсуждений</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>Отправляет простой запрос на сервер. Чем меньше, тем лучше.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Время сервера:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Умный тёмный режим, который автоматически подстраивается под системные настройки пользователя.</value>

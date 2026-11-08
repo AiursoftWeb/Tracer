@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Documentation complète</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Connecté</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>Connexion...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Écart actuel</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>Lien direct</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Déconnecté. Réessayez.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Page de discussions</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>Envoie un message simple au serveur. Plus la valeur est basse, mieux c&apos;est.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Heure du serveur :</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Mode sombre intelligent qui s&apos;adapte automatiquement aux paramètres système de l&apos;utilisateur.</value>

@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Omfattende Dokumentation</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Forbundet</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>Forbinder...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Nuværende forsinkelse</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>Direkte Link</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Afbrudt. Prøv igen.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Diskussionsside</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>Sender en simpel besked til serveren. Lavere er bedre.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Servertid:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Smart mørktilstand, der automatisk tilpasser sig brugerens systemindstillinger.</value>

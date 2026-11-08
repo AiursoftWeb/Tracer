@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>व्यापक प्रलेखन</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>कनेक्टेड</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>जोड़ रहा है...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>वर्तमान अंतर</value>
   </data>
@@ -101,6 +107,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>सीधा लिंक</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>विच्छिन्न। पुनः प्रयास करें।</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>चर्चा पृष्ठ</value>
@@ -245,6 +254,9 @@
   </data>
   <data name="Seamlessly integrate with any OpenID Connect provider, with automatic role synchronization." xml:space="preserve">
     <value>किसी भी OpenID Connect प्रदाता के साथ सहज एकीकरण, स्वचालित भूमिका सिंक्रनाइज़ेशन के साथ।</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>सर्वर समय:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>स्मार्ट डार्क मोड जो स्वचालित रूप से उपयोगकर्ता की सिस्टम सेटिंग्स के अनुकूल हो जाता है।</value>

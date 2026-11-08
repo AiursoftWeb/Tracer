@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>포괄적인 문서</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>연결됨</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>연결 중...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>현재 간격</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>직접 링크</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>연결이 끊겼습니다. 다시 시도해 주세요.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>토론 페이지</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>서버에 간단한 메시지를 전송합니다. 낮을수록 좋습니다.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>서버 시간:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>사용자의 시스템 설정에 자동으로 적응하는 스마트 다크 모드.</value>

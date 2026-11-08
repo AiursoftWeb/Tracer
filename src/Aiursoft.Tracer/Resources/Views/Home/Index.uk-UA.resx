@@ -87,6 +87,12 @@
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Детальна документація</value>
   </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Підключено</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>З&apos;єднання...</value>
+  </data>
   <data name="Current Gap" xml:space="preserve">
     <value>Поточний розрив</value>
   </data>
@@ -104,6 +110,9 @@
   </data>
   <data name="Direct Link" xml:space="preserve">
     <value>Пряме посилання</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Від’єднано. Спробуйте ще раз.</value>
   </data>
   <data name="Discussions page" xml:space="preserve">
     <value>Сторінка обговорень</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Sends a simple message to server. Lower is better." xml:space="preserve">
     <value>Надсилає просте повідомлення на сервер. Чим менше значення, тим краще.</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Час сервера:</value>
   </data>
   <data name="Smart dark mode that automatically adapts to the user&apos;s system settings." xml:space="preserve">
     <value>Розумний темний режим, який автоматично адаптується до системних налаштувань користувача.</value>
