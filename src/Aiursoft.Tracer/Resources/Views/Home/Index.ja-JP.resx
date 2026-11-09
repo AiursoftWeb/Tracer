@@ -84,6 +84,9 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>完全なDockerサポートにより、簡素化された一貫性のある信頼性の高いデプロイが可能です。</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>完了</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>包括的なドキュメント</value>
   </data>
@@ -299,6 +302,9 @@
   </data>
   <data name="Test failed. Try again." xml:space="preserve">
     <value>テストに失敗しました。もう一度お試しください。</value>
+  </data>
+  <data name="Testing..." xml:space="preserve">
+    <value>テスト中...</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>ナビゲーションバーは、ユーザーの役割と権限に基づいて自動的に調整されます。</value>

@@ -84,6 +84,9 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Incluye soporte completo para Docker con el fin de simplificar, estandarizar y garantizar despliegues confiables.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Completado</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Documentación Exhaustiva</value>
   </data>
@@ -299,6 +302,9 @@
   </data>
   <data name="Test failed. Try again." xml:space="preserve">
     <value>Error en la prueba. Inténtalo de nuevo.</value>
+  </data>
+  <data name="Testing..." xml:space="preserve">
+    <value>Probando...</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>La barra de navegación se ajusta automáticamente en función de los roles y permisos del usuario.</value>
