@@ -84,6 +84,9 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Διαθέτει πλήρη υποστήριξη Docker για απλοποιημένες, συνεπείς και αξιόπιστες αναπτύξεις.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Ολοκληρώθηκε</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Πληρέστερη Τεκμηρίωση</value>
   </data>
@@ -284,6 +287,9 @@
   </data>
   <data name="Test failed. Try again." xml:space="preserve">
     <value>Αποτυχία δοκιμής. Προσπαθήστε ξανά.</value>
+  </data>
+  <data name="Testing..." xml:space="preserve">
+    <value>Δοκιμή...</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Η γραμμή πλοήγησης προσαρμόζεται αυτόματα με βάση τους ρόλους και τα δικαιώματα των χρηστών.</value>

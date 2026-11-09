@@ -84,6 +84,9 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>Oferă suport complet pentru Docker, pentru implementări simplificate, consistente și fiabile.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Finalizat</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>Documentație Cuprinzătoare</value>
   </data>
@@ -299,6 +302,9 @@
   </data>
   <data name="Test failed. Try again." xml:space="preserve">
     <value>Testul a eșuat. Încercați din nou.</value>
+  </data>
+  <data name="Testing..." xml:space="preserve">
+    <value>Testare...</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>Bara de navigare se ajustează automat în funcție de rolurile și permisiunile utilizatorului.</value>

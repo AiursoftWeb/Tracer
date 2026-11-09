@@ -84,6 +84,9 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>提供完整 Docker 支援，令部署過程更簡化、一致且可靠。</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>已完成</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>全面說明文件</value>
   </data>
@@ -299,6 +302,9 @@
   </data>
   <data name="Test failed. Try again." xml:space="preserve">
     <value>測試失敗。請重試。</value>
+  </data>
+  <data name="Testing..." xml:space="preserve">
+    <value>測試中...</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>導覽列會根據用戶角色同權限自動調整。</value>

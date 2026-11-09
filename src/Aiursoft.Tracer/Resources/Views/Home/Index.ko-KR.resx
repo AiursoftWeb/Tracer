@@ -84,6 +84,9 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>완전한 Docker 지원을 통해 단순화되고 일관성 있으며 신뢰할 수 있는 배포가 가능합니다.</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>완료됨</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>포괄적인 문서</value>
   </data>
@@ -299,6 +302,9 @@
   </data>
   <data name="Test failed. Try again." xml:space="preserve">
     <value>테스트 실패. 다시 시도하세요.</value>
+  </data>
+  <data name="Testing..." xml:space="preserve">
+    <value>테스트 중...</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>네비게이션 바는 사용자 역할과 권한에 따라 자동으로 조정됩니다.</value>

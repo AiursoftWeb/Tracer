@@ -84,6 +84,9 @@
   <data name="Comes with full Docker support for simplified, consistent, and reliable deployments." xml:space="preserve">
     <value>पूर्ण Docker समर्थन के साथ आता है, जो सरल, सुसंगत और विश्वसनीय डेप्लॉयमेंट के लिए है।</value>
   </data>
+  <data name="Completed" xml:space="preserve">
+    <value>पूर्ण</value>
+  </data>
   <data name="Comprehensive Documentation" xml:space="preserve">
     <value>व्यापक प्रलेखन</value>
   </data>
@@ -284,6 +287,9 @@
   </data>
   <data name="Test failed. Try again." xml:space="preserve">
     <value>परीक्षण विफल रहा। पुनः प्रयास करें।</value>
+  </data>
+  <data name="Testing..." xml:space="preserve">
+    <value>टेस्टिंग...</value>
   </data>
   <data name="The navigation bar automatically adjusts based on user roles and permissions." xml:space="preserve">
     <value>नेविगेशन बार स्वचालित रूप से उपयोगकर्ता की भूमिकाओं और अनुमतियों के आधार पर समायोजित होता है।</value>
