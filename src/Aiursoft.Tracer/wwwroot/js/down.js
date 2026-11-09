@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 
 var testInProgress = false;
 var threads = 4;
@@ -12,65 +12,84 @@ var xhrs = [];
 var progressUpdateInterval;
 var uploadData = new Uint8Array(100 * 1024 * 1024); // 100MB
 
-const createDownload = (index) => {
-    xhrs[index] = new XMLHttpRequest();
+let transferRun = 0;
+let completedDownloads = 0;
+const transferStart = document.getElementById('downloadbutton');
+const transferStop = document.getElementById('stopdownloadbutton');
+const transferDirection = document.getElementById('transferDirection');
+const transferThreads = document.getElementById('threads');
+const transferStatus = document.getElementById('transfer-status');
+const transferLabel = document.getElementById('transfer-label');
+const transferText = (key, fallback) => document.querySelector(`#bandwidth-loc [data-key="${key}"]`)?.textContent || fallback;
 
-    xhrs[index].addEventListener('progress', (event) => {
-        if (!testInProgress) return;
-        loadedBytes[index] = event.loaded;
-    });
-
-    xhrs[index].open('GET', downloadUrl);
-    
-    // Set the responseType to blob to allow reading the response as a binary string
-    xhrs[index].responseType = 'blob';
-    xhrs[index].send();
+const showTransferStatus = (message, failed = false) => {
+    transferStatus.textContent = message;
+    transferStatus.classList.remove('d-none');
+    transferStatus.classList.toggle('text-body', failed);
+    transferStatus.classList.toggle('text-muted', !failed);
 };
 
-const createUpload = (index) => {
-    xhrs[index] = new XMLHttpRequest();
+const stopDownload = (state = 'stopped') => {
+    if (!testInProgress) return;
+    // Invalidate callbacks before aborting: abort events may fire synchronously.
+    testInProgress = false;
+    ++transferRun;
+    clearInterval(progressUpdateInterval);
+    xhrs.forEach(request => request?.abort());
+    transferStart.disabled = false;
+    transferStop.disabled = true;
+    transferDirection.disabled = false;
+    transferThreads.disabled = false;
+    transferLabel.textContent = state === 'failed' ? transferText('retry', 'Retry') : transferText('start', 'Start Test');
+    const messages = {
+        stopped: transferText('stopped', 'Stopped'),
+        completed: transferText('completed', 'Completed'),
+        failed: transferText('failed', 'Test failed. Try again.')
+    };
+    showTransferStatus(messages[state], state === 'failed');
+};
 
-    xhrs[index].upload.addEventListener('progress', (event) => {
-        if (!testInProgress) return;
+const createTransfer = (index, direction, currentRun) => {
+    if (!testInProgress || currentRun !== transferRun) return;
+    const request = new XMLHttpRequest();
+    xhrs[index] = request;
+    const isCurrent = () => testInProgress && currentRun === transferRun && xhrs[index] === request;
+    const fail = () => {
+        if (isCurrent()) stopDownload('failed');
+    };
+    const progressTarget = direction === 'download' ? request : request.upload;
+    progressTarget.addEventListener('progress', event => {
+        if (!isCurrent()) return;
         loadedBytes[index] = baseBytes[index] + event.loaded;
     });
-
-    xhrs[index].addEventListener('load', () => {
-        if (!testInProgress) return;
-        baseBytes[index] += uploadData.length;
-        createUpload(index);
-    });
-
-    xhrs[index].open('POST', uploadUrl);
-    xhrs[index].send(uploadData);
-};
-
-const stopDownload = () => {
-    if (!testInProgress) return;
-
-    // Abort all ongoing XMLHttpRequests
-    for (let i = 0; i < threads; i++) {
-        if (xhrs[i]) {
-            xhrs[i].abort();
+    request.addEventListener('load', () => {
+        if (!isCurrent()) return;
+        if (request.status < 200 || request.status >= 300) {
+            fail();
+            return;
         }
+        if (direction === 'upload') {
+            baseBytes[index] += uploadData.length;
+            createTransfer(index, direction, currentRun);
+        } else if (++completedDownloads === threads) {
+            stopDownload('completed');
+        }
+    });
+    ['error', 'timeout', 'abort'].forEach(event => request.addEventListener(event, fail));
+    try {
+        request.open(direction === 'download' ? 'GET' : 'POST', direction === 'download' ? downloadUrl : uploadUrl);
+        if (direction === 'download') request.responseType = 'blob';
+        request.send(direction === 'download' ? null : uploadData);
+    } catch {
+        fail();
     }
-
-    // Reset variables
-    testInProgress = false;
-    loadedBytes.fill(0);
-    lastLoadedBytes.fill(0);
-    baseBytes.fill(0);
-
-    // Clear the progress update interval
-    clearInterval(progressUpdateInterval);
-
-    // Reset the UI elements
-    document.getElementById('downloadbutton').removeAttribute('disabled');
 };
 
 const startDownload = () => {
     if (testInProgress) return;
     testInProgress = true;
+    const currentRun = ++transferRun;
+    completedDownloads = 0;
     threads = parseInt(document.getElementById('threads').value);
     if (isNaN(threads) || threads < 1) threads = 1;
     if (threads > 16) threads = 16;
@@ -81,7 +100,14 @@ const startDownload = () => {
     xhrs = new Array(threads);
 
     const direction = document.getElementById('transferDirection').value;
-    document.getElementById('downloadbutton').setAttribute('disabled', 'disabled');
+    transferStart.disabled = true;
+    transferStop.disabled = false;
+    transferDirection.disabled = true;
+    transferThreads.disabled = true;
+    transferLabel.textContent = transferText('start', 'Start Test');
+    showTransferStatus(transferText('running', 'Testing...'));
+    document.getElementById('downStatus').textContent = '—';
+    document.getElementById('downStatusMbps').textContent = '—';
     document.getElementById('downStatus').classList.remove('d-none');
     document.getElementById('downStatusMbps').classList.remove('d-none');
 
@@ -96,18 +122,15 @@ const startDownload = () => {
         window.lucide.createIcons();
     }
 
+    progressUpdateInterval = setInterval(() => {
+        if (testInProgress && currentRun === transferRun) updateStats();
+    }, refreshPeriod * 1000);
     for (let i = 0; i < threads; i++) {
-        if (direction === 'download') {
-            createDownload(i);
-        } else {
-            createUpload(i);
-        }
+        createTransfer(i, direction, currentRun);
     }
-
-    progressUpdateInterval = setInterval(updateStats, refreshPeriod * 1000);
 };
 
-document.getElementById('transferDirection').addEventListener('change', function () {
+transferDirection.addEventListener('change', function () {
     const direction = this.value;
     if (direction === 'download') {
         document.getElementById('direction-icon').setAttribute('data-lucide', 'download-cloud');
@@ -119,7 +142,9 @@ document.getElementById('transferDirection').addEventListener('change', function
     }
 });
 
-document.getElementById('downloadbutton').addEventListener('click', function () {
+transferStop.addEventListener('click', () => stopDownload());
+
+transferStart.addEventListener('click', function () {
     startDownload();
 });
 
