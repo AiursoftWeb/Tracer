@@ -149,10 +149,12 @@
 
                     <div class="d-grid gap-2 d-md-block">
                         <button class="btn btn-primary" id="downloadbutton">
-                            <i class="align-middle me-1" data-lucide="play"></i> @Localizer["Start Test"]
+                            <i class="align-middle me-1" data-lucide="play" aria-hidden="true"></i> <span id="transfer-label">@Localizer["Start Test"]</span>
                         </button>
-                        <button class="btn btn-light" id="stopdownloadbutton" onclick="stopDownload()">@Localizer["Stop"]</button>
+                        <button class="btn btn-light" id="stopdownloadbutton" disabled>@Localizer["Stop"]</button>
                     </div>
+
+                    <p id="transfer-status" class="text-muted mt-2 mb-0 d-none" role="status"></p>
 
                     <div class="mt-2">
                         <p class="text-muted">@Localizer["Or test directly:"] <a asp-controller="Home" asp-action="Download" class="text-decoration-none">@Localizer["Direct Link"]</a></p>
@@ -306,6 +308,14 @@
         <span data-key="stopped">@Localizer["Stopped"]</span>
     </div>
     <script src="~/js/http.js" asp-append-version="true"></script>
+    <div id="bandwidth-loc" hidden>
+        <span data-key="start">@Localizer["Start Test"]</span>
+        <span data-key="retry">@Localizer["Retry"]</span>
+        <span data-key="running">@Localizer["Testing..."]</span>
+        <span data-key="failed">@Localizer["Test failed. Try again."]</span>
+        <span data-key="stopped">@Localizer["Stopped"]</span>
+        <span data-key="completed">@Localizer["Completed"]</span>
+    </div>
     <script src="~/js/down.js" asp-append-version="true"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 }
