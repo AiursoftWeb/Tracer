@@ -1,4 +1,5 @@
 @model Aiursoft.Tracer.Models.BackgroundJobs.JobsIndexViewModel
+@using System.Globalization
 @using Aiursoft.WebTools
 @using Aiursoft.Tracer.Models.BackgroundJobs
 
@@ -150,7 +151,7 @@ else
                                                     <div class="progress mt-2" style="height: 8px;">
                                                         <div class="progress-bar bg-primary progress-bar-striped"
                                                              role="progressbar" data-job-id="@job.JobId"
-                                                             data-started-at="@job.StartedAt?.ToString("o")" style="width: 0%; transition: none;">
+                                                             data-started-at="@job.StartedAt?.ToString("o", CultureInfo.InvariantCulture)" style="width: 0%; transition: none;">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -163,7 +164,7 @@ else
                                                 {
                                                     var duration = job.CompletedAt.Value - job.StartedAt.Value;
                                                     <span class="badge bg-success">@Localizer["Success"]</span>
-                                                    <small class="text-muted ms-2">(@duration.TotalSeconds.ToString("F1")s)</small>
+                                                    <small class="text-muted ms-2">(@duration.TotalSeconds.ToString("F1", CultureInfo.CurrentCulture)s)</small>
                                                 }
                                                 else
                                                 {
