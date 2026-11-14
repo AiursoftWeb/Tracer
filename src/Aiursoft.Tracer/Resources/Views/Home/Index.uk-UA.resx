@@ -39,11 +39,11 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Сучасна, багатофункціональна та високо розширювана основа для вашої наступної веб-програми.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Досягайте більшого з Aiursoft Template</value>
-  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Переклади на основі ШІ</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Досягайте більшого з Aiursoft Template</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template — це наш остаточний вибір для корпоративних проектів! Він створений для розробників, легкий, але потужний. Ми можемо пропустити всю стандартну роботу з аутентифікації та управління користувачами.</value>
@@ -123,11 +123,11 @@
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Підготовлено для розгортання в Docker</value>
   </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>Завантажити з цього сервера</value>
-  </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Тест швидкості завантаження</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Завантажити з цього сервера</value>
   </data>
   <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
     <value>Завантажує фрагменти по 4 ГБ. Чим вище значення, тим краще.</value>
@@ -147,17 +147,11 @@
   <data name="FAQ" xml:space="preserve">
     <value>Часті питання</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>швидше</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Особливості</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Містить вбудовану систему керування файлами з автоматичним стисненням аватарів.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>для будь-яких запитів або повідомлення про проблеми.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Безкоштовно</value>
@@ -170,6 +164,9 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Перейти до панелі керування</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Тест затримки HTTP</value>
   </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Привіт, Світе!</value>
@@ -188,9 +185,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Як розгорнути мою програму?</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>Тест затримки HTTP</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>Неактивний</value>
@@ -216,6 +210,9 @@
   <data name="Log filter (ms)" xml:space="preserve">
     <value>Фільтр журналу (мс)</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Ліцензія MIT</value>
+  </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown у HTML</value>
   </data>
@@ -224,9 +221,6 @@
   </data>
   <data name="Max Latency" xml:space="preserve">
     <value>Максимальна затримка</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Ліцензія MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Підтримка кількох баз даних</value>
@@ -285,11 +279,11 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>Швидкість (Мбіт/с)</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Розпочати новий проєкт</value>
-  </data>
   <data name="Start Test" xml:space="preserve">
     <value>Почати тест</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Розпочати новий проєкт</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Зупинити</value>
@@ -386,6 +380,12 @@
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Ваш браузер надішле серверу просте повідомлення та отримає просту відповідь. Це число означає час, який проходить від запиту до відповіді. Чим менше число, тим краща ваша мережа.</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>швидше</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>для будь-яких запитів або повідомлення про проблеми.</value>
   </data>
 
 </root>

@@ -39,11 +39,11 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>O fundație modernă, bogată în funcționalități și extrem de extensibilă pentru următoarea ta aplicație web.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Realizați mai multe cu Aiursoft Template</value>
-  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Traduceri alimentate de IA</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Realizați mai multe cu Aiursoft Template</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template este alegerea noastră definitivă pentru proiectele enterprise! Este construit pentru dezvoltatori și este ușor, dar puternic. Putem sărim peste toate secțiunile repetitive pentru autentificare și managementul utilizatorilor.</value>
@@ -123,11 +123,11 @@
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Containerizat pentru Implementare</value>
   </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>Descarcă de pe acest server</value>
-  </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Test de Viteză de Descărcare</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Descarcă de pe acest server</value>
   </data>
   <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
     <value>Descarcă segmente de 4GB. Valori mai mari sunt mai bune.</value>
@@ -147,17 +147,11 @@
   <data name="FAQ" xml:space="preserve">
     <value>Întrebări frecvente</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>mai rapid</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Funcționalități</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Include un sistem integrat de gestionare a fișierelor cu compresie automată a avatarurilor.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>pentru orice întrebări sau pentru a raporta probleme.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Gratuit</value>
@@ -170,6 +164,9 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Accesează panoul de control</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Test de Latență HTTP</value>
   </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Salut Lume!</value>
@@ -188,9 +185,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Cum îmi implementez aplicația?</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>Test de Latență HTTP</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>Inactiv</value>
@@ -216,6 +210,9 @@
   <data name="Log filter (ms)" xml:space="preserve">
     <value>Filtru jurnal (ms)</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Licență MIT</value>
+  </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown în HTML</value>
   </data>
@@ -224,9 +221,6 @@
   </data>
   <data name="Max Latency" xml:space="preserve">
     <value>Latență Maximă</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Licență MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Suport pentru Multiple Baze de Date</value>
@@ -285,11 +279,11 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>Viteză (Mbps)</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Începe un proiect nou</value>
-  </data>
   <data name="Start Test" xml:space="preserve">
     <value>Începe Testul</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Începe un proiect nou</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Oprește</value>
@@ -386,6 +380,12 @@
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Browser-ul dvs. va trimite serverului un mesaj simplu și va primi un răspuns simplu. Acest număr reprezintă timpul necesar de la cerere până la răspuns. Cu cât numărul este mai mic, cu atât este mai bună rețeaua dvs.</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>mai rapid</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>pentru orice întrebări sau pentru a raporta probleme.</value>
   </data>
 
 </root>

@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Oletko varma, että haluat käynnistää sovelluksen uudelleen? Tämä toiminto on peruuttamaton ja katkaisee kaikki aktiiviset yhteydet.</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Peruuta</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>Vahvista sovelluksen uudelleenkäynnistys</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>Suorittimen arkkitehtuuri</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>Keskusprosessoriytimet</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>Vahvista sovelluksen uudelleenkäynnistys</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Luotu</value>

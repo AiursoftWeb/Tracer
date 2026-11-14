@@ -39,11 +39,11 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Một nền tảng hiện đại, giàu tính năng và có khả năng mở rộng cao cho ứng dụng web tiếp theo của bạn.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Đạt được nhiều hơn với Aiursoft Template</value>
-  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Dịch Thuật Hỗ Trợ Bởi AI</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Đạt được nhiều hơn với Aiursoft Template</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template là lựa chọn tối ưu cho các dự án doanh nghiệp! Nó được xây dựng cho nhà phát triển, nhẹ nhàng nhưng mạnh mẽ. Chúng ta có thể bỏ qua tất cả các mã mẫu cho xác thực và quản lý người dùng.</value>
@@ -123,11 +123,11 @@
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Đã được Docker hóa để Triển khai</value>
   </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>Tải xuống từ máy chủ này</value>
-  </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Kiểm tra tốc độ tải xuống</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Tải xuống từ máy chủ này</value>
   </data>
   <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
     <value>Tải xuống các khối dữ liệu 4GB. Giá trị cao hơn thì tốt hơn.</value>
@@ -147,17 +147,11 @@
   <data name="FAQ" xml:space="preserve">
     <value>Câu hỏi thường gặp</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>nhanh hơn</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Tính năng</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Tích hợp hệ thống quản lý tập tin với tính năng nén ảnh đại diện tự động.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>để có bất kỳ thắc mắc nào hoặc để báo cáo sự cố.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Miễn phí</value>
@@ -170,6 +164,9 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Truy cập bảng điều khiển</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Kiểm tra Độ trễ HTTP</value>
   </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Xin chào thế giới!</value>
@@ -188,9 +185,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Làm thế nào để tôi triển khai ứng dụng của mình?</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>Kiểm tra Độ trễ HTTP</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>Không hoạt động</value>
@@ -216,6 +210,9 @@
   <data name="Log filter (ms)" xml:space="preserve">
     <value>Bộ lọc nhật ký (ms)</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Giấy phép MIT</value>
+  </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Chuyển Đổi Markdown Sang HTML</value>
   </data>
@@ -224,9 +221,6 @@
   </data>
   <data name="Max Latency" xml:space="preserve">
     <value>Độ trễ tối đa</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Giấy phép MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Hỗ trợ Đa Cơ sở Dữ liệu</value>
@@ -285,11 +279,11 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>Tốc độ (Mbps)</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Bắt đầu một dự án mới</value>
-  </data>
   <data name="Start Test" xml:space="preserve">
     <value>Bắt đầu Kiểm tra</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Bắt đầu một dự án mới</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Dừng</value>
@@ -386,6 +380,12 @@
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Trình duyệt của bạn sẽ gửi cho máy chủ một tin nhắn đơn giản và nhận về một phản hồi đơn giản. Con số này biểu thị thời gian từ lúc gửi yêu cầu đến khi nhận phản hồi. Con số càng nhỏ chứng tỏ mạng của bạn càng tốt.</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>nhanh hơn</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>để có bất kỳ thắc mắc nào hoặc để báo cáo sự cố.</value>
   </data>
 
 </root>

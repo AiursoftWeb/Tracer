@@ -39,11 +39,11 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Μια σύγχρονη, πλούσια σε λειτουργίες και εξαιρετικά επεκτάσιμη βάση για την επόμενη εφαρμογή σας web.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Κερδίστε περισσότερα με το Aiursoft Template</value>
-  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Μεταφράσεις με Τεχνητή Νοημοσύνη</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Κερδίστε περισσότερα με το Aiursoft Template</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Το Aiursoft Template είναι η απόλυτη μας επιλογή για εταιρικά έργα! Είναι φτιαγμένο για προγραμματιστές και είναι ελαφρύ αλλά και ισχυρό. Μπορούμε να παραλείψουμε όλο τον τυπικό κώδικα για την ταυτοποίηση και τη διαχείριση χρηστών.</value>
@@ -120,11 +120,11 @@
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Σε Docker για Ανάπτυξη</value>
   </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>Λήψη από αυτόν τον διακομιστή</value>
-  </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Δοκιμή Ταχύτητας Λήψης</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Λήψη από αυτόν τον διακομιστή</value>
   </data>
   <data name="Dynamic Navigation Bar" xml:space="preserve">
     <value>Δυναμική Γραμμή Πλοήγησης</value>
@@ -141,17 +141,11 @@
   <data name="FAQ" xml:space="preserve">
     <value>Συχνές Ερωτήσεις</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>γρηγορότερα</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Λειτουργίες</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Διαθέτει ενσωματωμένο σύστημα διαχείρισης αρχείων με αυτόματη συμπίεση avatar.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Δωρεάν</value>
@@ -161,6 +155,9 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Μετάβαση στον πίνακα ελέγχου</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Δοκιμή Καθυστέρησης HTTP</value>
   </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Γεια σου Κόσμε!</value>
@@ -179,9 +176,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Πώς μπορώ να αναπτύξω την εφαρμογή μου;</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>Δοκιμή Καθυστέρησης HTTP</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>Αδρανής</value>
@@ -207,6 +201,9 @@
   <data name="Log filter (ms)" xml:space="preserve">
     <value>Φίλτρο καταγραφής (ms)</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Άδεια MIT</value>
+  </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown σε HTML</value>
   </data>
@@ -215,9 +212,6 @@
   </data>
   <data name="Max Latency" xml:space="preserve">
     <value>Μέγιστη Καθυστέρηση</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Άδεια MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Υποστήριξη Πολλαπλών Βάσεων Δεδομένων</value>
@@ -270,11 +264,11 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>Ταχύτητα (Mbps)</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Ξεκινήστε ένα νέο έργο</value>
-  </data>
   <data name="Start Test" xml:space="preserve">
     <value>Έναρξη Δοκιμής</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Ξεκινήστε ένα νέο έργο</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Διακοπή</value>
@@ -371,6 +365,12 @@
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Ο περιηγητής σας θα στείλει στον διακομιστή ένα απλό μήνυμα και θα λάβει μια απλή απάντηση. Αυτός ο αριθμός δείχνει τον χρόνο που απαιτείται από το αίτημα μέχρι την απάντηση. Όσο μικρότερος είναι ο αριθμός, τόσο καλύτερο είναι το δίκτυό σας.</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>γρηγορότερα</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>για οποιαδήποτε ερώτηση ή για να αναφέρετε προβλήματα.</value>
   </data>
 
 </root>

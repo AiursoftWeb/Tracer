@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>애플리케이션을 재시작하시겠습니까? 이 작업은 되돌릴 수 없으며 모든 활성 연결이 종료됩니다.</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>취소</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>애플리케이션 재시작 확인</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>CPU 아키텍처</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>CPU 코어 수</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>애플리케이션 재시작 확인</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>생성일</value>

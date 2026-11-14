@@ -39,11 +39,11 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Modern, zengin özelliklere sahip ve bir sonraki web uygulamanız için oldukça genişletilebilir bir temel.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Aiursoft Template ile daha fazlasını başarın</value>
-  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Yapay Zeka Destekli Çeviriler</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Aiursoft Template ile daha fazlasını başarın</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template, kurumsal projeler için nihai tercihimizdir! Geliştiriciler için tasarlandı, hafif ama güçlüdür. Kimlik doğrulama ve kullanıcı yönetimi için gerekli tüm standart kodlardan kurtulabiliriz.</value>
@@ -123,11 +123,11 @@
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Docker ile Dağıtıma Hazır</value>
   </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>Bu sunucudan indir</value>
-  </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>İndirme Hızı Testi</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Bu sunucudan indir</value>
   </data>
   <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
     <value>4GB&apos;lık parçalar indirir. Yüksek olan daha iyidir.</value>
@@ -147,17 +147,11 @@
   <data name="FAQ" xml:space="preserve">
     <value>SSS</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>daha hızlı</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Özellikler</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Otomatik avatar sıkıştırmalı, dahili bir dosya yönetim sistemi özelliği sunar.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>her türlü soru veya sorun bildirimi için.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Ücretsiz</value>
@@ -170,6 +164,9 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Panele git</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP Gecikme Testi</value>
   </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Merhaba Dünya!</value>
@@ -188,9 +185,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Uygulamamı nasıl dağıtırım?</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>HTTP Gecikme Testi</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>Boşta</value>
@@ -216,6 +210,9 @@
   <data name="Log filter (ms)" xml:space="preserve">
     <value>Günlük filtresi (ms)</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT Lisansı</value>
+  </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown&apos;dan HTML&apos;e</value>
   </data>
@@ -224,9 +221,6 @@
   </data>
   <data name="Max Latency" xml:space="preserve">
     <value>Maksimum Gecikme</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT Lisansı</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Çoklu Veritabanı Desteği</value>
@@ -285,11 +279,11 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>Hız (Mbps)</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Yeni bir proje başlat</value>
-  </data>
   <data name="Start Test" xml:space="preserve">
     <value>Testi Başlat</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Yeni bir proje başlat</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Durdur</value>
@@ -386,6 +380,12 @@
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Tarayıcınız sunucuya basit bir mesaj gönderecek ve basit bir yanıt alacaktır. Bu sayı, isteğin başlangıcından yanıtın alınmasına kadar geçen süreyi ifade eder. Sayı ne kadar küçükse, ağ bağlantınız o kadar iyidir.</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>daha hızlı</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>her türlü soru veya sorun bildirimi için.</value>
   </data>
 
 </root>

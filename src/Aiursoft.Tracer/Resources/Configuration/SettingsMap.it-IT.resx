@@ -39,20 +39,20 @@
   <data name="Project Name" xml:space="preserve">
     <value>Nome del progetto</value>
   </data>
-  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
-    <value>Il nome del marchio dell&apos;azienda o del progetto. Esempio: Aiursoft.</value>
-  </data>
   <data name="The ICP license number for China mainland users. Leave empty to hide." xml:space="preserve">
     <value>Il numero di licenza ICP per gli utenti della Cina continentale. Lasciare vuoto per nascondere.</value>
+  </data>
+  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
+    <value>L&apos;URL dell&apos;azienda o del progetto. Esempio: https://www.aiursoft.com</value>
+  </data>
+  <data name="The brand name of the company or project. E.g. Aiursoft." xml:space="preserve">
+    <value>Il nome del marchio dell&apos;azienda o del progetto. Esempio: Aiursoft.</value>
   </data>
   <data name="The logo of the project displayed in the navbar and footer. Support jpg, png, svg." xml:space="preserve">
     <value>Il logo del progetto visualizzato nella navbar e nel footer. Supporta jpg, png, svg.</value>
   </data>
   <data name="The name of the project displayed in the frontend." xml:space="preserve">
     <value>Il nome del progetto visualizzato nell&apos;interfaccia utente</value>
-  </data>
-  <data name="The URL of the company or project. E.g. https://www.aiursoft.com" xml:space="preserve">
-    <value>L&apos;URL dell&apos;azienda o del progetto. Esempio: https://www.aiursoft.com</value>
   </data>
 
 </root>

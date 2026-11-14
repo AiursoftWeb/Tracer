@@ -42,9 +42,6 @@
   <data name="Job Name" xml:space="preserve">
     <value>İş Adı</value>
   </data>
-  <data name="last hour" xml:space="preserve">
-    <value>son saat</value>
-  </data>
   <data name="Last run" xml:space="preserve">
     <value>Son çalışma</value>
   </data>
@@ -101,6 +98,9 @@
   </data>
   <data name="Trigger Now" xml:space="preserve">
     <value>Şimdi Çalıştır</value>
+  </data>
+  <data name="last hour" xml:space="preserve">
+    <value>son saat</value>
   </data>
 
 </root>

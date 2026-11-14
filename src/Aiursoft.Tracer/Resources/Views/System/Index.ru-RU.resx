@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Вы уверены, что хотите перезапустить приложение? Это действие необратимо и завершит все активные подключения.</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Отмена</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>Подтвердите перезапуск приложения</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>Архитектура ЦП</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>Ядра ЦП</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>Подтвердите перезапуск приложения</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Создана</value>

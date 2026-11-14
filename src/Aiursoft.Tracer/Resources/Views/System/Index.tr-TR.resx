@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Uygulamayı yeniden başlatmak istediğinizden emin misiniz? Bu işlem geri alınamaz ve tüm aktif bağlantıları sonlandıracaktır.</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>İptal</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>Uygulama Yeniden Başlatmayı Onayla</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>İşlemci Mimarisi</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>CPU Çekirdekleri</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>Uygulama Yeniden Başlatmayı Onayla</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Oluşturulma</value>

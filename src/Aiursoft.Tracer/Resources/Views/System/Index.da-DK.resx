@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Er du sikker på, at du vil genstarte applikationen? Denne handling kan ikke fortrydes og vil afbryde alle aktive forbindelser.</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Annuller</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>Bekræft genstart af applikation</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>CPU-arkitektur</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>CPU-kerner</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>Bekræft genstart af applikation</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Oprettet</value>

@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Sind Sie sicher, dass Sie die Anwendung neu starten möchten? Diese Aktion ist unwiderruflich und beendet alle aktiven Verbindungen.</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Abbrechen</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>Anwendungsneustart bestätigen</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>CPU-Architektur</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>CPU-Kerne</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>Anwendungsneustart bestätigen</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Erstellt</value>

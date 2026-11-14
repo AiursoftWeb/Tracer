@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>您確定要重新啟動應用程式嗎？此操作無法復原，並將終止所有作用中的連線。</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>確認應用程式重新啟動</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>CPU 架構</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>CPU 核心數</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>確認應用程式重新啟動</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>建立時間</value>

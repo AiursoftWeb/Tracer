@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Weet u zeker dat u de toepassing wilt herstarten? Deze actie kan niet ongedaan worden gemaakt en zal alle actieve verbindingen beëindigen.</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Annuleren</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>Bevestig applicatieherstart</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>CPU-architectuur</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>CPU-kernen</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>Bevestig applicatieherstart</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Aangemaakt</value>

@@ -42,14 +42,14 @@
   <data name="Permissions are defined by the application and cannot be edited or deleted. Click on a permission to see which roles and users have it." xml:space="preserve">
     <value>अनुमतियाँ एप्लिकेशन द्वारा परिभाषित की जाती हैं और उन्हें संपादित या हटाया नहीं जा सकता। एक अनुमति पर क्लिक करें ताकि आप देख सकें कि कौन-सी भूमिकाएँ और उपयोगकर्ता उसे रखते हैं।</value>
   </data>
+  <data name="Users with Permission" xml:space="preserve">
+    <value>अनुमति वाले उपयोगकर्ता</value>
+  </data>
   <data name="role(s)" xml:space="preserve">
     <value>भूमिका(स)</value>
   </data>
   <data name="user(s)" xml:space="preserve">
     <value>उपयोगकर्ता(स)</value>
-  </data>
-  <data name="Users with Permission" xml:space="preserve">
-    <value>अनुमति वाले उपयोगकर्ता</value>
   </data>
 
 </root>
