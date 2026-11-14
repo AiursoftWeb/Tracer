@@ -39,11 +39,11 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Una base moderna, rica en funciones y altamente extensible para tu próxima aplicación web.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Logra más con Aiursoft Template</value>
-  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Traducciones con IA</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Logra más con Aiursoft Template</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>¡Aiursoft Template es nuestra elección definitiva para proyectos empresariales! Está construido para desarrolladores y es ligero pero potente. Podemos omitir todo el código repetitivo para autenticación y gestión de usuarios.</value>
@@ -123,11 +123,11 @@
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Dockerizado para despliegue</value>
   </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>Descargar desde este servidor</value>
-  </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Prueba de Velocidad de Descarga</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Descargar desde este servidor</value>
   </data>
   <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
     <value>Descarga fragmentos de 4GB. Cuanto más alto, mejor.</value>
@@ -147,17 +147,11 @@
   <data name="FAQ" xml:space="preserve">
     <value>Preguntas frecuentes</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>más rápido</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Características</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Incluye un sistema de gestión de archivos integrado con compresión automática de avatares.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>para cualquier consulta o para informar de problemas.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Gratis</value>
@@ -170,6 +164,9 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Ir al panel de control</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>Prueba de Latencia HTTP</value>
   </data>
   <data name="Hello World!" xml:space="preserve">
     <value>¡Hola Mundo!</value>
@@ -188,9 +185,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>¿Cómo despliego mi aplicación?</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>Prueba de Latencia HTTP</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>Inactivo</value>
@@ -216,6 +210,9 @@
   <data name="Log filter (ms)" xml:space="preserve">
     <value>Filtro de registro (ms)</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>Licencia MIT</value>
+  </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdown a HTML</value>
   </data>
@@ -224,9 +221,6 @@
   </data>
   <data name="Max Latency" xml:space="preserve">
     <value>Latencia Máxima</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>Licencia MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Compatibilidad con Múltiples Bases de Datos</value>
@@ -285,11 +279,11 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>Velocidad (Mbps)</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Iniciar un nuevo proyecto</value>
-  </data>
   <data name="Start Test" xml:space="preserve">
     <value>Iniciar Test</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Iniciar un nuevo proyecto</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Detener</value>
@@ -386,6 +380,12 @@
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Su navegador enviará un mensaje simple al servidor y recibirá una respuesta simple. Este número representa el tiempo que transcurre desde la solicitud hasta la respuesta. Cuanto menor sea el número, mejor será su red.</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>más rápido</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>para cualquier consulta o para informar de problemas.</value>
   </data>
 
 </root>

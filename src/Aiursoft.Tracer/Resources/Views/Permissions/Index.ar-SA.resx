@@ -42,14 +42,14 @@
   <data name="Permissions are defined by the application and cannot be edited or deleted. Click on a permission to see which roles and users have it." xml:space="preserve">
     <value>تُحدّد الصلاحيات من قبل التطبيق ولا يمكن تعديلها أو حذفها. انقر على صلاحية لعرض الأدوار والمستخدمين الذين يمتلكونها.</value>
   </data>
+  <data name="Users with Permission" xml:space="preserve">
+    <value>المستخدمون ذوي الصلاحية</value>
+  </data>
   <data name="role(s)" xml:space="preserve">
     <value>دور(الدور)</value>
   </data>
   <data name="user(s)" xml:space="preserve">
     <value>مستخدم(ين)</value>
-  </data>
-  <data name="Users with Permission" xml:space="preserve">
-    <value>المستخدمون ذوي الصلاحية</value>
   </data>
 
 </root>

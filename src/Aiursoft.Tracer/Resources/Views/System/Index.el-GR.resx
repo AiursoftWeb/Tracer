@@ -30,17 +30,17 @@
   <data name="Are you sure you want to restart the application? This action is irreversible and will terminate all active connections." xml:space="preserve">
     <value>Είστε σίγουροι ότι θέλετε να επανεκκινήσετε την εφαρμογή; Αυτή η ενέργεια είναι μη αναστρέψιμη και θα τερματίσει όλες τις ενεργές συνδέσεις.</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
-    <value>Ακύρωση</value>
-  </data>
-  <data name="Confirm Application Restart" xml:space="preserve">
-    <value>Επιβεβαίωση Επανεκκίνησης Εφαρμογής</value>
-  </data>
   <data name="CPU Architecture" xml:space="preserve">
     <value>Αρχιτεκτονική CPU</value>
   </data>
   <data name="CPU Cores" xml:space="preserve">
     <value>Πύρηνοι ΚΕΔ</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Ακύρωση</value>
+  </data>
+  <data name="Confirm Application Restart" xml:space="preserve">
+    <value>Επιβεβαίωση Επανεκκίνησης Εφαρμογής</value>
   </data>
   <data name="Created" xml:space="preserve">
     <value>Δημιουργήθηκε</value>

@@ -39,11 +39,11 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>أساس حديث، غني بالميزات، وقابل للتوسعة بدرجة كبيرة لتطبيق الويب القادم الخاص بك.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>احقق المزيد مع قالب Aiursoft</value>
-  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>الترجمات المدعومة بالذكاء الاصطناعي</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>احقق المزيد مع قالب Aiursoft</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>يُعتبر قالب Aiursoft خيارنا النهائي لمشاريع المؤسسات! فهو مصمم خصيصًا للمطورين، ويتميز بخفته مع قوته. يمكننا تخطي جميع الإجراءات الروتينية للمصادقة وإدارة المستخدمين.</value>
@@ -123,11 +123,11 @@
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>معبأ في حاويات للنشر</value>
   </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>تنزيل من هذا الخادم</value>
-  </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>اختبار سرعة التنزيل</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>تنزيل من هذا الخادم</value>
   </data>
   <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
     <value>يقوم بتحميل أجزاء بحجم 4 جيجابايت. القيم الأعلى أفضل.</value>
@@ -147,17 +147,11 @@
   <data name="FAQ" xml:space="preserve">
     <value>الأسئلة الشائعة</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>بسرعة أكبر</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>الميزات</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>يتميز بنظام مدمج لإدارة الملفات مع ضغط تلقائي للصور الشخصية.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>للاستفسارات أو الإبلاغ عن المشكلات.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>مجاني</value>
@@ -170,6 +164,9 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>انتقل إلى لوحة التحكم</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>اختبار زمن الوصول لبروتوكول HTTP</value>
   </data>
   <data name="Hello World!" xml:space="preserve">
     <value>مرحبًا أيها العالم!</value>
@@ -188,9 +185,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>كيف أقوم بنشر تطبيقي؟</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>اختبار زمن الوصول لبروتوكول HTTP</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>خامل</value>
@@ -216,6 +210,9 @@
   <data name="Log filter (ms)" xml:space="preserve">
     <value>مرشح السجل (مللي ثانية)</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>رخصة MIT</value>
+  </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>تحويل Markdown إلى HTML</value>
   </data>
@@ -224,9 +221,6 @@
   </data>
   <data name="Max Latency" xml:space="preserve">
     <value>أقصى زمن انتقال</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>رخصة MIT</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>دعم قواعد بيانات متعددة</value>
@@ -285,11 +279,11 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>السرعة (ميغابت في الثانية)</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>بدء مشروع جديد</value>
-  </data>
   <data name="Start Test" xml:space="preserve">
     <value>بدء الاختبار</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>بدء مشروع جديد</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>إيقاف</value>
@@ -386,6 +380,12 @@
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>سوف يرسل متصفحك رسالة بسيطة إلى الخادم ويستقبل ردًا بسيطًا. هذا الرقم يمثل الوقت المستغرق من بداية الطلب حتى الرد. كلما كان الرقم أصغر، كانت شبكتك أفضل.</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>بسرعة أكبر</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>للاستفسارات أو الإبلاغ عن المشكلات.</value>
   </data>
 
 </root>

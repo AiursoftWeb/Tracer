@@ -39,11 +39,11 @@
   <data name="A modern, feature-rich, and highly extensible foundation for your next web application." xml:space="preserve">
     <value>Nykyaikainen, ominaisuuksiltaan monipuolinen ja erittäin laajennettava perusta seuraavaa verkkosovellustasi varten.</value>
   </data>
-  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
-    <value>Saavuta enemmän Aiursoft Templatella</value>
-  </data>
   <data name="AI-Powered Translations" xml:space="preserve">
     <value>Tehokäännökset tekoälyllä</value>
+  </data>
+  <data name="Achieve more with Aiursoft Template" xml:space="preserve">
+    <value>Saavuta enemmän Aiursoft Templatella</value>
   </data>
   <data name="Aiursoft Template is our definitive choice for enterprise projects! It&apos;s built for developers and is lightweight yet powerful. We can skip all the boilerplate for authentication and user management." xml:space="preserve">
     <value>Aiursoft Template on ratkaiseva valintamme yritysprojekteihin! Se on rakennettu kehittäjille ja on kevyt mutta tehokas. Voimme ohittaa kaiken valmiin koodin todennukseen ja käyttäjien hallintaan.</value>
@@ -123,11 +123,11 @@
   <data name="Dockerized for Deployment" xml:space="preserve">
     <value>Dockeröity käyttöönottoa varten</value>
   </data>
-  <data name="Download from this server" xml:space="preserve">
-    <value>Lataa palvelimelta</value>
-  </data>
   <data name="Download Speed Test" xml:space="preserve">
     <value>Latausnopeustesti</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Lataa palvelimelta</value>
   </data>
   <data name="Downloads 4GB chunks. Higher is better." xml:space="preserve">
     <value>Lataa 4 gigatavun osia. Mitä suurempi, sen parempi.</value>
@@ -147,17 +147,11 @@
   <data name="FAQ" xml:space="preserve">
     <value>UKK</value>
   </data>
-  <data name="faster" xml:space="preserve">
-    <value>nopeammin</value>
-  </data>
   <data name="Features" xml:space="preserve">
     <value>Ominaisuudet</value>
   </data>
   <data name="Features a built-in file management system with automatic avatar compression." xml:space="preserve">
     <value>Sisältää sisäänrakennetun tiedostonhallintajärjestelmän automaattisella avatar-pakkauksella.</value>
-  </data>
-  <data name="for any inquiries or to report issues." xml:space="preserve">
-    <value>kaikkiin kyselyihin tai ongelmien ilmoittamiseen.</value>
   </data>
   <data name="Free" xml:space="preserve">
     <value>Ilmainen</value>
@@ -170,6 +164,9 @@
   </data>
   <data name="Go to dashboard" xml:space="preserve">
     <value>Siirry kojelautaan</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP-vasteustesti</value>
   </data>
   <data name="Hello World!" xml:space="preserve">
     <value>Hei maailma!</value>
@@ -188,9 +185,6 @@
   </data>
   <data name="How do I deploy my application?" xml:space="preserve">
     <value>Kuinka otan sovellukseni käyttöön?</value>
-  </data>
-  <data name="HTTP Latency Test" xml:space="preserve">
-    <value>HTTP-vasteustesti</value>
   </data>
   <data name="Idle" xml:space="preserve">
     <value>Toimettomana</value>
@@ -216,6 +210,9 @@
   <data name="Log filter (ms)" xml:space="preserve">
     <value>Lokisuodatin (ms)</value>
   </data>
+  <data name="MIT Licence" xml:space="preserve">
+    <value>MIT-lisenssi</value>
+  </data>
   <data name="Markdown To HTML" xml:space="preserve">
     <value>Markdownista HTML:ksi</value>
   </data>
@@ -224,9 +221,6 @@
   </data>
   <data name="Max Latency" xml:space="preserve">
     <value>Maksimiviive</value>
-  </data>
-  <data name="MIT Licence" xml:space="preserve">
-    <value>MIT-lisenssi</value>
   </data>
   <data name="Multiple Database Support" xml:space="preserve">
     <value>Usean tietokannan tuki</value>
@@ -285,11 +279,11 @@
   <data name="Speed (Mbps)" xml:space="preserve">
     <value>Nopeus (Mbps)</value>
   </data>
-  <data name="Start a new project" xml:space="preserve">
-    <value>Aloita uusi projekti</value>
-  </data>
   <data name="Start Test" xml:space="preserve">
     <value>Aloita testi</value>
+  </data>
+  <data name="Start a new project" xml:space="preserve">
+    <value>Aloita uusi projekti</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Lopeta</value>
@@ -386,6 +380,12 @@
   </data>
   <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
     <value>Selaimesi lähettää palvelimelle yksinkertaisen viestin ja saa yksinkertaisen vastauksen. Tämä numero ilmaisee ajan, joka kuluu pyynnöstä vastaukseen. Mitä pienempi numero on, sitä parempi verkkoyhteytesi on.</value>
+  </data>
+  <data name="faster" xml:space="preserve">
+    <value>nopeammin</value>
+  </data>
+  <data name="for any inquiries or to report issues." xml:space="preserve">
+    <value>kaikkiin kyselyihin tai ongelmien ilmoittamiseen.</value>
   </data>
 
 </root>

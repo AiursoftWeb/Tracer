@@ -42,14 +42,14 @@
   <data name="Permissions are defined by the application and cannot be edited or deleted. Click on a permission to see which roles and users have it." xml:space="preserve">
     <value>権限はアプリケーションによって定義されており、編集または削除することはできません。権限をクリックすると、その権限が割り当てられているロールおよびユーザーを確認できます。</value>
   </data>
+  <data name="Users with Permission" xml:space="preserve">
+    <value>権限を持つユーザー</value>
+  </data>
   <data name="role(s)" xml:space="preserve">
     <value>ロール(s)</value>
   </data>
   <data name="user(s)" xml:space="preserve">
     <value>ユーザー</value>
-  </data>
-  <data name="Users with Permission" xml:space="preserve">
-    <value>権限を持つユーザー</value>
   </data>
 
 </root>

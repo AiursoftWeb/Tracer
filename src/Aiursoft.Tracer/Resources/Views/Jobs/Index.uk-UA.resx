@@ -42,9 +42,6 @@
   <data name="Job Name" xml:space="preserve">
     <value>Назва завдання</value>
   </data>
-  <data name="last hour" xml:space="preserve">
-    <value>останньої години</value>
-  </data>
   <data name="Last run" xml:space="preserve">
     <value>Останній запуск</value>
   </data>
@@ -101,6 +98,9 @@
   </data>
   <data name="Trigger Now" xml:space="preserve">
     <value>Запустити зараз</value>
+  </data>
+  <data name="last hour" xml:space="preserve">
+    <value>останньої години</value>
   </data>
 
 </root>
