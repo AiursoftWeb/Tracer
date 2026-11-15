@@ -1,14 +1,15 @@
 ARG CSPROJ_PATH="./src/Aiursoft.Tracer/"
 ARG PROJ_NAME="Aiursoft.Tracer"
 
-# ============================
+# ============
 # Prepare NPM Environment
 FROM --platform=$BUILDPLATFORM hub.aiursoft.com/node:24-alpine AS npm-env
 ARG CSPROJ_PATH
+ARG NPM_REGISTRY=https://registry.npmjs.org/
 WORKDIR /src
 # Only copy package files to take advantage of Docker cache
-COPY ${CSPROJ_PATH}wwwroot/package.json ${CSPROJ_PATH}wwwroot/package-lock.json* ${CSPROJ_PATH}wwwroot/.npmrc* /src/${CSPROJ_PATH}wwwroot/
-RUN npm install --prefix "${CSPROJ_PATH}wwwroot" --loglevel verbose
+COPY ${CSPROJ_PATH}wwwroot/package.json ${CSPROJ_PATH}wwwroot/package-lock.json ${CSPROJ_PATH}wwwroot/.npmrc* /src/${CSPROJ_PATH}wwwroot/
+RUN npm ci --registry "$NPM_REGISTRY" --prefix "${CSPROJ_PATH}wwwroot" --loglevel verbose
 
 # Build frontend (slims node_modules to only "keep" declared packages)
 COPY ${CSPROJ_PATH}wwwroot/build.mjs /src/${CSPROJ_PATH}wwwroot/build.mjs
@@ -20,10 +21,11 @@ FROM --platform=$BUILDPLATFORM hub.aiursoft.com/aiursoft/internalimages/dotnet A
 ARG CSPROJ_PATH
 ARG PROJ_NAME
 ARG TARGETARCH
+ARG NUGET_SOURCE=https://api.nuget.org/v3/index.json
 
 WORKDIR /src
 COPY . .
-# Copy node_modules from npm-env (already slimmed by "npm run build")
+# Copy node_modules from npm-env
 COPY --from=npm-env /src/${CSPROJ_PATH}wwwroot/node_modules /src/${CSPROJ_PATH}wwwroot/node_modules
 
 # Build
@@ -35,7 +37,7 @@ RUN if [ "$TARGETARCH" = "arm64" ]; then \
         RID="linux-$TARGETARCH"; \
     fi && \
     echo "Building for arch: $TARGETARCH, using .NET RID: $RID" && \
-    dotnet publish ${CSPROJ_PATH}${PROJ_NAME}.csproj --configuration Release --no-self-contained --runtime $RID --output /app --configfile nuget.config
+    dotnet publish ${CSPROJ_PATH}${PROJ_NAME}.csproj --configuration Release --no-self-contained --runtime $RID --output /app -p:UseAppHost=false --configfile nuget.config -p:RestoreSources="$NUGET_SOURCE"
 
 RUN cp -r ${CSPROJ_PATH}/wwwroot/* /app/wwwroot
 
@@ -61,14 +63,14 @@ ENV DLL_NAME=${PROJ_NAME}.dll
 #ENTRYPOINT dotnet $DLL_NAME --urls http://*:5000
 ENTRYPOINT ["/bin/bash", "-c", "\
     if [ ! -f \"$VOL_SETTINGS\" ]; then \
-        cp $SRC_SETTINGS $VOL_SETTINGS; \
+    cp $SRC_SETTINGS $VOL_SETTINGS; \
     fi && \
     if [ -f \"$SRC_SETTINGS\" ]; then \
-        rm $SRC_SETTINGS; \
+    rm $SRC_SETTINGS; \
     fi && \
     ln -s $VOL_SETTINGS $SRC_SETTINGS && \
     dotnet $DLL_NAME --urls http://*:5000 \
-"]
+    "]
 
 HEALTHCHECK --interval=10s --timeout=3s --start-period=180s --retries=3 CMD \
-wget --quiet --tries=1 --spider http://localhost:5000/health || exit 1
+    wget --quiet --tries=1 --spider http://localhost:5000/health || exit 1
