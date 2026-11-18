@@ -5,9 +5,11 @@
   "author": "Anduin Xue",
   "license": "MIT",
   "dependencies": {
+    "@aiursoft/uistack": "^2.0.25",
     "dropify": "^0.2.2"
   },
   "keep": {
+    "@aiursoft/uistack": "dist",
     "dropify": "dist"
   },
   "scripts": {
