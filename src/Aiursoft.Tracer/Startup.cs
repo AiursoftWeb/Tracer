@@ -8,7 +8,6 @@ using Aiursoft.Tracer.InMemory;
 using Aiursoft.Tracer.MySql;
 using Aiursoft.Tracer.Services.Authentication;
 using Aiursoft.Tracer.Sqlite;
-using Aiursoft.UiStack;
 using Aiursoft.UiStack.Layout;
 using Aiursoft.UiStack.Navigation;
 using Microsoft.AspNetCore.Mvc.Razor;
