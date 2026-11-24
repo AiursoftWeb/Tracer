@@ -33,6 +33,7 @@ public class ViewModelArgsInjector(
     SignInManager<User> signInManager) : IScopedDependency
 {
 
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     // ReSharper disable once UnusedMember.Local
     private void _useless_for_localizer()
     {
