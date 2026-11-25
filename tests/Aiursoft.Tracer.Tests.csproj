@@ -22,4 +22,8 @@
   <ItemGroup>
     <ProjectReference Include="..\src\Aiursoft.Tracer\Aiursoft.Tracer.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="../src/Aiursoft.Tracer/wwwroot/scripts/uploader.js" TargetPath="wwwroot/scripts/uploader.js" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="../src/Aiursoft.Tracer/wwwroot/styles/uploader.css" TargetPath="wwwroot/styles/uploader.css" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 </Project>
