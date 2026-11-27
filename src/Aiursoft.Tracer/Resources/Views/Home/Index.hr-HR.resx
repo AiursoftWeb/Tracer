@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+      <data name=", From " xml:space="preserve">
+    <value>, Iz</value>
+  </data>
+  <data name="0 MB/s" xml:space="preserve">
+    <value>0 MB/s</value>
+  </data>
+  <data name="0 Mbps" xml:space="preserve">
+    <value>0 Mbps</value>
+  </data>
+  <data name="Aiursoft Tracer is a simple network quality testing app. Helps testing the connection speed between you and the server." xml:space="preserve">
+    <value>Aiursoft Tracer je jednostavna aplikacija za testiranje kvalitete mreže. Pomaže u testiranju brzine veze između vas i poslužitelja.</value>
+  </data>
+  <data name="Bandwidth" xml:space="preserve">
+    <value>Propusnost</value>
+  </data>
+  <data name="Bandwidth Test" xml:space="preserve">
+    <value>Test propusne širine</value>
+  </data>
+  <data name="Clear Log" xml:space="preserve">
+    <value>Očisti dnevnik</value>
+  </data>
+  <data name="Completed" xml:space="preserve">
+    <value>Završeno</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Povezano</value>
+  </data>
+  <data name="Connecting..." xml:space="preserve">
+    <value>Povezivanje...</value>
+  </data>
+  <data name="Current Gap" xml:space="preserve">
+    <value>Trenutni razmak</value>
+  </data>
+  <data name="Current Status" xml:space="preserve">
+    <value>Trenutni status</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Nadzorna ploča</value>
+  </data>
+  <data name="Direct Link" xml:space="preserve">
+    <value>Direktna veza</value>
+  </data>
+  <data name="Disconnected. Try again." xml:space="preserve">
+    <value>Odspojeno. Pokušajte ponovno.</value>
+  </data>
+  <data name="Download from this server" xml:space="preserve">
+    <value>Preuzmi s ovog poslužitelja</value>
+  </data>
+  <data name="Event Latency Chart" xml:space="preserve">
+    <value>Dijagram latencije događaja</value>
+  </data>
+  <data name="Exception Log" xml:space="preserve">
+    <value>Dnevnik iznimaka</value>
+  </data>
+  <data name="HTTP Latency Test" xml:space="preserve">
+    <value>HTTP test latencije</value>
+  </data>
+  <data name="Hola!" xml:space="preserve">
+    <value>Bok!</value>
+  </data>
+  <data name="Idle" xml:space="preserve">
+    <value>Neaktivno</value>
+  </data>
+  <data name="Log filter (MB/s)" xml:space="preserve">
+    <value>Filter dnevnika (MB/s)</value>
+  </data>
+  <data name="Log filter (ms)" xml:space="preserve">
+    <value>Filter zapisa (ms)</value>
+  </data>
+  <data name="Max Gap" xml:space="preserve">
+    <value>Maksimalni razmak</value>
+  </data>
+  <data name="Max Latency" xml:space="preserve">
+    <value>Maks. latencija</value>
+  </data>
+  <data name="Network Diagnostics" xml:space="preserve">
+    <value>Mrežna dijagnostika</value>
+  </data>
+  <data name="Or test directly:" xml:space="preserve">
+    <value>Ili testirajte izravno:</value>
+  </data>
+  <data name="Real-time Chart" xml:space="preserve">
+    <value>Grafikon u stvarnom vremenu</value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Pokušaj ponovno</value>
+  </data>
+  <data name="Server Time:" xml:space="preserve">
+    <value>Vrijeme poslužitelja:</value>
+  </data>
+  <data name="Speed (MB/s)" xml:space="preserve">
+    <value>Brzina (MB/s)</value>
+  </data>
+  <data name="Speed (Mbps)" xml:space="preserve">
+    <value>Brzina (Mbps)</value>
+  </data>
+  <data name="Start Test" xml:space="preserve">
+    <value>Pokreni test</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Zaustavi</value>
+  </data>
+  <data name="Stopped" xml:space="preserve">
+    <value>Zaustavljeno</value>
+  </data>
+  <data name="Test failed. Try again." xml:space="preserve">
+    <value>Test je neuspješan. Pokušajte ponovno.</value>
+  </data>
+  <data name="Testing..." xml:space="preserve">
+    <value>Testiranje...</value>
+  </data>
+  <data name="This number means how much gap time between current server event and last server event. The number should be close to 100ms. More than 120ms or less than 90ms is not proper." xml:space="preserve">
+    <value>Ovaj broj označava vremenski razmak između trenutnog i prethodnog server događaja. Broj bi trebao biti blizu 100 ms. Vrijednosti veće od 120 ms ili manje od 90 ms nisu prikladne.</value>
+  </data>
+  <data name="Threads" xml:space="preserve">
+    <value>Niti</value>
+  </data>
+  <data name="Throughput Chart" xml:space="preserve">
+    <value>Grafikon propusnog opsega</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Vrijeme</value>
+  </data>
+  <data name="Transfer Direction" xml:space="preserve">
+    <value>Smjer prijenosa</value>
+  </data>
+  <data name="Trigger" xml:space="preserve">
+    <value>Okidač</value>
+  </data>
+  <data name="Upload to this server" xml:space="preserve">
+    <value>Prenos na ovaj poslužitelj</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="Waiting..." xml:space="preserve">
+    <value>Čekanje...</value>
+  </data>
+  <data name="WebSocket Latency" xml:space="preserve">
+    <value>WebSocket latencija</value>
+  </data>
+  <data name="You are connecting as:" xml:space="preserve">
+    <value>Povezujete se kao:</value>
+  </data>
+  <data name="Your browser will download or upload data between you and our server. We will help you calculate your network speed. The larger the number, the better your network is." xml:space="preserve">
+    <value>Vaš preglednik će preuzimati ili otpremati podatke između vas i našeg poslužitelja. Pomoći ćemo vam izračunati brzinu vaše mreže. Što je broj veći, to je vaša mreža bolja.</value>
+  </data>
+  <data name="Your browser will send server a simple message and get a simple response. This number means the time it costs from request to response. The smaller the number, the better your network is." xml:space="preserve">
+    <value>Vaš preglednik će poslati poslužitelju jednostavnu poruku i dobiti jednostavan odgovor. Ovaj broj označava vrijeme potrebno od zahtjeva do odgovora. Što je broj manji, to je vaša mreža bolja.</value>
+  </data>
+
+</root>
